@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Frontier · parent monitor</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root{--bg:#f2f4fa;--surface:#fff;--line:#d5dbea;--fg:#151b2e;--muted:#5b6583;--amber:#c6781a;--amber-ink:#fff7ea;--good:#1f8a5b;--warn:#b7791f;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0a0f1e;--surface:#121a2f;--line:#263150;--fg:#eef1f9;--muted:#97a2c0;--amber:#f2a93b;--amber-ink:#1a1206;--good:#4cc38a;--warn:#f2a93b;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 "Instrument Sans",system-ui,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:22px max(16px,env(safe-area-inset-left,0px)) 60px max(16px,env(safe-area-inset-right,0px))}
+h1{font:800 clamp(26px,5vw,38px)/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.03em;margin:0 0 4px}
+h1 span{color:var(--amber)}
+.eyebrow,.mono{font:500 11px "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.between{justify-content:space-between}
+input,textarea{font:inherit;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg);min-width:0}
+textarea{width:100%;min-height:80px;resize:vertical}
+.btn{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--fg);font:600 13px "Instrument Sans",sans-serif;padding:9px 13px;border-radius:9px;cursor:pointer}
+.btn.primary{background:var(--amber);color:var(--amber-ink);border-color:transparent}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.kpi{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px}
+.kpi b{display:block;font:800 28px/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12px;color:var(--muted)}
+.bars{display:flex;gap:6px;align-items:flex-end;height:90px;margin-top:10px}
+.bar{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:10px;color:var(--muted)}
+.bar i{display:block;width:100%;background:var(--amber);border-radius:4px 4px 0 0;min-height:2px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 11px "JetBrains Mono",monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+td.n{font-variant-numeric:tabular-nums;text-align:right}
+.chain{font:500 12px "JetBrains Mono",monospace;color:var(--muted)}
+.pill{display:inline-block;font:500 11px "JetBrains Mono",monospace;padding:2px 7px;border-radius:999px;background:var(--bg);border:1px solid var(--line);margin:2px 4px 2px 0}
+.flag{color:var(--warn);font-weight:600}
+.cm{padding:10px 0;border-bottom:1px solid var(--line)}
+.cm:last-child{border:0}
+.cm .q{font-size:15px;margin:2px 0}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Frontier · high school science · private view</div>
+  <h1>Aryav<span>.</span> what he looked at</h1>
+  <p class="muted" id="status">Opens only with the parent key.</p>
+
+  <div class="card" id="gate">
+    <div class="row"><input id="key" type="text" placeholder="parent key" style="flex:1 1 220px" autocomplete="off"><button class="btn primary" id="go">Open</button></div>
+    <p class="muted" id="gateMsg" style="margin:8px 0 0;font-size:13px">The family key does not work here.</p>
+  </div>
+
+  <div id="main" hidden>
+    <div class="card">
+      <div class="row between"><div class="eyebrow">Last 7 days</div><div class="row"><button class="btn" id="refresh">Refresh</button><button class="btn primary" id="report">Copy report for Claude</button></div></div>
+      <div class="tiles" id="kpis" style="margin-top:10px"></div>
+      <div class="bars" id="bars"></div>
+      <div class="row" style="margin-top:4px"><span class="muted" style="font-size:12px">Minutes on the wall per day, by device</span></div>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">What he opened</div>
+      <table id="opens"><thead><tr><th>Tile</th><th>Lane</th><th class="n">Opened</th><th class="n">Dug deeper</th><th class="n">Clipped</th><th>Last</th></tr></thead><tbody></tbody></table>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">Chains he followed</div>
+      <div id="chains" class="muted" style="margin-top:8px"></div>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">His words</div>
+      <div id="comments" style="margin-top:6px"></div>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">What he asked for</div>
+      <div id="interests" style="margin-top:8px"></div>
+    </div>
+
+    <div class="card">
+      <div class="eyebrow">Flags to check</div>
+      <div id="flags" style="margin-top:8px"></div>
+    </div>
+
+    <div class="card">
+      <div class="row between"><div class="eyebrow">Your notes (private)</div><span class="muted" id="notesState" style="font-size:12px"></span></div>
+      <textarea id="notes" placeholder="What to push next, what he said at dinner, what to drop…"></textarea>
+      <div class="row" style="margin-top:8px"><button class="btn" id="saveNotes">Save</button></div>
+    </div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script>
+(function(){
+'use strict';
+var $=function(s){return document.querySelector(s)};
+var SYNC={url:(typeof FR_SYNC_URL!=='undefined'?FR_SYNC_URL:''),key:''};
+var EV=[],SES=[],NOTES=null,WALL=null,CAP={};
+function ls(k,v){try{if(v===undefined){var x=localStorage.getItem(k);return x?JSON.parse(x):null}localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
+async function rpc(b){var r=await fetch(SYNC.url,{method:'POST',body:JSON.stringify(Object.assign({key:SYNC.key},b))});var j=await r.json();if(!j.ok)throw new Error(j.error||'sync');return j}
+async function connect(k){SYNC.key=k.trim();try{var j=await rpc({op:'whoami'});if(j.role!=='parent'){$('#gateMsg').textContent='That is not the parent key.';SYNC.key='';return}ls('fr:parentKey',SYNC.key);$('#gate').hidden=true;$('#main').hidden=false;await pull()}catch(e){$('#gateMsg').textContent='Key not accepted.';SYNC.key=''}}
+async function pull(){$('#status').textContent='Loading…';try{var j=await rpc({op:'list',since:0});EV=[];SES=[];Object.entries(j.docs||{}).forEach(function(kv){var p=kv[0],d=kv[1];if(!d)return;if(p.indexOf('fr/ev/')===0)EV.push(d);else if(p.indexOf('fr/ses/')===0)SES.push(Object.assign({key:p.slice(7)},d));else if(p==='fr/parent/notes')NOTES=d});
+ try{var w=await (await fetch('wall.json?v='+Date.now(),{cache:'no-store'})).json();WALL=w;w.tiles.forEach(function(t){CAP[t.id]={cap:t.cap,dom:t.dom}})}catch(e){}
+ render();$('#status').textContent='Updated '+new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'})}catch(e){$('#status').textContent='Could not reach the backend.'}}
+function day(ts){var d=new Date(ts);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+function lab(id){return (CAP[id]&&CAP[id].cap)||id}
+function render(){var now=Date.now(),wk=now-7*864e5;var ev=EV.filter(function(e){return e.ts>=wk}).sort(function(a,b){return b.ts-a.ts});
+ /* minutes per day */
+ var days=[];for(var i=6;i>=0;i--)days.push(day(now-i*864e5));var mins={};SES.forEach(function(s){var d=s.key.slice(0,10);mins[d]=(mins[d]||0)+(s.secs||0)/60});
+ var tot=days.reduce(function(a,d){return a+(mins[d]||0)},0),opens=ev.filter(function(e){return e.t==='open'}).length,deep=ev.filter(function(e){return e.t==='deeper'}).length,clips=ev.filter(function(e){return e.t==='clip'}).length,cms=ev.filter(function(e){return e.t==='comment'}).length,active=days.filter(function(d){return (mins[d]||0)>=1}).length;
+ $('#kpis').innerHTML=[[Math.round(tot),'minutes this week'],[active+'/7','days he opened it'],[opens,'tiles opened'],[deep,'dug deeper'],[clips,'clipped'],[cms,'things he said']].map(function(k){return '<div class="kpi"><b>'+k[0]+'</b><span>'+k[1]+'</span></div>'}).join('');
+ var mx=Math.max(5,Math.max.apply(null,days.map(function(d){return mins[d]||0})));$('#bars').innerHTML=days.map(function(d){var m=mins[d]||0;return '<div class="bar" title="'+Math.round(m)+' min"><i style="height:'+Math.round(m/mx*70)+'px"></i>'+d.slice(5)+'</div>'}).join('');
+ /* opens table */
+ var agg={};ev.forEach(function(e){if(!e.id||['open','deeper','clip'].indexOf(e.t)<0)return;var a=agg[e.id]=agg[e.id]||{o:0,d:0,c:0,last:0};a[e.t[0]]++;a.last=Math.max(a.last,e.ts)});
+ var rows=Object.keys(agg).sort(function(a,b){return (agg[b].o+agg[b].d*2+agg[b].c*3)-(agg[a].o+agg[a].d*2+agg[a].c*3)});
+ $('#opens tbody').innerHTML=rows.length?rows.map(function(id){var a=agg[id];return '<tr><td>'+lab(id)+'</td><td class="mono">'+((CAP[id]&&CAP[id].dom)||'')+'</td><td class="n">'+a.o+'</td><td class="n">'+a.d+'</td><td class="n">'+a.c+'</td><td class="muted">'+new Date(a.last).toLocaleString('en-GB',{weekday:'short',hour:'2-digit',minute:'2-digit'})+'</td></tr>'}).join(''):'<tr><td colspan="6" class="muted">Nothing yet.</td></tr>';
+ /* chains */
+ var hops=ev.filter(function(e){return e.t==='hop'});$('#chains').innerHTML=hops.length?hops.slice(0,30).map(function(h){var p=h.id.split('>');return '<div class="chain">'+lab(p[0])+' → '+lab(p[1])+'</div>'}).join(''):'No hops yet.';
+ /* comments */
+ var c=ev.filter(function(e){return e.t==='comment'});$('#comments').innerHTML=c.length?c.map(function(e){return '<div class="cm"><div class="mono">'+new Date(e.ts).toLocaleString('en-GB',{weekday:'short',hour:'2-digit',minute:'2-digit'})+' · on "'+lab(e.id)+'"</div><div class="q">'+esc(e.text)+'</div></div>'}).join(''):'<p class="muted">Nothing yet.</p>';
+ /* interests */
+ var it=ev.filter(function(e){return e.t==='interests'});$('#interests').innerHTML=it.length?it.slice(0,10).map(function(e){return '<div class="cm"><div class="mono">'+new Date(e.ts).toLocaleString('en-GB',{weekday:'short',hour:'2-digit',minute:'2-digit'})+'</div><div>'+esc(e.text).split(' | ').map(function(s,i){return i?'<div class="q">“'+s+'”</div>':s.split(', ').filter(Boolean).map(function(x){return '<span class="pill">'+x+'</span>'}).join('')}).join('')+'</div></div>'}).join(''):'<p class="muted">Nothing yet.</p>';
+ /* flags */
+ var f=ev.filter(function(e){return e.t==='flag'});$('#flags').innerHTML=f.length?f.map(function(e){return '<div class="cm flag">⚑ '+lab(e.id)+' <span class="mono">'+new Date(e.ts).toLocaleString('en-GB',{weekday:'short',hour:'2-digit',minute:'2-digit'})+'</span></div>'}).join(''):'<p class="muted">None.</p>';
+ if(NOTES&&NOTES.text!=null&&!$('#notes').value)$('#notes').value=NOTES.text}
+function esc(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+function report(){var now=Date.now(),wk=now-7*864e5,ev=EV.filter(function(e){return e.ts>=wk});var mins={};SES.forEach(function(s){var d=s.key.slice(0,10);mins[d]=(mins[d]||0)+(s.secs||0)/60});
+ var L=['FRONTIER REPORT '+day(now)+' (last 7 days)','Minutes/day: '+Object.keys(mins).sort().map(function(d){return d.slice(5)+'='+Math.round(mins[d])}).join(', ')];
+ var agg={};ev.forEach(function(e){if(!e.id||['open','deeper','clip'].indexOf(e.t)<0)return;var a=agg[e.id]=agg[e.id]||{o:0,d:0,c:0};a[e.t[0]]++});
+ L.push('Tiles (open/deeper/clip): '+Object.keys(agg).map(function(id){var a=agg[id];return id+' '+a.o+'/'+a.d+'/'+a.c}).join('; '));
+ L.push('Hops: '+ev.filter(function(e){return e.t==='hop'}).map(function(e){return e.id}).join(', '));
+ L.push('Comments: '+ev.filter(function(e){return e.t==='comment'}).map(function(e){return '['+e.id+'] '+e.text}).join(' || '));
+ L.push('Interests: '+ev.filter(function(e){return e.t==='interests'}).map(function(e){return e.text}).join(' || '));
+ L.push('Flags: '+ev.filter(function(e){return e.t==='flag'}).map(function(e){return e.id}).join(', '));
+ if($('#notes').value.trim())L.push('Parent notes: '+$('#notes').value.trim());
+ var s=L.join('\n');try{navigator.clipboard.writeText(s).then(function(){$('#status').textContent='Report copied. Paste it to Claude.'})}catch(e){$('#status').textContent='Select and copy:';alert(s)}}
+$('#go').addEventListener('click',function(){connect($('#key').value)});
+$('#key').addEventListener('keydown',function(e){if(e.key==='Enter')connect($('#key').value)});
+$('#refresh').addEventListener('click',pull);$('#report').addEventListener('click',report);
+$('#saveNotes').addEventListener('click',async function(){try{await rpc({op:'set',path:'fr/parent/notes',data:{text:$('#notes').value,ts:Date.now()}});$('#notesState').textContent='Saved'}catch(e){$('#notesState').textContent='Could not save'}});
+var k=ls('fr:parentKey')||ls('g5:parentKey');if(k)connect(k);
+})();
+</script>
+</body>
+</html>
