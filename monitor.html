@@ -105,7 +105,7 @@ var EV=[],SES=[],NOTES=null,WALL=null,CAP={};
 function ls(k,v){try{if(v===undefined){var x=localStorage.getItem(k);return x?JSON.parse(x):null}localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
 async function rpc(b){var r=await fetch(SYNC.url,{method:'POST',body:JSON.stringify(Object.assign({key:SYNC.key},b))});var j=await r.json();if(!j.ok)throw new Error(j.error||'sync');return j}
 async function connect(k){SYNC.key=k.trim();try{var j=await rpc({op:'whoami'});if(j.role!=='parent'){$('#gateMsg').textContent='That is not the parent key.';SYNC.key='';return}ls('fr:parentKey',SYNC.key);$('#gate').hidden=true;$('#main').hidden=false;await pull()}catch(e){$('#gateMsg').textContent='Key not accepted.';SYNC.key=''}}
-async function pull(){$('#status').textContent='Loading…';try{var j=await rpc({op:'list',since:0});EV=[];SES=[];Object.entries(j.docs||{}).forEach(function(kv){var p=kv[0],d=kv[1];if(!d)return;if(p.indexOf('fr/ev/')===0)EV.push(d);else if(p.indexOf('fr/ses/')===0)SES.push(Object.assign({key:p.slice(7)},d));else if(p==='fr/parent/notes')NOTES=d});
+async function pull(){$('#status').textContent='Loading…';try{var j=await rpc({op:'list',since:0});EV=[];SES=[];Object.entries(j.docs||{}).forEach(function(kv){var p=kv[0],d=kv[1];if(!d)return;if(p.indexOf('frev/')===0)EV.push(d);else if(p.indexOf('frses/')===0)SES.push(Object.assign({key:p.slice(6)},d));else if(p==='frparent/notes')NOTES=d});
  try{var w=await (await fetch('wall.json?v='+Date.now(),{cache:'no-store'})).json();WALL=w;w.tiles.forEach(function(t){CAP[t.id]={cap:t.cap,dom:t.dom}})}catch(e){}
  render();$('#status').textContent='Updated '+new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'})}catch(e){$('#status').textContent='Could not reach the backend.'}}
 function day(ts){var d=new Date(ts);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
@@ -143,7 +143,7 @@ function report(){var now=Date.now(),wk=now-7*864e5,ev=EV.filter(function(e){ret
 $('#go').addEventListener('click',function(){connect($('#key').value)});
 $('#key').addEventListener('keydown',function(e){if(e.key==='Enter')connect($('#key').value)});
 $('#refresh').addEventListener('click',pull);$('#report').addEventListener('click',report);
-$('#saveNotes').addEventListener('click',async function(){try{await rpc({op:'set',path:'fr/parent/notes',data:{text:$('#notes').value,ts:Date.now()}});$('#notesState').textContent='Saved'}catch(e){$('#notesState').textContent='Could not save'}});
+$('#saveNotes').addEventListener('click',async function(){try{await rpc({op:'set',path:'frparent/notes',data:{text:$('#notes').value,ts:Date.now()}});$('#notesState').textContent='Saved'}catch(e){$('#notesState').textContent='Could not save'}});
 var k=ls('fr:parentKey')||ls('g5:parentKey');if(k)connect(k);
 })();
 </script>

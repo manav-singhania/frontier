@@ -1,500 +1,289 @@
 {
- "edition": "01",
+ "edition": "02",
  "level": "High school",
- "date": "2026-10-23",
- "dateLabel": "Fri 23 Oct 2026",
+ "date": "2026-10-25",
+ "dateLabel": "Sun 25 Oct 2026",
  "week": [
   {
-   "d": "TODAY",
-   "t": "NASA briefs on Artemis III and the road back to the Moon",
-   "id": "mars"
+   "d": "FRI",
+   "t": "NASA: Artemis III becomes a rehearsal, landings move to 2028",
+   "id": "artemis"
   },
   {
-   "d": "19 OCT",
-   "t": "AI proves a cousin of the Riemann hypothesis",
-   "id": "primes"
+   "d": "FRI",
+   "t": "Swift telescope retires after 22 years and 2,000 explosions",
+   "id": "swift"
   },
   {
-   "d": "11 OCT",
-   "t": "Perseverance sets the off-world driving record",
-   "id": "mars"
+   "d": "THU",
+   "t": "Dragonfly flies its first simulated flight for Titan",
+   "id": "dragonfly"
   },
   {
-   "d": "9 OCT",
-   "t": "Hurricane Isaias hits Florida",
-   "id": "nino"
+   "d": "WED",
+   "t": "The first green star",
+   "id": "green"
+  },
+  {
+   "d": "SAT",
+   "t": "Singapore PSI hits 151",
+   "id": "haze2"
   },
   {
    "d": "6–7 OCT",
-   "t": "Science Nobels announced",
+   "t": "Nobel week: ghost particles, light-switch neurons",
    "id": "ice"
-  },
-  {
-   "d": "5 OCT",
-   "t": "Strongest El Niño ever measured",
-   "id": "nino"
   }
  ],
  "tiles": [
   {
-   "id": "ice",
-   "dom": "matter",
-   "lab": "Nobel · Physics",
+   "id": "artemis",
+   "dom": "space",
+   "lab": "This week · NASA",
    "hot": 1,
    "big": 1,
-   "cap": "A cubic kilometre of Antarctic ice is the world's biggest telescope",
-   "num": "65 billion",
-   "nums": "neutrinos through your fingernail every second",
-   "p1": "Neutrinos fly straight through planets without noticing. IceCube buried 5,000 light sensors in South Pole ice and waits for the rare one that hits an atom and flashes. It caught neutrinos from black holes billions of light-years away.",
-   "p2": "Why now: it won the 2026 Nobel Prize in Physics on 6 October.",
+   "art": "artemis",
+   "cap": "NASA just rewrote the Moon plan. Artemis III won't land. It will rehearse.",
+   "num": "14 days",
+   "nums": "in Earth orbit, 2027, four astronauts",
+   "p1": "On Friday NASA announced that Artemis III, launching in 2027, stays in Earth orbit: Orion docks with a Blue Origin test lander, then a SpaceX Starship test ship, to check every system before anyone tries the surface.",
+   "p2": "The actual landings near the Moon's south pole are now set for 2028.",
    "deep": [
     [
-     "How you see a particle that touches nothing",
-     "Neutrinos barely interact, so you need a huge amount of stuff for one to hit. IceCube uses a cubic kilometre of clear ice as the target. When a neutrino finally smacks an atom, it kicks off a charged particle that moves faster than light does in ice and gives off a faint blue glow, which the buried sensors catch."
+     "Three rockets, one mission",
+     "Blue Origin's Blue Moon test lander launches first into a 273-mile orbit, where it can wait up to 30 days. Orion follows on SLS days later, climbs to about 345 miles, and after two days of checks docks with it. The crew spends about two days inside, testing the cabin, controls and life support."
     ],
     [
-     "Why the South Pole",
-     "Ice at 1.5 to 2.5 km down is some of the clearest material on Earth, it is already there for free, and it is dark. The sensors were lowered down holes melted with hot water and have been frozen in place since 2010."
+     "Then Starship",
+     "SpaceX launches a Starship Version 3 test article into a lower orbit. Orion docks with it for up to two hours. Nobody goes aboard; the point is to prove the two ships can find each other, talk, and hold together."
     ],
     [
-     "What it found",
-     "Neutrinos with millions of times the energy of anything our accelerators make, arriving from a flaring galaxy 4 billion light-years away and from our own Milky Way. We can now point at the sky and ask what is firing them, with a messenger nothing can block."
+     "Who flies",
+     "Randy Bresnik, Frank Rubio, Andre Douglas and ESA's Luca Parmitano. After the dockings they have up to five more days for spacesuit checks, sensor tests and experiments, then splash down off California."
     ],
     [
-     "The person",
-     "Francis Halzen, 82, born in Belgium, a theorist at the University of Wisconsin who had the idea in the 1980s and spent 30 years getting it built. Physics Nobel 2026, awarded on 6 October."
+     "Why rehearse",
+     "Docking a crew capsule to a lander the size of a building has never been done. Doing it 345 miles up, where a problem means coming home in hours, is cheaper than finding out 240,000 miles away."
     ]
    ],
    "rel": [
-    "neuron",
-    "gal",
-    "blood"
+    "rover",
+    "mars",
+    "dragonfly"
    ],
-   "src": "NobelPrize.org"
+   "src": "NASA"
   },
   {
-   "id": "mars",
+   "id": "rover",
    "dom": "space",
-   "lab": "Record",
+   "lab": "Moon base",
+   "art": "rover",
+   "cap": "Why Moon rovers can't run on solar panels",
+   "num": "14 days",
+   "nums": "of darkness in every lunar night",
+   "p1": "A night on the Moon lasts about two Earth weeks and the temperature drops to around minus 170 °C. Solar panels give nothing and ordinary batteries freeze. NASA's Moon-base rovers are being built around small nuclear power modules that give steady heat and electricity through the dark.",
+   "p2": "NASA posted a progress update on these rovers this week.",
+   "deep": [
+    [
+     "What the module does",
+     "A radioisotope power system uses the heat from a slowly decaying element to make electricity and to keep the rover's insides warm. No moving parts, no sunlight needed, and it runs for years."
+    ],
+    [
+     "Same trick, other worlds",
+     "Curiosity and Perseverance on Mars run on the same idea, which is why they drive through dust storms that would kill a solar rover. Voyager 1 and 2 have been running on it since 1977."
+    ],
+    [
+     "Why the south pole",
+     "That is where the 2028 landings aim. Some crater floors there have not seen sunlight in billions of years and hold water ice; some crater rims are lit almost all the time. The base goes between the two."
+    ]
+   ],
+   "rel": [
+    "artemis",
+    "mars"
+   ],
+   "src": "NASA"
+  },
+  {
+   "id": "green",
+   "dom": "space",
+   "lab": "Space · First",
    "hot": 1,
-   "cap": "A Mars robot just set the off-world driving record. It drove itself.",
-   "num": "45.22 km",
-   "nums": "on Mars, as of 11 Oct",
-   "p1": "Perseverance beat Opportunity's 8-year record in half the time. 90% of it was self-driven: radio to Earth takes up to 20 minutes, so no human can steer live.",
-   "p2": "Same problem NASA's Moon-base rovers are being designed around right now.",
+   "art": "green",
+   "cap": "Astronomers found the first green star",
+   "p1": "Stars are supposed to be red, orange, yellow, white or blue, never green, because of how our eyes mix the colours a hot object gives off. A team at the University of Warwick found a dead star, WD J1330+6435, that would look green to a human eye.",
+   "p2": "NASA's Astronomy Picture of the Day featured it on Wednesday.",
    "deep": [
     [
-     "Why it can't be driven from Earth",
-     "A radio signal takes 4 to 20 minutes to reach Mars depending on where the planets are. By the time a driver on Earth saw a rock, the rover would already have hit it. So drives are planned in the morning and the rover executes them alone."
+     "Why stars are never green",
+     "A star glows across the whole rainbow at once. A star peaking in green also pours out plenty of red and blue, and your eye adds them up to white. That is why the Sun, which peaks in green, looks white from space."
     ],
     [
-     "How AutoNav works",
-     "While rolling, the rover photographs the ground ahead in stereo, builds a 3D map, scores every patch for danger, picks a path, and repeats, several times a minute. Opportunity could do a crude version about 5% of the time. Perseverance does it 90% of the time and drives up to 412 metres in a day."
+     "How this one cheats",
+     "WD J1330+6435 is a white dwarf, the leftover core of a Sun-like star. It has been swallowing rocky debris, and those trace elements in its atmosphere absorb some colours and let others through. The filtered light that escapes reads as green."
     ],
     [
-     "The record",
-     "45.22 km on 11 October 2026, beating Opportunity's 45.16 km, set over 14 years. Perseverance did it in under six. NASA has extended its mission to the end of 2028."
-    ],
-    [
-     "What it's doing out there",
-     "Climbing the rim of Jezero Crater, an ancient lake bed, collecting rock cores in sealed tubes that a future mission is meant to bring back to Earth."
-    ]
-   ],
-   "rel": [
-    "sat",
-    "circ",
-    "ice"
-   ],
-   "src": "NASA / JPL"
-  },
-  {
-   "id": "nino",
-   "dom": "earth",
-   "lab": "Happening now",
-   "hot": 1,
-   "cap": "One warm patch of ocean is rewriting this year's weather",
-   "p1": "The 2026 El Niño is the strongest ever measured. It held the Atlantic's first hurricane back until 7 October (a record), while the eastern Pacific had its busiest storm year ever.",
-   "p2": "For Singapore, El Niño usually means drier, hazier, warmer seas. Watch and see.",
-   "deep": [
-    [
-     "What El Niño actually is",
-     "Normally trade winds push warm Pacific water west toward Asia. Every few years the winds weaken and the warm water sloshes back east toward South America. That one shift changes where rain falls across half the planet."
-    ],
-    [
-     "Why the Atlantic went quiet",
-     "El Niño strengthens high winds over the Atlantic that shear hurricanes apart before they form. 2026 was so strong that the first hurricane, Isaias, did not appear until 7 October, the latest on record. It still reached Category 3 and hit Florida on 9 October."
-    ],
-    [
-     "And the Pacific went wild",
-     "Warmer water east of Mexico fed storm after storm. By mid-October the eastern Pacific had its most energetic season ever measured."
-    ],
-    [
-     "What it means here",
-     "El Niño years bring Singapore less rain, more heat and a longer fire season in Sumatra and Kalimantan. That is the haze tile on this wall."
-    ]
-   ],
-   "rel": [
-    "haze",
-    "coral",
-    "blood"
-   ],
-   "src": "Science News Explores · NOAA"
-  },
-  {
-   "id": "neuron",
-   "dom": "life",
-   "lab": "Nobel · Medicine",
-   "cap": "Pond algae gave scientists a light switch for brain cells",
-   "p1": "An alga steers toward light with a protein that opens like a gate under blue light. Put that gene in a neuron, shine a light, the neuron fires on command.",
-   "p2": "Memory, fear, sleep and tremors are all being mapped this way. 2026 Nobel in Medicine.",
-   "deep": [
-    [
-     "The trick",
-     "Neurons fire when charged atoms rush through gates in their membrane. Channelrhodopsin, a protein from a pond alga, is a gate that opens when blue light hits it. Insert its gene into a neuron and you have a cell that fires whenever you flash it."
-    ],
-    [
-     "Who did what",
-     "Peter Hegemann and Georg Nagel found and decoded the algal protein. Karl Deisseroth, a psychiatrist and engineer at Stanford, got it working in brain cells in 2005 and built the tools to use it in living animals."
-    ],
-    [
-     "Why it's a big deal",
-     "Before this you could only stimulate a lump of brain with electricity. Now you can switch one exact type of cell on or off with millisecond timing and watch what changes: a memory, a craving, a tremor."
-    ],
-    [
-     "Already in people",
-     "Light-sensitive proteins have been put into the eyes of a blind patient, who regained partial vision. Medicine Nobel 2026, awarded 5 October."
-    ]
-   ],
-   "rel": [
-    "after",
-    "web",
-    "ice"
-   ],
-   "src": "NobelPrize.org"
-  },
-  {
-   "id": "blood",
-   "dom": "earth",
-   "lab": "Weird places",
-   "cap": "A five-storey waterfall in Antarctica runs blood red",
-   "p1": "Blood Falls is water from a lake sealed under a glacier for ~2 million years, salty and full of iron. It rusts the instant it meets air. Microbes live down there breathing iron, not oxygen.",
-   "p2": "Closest thing on Earth to the buried ocean on Jupiter's moon Europa.",
-   "deep": [
-    [
-     "Where it comes from",
-     "The water seeps out of the Taylor Glacier in Antarctica's Dry Valleys. It started as seawater trapped under the ice around two million years ago, then got concentrated into a brine so salty it stays liquid well below zero."
-    ],
-    [
-     "Why red",
-     "The brine is packed with dissolved iron and has had no oxygen for ages. The second it hits air the iron oxidises, the same chemistry as a rusting bike."
-    ],
-    [
-     "Who lives there",
-     "Microbes that have been sealed in the dark with no sunlight and no oxygen the whole time. They get energy by shuttling electrons between iron and sulfur compounds."
-    ],
-    [
-     "Why NASA cares",
-     "Europa and Enceladus have salty oceans under ice. Blood Falls is the best place on Earth to test whether life can run on that kind of chemistry, and how to detect it."
+     "A rainbow of dead stars",
+     "The same survey found white dwarfs that would look yellow, cyan, pink and purple. Each colour is a fingerprint of what the star has eaten, which tells astronomers what the planets around it were made of."
     ]
    ],
    "rel": [
     "ice",
-    "gal",
-    "coral"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "primes",
-   "dom": "numbers",
-   "lab": "Advanced",
-   "cap": "An AI proved a cousin of the hardest problem in maths",
-   "p1": "The Riemann hypothesis is a 167-year-old question about how primes are spread. On 6 October an AI settled the \"quasi-Riemann hypothesis\", a softer version, and human experts have checked it.",
-   "p2": "Mathematicians are split between \"staggering\" and \"what's left for us?\"",
-   "deep": [
-    [
-     "The problem",
-     "Primes look random, but the Riemann hypothesis says their spacing follows a hidden pattern tied to a function called zeta. Proving it has resisted everyone since 1859 and carries a $1 million prize."
-    ],
-    [
-     "What the AI did",
-     "On 6 October OpenAI released hundreds of machine-written papers. One proved the quasi-Riemann hypothesis, a strictly weaker statement that still says a lot about primes. Earlier AI claims had holes; this one has been checked line by line by mathematicians at Stanford and elsewhere and stands."
-    ],
-    [
-     "Why mathematicians are rattled",
-     "Some call it the biggest AI-for-maths result so far. Others ask what a mathematician's job is if machines can find and prove deep results. Quanta ran a piece titled 'Is AI the end of math as we know it?'"
-    ],
-    [
-     "Your angle",
-     "Olympiad-style problems are now routine for these systems. The skills that still matter are choosing which question to ask and knowing when a proof is beautiful rather than merely correct."
-    ]
-   ],
-   "rel": [
-    "ai",
-    "ice"
-   ],
-   "src": "Quanta Magazine"
-  },
-  {
-   "id": "after",
-   "dom": "try",
-   "lab": "Try it · 5 min",
-   "cap": "Stare at this and your eyes will invent a colour",
-   "p1": "Your three colour sensors tire out separately. Wear out green, look at white, and you see a magenta ghost. That's an afterimage.",
-   "p2": "Then mix red, green and blue light yourself in the PhET simulator.",
-   "deep": [
-    [
-     "What's happening in your eye",
-     "Your retina has three kinds of cone cells, roughly for red, green and blue. Stare at one colour and the cones for it get fatigued and fire less. Look at white, and the other two shout louder, so you see the opposite colour."
-    ],
-    [
-     "The test",
-     "Look at the white dot in the green disc for 30 seconds without moving your eyes. Then look at a blank white wall. You should see a magenta disc that follows your gaze and fades over several seconds."
-    ],
-    [
-     "Try variations",
-     "Stare at red and you see cyan. Stare at blue and you see yellow. Half-cover the shape and the ghost has a hard edge. Blink and it jumps."
-    ],
-    [
-     "Mix light yourself",
-     "Red + green light = yellow. All three = white. Your screen does this with every pixel."
-    ]
-   ],
-   "rel": [
-    "neuron",
-    "fabric"
-   ],
-   "src": "Science Buddies · PhET"
-  },
-  {
-   "id": "coral",
-   "dom": "try",
-   "lab": "Try it · Watch",
-   "cap": "What a warm sea does to a coral, zoomed to the cell",
-   "p1": "Corals are animals that farm algae inside their cells. Heat the water a couple of degrees and the algae turn toxic, so the coral throws them out and goes white.",
-   "p2": "Record-warm seas this El Niño year have reef scientists on alert.",
-   "deep": [
-    [
-     "Corals are animals",
-     "Each coral polyp is a tiny animal related to jellyfish. Inside its cells live algae that photosynthesise and hand over most of the sugar. The coral gets food; the algae get a safe home. That is why reefs grow in clear, sunlit, nutrient-poor water."
-    ],
-    [
-     "What heat does",
-     "One to two degrees above normal for a few weeks and the algae's photosynthesis goes haywire, producing toxic by-products. The coral ejects them. Without the algae's colour you see the white skeleton through the clear tissue: bleaching."
-    ],
-    [
-     "Dead or not",
-     "A bleached coral is starving, not dead. If the water cools soon it can take algae back in. If heat lasts months, it dies and the reef crumbles."
-    ],
-    [
-     "This year",
-     "Record-warm seas during the 2026 El Niño put reefs from the Indian Ocean to the Pacific at risk. Scientists are also finding some corals recover faster when touching healthy neighbours of the same genetics."
-    ]
-   ],
-   "rel": [
-    "nino",
-    "haze",
-    "blood"
-   ],
-   "src": "HHMI BioInteractive"
-  },
-  {
-   "id": "shrub",
-   "dom": "life",
-   "lab": "Plant engineering",
-   "cap": "A desert shrub air-conditions its leaves at 50 °C",
-   "p1": "Most plants shut their pores in heat and cook. This Death Valley shrub opens up and lets evaporation chill its leaves below air temperature. It sweats.",
-   "p2": "Crop scientists are reading its genes to heat-proof wheat and rice.",
-   "deep": [
-    [
-     "The gamble",
-     "Shutting pores saves water but traps heat; a leaf can cook at 50 °C. This shrub, from Death Valley in California, opens its pores wide and lets water evaporate off the leaf, taking heat with it. Its leaves sit several degrees cooler than the air."
-    ],
-    [
-     "Where the water comes from",
-     "Deep roots reach moisture far below the baked surface. The plant spends that water to stay alive on the hottest afternoons of the year."
-    ],
-    [
-     "Why it's being studied now",
-     "Heatwaves that models expected in the 2030s are arriving already. Breeders want the genes behind this cooling response to put into wheat and rice."
-    ]
-   ],
-   "rel": [
-    "nino",
-    "haze"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "gal",
-   "dom": "space",
-   "lab": "Unsolved",
-   "cap": "Half the universe's ordinary matter was missing. Some just turned up.",
-   "p1": "Count every star and gas cloud and you get half the normal matter the Big Bang made. New images show huge faint clouds of hot gas hiding between galaxies.",
-   "p2": "Different from dark matter, which may have been glimpsed for the first time on 7 October. Maybe.",
-   "deep": [
-    [
-     "Two different mysteries",
-     "Ordinary matter is atoms: stars, gas, you. Dark matter is something else we only detect by its gravity, and there is five times more of it. This tile is about the ordinary kind."
-    ],
-    [
-     "The missing half",
-     "Measurements of the early universe say how many atoms there should be. Add up everything in galaxies and you get only about half. The rest had to be somewhere."
-    ],
-    [
-     "Found between galaxies",
-     "New observations show enormous, thin clouds of hot gas in the spaces between galaxies and along the filaments that connect them. Too faint to see directly before, they hold a big share of the missing atoms."
-    ],
-    [
-     "And dark matter",
-     "On 7 October a detector deep underground in South Dakota reported a signal that might be the first direct glimpse of dark matter. One result is not proof. Watch this space."
-    ]
-   ],
-   "rel": [
-    "ice",
-    "primes"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "ai",
-   "dom": "mind",
-   "lab": "Mind",
-   "cap": "Is AI making people dumber? Depends how you use it",
-   "p1": "Let it do the thinking and you remember and solve less afterwards. Use it to argue with and check yourself, and you beat people who went without.",
-   "p2": "Try: ask an AI to be wrong on purpose, then catch it.",
-   "deep": [
-    [
-     "What the studies found",
-     "People who had a chatbot write their essay recalled almost nothing of it later. People who used it to question their own draft, or to explain a step they were stuck on, did better than those with no AI at all."
-    ],
-    [
-     "The pattern",
-     "Offloading the thinking shrinks the skill. Using the tool as a sparring partner grows it. Same software, opposite results."
-    ],
-    [
-     "Three habits that work",
-     "Attempt it first, then ask. Ask it to argue the other side. Ask it to find the mistake in your answer rather than give you one."
-    ]
-   ],
-   "rel": [
-    "primes",
-    "fabric"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "bee",
-   "dom": "life",
-   "lab": "Comic",
-   "cap": "A drowning bee survives by swimming toward the dark",
-   "p1": "Bees can't see the shore. But open water glares and the edge is shadowed. Head for the darkest patch and you usually hit land.",
-   "p2": "One rule, no map. Robot designers steal tricks like this all the time.",
-   "deep": [
-    [
-     "The problem a wet bee has",
-     "Water drags its wings down and it cannot take off. It can paddle, but it sits too low to see where the shore is."
-    ],
-    [
-     "The one rule",
-     "Open water reflects the bright sky. Banks, reeds and edges are shadowed. Researchers found drenched bees consistently paddle toward the darker side, and in nature that is nearly always land."
-    ],
-    [
-     "Why engineers like it",
-     "A single sensor and a single rule solve a problem the animal cannot fully perceive. Swarm robots and cheap drones use the same approach: simple local rules that add up to smart behaviour."
-    ]
-   ],
-   "rel": [
-    "shrub",
-    "coral"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "web",
-   "dom": "life",
-   "lab": "Technically fiction",
-   "cap": "Could Spider-Man really switch his powers off?",
-   "p1": "In the new film Peter builds a superpower inhibitor. Real RNA medicines already mute a single gene without touching DNA. Same idea.",
-   "p2": "Connects to the Medicine Nobel: switching biology on and off with precision.",
-   "deep": [
-    [
-     "The film",
-     "In Spider-Man: Brand New Day, Peter Parker builds a device to switch off new powers he does not want."
-    ],
-    [
-     "The real version",
-     "RNA is the working copy of a gene. Medicines called antisense or RNA-interference drugs stick to a specific RNA and stop it being read, muting one gene without changing DNA. They already treat a rare nerve disease and high cholesterol."
-    ],
-    [
-     "Could it work on powers",
-     "If a power came from a gene, muting that gene's RNA would dial it down. The catch is delivery: getting the drug into exactly the right cells, which is the hard part of all gene medicine."
-    ]
-   ],
-   "rel": [
-    "neuron",
     "after"
    ],
-   "src": "Science News Explores"
+   "src": "NASA APOD · University of Warwick"
   },
   {
-   "id": "circ",
-   "dom": "try",
-   "lab": "Try it · Build",
-   "cap": "Build a circuit, burn out a bulb, add a dog",
-   "p1": "PhET's circuit kit is deliberately silly: wire a battery to a bulb and watch it burn out, or put a dog in the circuit and see if it conducts.",
-   "p2": "Then: why NASA's Moon-base rovers run on nuclear modules, not solar. (Lunar night lasts two weeks.)",
+   "id": "swift",
+   "dom": "space",
+   "lab": "Farewell",
+   "art": "swift",
+   "cap": "A telescope built to last 2 years just retired after 22. It caught 2,000 explosions.",
+   "num": "2,000+",
+   "nums": "gamma-ray bursts caught by Swift since 2004",
+   "p1": "Gamma-ray bursts are the most powerful explosions known, and they last seconds. Swift's job was to notice one, swing round in under a minute, and stare. It did that for more than 2,000 of them before its orbit sank too low to hold steady. Its last observation was on 20 October.",
+   "p2": "It will burn up in Earth's atmosphere in the coming weeks.",
    "deep": [
     [
-     "What to try (coming to this wall as a built-in sim)",
-     "Build a loop: battery, wire, bulb. Add a second bulb in the same loop (series) and both dim. Put them on parallel branches and both stay bright. Add a switch. Wire a battery straight to itself and watch it catch fire."
+     "The 0.03-second catch",
+     "In May 2005 a burst lasted three hundredths of a second. Swift turned fast enough to catch 11 X-ray photons of its afterglow, the first ever for a short burst. That is how we learned short bursts come from two neutron stars colliding."
     ],
     [
-     "What's really moving",
-     "Electrons drift through the wire a few millimetres a second, but they all start moving at once, which is why the bulb lights instantly."
+     "Why it is falling",
+     "At under 275 km up there is still a whisper of air. Over 22 years that drag pulled Swift down until the telescope could no longer hold its aim. There was no engine to boost it back up."
     ],
     [
-     "Why Moon rovers go nuclear",
-     "Night on the Moon lasts about 14 Earth days and temperatures drop to around minus 170 °C. Solar panels give nothing and batteries freeze. NASA's planned base rovers carry a small nuclear power module for steady heat and electricity through the dark."
+     "What it leaves",
+     "1,400 supernovae, stars seen being torn apart by black holes, about 7,000 scientific papers and 12 terabytes of public data anyone can use."
+    ]
+   ],
+   "rel": [
+    "ice",
+    "green",
+    "artemis"
+   ],
+   "src": "NASA"
+  },
+  {
+   "id": "dragonfly",
+   "dom": "space",
+   "lab": "Future · Titan",
+   "art": "dragonfly",
+   "cap": "NASA's car-sized drone for Saturn's moon just flew its first simulated flight",
+   "num": "2034",
+   "nums": "arrival at Titan after a six-year cruise",
+   "p1": "Dragonfly is a rotorcraft that will hop across Titan, the only moon with a thick atmosphere and the only other place with rivers and lakes, made of liquid methane. On Thursday engineers ran its entire first flight on the real flight computers: drop from the heat shield, scan the dunes, pick a safe spot, land.",
+   "p2": "Launch no earlier than 2028. Titan is too far for anyone to steer it, so it decides for itself.",
+   "deep": [
+    [
+     "Why a drone works there",
+     "Titan's air is four times denser than Earth's and gravity is one seventh. Flying is easier than on Earth; the same rotor lifts far more. On Mars, with air 1% as thick, the Ingenuity helicopter could barely lift itself."
+    ],
+    [
+     "Deciding alone",
+     "Radio to Titan takes over an hour each way. Dragonfly uses cameras, motion sensors and lidar to measure slope and spot hazards, then chooses where to land, like Perseverance's AutoNav but in the air."
+    ],
+    [
+     "What it is looking for",
+     "Titan's chemistry resembles early Earth's before life. Dragonfly will sample the sand and ice at many sites over three years to see how far that chemistry got."
     ]
    ],
    "rel": [
     "mars",
-    "sat"
+    "artemis",
+    "rover"
    ],
-   "src": "PhET · NASA"
+   "src": "NASA / JHU APL"
   },
   {
-   "id": "haze",
-   "dom": "sg",
-   "lab": "Singapore · Today",
+   "id": "mosquito",
+   "dom": "life",
+   "lab": "Life · Useful",
    "hot": 1,
-   "cap": "Why the sky over Singapore looks grey this weekend",
-   "num": "101–150",
-   "nums": "PSI forecast for Fri 23 Oct (Unhealthy)",
-   "p1": "Fires on peat in southern Sumatra and Kalimantan make the smoke. All week northeasterly winds pushed it south of us; today they swing southeasterly and the smoke drifts in. Showers should clear it by Sunday.",
-   "p2": "The bigger engine behind the dry season: the record El Niño on this wall.",
+   "art": "mosquito",
+   "cap": "Mosquitoes pick their victims by smell. Each species likes a different person.",
+   "num": "119",
+   "nums": "volunteers sniffed by three mosquito species",
+   "p1": "Researchers at Florida International University let three mosquito species smell 119 people's arms through a cage. Each species had its own favourites. Some people drew two species. Nobody drew all three.",
+   "p2": "Singapore's dengue mosquito, Aedes aegypti, went for people with less skin odour, not more.",
    "deep": [
     [
-     "Where the smoke comes from",
-     "Farmers and plantations in southern Sumatra and Kalimantan clear land by burning. In a dry year the fires reach peat, compressed ancient plant matter that smoulders underground for weeks and makes thick white smoke."
+     "How they tested it",
+     "Day-biting Aedes mosquitoes sniffed arms in the lab through a device that blocked biting. Night-biting Culex got nylon sleeves the volunteers had worn for hours. The team also sampled the chemicals in the air around each arm and swabbed the skin for bacteria."
     ],
     [
-     "Why today and not yesterday",
-     "All week the wind came from the northeast and east and pushed the smoke south of us. Today it swings southeasterly and brings it in. NEA forecast PSI of 101 to 150 (Unhealthy) for Friday 23 October, after Moderate readings of 71 to 96 on Thursday evening."
+     "What each species wanted",
+     "Aedes aegypti and Culex preferred people with weaker overall odour. Aedes albopictus, the tiger mosquito, was drawn to 13 plant-like chemicals. Certain skin bacteria attracted all three."
     ],
     [
-     "What PSI measures",
-     "It tracks fine particles 2.5 microns across, about one thirtieth of a hair's width, which go deep into the lungs. Above 100 the advice is to cut outdoor exercise; above 200 to stay in."
-    ],
-    [
-     "When it clears",
-     "Showers are forecast and winds turn more southerly over the weekend, so Sunday should be better. The dry season behind it is driven by the record El Niño."
+     "Why it matters here",
+     "Dengue cases track Aedes aegypti. If skin bacteria make the attractive smells, a repellent could work by changing your skin's microbes, and the attractive chemicals could bait traps instead of people."
     ]
    ],
    "rel": [
-    "nino",
-    "coral"
+    "neuron"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "nino2",
+   "dom": "earth",
+   "lab": "Earth · Update",
+   "art": "nino",
+   "cap": "Satellites say this El Niño now rivals the monster of 1997",
+   "num": "83%",
+   "nums": "chance it stays strong into early 2027 (NOAA)",
+   "p1": "NASA put 2026's ocean next to 1997 and 2015 using 35 years of sea-height measurements. The shape matches 1997: a tilt of warm, high water stretching to South America. This one arrived faster, and JPL's Josh Willis says it is on track to be even bigger.",
+   "p2": "1997-98 brought floods to California and drought and fire to Southeast Asia.",
+   "deep": [
+    [
+     "Measuring heat with a ruler",
+     "Warm water expands. Satellites that bounce radar off the sea can measure its height to a few centimetres, so a bulge in the eastern Pacific is a direct reading of stored heat."
+    ],
+    [
+     "Three satellites, one record",
+     "TOPEX/Poseidon measured 1997, Jason-2 measured 2015, Sentinel-6 Michael Freilich measures now. They fly almost the same track, so the maps compare cleanly."
+    ],
+    [
+     "What it means for us",
+     "For Singapore the pattern is drier, hotter, hazier. The haze tile on this wall is the first instalment."
+    ]
+   ],
+   "rel": [
+    "haze2",
+    "mosquito",
+    "ice"
+   ],
+   "src": "NASA Earth Observatory · NOAA"
+  },
+  {
+   "id": "haze2",
+   "dom": "sg",
+   "lab": "Singapore · Today",
+   "hot": 1,
+   "art": "haze",
+   "cap": "Saturday was the worst haze day so far. Today should ease.",
+   "num": "108–151",
+   "nums": "24-hr PSI at 5pm Saturday (Unhealthy)",
+   "p1": "Southeasterly winds carried smoke from fires in Sumatra and Borneo straight over Singapore on Saturday. For today NEA forecasts PSI of 80 to 130 as winds swing to the southwest, and showers over the weekend and into Monday should bring it down further.",
+   "p2": "The fires are in peat: ancient plant matter that smoulders underground for weeks.",
+   "deep": [
+    [
+     "Reading the numbers",
+     "PSI tracks fine particles 2.5 microns across, a thirtieth of a hair's width. Below 50 is Good, 51 to 100 Moderate, 101 to 200 Unhealthy. Above 100 the advice is to cut long runs and sport outdoors."
+    ],
+    [
+     "Why wind direction is everything",
+     "The fires did not change between Friday and Saturday. The wind did. From the northeast, smoke misses us. From the southeast, it arrives in hours."
+    ],
+    [
+     "The bigger engine",
+     "A dry season this severe is the El Niño on this wall. NOAA gives it an 83% chance of staying strong into 2027, so expect repeats until the rains return."
+    ]
+   ],
+   "rel": [
+    "nino2",
+    "mosquito",
+    "fabric"
    ],
    "src": "NEA Singapore"
   },
@@ -523,10 +312,11 @@
    ],
    "rel": [
     "after",
-    "circ",
-    "ai"
+    "rover",
+    "primes"
    ],
-   "src": "NUS"
+   "src": "NUS",
+   "art": "fabric"
   },
   {
    "id": "sat",
@@ -557,9 +347,185 @@
    ],
    "rel": [
     "mars",
-    "circ"
+    "rover"
    ],
-   "src": "NTU · OSTIn"
+   "src": "NTU · OSTIn",
+   "art": "sat"
+  },
+  {
+   "id": "ice",
+   "dom": "matter",
+   "lab": "Nobel · Physics",
+   "hot": 0,
+   "big": 0,
+   "cap": "A cubic kilometre of Antarctic ice is the world's biggest telescope",
+   "num": "65 billion",
+   "nums": "neutrinos through your fingernail every second",
+   "p1": "Neutrinos fly straight through planets without noticing. IceCube buried 5,000 light sensors in South Pole ice and waits for the rare one that hits an atom and flashes. It caught neutrinos from black holes billions of light-years away.",
+   "p2": "Why now: it won the 2026 Nobel Prize in Physics on 6 October.",
+   "deep": [
+    [
+     "How you see a particle that touches nothing",
+     "Neutrinos barely interact, so you need a huge amount of stuff for one to hit. IceCube uses a cubic kilometre of clear ice as the target. When a neutrino finally smacks an atom, it kicks off a charged particle that moves faster than light does in ice and gives off a faint blue glow, which the buried sensors catch."
+    ],
+    [
+     "Why the South Pole",
+     "Ice at 1.5 to 2.5 km down is some of the clearest material on Earth, it is already there for free, and it is dark. The sensors were lowered down holes melted with hot water and have been frozen in place since 2010."
+    ],
+    [
+     "What it found",
+     "Neutrinos with millions of times the energy of anything our accelerators make, arriving from a flaring galaxy 4 billion light-years away and from our own Milky Way. We can now point at the sky and ask what is firing them, with a messenger nothing can block."
+    ],
+    [
+     "The person",
+     "Francis Halzen, 82, born in Belgium, a theorist at the University of Wisconsin who had the idea in the 1980s and spent 30 years getting it built. Physics Nobel 2026, awarded on 6 October."
+    ]
+   ],
+   "rel": [
+    "neuron",
+    "green"
+   ],
+   "src": "NobelPrize.org",
+   "art": "ice"
+  },
+  {
+   "id": "mars",
+   "dom": "space",
+   "lab": "Record",
+   "hot": 0,
+   "cap": "A Mars robot just set the off-world driving record. It drove itself.",
+   "num": "45.22 km",
+   "nums": "on Mars, as of 11 Oct",
+   "p1": "Perseverance beat Opportunity's 8-year record in half the time. 90% of it was self-driven: radio to Earth takes up to 20 minutes, so no human can steer live.",
+   "p2": "Same problem NASA's Moon-base rovers are being designed around right now.",
+   "deep": [
+    [
+     "Why it can't be driven from Earth",
+     "A radio signal takes 4 to 20 minutes to reach Mars depending on where the planets are. By the time a driver on Earth saw a rock, the rover would already have hit it. So drives are planned in the morning and the rover executes them alone."
+    ],
+    [
+     "How AutoNav works",
+     "While rolling, the rover photographs the ground ahead in stereo, builds a 3D map, scores every patch for danger, picks a path, and repeats, several times a minute. Opportunity could do a crude version about 5% of the time. Perseverance does it 90% of the time and drives up to 412 metres in a day."
+    ],
+    [
+     "The record",
+     "45.22 km on 11 October 2026, beating Opportunity's 45.16 km, set over 14 years. Perseverance did it in under six. NASA has extended its mission to the end of 2028."
+    ],
+    [
+     "What it's doing out there",
+     "Climbing the rim of Jezero Crater, an ancient lake bed, collecting rock cores in sealed tubes that a future mission is meant to bring back to Earth."
+    ]
+   ],
+   "rel": [
+    "sat",
+    "rover",
+    "ice"
+   ],
+   "src": "NASA / JPL",
+   "big": 0,
+   "art": "mars"
+  },
+  {
+   "id": "primes",
+   "dom": "numbers",
+   "lab": "Advanced",
+   "cap": "An AI proved a cousin of the hardest problem in maths",
+   "p1": "The Riemann hypothesis is a 167-year-old question about how primes are spread. On 6 October an AI settled the \"quasi-Riemann hypothesis\", a softer version, and human experts have checked it.",
+   "p2": "Mathematicians are split between \"staggering\" and \"what's left for us?\"",
+   "deep": [
+    [
+     "The problem",
+     "Primes look random, but the Riemann hypothesis says their spacing follows a hidden pattern tied to a function called zeta. Proving it has resisted everyone since 1859 and carries a $1 million prize."
+    ],
+    [
+     "What the AI did",
+     "On 6 October OpenAI released hundreds of machine-written papers. One proved the quasi-Riemann hypothesis, a strictly weaker statement that still says a lot about primes. Earlier AI claims had holes; this one has been checked line by line by mathematicians at Stanford and elsewhere and stands."
+    ],
+    [
+     "Why mathematicians are rattled",
+     "Some call it the biggest AI-for-maths result so far. Others ask what a mathematician's job is if machines can find and prove deep results. Quanta ran a piece titled 'Is AI the end of math as we know it?'"
+    ],
+    [
+     "Your angle",
+     "Olympiad-style problems are now routine for these systems. The skills that still matter are choosing which question to ask and knowing when a proof is beautiful rather than merely correct."
+    ]
+   ],
+   "rel": [
+    "ice"
+   ],
+   "src": "Quanta Magazine",
+   "hot": 0,
+   "big": 0,
+   "art": "primes"
+  },
+  {
+   "id": "after",
+   "dom": "try",
+   "lab": "Try it · 5 min",
+   "cap": "Stare at this and your eyes will invent a colour",
+   "p1": "Your three colour sensors tire out separately. Wear out green, look at white, and you see a magenta ghost. That's an afterimage.",
+   "p2": "Then mix red, green and blue light yourself in the PhET simulator.",
+   "deep": [
+    [
+     "What's happening in your eye",
+     "Your retina has three kinds of cone cells, roughly for red, green and blue. Stare at one colour and the cones for it get fatigued and fire less. Look at white, and the other two shout louder, so you see the opposite colour."
+    ],
+    [
+     "The test",
+     "Look at the white dot in the green disc for 30 seconds without moving your eyes. Then look at a blank white wall. You should see a magenta disc that follows your gaze and fades over several seconds."
+    ],
+    [
+     "Try variations",
+     "Stare at red and you see cyan. Stare at blue and you see yellow. Half-cover the shape and the ghost has a hard edge. Blink and it jumps."
+    ],
+    [
+     "Mix light yourself",
+     "Red + green light = yellow. All three = white. Your screen does this with every pixel."
+    ]
+   ],
+   "rel": [
+    "neuron",
+    "fabric"
+   ],
+   "src": "Science Buddies · PhET",
+   "hot": 0,
+   "big": 0,
+   "art": "after"
+  },
+  {
+   "id": "neuron",
+   "dom": "life",
+   "lab": "Nobel · Medicine",
+   "cap": "Pond algae gave scientists a light switch for brain cells",
+   "p1": "An alga steers toward light with a protein that opens like a gate under blue light. Put that gene in a neuron, shine a light, the neuron fires on command.",
+   "p2": "Memory, fear, sleep and tremors are all being mapped this way. 2026 Nobel in Medicine.",
+   "deep": [
+    [
+     "The trick",
+     "Neurons fire when charged atoms rush through gates in their membrane. Channelrhodopsin, a protein from a pond alga, is a gate that opens when blue light hits it. Insert its gene into a neuron and you have a cell that fires whenever you flash it."
+    ],
+    [
+     "Who did what",
+     "Peter Hegemann and Georg Nagel found and decoded the algal protein. Karl Deisseroth, a psychiatrist and engineer at Stanford, got it working in brain cells in 2005 and built the tools to use it in living animals."
+    ],
+    [
+     "Why it's a big deal",
+     "Before this you could only stimulate a lump of brain with electricity. Now you can switch one exact type of cell on or off with millisecond timing and watch what changes: a memory, a craving, a tremor."
+    ],
+    [
+     "Already in people",
+     "Light-sensitive proteins have been put into the eyes of a blind patient, who regained partial vision. Medicine Nobel 2026, awarded 5 October."
+    ]
+   ],
+   "rel": [
+    "after",
+    "mosquito",
+    "ice"
+   ],
+   "src": "NobelPrize.org",
+   "hot": 0,
+   "big": 0,
+   "art": "neuron"
   }
  ]
 }
