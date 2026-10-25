@@ -1,8 +1,8 @@
 {
- "edition": "02b",
+ "edition": "03",
  "level": "High school",
- "date": "2026-10-25",
- "dateLabel": "Sun 25 Oct 2026",
+ "date": "2026-10-26",
+ "dateLabel": "Mon 26 Oct 2026",
  "week": [
   {
    "d": "FRI",
@@ -10,43 +10,381 @@
    "id": "artemis"
   },
   {
-   "d": "NEW",
-   "t": "Using AI: the 17% result, and what 30 scientists agree on",
-   "id": "ai17"
-  },
-  {
-   "d": "FRI",
-   "t": "Swift telescope retires after 22 years and 2,000 explosions",
-   "id": "swift"
-  },
-  {
-   "d": "FRI",
-   "t": "Dragonfly flies its first simulated flight for Titan",
-   "id": "dragonfly"
+   "d": "THU",
+   "t": "Roman telescope passes checkout, enters final commissioning",
+   "id": "roman"
   },
   {
    "d": "THU",
-   "t": "The first green star",
-   "id": "green"
+   "t": "Psyche fires up for the asteroid belt",
+   "id": "psyche"
   },
   {
-   "d": "SAT",
-   "t": "Singapore PSI hits 151",
-   "id": "haze2"
+   "d": "SUN",
+   "t": "Haze eases: PSI 91–107, showers",
+   "id": "haze3"
   },
   {
-   "d": "6–7 OCT",
-   "t": "Nobel week: ghost particles, light-switch neurons",
-   "id": "ice"
+   "d": "FRI",
+   "t": "Malaria parasite caught breaking into a blood cell",
+   "id": "malaria"
+  },
+  {
+   "d": "TUE",
+   "t": "Charged raindrops eat through metal",
+   "id": "rain"
   }
  ],
  "tiles": [
   {
+   "id": "roman",
+   "dom": "space",
+   "hot": 1,
+   "big": 1,
+   "art": "lens",
+   "cap": "NASA's next giant telescope passed checkout. It sees 100 million times fainter than you.",
+   "num": "100 million×",
+   "nums": "fainter than the human eye can see: Roman’s Wide Field Instrument",
+   "p1": "The Nancy Grace Roman Space Telescope has finished its checkout and moved into science commissioning: test observations that calibrate its instruments and sharpen image quality before real science begins. Senior project scientist Julie McEnery says the observatory is fully functional. NASA adds that some systems are performing even better than required.",
+   "p2": "Thursday’s update. Meanwhile Hubble has been photographing gravitational lenses to get Roman’s map ready.",
+   "deep": [
+    [
+     "The crowded-field worry",
+     "One concern was that Roman’s guidance system might struggle to lock onto stars in crowded star fields and dusty nebulae. Operations project scientist Tom Barclay reports those tests went well."
+    ],
+    [
+     "Why tiny flaws matter",
+     "Josh Schlieder, the Wide Field Instrument scientist, says image flaws must be minimised because small imperfections could hide faint signals. The instrument can detect objects about a hundred million times fainter than the human eye can see."
+    ],
+    [
+     "Hubble is drawing the map",
+     "Hubble photographs one gravitational lens at a time; Roman’s much wider view should catch a far larger sample. Astronomers are using Hubble’s sharp images to build a computer model for analysing Roman’s big pictures, and Hubble will follow up on the interesting lenses Roman finds."
+    ],
+    [
+     "What a lens tells you",
+     "In one Hubble image, an elliptical galaxy about 4.5 billion light-years away bends the light of a galaxy about 8 billion light-years away into an arc, with a smaller flipped copy on the other side. Visible matter cannot account for the bending, so the distortion lets researchers work out how much dark matter the foreground galaxy holds."
+    ]
+   ],
+   "rel": [
+    "psyche",
+    "heli",
+    "artemis"
+   ],
+   "src": "NASA Goddard · Hubble mission team"
+  },
+  {
+   "id": "psyche",
+   "dom": "space",
+   "hot": 1,
+   "art": "psyche",
+   "cap": "NASA’s Psyche is crossing to the asteroid belt with its engines on nearly 90% of the time.",
+   "num": "250 mN",
+   "nums": "of thrust from xenon ion engines, running nearly 90% of the time until 2029",
+   "p1": "After a Mars gravity assist, Psyche has fired its electric thrusters nearly non-stop since 28 September, pausing once a week to check in with Earth. The Hall-effect thrusters push with up to 250 millinewtons by firing out xenon ions, and navigation lead Don Han says they will run nearly 90% of the time until arrival.",
+   "p2": "Target: a metal-rich asteroid about 280 km across thought to be the partial core of a planetesimal, a building block of an early planet. Orbit by summer 2029.",
+   "deep": [
+    [
+     "Fuel",
+     "It launched in October 2023 with about 1,090 kg of xenon and has used roughly a third in three years."
+    ],
+    [
+     "Powered by sunlight",
+     "Two five-panel solar arrays with 75 square metres of collecting area run the thrusters. Propulsion engineer Steve Snyder says they fire at full power for three months, then throttle down to about half as sunlight weakens further out."
+    ],
+    [
+     "The twist problem",
+     "The swirling ions give the spacecraft a slight twisting force. Reaction wheels absorb it, and periodic manoeuvres dump the built-up momentum."
+    ],
+    [
+     "Why Mars first",
+     "Principal investigator Lindy Elkins-Tanton says the Mars flyby let the team calibrate instruments and rehearse for the asteroid encounter. Her line: “cruising with confidence deeper into the solar system, powered by sunlight”."
+    ]
+   ],
+   "rel": [
+    "roman",
+    "heli",
+    "artemis"
+   ],
+   "src": "NASA / JPL"
+  },
+  {
+   "id": "heli",
+   "dom": "space",
+   "art": "mars",
+   "cap": "Ingenuity flew 0.7 km in one go. New blades could take a Mars helicopter 18.7 km.",
+   "num": "18.7 km",
+   "nums": "in one uninterrupted flight, carrying scientific instruments",
+   "p1": "NASA Ames, with Imperial College London and Nagoya University, designed a thinner, asymmetrical rotor blade shape called roamx-0201 using simulations tuned to Mars conditions. In wind tunnel tests it performed better and recovered better in risky flight conditions. Ingenuity, the first powered aircraft on another planet, could cover 0.7 km in one flight; the new blades could stretch that to as much as 18.7 km.",
+   "p2": "Paper published 22 September. Not Mars-ready yet: engineers are still closing the gap between what the computer predicts and what the wind tunnel shows.",
+   "deep": [
+    [
+     "The speed-of-sound wall",
+     "The speed of sound is lower on Mars than on Earth, so rotor tips approach it sooner and performance drops suddenly. The new blades run longer at higher speeds before that happens."
+    ],
+    [
+     "Tripping the air on purpose",
+     "The airfoil deliberately disrupts the boundary layer of air at its leading edge, which NASA says lifts the rotorcraft more effectively than earlier designs."
+    ],
+    [
+     "Stall",
+     "Ingenuity’s blades lost performance steeply at stall. Under the conditions tested, roamx-0201 behaved much better, which could let future helicopters fly safely across a wider range of angles."
+    ],
+    [
+     "What flies next",
+     "SkyFall, due to launch in 2028, carries three helicopters to Mars with curved-edge blades like Ingenuity’s. The new shape is meant for the missions after that."
+    ]
+   ],
+   "rel": [
+    "psyche",
+    "roman",
+    "artemis"
+   ],
+   "src": "NASA Ames"
+  },
+  {
+   "id": "random",
+   "dom": "numbers",
+   "hot": 1,
+   "art": "random",
+   "cap": "Your computer can’t make a truly random number. Two boxes 30 m apart just did, provably.",
+   "num": "30 m",
+   "nums": "between the two quantum devices: too far for any signal to cross in time",
+   "p1": "Computers make “random” numbers from a formula and a starting seed, so an attacker can sometimes guess them, and the encryption keys built from them. Physicists at ETH Zurich led by Renato Renner used quantum events instead, which are random by nature, and produced numbers whose randomness they can prove with only a vanishingly small chance of error.",
+   "p2": "“When randomness is weak, the keys built from it become guessable,” says former NSA cryptographer David Holtzman.",
+   "deep": [
+    [
+     "Two flawed boxes make one perfect one",
+     "Each device has small hardware flaws that bias its output, but the two biases are unrelated. A mathematical “randomness extractor” combines the two streams so the flaws cancel."
+    ],
+    [
+     "Why 30 metres",
+     "The devices ran at the same moment in separate places, 30 m apart, so not even light could carry a signal from one to the other before each outcome was recorded. Each measured a quantum event, such as a photon passing through a light-splitting device."
+    ],
+    [
+     "The Bell test",
+     "To check the result, the team ran a Bell test, which shows a quantum outcome was not faked or planned in advance. Passing it means nobody has to trust that the devices are perfect: “device-independent” proof. Published in Nature on 27 May 2026."
+    ],
+    [
+     "An idea from 2012",
+     "Renner and a colleague proposed the method in 2012. A 2025 team at JPMorgan Chase claimed certified randomness by assuming no classical computer could ever copy its result; Renner says his result “does not require any [limits] on the capabilities of someone trying to predict the randomness”."
+    ]
+   ],
+   "rel": [
+    "primes",
+    "equation",
+    "aitry"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "equation",
+   "dom": "numbers",
+   "art": "eq",
+   "cap": "The = sign was invented in 1557 by a man tired of writing “is equal to”.",
+   "num": "1557",
+   "nums": "Robert Recorde’s The Whetstone of Witte, where = first appears",
+   "p1": "Early maths was written in sentences: “Ship one brought two hundred fish to port”, then the flounder, bream, sharks and anchovies, one by one. Welsh mathematician Robert Recorde chose two parallel lines of equal length for “equals”, reasoning that no two things can be more equal. His first example was 14x + 15 = 71.",
+   "p2": "The × sign is even younger: William Oughtred, 1631. So 5 × 4 = 20 would have made no sense to anyone before then.",
+   "deep": [
+    [
+     "What = actually says",
+     "Maths historian Clemency Montelle says the equal sign does not ask you to calculate anything. It says one side is identical to the other “even if they don’t look the same”, like 4 + 1 and 5. Think of a balance scale with the same weight on both pans."
+    ],
+    [
+     "Unknowns before x",
+     "Ancient Indian mathematicians used abbreviations for colours to stand for unknowns. Ancient Mesopotamians used words meaning length, width and area."
+    ],
+    [
+     "Why astronomers loved them",
+     "Before equations, astronomers tracked planets, Moon phases and eclipses with enormous tables of numbers built by hand. An equation is compact: put in a date and a planet’s position, get out the distance it travelled. Montelle says equations “reveal a hidden structure or numerical pattern”."
+    ],
+    [
+     "Plus and minus came first",
+     "+ and − came into use in the late 1300s and early 1400s, well before =. Robin Wilson, author of Sum Stories (2025), calls the older sentence-style maths “rhetorical algebra”."
+    ]
+   ],
+   "rel": [
+    "primes",
+    "random",
+    "aitry"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "rain",
+   "dom": "matter",
+   "art": "rain",
+   "cap": "A raindrop that slides off a leaf picks up a charge. Then it eats through metal.",
+   "p1": "Physicist Zhongyuan Ni at the Max Planck Institute for Polymer Research dripped hundreds of water drops onto copper and saw nothing. He left one experiment running; when he came back the copper looked different. His team then compared drops that had slid along leaves or building materials, picking up an electric charge, with drops placed directly: under a microscope every surface hit by charged drops was damaged. The charged water had eaten through a Teflon coating and begun corroding the copper beneath. Uncharged drops did nothing.",
+   "p2": "Ni says the effect is small, no cause for alarm, but it adds up over years on cars, ships, monuments and machinery.",
+   "deep": [
+    [
+     "Why copper and Teflon",
+     "Copper resists corrosion better than many metals and Teflon is a strong protective coating, so damage there is a hard test. Copper and gold under polystyrene, another coating, showed the same effect."
+    ],
+    [
+     "Where drops get charged",
+     "In clouds, or by sliding along a windshield, a leaf, glass or a building. The charge can then pass into materials with the right electrical properties, metals included."
+    ],
+    [
+     "What was known before",
+     "Scientists knew drops wear structures down by pounding them, and that rain can carry small amounts of corrosive compounds such as acids. It was not clear whether the charge itself does damage."
+    ],
+    [
+     "What it could change",
+     "Stefan Weber, a physicist at the University of Stuttgart not involved in the work, says the finding could lead to better anti-corrosion coatings. Published in Nature on 10 September."
+    ]
+   ],
+   "rel": [
+    "haze3",
+    "after",
+    "pea"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "malaria",
+   "dom": "life",
+   "art": "cell",
+   "cap": "The malaria parasite was caught breaking into a blood cell. It takes under a minute.",
+   "num": "600,000",
+   "nums": "deaths a year from malaria, almost 150 years after the parasite was first identified",
+   "p1": "To get inside a red blood cell, the Plasmodium parasite builds a ring called the moving junction, which briefly opens a gap in the cell’s membrane and closes it so fast that nobody could image it. Chi-Min Ho’s lab at Columbia University caught it with cryo-electron microscopy: three proteins form a dense wedge under the host membrane, a fourth ties the wedge to the parasite, and the wedge shoves the membrane’s lipids aside until the parasite slips through and the membrane reseals.",
+   "p2": "The whole break-in takes under a minute, which is also the problem: a drug aimed at it has a window of about 60 seconds.",
+   "deep": [
+    [
+     "First seen in 1880",
+     "French physician Charles Louis Alphonse Laveran identified the parasite in 1880. Malaria still kills about 600,000 people a year."
+    ],
+    [
+     "Blocking the door",
+     "Ho’s team used an AI-designed protein to jam the moving junction. It stopped invasion in test tubes; it has not yet been tested in animals for safety or effect."
+    ],
+    [
+     "Cousins use the same trick",
+     "Related parasites such as Toxoplasma and Cyclospora appear to use similar invasion machinery."
+    ],
+    [
+     "Next",
+     "The team plans to image other protein complexes involved in infection, including the sticky proteins that keep infected cells from reaching the spleen."
+    ]
+   ],
+   "rel": [
+    "pea",
+    "rain",
+    "after"
+   ],
+   "src": "Quanta Magazine"
+  },
+  {
+   "id": "pea",
+   "dom": "sg",
+   "art": "foam",
+   "cap": "A*STAR made fat-free whipped cream from pea pods. The foam held its shape for an hour.",
+   "num": "255%",
+   "nums": "overrun, the volume gained by whipping, for the pea-pod cream",
+   "p1": "Siew Bee Ng’s team at A*STAR was washing snap peas when they noticed the peas released a sticky liquid that formed bubbles on the surface. Snap peas are eaten pod and all, so they tested the whole pod as a protein source. At neutral pH the pea protein concentrate matched egg white’s foaming capacity and beat mung bean protein at emulsifying.",
+   "p2": "The likely foaming protein is RuBisCO, the abundant leaf protein at the centre of photosynthesis.",
+   "deep": [
+    [
+     "How a protein holds a bubble",
+     "When whipped, RuBisCO unfolds at the boundary between air and water and links into an elastic network that stops bubbles popping or merging. It was enriched in the foam layer."
+    ],
+    [
+     "Why bother",
+     "Plant proteins could replace egg white and dairy proteins in aerated foods like whipped cream and meringue: sustainable, and allergen-free."
+    ],
+    [
+     "The numbers",
+     "A fat-free whipped cream made with the extract reached 255% overrun and held its shape for one hour. Protein concentration and whipping speed still need tuning for more air and more stability."
+    ],
+    [
+     "Published",
+     "Food Hydrocolloids, 2026. Highlighted by A*STAR Research on 16 October."
+    ]
+   ],
+   "rel": [
+    "malaria",
+    "rain",
+    "haze3"
+   ],
+   "src": "A*STAR Research"
+  },
+  {
+   "id": "haze3",
+   "dom": "sg",
+   "hot": 1,
+   "art": "haze",
+   "cap": "Sunday’s PSI fell to 91–107. Today’s forecast: 70–100, with showers.",
+   "num": "70–100",
+   "nums": "24-hr PSI forecast for Monday 26 Oct (Moderate)",
+   "p1": "Showers fell over parts of Singapore on Sunday, and the smoke over Kalimantan stayed put instead of drifting here. By 7pm the 1-hour PM2.5 was 25 to 46 µg/m³, Band 1 (Normal), and the 24-hour PSI 91 to 107, down from 108 to 151 on Saturday.",
+   "p2": "With winds from the southwest or west and more showers expected Monday to Wednesday, NEA expects the haze situation to keep improving.",
+   "deep": [
+    [
+     "Two numbers, two jobs",
+     "NEA’s rule: use the 1-hour PM2.5 for what you do right now, and the 24-hour PSI forecast to plan ahead. Band 1 means normal activities for everyone, including children and the elderly."
+    ],
+    [
+     "What the satellite could not see",
+     "Fires show up to satellites as hotspots, but on Sunday NEA said the full extent of the hotspots and smoke could not be determined because of cloud cover."
+    ],
+    [
+     "Wind is the whole story",
+     "Smoke reaches Singapore only when the wind carries it here. With winds expected from the southwest or west, NEA says the haze risk should be lower."
+    ],
+    [
+     "The weekend in numbers",
+     "Friday 85–108. Saturday 108–151, Unhealthy. Sunday 91–107. Monday forecast 70–100."
+    ]
+   ],
+   "rel": [
+    "png",
+    "rain",
+    "pea"
+   ],
+   "src": "NEA Singapore"
+  },
+  {
+   "id": "png",
+   "dom": "earth",
+   "art": "fire",
+   "cap": "Papua New Guinea is heading for its highest fire emissions on record. The smoke stays low.",
+   "num": "90+",
+   "nums": "days in a row without rain in the Trans-Fly region of Papua New Guinea",
+   "p1": "Fires set by people spread across New Guinea through September and October while an El Niño drought dried the island. The VIIRS instrument on NOAA-20 caught thick smoke pouring off the south of the island on 11 October. By 17 October Papua New Guinea’s fires had released nearly 32 megatons of carbon, more than any other year on record at that point, and the Indonesian side more than 35, third after 2015 and 1997.",
+   "p2": "Fire scientist Guido van der Werf says 2026 is “very likely” to beat 1997 as Papua New Guinea’s record year. Wet-season rains usually arrive in early November.",
+   "deep": [
+    [
+     "Why the smoke hurts",
+     "NASA’s Robert Field: “a lot of smoke stays near the surface and causes air quality problems.” Flights were delayed and cancelled, and in some areas children and older people were told to wear masks."
+    ],
+    [
+     "How a managed fire escapes",
+     "Fires are commonly lit for crop burning, pasture, deforestation and land clearing, and hunting. In a drought they run out of control, especially in the drier south, where some areas have had only 5 to 10 percent of normal rain since August."
+    ],
+    [
+     "A new frontier",
+     "Papua lost 27,000 hectares of primary forest in 2025, nearly double 2024 and the most since 2017, according to Global Forest Watch. Yang Chen of UC Irvine calls it “Indonesia’s new deforestation frontier”."
+    ],
+    [
+     "Why Sumatra is quieter",
+     "Sumatra’s fires are relatively low, partly because so much of it is already developed; Field says most fire happens in unmanaged areas or at the edges of primary forest."
+    ]
+   ],
+   "rel": [
+    "haze3",
+    "nino2",
+    "pea"
+   ],
+   "src": "NASA Earth Observatory"
+  },
+  {
    "id": "artemis",
    "dom": "space",
    "lab": "This week · NASA",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "artemis",
    "cap": "NASA just rewrote the Moon plan. Artemis III won't land. It will rehearse.",
    "num": "14 days",
@@ -72,198 +410,11 @@
     ]
    ],
    "rel": [
-    "rover",
-    "mars",
-    "dragonfly"
+    "roman",
+    "psyche",
+    "heli"
    ],
    "src": "NASA"
-  },
-  {
-   "id": "ai17",
-   "dom": "usingai",
-   "lab": "Using AI · Evidence",
-   "hot": 1,
-   "art": "ai17",
-   "cap": "The students who got their answers from AI scored 17% worse on the test",
-   "num": "–17%",
-   "nums": "on the exam, after working with a chatbot",
-   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, 48% more problems right. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
-   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
-   "deep": [
-    [
-     "The hint-only version was different",
-     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
-    ],
-    [
-     "What the researchers concluded",
-     "The problem was not AI. It was asking for the answer instead of asking for help. Hamsa Bastani, one of the authors, called the result a cautionary tale."
-    ],
-    [
-     "Try it on yourself",
-     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
-    ]
-   ],
-   "rel": [
-    "ai30",
-    "aitry",
-    "primes"
-   ],
-   "src": "PNAS, Bastani et al. 2025 · Wharton"
-  },
-  {
-   "id": "rover",
-   "dom": "space",
-   "lab": "Moon base",
-   "art": "rover",
-   "cap": "NASA's Moon rovers must survive 14 nights in a row at minus 173 °C",
-   "num": "10 km",
-   "nums": "on one battery charge, in the dark and cold",
-   "p1": "A night on the Moon lasts about two Earth weeks and the surface drops to about minus 173 °C. NASA's progress update this week on the Moon-base rovers shows them running on solar panels and batteries, with a range of about 10 km per charge, and the big test is keeping power and warmth through the long dark and inside shadowed craters.",
-   "p2": "They are due at the lunar south pole by 2028, ready for the astronauts.",
-   "deep": [
-    [
-     "The problem",
-     "The Moon turns once every 27 days, so any spot gets about 14 days of sun and 14 of night. Solar panels give nothing in the dark and ordinary batteries fail in that cold. The rovers have to carry enough stored energy and insulation to come out the other side alive."
-    ],
-    [
-     "The other way to do it",
-     "Curiosity and Perseverance on Mars carry a radioisotope power system: the heat of a slowly decaying element makes electricity and keeps the insides warm, with no moving parts and no sunlight. Voyager 1 and 2 have run on the same idea since 1977."
-    ],
-    [
-     "Why the south pole",
-     "That is where the 2028 landings aim. Some crater floors there are permanently in shadow and hold water ice; the rovers will test driving in and out of those regions while keeping their energy."
-    ]
-   ],
-   "rel": [
-    "artemis",
-    "mars"
-   ],
-   "src": "NASA"
-  },
-  {
-   "id": "green",
-   "dom": "space",
-   "lab": "Space · First",
-   "hot": 1,
-   "art": "green",
-   "cap": "Astronomers found the first green star",
-   "p1": "Stars are supposed to be red, orange, yellow, white or blue, never green, because of how our eyes add up the colours a hot object gives off. A team at the University of Warwick found a dead star, WD J1330+6435, that would look green to a human eye, if you could get close enough.",
-   "p2": "NASA's Astronomy Picture of the Day featured it on Thursday.",
-   "deep": [
-    [
-     "Why stars are never green",
-     "A star glows across the whole rainbow at once. A star peaking in green also pours out plenty of red and blue, and your eye adds them up to white. That is why the Sun, which peaks in green, looks white from space."
-    ],
-    [
-     "How this one cheats",
-     "WD J1330+6435 is a white dwarf, the leftover core of a Sun-like star. It has swallowed rocky material from its own planets. Elements from that debris, sodium among them, sit in its atmosphere and absorb the orange part of its light; what gets through reads as green."
-    ],
-    [
-     "A rainbow of dead stars",
-     "The same team found white dwarfs that would look yellow, cyan, pink and purple. Yellow and green come from debris the star has eaten; pink, purple and cyan come from the mix of gases in its own atmosphere."
-    ]
-   ],
-   "rel": [
-    "ice",
-    "after"
-   ],
-   "src": "NASA APOD · University of Warwick"
-  },
-  {
-   "id": "swift",
-   "dom": "space",
-   "lab": "Farewell",
-   "art": "swift",
-   "cap": "A telescope built to last 2 years just retired after 22. It caught 2,000 explosions.",
-   "num": "2,000+",
-   "nums": "gamma-ray bursts caught by Swift since 2004",
-   "p1": "Gamma-ray bursts are the most powerful explosions known, and they last seconds. Swift's job was to notice one, swing round in about a minute, and stare. It did that for more than 2,000 of them before its orbit sank too low to hold steady. Its last observation was on 20 October.",
-   "p2": "It will burn up in Earth's atmosphere in the coming weeks.",
-   "deep": [
-    [
-     "The 0.03-second catch",
-     "In May 2005 a burst lasted three hundredths of a second. Swift turned fast enough to catch 11 X-ray photons of its afterglow, the first ever for a short burst. That helped show that short bursts come from two neutron stars colliding."
-    ],
-    [
-     "Why it is falling",
-     "At under 275 km up there is still a whisper of air. Over 22 years that drag pulled Swift down until the telescope could no longer hold its aim. It had no way to boost itself back up."
-    ],
-    [
-     "What it leaves",
-     "1,400 supernovae, stars seen being torn apart by black holes, about 7,000 scientific papers and 12 terabytes of public data anyone can use."
-    ]
-   ],
-   "rel": [
-    "ice",
-    "green",
-    "artemis"
-   ],
-   "src": "NASA"
-  },
-  {
-   "id": "dragonfly",
-   "dom": "space",
-   "lab": "Future · Titan",
-   "art": "dragonfly",
-   "cap": "NASA's car-sized drone for Saturn's moon just flew its first simulated flight",
-   "num": "2034",
-   "nums": "arrival at Titan after a six-year cruise",
-   "p1": "Dragonfly is a rotorcraft that will hop across Titan, the only moon with a thick atmosphere and the only other place with rivers and lakes, made of liquid methane and ethane. This week engineers ran its entire first flight on a testbed built from flight-like computers: separate from the back shell, scan the dunes, pick a safe spot, land.",
-   "p2": "Launch no earlier than 2028. Titan is too far for anyone to steer it, so it decides for itself.",
-   "deep": [
-    [
-     "Why a drone works there",
-     "Titan's air is four times denser than Earth's and gravity is one seventh. Flying is easier than on Earth; the same rotor lifts far more. On Mars, with air less than 1% as thick, the Ingenuity helicopter needed huge blades spinning very fast just to hover."
-    ],
-    [
-     "Deciding alone",
-     "Radio to Titan takes over an hour each way. Dragonfly uses cameras, motion sensors and lidar to measure slope and spot hazards, then chooses where to land, like Perseverance's AutoNav but in the air."
-    ],
-    [
-     "What it is looking for",
-     "Titan's chemistry resembles early Earth's before life. Dragonfly will sample the sand and ice at many sites over three years to see how far that chemistry got."
-    ],
-    [
-     "Next",
-     "Run the same flight on the real flight hardware, try other flight profiles, and inject faults to see whether the drone copes on its own."
-    ]
-   ],
-   "rel": [
-    "mars",
-    "artemis",
-    "rover"
-   ],
-   "src": "NASA / JHU APL"
-  },
-  {
-   "id": "mosquito",
-   "dom": "life",
-   "lab": "Life · Useful",
-   "hot": 1,
-   "art": "mosquito",
-   "cap": "Mosquitoes pick their victims by smell. Each species likes a different person.",
-   "num": "119",
-   "nums": "volunteers sniffed by three mosquito species",
-   "p1": "Researchers at Florida International University let three mosquito species smell 119 people's arms through a cage. Each species had its own favourites. Some people drew two species. Nobody drew all three.",
-   "p2": "Singapore's dengue mosquito, Aedes aegypti, went for people with less skin odour, not more.",
-   "deep": [
-    [
-     "How they tested it",
-     "Day-biting Aedes mosquitoes sniffed arms in the lab through a device that blocked biting. Night-biting Culex got nylon sleeves the volunteers had worn for hours. The team also sampled the chemicals in the air around each arm and swabbed the skin for bacteria."
-    ],
-    [
-     "What each species wanted",
-     "Aedes aegypti and Culex preferred people with weaker overall odour. Aedes albopictus, the tiger mosquito, was drawn to 13 plant-like chemicals. Certain skin bacteria attracted all three."
-    ],
-    [
-     "Why it matters here",
-     "Dengue cases track Aedes aegypti. If skin bacteria make the attractive smells, a repellent could work by changing your skin's microbes, and the attractive chemicals could bait traps instead of people."
-    ]
-   ],
-   "rel": [
-    "neuron"
-   ],
-   "src": "Science News Explores"
   },
   {
    "id": "nino2",
@@ -290,181 +441,13 @@
     ]
    ],
    "rel": [
-    "haze2",
-    "mosquito",
-    "ice"
+    "png",
+    "haze3",
+    "rain"
    ],
-   "src": "NASA Earth Observatory · NOAA"
-  },
-  {
-   "id": "haze2",
-   "dom": "sg",
-   "lab": "Singapore · Today",
-   "hot": 1,
-   "art": "haze",
-   "cap": "Saturday's haze was worse than Friday's. Today should ease.",
-   "num": "108–151",
-   "nums": "24-hr PSI at 5pm Saturday (Unhealthy)",
-   "p1": "Winds from the south carried smoke from fires in Sumatra and Kalimantan, on Borneo, over Singapore on Saturday: PSI 108 to 151 at 5pm, up from 85 to 108 on Friday. For today NEA forecasts 80 to 130 as winds turn southwest or west, and showers through Tuesday should bring it down further.",
-   "p2": "Much of the burning is on peat: ancient plant matter that smoulders underground for weeks.",
-   "deep": [
-    [
-     "Reading the numbers",
-     "PSI combines six pollutants; in haze the one that matters is PM2.5, particles 2.5 microns across, a thirtieth of a hair's width. 0 to 50 is Good, 51 to 100 Moderate, 101 to 200 Unhealthy. Above 100 the advice is to cut long runs and sport outdoors."
-    ],
-    [
-     "Why wind direction is everything",
-     "The fires are in Sumatra and Kalimantan, south and southeast of us. When the wind blows from there, smoke arrives in hours. NEA expects southwest and westerly winds from today, which should limit how much reaches Singapore."
-    ],
-    [
-     "The bigger engine",
-     "El Niño years usually mean a drier season here, and this El Niño is the one on this wall. NOAA gives it an 83% chance of staying strong into 2027, so expect repeats until the rains return."
-    ]
-   ],
-   "rel": [
-    "nino2",
-    "mosquito",
-    "fabric"
-   ],
-   "src": "NEA Singapore"
-  },
-  {
-   "id": "fabric",
-   "dom": "sg",
-   "lab": "Singapore · This week",
-   "cap": "NUS wove a touchscreen into a sleeve. It goes in the wash.",
-   "num": "96 × 54",
-   "nums": "pixels, made of 54 light-up fibres",
-   "p1": "Each fibre carries 96 LEDs and senses touch at the same time. Over 5,000 chips are linked by 20,000+ connections, all pulled through a thermal drawing process like making glass fibre. Published in Nature on 22 October.",
-   "p2": "First use: a sleeve that shows your body temperature. Led by Asst Prof Tural Khudiyev.",
-   "deep": [
-    [
-     "How you make a glowing thread",
-     "Start with a thick rod containing the LEDs and wires, heat it, and pull it into a long thin fibre, the same thermal drawing used to make fibre-optic cable. Each fibre ends up with 96 tiny LEDs along it and can sense a fingertip."
-    ],
-    [
-     "Then weave it",
-     "54 of those fibres go into ordinary fabric to make a 96 by 54 pixel screen, 168 by 105 mm, on a sleeve. Over 5,000 chips, more than 20,000 connections, and it survives the washing machine."
-    ],
-    [
-     "What it's for",
-     "Clothing that shows your temperature or heart rate, or acts as a controller for your phone, without a separate device. Led by Assistant Professor Tural Khudiyev at NUS; published in Nature on 22 October 2026."
-    ]
-   ],
-   "rel": [
-    "after",
-    "rover",
-    "primes"
-   ],
-   "src": "NUS",
-   "art": "fabric"
-  },
-  {
-   "id": "sat",
-   "dom": "sg",
-   "lab": "Singapore · Space",
-   "cap": "Singapore is sending an AI into orbit the size of a shoebox",
-   "num": "30 × 10 × 10 cm",
-   "nums": "nanosatellite with onboard AI",
-   "p1": "Singapore's space programme is building three satellites to launch in 2026, 2027 and 2028. One runs small AI models in orbit so it sends down answers, not raw photos, and tests perovskite solar cells in space for the first time.",
-   "p2": "Another carries a Singapore-built electric engine that can raise or lower a satellite's orbit.",
-   "deep": [
-    [
-     "The plan",
-     "Singapore's Office for Space Technology and Industry is funding three satellites, one launch a year in 2026, 2027 and 2028, built with NTU and local companies."
-    ],
-    [
-     "Satellite one",
-     "A 3-unit cubesat, 30 by 10 by 10 cm, that runs small AI models on board to analyse its own photos in orbit and only sends down the useful parts. It also carries perovskite solar cells, a cheaper, lighter kind never before tested in space."
-    ],
-    [
-     "Satellite two",
-     "A 16-unit, 30 kg craft with an electric engine from NTU spin-off Aliena that can raise or lower its orbit, plus a detector for atomic oxygen, the corrosive gas that eats spacecraft in very low orbits."
-    ],
-    [
-     "Satellite three",
-     "A camera from LightHaus Photonics, tested on the International Space Station, built to pick out objects about a metre across from orbit."
-    ]
-   ],
-   "rel": [
-    "mars",
-    "rover"
-   ],
-   "src": "NTU · OSTIn",
-   "art": "sat"
-  },
-  {
-   "id": "ice",
-   "dom": "matter",
-   "lab": "Nobel · Physics",
+   "src": "NASA Earth Observatory · NOAA",
    "hot": 0,
-   "big": 0,
-   "cap": "A cubic kilometre of Antarctic ice is the world's biggest telescope",
-   "num": "65 billion",
-   "nums": "neutrinos through your fingernail every second",
-   "p1": "Neutrinos fly straight through planets without noticing. IceCube buried 5,000 light sensors in South Pole ice and waits for the rare one that hits an atom and flashes. It caught neutrinos from black holes billions of light-years away.",
-   "p2": "Why now: it won the 2026 Nobel Prize in Physics on 6 October.",
-   "deep": [
-    [
-     "How you see a particle that touches nothing",
-     "Neutrinos barely interact, so you need a huge amount of stuff for one to hit. IceCube uses a cubic kilometre of clear ice as the target. When a neutrino finally smacks an atom, it kicks off a charged particle that moves faster than light does in ice and gives off a faint blue glow, which the buried sensors catch."
-    ],
-    [
-     "Why the South Pole",
-     "Ice at 1.5 to 2.5 km down is some of the clearest material on Earth, it is already there for free, and it is dark. The sensors were lowered down holes melted with hot water and have been frozen in place since 2010."
-    ],
-    [
-     "What it found",
-     "Neutrinos with millions of times the energy of anything our accelerators make, arriving from a flaring galaxy 4 billion light-years away and from our own Milky Way. We can now point at the sky and ask what is firing them, with a messenger nothing can block."
-    ],
-    [
-     "The person",
-     "Francis Halzen, 82, born in Belgium, a theorist at the University of Wisconsin who had the idea in the 1980s and spent 30 years getting it built. Physics Nobel 2026, awarded on 6 October."
-    ]
-   ],
-   "rel": [
-    "neuron",
-    "green"
-   ],
-   "src": "NobelPrize.org",
-   "art": "ice"
-  },
-  {
-   "id": "mars",
-   "dom": "space",
-   "lab": "Record",
-   "hot": 0,
-   "cap": "A Mars robot just set the off-world driving record. It drove itself.",
-   "num": "45.22 km",
-   "nums": "on Mars, as of 11 Oct",
-   "p1": "Perseverance beat Opportunity's 8-year record in half the time. 90% of it was self-driven: radio to Earth takes up to 20 minutes, so no human can steer live.",
-   "p2": "Same problem NASA's Moon-base rovers are being designed around right now.",
-   "deep": [
-    [
-     "Why it can't be driven from Earth",
-     "A radio signal takes 4 to 20 minutes to reach Mars depending on where the planets are. By the time a driver on Earth saw a rock, the rover would already have hit it. So drives are planned in the morning and the rover executes them alone."
-    ],
-    [
-     "How AutoNav works",
-     "While rolling, the rover photographs the ground ahead in stereo, builds a 3D map, scores every patch for danger, picks a path, and repeats, several times a minute. Opportunity could do a crude version about 5% of the time. Perseverance does it 90% of the time and drives up to 412 metres in a day."
-    ],
-    [
-     "The record",
-     "45.22 km on 11 October 2026, beating Opportunity's 45.16 km, set over 14 years. Perseverance did it in under six. NASA has extended its mission to the end of 2028."
-    ],
-    [
-     "What it's doing out there",
-     "Climbing the rim of Jezero Crater, an ancient lake bed, collecting rock cores in sealed tubes that a future mission is meant to bring back to Earth."
-    ]
-   ],
-   "rel": [
-    "sat",
-    "rover",
-    "ice"
-   ],
-   "src": "NASA / JPL",
-   "big": 0,
-   "art": "mars"
+   "big": 0
   },
   {
    "id": "primes",
@@ -492,7 +475,9 @@
     ]
    ],
    "rel": [
-    "ice"
+    "random",
+    "equation",
+    "aitry"
    ],
    "src": "Quanta Magazine",
    "hot": 0,
@@ -525,79 +510,14 @@
     ]
    ],
    "rel": [
-    "neuron",
-    "fabric"
+    "rain",
+    "random",
+    "aitry"
    ],
    "src": "Science Buddies · PhET",
    "hot": 0,
    "big": 0,
    "art": "after"
-  },
-  {
-   "id": "neuron",
-   "dom": "life",
-   "lab": "Nobel · Medicine",
-   "cap": "Pond algae gave scientists a light switch for brain cells",
-   "p1": "An alga steers toward light with a protein that opens like a gate under blue light. Put that gene in a neuron, shine a light, the neuron fires on command.",
-   "p2": "Memory, fear, sleep and tremors are all being mapped this way. 2026 Nobel in Medicine.",
-   "deep": [
-    [
-     "The trick",
-     "Neurons fire when charged atoms rush through gates in their membrane. Channelrhodopsin, a protein from a pond alga, is a gate that opens when blue light hits it. Insert its gene into a neuron and you have a cell that fires whenever you flash it."
-    ],
-    [
-     "Who did what",
-     "Peter Hegemann and Georg Nagel found and decoded the algal protein. Karl Deisseroth, a psychiatrist and engineer at Stanford, got it working in brain cells in 2005 and built the tools to use it in living animals."
-    ],
-    [
-     "Why it's a big deal",
-     "Before this you could only stimulate a lump of brain with electricity. Now you can switch one exact type of cell on or off with millisecond timing and watch what changes: a memory, a craving, a tremor."
-    ],
-    [
-     "Already in people",
-     "Light-sensitive proteins have been put into the eyes of a blind patient, who regained partial vision. Medicine Nobel 2026, awarded 5 October."
-    ]
-   ],
-   "rel": [
-    "after",
-    "mosquito",
-    "ice"
-   ],
-   "src": "NobelPrize.org",
-   "hot": 0,
-   "big": 0,
-   "art": "neuron"
-  },
-  {
-   "id": "ai30",
-   "dom": "usingai",
-   "lab": "Using AI · Consensus",
-   "art": "ai30",
-   "cap": "Thirty learning scientists agreed on one rule: think first, ask second",
-   "num": "30",
-   "nums": "researchers, one consensus report, October 2026",
-   "p1": "Thirty learning scientists were asked when AI helps learning and when it hurts. Their answer was not good or bad. They called it the GenAI Paradox: AI is strong at helping you consolidate what you already know, and weak, sometimes harmful, when you use it to learn something new or to do the hard thinking.",
-   "p2": "Their one-line rule: do your own first attempt, then bring in the AI.",
-   "deep": [
-    [
-     "Use it for",
-     "Testing yourself after you have learned something. Feedback on your own draft. Widening your options after you have written down your own ideas. Asking it to attack your reasoning and find the weak spot."
-    ],
-    [
-     "Don't use it for",
-     "Learning a topic from scratch. Writing the essay or doing the problem set for you. Skipping the struggle, because the struggle is where learning happens."
-    ],
-    [
-     "The caveat they added",
-     "Most research on this is still young, so these are expert judgments, not settled facts. Watch how your own memory behaves and update."
-    ]
-   ],
-   "rel": [
-    "ai17",
-    "aimit",
-    "aitry"
-   ],
-   "src": "University of Minnesota CEHD, expert consensus report, Oct 2026"
   },
   {
    "id": "aicraft",
@@ -614,7 +534,7 @@
     ],
     [
      "The readers who gave up",
-     "People who practised SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
+     "People who worked through SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
     ],
     [
      "Your list",
@@ -622,47 +542,19 @@
     ]
    ],
    "rel": [
-    "ai30",
-    "aitry"
+    "aitry",
+    "random",
+    "primes"
    ],
-   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026"
-  },
-  {
-   "id": "aimit",
-   "dom": "usingai",
-   "lab": "Using AI · MIT",
-   "art": "aimit",
-   "cap": "MIT's phrase for what a chatbot answer gives you: “the illusion of learning”",
-   "num": "8",
-   "nums": "principles in MIT's 2026 report on AI in education",
-   "p1": "MIT's report does not ban AI. Its first principle is augmentation, not automation: use AI to boost curiosity and creativity, never to replace them. Its named risks are the ones you would expect, weaker memory and confidence, giving up at the first sign of difficulty, and one you might not: fewer people. Students using AI went to fewer revision groups and asked fewer humans for help.",
-   "p2": "The point: the product of school is you, not the grade.",
-   "deep": [
-    [
-     "What MIT asks of its own students",
-     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
-    ],
-    [
-     "Why checking matters",
-     "These systems invent citations, facts and code that look perfect. MIT's rule: a human verifies, and AI is never a co-author."
-    ],
-    [
-     "Keep it human",
-     "The report pushes revision groups, office hours and in-person projects, and says AI-free work has value in itself."
-    ]
-   ],
-   "rel": [
-    "ai30",
-    "ai17",
-    "aitry"
-   ],
-   "src": "MIT, Report on AI and Education, 2026"
+   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
+   "hot": 0,
+   "big": 0
   },
   {
    "id": "aitry",
    "dom": "usingai",
    "lab": "Using AI · Try it",
-   "hot": 1,
+   "hot": 0,
    "art": "aitry",
    "cap": "Make it be wrong, then catch it",
    "p1": "Three habits the researchers say build skill instead of eroding it. One: attempt the problem first, even badly, then ask. Two: ask the AI to argue the opposite of what you think. Three: paste in your own answer and ask it to find the mistake, instead of asking for the answer.",
@@ -682,10 +574,12 @@
     ]
    ],
    "rel": [
-    "ai17",
-    "aicraft"
+    "aicraft",
+    "random",
+    "equation"
    ],
-   "src": "Science News Explores · MIT · U. Minnesota"
+   "src": "Science News Explores · MIT · U. Minnesota",
+   "big": 0
   }
  ]
 }
