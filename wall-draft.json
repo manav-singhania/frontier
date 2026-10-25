@@ -15,12 +15,12 @@
    "id": "swift"
   },
   {
-   "d": "THU",
+   "d": "FRI",
    "t": "Dragonfly flies its first simulated flight for Titan",
    "id": "dragonfly"
   },
   {
-   "d": "WED",
+   "d": "THU",
    "t": "The first green star",
    "id": "green"
   },
@@ -51,7 +51,7 @@
    "deep": [
     [
      "Three rockets, one mission",
-     "Blue Origin's Blue Moon test lander launches first into a 273-mile orbit, where it can wait up to 30 days. Orion follows on SLS days later, climbs to about 345 miles, and after two days of checks docks with it. The crew spends about two days inside, testing the cabin, controls and life support."
+     "Blue Origin's Blue Moon test lander launches first into a 273-mile orbit, where it can wait up to 30 days. Orion follows on SLS days later, climbs to about 345 miles, and after two days of checks docks with it. The crew spends about two days aboard, evaluating the lander's systems."
     ],
     [
      "Then Starship",
@@ -59,11 +59,11 @@
     ],
     [
      "Who flies",
-     "Randy Bresnik, Frank Rubio, Andre Douglas and ESA's Luca Parmitano. After the dockings they have up to five more days for spacesuit checks, sensor tests and experiments, then splash down off California."
+     "Randy Bresnik, Frank Rubio, Andre Douglas and ESA's Luca Parmitano. After the dockings they have up to five more days of tests in orbit, then splash down off California."
     ],
     [
      "Why rehearse",
-     "Docking a crew capsule to a lander the size of a building has never been done. Doing it 345 miles up, where a problem means coming home in hours, is cheaper than finding out 240,000 miles away."
+     "NASA wants to prove the capsule and the landers can meet, dock and work together before trying it at the Moon. A problem 345 miles up means coming home in hours; at the Moon, 239,000 miles away, it means days."
     ]
    ],
    "rel": [
@@ -78,23 +78,23 @@
    "dom": "space",
    "lab": "Moon base",
    "art": "rover",
-   "cap": "Why Moon rovers can't run on solar panels",
-   "num": "14 days",
-   "nums": "of darkness in every lunar night",
-   "p1": "A night on the Moon lasts about two Earth weeks and the temperature drops to around minus 170 °C. Solar panels give nothing and ordinary batteries freeze. NASA's Moon-base rovers are being built around small nuclear power modules that give steady heat and electricity through the dark.",
-   "p2": "NASA posted a progress update on these rovers this week.",
+   "cap": "NASA's Moon rovers must survive 14 nights in a row at minus 173 °C",
+   "num": "10 km",
+   "nums": "on one battery charge, in the dark and cold",
+   "p1": "A night on the Moon lasts about two Earth weeks and the surface drops to about minus 173 °C. NASA's progress update this week on the Moon-base rovers shows them running on solar panels and batteries, with a range of about 10 km per charge, and the big test is keeping power and warmth through the long dark and inside shadowed craters.",
+   "p2": "They are due at the lunar south pole by 2028, ready for the astronauts.",
    "deep": [
     [
-     "What the module does",
-     "A radioisotope power system uses the heat from a slowly decaying element to make electricity and to keep the rover's insides warm. No moving parts, no sunlight needed, and it runs for years."
+     "The problem",
+     "The Moon turns once every 27 days, so any spot gets about 14 days of sun and 14 of night. Solar panels give nothing in the dark and ordinary batteries fail in that cold. The rovers have to carry enough stored energy and insulation to come out the other side alive."
     ],
     [
-     "Same trick, other worlds",
-     "Curiosity and Perseverance on Mars run on the same idea, which is why they drive through dust storms that would kill a solar rover. Voyager 1 and 2 have been running on it since 1977."
+     "The other way to do it",
+     "Curiosity and Perseverance on Mars carry a radioisotope power system: the heat of a slowly decaying element makes electricity and keeps the insides warm, with no moving parts and no sunlight. Voyager 1 and 2 have run on the same idea since 1977."
     ],
     [
      "Why the south pole",
-     "That is where the 2028 landings aim. Some crater floors there have not seen sunlight in billions of years and hold water ice; some crater rims are lit almost all the time. The base goes between the two."
+     "That is where the 2028 landings aim. Some crater floors there are permanently in shadow and hold water ice; the rovers will test driving in and out of those regions while keeping their energy."
     ]
    ],
    "rel": [
@@ -110,8 +110,8 @@
    "hot": 1,
    "art": "green",
    "cap": "Astronomers found the first green star",
-   "p1": "Stars are supposed to be red, orange, yellow, white or blue, never green, because of how our eyes mix the colours a hot object gives off. A team at the University of Warwick found a dead star, WD J1330+6435, that would look green to a human eye.",
-   "p2": "NASA's Astronomy Picture of the Day featured it on Wednesday.",
+   "p1": "Stars are supposed to be red, orange, yellow, white or blue, never green, because of how our eyes add up the colours a hot object gives off. A team at the University of Warwick found a dead star, WD J1330+6435, that would look green to a human eye, if you could get close enough.",
+   "p2": "NASA's Astronomy Picture of the Day featured it on Thursday.",
    "deep": [
     [
      "Why stars are never green",
@@ -119,11 +119,11 @@
     ],
     [
      "How this one cheats",
-     "WD J1330+6435 is a white dwarf, the leftover core of a Sun-like star. It has been swallowing rocky debris, and those trace elements in its atmosphere absorb some colours and let others through. The filtered light that escapes reads as green."
+     "WD J1330+6435 is a white dwarf, the leftover core of a Sun-like star. It has swallowed rocky material from its own planets. Elements from that debris, sodium among them, sit in its atmosphere and absorb the orange part of its light; what gets through reads as green."
     ],
     [
      "A rainbow of dead stars",
-     "The same survey found white dwarfs that would look yellow, cyan, pink and purple. Each colour is a fingerprint of what the star has eaten, which tells astronomers what the planets around it were made of."
+     "The same team found white dwarfs that would look yellow, cyan, pink and purple. Yellow and green come from debris the star has eaten; pink, purple and cyan come from the mix of gases in its own atmosphere."
     ]
    ],
    "rel": [
@@ -140,16 +140,16 @@
    "cap": "A telescope built to last 2 years just retired after 22. It caught 2,000 explosions.",
    "num": "2,000+",
    "nums": "gamma-ray bursts caught by Swift since 2004",
-   "p1": "Gamma-ray bursts are the most powerful explosions known, and they last seconds. Swift's job was to notice one, swing round in under a minute, and stare. It did that for more than 2,000 of them before its orbit sank too low to hold steady. Its last observation was on 20 October.",
+   "p1": "Gamma-ray bursts are the most powerful explosions known, and they last seconds. Swift's job was to notice one, swing round in about a minute, and stare. It did that for more than 2,000 of them before its orbit sank too low to hold steady. Its last observation was on 20 October.",
    "p2": "It will burn up in Earth's atmosphere in the coming weeks.",
    "deep": [
     [
      "The 0.03-second catch",
-     "In May 2005 a burst lasted three hundredths of a second. Swift turned fast enough to catch 11 X-ray photons of its afterglow, the first ever for a short burst. That is how we learned short bursts come from two neutron stars colliding."
+     "In May 2005 a burst lasted three hundredths of a second. Swift turned fast enough to catch 11 X-ray photons of its afterglow, the first ever for a short burst. That helped show that short bursts come from two neutron stars colliding."
     ],
     [
      "Why it is falling",
-     "At under 275 km up there is still a whisper of air. Over 22 years that drag pulled Swift down until the telescope could no longer hold its aim. There was no engine to boost it back up."
+     "At under 275 km up there is still a whisper of air. Over 22 years that drag pulled Swift down until the telescope could no longer hold its aim. It had no way to boost itself back up."
     ],
     [
      "What it leaves",
@@ -171,12 +171,12 @@
    "cap": "NASA's car-sized drone for Saturn's moon just flew its first simulated flight",
    "num": "2034",
    "nums": "arrival at Titan after a six-year cruise",
-   "p1": "Dragonfly is a rotorcraft that will hop across Titan, the only moon with a thick atmosphere and the only other place with rivers and lakes, made of liquid methane. On Thursday engineers ran its entire first flight on the real flight computers: drop from the heat shield, scan the dunes, pick a safe spot, land.",
+   "p1": "Dragonfly is a rotorcraft that will hop across Titan, the only moon with a thick atmosphere and the only other place with rivers and lakes, made of liquid methane and ethane. This week engineers ran its entire first flight on a testbed built from flight-like computers: separate from the back shell, scan the dunes, pick a safe spot, land.",
    "p2": "Launch no earlier than 2028. Titan is too far for anyone to steer it, so it decides for itself.",
    "deep": [
     [
      "Why a drone works there",
-     "Titan's air is four times denser than Earth's and gravity is one seventh. Flying is easier than on Earth; the same rotor lifts far more. On Mars, with air 1% as thick, the Ingenuity helicopter could barely lift itself."
+     "Titan's air is four times denser than Earth's and gravity is one seventh. Flying is easier than on Earth; the same rotor lifts far more. On Mars, with air less than 1% as thick, the Ingenuity helicopter needed huge blades spinning very fast just to hover."
     ],
     [
      "Deciding alone",
@@ -185,6 +185,10 @@
     [
      "What it is looking for",
      "Titan's chemistry resembles early Earth's before life. Dragonfly will sample the sand and ice at many sites over three years to see how far that chemistry got."
+    ],
+    [
+     "Next",
+     "Run the same flight on the real flight hardware, try other flight profiles, and inject faults to see whether the drone copes on its own."
     ]
    ],
    "rel": [
@@ -233,11 +237,11 @@
    "num": "83%",
    "nums": "chance it stays strong into early 2027 (NOAA)",
    "p1": "NASA put 2026's ocean next to 1997 and 2015 using 35 years of sea-height measurements. The shape matches 1997: a tilt of warm, high water stretching to South America. This one arrived faster, and JPL's Josh Willis says it is on track to be even bigger.",
-   "p2": "1997-98 brought floods to California and drought and fire to Southeast Asia.",
+   "p2": "1997-98 brought heavy rain and floods to California, and fires to Indonesia.",
    "deep": [
     [
      "Measuring heat with a ruler",
-     "Warm water expands. Satellites that bounce radar off the sea can measure its height to a few centimetres, so a bulge in the eastern Pacific is a direct reading of stored heat."
+     "Warm water expands. Satellites that bounce radar off the sea can measure its height very precisely, so a bulge in the eastern Pacific is a direct reading of stored heat."
     ],
     [
      "Three satellites, one record",
@@ -245,7 +249,7 @@
     ],
     [
      "What it means for us",
-     "For Singapore the pattern is drier, hotter, hazier. The haze tile on this wall is the first instalment."
+     "For Singapore the pattern is typically drier, hotter, hazier. The haze tile on this wall is the first instalment."
     ]
    ],
    "rel": [
@@ -261,23 +265,23 @@
    "lab": "Singapore · Today",
    "hot": 1,
    "art": "haze",
-   "cap": "Saturday was the worst haze day so far. Today should ease.",
+   "cap": "Saturday's haze was worse than Friday's. Today should ease.",
    "num": "108–151",
    "nums": "24-hr PSI at 5pm Saturday (Unhealthy)",
-   "p1": "Southeasterly winds carried smoke from fires in Sumatra and Borneo straight over Singapore on Saturday. For today NEA forecasts PSI of 80 to 130 as winds swing to the southwest, and showers over the weekend and into Monday should bring it down further.",
-   "p2": "The fires are in peat: ancient plant matter that smoulders underground for weeks.",
+   "p1": "Winds from the south carried smoke from fires in Sumatra and Kalimantan, on Borneo, over Singapore on Saturday: PSI 108 to 151 at 5pm, up from 85 to 108 on Friday. For today NEA forecasts 80 to 130 as winds turn southwest or west, and showers through Tuesday should bring it down further.",
+   "p2": "Much of the burning is on peat: ancient plant matter that smoulders underground for weeks.",
    "deep": [
     [
      "Reading the numbers",
-     "PSI tracks fine particles 2.5 microns across, a thirtieth of a hair's width. Below 50 is Good, 51 to 100 Moderate, 101 to 200 Unhealthy. Above 100 the advice is to cut long runs and sport outdoors."
+     "PSI combines six pollutants; in haze the one that matters is PM2.5, particles 2.5 microns across, a thirtieth of a hair's width. 0 to 50 is Good, 51 to 100 Moderate, 101 to 200 Unhealthy. Above 100 the advice is to cut long runs and sport outdoors."
     ],
     [
      "Why wind direction is everything",
-     "The fires did not change between Friday and Saturday. The wind did. From the northeast, smoke misses us. From the southeast, it arrives in hours."
+     "The fires are in Sumatra and Kalimantan, south and southeast of us. When the wind blows from there, smoke arrives in hours. NEA expects southwest and westerly winds from today, which should limit how much reaches Singapore."
     ],
     [
      "The bigger engine",
-     "A dry season this severe is the El Niño on this wall. NOAA gives it an 83% chance of staying strong into 2027, so expect repeats until the rains return."
+     "El Niño years usually mean a drier season here, and this El Niño is the one on this wall. NOAA gives it an 83% chance of staying strong into 2027, so expect repeats until the rains return."
     ]
    ],
    "rel": [
