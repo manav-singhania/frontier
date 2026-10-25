@@ -3,7 +3,7 @@
 Frontier is a daily wall of high-school science for Aryav (13, Singapore). Montessori stance: he browses by appetite; nothing is assigned. The page never links out, so everything he reads is written here, from the sources below, and must be checked.
 
 ## Source list (closed)
-NASA (nasa.gov, science.nasa.gov, APOD, Earth Observatory, JPL), NOAA / NHC, NobelPrize.org, HHMI BioInteractive, PhET, Science News Explores and Science News (Society for Science), Quanta Magazine. Singapore: NEA (nea.gov.sg, haze.gov.sg), NUS News, NTU News, A*STAR. Nothing else. No Wikipedia, no YouTube, no news aggregators.
+NASA (nasa.gov, science.nasa.gov, APOD, Earth Observatory, JPL), NOAA / NHC, NobelPrize.org, HHMI BioInteractive, PhET, Science News Explores and Science News (Society for Science), Quanta Magazine. Singapore: NEA (nea.gov.sg, haze.gov.sg), NUS News, NTU News, A*STAR. For the Using AI lane only: PNAS, MIT (aiandeducation.mit.edu), University of Minnesota CEHD consensus report, and research reported by Science News Explores. Nothing else. No Wikipedia, no YouTube, no news aggregators.
 
 ## Vocabulary
 Never use: lesson, text, textbook, practice, exercise, homework, worksheet, quiz, study, classroom, assignment, grade (as school level). Say "high school", not a grade number.
@@ -12,7 +12,8 @@ Never use: lesson, text, textbook, practice, exercise, homework, worksheet, quiz
 - `edition`, `level` ("High school"), `date` (YYYY-MM-DD), `dateLabel` ("Sun 25 Oct 2026").
 - `week`: 5–6 dated items from the last 7–10 days, each pointing at a tile id.
 - `tiles`: 12–16. Roughly 60% new since the last edition, 40% strong anchors carried over (keep `hot:0`, `big:0` on carry-overs). One `big:1` lead, 2–4 `hot:1`.
-- Lanes (`dom`): space, earth, life, matter, mind, numbers, try, sg. Always at least one `sg` tile and one `try` tile (something he can do with his eyes or hands on the page itself; no external sims).
+- Lanes (`dom`): space, earth, life, matter, mind, numbers, try, sg, usingai.
+- `usingai` lane: evidence on how a high-school student should and should not use AI, framed as findings he can test on himself, never as rules. Carry one or two of the five standing tiles (ai17, ai30, aicraft, aimit, aitry) each day, rotating; replace the lead when new peer-reviewed research lands. Always at least one `sg` tile and one `try` tile (something he can do with his eyes or hands on the page itself; no external sims).
 - Each tile: `cap` (one line, a hook, under 90 chars), optional `num` + `nums` (one striking figure), `p1` (two or three sentences), `p2` (one line: why now / why here / connects to), `deep` (3–4 titled paragraphs, each 2–3 sentences), `rel` (2–3 other tile ids on this wall), `src` (credit text), `art` (an id from the ART map in index.html; reuse the closest existing one or add a new canvas function).
 - Read the interests and comments log before choosing tiles (see Signals). Lean ~70% toward what he has shown appetite for, ~30% deliberately elsewhere.
 

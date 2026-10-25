@@ -136,6 +136,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-
     <button class="chip" aria-pressed="false" data-f="numbers">Numbers</button>
     <button class="chip" aria-pressed="false" data-f="try">Try it</button>
     <button class="chip" aria-pressed="false" data-f="sg">Singapore</button>
+    <button class="chip" aria-pressed="false" data-f="usingai">Using AI</button>
   </div>
   <main class="wall" id="wall"></main>
   <section class="ask" id="ask">
@@ -151,7 +152,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-
     </div>
     <div class="hint" id="askstate"></div>
   </section>
-  <footer class="foot">Everything on this wall is written from NASA, NOAA, the Nobel Foundation, HHMI, PhET, Science News Explores, Quanta, and for Singapore: NEA, NUS and NTU. Nothing here links out. Every number is checked against its source before the wall goes up. New wall every morning. <span class="status" id="sync"></span></footer>
+  <footer class="foot">Everything on this wall is written from NASA, NOAA, the Nobel Foundation, HHMI, PhET, Science News Explores, Quanta, PNAS, MIT and the University of Minnesota, and for Singapore: NEA, NUS and NTU. Nothing here links out. Every number is checked against its source before the wall goes up. New wall every morning. <span class="status" id="sync"></span></footer>
 </div>
 
 <div class="pop" id="pop" hidden role="dialog" aria-modal="true">
@@ -263,6 +264,18 @@ mosquito:function(c,w,h){grad(c,w,h,'#f5e6c8','#e3c89a',1);var r=rnd(59);c.strok
  c.strokeStyle='#2a1f14';c.lineWidth=1.5;[[.6,.37,.5,.25],[.6,.4,.5,.42],[.63,.42,.55,.56],[.64,.37,.74,.25],[.64,.4,.74,.44],[.63,.43,.7,.58]].forEach(function(l){c.beginPath();c.moveTo(w*l[0],h*l[1]);c.lineTo(w*l[2],h*l[3]);c.stroke()});
  c.fillStyle='rgba(42,31,20,.25)';c.beginPath();c.ellipse(w*.6,h*.33,w*.04,h*.07,.4,0,7);c.fill();
  for(var k=0;k<40;k++){c.fillStyle='rgba(120,80,40,'+(.1+r()*.3)+')';c.beginPath();c.arc(r()*w,r()*h,1+r()*2.5,0,7);c.fill()}}
+,
+ai17:function(c,w,h){grad(c,w,h,'#1a0f2e','#2a1545',1);c.strokeStyle='rgba(255,255,255,.15)';for(var i=1;i<6;i++){c.beginPath();c.moveTo(w*.12,h*(.2+i*.11));c.lineTo(w*.9,h*(.2+i*.11));c.stroke()}
+ var bars=[[.22,.42,'#c3a5ff'],[.42,.75,'#5df08a'],[.62,.35,'#f2a93b']];bars.forEach(function(b){c.fillStyle=b[2];c.fillRect(w*b[0],h*(.78-b[1]*.55),w*.14,h*b[1]*.55)});
+ c.fillStyle='#ff5e5e';c.fillRect(w*.42,h*.78,w*.14,h*.07);c.fillStyle='#fff';c.font='bold '+Math.round(h*.09)+'px sans-serif';c.fillText('-17%',w*.6,h*.9)},
+ai30:function(c,w,h){grad(c,w,h,'#0f1a2e','#152848',1);var r=rnd(61);for(var i=0;i<30;i++){var x=w*(.12+(i%6)*.15),y=h*(.2+Math.floor(i/6)*.13);c.fillStyle=i<21?'#7cc7dc':'#f2a93b';c.beginPath();c.arc(x,y,h*.035,0,7);c.fill()}
+ c.strokeStyle='rgba(255,255,255,.4)';c.lineWidth=2;c.beginPath();c.moveTo(w*.08,h*.88);c.lineTo(w*.92,h*.88);c.stroke()},
+aicraft:function(c,w,h){grad(c,w,h,'#2b1d12','#4a2f1a',1);c.strokeStyle='#e0b47a';c.lineWidth=4;c.lineCap='round';for(var i=0;i<7;i++){c.beginPath();c.moveTo(w*.2,h*(.25+i*.08));c.lineTo(w*(.5+Math.sin(i)*.2),h*(.25+i*.08));c.stroke()}
+ c.fillStyle='#f2a93b';c.beginPath();c.moveTo(w*.7,h*.3);c.lineTo(w*.86,h*.46);c.lineTo(w*.7,h*.62);c.closePath();c.fill()},
+aimit:function(c,w,h){grad(c,w,h,'#2a0f0f','#4a1a1a',1);c.strokeStyle='rgba(255,255,255,.25)';c.lineWidth=2;for(var i=0;i<8;i++){c.strokeRect(w*(.12+(i%4)*.2),h*(.25+Math.floor(i/4)*.3),w*.14,h*.2)}
+ c.fillStyle='#f2a93b';c.fillRect(w*.12,h*.25,w*.14,h*.2);c.fillStyle='rgba(255,255,255,.6)';c.beginPath();c.arc(w*.5,h*.5,h*.3,0,7);c.stroke()},
+aitry:function(c,w,h){grad(c,w,h,'#0f2a1a','#14402a',1);c.strokeStyle='#5df08a';c.lineWidth=6;c.lineCap='round';c.beginPath();c.moveTo(w*.25,h*.5);c.lineTo(w*.42,h*.67);c.lineTo(w*.75,h*.33);c.stroke();
+ c.strokeStyle='#ff5e5e';c.beginPath();c.moveTo(w*.62,h*.7);c.lineTo(w*.78,h*.86);c.moveTo(w*.78,h*.7);c.lineTo(w*.62,h*.86);c.stroke()}
 
 };
 function draw(id,cv){var c=cv.getContext('2d');c.clearRect(0,0,cv.width,cv.height);(ART[id]||ART.gal)(c,cv.width,cv.height)}

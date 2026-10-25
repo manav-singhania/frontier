@@ -1,5 +1,5 @@
 {
- "edition": "02",
+ "edition": "02b",
  "level": "High school",
  "date": "2026-10-25",
  "dateLabel": "Sun 25 Oct 2026",
@@ -8,6 +8,11 @@
    "d": "FRI",
    "t": "NASA: Artemis III becomes a rehearsal, landings move to 2028",
    "id": "artemis"
+  },
+  {
+   "d": "NEW",
+   "t": "Using AI: the 17% result, and what 30 scientists agree on",
+   "id": "ai17"
   },
   {
    "d": "FRI",
@@ -72,6 +77,38 @@
     "dragonfly"
    ],
    "src": "NASA"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 1,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, 48% more problems right. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
+    ],
+    [
+     "What the researchers concluded",
+     "The problem was not AI. It was asking for the answer instead of asking for help. Hamsa Bastani, one of the authors, called the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
+    ]
+   ],
+   "rel": [
+    "ai30",
+    "aitry",
+    "primes"
+   ],
+   "src": "PNAS, Bastani et al. 2025 · Wharton"
   },
   {
    "id": "rover",
@@ -530,6 +567,125 @@
    "hot": 0,
    "big": 0,
    "art": "neuron"
+  },
+  {
+   "id": "ai30",
+   "dom": "usingai",
+   "lab": "Using AI · Consensus",
+   "art": "ai30",
+   "cap": "Thirty learning scientists agreed on one rule: think first, ask second",
+   "num": "30",
+   "nums": "researchers, one consensus report, October 2026",
+   "p1": "Thirty learning scientists were asked when AI helps learning and when it hurts. Their answer was not good or bad. They called it the GenAI Paradox: AI is strong at helping you consolidate what you already know, and weak, sometimes harmful, when you use it to learn something new or to do the hard thinking.",
+   "p2": "Their one-line rule: do your own first attempt, then bring in the AI.",
+   "deep": [
+    [
+     "Use it for",
+     "Testing yourself after you have learned something. Feedback on your own draft. Widening your options after you have written down your own ideas. Asking it to attack your reasoning and find the weak spot."
+    ],
+    [
+     "Don't use it for",
+     "Learning a topic from scratch. Writing the essay or doing the problem set for you. Skipping the struggle, because the struggle is where learning happens."
+    ],
+    [
+     "The caveat they added",
+     "Most research on this is still young, so these are expert judgments, not settled facts. Watch how your own memory behaves and update."
+    ]
+   ],
+   "rel": [
+    "ai17",
+    "aimit",
+    "aitry"
+   ],
+   "src": "University of Minnesota CEHD, expert consensus report, Oct 2026"
+  },
+  {
+   "id": "aicraft",
+   "dom": "usingai",
+   "lab": "Using AI · Quote",
+   "art": "aicraft",
+   "cap": "“Outsource the crap, not the craft”",
+   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Hand the boring, repetitive stuff to the machine. Keep for yourself anything you want to become good at, and anything you enjoy. His colleague Trent Cash at Waterloo adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
+   "p2": "Why it is not scary: Cash also says humans are resilient and AI will not turn our brains to mush. It is a choice, made daily.",
+   "deep": [
+    [
+     "The doctors who forgot",
+     "Doctors used an AI tool for three months to spot growths during colonoscopies. When it was switched off, they found fewer than before. Three months was enough for the skill to fade."
+    ],
+    [
+     "The readers who gave up",
+     "People who practised SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
+    ],
+    [
+     "Your list",
+     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+    ]
+   ],
+   "rel": [
+    "ai30",
+    "aitry"
+   ],
+   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026"
+  },
+  {
+   "id": "aimit",
+   "dom": "usingai",
+   "lab": "Using AI · MIT",
+   "art": "aimit",
+   "cap": "MIT's phrase for what a chatbot answer gives you: “the illusion of learning”",
+   "num": "8",
+   "nums": "principles in MIT's 2026 report on AI in education",
+   "p1": "MIT's report does not ban AI. Its first principle is augmentation, not automation: use AI to boost curiosity and creativity, never to replace them. Its named risks are the ones you would expect, weaker memory and confidence, giving up at the first sign of difficulty, and one you might not: fewer people. Students using AI went to fewer revision groups and asked fewer humans for help.",
+   "p2": "The point: the product of school is you, not the grade.",
+   "deep": [
+    [
+     "What MIT asks of its own students",
+     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
+    ],
+    [
+     "Why checking matters",
+     "These systems invent citations, facts and code that look perfect. MIT's rule: a human verifies, and AI is never a co-author."
+    ],
+    [
+     "Keep it human",
+     "The report pushes revision groups, office hours and in-person projects, and says AI-free work has value in itself."
+    ]
+   ],
+   "rel": [
+    "ai30",
+    "ai17",
+    "aitry"
+   ],
+   "src": "MIT, Report on AI and Education, 2026"
+  },
+  {
+   "id": "aitry",
+   "dom": "usingai",
+   "lab": "Using AI · Try it",
+   "hot": 1,
+   "art": "aitry",
+   "cap": "Make it be wrong, then catch it",
+   "p1": "Three habits the researchers say build skill instead of eroding it. One: attempt the problem first, even badly, then ask. Two: ask the AI to argue the opposite of what you think. Three: paste in your own answer and ask it to find the mistake, instead of asking for the answer.",
+   "p2": "A fourth for fun: ask it a question you already know the answer to, and see how confidently it gets it wrong.",
+   "deep": [
+    [
+     "Why this works",
+     "Every one of these keeps the thinking on your side of the screen. The AI becomes a sparring partner, not a vending machine."
+    ],
+    [
+     "Score yourself",
+     "For a week, note each time you used an AI: was it before or after your own attempt? The before-count is the one to shrink."
+    ],
+    [
+     "Tell Dad what you find",
+     "Use the box at the bottom of this wall. If one of these habits turns out useless, say so; the researchers would want to know too."
+    ]
+   ],
+   "rel": [
+    "ai17",
+    "aicraft"
+   ],
+   "src": "Science News Explores · MIT · U. Minnesota"
   }
  ]
 }
