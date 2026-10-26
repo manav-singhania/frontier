@@ -1,57 +1,365 @@
 {
- "edition": "03b",
+ "edition": "04",
  "level": "High school",
- "date": "2026-10-26",
- "dateLabel": "Mon 26 Oct 2026",
+ "date": "2026-10-27",
+ "dateLabel": "Tue 27 Oct 2026",
  "week": [
   {
-   "d": "NEW",
-   "t": "Gadgets lane: the drone that lands on the sea",
-   "id": "aqua"
+   "d": "MON",
+   "t": "Perseverance measures Mars dust clinging to spacesuit swatches",
+   "id": "dust"
+  },
+  {
+   "d": "MON",
+   "t": "PACE satellite maps autumn leaves turning red across the north",
+   "id": "leaves"
+  },
+  {
+   "d": "MON",
+   "t": "Haze eases: PSI 67–74, Tuesday forecast 60–90",
+   "id": "haze4"
   },
   {
    "d": "FRI",
-   "t": "NASA: Artemis III becomes a rehearsal, landings move to 2028",
-   "id": "artemis"
-  },
-  {
-   "d": "THU",
-   "t": "Roman telescope passes checkout, enters final commissioning",
-   "id": "roman"
-  },
-  {
-   "d": "THU",
-   "t": "Psyche fires up for the asteroid belt",
-   "id": "psyche"
-  },
-  {
-   "d": "SUN",
-   "t": "Haze eases: PSI 91–107, showers",
-   "id": "haze3"
+   "t": "Swift ends after 22 years; re-entry within weeks",
+   "id": "swiftend"
   },
   {
    "d": "FRI",
-   "t": "Malaria parasite caught breaking into a blood cell",
-   "id": "malaria"
+   "t": "Dragonfly completes its first simulated flight",
+   "id": "dfly"
   },
   {
-   "d": "TUE",
-   "t": "Charged raindrops eat through metal",
-   "id": "rain"
+   "d": "FRI",
+   "t": "Three mosquito species pick different people",
+   "id": "mosq"
   }
  ],
  "tiles": [
   {
-   "id": "roman",
+   "id": "dust",
    "dom": "space",
    "hot": 1,
    "big": 1,
+   "art": "rover",
+   "cap": "Mars dust clings to spacesuit cloth for years. Perseverance measured grains 100 nm wide.",
+   "num": "1,645",
+   "nums": "Martian days of dust measurements on five spacesuit swatches riding on Perseverance",
+   "p1": "Perseverance carries five squares of spacesuit material, each 20 mm across, on the calibration target of its SHERLOC instrument. Over 1,645 Martian days the rover’s PIXL X-ray instrument measured the dust that settled on them and on PIXL’s own Teflon and basaltic-glass targets. It found fine particles below 2.5 micrometres and ultrafine ones around 100 nanometres, far smaller than the roughly 3 micrometres earlier Mars measurements could resolve.",
+   "p2": "Published Tuesday 27 October in PNAS; lead author Scott VanBommel of Washington University in St. Louis. The findings feed into spacesuit and habitat design, dust-removal procedures and crew health standards.",
+   "deep": [
+    [
+     "Static decides what sticks",
+     "Grains pick up charge as they collide in the Martian air, and static electricity appears to decide which sizes stick to which surfaces. On PIXL’s Teflon target and SHERLOC’s Vectran swatch, particles averaged about 2 micrometres; on PIXL’s basaltic glass and SHERLOC’s Teflon swatch, sizes ran down to 100 to 300 nanometres. The finest grains stayed put through years of driving and drilling."
+    ],
+    [
+     "Why size matters for lungs",
+     "On Earth, particles below 2.5 micrometres reach deep into the lungs and can enter the bloodstream. Ultrafine particles of 100 nanometres or less can travel from the nasal cavity to the brain along the olfactory nerve. Martian dust is mostly silicate minerals and includes perchlorates, which can disrupt thyroid function, and reactive iron, which can damage cells. The risk is thought to depend on how much dust and for how long."
+    ],
+    [
+     "What is in it",
+     "Chemically the dust matches the iron- and sulfur-rich composition earlier missions measured, and PIXL found it enriched in phosphorus, with signs of calcium sulfate. Mars grains are less abrasive than Moon dust, which during Apollo scratched visors, wore outer suit layers, damaged seals and gave some crew members hay-fever-like symptoms."
+    ],
+    [
+     "Designing around it",
+     "Some materials hold less dust than others, which could guide future material and coating choices. Suitports and dual-chamber airlocks could cut how much dust gets into living quarters. In March 2025 NASA tested an Electrodynamic Dust Shield on the Moon aboard Firefly Aerospace’s Blue Ghost Mission 1, using electric fields to clear regolith from glass and radiator surfaces."
+    ]
+   ],
+   "rel": [
+    "dfly",
+    "heli",
+    "duo"
+   ],
+   "src": "NASA / JPL"
+  },
+  {
+   "id": "dfly",
+   "dom": "space",
+   "hot": 1,
+   "art": "dragonfly",
+   "cap": "NASA’s Titan drone flew its whole first flight on a computer that believes it is on Titan.",
+   "num": "2034",
+   "nums": "arrival at Titan, after launch no earlier than 2028 and a six-year voyage",
+   "p1": "Dragonfly is the rotorcraft NASA will send to Saturn’s moon Titan. In a blog post on Friday 23 October NASA said the team at Johns Hopkins APL in Laurel, Maryland had run its simulated first flight, from backshell separation to landing, in real time on flight-like avionics, the most comprehensive test of that flight so far. The computer flew on simulated data from Dragonfly’s navigation cameras, inertial measurement units and lidar, covering most of the systems and manoeuvres it will use on Titan.",
+   "p2": "Titan is too far for anyone on Earth to steer it live, so Dragonfly must fly itself. Next: the same flight on the real flight system, other flight profiles, and faults injected on purpose to confirm it recovers on its own.",
+   "deep": [
+    [
+     "Built up one rotor at a time",
+     "The team tested incrementally: first a single rotor spinning, then a short reposition flight, then a partial scouting flight, adding sensors at each step."
+    ],
+    [
+     "Faking Titan for the cameras",
+     "A custom camera emulator renders Titan scenes on GPUs and matches the 20 to 70 millisecond exposure times of the real cameras, so the flight computer sees what it would see over the dunes."
+    ],
+    [
+     "Three years of hopping",
+     "Dragonfly launches no earlier than 2028, travels for six years and arrives in 2034. It then spends three years flying between sites on Titan."
+    ],
+    [
+     "Lowering it out of the shell",
+     "Lockheed Martin engineers are testing the mechanism that lowers the rotorcraft from its stowed position inside the backshell into position for release during descent: static load tests, deployment tests, and deployments at tilted angles."
+    ]
+   ],
+   "rel": [
+    "dust",
+    "heli",
+    "swiftend"
+   ],
+   "src": "NASA / JHU APL"
+  },
+  {
+   "id": "swiftend",
+   "dom": "space",
+   "art": "swift",
+   "lab": "Farewell",
+   "cap": "Built for 2 years, Swift watched for 22 and caught 2,000 explosions. Now it falls.",
+   "num": "75",
+   "nums": "targets a day Swift could schedule, swinging to a new gamma-ray burst within about a minute",
+   "p1": "NASA’s Neil Gehrels Swift Observatory has ended its science mission. It has sunk below 275 km, where atmospheric drag is too strong for its telescopes to hold steady on a target, and it made its final observation on 20 October. Designed for a two-year primary phase, it worked more than ten times that long: over 2,000 gamma-ray bursts, more than 1,400 supernovae, stars shredded by black holes, an all-sky X-ray survey, asteroids and comets.",
+   "p2": "Re-entry is expected within a few weeks. Its public archive is about 12 terabytes, including more than 1.5 million images from its ultraviolet/optical telescope, and has fed about 7,000 papers.",
+   "deep": [
+    [
+     "The one-minute pivot",
+     "Principal investigator S. Bradley Cenko describes the job: detect a gamma-ray burst, share its position, and turn the telescopes to image it before the afterglow fades, typically within about a minute. Flexible scheduling let astronomers request rapid target-of-opportunity observations, up to 75 targets a day."
+    ],
+    [
+     "The 2005 catch",
+     "In May 2005 Swift detected the afterglow of GRB 050509B, the first short gamma-ray burst ever seen with an afterglow. Those observations supported the idea that short bursts come from two neutron stars merging."
+    ],
+    [
+     "Launched 2004, renamed 2018",
+     "Swift launched on 20 November 2004. NASA renamed it in 2018 after Neil Gehrels, its first principal investigator, following his death. Nearly 22 years of data sit in the archive."
+    ],
+    [
+     "What fills the gap",
+     "Shawn Domagal-Goldman, director of NASA’s Astrophysics Division, says Swift delivered an incredible, lasting return on investment. NASA says it will use current missions to respond rapidly to cosmic events while it looks for new ways to do so."
+    ]
+   ],
+   "rel": [
+    "roman",
+    "psyche",
+    "dfly"
+   ],
+   "src": "NASA Goddard"
+  },
+  {
+   "id": "duo",
+   "dom": "gadgets",
+   "lab": "Gadgets · New",
+   "art": "duo",
+   "cap": "Apple’s folding iPhone is 5.2 mm thin open. The crease is there; you just can’t see it.",
+   "num": "5.2 mm",
+   "nums": "thickness of the iPhone Duo open; 11.3 mm closed; 254 grams",
+   "p1": "The iPhone Duo folds a 7.6-inch OLED screen (1878 by 2670 pixels, 430 ppi) into a passport-sized phone with a 5.4-inch outer display. Open, it is 5.2 mm thick; closed, 11.3 mm; it weighs 254 grams. The hinge cover is 3D-printed from 100% recycled titanium, the enclosure is 85% recycled titanium, and the glass is Ceramic Shield 2 on the front and Ceramic Shield on the back.",
+   "p2": "TIME Best Inventions 2026. US$1,999 for 256 GB, Apple’s most expensive iPhone. TechRadar’s verdict: a fully realised folding iPhone, but Samsung’s Galaxy Z Fold 8 is lighter, thinner and slightly cheaper.",
+   "deep": [
+    [
+     "Hiding the crease",
+     "Every folding screen creases where it bends. Apple’s fix is the top layer: a matte nano-texture finish on the inner display that scatters light where the crease would show. TechRadar’s Lance Ulanoff cannot see it but can still feel it with a finger. Beneath sit custom polymer sheets, the OLED panel, a couple of glass layers and a titanium backing, bonded with flexible glue so the layers can slide as the phone folds."
+    ],
+    [
+     "The hinge",
+     "TIME reports more than 100 tiny components inside the hinge. Ulanoff says it is satisfying to use and essentially disappears when the phone is open flat. Apple’s new CEO John Ternus and five other engineers filed a patent application for foldable devices back in 2011."
+    ],
+    [
+     "The numbers inside",
+     "A20 Pro chip: Geekbench 7.1 scores of 4,007 single-core and 11,363 multi-core. Both screens run at 120 Hz and up to 3,000 nits. Apple quotes up to 44 hours of video on the outer screen and 31 on the inner; TechRadar got about 14 hours of real-world use and 13 in lab testing, and a 45 W charger reached 60% in 30 minutes. Rated IP68, 6 metres for 30 minutes; the reviewer held it under a running tap."
+    ],
+    [
+     "What reviewers found wrong",
+     "254 g is about 53 g heavier than the Galaxy Z Fold 8 and nearly 2 mm thicker folded. No Face ID, only Touch ID. The 2x zoom is a crop of the 48 MP sensor, not a true telephoto lens. Some apps look stretched on the inner screen, the right-side dock on the cover screen will divide opinion, and 256 GB is thin at this price. Apple Pencil support was still to come."
+    ]
+   ],
+   "rel": [
+    "aqua",
+    "dust",
+    "klein"
+   ],
+   "src": "Apple tech specs · TechRadar review, 21 Oct 2026 · TIME Best Inventions 2026"
+  },
+  {
+   "id": "leaves",
+   "dom": "earth",
+   "hot": 1,
+   "art": "leaves",
+   "cap": "A satellite named for plankton is now tracking autumn leaves turning red, worldwide.",
+   "num": "286",
+   "nums": "colour bands PACE’s Ocean Color Instrument sees in; a few groups of them track leaf pigments",
+   "p1": "NASA’s PACE satellite scans the planet daily across 286 spectral bands. Scientists use it to follow three leaf pigments, anthocyanins (reds), carotenoids (yellows and oranges) and chlorophylls (greens), and score autumn colour as the ratio of red, orange and yellow to green. A value near 1 means most leaves have not turned yet.",
+   "p2": "From 29 September to 4 October the reddest places were northern and eastern Russia, northern Alaska and northern Canada. By 5 to 11 October the red had moved south into the Mid-Atlantic, Mongolia and northern China.",
+   "deep": [
+    [
+     "What the map can fool you with",
+     "Not every red or yellow pixel is autumn foliage. Some farmland, clouds, and drought or insect stress change the readings too."
+    ],
+    [
+     "The ground truth",
+     "Landsat 9 caught red and orange ridges around Ripton, Vermont on 3 October, near the regional peak, in Vermont’s Green Mountains, rich in sugar maples and red maples. A GLOBE volunteer photographed leaves in Meredith, New Hampshire on 11 October. NASA data scientist Skye Caplan posts weekly PACE foliage maps and says the more ground photos, the better."
+    ],
+    [
+     "Slowly, then all at once",
+     "Caplan: “Color changes happen kind of slowly, then all at once, and then they’re gone.” Karl Huemmrich of the University of Maryland, Baltimore County calls a repeated worldwide time series of anthocyanins and carotenoids game-changing."
+    ],
+    [
+     "Why bother",
+     "Ground data checks the satellite, and the same pigment tracking can watch spring greening, the carbon cycle, wildfire risk, and early signs of drought, insect damage and plant disease."
+    ]
+   ],
+   "rel": [
+    "haze4",
+    "mosq",
+    "roman"
+   ],
+   "src": "NASA Earth Observatory"
+  },
+  {
+   "id": "mosq",
+   "dom": "life",
+   "art": "mosquito",
+   "cap": "Three mosquito species each have favourite humans. Nobody was the favourite of all three.",
+   "num": "119",
+   "nums": "volunteers sniffed by three mosquito species, without a single bite",
+   "p1": "Some people get bitten far more than others. Researchers at Florida International University, led by Kaylee Marrero with Matthew DeGennaro, let caged Aedes aegypti, Aedes albopictus and Culex quinquefasciatus smell the arms of 119 volunteers through a device that stops them biting, and counted how many approached each person’s scent. Each species preferred a different mix of people, and no one was the favourite of all three.",
+   "p2": "Mosquitoes spread dengue and Zika, so knowing whom they pick could help prevent disease. Published in iScience on 21 August 2026; reported by Science News Explores on Friday.",
+   "deep": [
+    [
+     "Day biters, night biters",
+     "The two Aedes species bite by day, so volunteers came to the lab. Culex bites at night, so volunteers wore nylon sleeves for several hours and the sleeves went into the device after dark."
+    ],
+    [
+     "What the chemistry said",
+     "The team sampled the air around each arm. Aedes aegypti and Culex quinquefasciatus were drawn to people with less skin odour. Aedes albopictus went for 13 chemicals that smell like plants. Human scent can involve more than 1,000 chemicals, so some may have been missed."
+    ],
+    [
+     "The bacteria everyone shares",
+     "Certain skin bacteria attracted all three species. Marrero’s group next wants to work out how those bacteria make the smelly compounds."
+    ],
+    [
+     "Why species differ",
+     "Possible reasons include which animals each species normally feeds on and what time of day it feeds. The findings could guide new repellents, including microbe-based ones, or scented lures for traps."
+    ]
+   ],
+   "rel": [
+    "leaves",
+    "haze4",
+    "spook"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "klein",
+   "dom": "numbers",
+   "art": "klein",
+   "cap": "Three voters can make a loop: A beats B, B beats C, C beats A. Underneath: a Klein bottle.",
+   "num": "1785",
+   "nums": "when Condorcet found the paradox; in 1951 Arrow proved no ranking method escapes it",
+   "p1": "Split voters into three equal groups. One ranks Alice, Bob, Carol; the next Bob, Carol, Alice; the last Carol, Alice, Bob. Alice beats Bob two groups to one, Bob beats Carol, and Carol beats Alice. Every voter is perfectly consistent, yet the group’s choice runs in a circle. Nicolas de Condorcet found this in 1785, and in 1951 Kenneth Arrow proved that no ranking method can satisfy four reasonable rules at once.",
+   "p2": "In 2025 Ori Livson and Mikhail Prokopenko at the University of Sydney, with Siddharth Pritam of the Chennai Mathematical Institute, showed the paradox lives on a Klein bottle: a one-sided surface with no inside, no outside and no edge.",
+   "deep": [
+    [
+     "Check it yourself",
+     "Take the three rankings above and compare each pair. Alice vs Bob: groups 1 and 3 prefer Alice. Bob vs Carol: groups 1 and 2 prefer Bob. Carol vs Alice: groups 2 and 3 prefer Carol. Three majorities, one loop."
+    ],
+    [
+     "Ballots as triangles",
+     "In 1993 Yuliy Baryshnikov drew each of the six possible rankings as a triangle, one corner for each pairwise comparison. Rankings that agree on two comparisons share an edge, so the six triangles glue into a strip, and the strip’s matching ends bend round into a tube. That tube gave a topological proof of Arrow’s theorem."
+    ],
+    [
+     "The rims he ignored",
+     "One rim of the tube reads Alice over Bob, Bob over Carol, Carol over Alice; the other runs the cycle backwards. Both are Condorcet loops. Gluing the rims straight pairs up incompatible rankings; gluing with a twist works. Livson: “Gluing with the twist is the only valid option.” Twist a strip and join it and you get a Möbius strip; twist a tube and join it and you get a Klein bottle."
+    ],
+    [
+     "Arrow’s four rules",
+     "Voters may rank candidates in any order. No single voter dictates the outcome. If everyone prefers one option to another, the group ranking agrees. And how two candidates rank should depend only on how voters compare those two. Iain McLean of Oxford: “It’s not really a mathematical debate. It’s a debate about values.”"
+    ]
+   ],
+   "rel": [
+    "after",
+    "ai30",
+    "spook"
+   ],
+   "src": "Quanta Magazine"
+  },
+  {
+   "id": "haze4",
+   "dom": "sg",
+   "hot": 1,
+   "art": "haze",
+   "cap": "Monday’s PSI fell to 67–74. Today’s forecast: 60–90, showers, haze unlikely.",
+   "num": "60–90",
+   "nums": "24-hr PSI forecast for Tuesday 27 Oct (Moderate)",
+   "p1": "Monday was cloudy over Singapore. At 6pm the 1-hour PM2.5 was 28 to 40 µg/m³, Band 1 (Normal), and the 24-hour PSI 67 to 74, Moderate, down from 91 to 107 on Sunday. Smoke haze was visible on satellite over Kalimantan but stayed there.",
+   "p2": "For Tuesday NEA expects winds from the northeast or southeast and showers over Singapore and nearby, so haze is unlikely to affect us.",
+   "deep": [
+    [
+     "The wind has swung",
+     "Sunday’s update had Monday’s wind from the southwest or west. Monday’s update has it from the northeast or southeast for Tuesday, then variable on Wednesday and Thursday with showers. NEA says the wet weather should keep hotspot and smoke haze activity suppressed."
+    ],
+    [
+     "Two numbers, two jobs",
+     "Use the PSI forecast to plan tomorrow’s outdoor activities; for right now, check the 1-hour PM2.5 on NEA’s haze site or the myENV app. How much the haze affects you depends on your health, the PSI level, and how long and how hard you are active outdoors."
+    ],
+    [
+     "What the satellite could not see",
+     "Cloud cover again stopped NEA from determining the full extent of the hotspots and haze. Lighter haze does not show up clearly from satellite."
+    ],
+    [
+     "The week in numbers",
+     "Sunday 91–107, Moderate to Unhealthy. Monday 67–74, Moderate. Tuesday forecast 60–90, Moderate."
+    ]
+   ],
+   "rel": [
+    "leaves",
+    "mosq",
+    "dust"
+   ],
+   "src": "NEA Singapore"
+  },
+  {
+   "id": "spook",
+   "dom": "mind",
+   "art": "infra",
+   "cap": "Haunted houses may hum below 20 hertz. You can’t hear it, but your spit knows.",
+   "num": "< 20 Hz",
+   "nums": "infrasound, below the lower limit of human hearing",
+   "p1": "Infrasound is sound below 20 hertz, too low to hear. Volcanoes and earthquakes make it; so do traffic, trains and air conditioning, and possibly the old plumbing and air ducts of supposedly haunted buildings. Behavioural neuroscientist Kale Scatterty at the University of Alberta had 36 people, all college students, listen to music, half of them with two subwoofers outside the room playing infrasound. The infrasound group rated the music sadder and less interesting, reported more irritability, and had more cortisol, a stress marker, in their saliva.",
+   "p2": "They could not reliably tell whether they had been exposed. Scatterty says infrasound seems to affect mood and biology without people being conscious of it. Halloween is this Saturday.",
+   "deep": [
+    [
+     "The setup",
+     "Two rooms had speakers for music, either a soothing spa-like track or an eerie horror-film tune. The subwoofers for the infrasound sat outside the rooms. Participants rated the music and their feelings, gave saliva samples, and afterwards guessed whether infrasound had been on."
+    ],
+    [
+     "How you might sense it",
+     "One possibility: the otolith organs in the ear, which sense movement and position, might pick up vibrations too low to hear. Earlier work suggested animals may detect infrasound with their bodies and that it might provoke anxiety or fear."
+    ],
+    [
+     "What it did not do",
+     "Nobody reported feeling scared or anxious. Scatterty admits the mood effect could come from the setup itself: “It could have very well just been that we were priming them to feel something.” The students might also have been irritable because they had other places to be."
+    ],
+    [
+     "Next",
+     "Long-term effects are unknown; cities with heavy infrastructure may be most exposed. The team has considered running the same measurements in a Halloween haunted house. Published 27 April 2026 in Frontiers in Behavioral Neuroscience."
+    ]
+   ],
+   "rel": [
+    "after",
+    "klein",
+    "mosq"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "roman",
+   "dom": "space",
+   "hot": 0,
+   "big": 0,
    "art": "lens",
    "cap": "NASA's next giant telescope passed checkout. It sees 100 million times fainter than you.",
    "num": "100 million×",
    "nums": "fainter than the human eye can see: Roman’s Wide Field Instrument",
    "p1": "The Nancy Grace Roman Space Telescope has finished its checkout and moved into science commissioning: test observations that calibrate its instruments and sharpen image quality before real science begins. Senior project scientist Julie McEnery says the observatory is fully functional. NASA adds that some systems are performing even better than required.",
-   "p2": "Thursday’s update. Meanwhile Hubble has been photographing gravitational lenses to get Roman’s map ready.",
+   "p2": "Last Thursday’s update. Meanwhile Hubble has been photographing gravitational lenses to get Roman’s map ready.",
    "deep": [
     [
      "The crowded-field worry",
@@ -73,14 +381,14 @@
    "rel": [
     "psyche",
     "heli",
-    "artemis"
+    "dust"
    ],
    "src": "NASA Goddard · Hubble mission team"
   },
   {
    "id": "psyche",
    "dom": "space",
-   "hot": 1,
+   "hot": 0,
    "art": "psyche",
    "cap": "NASA’s Psyche is crossing to the asteroid belt with its engines on nearly 90% of the time.",
    "num": "250 mN",
@@ -108,77 +416,10 @@
    "rel": [
     "roman",
     "heli",
-    "artemis"
+    "dust"
    ],
-   "src": "NASA / JPL"
-  },
-  {
-   "id": "aqua",
-   "dom": "gadgets",
-   "lab": "Gadgets · New",
-   "hot": 1,
-   "art": "aqua",
-   "cap": "A drone that lands on the sea, flips itself upright, and follows you at 55 km/h",
-   "num": "50 cm",
-   "nums": "how low it flies above the waves",
-   "p1": "The HoverAir Aqua is a 249-gram camera drone built for surfers and paddlers. It floats, takes off from water, and rights itself if a wave flips it. Instead of a controller it follows a small wristband, and a radar pointing straight down measures the height of each wave so it can skim half a metre above the surface.",
-   "p2": "Named one of TIME's Best Inventions of 2026. About US$1,300.",
-   "deep": [
-    [
-     "How it knows where you are",
-     "Cameras on most drones lose a person against moving water. This one tracks the wristband by radio, using RTK, the same correction trick that lets survey GPS reach centimetre accuracy instead of metres. The drone always knows exactly where the band is, even if it cannot see you."
-    ],
-    [
-     "Why the radar",
-     "Water's surface is never still, so a normal height sensor would read nonsense. A millimetre-wave radar reads the wave height many times a second and the drone adjusts, which is how it holds 50 cm without clipping a crest."
-    ],
-    [
-     "The weight is not an accident",
-     "249 g is one gram under the 250 g line where many countries' drone rules get stricter. The engineers designed to that number."
-    ],
-    [
-     "What reviewers found",
-     "It really does take off and land on water and the self-righting works. Weak points: tracking sometimes crops your head, a single water drop on the lens ruins a shot, and 23 minutes of battery goes fast. 4K at 100 frames a second from a 1/1.28-inch sensor."
-    ]
-   ],
-   "rel": [
-    "gopro"
-   ],
-   "src": "HoverAir official specs · TechRadar review · TIME Best Inventions 2026"
-  },
-  {
-   "id": "gopro",
-   "dom": "gadgets",
-   "lab": "Gadgets · New",
-   "art": "gopro",
-   "cap": "A cinema camera that weighs less than a smartphone and shoots 8K at 60 frames a second",
-   "num": "197 g",
-   "nums": "GoPro Mission 1 Pro ILS, 8K 60fps, swappable lenses",
-   "p1": "GoPro's new camera breaks its own rule: the lens comes off. A 1-inch, 50-megapixel sensor sits behind a Micro Four Thirds mount, so it takes real cinema lenses, and it records 8K at 60 frames a second or 4K at 240 for slow motion. All in 197 grams.",
-   "p2": "TIME Best Inventions 2026. US$700, lenses extra.",
-   "deep": [
-    [
-     "How much data is that",
-     "8K is 7680 by 4320 pixels, about 33 million per frame. At 60 frames a second that is 2 billion pixel values a second coming off the sensor before compression. The GP3 chip inside exists mostly to survive that flood."
-    ],
-    [
-     "Why a bigger sensor matters",
-     "A 1-inch sensor has about four times the area of a typical phone sensor. More area per pixel means more light per pixel, which means cleaner footage in the evening and more room to brighten shadows later."
-    ],
-    [
-     "What 10-bit means",
-     "Most video stores 256 levels per colour. 10-bit stores 1,024. You cannot see the difference on a phone, but when an editor pushes the colours around, 8-bit footage breaks into bands and 10-bit does not."
-    ],
-    [
-     "The trade",
-     "Interchangeable lenses mean dust can get in and the camera is no longer the drop-it-anywhere brick GoPros were. That is the price of cinema glass."
-    ]
-   ],
-   "rel": [
-    "aqua",
-    "after"
-   ],
-   "src": "GoPro specs via Y.M.Cinema · TIME Best Inventions 2026"
+   "src": "NASA / JPL",
+   "big": 0
   },
   {
    "id": "heli",
@@ -209,353 +450,48 @@
    ],
    "rel": [
     "psyche",
-    "roman",
-    "artemis"
+    "dfly",
+    "dust"
    ],
-   "src": "NASA Ames"
-  },
-  {
-   "id": "random",
-   "dom": "numbers",
-   "hot": 1,
-   "art": "random",
-   "cap": "Your computer can’t make a truly random number. Two boxes 30 m apart just did, provably.",
-   "num": "30 m",
-   "nums": "between the two quantum devices: too far for any signal to cross in time",
-   "p1": "Computers make “random” numbers from a formula and a starting seed, so an attacker can sometimes guess them, and the encryption keys built from them. Physicists at ETH Zurich led by Renato Renner used quantum events instead, which are random by nature, and produced numbers whose randomness they can prove with only a vanishingly small chance of error.",
-   "p2": "“When randomness is weak, the keys built from it become guessable,” says former NSA cryptographer David Holtzman.",
-   "deep": [
-    [
-     "Two flawed boxes make one perfect one",
-     "Each device has small hardware flaws that bias its output, but the two biases are unrelated. A mathematical “randomness extractor” combines the two streams so the flaws cancel."
-    ],
-    [
-     "Why 30 metres",
-     "The devices ran at the same moment in separate places, 30 m apart, so not even light could carry a signal from one to the other before each outcome was recorded. Each measured a quantum event, such as a photon passing through a light-splitting device."
-    ],
-    [
-     "The Bell test",
-     "To check the result, the team ran a Bell test, which shows a quantum outcome was not faked or planned in advance. Passing it means nobody has to trust that the devices are perfect: “device-independent” proof. Published in Nature on 27 May 2026."
-    ],
-    [
-     "An idea from 2012",
-     "Renner and a colleague proposed the method in 2012. A 2025 team at JPMorgan Chase claimed certified randomness by assuming no classical computer could ever copy its result; Renner says his result “does not require any [limits] on the capabilities of someone trying to predict the randomness”."
-    ]
-   ],
-   "rel": [
-    "primes",
-    "equation",
-    "aitry"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "equation",
-   "dom": "numbers",
-   "art": "eq",
-   "cap": "The = sign was invented in 1557 by a man tired of writing “is equal to”.",
-   "num": "1557",
-   "nums": "Robert Recorde’s The Whetstone of Witte, where = first appears",
-   "p1": "Early maths was written in sentences: “Ship one brought two hundred fish to port”, then the flounder, bream, sharks and anchovies, one by one. Welsh mathematician Robert Recorde chose two parallel lines of equal length for “equals”, reasoning that no two things can be more equal. His first example was 14x + 15 = 71.",
-   "p2": "The × sign is even younger: William Oughtred, 1631. So 5 × 4 = 20 would have made no sense to anyone before then.",
-   "deep": [
-    [
-     "What = actually says",
-     "Maths historian Clemency Montelle says the equal sign does not ask you to calculate anything. It says one side is identical to the other “even if they don’t look the same”, like 4 + 1 and 5. Think of a balance scale with the same weight on both pans."
-    ],
-    [
-     "Unknowns before x",
-     "Ancient Indian mathematicians used abbreviations for colours to stand for unknowns. Ancient Mesopotamians used words meaning length, width and area."
-    ],
-    [
-     "Why astronomers loved them",
-     "Before equations, astronomers tracked planets, Moon phases and eclipses with enormous tables of numbers built by hand. An equation is compact: put in a date and a planet’s position, get out the distance it travelled. Montelle says equations “reveal a hidden structure or numerical pattern”."
-    ],
-    [
-     "Plus and minus came first",
-     "+ and − came into use in the late 1300s and early 1400s, well before =. Robin Wilson, author of Sum Stories (2025), calls the older sentence-style maths “rhetorical algebra”."
-    ]
-   ],
-   "rel": [
-    "primes",
-    "random",
-    "aitry"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "rain",
-   "dom": "matter",
-   "art": "rain",
-   "cap": "A raindrop that slides off a leaf picks up a charge. Then it eats through metal.",
-   "p1": "Physicist Zhongyuan Ni at the Max Planck Institute for Polymer Research dripped hundreds of water drops onto copper and saw nothing. He left one experiment running; when he came back the copper looked different. His team then compared drops that had slid along leaves or building materials, picking up an electric charge, with drops placed directly: under a microscope every surface hit by charged drops was damaged. The charged water had eaten through a Teflon coating and begun corroding the copper beneath. Uncharged drops did nothing.",
-   "p2": "Ni says the effect is small, no cause for alarm, but it adds up over years on cars, ships, monuments and machinery.",
-   "deep": [
-    [
-     "Why copper and Teflon",
-     "Copper resists corrosion better than many metals and Teflon is a strong protective coating, so damage there is a hard test. Copper and gold under polystyrene, another coating, showed the same effect."
-    ],
-    [
-     "Where drops get charged",
-     "In clouds, or by sliding along a windshield, a leaf, glass or a building. The charge can then pass into materials with the right electrical properties, metals included."
-    ],
-    [
-     "What was known before",
-     "Scientists knew drops wear structures down by pounding them, and that rain can carry small amounts of corrosive compounds such as acids. It was not clear whether the charge itself does damage."
-    ],
-    [
-     "What it could change",
-     "Stefan Weber, a physicist at the University of Stuttgart not involved in the work, says the finding could lead to better anti-corrosion coatings. Published in Nature on 10 September."
-    ]
-   ],
-   "rel": [
-    "haze3",
-    "after",
-    "pea"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "malaria",
-   "dom": "life",
-   "art": "cell",
-   "cap": "The malaria parasite was caught breaking into a blood cell. It takes under a minute.",
-   "num": "600,000",
-   "nums": "deaths a year from malaria, almost 150 years after the parasite was first identified",
-   "p1": "To get inside a red blood cell, the Plasmodium parasite builds a ring called the moving junction, which briefly opens a gap in the cell’s membrane and closes it so fast that nobody could image it. Chi-Min Ho’s lab at Columbia University caught it with cryo-electron microscopy: three proteins form a dense wedge under the host membrane, a fourth ties the wedge to the parasite, and the wedge shoves the membrane’s lipids aside until the parasite slips through and the membrane reseals.",
-   "p2": "The whole break-in takes under a minute, which is also the problem: a drug aimed at it has a window of about 60 seconds.",
-   "deep": [
-    [
-     "First seen in 1880",
-     "French physician Charles Louis Alphonse Laveran identified the parasite in 1880. Malaria still kills about 600,000 people a year."
-    ],
-    [
-     "Blocking the door",
-     "Ho’s team used an AI-designed protein to jam the moving junction. It stopped invasion in test tubes; it has not yet been tested in animals for safety or effect."
-    ],
-    [
-     "Cousins use the same trick",
-     "Related parasites such as Toxoplasma and Cyclospora appear to use similar invasion machinery."
-    ],
-    [
-     "Next",
-     "The team plans to image other protein complexes involved in infection, including the sticky proteins that keep infected cells from reaching the spleen."
-    ]
-   ],
-   "rel": [
-    "pea",
-    "rain",
-    "after"
-   ],
-   "src": "Quanta Magazine"
-  },
-  {
-   "id": "pea",
-   "dom": "sg",
-   "art": "foam",
-   "cap": "A*STAR made fat-free whipped cream from pea pods. The foam held its shape for an hour.",
-   "num": "255%",
-   "nums": "overrun, the volume gained by whipping, for the pea-pod cream",
-   "p1": "Siew Bee Ng’s team at A*STAR was washing snap peas when they noticed the peas released a sticky liquid that formed bubbles on the surface. Snap peas are eaten pod and all, so they tested the whole pod as a protein source. At neutral pH the pea protein concentrate matched egg white’s foaming capacity and beat mung bean protein at emulsifying.",
-   "p2": "The likely foaming protein is RuBisCO, the abundant leaf protein at the centre of photosynthesis.",
-   "deep": [
-    [
-     "How a protein holds a bubble",
-     "When whipped, RuBisCO unfolds at the boundary between air and water and links into an elastic network that stops bubbles popping or merging. It was enriched in the foam layer."
-    ],
-    [
-     "Why bother",
-     "Plant proteins could replace egg white and dairy proteins in aerated foods like whipped cream and meringue: sustainable, and allergen-free."
-    ],
-    [
-     "The numbers",
-     "A fat-free whipped cream made with the extract reached 255% overrun and held its shape for one hour. Protein concentration and whipping speed still need tuning for more air and more stability."
-    ],
-    [
-     "Published",
-     "Food Hydrocolloids, 2026. Highlighted by A*STAR Research on 16 October."
-    ]
-   ],
-   "rel": [
-    "malaria",
-    "rain",
-    "haze3"
-   ],
-   "src": "A*STAR Research"
-  },
-  {
-   "id": "haze3",
-   "dom": "sg",
-   "hot": 1,
-   "art": "haze",
-   "cap": "Sunday’s PSI fell to 91–107. Today’s forecast: 70–100, with showers.",
-   "num": "70–100",
-   "nums": "24-hr PSI forecast for Monday 26 Oct (Moderate)",
-   "p1": "Showers fell over parts of Singapore on Sunday, and the smoke over Kalimantan stayed put instead of drifting here. By 7pm the 1-hour PM2.5 was 25 to 46 µg/m³, Band 1 (Normal), and the 24-hour PSI 91 to 107, down from 108 to 151 on Saturday.",
-   "p2": "With winds from the southwest or west and more showers expected Monday to Wednesday, NEA expects the haze situation to keep improving.",
-   "deep": [
-    [
-     "Two numbers, two jobs",
-     "NEA’s rule: use the 1-hour PM2.5 for what you do right now, and the 24-hour PSI forecast to plan ahead. Band 1 means normal activities for everyone, including children and the elderly."
-    ],
-    [
-     "What the satellite could not see",
-     "Fires show up to satellites as hotspots, but on Sunday NEA said the full extent of the hotspots and smoke could not be determined because of cloud cover."
-    ],
-    [
-     "Wind is the whole story",
-     "Smoke reaches Singapore only when the wind carries it here. With winds expected from the southwest or west, NEA says the haze risk should be lower."
-    ],
-    [
-     "The weekend in numbers",
-     "Friday 85–108. Saturday 108–151, Unhealthy. Sunday 91–107. Monday forecast 70–100."
-    ]
-   ],
-   "rel": [
-    "png",
-    "rain",
-    "pea"
-   ],
-   "src": "NEA Singapore"
-  },
-  {
-   "id": "png",
-   "dom": "earth",
-   "art": "fire",
-   "cap": "Papua New Guinea is heading for its highest fire emissions on record. The smoke stays low.",
-   "num": "90+",
-   "nums": "days in a row without rain in the Trans-Fly region of Papua New Guinea",
-   "p1": "Fires set by people spread across New Guinea through September and October while an El Niño drought dried the island. The VIIRS instrument on NOAA-20 caught thick smoke pouring off the south of the island on 11 October. By 17 October Papua New Guinea’s fires had released nearly 32 megatons of carbon, more than any other year on record at that point, and the Indonesian side more than 35, third after 2015 and 1997.",
-   "p2": "Fire scientist Guido van der Werf says 2026 is “very likely” to beat 1997 as Papua New Guinea’s record year. Wet-season rains usually arrive in early November.",
-   "deep": [
-    [
-     "Why the smoke hurts",
-     "NASA’s Robert Field: “a lot of smoke stays near the surface and causes air quality problems.” Flights were delayed and cancelled, and in some areas children and older people were told to wear masks."
-    ],
-    [
-     "How a managed fire escapes",
-     "Fires are commonly lit for crop burning, pasture, deforestation and land clearing, and hunting. In a drought they run out of control, especially in the drier south, where some areas have had only 5 to 10 percent of normal rain since August."
-    ],
-    [
-     "A new frontier",
-     "Papua lost 27,000 hectares of primary forest in 2025, nearly double 2024 and the most since 2017, according to Global Forest Watch. Yang Chen of UC Irvine calls it “Indonesia’s new deforestation frontier”."
-    ],
-    [
-     "Why Sumatra is quieter",
-     "Sumatra’s fires are relatively low, partly because so much of it is already developed; Field says most fire happens in unmanaged areas or at the edges of primary forest."
-    ]
-   ],
-   "rel": [
-    "haze3",
-    "nino2",
-    "pea"
-   ],
-   "src": "NASA Earth Observatory"
-  },
-  {
-   "id": "artemis",
-   "dom": "space",
-   "lab": "This week · NASA",
-   "hot": 0,
-   "big": 0,
-   "art": "artemis",
-   "cap": "NASA just rewrote the Moon plan. Artemis III won't land. It will rehearse.",
-   "num": "14 days",
-   "nums": "in Earth orbit, 2027, four astronauts",
-   "p1": "On Friday NASA announced that Artemis III, launching in 2027, stays in Earth orbit: Orion docks with a Blue Origin test lander, then a SpaceX Starship test ship, to check every system before anyone tries the surface.",
-   "p2": "The actual landings near the Moon's south pole are now set for 2028.",
-   "deep": [
-    [
-     "Three rockets, one mission",
-     "Blue Origin's Blue Moon test lander launches first into a 273-mile orbit, where it can wait up to 30 days. Orion follows on SLS days later, climbs to about 345 miles, and after two days of checks docks with it. The crew spends about two days aboard, evaluating the lander's systems."
-    ],
-    [
-     "Then Starship",
-     "SpaceX launches a Starship Version 3 test article into a lower orbit. Orion docks with it for up to two hours. Nobody goes aboard; the point is to prove the two ships can find each other, talk, and hold together."
-    ],
-    [
-     "Who flies",
-     "Randy Bresnik, Frank Rubio, Andre Douglas and ESA's Luca Parmitano. After the dockings they have up to five more days of tests in orbit, then splash down off California."
-    ],
-    [
-     "Why rehearse",
-     "NASA wants to prove the capsule and the landers can meet, dock and work together before trying it at the Moon. A problem 345 miles up means coming home in hours; at the Moon, 239,000 miles away, it means days."
-    ]
-   ],
-   "rel": [
-    "roman",
-    "psyche",
-    "heli"
-   ],
-   "src": "NASA"
-  },
-  {
-   "id": "nino2",
-   "dom": "earth",
-   "lab": "Earth · Update",
-   "art": "nino",
-   "cap": "Satellites say this El Niño now rivals the monster of 1997",
-   "num": "83%",
-   "nums": "chance it stays strong into early 2027 (NOAA)",
-   "p1": "NASA put 2026's ocean next to 1997 and 2015 using 35 years of sea-height measurements. The shape matches 1997: a tilt of warm, high water stretching to South America. This one arrived faster, and JPL's Josh Willis says it is on track to be even bigger.",
-   "p2": "1997-98 brought heavy rain and floods to California, and fires to Indonesia.",
-   "deep": [
-    [
-     "Measuring heat with a ruler",
-     "Warm water expands. Satellites that bounce radar off the sea can measure its height very precisely, so a bulge in the eastern Pacific is a direct reading of stored heat."
-    ],
-    [
-     "Three satellites, one record",
-     "TOPEX/Poseidon measured 1997, Jason-2 measured 2015, Sentinel-6 Michael Freilich measures now. They fly almost the same track, so the maps compare cleanly."
-    ],
-    [
-     "What it means for us",
-     "For Singapore the pattern is typically drier, hotter, hazier. The haze tile on this wall is the first instalment."
-    ]
-   ],
-   "rel": [
-    "png",
-    "haze3",
-    "rain"
-   ],
-   "src": "NASA Earth Observatory · NOAA",
+   "src": "NASA Ames",
    "hot": 0,
    "big": 0
   },
   {
-   "id": "primes",
-   "dom": "numbers",
-   "lab": "Advanced",
-   "cap": "An AI proved a cousin of the hardest problem in maths",
-   "p1": "The Riemann hypothesis is a 167-year-old question about how primes are spread. On 6 October an AI settled the \"quasi-Riemann hypothesis\", a softer version, and human experts have checked it.",
-   "p2": "Mathematicians are split between \"staggering\" and \"what's left for us?\"",
+   "id": "aqua",
+   "dom": "gadgets",
+   "lab": "Gadgets · New",
+   "hot": 0,
+   "art": "aqua",
+   "cap": "A drone that lands on the sea, flips itself upright, and follows you at 55 km/h",
+   "num": "50 cm",
+   "nums": "how low it flies above the waves",
+   "p1": "The HoverAir Aqua is a 249-gram camera drone built for surfers and paddlers. It floats, takes off from water, and rights itself if a wave flips it. Instead of a controller it follows a small wristband, and a radar pointing straight down measures the height of each wave so it can skim half a metre above the surface.",
+   "p2": "Named one of TIME's Best Inventions of 2026. About US$1,300.",
    "deep": [
     [
-     "The problem",
-     "Primes look random, but the Riemann hypothesis says their spacing follows a hidden pattern tied to a function called zeta. Proving it has resisted everyone since 1859 and carries a $1 million prize."
+     "How it knows where you are",
+     "Cameras on most drones lose a person against moving water. This one tracks the wristband by radio, using RTK, the same correction trick that lets survey GPS reach centimetre accuracy instead of metres. The drone always knows exactly where the band is, even if it cannot see you."
     ],
     [
-     "What the AI did",
-     "On 6 October OpenAI released hundreds of machine-written papers. One proved the quasi-Riemann hypothesis, a strictly weaker statement that still says a lot about primes. Earlier AI claims had holes; this one has been checked line by line by mathematicians at Stanford and elsewhere and stands."
+     "Why the radar",
+     "Water's surface is never still, so a normal height sensor would read nonsense. A millimetre-wave radar reads the wave height many times a second and the drone adjusts, which is how it holds 50 cm without clipping a crest."
     ],
     [
-     "Why mathematicians are rattled",
-     "Some call it the biggest AI-for-maths result so far. Others ask what a mathematician's job is if machines can find and prove deep results. Quanta ran a piece titled 'Is AI the end of math as we know it?'"
+     "The weight is not an accident",
+     "249 g is one gram under the 250 g line where many countries' drone rules get stricter. The engineers designed to that number."
     ],
     [
-     "Your angle",
-     "Olympiad-style problems are now routine for these systems. The skills that still matter are choosing which question to ask and knowing when a proof is beautiful rather than merely correct."
+     "What reviewers found",
+     "It really does take off and land on water and the self-righting works. Weak points: tracking sometimes crops your head, a single water drop on the lens ruins a shot, and 23 minutes of battery goes fast. 4K at 100 frames a second from a 1/1.28-inch sensor."
     ]
    ],
    "rel": [
-    "random",
-    "equation",
-    "aitry"
+    "duo",
+    "dfly"
    ],
-   "src": "Quanta Magazine",
-   "hot": 0,
-   "big": 0,
-   "art": "primes"
+   "src": "HoverAir official specs · TechRadar review · TIME Best Inventions 2026",
+   "big": 0
   },
   {
    "id": "after",
@@ -583,9 +519,9 @@
     ]
    ],
    "rel": [
-    "rain",
-    "random",
-    "aitry"
+    "spook",
+    "klein",
+    "mosq"
    ],
    "src": "Science Buddies · PhET",
    "hot": 0,
@@ -593,66 +529,37 @@
    "art": "after"
   },
   {
-   "id": "aicraft",
+   "id": "ai30",
    "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Hand the boring, repetitive stuff to the machine. Keep for yourself anything you want to become good at, and anything you enjoy. His colleague Trent Cash at Waterloo adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient and AI will not turn our brains to mush. It is a choice, made daily.",
+   "lab": "Using AI · Consensus",
+   "hot": 0,
+   "big": 0,
+   "art": "ai30",
+   "cap": "Thirty learning scientists agreed on one rule: think first, ask second",
+   "num": "30",
+   "nums": "researchers, one consensus report, October 2026",
+   "p1": "Thirty learning scientists were asked when AI helps learning and when it hurts. Their answer was not good or bad. They called it the GenAI Paradox: AI is strong at helping you consolidate what you already know, and weak, sometimes harmful, when you use it to learn something new or to do the hard thinking.",
+   "p2": "Their one-line rule: do your own first attempt, then bring in the AI.",
    "deep": [
     [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. When it was switched off, they found fewer than before. Three months was enough for the skill to fade."
+     "Use it for",
+     "Testing yourself after you have learned something. Feedback on your own draft. Widening your options after you have written down your own ideas. Asking it to attack your reasoning and find the weak spot."
     ],
     [
-     "The readers who gave up",
-     "People who worked through SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
+     "Don't use it for",
+     "Learning a topic from scratch. Writing the essay or doing the problem set for you. Skipping the struggle, because the struggle is where learning happens."
     ],
     [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+     "The caveat they added",
+     "Most research on this is still young, so these are expert judgments, not settled facts. Watch how your own memory behaves and update."
     ]
    ],
    "rel": [
-    "aitry",
-    "random",
-    "primes"
+    "klein",
+    "after",
+    "duo"
    ],
-   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
-   "hot": 0,
-   "big": 0
-  },
-  {
-   "id": "aitry",
-   "dom": "usingai",
-   "lab": "Using AI · Try it",
-   "hot": 0,
-   "art": "aitry",
-   "cap": "Make it be wrong, then catch it",
-   "p1": "Three habits the researchers say build skill instead of eroding it. One: attempt the problem first, even badly, then ask. Two: ask the AI to argue the opposite of what you think. Three: paste in your own answer and ask it to find the mistake, instead of asking for the answer.",
-   "p2": "A fourth for fun: ask it a question you already know the answer to, and see how confidently it gets it wrong.",
-   "deep": [
-    [
-     "Why this works",
-     "Every one of these keeps the thinking on your side of the screen. The AI becomes a sparring partner, not a vending machine."
-    ],
-    [
-     "Score yourself",
-     "For a week, note each time you used an AI: was it before or after your own attempt? The before-count is the one to shrink."
-    ],
-    [
-     "Tell Dad what you find",
-     "Use the box at the bottom of this wall. If one of these habits turns out useless, say so; the researchers would want to know too."
-    ]
-   ],
-   "rel": [
-    "aicraft",
-    "random",
-    "equation"
-   ],
-   "src": "Science News Explores · MIT · U. Minnesota",
-   "big": 0
+   "src": "University of Minnesota CEHD, expert consensus report, Oct 2026"
   }
  ]
 }

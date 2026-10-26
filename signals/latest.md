@@ -1,7 +1,7 @@
-# Signals — updated 2026-10-26 by Claude (from the parent monitor)
+# Signals — updated 2026-10-27 by Claude (from the parent monitor read on 26 Oct; no new report available in this run)
 
-## Opened so far (retire from next edition)
-mars, fabric, sat, aitry, green (Manav's device), artemis (Manav's device)
+## Opened so far (retired)
+mars, fabric, sat, aitry, green (Manav's device), artemis (Manav's device) — all off the wall as of edition 04.
 
 ## What he does
 - Goes to the Space lane first. Clips tangible things: Perseverance rover, NUS touchscreen sleeve (clipped twice), Singapore satellites.
@@ -15,3 +15,6 @@ Manav's steer: new, tech-heavy consumer products he may find fascinating; only t
 
 ## Lean
 Space and hardware heavy; keep gadgets lane fed; one Singapore tile; keep Using AI to one tile; try an Earth or Life tile with a strong visual hook to test whether he ever goes there.
+
+## Edition 04 (Tue 27 Oct) choices made on this lean
+Lead: Perseverance Mars-dust paper (he clipped Perseverance). Gadgets: iPhone Duo new + HoverAir Aqua carried. Earth test: PACE autumn-leaves map. Life test: mosquito preferences. Numbers test: Condorcet/Klein bottle. Using AI: ai30 rotated in. Next rotation: aimit or ai17.
