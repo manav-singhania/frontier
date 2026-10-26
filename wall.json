@@ -1,9 +1,14 @@
 {
- "edition": "03",
+ "edition": "03b",
  "level": "High school",
  "date": "2026-10-26",
  "dateLabel": "Mon 26 Oct 2026",
  "week": [
+  {
+   "d": "NEW",
+   "t": "Gadgets lane: the drone that lands on the sea",
+   "id": "aqua"
+  },
   {
    "d": "FRI",
    "t": "NASA: Artemis III becomes a rehearsal, landings move to 2028",
@@ -106,6 +111,74 @@
     "artemis"
    ],
    "src": "NASA / JPL"
+  },
+  {
+   "id": "aqua",
+   "dom": "gadgets",
+   "lab": "Gadgets · New",
+   "hot": 1,
+   "art": "aqua",
+   "cap": "A drone that lands on the sea, flips itself upright, and follows you at 55 km/h",
+   "num": "50 cm",
+   "nums": "how low it flies above the waves",
+   "p1": "The HoverAir Aqua is a 249-gram camera drone built for surfers and paddlers. It floats, takes off from water, and rights itself if a wave flips it. Instead of a controller it follows a small wristband, and a radar pointing straight down measures the height of each wave so it can skim half a metre above the surface.",
+   "p2": "Named one of TIME's Best Inventions of 2026. About US$1,300.",
+   "deep": [
+    [
+     "How it knows where you are",
+     "Cameras on most drones lose a person against moving water. This one tracks the wristband by radio, using RTK, the same correction trick that lets survey GPS reach centimetre accuracy instead of metres. The drone always knows exactly where the band is, even if it cannot see you."
+    ],
+    [
+     "Why the radar",
+     "Water's surface is never still, so a normal height sensor would read nonsense. A millimetre-wave radar reads the wave height many times a second and the drone adjusts, which is how it holds 50 cm without clipping a crest."
+    ],
+    [
+     "The weight is not an accident",
+     "249 g is one gram under the 250 g line where many countries' drone rules get stricter. The engineers designed to that number."
+    ],
+    [
+     "What reviewers found",
+     "It really does take off and land on water and the self-righting works. Weak points: tracking sometimes crops your head, a single water drop on the lens ruins a shot, and 23 minutes of battery goes fast. 4K at 100 frames a second from a 1/1.28-inch sensor."
+    ]
+   ],
+   "rel": [
+    "gopro"
+   ],
+   "src": "HoverAir official specs · TechRadar review · TIME Best Inventions 2026"
+  },
+  {
+   "id": "gopro",
+   "dom": "gadgets",
+   "lab": "Gadgets · New",
+   "art": "gopro",
+   "cap": "A cinema camera that weighs less than a smartphone and shoots 8K at 60 frames a second",
+   "num": "197 g",
+   "nums": "GoPro Mission 1 Pro ILS, 8K 60fps, swappable lenses",
+   "p1": "GoPro's new camera breaks its own rule: the lens comes off. A 1-inch, 50-megapixel sensor sits behind a Micro Four Thirds mount, so it takes real cinema lenses, and it records 8K at 60 frames a second or 4K at 240 for slow motion. All in 197 grams.",
+   "p2": "TIME Best Inventions 2026. US$700, lenses extra.",
+   "deep": [
+    [
+     "How much data is that",
+     "8K is 7680 by 4320 pixels, about 33 million per frame. At 60 frames a second that is 2 billion pixel values a second coming off the sensor before compression. The GP3 chip inside exists mostly to survive that flood."
+    ],
+    [
+     "Why a bigger sensor matters",
+     "A 1-inch sensor has about four times the area of a typical phone sensor. More area per pixel means more light per pixel, which means cleaner footage in the evening and more room to brighten shadows later."
+    ],
+    [
+     "What 10-bit means",
+     "Most video stores 256 levels per colour. 10-bit stores 1,024. You cannot see the difference on a phone, but when an editor pushes the colours around, 8-bit footage breaks into bands and 10-bit does not."
+    ],
+    [
+     "The trade",
+     "Interchangeable lenses mean dust can get in and the camera is no longer the drop-it-anywhere brick GoPros were. That is the price of cinema glass."
+    ]
+   ],
+   "rel": [
+    "aqua",
+    "after"
+   ],
+   "src": "GoPro specs via Y.M.Cinema · TIME Best Inventions 2026"
   },
   {
    "id": "heli",
