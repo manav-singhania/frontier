@@ -18,3 +18,8 @@ Space and hardware heavy; keep gadgets lane fed; one Singapore tile; keep Using 
 
 ## Edition 04 (Tue 27 Oct) choices made on this lean
 Lead: Perseverance Mars-dust paper (he clipped Perseverance). Gadgets: iPhone Duo new + HoverAir Aqua carried. Earth test: PACE autumn-leaves map. Life test: mosquito preferences. Numbers test: Condorcet/Klein bottle. Using AI: ai30 rotated in. Next rotation: aimit or ai17.
+
+## Edition 05 live (Wed 28 Oct 2026) — written by Claude, no new monitor report available this run
+Tiles now live: neo (lead), rs25, lander, berg, crimson, framework, duo, cells, vampire, calm, haze5, ai17, dust, dfly, klein.
+New this edition: neo, rs25, lander, berg, crimson, framework, cells, vampire, calm, haze5; ai17 rotated in (ai30 rested). Carried: dust, dfly, duo, klein. Rotated out unopened: swiftend, leaves, mosq, spook, roman, psyche, heli, aqua, after, ai30.
+Retired for being opened: none new (opened list unchanged: mars, fabric, sat, aitry, green, artemis). Next Using AI rotation: aimit or aicraft.
