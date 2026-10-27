@@ -1,5 +1,5 @@
 {
- "edition": "05",
+ "edition": "05b",
  "level": "High school",
  "date": "2026-10-28",
  "dateLabel": "Wed 28 Oct 2026",
@@ -8,6 +8,11 @@
    "d": "TUE",
    "t": "Iceberg A-81, 1,550 km², reaches South Georgia",
    "id": "berg"
+  },
+  {
+   "d": "SAT",
+   "t": "ISRO: first Gaganyaan test flight in about two months",
+   "id": "gagan"
   },
   {
    "d": "TUE",
@@ -72,6 +77,103 @@
     "dfly"
    ],
    "src": "NASA / JPL · NEO Surveyor blog"
+  },
+  {
+   "id": "gagan",
+   "dom": "space",
+   "lab": "India · Space",
+   "hot": 1,
+   "art": "gagan",
+   "cap": "India's first astronaut capsule flies in about two months. The passenger is a robot.",
+   "num": "50",
+   "nums": "rockets a year ISRO is building toward, from 2029-30",
+   "p1": "ISRO's chairman V. Narayanan said on 25 October that Gaganyaan's first uncrewed test flight is about two months away. The crew module launches on the HLVM3 rocket from Sriharikota carrying Vyommitra, a half-humanoid robot, to test life-support and re-entry before people fly.",
+   "p2": "The crewed version: three astronauts, 400 km up, three days, splashdown in Indian waters.",
+   "deep": [
+    [
+     "What has already been tested",
+     "Separation of the crew module from the service module, the apex cover that shields the capsule's top, the parachute drop from an Air Force helicopter, and the system that flips the capsule upright if it lands upside down in the sea."
+    ],
+    [
+     "Why a robot first",
+     "Vyommitra monitors the cabin readings, operates switch panels and answers spoken questions, so engineers can see how the cabin behaves with a crew-shaped occupant without risking anyone."
+    ],
+    [
+     "Four launch pads",
+     "Sriharikota has two pads. A third is being added there and a fourth at Kulasekarapattinam for small rockets. Once all four are ready, Narayanan says ISRO can launch 50 rockets a year, about one a week."
+    ]
+   ],
+   "rel": [
+    "lander",
+    "rs25",
+    "neo"
+   ],
+   "src": "ISRO chairman, 25 Oct 2026, via India Strategic"
+  },
+  {
+   "id": "gps",
+   "dom": "matter",
+   "lab": "Physics · Hidden in your phone",
+   "hot": 1,
+   "art": "gps",
+   "cap": "Your phone's map only works because Einstein was right. The satellites' clocks run fast.",
+   "num": "38 µs",
+   "nums": "a day: how much a GPS clock gains over yours",
+   "p1": "GPS satellites orbit 20,000 km up at 14,000 km/h. Moving that fast makes their clocks run 7 microseconds a day slow (special relativity). Being that far from Earth's gravity makes them run 45 microseconds a day fast (general relativity). Net: 38 microseconds fast, every day.",
+   "p2": "Ignore it and your position would drift by about 10 km a day. The fix would be wrong within two minutes.",
+   "deep": [
+    [
+     "Why 38 millionths of a second matters",
+     "GPS works by timing radio signals. Light covers 300 metres in a microsecond, so a 38-microsecond error is about 11 km of position error. The system needs clocks known to 20 to 30 nanoseconds."
+    ],
+    [
+     "What the engineers did",
+     "Before launch, they set the satellite clocks to tick slightly slow, by exactly the predicted amount, so that in orbit they tick at the right rate. Einstein's 1905 and 1915 equations are built into every satellite."
+    ],
+    [
+     "Try it in your head",
+     "Stand one step higher, 33 cm, and you sit in slightly weaker gravity, so you age faster: about 90 billionths of a second more over a 79-year life. NIST measured it in 2010 with two atomic clocks. Real, measured, and useless, which is the best kind of fact."
+    ]
+   ],
+   "rel": [
+    "feyn",
+    "crimson",
+    "neo"
+   ],
+   "src": "R. Pogge, Ohio State University, Astronomy 162 · NIST 2010"
+  },
+  {
+   "id": "feyn",
+   "dom": "matter",
+   "lab": "Physics · One sentence",
+   "art": "feyn",
+   "cap": "If all science were wiped out and you could save one sentence, Feynman knew which",
+   "p1": "Richard Feynman opened his famous Caltech lectures with a question: if every bit of scientific knowledge were destroyed and only one sentence could be passed on, which carries the most? His answer: all things are made of atoms, little particles that move around in perpetual motion.",
+   "p2": "Then he shows what that sentence means with a drop of water.",
+   "deep": [
+    [
+     "Zoom one: 2,000 times",
+     "A quarter-inch drop becomes the size of a room. Still smooth water, but now football-shaped creatures, paramecia, swim through it."
+    ],
+    [
+     "Zoom two: 4 million times",
+     "The drop is 15 miles across. It no longer looks smooth. It looks like a stadium crowd seen from far away: something is seething."
+    ],
+    [
+     "Zoom three: a billion times",
+     "The drop would stretch 250 times more. Now you see it: black circles, oxygen atoms, each with two white hydrogen atoms attached. They pull toward each other, and push back if squeezed too close."
+    ],
+    [
+     "Why they never stop",
+     "The jiggling is heat. Heat the water and the jiggling grows until atoms fly off as steam; cool it and they lock into ice. Even at the coldest possible temperature there is a minimum jiggle that never goes away, which is why helium stays liquid at absolute zero unless you squeeze it."
+    ]
+   ],
+   "rel": [
+    "gps",
+    "cells",
+    "klein"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 1 (Caltech)"
   },
   {
    "id": "rs25",
