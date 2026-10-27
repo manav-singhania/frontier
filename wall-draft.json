@@ -1,146 +1,251 @@
 {
- "edition": "04",
+ "edition": "05",
  "level": "High school",
- "date": "2026-10-27",
- "dateLabel": "Tue 27 Oct 2026",
+ "date": "2026-10-28",
+ "dateLabel": "Wed 28 Oct 2026",
  "week": [
   {
-   "d": "MON",
-   "t": "Perseverance measures Mars dust clinging to spacesuit swatches",
-   "id": "dust"
+   "d": "TUE",
+   "t": "Iceberg A-81, 1,550 km², reaches South Georgia",
+   "id": "berg"
+  },
+  {
+   "d": "TUE",
+   "t": "A sickle and a padlock: Poland’s double-guarded grave",
+   "id": "vampire"
   },
   {
    "d": "MON",
-   "t": "PACE satellite maps autumn leaves turning red across the north",
-   "id": "leaves"
-  },
-  {
-   "d": "MON",
-   "t": "Haze eases: PSI 67–74, Tuesday forecast 60–90",
-   "id": "haze4"
+   "t": "NEO Surveyor’s sunshade and 864 solar cells pass their tests",
+   "id": "neo"
   },
   {
    "d": "FRI",
-   "t": "Swift ends after 22 years; re-entry within weeks",
-   "id": "swiftend"
+   "t": "NASA streamlines two Moon landers for a 2028 landing",
+   "id": "lander"
   },
   {
-   "d": "FRI",
-   "t": "Dragonfly completes its first simulated flight",
-   "id": "dfly"
+   "d": "WED",
+   "t": "RS-25 engine No. 10001 fires for 500 seconds at Stennis",
+   "id": "rs25"
   },
   {
-   "d": "FRI",
-   "t": "Three mosquito species pick different people",
-   "id": "mosq"
+   "d": "WED",
+   "t": "Nikon Small World: mitochondria on the move inside a leaf",
+   "id": "cells"
   }
  ],
  "tiles": [
   {
-   "id": "dust",
+   "id": "neo",
    "dom": "space",
+   "lab": "Space · Hardware",
    "hot": 1,
    "big": 1,
-   "art": "rover",
-   "cap": "Mars dust clings to spacesuit cloth for years. Perseverance measured grains 100 nm wide.",
-   "num": "1,645",
-   "nums": "Martian days of dust measurements on five spacesuit swatches riding on Perseverance",
-   "p1": "Perseverance carries five squares of spacesuit material, each 20 mm across, on the calibration target of its SHERLOC instrument. Over 1,645 Martian days the rover’s PIXL X-ray instrument measured the dust that settled on them and on PIXL’s own Teflon and basaltic-glass targets. It found fine particles below 2.5 micrometres and ultrafine ones around 100 nanometres, far smaller than the roughly 3 micrometres earlier Mars measurements could resolve.",
-   "p2": "Published Tuesday 27 October in PNAS; lead author Scott VanBommel of Washington University in St. Louis. The findings feed into spacesuit and habitat design, dust-removal procedures and crew health standards.",
+   "art": "sunshade",
+   "cap": "864 solar cells on a 6-metre sunshade: NASA’s asteroid hunter is nearly built",
+   "num": "864",
+   "nums": "solar cells on NEO Surveyor’s sunshade, together making up to 2 kilowatts, the spacecraft’s only power",
+   "p1": "NEO Surveyor is the first spacecraft NASA has built specifically to find large numbers of potentially hazardous asteroids and comets. Its sunshade, built by Applied Aerospace in Stockton, California, stands 6 metres tall and 2.4 metres wide at the base: two flat panels joined at an angle of 23.5 degrees. Its main job is to block the Sun’s glare and keep the telescope cool; it also carries 864 solar cells, the spacecraft’s only source of power, which charge the batteries on board.",
+   "p2": "NASA blog update Monday 26 October. Launch is no earlier than September 2027. Dark asteroids reflect little visible light but glow in infrared as the Sun warms them, and infrared is what this telescope sees.",
    "deep": [
     [
-     "Static decides what sticks",
-     "Grains pick up charge as they collide in the Martian air, and static electricity appears to decide which sizes stick to which surfaces. On PIXL’s Teflon target and SHERLOC’s Vectran swatch, particles averaged about 2 micrometres; on PIXL’s basaltic glass and SHERLOC’s Teflon swatch, sizes ran down to 100 to 300 nanometres. The finest grains stayed put through years of driving and drilling."
+     "The eye",
+     "The telescope’s aperture is 50 cm. Two infrared detector arrays each build a 16-megapixel mosaic of the sky. Seeing an object in two infrared bands lets scientists estimate its temperature, and from that, its size."
     ],
     [
-     "Why size matters for lungs",
-     "On Earth, particles below 2.5 micrometres reach deep into the lungs and can enter the bloodstream. Ultrafine particles of 100 nanometres or less can travel from the nasal cavity to the brain along the olfactory nerve. Martian dust is mostly silicate minerals and includes perchlorates, which can disrupt thyroid function, and reactive iron, which can damage cells. The risk is thought to depend on how much dust and for how long."
+     "Looking where ground telescopes can’t",
+     "It will watch for objects approaching from the Sun’s direction and for objects leading or trailing Earth’s orbit, places ground-based telescopes struggle with because of the Sun’s glare. It builds on NASA’s NEOWISE telescope."
     ],
     [
-     "What is in it",
-     "Chemically the dust matches the iron- and sulfur-rich composition earlier missions measured, and PIXL found it enriched in phosphorus, with signs of calcium sulfate. Mars grains are less abrasive than Moon dust, which during Apollo scratched visors, wore outer suit layers, damaged seals and gave some crew members hay-fever-like symptoms."
+     "The road so far",
+     "SolAero Technologies in Albuquerque added the 864 cells in January. Environmental testing finished in March at a thermal vacuum facility in El Segundo, California. In May the sunshade was delivered, ahead of schedule, to BAE Systems in Boulder, Colorado, and inspected in a clean room there in July."
     ],
     [
-     "Designing around it",
-     "Some materials hold less dust than others, which could guide future material and coating choices. Suitports and dual-chamber airlocks could cut how much dust gets into living quarters. In March 2025 NASA tested an Electrodynamic Dust Shield on the Moon aboard Firefly Aerospace’s Blue Ghost Mission 1, using electric fields to clear regolith from glass and radiator surfaces."
+     "Since then",
+     "Coarse Sun sensors, which help the spacecraft work out which way it is pointing, and temperature sensors have been fitted, and the solar array has passed its functional and performance tests."
     ]
    ],
    "rel": [
-    "dfly",
-    "heli",
-    "duo"
-   ],
-   "src": "NASA / JPL"
-  },
-  {
-   "id": "dfly",
-   "dom": "space",
-   "hot": 1,
-   "art": "dragonfly",
-   "cap": "NASA’s Titan drone flew its whole first flight on a computer that believes it is on Titan.",
-   "num": "2034",
-   "nums": "arrival at Titan, after launch no earlier than 2028 and a six-year voyage",
-   "p1": "Dragonfly is the rotorcraft NASA will send to Saturn’s moon Titan. In a blog post on Friday 23 October NASA said the team at Johns Hopkins APL in Laurel, Maryland had run its simulated first flight, from backshell separation to landing, in real time on flight-like avionics, the most comprehensive test of that flight so far. The computer flew on simulated data from Dragonfly’s navigation cameras, inertial measurement units and lidar, covering most of the systems and manoeuvres it will use on Titan.",
-   "p2": "Titan is too far for anyone on Earth to steer it live, so Dragonfly must fly itself. Next: the same flight on the real flight system, other flight profiles, and faults injected on purpose to confirm it recovers on its own.",
-   "deep": [
-    [
-     "Built up one rotor at a time",
-     "The team tested incrementally: first a single rotor spinning, then a short reposition flight, then a partial scouting flight, adding sensors at each step."
-    ],
-    [
-     "Faking Titan for the cameras",
-     "A custom camera emulator renders Titan scenes on GPUs and matches the 20 to 70 millisecond exposure times of the real cameras, so the flight computer sees what it would see over the dunes."
-    ],
-    [
-     "Three years of hopping",
-     "Dragonfly launches no earlier than 2028, travels for six years and arrives in 2034. It then spends three years flying between sites on Titan."
-    ],
-    [
-     "Lowering it out of the shell",
-     "Lockheed Martin engineers are testing the mechanism that lowers the rotorcraft from its stowed position inside the backshell into position for release during descent: static load tests, deployment tests, and deployments at tilted angles."
-    ]
-   ],
-   "rel": [
+    "rs25",
     "dust",
-    "heli",
-    "swiftend"
-   ],
-   "src": "NASA / JHU APL"
-  },
-  {
-   "id": "swiftend",
-   "dom": "space",
-   "art": "swift",
-   "lab": "Farewell",
-   "cap": "Built for 2 years, Swift watched for 22 and caught 2,000 explosions. Now it falls.",
-   "num": "75",
-   "nums": "targets a day Swift could schedule, swinging to a new gamma-ray burst within about a minute",
-   "p1": "NASA’s Neil Gehrels Swift Observatory has ended its science mission. It has sunk below 275 km, where atmospheric drag is too strong for its telescopes to hold steady on a target, and it made its final observation on 20 October. Designed for a two-year primary phase, it worked more than ten times that long: over 2,000 gamma-ray bursts, more than 1,400 supernovae, stars shredded by black holes, an all-sky X-ray survey, asteroids and comets.",
-   "p2": "Re-entry is expected within a few weeks. Its public archive is about 12 terabytes, including more than 1.5 million images from its ultraviolet/optical telescope, and has fed about 7,000 papers.",
-   "deep": [
-    [
-     "The one-minute pivot",
-     "Principal investigator S. Bradley Cenko describes the job: detect a gamma-ray burst, share its position, and turn the telescopes to image it before the afterglow fades, typically within about a minute. Flexible scheduling let astronomers request rapid target-of-opportunity observations, up to 75 targets a day."
-    ],
-    [
-     "The 2005 catch",
-     "In May 2005 Swift detected the afterglow of GRB 050509B, the first short gamma-ray burst ever seen with an afterglow. Those observations supported the idea that short bursts come from two neutron stars merging."
-    ],
-    [
-     "Launched 2004, renamed 2018",
-     "Swift launched on 20 November 2004. NASA renamed it in 2018 after Neil Gehrels, its first principal investigator, following his death. Nearly 22 years of data sit in the archive."
-    ],
-    [
-     "What fills the gap",
-     "Shawn Domagal-Goldman, director of NASA’s Astrophysics Division, says Swift delivered an incredible, lasting return on investment. NASA says it will use current missions to respond rapidly to cosmic events while it looks for new ways to do so."
-    ]
-   ],
-   "rel": [
-    "roman",
-    "psyche",
     "dfly"
    ],
-   "src": "NASA Goddard"
+   "src": "NASA / JPL · NEO Surveyor blog"
+  },
+  {
+   "id": "rs25",
+   "dom": "space",
+   "lab": "Space · Test fire",
+   "hot": 1,
+   "art": "engine",
+   "cap": "An engine that will not fly burned for 500 seconds at 111% power, on purpose.",
+   "num": "500 s",
+   "nums": "the hot fire on 21 October, as long as an RS-25 burns during a real launch",
+   "p1": "On Wednesday 21 October, teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, fired RS-25 engine No. 10001 for about 8.5 minutes, 500 seconds, the same time the engines run during a Space Launch System launch. It ran at 111% power. This engine is a developmental unit that will not be used in flight; its job is data, which goes to NASA and L3Harris Technologies, the prime engine contractor, to improve engine performance and reliability.",
+   "p2": "Each Artemis mission uses four RS-25 engines, which together produce up to 2 million pounds of thrust to launch the SLS. Before use, every RS-25 engine is proven flightworthy at Stennis.",
+   "deep": [
+    [
+     "What the photo shows",
+     "A huge cloud of white vapour rising from the test structure while the engine fires, the flames barely visible through the stand, water filling the foreground. Photo by NASA’s Danny Nowlin; posted 23 October."
+    ],
+    [
+     "Why test an engine that won’t fly",
+     "A developmental engine exists to produce data. What NASA and L3Harris learn from No. 10001 goes into improving engine performance and reliability."
+    ],
+    [
+     "Four at once",
+     "On a launch, four RS-25 engines fire together, up to 2 million pounds of thrust between them, for the same 500 seconds this test lasted."
+    ]
+   ],
+   "rel": [
+    "lander",
+    "neo",
+    "dfly"
+   ],
+   "src": "NASA Stennis"
+  },
+  {
+   "id": "lander",
+   "dom": "space",
+   "lab": "Space · 2028",
+   "art": "artemis",
+   "cap": "Two companies, two landers, one 2028 Moon landing. NASA will pick whichever is ready.",
+   "num": "2 × 2 h",
+   "nums": "the first missions target two Moonwalks of about two hours each, collecting samples and testing spacesuits",
+   "p1": "NASA says it and its two lander builders, Blue Origin and SpaceX, have streamlined their designs to put astronauts on the Moon in 2028. Each landing works the same way: astronauts launch in Orion on the SLS rocket from Kennedy Space Center in Florida, a commercial lander links up with Orion, two crew members go down to the surface and two stay in Orion. Which company lands first will depend on whose lander is ready.",
+   "p2": "Published Friday 23 October. Artemis III, next year, is now a docking demonstration: test versions of each lander will rendezvous and dock with Orion in low Earth orbit.",
+   "deep": [
+    [
+     "SpaceX’s plan: fill up in orbit",
+     "Several Starship “tanker” flights carry cryogenic propellant to a “depot” Starship waiting in low Earth orbit, which then fuels the lander. The Starship lander waits for Orion in Earth orbit, they dock, and the lander itself makes the burn that sends the stack to low lunar orbit. NASA is modifying Orion so Starship can push it to the Moon."
+    ],
+    [
+     "Blue Origin’s plan: three stages, no refuelling",
+     "For 2028, Blue Origin skips propellant transfer. Three transfer stages launch into low Earth orbit, then the Blue Moon Mark 2 lander; after docking, the stack heads to an elliptical polar orbit around the Moon, each stage dropping away as its propellant runs out. The crew moves into the lander and descends to the Moon’s South Pole."
+    ],
+    [
+     "What changed",
+     "Landers and Orion will no longer meet in a near-rectilinear halo orbit; each partner uses its own rendezvous orbit. Both companies must fly an uncrewed demonstration with their crewed landers first, and NASA certifies each lander before anyone rides it."
+    ],
+    [
+     "On the surface",
+     "The first missions target two Moonwalks of about two hours each, to collect samples and test spacesuits from Axiom Space. Jeremy Parsons, NASA’s Artemis program manager, says the teams have been “working hand in hand to ensure we can return American astronauts to the Moon by 2028.”"
+    ]
+   ],
+   "rel": [
+    "rs25",
+    "dust",
+    "crimson"
+   ],
+   "src": "NASA Marshall"
+  },
+  {
+   "id": "berg",
+   "dom": "earth",
+   "lab": "Earth · Drifting",
+   "hot": 1,
+   "art": "berg",
+   "cap": "A 1,550 km² iceberg has drifted 2,300 km from Antarctica and just bumped into an island.",
+   "num": "1,550 km²",
+   "nums": "area of iceberg A-81, now bumping along the underwater shelf of South Georgia",
+   "p1": "Iceberg A-81 broke off Antarctica’s Brunt Ice Shelf in January 2023. It spent more than three years in the Weddell Sea, carried along the coast by the clockwise Weddell Gyre, reached the tip of the Antarctic Peninsula in May 2026, then moved north into the Scotia Sea. By late October it had reached South Georgia, a remote island in the South Atlantic about 2,300 km north-northwest of where it started. NASA’s Terra satellite photographed it there on 20 October.",
+   "p2": "NASA Earth Observatory’s Image of the Day for Tuesday 27 October. In the days before the photo its progress slowed; Jan Lieser of Australia’s Bureau of Meteorology and Christopher Shuman, retired from the University of Maryland, say it appears to be bumping along the edge of the island’s underwater shelf.",
+   "deep": [
+    [
+     "The crack that took 35 years",
+     "Chasm 1, the rift that released A-81, was relatively stable for about 35 years, began growing again around 2012 and by 2019 looked likely to break. It held on for several more years."
+    ],
+    [
+     "The same trap",
+     "In 2025 iceberg A-23A ran aground on the same shelf off South Georgia and later broke apart."
+    ],
+    [
+     "The ones behind it",
+     "Brunt has shed several large icebergs lately. A-74 calved from the North Rift in 2021 and has since broken up. A-83 calved from the Halloween Crack in 2024, is still intact and is trailing A-81 northward with other icebergs apparently leaving the Weddell Sea."
+    ],
+    [
+     "Who lives on Brunt",
+     "The British Antarctic Survey’s Halley Research Station has been on the Brunt Ice Shelf since the 1950s. The image came from the MODIS instrument on Terra; the iceberg data cited come from the U.S. National Ice Center’s Antarctic Iceberg Files."
+    ]
+   ],
+   "rel": [
+    "haze5",
+    "crimson",
+    "cells"
+   ],
+   "src": "NASA Earth Observatory"
+  },
+  {
+   "id": "crimson",
+   "dom": "sg",
+   "lab": "Singapore · In orbit",
+   "hot": 1,
+   "art": "sat",
+   "cap": "NTU’s 14th satellite is up, carrying the first Singapore-made solar module to fly in orbit",
+   "num": "14",
+   "nums": "satellites NTU has launched since X-SAT in 2011; CRIMSON-1 went up on 1 October",
+   "p1": "CRIMSON-1 launched on Thursday 1 October on a SpaceX Falcon 9 from Vandenberg Space Force Base in California, on the Transporter-18 rideshare, and was pushed out into low Earth orbit by Exolaunch’s EXOpod Nova deployer. It carries several next-generation perovskite solar cells developed by NTU researchers with Singfilm Solar, an NUS spin-off, including a flexible perovskite module on ultrathin glass, the first Singapore-made solar module flown in orbit. The job: measure how well the cells’ durability and efficiency survive the trip from ground to space, and how much power they make up there.",
+   "p2": "NTU news release 2 October. It is one of the first projects backed by the National Space Agency of Singapore under its Space Access Programme.",
+   "deep": [
+    [
+     "The other experiment: thinking on board",
+     "CRIMSON-1 also carries an edge AI image-processing system. Instead of sending every raw image down a limited radio link, it processes images in orbit and sends less. Researchers will watch how the computer handles heat and power under heavy workloads."
+    ],
+    [
+     "Why perovskites",
+     "NTU’s landmark Science paper on perovskite solar cells came out in 2013. The cells are thin and light."
+    ],
+    [
+     "The one before",
+     "VELOX-AM, NTU’s 13th satellite, launched in July 2023 and deorbited in August 2026."
+    ],
+    [
+     "Who paid, who helped",
+     "Singapore’s government has put S$210 million into the Space Technology Development Programme since 2022. IMDA secured the satellite’s radio spectrum and orbital resources from the ITU; Exolaunch handled launch capacity, mission management, integration and deployment."
+    ]
+   ],
+   "rel": [
+    "neo",
+    "haze5",
+    "framework"
+   ],
+   "src": "NTU Singapore"
+  },
+  {
+   "id": "framework",
+   "dom": "gadgets",
+   "lab": "Gadgets · New",
+   "art": "laptop",
+   "cap": "A laptop that ships with its own screwdriver. Every part is meant to come out.",
+   "num": "74 Wh",
+   "nums": "battery; Tom’s Guide measured 16 h 48 min of use, Framework claims up to 20 h",
+   "p1": "The Framework Laptop 13 Pro is built so the owner can replace or upgrade almost everything: memory on an LPCAMM2 module, the storage, the display, the battery, the bezel, and four slide-in expansion cards that decide which ports the laptop has. One Torx T5 screwdriver is all it needs, and it comes in the box. The chassis is CNC-machined aluminium, the 13.5-inch touchscreen runs 2880 by 1920 pixels at up to 700 nits and 30 to 120 Hz, and the trackpad is haptic.",
+   "p2": "TIME Best Inventions 2026. From US$1,199 for the DIY edition. CEO Nirav Patel’s comparison: it is more like a bicycle, every part easy to replace.",
+   "deep": [
+    [
+     "The port trick",
+     "Instead of fixed ports, four expansion card slots take small cards; a card can add Ethernet or HDMI in place of a USB-C port. Tom’s Guide’s unit had two USB-C and two USB-A. Change your mind, swap a card."
+    ],
+    [
+     "The numbers inside",
+     "As tested: Intel Core Ultra X7 385H, Intel Arc B390 graphics, 32 GB of memory, 1 TB SSD, Wi-Fi 7. Geekbench 6.7: 2,836 single-core and 14,715 multi-core, against 4,288 and 17,926 for a 14-inch MacBook Pro with M5. Battery test: 16 hours 48 minutes. 11.67 by 9 by 0.62 inches, 3.17 lb with all four cards in."
+    ],
+    [
+     "Old laptop, new parts",
+     "Owners of the original Laptop 13 can fit parts from the 13 Pro, though the bottom panel has to be swapped to fit the larger battery. A pop-up nodule under the keyboard deck makes opening the chassis easier than on the older model."
+    ],
+    [
+     "What reviewers found wrong",
+     "Price. Memory costs have jumped: Tom’s Guide cites LPCAMM2 modules at US$800 for 32 GB and US$1,600 for 64 GB, and the tested pre-built model went from US$2,099 at launch to US$2,899. In August every configuration was on pre-order and not shipping until November, most new parts were at least six months away, the webcam is grainy with no infrared camera for face login, the single fan means it should not be pushed hard, and the plastic bezel, held on by magnets, feels flimsy."
+    ]
+   ],
+   "rel": [
+    "duo",
+    "crimson",
+    "ai17"
+   ],
+   "src": "Framework · Tom’s Guide review, 2 Aug 2026 · TIME Best Inventions 2026"
   },
   {
    "id": "duo",
@@ -171,80 +276,260 @@
     ]
    ],
    "rel": [
-    "aqua",
+    "framework",
     "dust",
     "klein"
    ],
-   "src": "Apple tech specs · TechRadar review, 21 Oct 2026 · TIME Best Inventions 2026"
+   "src": "Apple tech specs · TechRadar review, 21 Oct 2026 · TIME Best Inventions 2026",
+   "hot": 0,
+   "big": 0
   },
   {
-   "id": "leaves",
-   "dom": "earth",
-   "hot": 1,
-   "art": "leaves",
-   "cap": "A satellite named for plankton is now tracking autumn leaves turning red, worldwide.",
-   "num": "286",
-   "nums": "colour bands PACE’s Ocean Color Instrument sees in; a few groups of them track leaf pigments",
-   "p1": "NASA’s PACE satellite scans the planet daily across 286 spectral bands. Scientists use it to follow three leaf pigments, anthocyanins (reds), carotenoids (yellows and oranges) and chlorophylls (greens), and score autumn colour as the ratio of red, orange and yellow to green. A value near 1 means most leaves have not turned yet.",
-   "p2": "From 29 September to 4 October the reddest places were northern and eastern Russia, northern Alaska and northern Canada. By 5 to 11 October the red had moved south into the Mid-Atlantic, Mongolia and northern China.",
-   "deep": [
-    [
-     "What the map can fool you with",
-     "Not every red or yellow pixel is autumn foliage. Some farmland, clouds, and drought or insect stress change the readings too."
-    ],
-    [
-     "The ground truth",
-     "Landsat 9 caught red and orange ridges around Ripton, Vermont on 3 October, near the regional peak, in Vermont’s Green Mountains, rich in sugar maples and red maples. A GLOBE volunteer photographed leaves in Meredith, New Hampshire on 11 October. NASA data scientist Skye Caplan posts weekly PACE foliage maps and says the more ground photos, the better."
-    ],
-    [
-     "Slowly, then all at once",
-     "Caplan: “Color changes happen kind of slowly, then all at once, and then they’re gone.” Karl Huemmrich of the University of Maryland, Baltimore County calls a repeated worldwide time series of anthocyanins and carotenoids game-changing."
-    ],
-    [
-     "Why bother",
-     "Ground data checks the satellite, and the same pigment tracking can watch spring greening, the carbon cycle, wildfire risk, and early signs of drought, insect damage and plant disease."
-    ]
-   ],
-   "rel": [
-    "haze4",
-    "mosq",
-    "roman"
-   ],
-   "src": "NASA Earth Observatory"
-  },
-  {
-   "id": "mosq",
+   "id": "cells",
    "dom": "life",
-   "art": "mosquito",
-   "cap": "Three mosquito species each have favourite humans. Nobody was the favourite of all three.",
-   "num": "119",
-   "nums": "volunteers sniffed by three mosquito species, without a single bite",
-   "p1": "Some people get bitten far more than others. Researchers at Florida International University, led by Kaylee Marrero with Matthew DeGennaro, let caged Aedes aegypti, Aedes albopictus and Culex quinquefasciatus smell the arms of 119 volunteers through a device that stops them biting, and counted how many approached each person’s scent. Each species preferred a different mix of people, and no one was the favourite of all three.",
-   "p2": "Mosquitoes spread dengue and Zika, so knowing whom they pick could help prevent disease. Published in iScience on 21 August 2026; reported by Science News Explores on Friday.",
+   "lab": "Life · Pictures",
+   "art": "cell",
+   "cap": "Mitochondria on the move inside a leaf: this year’s best microscope pictures",
+   "num": "1974",
+   "nums": "the year the Nikon Small World competition began",
+   "p1": "Quanta Magazine has collected winners from the 2026 Nikon Small World competitions, for still images and for video. Many were made with confocal laser scanning microscopy: label the parts of a cell with fluorescent dyes, then image one depth at a time. One video, by Patrick Hickey of Hypha Research, shows green mitochondria moving among red chloroplasts inside the leaf cells of a turtle vine.",
+   "p2": "Published 21 October. Every one of these is real cells or tissue, lit up by the dyes the scientists chose.",
    "deep": [
     [
-     "Day biters, night biters",
-     "The two Aedes species bite by day, so volunteers came to the lab. Culex bites at night, so volunteers wore nylon sleeves for several hours and the sleeves went into the device after dark."
+     "Neurons by light-sheet",
+     "Kaelin Wulf and Rachel Flannery at the Allen Institute imaged neurons in mouse brain tissue using a light-sheet fluorescence microscope they built themselves."
     ],
     [
-     "What the chemistry said",
-     "The team sampled the air around each arm. Aedes aegypti and Culex quinquefasciatus were drawn to people with less skin odour. Aedes albopictus went for 13 chemicals that smell like plants. Human scent can involve more than 1,000 chemicals, so some may have been missed."
+     "A gut 1.3 mm across",
+     "Gauri Kulkarni of the Wake Forest Institute for Regenerative Medicine grew human intestinal tissue in the lab, 1.3 mm of it, and imaged the network of epithelial cells that forms the gut’s barrier."
     ],
     [
-     "The bacteria everyone shares",
-     "Certain skin bacteria attracted all three species. Marrero’s group next wants to work out how those bacteria make the smelly compounds."
+     "A heartbeat in colour",
+     "Yasaman Maaref at Simon Fraser University filmed human heart muscle cells: green sarcomeres and red flashes of calcium showing the contractions."
     ],
     [
-     "Why species differ",
-     "Possible reasons include which animals each species normally feeds on and what time of day it feeds. The findings could guide new repellents, including microbe-based ones, or scented lures for traps."
+     "An invader",
+     "Richard Atherton of the London School of Hygiene and Tropical Medicine caught a nest of Trypanosoma cruzi, the parasite that causes Chagas disease, inside a host cell. Andrew Moore of the Howard Hughes Medical Institute filmed cells dividing in sync, actin in white and mitochondria in blue."
     ]
    ],
    "rel": [
-    "leaves",
-    "haze4",
-    "spook"
+    "vampire",
+    "calm",
+    "berg"
+   ],
+   "src": "Quanta Magazine · Nikon Small World"
+  },
+  {
+   "id": "vampire",
+   "dom": "mind",
+   "lab": "Halloween · Archaeology",
+   "art": "grave",
+   "cap": "A sickle over the throat, a padlock on the toe: a 17th-century grave built to keep her in",
+   "num": "17–19",
+   "nums": "her age at death, from the skeleton; her name is unknown, so the team calls her Zosia",
+   "p1": "In 2022 archaeologists led by Dariusz Poliński of Nicolaus Copernicus University in Toruń dug up a grave in Pień, north-central Poland. A sickle blade was hooked over the young woman’s throat and a triangular padlock sat on the big toe of her left foot. The researchers think both were meant to protect the living by stopping her from rising. The padlock was probably there at the first burial; the sickle was likely added later, after someone disturbed the grave.",
+   "p2": "Science News Explores, Tuesday 27 October, with Halloween this Saturday. It is the first known grave to use both a sickle and a padlock.",
+   "deep": [
+    [
+     "Copper in the mouth",
+     "Greenish stains on her skull suggest copper objects were placed in her mouth or nose. In Polish folklore copper was thought to ward off vampiric demons called strzygi."
+    ],
+    [
+     "What her teeth and DNA say",
+     "Strontium and oxygen isotopes in her teeth suggest she grew up near Pień. Her DNA hints that her mother’s family may have come from Scandinavia. Silver and gold threads in a silk cap suggest wealth and high status. No obvious marks of injury or illness were found; DNA analysis continues."
+    ],
+    [
+     "A cemetery off the map",
+     "Pień’s cemetery appears on no maps, has no written references and lies away from the village; it may have been reserved for people rejected by society. Another grave there holds a boy buried face-down with a triangular padlock on his right foot."
+    ],
+    [
+     "Where it was published",
+     "Journal of Archaeological Science: Reports, October 2026, by Poliński and colleagues including forensic geneticist Tomasz Grzybowski."
+    ]
+   ],
+   "rel": [
+    "cells",
+    "calm",
+    "klein"
    ],
    "src": "Science News Explores"
+  },
+  {
+   "id": "calm",
+   "dom": "try",
+   "lab": "Try it · 2 min",
+   "art": "neuron",
+   "cap": "Tense? Hum. Slow breathing plus humming was linked to higher heart-rate variability",
+   "num": "25",
+   "nums": "people did mental maths under stress; the 12 who first wore a face-cooling mask released less cortisol",
+   "p1": "Stress switches on the sympathetic nervous system: faster heart, higher blood pressure, quicker breathing. The parasympathetic system is the counterweight, and part of it runs through the vagus nerve. Science News Explores reports four ways people have tried to nudge it: slow, deep breathing; cooling the face; humming; and tapping specific spots on the skin.",
+   "p2": "Published Monday 26 October. Darshan Mehta of Massachusetts General Hospital says what matters most is finding a routine you will stick with, not which one.",
+   "deep": [
+    [
+     "Try now: hum",
+     "What the research showed: a pilot trial published in Physiology & Behavior in October 2025 found slow breathing plus humming went with higher heart-rate variability. The article gives no recipe, so this one is ours: breathe in, hum slowly on the way out, and keep it up for a minute. Notice what changes."
+    ],
+    [
+     "Try later: cold face",
+     "In one trial 25 people did mental arithmetic under pressure; the 12 who had first worn a face-cooling mask, mimicking a face dipped in cold water, released less cortisol and recovered from the stress faster. Scientific Reports, November 2022."
+    ],
+    [
+     "Tapping",
+     "Tapping on specific skin spots has been linked to lower stress-hormone levels and reduced heart rate and blood pressure, per a 2025 review in Frontiers in Psychology."
+    ],
+    [
+     "Who says so",
+     "Neurologist Patricio Millar Vernetti of NYU Langone Health and physical therapist Karin Steere of the University of Puget Sound are among the experts quoted. Humming and chanting also appear in some ancient spiritual traditions."
+    ]
+   ],
+   "rel": [
+    "vampire",
+    "ai17",
+    "cells"
+   ],
+   "src": "Science News Explores"
+  },
+  {
+   "id": "haze5",
+   "dom": "sg",
+   "lab": "Singapore · Haze",
+   "art": "haze",
+   "cap": "Smoke over Kalimantan and Sumatra; Singapore’s haze law now reaches 20 companies",
+   "num": "7 + 3",
+   "nums": "Indonesian companies served Preventive Measures Notices: seven on 16 October over Sumatra fires, three on 19 October over Kalimantan",
+   "p1": "Singapore cannot put out a fire in Sumatra, but its Transboundary Haze Pollution Act can reach the companies whose land is burning. NEA said on 23 October it has served Preventive Measures Notices on 10 Indonesian companies: each must deploy firefighters, stop or not start burning on its land, and submit a plan to put out or prevent fires. Ten Singapore-registered palm oil and forestry companies, among them Wilmar International, Golden Agri International and Asia Pulp & Paper, have been told to hand over information on their links to Indonesian companies, where their concessions are, and what they did to prevent fires this dry season.",
+   "p2": "Tuesday 5:15 pm regional update: moderate to dense smoke haze over parts of Kalimantan, southern Sumatra, southeastern Sulawesi and southern Papua; a few stations in southern Kalimantan and Sumatra read Unhealthy to Very Unhealthy. Winds over southern ASEAN are blowing generally from the east to southeast, except over Borneo, where they vary.",
+   "deep": [
+    [
+     "What satellites could see",
+     "Scattered hotspots in East Kalimantan, a few in southern Sumatra and central Sarawak. NEA notes the full extent over Kalimantan and Sumatra could not be determined because smoke and cloud hid the ground."
+    ],
+    [
+     "The outlook",
+     "Dry weather over parts of southern ASEAN, with showers over Peninsular Malaysia, Sumatra, Java and parts of Borneo. Where it stays dry, hotspots and smoke haze are likely to remain elevated, with a continued risk of transboundary haze."
+    ],
+    [
+     "Monday’s numbers",
+     "Monday’s 6 pm readings were the latest NEA advisory available when this wall was written: 1-hour PM2.5 of 28 to 40 µg/m³ and a 24-hour PSI of 67 to 74, Moderate. NEA’s forecast for Tuesday was 60 to 90."
+    ],
+    [
+     "The law",
+     "Under section 9 of the Act, a Preventive Measures Notice goes to companies with fires on their land outside Singapore; under section 10, NEA can demand documents from Singapore-registered companies. NEA is also writing to the 10 Indonesian companies for documents on the fires in their concessions."
+    ]
+   ],
+   "rel": [
+    "berg",
+    "crimson",
+    "dust"
+   ],
+   "src": "NEA Singapore"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 0,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, 48% more problems right. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
+    ],
+    [
+     "What the researchers concluded",
+     "The problem was not AI. It was asking for the answer instead of asking for help. Hamsa Bastani, one of the authors, called the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
+    ]
+   ],
+   "rel": [
+    "klein",
+    "calm",
+    "framework"
+   ],
+   "src": "PNAS, Bastani et al. 2025 · Wharton",
+   "big": 0
+  },
+  {
+   "id": "dust",
+   "dom": "space",
+   "hot": 0,
+   "big": 0,
+   "art": "rover",
+   "cap": "Mars dust clings to spacesuit cloth for years. Perseverance measured grains 100 nm wide.",
+   "num": "1,645",
+   "nums": "Martian days of dust measurements on five spacesuit swatches riding on Perseverance",
+   "p1": "Perseverance carries five squares of spacesuit material, each 20 mm across, on the calibration target of its SHERLOC instrument. Over 1,645 Martian days the rover’s PIXL X-ray instrument measured the dust that settled on them and on PIXL’s own Teflon and basaltic-glass targets. It found fine particles below 2.5 micrometres and ultrafine ones around 100 nanometres, far smaller than the roughly 3 micrometres earlier Mars measurements could resolve.",
+   "p2": "Published Tuesday 27 October in PNAS; lead author Scott VanBommel of Washington University in St. Louis. The findings feed into spacesuit and habitat design, dust-removal procedures and crew health standards.",
+   "deep": [
+    [
+     "Static decides what sticks",
+     "Grains pick up charge as they collide in the Martian air, and static electricity appears to decide which sizes stick to which surfaces. On PIXL’s Teflon target and SHERLOC’s Vectran swatch, particles averaged about 2 micrometres; on PIXL’s basaltic glass and SHERLOC’s Teflon swatch, sizes ran down to 100 to 300 nanometres. The finest grains stayed put through years of driving and drilling."
+    ],
+    [
+     "Why size matters for lungs",
+     "On Earth, particles below 2.5 micrometres reach deep into the lungs and can enter the bloodstream. Ultrafine particles of 100 nanometres or less can travel from the nasal cavity to the brain along the olfactory nerve. Martian dust is mostly silicate minerals and includes perchlorates, which can disrupt thyroid function, and reactive iron, which can damage cells. The risk is thought to depend on how much dust and for how long."
+    ],
+    [
+     "What is in it",
+     "Chemically the dust matches the iron- and sulfur-rich composition earlier missions measured, and PIXL found it enriched in phosphorus, with signs of calcium sulfate. Mars grains are less abrasive than Moon dust, which during Apollo scratched visors, wore outer suit layers, damaged seals and gave some crew members hay-fever-like symptoms."
+    ],
+    [
+     "Designing around it",
+     "Some materials hold less dust than others, which could guide future material and coating choices. Suitports and dual-chamber airlocks could cut how much dust gets into living quarters. In March 2025 NASA tested an Electrodynamic Dust Shield on the Moon aboard Firefly Aerospace’s Blue Ghost Mission 1, using electric fields to clear regolith from glass and radiator surfaces."
+    ]
+   ],
+   "rel": [
+    "dfly",
+    "neo",
+    "lander"
+   ],
+   "src": "NASA / JPL",
+   "lab": "Space · Mars"
+  },
+  {
+   "id": "dfly",
+   "dom": "space",
+   "hot": 0,
+   "art": "dragonfly",
+   "cap": "NASA’s Titan drone flew its whole first flight on a computer that believes it is on Titan.",
+   "num": "2034",
+   "nums": "arrival at Titan, after launch no earlier than 2028 and a six-year voyage",
+   "p1": "Dragonfly is the rotorcraft NASA will send to Saturn’s moon Titan. In a blog post on Friday 23 October NASA said the team at Johns Hopkins APL in Laurel, Maryland had run its simulated first flight, from backshell separation to landing, in real time on flight-like avionics, the most comprehensive test of that flight so far. The computer flew on simulated data from Dragonfly’s navigation cameras, inertial measurement units and lidar, covering most of the systems and manoeuvres it will use on Titan.",
+   "p2": "Titan is too far for anyone on Earth to steer it live, so Dragonfly must fly itself. Next: the same flight on the real flight system, other flight profiles, and faults injected on purpose to confirm it recovers on its own.",
+   "deep": [
+    [
+     "Built up one rotor at a time",
+     "The team tested incrementally: first a single rotor spinning, then a short reposition flight, then a partial scouting flight, adding sensors at each step."
+    ],
+    [
+     "Faking Titan for the cameras",
+     "A custom camera emulator renders Titan scenes on GPUs and matches the 20 to 70 millisecond exposure times of the real cameras, so the flight computer sees what it would see over the dunes."
+    ],
+    [
+     "Three years of hopping",
+     "Dragonfly launches no earlier than 2028, travels for six years and arrives in 2034. It then spends three years flying between sites on Titan."
+    ],
+    [
+     "Lowering it out of the shell",
+     "Lockheed Martin engineers are testing the mechanism that lowers the rotorcraft from its stowed position inside the backshell into position for release during descent: static load tests, deployment tests, and deployments at tilted angles."
+    ]
+   ],
+   "rel": [
+    "dust",
+    "neo",
+    "rs25"
+   ],
+   "src": "NASA / JHU APL",
+   "lab": "Future · Titan",
+   "big": 0
   },
   {
    "id": "klein",
@@ -274,292 +559,14 @@
     ]
    ],
    "rel": [
-    "after",
-    "ai30",
-    "spook"
+    "ai17",
+    "vampire",
+    "calm"
    ],
-   "src": "Quanta Magazine"
-  },
-  {
-   "id": "haze4",
-   "dom": "sg",
-   "hot": 1,
-   "art": "haze",
-   "cap": "Monday’s PSI fell to 67–74. Today’s forecast: 60–90, showers, haze unlikely.",
-   "num": "60–90",
-   "nums": "24-hr PSI forecast for Tuesday 27 Oct (Moderate)",
-   "p1": "Monday was cloudy over Singapore. At 6pm the 1-hour PM2.5 was 28 to 40 µg/m³, Band 1 (Normal), and the 24-hour PSI 67 to 74, Moderate, down from 91 to 107 on Sunday. Smoke haze was visible on satellite over Kalimantan but stayed there.",
-   "p2": "For Tuesday NEA expects winds from the northeast or southeast and showers over Singapore and nearby, so haze is unlikely to affect us.",
-   "deep": [
-    [
-     "The wind has swung",
-     "Sunday’s update had Monday’s wind from the southwest or west. Monday’s update has it from the northeast or southeast for Tuesday, then variable on Wednesday and Thursday with showers. NEA says the wet weather should keep hotspot and smoke haze activity suppressed."
-    ],
-    [
-     "Two numbers, two jobs",
-     "Use the PSI forecast to plan tomorrow’s outdoor activities; for right now, check the 1-hour PM2.5 on NEA’s haze site or the myENV app. How much the haze affects you depends on your health, the PSI level, and how long and how hard you are active outdoors."
-    ],
-    [
-     "What the satellite could not see",
-     "Cloud cover again stopped NEA from determining the full extent of the hotspots and haze. Lighter haze does not show up clearly from satellite."
-    ],
-    [
-     "The week in numbers",
-     "Sunday 91–107, Moderate to Unhealthy. Monday 67–74, Moderate. Tuesday forecast 60–90, Moderate."
-    ]
-   ],
-   "rel": [
-    "leaves",
-    "mosq",
-    "dust"
-   ],
-   "src": "NEA Singapore"
-  },
-  {
-   "id": "spook",
-   "dom": "mind",
-   "art": "infra",
-   "cap": "Haunted houses may hum below 20 hertz. You can’t hear it, but your spit knows.",
-   "num": "< 20 Hz",
-   "nums": "infrasound, below the lower limit of human hearing",
-   "p1": "Infrasound is sound below 20 hertz, too low to hear. Volcanoes and earthquakes make it; so do traffic, trains and air conditioning, and possibly the old plumbing and air ducts of supposedly haunted buildings. Behavioural neuroscientist Kale Scatterty at the University of Alberta had 36 people, all college students, listen to music, half of them with two subwoofers outside the room playing infrasound. The infrasound group rated the music sadder and less interesting, reported more irritability, and had more cortisol, a stress marker, in their saliva.",
-   "p2": "They could not reliably tell whether they had been exposed. Scatterty says infrasound seems to affect mood and biology without people being conscious of it. Halloween is this Saturday.",
-   "deep": [
-    [
-     "The setup",
-     "Two rooms had speakers for music, either a soothing spa-like track or an eerie horror-film tune. The subwoofers for the infrasound sat outside the rooms. Participants rated the music and their feelings, gave saliva samples, and afterwards guessed whether infrasound had been on."
-    ],
-    [
-     "How you might sense it",
-     "One possibility: the otolith organs in the ear, which sense movement and position, might pick up vibrations too low to hear. Earlier work suggested animals may detect infrasound with their bodies and that it might provoke anxiety or fear."
-    ],
-    [
-     "What it did not do",
-     "Nobody reported feeling scared or anxious. Scatterty admits the mood effect could come from the setup itself: “It could have very well just been that we were priming them to feel something.” The students might also have been irritable because they had other places to be."
-    ],
-    [
-     "Next",
-     "Long-term effects are unknown; cities with heavy infrastructure may be most exposed. The team has considered running the same measurements in a Halloween haunted house. Published 27 April 2026 in Frontiers in Behavioral Neuroscience."
-    ]
-   ],
-   "rel": [
-    "after",
-    "klein",
-    "mosq"
-   ],
-   "src": "Science News Explores"
-  },
-  {
-   "id": "roman",
-   "dom": "space",
-   "hot": 0,
-   "big": 0,
-   "art": "lens",
-   "cap": "NASA's next giant telescope passed checkout. It sees 100 million times fainter than you.",
-   "num": "100 million×",
-   "nums": "fainter than the human eye can see: Roman’s Wide Field Instrument",
-   "p1": "The Nancy Grace Roman Space Telescope has finished its checkout and moved into science commissioning: test observations that calibrate its instruments and sharpen image quality before real science begins. Senior project scientist Julie McEnery says the observatory is fully functional. NASA adds that some systems are performing even better than required.",
-   "p2": "Last Thursday’s update. Meanwhile Hubble has been photographing gravitational lenses to get Roman’s map ready.",
-   "deep": [
-    [
-     "The crowded-field worry",
-     "One concern was that Roman’s guidance system might struggle to lock onto stars in crowded star fields and dusty nebulae. Operations project scientist Tom Barclay reports those tests went well."
-    ],
-    [
-     "Why tiny flaws matter",
-     "Josh Schlieder, the Wide Field Instrument scientist, says image flaws must be minimised because small imperfections could hide faint signals. The instrument can detect objects about a hundred million times fainter than the human eye can see."
-    ],
-    [
-     "Hubble is drawing the map",
-     "Hubble photographs one gravitational lens at a time; Roman’s much wider view should catch a far larger sample. Astronomers are using Hubble’s sharp images to build a computer model for analysing Roman’s big pictures, and Hubble will follow up on the interesting lenses Roman finds."
-    ],
-    [
-     "What a lens tells you",
-     "In one Hubble image, an elliptical galaxy about 4.5 billion light-years away bends the light of a galaxy about 8 billion light-years away into an arc, with a smaller flipped copy on the other side. Visible matter cannot account for the bending, so the distortion lets researchers work out how much dark matter the foreground galaxy holds."
-    ]
-   ],
-   "rel": [
-    "psyche",
-    "heli",
-    "dust"
-   ],
-   "src": "NASA Goddard · Hubble mission team"
-  },
-  {
-   "id": "psyche",
-   "dom": "space",
-   "hot": 0,
-   "art": "psyche",
-   "cap": "NASA’s Psyche is crossing to the asteroid belt with its engines on nearly 90% of the time.",
-   "num": "250 mN",
-   "nums": "of thrust from xenon ion engines, running nearly 90% of the time until 2029",
-   "p1": "After a Mars gravity assist, Psyche has fired its electric thrusters nearly non-stop since 28 September, pausing once a week to check in with Earth. The Hall-effect thrusters push with up to 250 millinewtons by firing out xenon ions, and navigation lead Don Han says they will run nearly 90% of the time until arrival.",
-   "p2": "Target: a metal-rich asteroid about 280 km across thought to be the partial core of a planetesimal, a building block of an early planet. Orbit by summer 2029.",
-   "deep": [
-    [
-     "Fuel",
-     "It launched in October 2023 with about 1,090 kg of xenon and has used roughly a third in three years."
-    ],
-    [
-     "Powered by sunlight",
-     "Two five-panel solar arrays with 75 square metres of collecting area run the thrusters. Propulsion engineer Steve Snyder says they fire at full power for three months, then throttle down to about half as sunlight weakens further out."
-    ],
-    [
-     "The twist problem",
-     "The swirling ions give the spacecraft a slight twisting force. Reaction wheels absorb it, and periodic manoeuvres dump the built-up momentum."
-    ],
-    [
-     "Why Mars first",
-     "Principal investigator Lindy Elkins-Tanton says the Mars flyby let the team calibrate instruments and rehearse for the asteroid encounter. Her line: “cruising with confidence deeper into the solar system, powered by sunlight”."
-    ]
-   ],
-   "rel": [
-    "roman",
-    "heli",
-    "dust"
-   ],
-   "src": "NASA / JPL",
-   "big": 0
-  },
-  {
-   "id": "heli",
-   "dom": "space",
-   "art": "mars",
-   "cap": "Ingenuity flew 0.7 km in one go. New blades could take a Mars helicopter 18.7 km.",
-   "num": "18.7 km",
-   "nums": "in one uninterrupted flight, carrying scientific instruments",
-   "p1": "NASA Ames, with Imperial College London and Nagoya University, designed a thinner, asymmetrical rotor blade shape called roamx-0201 using simulations tuned to Mars conditions. In wind tunnel tests it performed better and recovered better in risky flight conditions. Ingenuity, the first powered aircraft on another planet, could cover 0.7 km in one flight; the new blades could stretch that to as much as 18.7 km.",
-   "p2": "Paper published 22 September. Not Mars-ready yet: engineers are still closing the gap between what the computer predicts and what the wind tunnel shows.",
-   "deep": [
-    [
-     "The speed-of-sound wall",
-     "The speed of sound is lower on Mars than on Earth, so rotor tips approach it sooner and performance drops suddenly. The new blades run longer at higher speeds before that happens."
-    ],
-    [
-     "Tripping the air on purpose",
-     "The airfoil deliberately disrupts the boundary layer of air at its leading edge, which NASA says lifts the rotorcraft more effectively than earlier designs."
-    ],
-    [
-     "Stall",
-     "Ingenuity’s blades lost performance steeply at stall. Under the conditions tested, roamx-0201 behaved much better, which could let future helicopters fly safely across a wider range of angles."
-    ],
-    [
-     "What flies next",
-     "SkyFall, due to launch in 2028, carries three helicopters to Mars with curved-edge blades like Ingenuity’s. The new shape is meant for the missions after that."
-    ]
-   ],
-   "rel": [
-    "psyche",
-    "dfly",
-    "dust"
-   ],
-   "src": "NASA Ames",
+   "src": "Quanta Magazine",
+   "lab": "Numbers · Paradox",
    "hot": 0,
    "big": 0
-  },
-  {
-   "id": "aqua",
-   "dom": "gadgets",
-   "lab": "Gadgets · New",
-   "hot": 0,
-   "art": "aqua",
-   "cap": "A drone that lands on the sea, flips itself upright, and follows you at 55 km/h",
-   "num": "50 cm",
-   "nums": "how low it flies above the waves",
-   "p1": "The HoverAir Aqua is a 249-gram camera drone built for surfers and paddlers. It floats, takes off from water, and rights itself if a wave flips it. Instead of a controller it follows a small wristband, and a radar pointing straight down measures the height of each wave so it can skim half a metre above the surface.",
-   "p2": "Named one of TIME's Best Inventions of 2026. About US$1,300.",
-   "deep": [
-    [
-     "How it knows where you are",
-     "Cameras on most drones lose a person against moving water. This one tracks the wristband by radio, using RTK, the same correction trick that lets survey GPS reach centimetre accuracy instead of metres. The drone always knows exactly where the band is, even if it cannot see you."
-    ],
-    [
-     "Why the radar",
-     "Water's surface is never still, so a normal height sensor would read nonsense. A millimetre-wave radar reads the wave height many times a second and the drone adjusts, which is how it holds 50 cm without clipping a crest."
-    ],
-    [
-     "The weight is not an accident",
-     "249 g is one gram under the 250 g line where many countries' drone rules get stricter. The engineers designed to that number."
-    ],
-    [
-     "What reviewers found",
-     "It really does take off and land on water and the self-righting works. Weak points: tracking sometimes crops your head, a single water drop on the lens ruins a shot, and 23 minutes of battery goes fast. 4K at 100 frames a second from a 1/1.28-inch sensor."
-    ]
-   ],
-   "rel": [
-    "duo",
-    "dfly"
-   ],
-   "src": "HoverAir official specs · TechRadar review · TIME Best Inventions 2026",
-   "big": 0
-  },
-  {
-   "id": "after",
-   "dom": "try",
-   "lab": "Try it · 5 min",
-   "cap": "Stare at this and your eyes will invent a colour",
-   "p1": "Your three colour sensors tire out separately. Wear out green, look at white, and you see a magenta ghost. That's an afterimage.",
-   "p2": "Then mix red, green and blue light yourself in the PhET simulator.",
-   "deep": [
-    [
-     "What's happening in your eye",
-     "Your retina has three kinds of cone cells, roughly for red, green and blue. Stare at one colour and the cones for it get fatigued and fire less. Look at white, and the other two shout louder, so you see the opposite colour."
-    ],
-    [
-     "The test",
-     "Look at the white dot in the green disc for 30 seconds without moving your eyes. Then look at a blank white wall. You should see a magenta disc that follows your gaze and fades over several seconds."
-    ],
-    [
-     "Try variations",
-     "Stare at red and you see cyan. Stare at blue and you see yellow. Half-cover the shape and the ghost has a hard edge. Blink and it jumps."
-    ],
-    [
-     "Mix light yourself",
-     "Red + green light = yellow. All three = white. Your screen does this with every pixel."
-    ]
-   ],
-   "rel": [
-    "spook",
-    "klein",
-    "mosq"
-   ],
-   "src": "Science Buddies · PhET",
-   "hot": 0,
-   "big": 0,
-   "art": "after"
-  },
-  {
-   "id": "ai30",
-   "dom": "usingai",
-   "lab": "Using AI · Consensus",
-   "hot": 0,
-   "big": 0,
-   "art": "ai30",
-   "cap": "Thirty learning scientists agreed on one rule: think first, ask second",
-   "num": "30",
-   "nums": "researchers, one consensus report, October 2026",
-   "p1": "Thirty learning scientists were asked when AI helps learning and when it hurts. Their answer was not good or bad. They called it the GenAI Paradox: AI is strong at helping you consolidate what you already know, and weak, sometimes harmful, when you use it to learn something new or to do the hard thinking.",
-   "p2": "Their one-line rule: do your own first attempt, then bring in the AI.",
-   "deep": [
-    [
-     "Use it for",
-     "Testing yourself after you have learned something. Feedback on your own draft. Widening your options after you have written down your own ideas. Asking it to attack your reasoning and find the weak spot."
-    ],
-    [
-     "Don't use it for",
-     "Learning a topic from scratch. Writing the essay or doing the problem set for you. Skipping the struggle, because the struggle is where learning happens."
-    ],
-    [
-     "The caveat they added",
-     "Most research on this is still young, so these are expert judgments, not settled facts. Watch how your own memory behaves and update."
-    ]
-   ],
-   "rel": [
-    "klein",
-    "after",
-    "duo"
-   ],
-   "src": "University of Minnesota CEHD, expert consensus report, Oct 2026"
   }
  ]
 }
