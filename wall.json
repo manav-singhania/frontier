@@ -76,7 +76,9 @@
     "dust",
     "dfly"
    ],
-   "src": "NASA / JPL · NEO Surveyor blog"
+   "src": "NASA / JPL · NEO Surveyor blog",
+   "img": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26715/PIA26715.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: BAE Systems Space & Mission Systems / NASA"
   },
   {
    "id": "gagan",
@@ -205,7 +207,9 @@
     "neo",
     "dfly"
    ],
-   "src": "NASA Stennis"
+   "src": "NASA Stennis",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg",
+   "credit": "Photo: NASA / Danny Nowlin"
   },
   {
    "id": "lander",
@@ -240,7 +244,9 @@
     "dust",
     "crimson"
    ],
-   "src": "NASA Marshall"
+   "src": "NASA Marshall",
+   "img": "https://images-assets.nasa.gov/image/art002e012632/art002e012632~large.jpg",
+   "credit": "Photo: NASA"
   },
   {
    "id": "berg",
@@ -276,7 +282,9 @@
     "crimson",
     "cells"
    ],
-   "src": "NASA Earth Observatory"
+   "src": "NASA Earth Observatory",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/150000/150884/bruntwide_oli_2023025.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / Landsat (USGS)"
   },
   {
    "id": "crimson",
@@ -312,7 +320,9 @@
     "haze5",
     "framework"
    ],
-   "src": "NTU Singapore"
+   "src": "NTU Singapore",
+   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/1---launch-of-crimson-1-group-photo-of-the-ntu-researchers-and-partners-at-sarc-ntu.jpg?sfvrsn=562baaf8_1",
+   "credit": "Photo: NTU Singapore"
   },
   {
    "id": "framework",
@@ -631,7 +641,9 @@
    ],
    "src": "NASA / JHU APL",
    "lab": "Future · Titan",
-   "big": 0
+   "big": 0,
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/dragonfly/Navcam%20Install.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA / Johns Hopkins APL"
   },
   {
    "id": "klein",
