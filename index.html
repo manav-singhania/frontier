@@ -154,7 +154,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-
     <div class="loghead"><div class="lab2">The log</div><h2>Everything that has been on the wall</h2><p class="muted" id="logsum"></p></div>
     <div class="logsec"><h3>Read <span class="cnt" id="c-read"></span></h3><pre class="loglist" id="l-read"></pre></div>
     <div class="logsec"><h3>On the wall now <span class="cnt" id="c-now"></span></h3><pre class="loglist" id="l-now"></pre></div>
-    <div class="logsec"><h3>Passed by <span class="cnt" id="c-passed"></span><span class="hint"> · a week on the wall, not opened</span></h3><pre class="loglist" id="l-passed"></pre></div>
+    <div class="logsec"><h3>Passed by <span class="cnt" id="c-passed"></span><span class="hint"> · left the wall unopened</span></h3><pre class="loglist" id="l-passed"></pre></div>
   </section>
   <section class="ask" id="ask">
     <div class="askhead">
@@ -445,7 +445,7 @@ async function renderLog(){if(!ARCH){try{ARCH=await (await fetch('archive.json?v
  var read=[],cur=[],passed=[];ARCH.tiles.slice().sort(function(a,b){return b.first<a.first?-1:1}).forEach(function(a){if(opened[a.id])read.push(fmt(a,opened[a.id]));else if(now[a.id])cur.push(fmt(a));else if(dayDiff(a.first,today)>=7||!now[a.id])passed.push(fmt(a))});
  $('#l-read').textContent=read.join('\n\n');$('#l-now').textContent=cur.join('\n\n');$('#l-passed').textContent=passed.join('\n\n');
  $('#c-read').textContent=read.length;$('#c-now').textContent=cur.length;$('#c-passed').textContent=passed.length;
- $('#logsum').textContent=ARCH.tiles.length+' things since 23 Oct. Opened '+read.length+'. Anything unopened for a week moves to Passed by.'}
+ $('#logsum').textContent=ARCH.tiles.length+' things since 23 Oct. Opened '+read.length+'. Unopened for a week, or rotated off, and it moves to Passed by.'}
 
 /* ---------- pop-out ---------- */
 var pop=$('#pop');
