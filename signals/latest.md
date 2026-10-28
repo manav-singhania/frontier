@@ -23,3 +23,10 @@ Lead: Perseverance Mars-dust paper (he clipped Perseverance). Gadgets: iPhone Du
 Tiles now live: neo (lead), rs25, lander, berg, crimson, framework, duo, cells, vampire, calm, haze5, ai17, dust, dfly, klein.
 New this edition: neo, rs25, lander, berg, crimson, framework, cells, vampire, calm, haze5; ai17 rotated in (ai30 rested). Carried: dust, dfly, duo, klein. Rotated out unopened: swiftend, leaves, mosq, spook, roman, psyche, heli, aqua, after, ai30.
 Retired for being opened: none new (opened list unchanged: mars, fabric, sat, aitry, green, artemis). Next Using AI rotation: aimit or aicraft.
+
+## Edition 06 live (Thu 29 Oct 2026) — written by Claude, no new monitor report available this run (backend needs the parent key)
+Tiles now live: art3 (lead), eva, gany, bomb, spadex, lhc, charge, blind, scope, buds, glow, drex, coaster, aimit, neo, crimson.
+New this edition: art3, eva, gany, bomb, spadex, lhc, charge, blind, scope, buds, glow, drex, coaster; aimit rotated in (ai17 rested). Carried: neo, crimson.
+Dropped by the one-week rule: none (no tile on the wall had first ≤ 2026-10-22). Rotated out unopened: gagan, gps, feyn, rs25, lander, berg, framework, duo, cells, vampire, calm, haze5, ai17, dust, dfly, klein.
+Retired for being opened: none new (opened list unchanged: mars, fabric, sat, aitry, green, artemis). Next Using AI rotation: aicraft (reword "practised" first) or ai30.
+Note: image hosts were unreachable from this run, so new tiles carry drawn art only; neo and crimson keep their verified photos.
