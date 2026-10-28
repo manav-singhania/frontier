@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "tiles": [
   {
    "id": "after",
@@ -272,9 +272,10 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-10-25",
+   "last": "2026-10-29",
    "editions": [
-    "02b"
+    "02b",
+    "06"
    ]
   },
   {
@@ -719,10 +720,11 @@
    "lab": "Singapore · In orbit",
    "src": "NTU Singapore",
    "first": "2026-10-28",
-   "last": "2026-10-28",
+   "last": "2026-10-29",
    "editions": [
     "05",
-    "05b"
+    "05b",
+    "06"
    ]
   },
   {
@@ -807,10 +809,11 @@
    "lab": "Space · Hardware",
    "src": "NASA / JPL · NEO Surveyor blog",
    "first": "2026-10-28",
-   "last": "2026-10-28",
+   "last": "2026-10-29",
    "editions": [
     "05",
-    "05b"
+    "05b",
+    "06"
    ]
   },
   {
@@ -837,6 +840,162 @@
    "editions": [
     "05",
     "05b"
+   ]
+  },
+  {
+   "id": "art3",
+   "cap": "Artemis III: four astronauts, two Moon landers, one docking rehearsal in Earth orbit",
+   "lane": "space",
+   "lab": "Space · 2027",
+   "src": "NASA, 23 Oct 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "eva",
+   "cap": "8 pm tonight: two astronauts step outside to bolt a roll-out solar array onto the ISS",
+   "lane": "space",
+   "lab": "Space · Today",
+   "src": "NASA Space Station blog, 28 Oct 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "gany",
+   "cap": "Ganymede slid in front of Io on 20 October. That line-up comes round once every six years",
+   "lane": "space",
+   "lab": "Space · Rare",
+   "src": "NASA APOD, 28 Oct 2026 · video: Michael Wong",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "bomb",
+   "cap": "A dead Florida hurricane came back as a bomb cyclone and hit Iceland with 205 km/h gusts",
+   "lane": "earth",
+   "lab": "Earth · From orbit",
+   "src": "NASA Earth Observatory, 21 Oct 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "spadex",
+   "cap": "India’s two docking satellites burned up on the same day, over two different oceans",
+   "lane": "space",
+   "lab": "India · Space",
+   "src": "ISRO, 23 Oct 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "lhc",
+   "cap": "Protons in the LHC lap a 27 km ring 11,245 times a second. Check the speed yourself",
+   "lane": "matter",
+   "lab": "Physics · Particles",
+   "src": "CERN, Facts and figures about the LHC",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "charge",
+   "cap": "1% more electrons than protons: you could push a friend away with the weight of the Earth",
+   "lane": "matter",
+   "lab": "Physics · Electricity",
+   "src": "The Feynman Lectures on Physics, Vol. II ch. 1 and Vol. I ch. 7",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "blind",
+   "cap": "There is a hole in your vision right now. Use this tile to find it",
+   "lane": "try",
+   "lab": "Try it · Eyes only",
+   "src": "Exploratorium Science Snacks · Blind Spot",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "scope",
+   "cap": "A telescope the size of a lunchbox that stacks its own galaxy photos. 840 g, US$419",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 · Dwarflab spec page · Tom’s Guide, 8 Mar 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "buds",
+   "cap": "Earbuds that rewind 30 seconds and save what you just heard. Reviewers asked: is that OK?",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 · nothing.tech · TechRadar, 25 Jul 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "glow",
+   "cap": "Europe is banning the chemical that sets gel nails and 3D prints. NTU built a safer one",
+   "lane": "sg",
+   "lab": "Singapore · Chemistry",
+   "src": "NTU Singapore, 23 Oct 2026 · NPG Asia Materials",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "drex",
+   "cap": "Half a metre tall, 2.2 kg, yellow tentacles from dead roots: D. rex, king of the sac fungi",
+   "lane": "life",
+   "lab": "Halloween · Fungi",
+   "src": "Science News, 27 Oct 2026 · Song et al., Frontiers in Fungal Biology 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
+   ]
+  },
+  {
+   "id": "coaster",
+   "cap": "652 injuries in 1.7 billion rides: the numbers and physics of roller coasters",
+   "lane": "numbers",
+   "lab": "Numbers · Risk",
+   "src": "Science News, 27 Oct 2026",
+   "first": "2026-10-29",
+   "last": "2026-10-29",
+   "editions": [
+    "06"
    ]
   }
  ]
