@@ -1,0 +1,843 @@
+{
+ "updated": "2026-10-28",
+ "tiles": [
+  {
+   "id": "after",
+   "cap": "Stare at this and your eyes will invent a colour",
+   "lane": "try",
+   "lab": "Try it · 5 min",
+   "src": "Science Buddies · PhET",
+   "first": "2026-10-23",
+   "last": "2026-10-27",
+   "editions": [
+    "01",
+    "02",
+    "02b",
+    "03",
+    "03b",
+    "04"
+   ]
+  },
+  {
+   "id": "ai",
+   "cap": "Is AI making people dumber? Depends how you use it",
+   "lane": "mind",
+   "lab": "Mind",
+   "src": "Science News Explores",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "bee",
+   "cap": "A drowning bee survives by swimming toward the dark",
+   "lane": "life",
+   "lab": "Comic",
+   "src": "Science News Explores",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "blood",
+   "cap": "A five-storey waterfall in Antarctica runs blood red",
+   "lane": "earth",
+   "lab": "Weird places",
+   "src": "Science News Explores",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "circ",
+   "cap": "Build a circuit, burn out a bulb, add a dog",
+   "lane": "try",
+   "lab": "Try it · Build",
+   "src": "PhET · NASA",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "coral",
+   "cap": "What a warm sea does to a coral, zoomed to the cell",
+   "lane": "try",
+   "lab": "Try it · Watch",
+   "src": "HHMI BioInteractive",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "fabric",
+   "cap": "NUS wove a touchscreen into a sleeve. It goes in the wash.",
+   "lane": "sg",
+   "lab": "Singapore · This week",
+   "src": "NUS",
+   "first": "2026-10-23",
+   "last": "2026-10-25",
+   "editions": [
+    "01",
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "gal",
+   "cap": "Half the universe's ordinary matter was missing. Some just turned up.",
+   "lane": "space",
+   "lab": "Unsolved",
+   "src": "Science News Explores",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "haze",
+   "cap": "Why the sky over Singapore looks grey this weekend",
+   "lane": "sg",
+   "lab": "Singapore · Today",
+   "src": "NEA Singapore",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "ice",
+   "cap": "A cubic kilometre of Antarctic ice is the world's biggest telescope",
+   "lane": "matter",
+   "lab": "Nobel · Physics",
+   "src": "NobelPrize.org",
+   "first": "2026-10-23",
+   "last": "2026-10-25",
+   "editions": [
+    "01",
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "mars",
+   "cap": "A Mars robot just set the off-world driving record. It drove itself.",
+   "lane": "space",
+   "lab": "Record",
+   "src": "NASA / JPL",
+   "first": "2026-10-23",
+   "last": "2026-10-25",
+   "editions": [
+    "01",
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "neuron",
+   "cap": "Pond algae gave scientists a light switch for brain cells",
+   "lane": "life",
+   "lab": "Nobel · Medicine",
+   "src": "NobelPrize.org",
+   "first": "2026-10-23",
+   "last": "2026-10-25",
+   "editions": [
+    "01",
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "nino",
+   "cap": "One warm patch of ocean is rewriting this year's weather",
+   "lane": "earth",
+   "lab": "Happening now",
+   "src": "Science News Explores · NOAA",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "primes",
+   "cap": "An AI proved a cousin of the hardest problem in maths",
+   "lane": "numbers",
+   "lab": "Advanced",
+   "src": "Quanta Magazine",
+   "first": "2026-10-23",
+   "last": "2026-10-26",
+   "editions": [
+    "01",
+    "02",
+    "02b",
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "sat",
+   "cap": "Singapore is sending an AI into orbit the size of a shoebox",
+   "lane": "sg",
+   "lab": "Singapore · Space",
+   "src": "NTU · OSTIn",
+   "first": "2026-10-23",
+   "last": "2026-10-25",
+   "editions": [
+    "01",
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "shrub",
+   "cap": "A desert shrub air-conditions its leaves at 50 °C",
+   "lane": "life",
+   "lab": "Plant engineering",
+   "src": "Science News Explores",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "web",
+   "cap": "Could Spider-Man really switch his powers off?",
+   "lane": "life",
+   "lab": "Technically fiction",
+   "src": "Science News Explores",
+   "first": "2026-10-23",
+   "last": "2026-10-23",
+   "editions": [
+    "01"
+   ]
+  },
+  {
+   "id": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "lane": "usingai",
+   "lab": "Using AI · Evidence",
+   "src": "PNAS, Bastani et al. 2025 · Wharton",
+   "first": "2026-10-25",
+   "last": "2026-10-28",
+   "editions": [
+    "02b",
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "ai30",
+   "cap": "Thirty learning scientists agreed on one rule: think first, ask second",
+   "lane": "usingai",
+   "lab": "Using AI · Consensus",
+   "src": "University of Minnesota CEHD, expert consensus report, Oct 2026",
+   "first": "2026-10-25",
+   "last": "2026-10-27",
+   "editions": [
+    "02b",
+    "04"
+   ]
+  },
+  {
+   "id": "aicraft",
+   "cap": "“Outsource the crap, not the craft”",
+   "lane": "usingai",
+   "lab": "Using AI · Quote",
+   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
+   "first": "2026-10-25",
+   "last": "2026-10-26",
+   "editions": [
+    "02b",
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "aimit",
+   "cap": "MIT's phrase for what a chatbot answer gives you: “the illusion of learning”",
+   "lane": "usingai",
+   "lab": "Using AI · MIT",
+   "src": "MIT, Report on AI and Education, 2026",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02b"
+   ]
+  },
+  {
+   "id": "aitry",
+   "cap": "Make it be wrong, then catch it",
+   "lane": "usingai",
+   "lab": "Using AI · Try it",
+   "src": "Science News Explores · MIT · U. Minnesota",
+   "first": "2026-10-25",
+   "last": "2026-10-26",
+   "editions": [
+    "02b",
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "artemis",
+   "cap": "NASA just rewrote the Moon plan. Artemis III won't land. It will rehearse.",
+   "lane": "space",
+   "lab": "This week · NASA",
+   "src": "NASA",
+   "first": "2026-10-25",
+   "last": "2026-10-26",
+   "editions": [
+    "02",
+    "02b",
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "dragonfly",
+   "cap": "NASA's car-sized drone for Saturn's moon just flew its first simulated flight",
+   "lane": "space",
+   "lab": "Future · Titan",
+   "src": "NASA / JHU APL",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "green",
+   "cap": "Astronomers found the first green star",
+   "lane": "space",
+   "lab": "Space · First",
+   "src": "NASA APOD · University of Warwick",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "haze2",
+   "cap": "Saturday's haze was worse than Friday's. Today should ease.",
+   "lane": "sg",
+   "lab": "Singapore · Today",
+   "src": "NEA Singapore",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "mosquito",
+   "cap": "Mosquitoes pick their victims by smell. Each species likes a different person.",
+   "lane": "life",
+   "lab": "Life · Useful",
+   "src": "Science News Explores",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "nino2",
+   "cap": "Satellites say this El Niño now rivals the monster of 1997",
+   "lane": "earth",
+   "lab": "Earth · Update",
+   "src": "NASA Earth Observatory · NOAA",
+   "first": "2026-10-25",
+   "last": "2026-10-26",
+   "editions": [
+    "02",
+    "02b",
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "rover",
+   "cap": "NASA's Moon rovers must survive 14 nights in a row at minus 173 °C",
+   "lane": "space",
+   "lab": "Moon base",
+   "src": "NASA",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "swift",
+   "cap": "A telescope built to last 2 years just retired after 22. It caught 2,000 explosions.",
+   "lane": "space",
+   "lab": "Farewell",
+   "src": "NASA",
+   "first": "2026-10-25",
+   "last": "2026-10-25",
+   "editions": [
+    "02",
+    "02b"
+   ]
+  },
+  {
+   "id": "aqua",
+   "cap": "A drone that lands on the sea, flips itself upright, and follows you at 55 km/h",
+   "lane": "gadgets",
+   "lab": "Gadgets · New",
+   "src": "HoverAir official specs · TechRadar review · TIME Best Inventions 2026",
+   "first": "2026-10-26",
+   "last": "2026-10-27",
+   "editions": [
+    "03b",
+    "04"
+   ]
+  },
+  {
+   "id": "equation",
+   "cap": "The = sign was invented in 1557 by a man tired of writing “is equal to”.",
+   "lane": "numbers",
+   "lab": "",
+   "src": "Science News Explores",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "gopro",
+   "cap": "A cinema camera that weighs less than a smartphone and shoots 8K at 60 frames a second",
+   "lane": "gadgets",
+   "lab": "Gadgets · New",
+   "src": "GoPro specs via Y.M.Cinema · TIME Best Inventions 2026",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03b"
+   ]
+  },
+  {
+   "id": "haze3",
+   "cap": "Sunday’s PSI fell to 91–107. Today’s forecast: 70–100, with showers.",
+   "lane": "sg",
+   "lab": "",
+   "src": "NEA Singapore",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "heli",
+   "cap": "Ingenuity flew 0.7 km in one go. New blades could take a Mars helicopter 18.7 km.",
+   "lane": "space",
+   "lab": "",
+   "src": "NASA Ames",
+   "first": "2026-10-26",
+   "last": "2026-10-27",
+   "editions": [
+    "03",
+    "03b",
+    "04"
+   ]
+  },
+  {
+   "id": "malaria",
+   "cap": "The malaria parasite was caught breaking into a blood cell. It takes under a minute.",
+   "lane": "life",
+   "lab": "",
+   "src": "Quanta Magazine",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "pea",
+   "cap": "A*STAR made fat-free whipped cream from pea pods. The foam held its shape for an hour.",
+   "lane": "sg",
+   "lab": "",
+   "src": "A*STAR Research",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "png",
+   "cap": "Papua New Guinea is heading for its highest fire emissions on record. The smoke stays low.",
+   "lane": "earth",
+   "lab": "",
+   "src": "NASA Earth Observatory",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "psyche",
+   "cap": "NASA’s Psyche is crossing to the asteroid belt with its engines on nearly 90% of the time.",
+   "lane": "space",
+   "lab": "",
+   "src": "NASA / JPL",
+   "first": "2026-10-26",
+   "last": "2026-10-27",
+   "editions": [
+    "03",
+    "03b",
+    "04"
+   ]
+  },
+  {
+   "id": "rain",
+   "cap": "A raindrop that slides off a leaf picks up a charge. Then it eats through metal.",
+   "lane": "matter",
+   "lab": "",
+   "src": "Science News Explores",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "random",
+   "cap": "Your computer can’t make a truly random number. Two boxes 30 m apart just did, provably.",
+   "lane": "numbers",
+   "lab": "",
+   "src": "Science News Explores",
+   "first": "2026-10-26",
+   "last": "2026-10-26",
+   "editions": [
+    "03",
+    "03b"
+   ]
+  },
+  {
+   "id": "roman",
+   "cap": "NASA's next giant telescope passed checkout. It sees 100 million times fainter than you.",
+   "lane": "space",
+   "lab": "",
+   "src": "NASA Goddard · Hubble mission team",
+   "first": "2026-10-26",
+   "last": "2026-10-27",
+   "editions": [
+    "03",
+    "03b",
+    "04"
+   ]
+  },
+  {
+   "id": "dfly",
+   "cap": "NASA’s Titan drone flew its whole first flight on a computer that believes it is on Titan.",
+   "lane": "space",
+   "lab": "Future · Titan",
+   "src": "NASA / JHU APL",
+   "first": "2026-10-27",
+   "last": "2026-10-28",
+   "editions": [
+    "04",
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "duo",
+   "cap": "Apple’s folding iPhone is 5.2 mm thin open. The crease is there; you just can’t see it.",
+   "lane": "gadgets",
+   "lab": "Gadgets · New",
+   "src": "Apple tech specs · TechRadar review, 21 Oct 2026 · TIME Best Inventions 2026",
+   "first": "2026-10-27",
+   "last": "2026-10-28",
+   "editions": [
+    "04",
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "dust",
+   "cap": "Mars dust clings to spacesuit cloth for years. Perseverance measured grains 100 nm wide.",
+   "lane": "space",
+   "lab": "Space · Mars",
+   "src": "NASA / JPL",
+   "first": "2026-10-27",
+   "last": "2026-10-28",
+   "editions": [
+    "04",
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "haze4",
+   "cap": "Monday’s PSI fell to 67–74. Today’s forecast: 60–90, showers, haze unlikely.",
+   "lane": "sg",
+   "lab": "",
+   "src": "NEA Singapore",
+   "first": "2026-10-27",
+   "last": "2026-10-27",
+   "editions": [
+    "04"
+   ]
+  },
+  {
+   "id": "klein",
+   "cap": "Three voters can make a loop: A beats B, B beats C, C beats A. Underneath: a Klein bottle.",
+   "lane": "numbers",
+   "lab": "Numbers · Paradox",
+   "src": "Quanta Magazine",
+   "first": "2026-10-27",
+   "last": "2026-10-28",
+   "editions": [
+    "04",
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "leaves",
+   "cap": "A satellite named for plankton is now tracking autumn leaves turning red, worldwide.",
+   "lane": "earth",
+   "lab": "",
+   "src": "NASA Earth Observatory",
+   "first": "2026-10-27",
+   "last": "2026-10-27",
+   "editions": [
+    "04"
+   ]
+  },
+  {
+   "id": "mosq",
+   "cap": "Three mosquito species each have favourite humans. Nobody was the favourite of all three.",
+   "lane": "life",
+   "lab": "",
+   "src": "Science News Explores",
+   "first": "2026-10-27",
+   "last": "2026-10-27",
+   "editions": [
+    "04"
+   ]
+  },
+  {
+   "id": "spook",
+   "cap": "Haunted houses may hum below 20 hertz. You can’t hear it, but your spit knows.",
+   "lane": "mind",
+   "lab": "",
+   "src": "Science News Explores",
+   "first": "2026-10-27",
+   "last": "2026-10-27",
+   "editions": [
+    "04"
+   ]
+  },
+  {
+   "id": "swiftend",
+   "cap": "Built for 2 years, Swift watched for 22 and caught 2,000 explosions. Now it falls.",
+   "lane": "space",
+   "lab": "Farewell",
+   "src": "NASA Goddard",
+   "first": "2026-10-27",
+   "last": "2026-10-27",
+   "editions": [
+    "04"
+   ]
+  },
+  {
+   "id": "berg",
+   "cap": "A 1,550 km² iceberg has drifted 2,300 km from Antarctica and just bumped into an island.",
+   "lane": "earth",
+   "lab": "Earth · Drifting",
+   "src": "NASA Earth Observatory",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "calm",
+   "cap": "Tense? Hum. Slow breathing plus humming was linked to higher heart-rate variability",
+   "lane": "try",
+   "lab": "Try it · 2 min",
+   "src": "Science News Explores",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "cells",
+   "cap": "Mitochondria on the move inside a leaf: this year’s best microscope pictures",
+   "lane": "life",
+   "lab": "Life · Pictures",
+   "src": "Quanta Magazine · Nikon Small World",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "crimson",
+   "cap": "NTU’s 14th satellite is up, carrying the first Singapore-made solar module to fly in orbit",
+   "lane": "sg",
+   "lab": "Singapore · In orbit",
+   "src": "NTU Singapore",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "feyn",
+   "cap": "If all science were wiped out and you could save one sentence, Feynman knew which",
+   "lane": "matter",
+   "lab": "Physics · One sentence",
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 1 (Caltech)",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05b"
+   ]
+  },
+  {
+   "id": "framework",
+   "cap": "A laptop that ships with its own screwdriver. Every part is meant to come out.",
+   "lane": "gadgets",
+   "lab": "Gadgets · New",
+   "src": "Framework · Tom’s Guide review, 2 Aug 2026 · TIME Best Inventions 2026",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "gagan",
+   "cap": "India's first astronaut capsule flies in about two months. The passenger is a robot.",
+   "lane": "space",
+   "lab": "India · Space",
+   "src": "ISRO chairman, 25 Oct 2026, via India Strategic",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05b"
+   ]
+  },
+  {
+   "id": "gps",
+   "cap": "Your phone's map only works because Einstein was right. The satellites' clocks run fast.",
+   "lane": "matter",
+   "lab": "Physics · Hidden in your phone",
+   "src": "R. Pogge, Ohio State University, Astronomy 162 · NIST 2010",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05b"
+   ]
+  },
+  {
+   "id": "haze5",
+   "cap": "Smoke over Kalimantan and Sumatra; Singapore’s haze law now reaches 20 companies",
+   "lane": "sg",
+   "lab": "Singapore · Haze",
+   "src": "NEA Singapore",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "lander",
+   "cap": "Two companies, two landers, one 2028 Moon landing. NASA will pick whichever is ready.",
+   "lane": "space",
+   "lab": "Space · 2028",
+   "src": "NASA Marshall",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "neo",
+   "cap": "864 solar cells on a 6-metre sunshade: NASA’s asteroid hunter is nearly built",
+   "lane": "space",
+   "lab": "Space · Hardware",
+   "src": "NASA / JPL · NEO Surveyor blog",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "rs25",
+   "cap": "An engine that will not fly burned for 500 seconds at 111% power, on purpose.",
+   "lane": "space",
+   "lab": "Space · Test fire",
+   "src": "NASA Stennis",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  },
+  {
+   "id": "vampire",
+   "cap": "A sickle over the throat, a padlock on the toe: a 17th-century grave built to keep her in",
+   "lane": "mind",
+   "lab": "Halloween · Archaeology",
+   "src": "Science News Explores",
+   "first": "2026-10-28",
+   "last": "2026-10-28",
+   "editions": [
+    "05",
+    "05b"
+   ]
+  }
+ ]
+}

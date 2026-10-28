@@ -55,6 +55,14 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-
 .tile.big .cap{font-size:clamp(20px,3.4vw,34px);right:20%}
 @media (prefers-reduced-motion:no-preference){.tile{transition:transform .18s}.tile:hover{transform:scale(1.015)}}
 .foot{font-size:12px;color:var(--muted);padding-top:22px;line-height:1.5}
+.log{display:flex;flex-direction:column;gap:18px}
+.log[hidden]{display:none}
+.log h2{font-family:var(--display);font-weight:800;font-size:clamp(22px,4vw,30px);letter-spacing:-.025em;line-height:1.05;margin:4px 0}
+.logsec h3{font-family:var(--display);font-weight:800;font-size:17px;margin:0 0 6px;letter-spacing:-.01em}
+.cnt{font:500 11px var(--mono);color:var(--muted);margin-left:6px}
+.loglist{margin:0;white-space:pre-wrap;word-break:break-word;font:400 14px/1.6 var(--body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;min-width:0}
+.loglist:empty::before{content:'Nothing here yet.';color:var(--muted)}
+.chip-log{margin-left:auto;border-color:var(--amber);color:var(--amber)}
 .ask{margin-top:28px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px}
 .lab2{font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
 .ask h2{font-family:var(--display);font-weight:800;font-size:clamp(22px,4vw,30px);letter-spacing:-.025em;line-height:1.05;margin:4px 0 4px}
@@ -139,8 +147,15 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-
     <button class="chip" aria-pressed="false" data-f="sg">Singapore</button>
     <button class="chip" aria-pressed="false" data-f="usingai">Using AI</button>
     <button class="chip" aria-pressed="false" data-f="gadgets">Gadgets</button>
+    <button class="chip chip-log" aria-pressed="false" data-f="log">Log</button>
   </div>
   <main class="wall" id="wall"></main>
+  <section class="log" id="log" hidden>
+    <div class="loghead"><div class="lab2">The log</div><h2>Everything that has been on the wall</h2><p class="muted" id="logsum"></p></div>
+    <div class="logsec"><h3>Read <span class="cnt" id="c-read"></span></h3><pre class="loglist" id="l-read"></pre></div>
+    <div class="logsec"><h3>On the wall now <span class="cnt" id="c-now"></span></h3><pre class="loglist" id="l-now"></pre></div>
+    <div class="logsec"><h3>Passed by <span class="cnt" id="c-passed"></span><span class="hint"> · a week on the wall, not opened</span></h3><pre class="loglist" id="l-passed"></pre></div>
+  </section>
   <section class="ask" id="ask">
     <div class="askhead">
       <div class="lab2">Tomorrow's wall</div>
@@ -408,15 +423,29 @@ $('#keyGo').addEventListener('click',async function(){var k=$('#keyIn').value.tr
 
 /* ---------- wall ---------- */
 var byId={},log=[],cur=null;
-function build(W){ED=W.date;byId={};var seen=ls('fr:seen')||{};W.tiles=W.tiles.filter(function(t){return !(seen[t.id]&&seen[t.id]<ED)});
+function dayDiff(a,b){return Math.round((new Date(b)-new Date(a))/864e5)}
+var ARCH=null,FIRST={};
+function build(W){ED=W.date;byId={};var seen=ls('fr:seen')||{};W.tiles=W.tiles.filter(function(t){if(seen[t.id]&&seen[t.id]<ED)return false;var f=FIRST[t.id];if(f&&dayDiff(f,ED)>=7&&!seen[t.id])return false;return true});
  $('#date').textContent=W.dateLabel+' · '+W.tiles.length+' new · tap anything · nothing leaves this page';$('#cd').textContent=W.dateLabel.replace(/^\w+ /,'');$('#chk').textContent=W.dateLabel.replace(/^\w+ /,'').replace(/ \d{4}$/,'');
  var wall=$('#wall');wall.innerHTML='';W.tiles.forEach(function(t){byId[t.id]=t;var b=document.createElement('button');b.className='tile'+(t.big?' big':'');b.dataset.dom=t.dom;b.dataset.id=t.id;
   b.innerHTML='<canvas width="480" height="'+(t.big?300:600)+'"></canvas>'+(t.img?'<img alt="" loading="lazy" src="'+t.img+'">':'')+'<div class="shade"></div><span class="lab'+(t.hot?' hot':'')+'">'+t.lab+'</span><span class="cap">'+t.cap+'</span>';
   wall.appendChild(b);draw(t.art||t.id,b.querySelector('canvas'));var im=b.querySelector('img');if(im)im.onerror=function(){im.remove()};b.addEventListener('click',function(){open(t.id)})});
  var tk=$('#ticker');tk.innerHTML='';W.week.forEach(function(x){var b=document.createElement('button');b.className='t';b.innerHTML='<span class="d">'+x.d+'</span><span>'+x.t+'</span>';b.addEventListener('click',function(){open(x.id)});tk.appendChild(b)});
  var chips=document.querySelectorAll('.chip'),tiles=document.querySelectorAll('.tile');
- chips.forEach(function(c){c.onclick=function(){chips.forEach(function(x){x.setAttribute('aria-pressed','false')});c.setAttribute('aria-pressed','true');var f=c.dataset.f;tiles.forEach(function(k){k.hidden=!(f==='all'||k.dataset.dom===f)});ev('lane',f)}});
+ chips.forEach(function(c){c.onclick=function(){chips.forEach(function(x){x.setAttribute('aria-pressed','false')});c.setAttribute('aria-pressed','true');var f=c.dataset.f;var isLog=f==='log';$('#log').hidden=!isLog;$('#wall').hidden=isLog;$('#ask').hidden=isLog;if(isLog)renderLog();tiles.forEach(function(k){k.hidden=isLog||!(f==='all'||k.dataset.dom===f)});ev('lane',f)}});
  var h=location.hash.replace('#','');if(h&&byId[h])open(h)}
+
+/* ---------- log ---------- */
+async function openedSet(){var seen=ls('fr:seen')||{},set={};Object.keys(seen).forEach(function(k){set[k]=seen[k]});
+ if(SYNC.url&&SYNC.key){try{var j=await rpc({op:'list',since:0});Object.entries(j.docs||{}).forEach(function(kv){var p=kv[0],d=kv[1];if(d&&p.indexOf('frev/')===0&&d.t==='open'&&d.id){var day=new Date(d.ts).toISOString().slice(0,10);if(!set[d.id]||day<set[d.id])set[d.id]=day}})}catch(e){}}
+ return set}
+function fmt(a,when){var d=new Date(a.first);var ds=d.toLocaleDateString('en-GB',{day:'numeric',month:'short'});return ds+(when?' → read '+new Date(when).toLocaleDateString('en-GB',{day:'numeric',month:'short'}):'')+'  ·  '+(a.lab||a.lane)+'\n   '+a.cap+'\n   — '+a.src}
+async function renderLog(){if(!ARCH){try{ARCH=await (await fetch('archive.json?v='+Date.now(),{cache:'no-store'})).json()}catch(e){ARCH={tiles:[]}}}
+ var opened=await openedSet(),now={},today=ED||new Date().toISOString().slice(0,10);Object.keys(byId).forEach(function(k){now[k]=1});
+ var read=[],cur=[],passed=[];ARCH.tiles.slice().sort(function(a,b){return b.first<a.first?-1:1}).forEach(function(a){if(opened[a.id])read.push(fmt(a,opened[a.id]));else if(now[a.id])cur.push(fmt(a));else if(dayDiff(a.first,today)>=7||!now[a.id])passed.push(fmt(a))});
+ $('#l-read').textContent=read.join('\n\n');$('#l-now').textContent=cur.join('\n\n');$('#l-passed').textContent=passed.join('\n\n');
+ $('#c-read').textContent=read.length;$('#c-now').textContent=cur.length;$('#c-passed').textContent=passed.length;
+ $('#logsum').textContent=ARCH.tiles.length+' things since 23 Oct. Opened '+read.length+'. Anything unopened for a week moves to Passed by.'}
 
 /* ---------- pop-out ---------- */
 var pop=$('#pop');
@@ -449,7 +478,7 @@ $('#send').addEventListener('click',function(){var free=$('#free').value.trim(),
 
 /* ---------- boot ---------- */
 var file=/[?&]draft=1/.test(location.search)?'wall-draft.json':'wall.json';
-fetch(file+'?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(W){build(W);initSync()}).catch(function(){$('#date').textContent='Could not load today\'s wall. Pull to refresh.'});
+fetch('archive.json?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(A){ARCH=A;A.tiles.forEach(function(a){FIRST[a.id]=a.first})}).catch(function(){}).then(function(){return fetch(file+'?v='+Date.now(),{cache:'no-store'})}).then(function(r){return r.json()}).then(function(W){build(W);initSync()}).catch(function(){$('#date').textContent='Could not load today\'s wall. Pull to refresh.'});
 })();
 </script>
 </body>
