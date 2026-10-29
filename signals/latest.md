@@ -30,3 +30,5 @@ New this edition: art3, eva, gany, bomb, spadex, lhc, charge, blind, scope, buds
 Dropped by the one-week rule: none (no tile on the wall had first ≤ 2026-10-22). Rotated out unopened: gagan, gps, feyn, rs25, lander, berg, framework, duo, cells, vampire, calm, haze5, ai17, dust, dfly, klein.
 Retired for being opened: none new (opened list unchanged: mars, fabric, sat, aitry, green, artemis). Next Using AI rotation: aicraft (reword "practised" first) or ai30.
 Note: image hosts were unreachable from this run, so new tiles carry drawn art only; neo and crimson keep their verified photos.
+
+signals sync skipped 2026-10-29: Mac not reachable (only a Windows PC was linked; monitor locked there, no parent key)
