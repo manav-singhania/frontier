@@ -32,3 +32,10 @@ Retired for being opened: none new (opened list unchanged: mars, fabric, sat, ai
 Note: image hosts were unreachable from this run, so new tiles carry drawn art only; neo and crimson keep their verified photos.
 
 signals sync skipped 2026-10-29: Mac not reachable (only a Windows PC was linked; monitor locked there, no parent key)
+
+## Edition 07 live (Fri 30 Oct 2026) — written by Claude; signals sync skipped 29 Oct, so the 27 Oct Opened list was used
+Tiles now live: stack (lead), lucy, tegh, chapea, arnab, navic, fermat, spag, honor, monsoon, flow, hole, aicraft, fox, silk, art3.
+New this edition: stack, lucy, tegh, chapea, arnab, navic, fermat, spag, honor, monsoon, flow, hole, fox, silk; aicraft rotated in (aimit rested). Carried: art3, aicraft.
+Retired for being opened: none new (opened list unchanged: mars, fabric, sat, aitry, green, artemis; none of them were on edition 06).
+Dropped by the one-week rule: none (no edition 06 tile had first ≤ 2026-10-23). Rotated out unopened: eva, gany, bomb, spadex, lhc, charge, blind, scope, buds, glow, drex, coaster, aimit, neo, crimson.
+Photos: 8 tiles carry real photos (stack, lucy, chapea, arnab, navic, monsoon, flow, art3); 8 of the 9 space/Earth/Singapore/India tiles. Next Using AI rotation: ai30 or aimit.
