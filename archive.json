@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "tiles": [
   {
    "id": "after",
@@ -258,11 +258,12 @@
    "lab": "Using AI · Quote",
    "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
    "first": "2026-10-25",
-   "last": "2026-10-26",
+   "last": "2026-10-30",
    "editions": [
     "02b",
     "03",
-    "03b"
+    "03b",
+    "07"
    ]
   },
   {
@@ -849,9 +850,10 @@
    "lab": "Space · 2027",
    "src": "NASA, 23 Oct 2026",
    "first": "2026-10-29",
-   "last": "2026-10-29",
+   "last": "2026-10-30",
    "editions": [
-    "06"
+    "06",
+    "07"
    ]
   },
   {
@@ -996,6 +998,174 @@
    "last": "2026-10-29",
    "editions": [
     "06"
+   ]
+  },
+  {
+   "id": "stack",
+   "cap": "Artemis III’s 212-foot core stage now stands between its two boosters",
+   "lane": "space",
+   "lab": "Space · Hardware",
+   "src": "NASA Kennedy, 28 Oct 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "lucy",
+   "cap": "After 2.2 billion miles, Lucy is the first spacecraft to reach Jupiter’s Trojans",
+   "lane": "space",
+   "lab": "Space · First",
+   "src": "NASA Lucy mission blog (Katherine Kretke, SwRI), 28 Oct 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "tegh",
+   "cap": "A rose-coloured rock found in the Sahara is a 4.1-billion-year-old piece of Mars",
+   "lane": "space",
+   "lab": "Space · Mars",
+   "src": "NASA / JPL, 29 Oct 2026 · Science",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "chapea",
+   "cap": "Four people walk out of a fake Mars on Saturday after 378 days inside",
+   "lane": "space",
+   "lab": "Space · Saturday",
+   "src": "NASA media advisory M26-083, 27 Oct 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "arnab",
+   "cap": "Cyclone Arnab, photographed by night from orbit, hit India’s coast at 130 km/h",
+   "lane": "earth",
+   "lab": "Earth · From orbit",
+   "src": "NASA Earth Observatory, 29 Oct 2026 · India Meteorological Department",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "navic",
+   "cap": "India’s 50 m GSLV is on the pad with a satellite carrying a home-made atomic clock",
+   "lane": "space",
+   "lab": "India · Space",
+   "src": "ISRO mission page and brochure, 28 Oct 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "fermat",
+   "cap": "The Sun you watch setting has already set. Light bends, and takes the fastest route",
+   "lane": "matter",
+   "lab": "Physics · Light",
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 26 (Caltech)",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "spag",
+   "cap": "Bend dry spaghetti and it almost never breaks in two. Feynman puzzled over it. Twist first",
+   "lane": "matter",
+   "lab": "Physics · Mechanics",
+   "src": "Physics World, 14 Aug 2018 (Hamish Johnston)",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "honor",
+   "cap": "A phone whose camera pops out on a titanium robot arm and spins 360° in a second",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 · Honor product and launch pages · Tom’s Guide, 12 Aug 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "monsoon",
+   "cap": "Woodlands hit 36.1 °C on 23 October. Now the winds go slack, and the haze should ease",
+   "lane": "sg",
+   "lab": "Singapore · Weather",
+   "src": "NEA / Meteorological Service Singapore, 29 Oct 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "flow",
+   "cap": "A battery that keeps its energy in two tanks of non-flammable liquid: NTU’s S$15m lab",
+   "lane": "sg",
+   "lab": "Singapore · Energy",
+   "src": "NTU Singapore, 27 Oct 2026",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "hole",
+   "cap": "Roll a sheet of paper into a tube and you can see straight through your own hand",
+   "lane": "try",
+   "lab": "Try it · Paper tube",
+   "src": "Exploratorium Science Snacks: Hole in Your Hand · Circles or Ovals",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "fox",
+   "cap": "Madagascar’s giant bats, wingspan up to 1.5 m, are shrinking. Museum skulls told the story",
+   "lane": "life",
+   "lab": "Halloween · Bats",
+   "src": "Science News, 29 Oct 2026 (Jake Buehler) · Ruhs & Goodman, Journal of Mammalogy",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
+   ]
+  },
+  {
+   "id": "silk",
+   "cap": "A spider turns liquid “dope” into thread tougher than Kevlar in milliseconds. Here’s how",
+   "lane": "life",
+   "lab": "Halloween · Spiders",
+   "src": "Quanta Magazine, 28 Oct 2026 (Yasemin Saplakoglu) · Holland lab, PNAS",
+   "first": "2026-10-30",
+   "last": "2026-10-30",
+   "editions": [
+    "07"
    ]
   }
  ]
