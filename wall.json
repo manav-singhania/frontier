@@ -1,47 +1,551 @@
 {
- "edition": "06",
+ "edition": "07",
  "level": "High school",
- "date": "2026-10-29",
- "dateLabel": "Thu 29 Oct 2026",
+ "date": "2026-10-30",
+ "dateLabel": "Fri 30 Oct 2026",
  "week": [
   {
+   "d": "SAT",
+   "t": "CHAPEA: four volunteers leave NASA’s 3D-printed Mars habitat after 378 days",
+   "id": "chapea"
+  },
+  {
    "d": "THU",
-   "t": "Spacewalk tonight, 8 pm Singapore: a new roll-out solar array for the ISS",
-   "id": "eva"
+   "t": "JPL: Teghaza 001, a 4.1-billion-year-old piece of Martian crust, found in the Sahara",
+   "id": "tegh"
+  },
+  {
+   "d": "THU",
+   "t": "NEA: inter-monsoon winds setting in; haze expected to improve",
+   "id": "monsoon"
   },
   {
    "d": "WED",
-   "t": "APOD: Ganymede slides in front of Io, a once-in-six-years line-up",
-   "id": "gany"
+   "t": "Artemis III SLS core stage joins its boosters in the Vehicle Assembly Building",
+   "id": "stack"
+  },
+  {
+   "d": "WED",
+   "t": "Lucy becomes the first spacecraft to enter Jupiter’s Trojan asteroid region",
+   "id": "lucy"
   },
   {
    "d": "TUE",
-   "t": "D. rex: a 50 cm, 2.2 kg mushroom, the largest of the sac fungi",
-   "id": "drex"
-  },
-  {
-   "d": "MON",
-   "t": "NEO Surveyor’s sunshade and 864 solar cells pass their tests",
-   "id": "neo"
-  },
-  {
-   "d": "FRI",
-   "t": "Artemis III: four astronauts to dock with two landers in Earth orbit in 2027",
-   "id": "art3"
-  },
-  {
-   "d": "FRI",
-   "t": "ISRO: SPADEX-A and SPADEX-B re-entered on 12 October, hurried by solar storms",
-   "id": "spadex"
+   "t": "NTU and VFT open a S$15 million lab for vanadium flow batteries",
+   "id": "flow"
   }
  ],
  "tiles": [
   {
+   "id": "stack",
+   "dom": "space",
+   "lab": "Space · Hardware",
+   "hot": 1,
+   "big": 1,
+   "art": "stack",
+   "cap": "Artemis III’s 212-foot core stage now stands between its two boosters",
+   "num": "212 ft",
+   "nums": "height of the SLS core stage now stacked between its boosters, about 65 metres",
+   "p1": "NASA said on Wednesday 28 October that technicians at its Kennedy Space Center in Florida had lifted the Artemis III SLS core stage out of High Bay 2 of the Vehicle Assembly Building and set it between the twin solid rocket boosters in High Bay 3. The 212-foot stage (about 65 metres) hung from a one-of-a-kind lifting beam designed to place it onto the mobile launcher. NASA’s photos of the move and the stacking are dated Thursday 22 to Sunday 25 October, when a caption says the short stack was complete.",
+   "p2": "Why it matters: this is the rocket that will carry Randy Bresnik, Frank Rubio, Andre Douglas and ESA’s Luca Parmitano on the Earth-orbit docking rehearsal described in the Artemis III tile.",
+   "deep": [
+    [
+     "What comes next",
+     "Once testing and checkouts are complete, the core stage and booster stack rolls out to Launch Pad 39B for a tanking test: liquid hydrogen and liquid oxygen will be loaded only into the core stage, and the launch teams will run through their countdown procedures and timelines. The page gives no rollout date; NASA’s Artemis III mission page says the flight is launching in 2027."
+    ],
+    [
+     "Four engines",
+     "One of NASA’s photos, from 22 October, shows the four engines at the base of the stage, each covered in a red cap."
+    ],
+    [
+     "The mission",
+     "Artemis III will carry four astronauts in Orion atop SLS to test rendezvous and docking between Orion and commercial spacecraft from Blue Origin and SpaceX, ahead of future crewed Moon landings."
+    ]
+   ],
+   "rel": [
+    "art3",
+    "lucy",
+    "navic"
+   ],
+   "src": "NASA Kennedy, 28 Oct 2026",
+   "img": "https://images-assets.nasa.gov/image/KSC-20261026-PH-FMX01_0018/KSC-20261026-PH-FMX01_0018~large.jpg",
+   "credit": "Photo: NASA / Frank Michaux"
+  },
+  {
+   "id": "lucy",
+   "dom": "space",
+   "lab": "Space · First",
+   "hot": 1,
+   "art": "psyche",
+   "cap": "After 2.2 billion miles, Lucy is the first spacecraft to reach Jupiter’s Trojans",
+   "num": "2.2 billion",
+   "nums": "miles Lucy has travelled since its launch on 16 October 2021",
+   "p1": "NASA said on Wednesday 28 October that Lucy is the first spacecraft to enter the region of the Jupiter Trojan asteroids, five years and more than 2.2 billion miles after launch. There are no well-defined boundaries in space: mission engineers know Lucy is approaching Jupiter’s Lagrange point 4 (L4) by tracking its radio signals and images of the surrounding stars. Lucy is now more than five times farther from the Sun than Earth is.",
+   "p2": "Next stop: the asteroid Eurybates on 11 August 2027, less than a year away, to be observed for a few hours as Lucy flies past.",
+   "deep": [
+    [
+     "Islands of stability",
+     "The Trojans share Jupiter’s orbit around the Sun, guided by the combined gravitational pull of the Sun and Jupiter. They sit in two swarms, L4 leading Jupiter and L5 trailing it, about 484 million miles from Jupiter, which is as far from Jupiter as Jupiter is from the Sun. Thousands of asteroids live in these two unexplored islands."
+    ],
+    [
+     "Lonely rocks",
+     "On average the Trojan asteroids are more than 6 million miles apart, so Lucy will see mostly empty space between its targets."
+    ],
+    [
+     "The tour",
+     "After Eurybates come Polymele in September 2027, Leucus in April 2028 and Orus in November 2028. Lucy swings back past Earth in 2030 for a third gravity assist, then reaches the binary pair Patroclus and Menoetius in March 2033."
+    ],
+    [
+     "Why primitive",
+     "NASA calls the Trojans primitive solar-system bodies. Seeing them up close should help scientists refine their theories of how the planets formed 4.5 billion years ago and how they ended up where they are."
+    ]
+   ],
+   "rel": [
+    "stack",
+    "tegh",
+    "art3"
+   ],
+   "src": "NASA Lucy mission blog (Katherine Kretke, SwRI), 28 Oct 2026",
+   "img": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA"
+  },
+  {
+   "id": "tegh",
+   "dom": "space",
+   "lab": "Space · Mars",
+   "art": "mars",
+   "cap": "A rose-coloured rock found in the Sahara is a 4.1-billion-year-old piece of Mars",
+   "num": "435",
+   "nums": "roughly how many meteorites from Mars have been found on Earth; Teghaza 001 is among the three oldest",
+   "p1": "When a rose-coloured meteorite was found in the Sahara Desert in 2022, nobody knew how old it was or where it came from. A NASA-funded team led by Yang Liu of JPL reported on Thursday 29 October in the journal Science that Teghaza 001, weighing nearly 2 pounds (800 grams), is a piece of Mars that formed more than 4.1 billion years ago, one of the three oldest Martian meteorites known. It was found on Mali’s Teghaza salt plain.",
+   "p2": "“This is really our first piece of Martian crust from a part of Mars we’ve never had a sample of before,” said second author Lee Saper, who did the work at JPL and is now at NASA Ames.",
+   "deep": [
+    [
+     "How you date a rock",
+     "Zircon crystals, which record clues to a rock’s formation, plus in-situ rubidium-strontium dating of single mineral grains on a surface piece smaller than a fingernail, a method pioneered by the team of Caltech co-author Francois Tissot that preserves rare samples for future work. Water on Mars altered the rock around 4.1 billion years ago, so it likely formed earlier still."
+    ],
+    [
+     "The other two",
+     "ALH84001 is nearly all one mineral and similar in age; Black Beauty formed about 2.1 billion years ago and is made of small volcanic rock fragments. Teghaza 001 has a mix of igneous minerals that record how crust formed from cooling magma and was later altered by water underground."
+    ],
+    [
+     "Where on Mars",
+     "The paper identifies 13 possible source locations on Mars that match its minerals and chemistry; its mineralogy also matches what the Mars Reconnaissance Orbiter sees in the cratered southern highlands. “We’ve only scratched the surface,” said Liu. A separate paper in June, in Science Advances, detailed its water content."
+    ]
+   ],
+   "rel": [
+    "lucy",
+    "stack",
+    "chapea"
+   ],
+   "src": "NASA / JPL, 29 Oct 2026 · Science"
+  },
+  {
+   "id": "chapea",
+   "dom": "space",
+   "lab": "Space · Saturday",
+   "art": "rover",
+   "cap": "Four people walk out of a fake Mars on Saturday after 378 days inside",
+   "num": "378",
+   "nums": "days of isolation in a 3D-printed habitat at NASA’s Johnson Space Center, Houston",
+   "p1": "On Saturday 31 October, Ross Elder, Ellen Ellis, James Spicer and Matthew Montgomery leave the 1,700-square-foot, 3D-printed habitat at NASA’s Johnson Space Center in Houston where they have lived since 19 October 2025. The CHAPEA Mission 2 crew spent 378 days simulating a Mars mission: simulated spacewalks, habitat maintenance and growing plants, with communication delays, limited resources and isolation thrown in.",
+   "p2": "NASA streams the exit ceremony live from 3 p.m. EDT on Saturday, which is 3 a.m. on Sunday in Singapore.",
+   "deep": [
+    [
+     "What the data is for",
+     "NASA says the mission’s data could help plan lunar missions: food system design, how crews use their time, Deep Space Network bandwidth, and medical and behavioural support."
+    ],
+    [
+     "Who is there",
+     "Johnson Space Center director Vanessa Wyche and NASA astronaut Jack Hathaway will give remarks at the ceremony."
+    ],
+    [
+     "A thought to test",
+     "378 days is longer than a year: the crew went in before last Halloween and come out the day of this one."
+    ]
+   ],
+   "rel": [
+    "tegh",
+    "stack",
+    "art3"
+   ],
+   "src": "NASA media advisory M26-083, 27 Oct 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/chapeamission2cropped.jpg",
+   "credit": "Photo: NASA"
+  },
+  {
+   "id": "arnab",
+   "dom": "earth",
+   "lab": "Earth · From orbit",
+   "art": "cyclone",
+   "cap": "Cyclone Arnab, photographed by night from orbit, hit India’s coast at 130 km/h",
+   "num": "140 km/h",
+   "nums": "sustained winds when NOAA-20 captured the night image at 1:42 a.m. IST on 27 October",
+   "p1": "Arnab was the first named storm of the 2026 North Indian Ocean cyclone season, forming in the Bay of Bengal on 25 October, a late start for a basin that usually produces named cyclones in April or May. The VIIRS day-night band on the NOAA-20 satellite caught it at 20:12 UTC on 26 October (1:42 a.m. IST on the 27th), when the India Meteorological Department put sustained winds at about 140 km/h. It made landfall early on 28 October on the Andhra Pradesh and Yanam coast, between Bapatla and Visakhapatnam, with winds of 130 km/h.",
+   "p2": "IMD’s category: a very severe cyclonic storm, similar to a Category 1 hurricane on the Saffir-Simpson scale. Tens of thousands of people were evacuated beforehand.",
+   "deep": [
+    [
+     "Late this year",
+     "A basin that usually produces named cyclones in April or May got its first on 25 October. NASA’s article notes research linking the ongoing El Niño to reduced Bay of Bengal cyclone activity."
+    ],
+    [
+     "On the ground",
+     "Arnab uprooted trees, flooded crops and homes, limited fishing and disrupted transport and power."
+    ],
+    [
+     "The picture",
+     "NASA Earth Observatory image by Michala Garrison, using VIIRS day-night band data (VIIRS flies on NOAA-20); story by Adam Voiland. City lights are visible on the darkened land in the image."
+    ]
+   ],
+   "rel": [
+    "monsoon",
+    "navic",
+    "lucy"
+   ],
+   "src": "NASA Earth Observatory, 29 Oct 2026 · India Meteorological Department",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/arnab-strikes-india/typhoonarnab_vir_20261026_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / Michala Garrison, NOAA-20 VIIRS"
+  },
+  {
+   "id": "navic",
+   "dom": "space",
+   "lab": "India · Space",
+   "hot": 1,
+   "art": "gps",
+   "cap": "India’s 50 m GSLV is on the pad with a satellite carrying a home-made atomic clock",
+   "num": "1500 km",
+   "nums": "beyond India’s borders that NavIC signals are designed to reach",
+   "p1": "ISRO posted on Wednesday 28 October that GSLV-F18, the 20th flight of its Geosynchronous Satellite Launch Vehicle, is on the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota, with the NVS-03 satellite on top. NVS-03 is the third satellite of the next-generation series for NavIC, India’s regional navigation system, which provides position, navigation and timing over the Indian landmass and a region extending 1500 km around it. The satellite carries an indigenous atomic clock alongside procured ones, and adds an L1 signal to the existing L5 and S signals.",
+   "p2": "ISRO’s mission page said the launch was planned but gave no date or time when this was written. Watch for the result.",
+   "deep": [
+    [
+     "The rocket, by the numbers",
+     "From ISRO’s mission brochure: about 50 m tall and about 420 tonnes at lift-off. The first stage is a solid-propellant stage carrying 138.2 tonnes, with four liquid strap-on boosters; the second stage is liquid-fuelled; the third is a cryogenic stage burning 14.4 tonnes of liquid hydrogen and liquid oxygen."
+    ],
+    [
+     "Where it is going",
+     "Target orbit: a geosynchronous transfer orbit with a perigee of 170 km and an apogee of 37,023 km, inclined 20.75 degrees, on a launch azimuth of 106 degrees."
+    ],
+    [
+     "Why the clock matters",
+     "A navigation satellite broadcasts the time from its on-board clock; your receiver turns the arrival times of several satellites’ signals into a position. That is why the clocks are atomic, and why ISRO notes that this one is indigenous."
+    ]
+   ],
+   "rel": [
+    "arnab",
+    "stack",
+    "lucy"
+   ],
+   "src": "ISRO mission page and brochure, 28 Oct 2026",
+   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
+   "credit": "Photo: ISRO"
+  },
+  {
+   "id": "fermat",
+   "dom": "matter",
+   "lab": "Physics · Light",
+   "art": "lens",
+   "cap": "The Sun you watch setting has already set. Light bends, and takes the fastest route",
+   "num": "½°",
+   "nums": "how much higher the apparent Sun sits than the true Sun near the horizon, says Feynman",
+   "p1": "Feynman explains Fermat’s principle with a rescue. Someone has fallen out of a boat; you are on land, and you can run faster than you can swim. Do you go in a straight line? “Yes, no doubt!” says Feynman, then thinks again: it pays to run a little further along the land to shorten the swim. Light does the same. Fermat proposed in about 1650 that of all the possible paths between two points, light takes the one that needs the shortest time, and from that one idea come both the law of reflection and Snell’s law of refraction.",
+   "p2": "Test tonight: when you see the Sun setting, it is already well below the horizon. The atmosphere, thin at the top and dense at the bottom, curves the light so the apparent Sun is higher than the true Sun by about half a degree.",
+   "deep": [
+    [
+     "The water rule",
+     "Snell’s law: the sine of the angle in air equals a constant times the sine of the angle in water, and for water that constant n is approximately 1.33. Ptolemy had tabulated the bending long before: 10 degrees in air becomes 8 in water, 50 becomes 35, 80 becomes 50."
+    ],
+    [
+     "What least time predicts",
+     "If light takes the shortest-time path, the ratio of the sines must equal the ratio of the speeds, so light must travel slower in water than in air, by the factor n. Snell’s law alone never said that; the least-time idea did, and measurement agrees."
+    ],
+    [
+     "The mirage",
+     "On a hot road the air just above the surface is hotter and thinner than the cooler air higher up, and it slows light less, so light from the sky curves up into your eye. You see “water” on the road; when you get there it is as dry as the desert. What you saw was sky light “reflected” on the road."
+    ],
+    [
+     "Try it",
+     "Stand a pencil or spoon in a glass of water and look from the side. The kink at the surface is refraction, the bending Snell measured and least time explains."
+    ]
+   ],
+   "rel": [
+    "spag",
+    "hole",
+    "lucy"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 26 (Caltech)"
+  },
+  {
+   "id": "spag",
+   "dom": "matter",
+   "lab": "Physics · Mechanics",
+   "art": "spag",
+   "cap": "Bend dry spaghetti and it almost never breaks in two. Feynman puzzled over it. Twist first",
+   "num": "3+",
+   "nums": "pieces a bent strand of dry spaghetti almost always snaps into",
+   "p1": "Hold a strand of dry spaghetti by both ends and bend it until it breaks. You will almost never get two pieces: it snaps into three or more. Physicists, Richard Feynman among them, tried to work out why. The answer came in 2005 from Basile Audoly and Sébastien Neukirch at the University of Paris 6: after the first break, bending waves run along the strand, raise its curvature, and trigger an avalanche of new breaks, each sending out more waves.",
+   "p2": "In 2018 Ronald Heisser and Vishal Patil at MIT found the trick: twist the strand hard first, then bend it slowly, and it breaks into two.",
+   "deep": [
+    [
+     "Why twist works",
+     "Patil’s model says the first break releases twisting (torsional) waves that travel faster than the bending waves and carry away the energy that would otherwise have gone into further breaks."
+    ],
+    [
+     "Try it at the kitchen table",
+     "Bend a strand and count the pieces; repeat a few times. Then twist a fresh strand as far as you can and bend it slowly. Count again."
+    ],
+    [
+     "Beyond pasta",
+     "Physics World notes the research could lead to new ways of using twist to prevent fractures in rod-like materials such as multifibre structures and nanotubes, and help explain natural structures such as microtubules inside living cells."
+    ]
+   ],
+   "rel": [
+    "fermat",
+    "hole",
+    "honor"
+   ],
+   "src": "Physics World, 14 Aug 2018 (Hamish Johnston)"
+  },
+  {
+   "id": "honor",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "art": "gimbal",
+   "cap": "A phone whose camera pops out on a titanium robot arm and spins 360° in a second",
+   "num": "0.005 mm",
+   "nums": "machining precision Honor claims for the titanium gimbal; the gap where it rotates is 0.4 mm",
+   "p1": "The Honor Robot Phone, in TIME’s Best Inventions of 2026, carries its 200-megapixel main camera on a palm-sized robotic arm with four degrees of freedom: pan, tilt, roll and flip. On command it swivels out of the back of the phone and AI software tracks whatever it is pointed at, including you in selfie mode; when it is done, the arm folds flat into the camera panel. Honor says it developed its own micromotor and packed in more than 100 new components. The gimbal motor weighs 2.6 g, is titanium alloy, and turns the camera at up to 360 degrees per second.",
+   "p2": "What reviewers found wrong: Tom’s Guide’s John Velasco found the gimbal cannot rotate for true vertical video, it just crops the centre; he was leery about low light with a 1/1.28-inch sensor, worried about the moving parts in a drop, found it hefty at 8.75 ounces (an iPhone 17 Pro is 7.27), and it is not coming to the US.",
+   "deep": [
+    [
+     "Inside the arm",
+     "The flip motor is made from a 2100 MPa steel Honor calls shield steel, with 43 components in a 0.5 cubic centimetre space and a five-speed transmission. Torque density is quoted at up to 120 newton-metres per litre, with a rare-earth NdFeB core."
+    ],
+    [
+     "The cameras",
+     "Main: 200 MP on a 1/1.28-inch sensor, f/1.6, with optical and 3-axis mechanical stabilisation. Periscope telephoto: 200 MP, 1/1.4-inch, 2.7x optical zoom. Ultra-wide: 50 MP with a 122-degree field of view. Video up to 4K at 120 frames per second through Honor’s H1 image chip."
+    ],
+    [
+     "The rest of the phone",
+     "Snapdragon 8 Elite Gen 5 on a 3 nm process, a 6.31-inch OLED that peaks at 6,800 nits, and a 7,060 mAh silicon-carbon battery with 120 W wired and 50 W wireless charging. Announced in China on 12 August 2026 at RMB 9,999 and RMB 12,999, with sales from 18 August."
+    ],
+    [
+     "A number to doubt",
+     "Velasco’s spec table lists 25 W wired charging; Honor’s own pages say 120 W. They cannot both be right, and a charging claim is exactly the kind of number to time with a stopwatch."
+    ]
+   ],
+   "rel": [
+    "spag",
+    "stack",
+    "aicraft"
+   ],
+   "src": "TIME Best Inventions 2026 · Honor product and launch pages · Tom’s Guide, 12 Aug 2026"
+  },
+  {
+   "id": "monsoon",
+   "dom": "sg",
+   "lab": "Singapore · Weather",
+   "art": "haze",
+   "cap": "Woodlands hit 36.1 °C on 23 October. Now the winds go slack, and the haze should ease",
+   "num": "36.1 °C",
+   "nums": "highest daily maximum of the fortnight, recorded at Woodlands on 23 October 2026",
+   "p1": "The Meteorological Service Singapore said on Thursday 29 October that the Southwest Monsoon is weakening and inter-monsoon conditions are setting in. The second half of October brought winds mostly from the southeast or southwest, which carried smoke haze to Singapore: air quality reached Unhealthy levels on seven days and Very Unhealthy on three between 16 and 28 October. The inter-monsoon period brings light and variable winds instead, so smoke haze is less likely to reach Singapore and the haze situation is expected to improve.",
+   "p2": "Also in the review: daily maximums above 34 °C on most days, and most of the island had below-average rain. Tanjong Katong was 72 per cent below average while Punggol was 24 per cent above.",
+   "deep": [
+    [
+     "The first half of November",
+     "Moderate to heavy thundery showers in the afternoon on most days, sometimes into the evening; total rainfall forecast slightly above average; daily maximums between 33 and 35 °C on most days, with a few days slightly above 35."
+    ],
+    [
+     "The wettest spot",
+     "The highest daily rainfall of the fortnight was 81.0 mm at Tuas South on 21 October."
+    ],
+    [
+     "Across the water",
+     "NEA’s regional page on Thursday evening: scattered hotspots mainly in southern Kalimantan, moderate to dense smoke plumes over southern and eastern Kalimantan, and a few air quality stations in Sumatra and Kalimantan reporting Unhealthy levels. Extensive cloud cover hid the full picture."
+    ],
+    [
+     "Yesterday’s forecast",
+     "NEA’s PSI forecast for Thursday 29 October was 60 to 90, Moderate. At 5 pm on Wednesday the 24-hour PSI was 66 to 78."
+    ]
+   ],
+   "rel": [
+    "arnab",
+    "flow",
+    "navic"
+   ],
+   "src": "NEA / Meteorological Service Singapore, 29 Oct 2026",
+   "img": "https://www.nea.gov.sg/images/default-source/about-us/fwo-29-oct-26.jpg",
+   "credit": "Image: NEA"
+  },
+  {
+   "id": "flow",
+   "dom": "sg",
+   "lab": "Singapore · Energy",
+   "art": "flow",
+   "cap": "A battery that keeps its energy in two tanks of non-flammable liquid: NTU’s S$15m lab",
+   "num": "S$15 million",
+   "nums": "size of the four-year NTU–VFT joint lab announced on Tuesday 27 October",
+   "p1": "NTU’s Energy Research Institute (ERI@N) and VFT, an NTU spin-off founded in 2018, have launched a S$15 million joint research laboratory, NTU said on Tuesday 27 October, to develop vanadium redox flow batteries for the power grid. Unlike lithium-ion batteries, which store energy inside the cells, a flow battery stores it in liquid electrolytes held in external tanks; the liquids are water-based and non-flammable, which NTU says significantly reduces the risk of battery fires.",
+   "p2": "Why it matters: as grids add more intermittent solar and wind, they need a safe way to store electricity when generation is high and release it when renewable output falls or demand rises.",
+   "deep": [
+    [
+     "What they will work on",
+     "Better battery stacks and cooling, recovering and recycling the vanadium, power conversion efficiency, and AI-based fault detection and maintenance prediction."
+    ],
+    [
+     "Who",
+     "Professor Madhavi Srinivasan, executive director of ERI@N: “As the global energy transition accelerates, safe and efficient energy storage will become increasingly important to keeping electricity supplies stable and reliable.” VFT’s chief executive, Dr Vidal Bharath, says the challenge is no longer simply generating more renewable energy but finding safe, reliable and affordable ways to store it for when generation falls or demand rises."
+    ],
+    [
+     "The spin-off",
+     "VFT is built on technology developed at ERI@N and raised US$20.5 million in 2025 to expand manufacturing. The lab was launched at the Asia Clean Energy Summit during Singapore International Energy Week 2026 and is supported under the Research, Innovation and Enterprise 2025 plans."
+    ]
+   ],
+   "rel": [
+    "monsoon",
+    "honor",
+    "navic"
+   ],
+   "src": "NTU Singapore, 27 Oct 2026",
+   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1--launch-of-ntu-vft-joint-lab.jpg?sfvrsn=af38cc74_1",
+   "credit": "Photo: NTU Singapore"
+  },
+  {
+   "id": "hole",
+   "dom": "try",
+   "lab": "Try it · Paper tube",
+   "art": "hole",
+   "cap": "Roll a sheet of paper into a tube and you can see straight through your own hand",
+   "num": "28 cm",
+   "nums": "length of the tube: one A4 sheet rolled lengthwise, about 1.25 cm across",
+   "p1": "Roll a sheet of A4 paper lengthwise into a tube about 28 cm long and 1.25 cm in diameter, and tape it so it stays rolled. Hold it to your right eye with your right hand and look through it, keeping both eyes open. Now bring your left hand up, fingers pointing up and palm facing you, against the left side of the tube about halfway along. Your hand appears to have a hole in it.",
+   "p2": "Swap: tube in the left hand to the left eye, right palm against it. Some people find the effect stronger one way round.",
+   "deep": [
+    [
+     "What is going on",
+     "One of your eyes sees a hole, the other sees a hand. Your eyes and brain add the two images together and build a hand with a hole in it."
+    ],
+    [
+     "Your dominant eye",
+     "The effect is often stronger with one eye because one eye is likely dominant: your brain has a slight preference for its signal, much as you prefer one hand, though eye and hand preference do not have to match."
+    ],
+    [
+     "Find yours",
+     "Tear a coin-sized hole in a piece of paper, pick a distant object and look at it through the hole. Slowly bring the paper to your face while keeping the object in view. The eye the hole ends up against is your dominant eye. Exploratorium adds that top baseball hitters often don’t have a dominant eye."
+    ],
+    [
+     "Circle or oval",
+     "Make a second tube and squash it into a flat oval. Look through the round tube with one eye and the oval with the other at a white wall, and angle them so the two spots overlap. Most people see one shape, the one from the dominant eye; some see both overlapped."
+    ]
+   ],
+   "rel": [
+    "fermat",
+    "spag",
+    "fox"
+   ],
+   "src": "Exploratorium Science Snacks: Hole in Your Hand · Circles or Ovals"
+  },
+  {
+   "id": "aicraft",
+   "dom": "usingai",
+   "lab": "Using AI · Quote",
+   "art": "aicraft",
+   "cap": "“Outsource the crap, not the craft”",
+   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Hand the boring, repetitive stuff to the machine. Keep for yourself anything you want to become good at, and anything you enjoy. His colleague Trent Cash at Waterloo adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
+   "p2": "Why it is not scary: Cash also says humans are resilient and AI will not turn our brains to mush. It is a choice, made daily.",
+   "deep": [
+    [
+     "The doctors who forgot",
+     "Doctors used an AI tool for three months to spot growths during colonoscopies. When it was switched off, they found fewer than before. Three months was enough for the skill to fade."
+    ],
+    [
+     "The readers who gave up",
+     "People who worked through SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
+    ],
+    [
+     "Your list",
+     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+    ]
+   ],
+   "rel": [
+    "spag",
+    "hole",
+    "honor"
+   ],
+   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
+   "hot": 0,
+   "big": 0
+  },
+  {
+   "id": "fox",
+   "dom": "life",
+   "lab": "Halloween · Bats",
+   "art": "bat",
+   "cap": "Madagascar’s giant bats, wingspan up to 1.5 m, are shrinking. Museum skulls told the story",
+   "num": "3.6 mm",
+   "nums": "how much longer pre-1980s flying-fox skulls were than later ones, about 6 per cent",
+   "p1": "The Madagascan flying fox, Pteropus rufus, is among the world’s biggest bats; fruit bats like it have wingspans of up to a metre and a half. Emily Cornelius Ruhs of Chicago’s Field Museum noticed that preserved specimens looked larger than bats caught today. With Steven Goodman she measured 12 skull and tooth features on 121 specimens from nine museums, collected over more than 150 years. Skulls from before the 1980s were 3.6 millimetres, about 6 per cent, longer than those collected after.",
+   "p2": "Published Thursday 29 October in the Journal of Mammalogy. The timing of the shrink matches the rise of commercial bat hunting, which may take the biggest animals first; climate change and habitat loss are other possible causes.",
+   "deep": [
+    [
+     "A population in trouble",
+     "Estimated at 300,000 in the early 2000s, the population is now down by about two-thirds. “Bats are eaten in Madagascar in certain villages and cultures,” says Ruhs; the question she raises is how to overcome the needs of the people who live there."
+    ],
+    [
+     "Why size matters",
+     "Smaller bodies could affect how the species copes with environmental, climate or disease stress. Emma Stone of the University of Bath: “Species are specifically adapted to their environments and adaptation takes place over thousands of years.”"
+    ],
+    [
+     "Museums as time machines",
+     "Specimens collected over more than 150 years let a bat from 1948 sit next to one from 1995 and tell a story that no single field trip could."
+    ]
+   ],
+   "rel": [
+    "silk",
+    "hole",
+    "spag"
+   ],
+   "src": "Science News, 29 Oct 2026 (Jake Buehler) · Ruhs & Goodman, Journal of Mammalogy"
+  },
+  {
+   "id": "silk",
+   "dom": "life",
+   "lab": "Halloween · Spiders",
+   "art": "spider",
+   "cap": "A spider turns liquid “dope” into thread tougher than Kevlar in milliseconds. Here’s how",
+   "num": "up to 7",
+   "nums": "types of silk spiders can spin; one spider often makes several",
+   "p1": "Spider silk is tougher than Kevlar and stronger than steel, yet nobody has matched it, partly because nobody knew how a spider turns a soup of proteins into a fibre within milliseconds. Gregory Holland’s team at San Diego State University used NMR, nuclear magnetic resonance, on liquid silk dope from black widows and mapped the steps, Quanta Magazine reported on Wednesday 28 October. The key is a condensate: phosphate triggers two amino acids, arginine and tyrosine, to interact, pushing water out and forming a denser, gel-like state whose sticky interaction persists into the finished fibre.",
+   "p2": "Why it matters: silkworms have been farmed for more than 4,000 years, but spiders eat each other, so each needs its own container, and it would take around a million of them to make one silk shirt. Lab-made spider silk is still weaker than the real thing.",
+   "deep": [
+    [
+     "Holy grail",
+     "Holland calls mapping the molecular steps from dope to fibre “really the holy grail”. The silk proteins, later named spidroins, were identified in 1907. Packages of black widows arrived every few months through 2023 and 2024; six times over two weeks, graduate student Hannah Johnson put on two pairs of protective gloves to silk them."
+    ],
+    [
+     "One protein, two states",
+     "Kevin Chalek, then a postdoc in the lab: “These are the same protein, so how can they be so different?” Simulations suggest arginine and tyrosine sit at the bends of beta sheets, guiding the proteins into their final structure."
+    ],
+    [
+     "Not just spiders",
+     "Condensates have been observed for more than a century: lab-made spidroins formed liquid-like globs in 2007, condensates turned up in worm eggs in 2009, and in 2020 Keiji Numata proposed that spider silk passes through a condensate phase. “It’s becoming clear that condensates are a common strategy that’s being used across a range of different organisms,” says Matthew Harrington of McGill. Daiwen Yang of NUS, not involved, calls the findings direct evidence."
+    ]
+   ],
+   "rel": [
+    "fox",
+    "hole",
+    "fermat"
+   ],
+   "src": "Quanta Magazine, 28 Oct 2026 (Yasemin Saplakoglu) · Holland lab, PNAS"
+  },
+  {
    "id": "art3",
    "dom": "space",
    "lab": "Space · 2027",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "artemis",
    "cap": "Artemis III: four astronauts, two Moon landers, one docking rehearsal in Earth orbit",
    "num": "14 days",
@@ -67,514 +571,13 @@
     ]
    ],
    "rel": [
-    "eva",
-    "neo",
-    "spadex"
+    "stack",
+    "lucy",
+    "chapea"
    ],
    "src": "NASA, 23 Oct 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=1600",
    "credit": "Image: NASA"
-  },
-  {
-   "id": "eva",
-   "dom": "space",
-   "lab": "Space · Today",
-   "hot": 1,
-   "art": "eva",
-   "cap": "8 pm tonight: two astronauts step outside to bolt a roll-out solar array onto the ISS",
-   "num": "6 h 45 min",
-   "nums": "of planned work outside the station, starting 8 a.m. US Eastern, 8 p.m. in Singapore",
-   "p1": "Mission managers gave the go on Wednesday. Expedition 75 flight engineers Anil Menon of NASA and Joshua Kutryk of the Canadian Space Agency set their suits to battery power at 8 a.m. US Eastern time, which is 8 p.m. in Singapore, and that is the official start of the spacewalk. The job: install a new roll-out solar array on the station’s port-side truss, about six hours and 45 minutes of work outside.",
-   "p2": "Menon will ride the Canadarm2 robotic arm with the array in hand while Kutryk, tethered to the station, moves along the truss to meet him.",
-   "deep": [
-    [
-     "Step by step",
-     "First the pair unbolt the roll-out solar array from the temporary stowage platform where it has been kept. Menon carries it to the truss worksite riding the end of Canadarm2. Kutryk translates to the port truss worksite on tethers and helps finish the installation. Then mission controllers on the ground remotely activate the array and it begins generating power."
-    ],
-    [
-     "Who is watching",
-     "NASA flight engineers Jessica Watkins and Luke Delaney spent Wednesday familiarising themselves with lighting conditions and camera locations so they can monitor the spacewalkers and operate Canadarm2. NASA+ live coverage starts at 6:30 a.m. Eastern, 6:30 p.m. in Singapore."
-    ],
-    [
-     "Same day, other work",
-     "Station commander Pyotr Dubrov uninstalled Earth-photography gear that had been capturing Pacific and Atlantic Ocean landmarks, and flight engineer Anna Kikina tested her fitness in microgravity by jogging on the treadmill in the Zvezda service module."
-    ]
-   ],
-   "rel": [
-    "art3",
-    "neo",
-    "crimson"
-   ],
-   "src": "NASA Space Station blog, 28 Oct 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926a.jpg?w=1200",
-   "credit": "Photo: NASA"
-  },
-  {
-   "id": "gany",
-   "dom": "space",
-   "lab": "Space · Rare",
-   "art": "jup",
-   "cap": "Ganymede slid in front of Io on 20 October. That line-up comes round once every six years",
-   "num": "6 years",
-   "nums": "between seasons when Jupiter’s moons can hide one another from Earth",
-   "p1": "Ganymede and Io, two of Jupiter’s Galilean moons, met in the sky on 20 October 2026, Ganymede briefly blocking Io from view. Astronomers call it a mutual occultation. NASA’s Astronomy Picture of the Day for Wednesday 28 October is a video of the meeting by Michael Wong; in it Ganymede is also casting its shadow on Jupiter’s right side.",
-   "p2": "Why rare: mutual occultations need Earth’s edge-on view of the moons’ orbits, and that happens only when Jupiter reaches its equinox, once every six years.",
-   "deep": [
-    [
-     "Why edge-on matters",
-     "For one moon to pass exactly in front of another from our point of view, Earth has to be looking along the plane the moons orbit in. That alignment comes with Jupiter’s equinox, about every six years, so a whole season of these events arrives together and then nothing for years."
-    ],
-    [
-     "Two events in one picture",
-     "An occultation is one body hiding another. A shadow is different: at the same time, Ganymede’s shadow was falling on Jupiter, a dark dot on the planet’s disc, so the video shows both at once."
-    ],
-    [
-     "What you would see",
-     "The video shows Ganymede moving across and Io disappearing behind it, then returning. It is a rare thing to witness, because the geometry is right so seldom."
-    ]
-   ],
-   "rel": [
-    "scope",
-    "art3",
-    "eva"
-   ],
-   "src": "NASA APOD, 28 Oct 2026 · video: Michael Wong"
-  },
-  {
-   "id": "bomb",
-   "dom": "earth",
-   "lab": "Earth · From orbit",
-   "hot": 1,
-   "art": "cyclone",
-   "cap": "A dead Florida hurricane came back as a bomb cyclone and hit Iceland with 205 km/h gusts",
-   "num": "205 km/h",
-   "nums": "gust recorded near Eyjafjallajökull volcano in southern Iceland, 14 October",
-   "p1": "Hurricane Isaias, the only Atlantic hurricane so far in 2026, made landfall in Florida as a Category 2 storm on 9 October. Its remnants rode the jet stream east across the North Atlantic and developed into a powerful extratropical cyclone. On the afternoon of 14 October the VIIRS instrument on the NOAA-21 satellite caught the spiral brushing past Iceland, where a gust of 205 km/h was recorded near Eyjafjallajökull volcano.",
-   "p2": "The storm’s air pressure fell by more than 50 hectopascals in 24 hours, about double the criterion for explosive cyclogenesis, better known as bombogenesis, a bomb cyclone.",
-   "deep": [
-    [
-     "What a bomb cyclone is",
-     "Meteorologists use the term for a storm whose central pressure plummets. This one fell more than 50 hectopascals in a day, roughly twice the threshold. Some meteorologists think it set a new October low for air pressure in Iceland, after correcting for altitude, likely breaking a record that had stood since 1963."
-    ],
-    [
-     "Numbers from the ground",
-     "Sustained winds of 150 km/h on a small island just offshore. Gusts up to 90 km/h in northwestern Scotland the same day, enough to cancel ferries."
-    ],
-    [
-     "How it was seen",
-     "The image was captured by VIIRS, the Visible Infrared Imaging Radiometer Suite, on the NOAA-21 satellite. Earth Observatory published it as Image of the Day on 21 October, with storm clouds in an expanding spiral centred near southern Iceland."
-    ]
-   ],
-   "rel": [
-    "eva",
-    "spadex",
-    "neo"
-   ],
-   "src": "NASA Earth Observatory, 21 Oct 2026",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/extratropical-cyclone-whips-past-iceland/icelandstorm_vir2_20261014_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA Earth Observatory / NOAA-21 VIIRS"
-  },
-  {
-   "id": "spadex",
-   "dom": "space",
-   "lab": "India · Space",
-   "hot": 1,
-   "art": "spadex",
-   "cap": "India’s two docking satellites burned up on the same day, over two different oceans",
-   "num": "470 km",
-   "nums": "circular orbit where SPADEX-A and SPADEX-B started, launched on PSLV-C60 on 30 December 2024",
-   "p1": "ISRO’s Space Docking Experiment put two satellites, SPADEX-A and SPADEX-B, into a 470 km circular orbit on 30 December 2024 to demonstrate autonomous rendezvous and low-impact docking. Both spacecraft completed every core objective: vertical and radial docking, controlling the docked pair as one (composite control), power transfer between them, undocking and payload operations. ISRO also lists a circumnavigation manoeuvre among the successes.",
-   "p2": "On 12 October 2026, with their fuel exhausted, both re-entered: SPADEX-A over the South Pacific around 16:48 UTC, SPADEX-B over the North Atlantic around 23:36 UTC. ISRO posted the account on Friday 23 October.",
-   "deep": [
-    [
-     "Why they came down",
-     "ISRO says that once the fuel was exhausted in both satellites, their orbits decayed progressively until atmospheric re-entry on 12 October 2026."
-    ],
-    [
-     "The Sun hurried them",
-     "Two moderate geomagnetic storms, on 4 and 11 October 2026, accelerated the orbital decay, ISRO says. Space weather, in other words, set the date."
-    ],
-    [
-     "Healthy to the end",
-     "Both spacecraft remained healthy until the final telemetry frames were received. Their ends came nearly seven hours apart, each over open ocean: 16:48 UTC and 23:36 UTC."
-    ]
-   ],
-   "rel": [
-    "art3",
-    "eva",
-    "crimson"
-   ],
-   "src": "ISRO, 23 Oct 2026"
-  },
-  {
-   "id": "lhc",
-   "dom": "matter",
-   "lab": "Physics · Particles",
-   "hot": 1,
-   "art": "lhc",
-   "cap": "Protons in the LHC lap a 27 km ring 11,245 times a second. Check the speed yourself",
-   "num": "11,245",
-   "nums": "laps of the 26,659-metre ring every second",
-   "p1": "CERN’s Large Hadron Collider is a ring of superconducting magnets 26,659 metres round, in a tunnel 100 metres underground. Protons go round it 11,245 times a second. Multiply: 11,245 × 26.659 km is about 299,800 km every second. The speed of light is 299,792 km/s. The protons are travelling a hair under it.",
-   "p2": "Why so cold: the magnets run at 1.9 K, about −271 °C, colder than outer space, and inside the beam pipes the pressure is ten million million times lower than air at sea level.",
-   "deep": [
-    [
-     "The beam",
-     "Each beam is structured in around 2,500 bunches, each bunch holding about 100 billion protons, usually spaced 25 nanoseconds apart. The two beams are made to collide at four points around the ring, at 13.6 TeV, the highest collision energy ever reached in a laboratory."
-    ],
-    [
-     "The magnets",
-     "1,232 dipole magnets, each 15 metres long, bend the beam; 392 quadrupoles, 5 to 7 metres each, focus it. Eight superconducting cavities per beam, each delivering 2 megavolts at 400 MHz, do the accelerating."
-    ],
-    [
-     "Try the arithmetic",
-     "One lap is 26.659 km and there are 11,245 laps a second. How far does a proton travel in one hour of running? About a billion kilometres. And how much of a lap fits in the 25 nanoseconds between bunches? Less than a thousandth."
-    ],
-    [
-     "Right now",
-     "The LHC first started up on 10 September 2008. It is due to be shut down from July 2026 for a long upgrade, so 13.6 TeV is the record so far."
-    ]
-   ],
-   "rel": [
-    "charge",
-    "scope",
-    "eva"
-   ],
-   "src": "CERN, Facts and figures about the LHC"
-  },
-  {
-   "id": "charge",
-   "dom": "matter",
-   "lab": "Physics · Electricity",
-   "art": "charge",
-   "cap": "1% more electrons than protons: you could push a friend away with the weight of the Earth",
-   "num": "10³⁶",
-   "nums": "roughly how many times stronger the electric force is than gravity: Feynman’s billion-billion-billion-billion",
-   "p1": "Feynman opens his electromagnetism lectures with a thought you can hold in your head. Imagine a force like gravity, falling off with the square of the distance, but about a billion-billion-billion-billion times stronger, with one difference: like kinds repel and unlike kinds attract. That is the electric force. Every atom in you carries it, positive protons and negative electrons, balanced so perfectly that when you stand near someone else you feel no force at all.",
-   "p2": "The thought to test: if you stood at arm’s length from someone and each of you had just one per cent more electrons than protons, the repulsion would lift not the Empire State Building, not Mount Everest, but a weight equal to that of the entire Earth.",
-   "deep": [
-    [
-     "Why you never notice",
-     "Matter is balanced so exactly, Feynman says, that standing near another person you feel nothing. If there were even a little bit of imbalance, you would know it."
-    ],
-    [
-     "The number",
-     "A billion is 10⁹; four of them multiplied together make 10³⁶. For two electrons Feynman gives a sharper figure: electrical repulsion over gravitational attraction is 4.17 × 10⁴²."
-    ],
-    [
-     "A puzzle he leaves open",
-     "Where could such a tremendous number come from? Feynman notes that the time light takes to cross a proton, 10⁻²⁴ seconds, compared with the age of the universe (he used 2 × 10¹⁰ years) gives 10⁻⁴², and wonders whether that is a coincidence. He says the subject is not completely closed."
-    ]
-   ],
-   "rel": [
-    "lhc",
-    "blind",
-    "coaster"
-   ],
-   "src": "The Feynman Lectures on Physics, Vol. II ch. 1 and Vol. I ch. 7"
-  },
-  {
-   "id": "blind",
-   "dom": "try",
-   "lab": "Try it · Eyes only",
-   "art": "blind",
-   "cap": "There is a hole in your vision right now. Use this tile to find it",
-   "num": "0",
-   "nums": "light receptors in the spot where the optic nerve leaves your retina",
-   "p1": "The picture on this tile has a dot on the left and a cross on the right. Hold the screen at about arm’s length. Cover your right eye and look straight at the cross with your left eye; you can still see the dot off to the side. Keep your eye fixed on the cross and bring the screen slowly toward your face. At one distance the dot vanishes. Keep coming and it reappears.",
-   "p2": "Swap: cover your left eye, look at the dot with your right, and now the cross disappears instead.",
-   "deep": [
-    [
-     "What is going on",
-     "The optic nerve, a bundle of nerve fibres carrying messages from your eye to your brain, passes through one spot on the retina, the light-sensitive lining at the back of the eye. In that spot the retina has no light receptors. When the dot’s light falls there, you cannot see the dot."
-    ],
-    [
-     "Why you never notice",
-     "Your brain fills in the blind spot with a simple extrapolation of the image around it. Draw a straight line through a dot and a cross on paper: when the dot vanishes, the line looks continuous, with no gap where the dot was."
-    ],
-    [
-     "Measure it",
-     "Exploratorium’s model treats the eye as a pinhole camera with the pupil 2 cm from the retina. If the blind spot measures d across on a card held at distance D, its size s on the retina follows s/2 = d/D. Example: a 2.5 cm gap on a card 25 cm away means a blind spot about 2 mm across on your retina."
-    ]
-   ],
-   "rel": [
-    "charge",
-    "gany",
-    "coaster"
-   ],
-   "src": "Exploratorium Science Snacks · Blind Spot"
-  },
-  {
-   "id": "scope",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 1,
-   "art": "scope",
-   "cap": "A telescope the size of a lunchbox that stacks its own galaxy photos. 840 g, US$419",
-   "num": "2.9 µm",
-   "nums": "pixel size on the Dwarf Mini’s Sony IMX662 sensor, 1/2.8-inch format",
-   "p1": "Dwarflab’s Dwarf Mini is in TIME’s Best Inventions of 2026 special mentions as a lunchbox-sized smart telescope for beginner astrophotographers. Inside: a Sony IMX662 sensor in the 1/2.8-inch format with 2.9-micrometre pixels, shooting 2-megapixel RAW frames. The whole thing weighs 840 g. The lens barrel rotates 225 degrees and the gimbal turns a full 360, so it can find and follow a target picked from the Sky Atlas in its app.",
-   "p2": "The trick is stacking: it takes many frames and adds them up on the device itself, so faint nebulae build up without a computer.",
-   "deep": [
-    [
-     "The engineering",
-     "An equatorial-mount mode allows single exposures of 90 seconds. Three filters: an Astro filter passing 430–690 nm to boost nebula contrast, a dual narrowband filter tuned to hydrogen-alpha at 656.3 nm and oxygen-III at 500.7 nm to cut moonlight and city glow, and a dark-frame filter that auto-captures darks to suppress thermal noise. Dark, bias and flat calibration frames and a Multi-night Super Stack are handled in software."
-    ],
-    [
-     "What the reviewer found",
-     "Tom’s Guide’s John Velasco used one for nearly two months and watched the Orion Nebula take form in under five minutes. His caveat: depending on the target, a good result can take anywhere from minutes to hours, and some objects take much longer before details are exposed. His review price was $399; the official page now says $419."
-    ],
-    [
-     "What the spec sheet leaves out",
-     "Dwarflab’s page lists no focal length, no aperture, no battery figure and no dimensions. The tripod ($89) and bag ($39) are extra."
-    ]
-   ],
-   "rel": [
-    "gany",
-    "neo",
-    "buds"
-   ],
-   "src": "TIME Best Inventions 2026 · Dwarflab spec page · Tom’s Guide, 8 Mar 2026"
-  },
-  {
-   "id": "buds",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "art": "buds",
-   "cap": "Earbuds that rewind 30 seconds and save what you just heard. Reviewers asked: is that OK?",
-   "num": "12 mm",
-   "nums": "driver in each Nothing Ear (3a) earbud; 4.53 g a bud",
-   "p1": "Nothing’s Ear (3a), US$99 / £99, is on TIME’s Best Inventions of 2026 list largely for one feature: squeeze both earbuds and they take an audio snapshot, and you can adjust the window so it includes audio played up to 30 seconds before you squeezed. Inside each 4.53 g bud is a 12 mm driver, Bluetooth 6.0 with the LDAC hi-res codec, active noise cancellation rated up to 45 dB, and an IP54 rating against dust and splashes.",
-   "p2": "TechRadar’s Becky Scarrott scored it 4 out of 5 and liked the sound. Her worry is a bud that records calls with only a brief beep as warning: “We need to talk about Call Recording.”",
-   "deep": [
-    [
-     "The numbers",
-     "Battery: up to 6 hours with noise cancelling off, 4.5 with it on; 25 or 18 hours with the case. USB-C charging, no wireless charging. Frequency range quoted at 20 Hz to 40 kHz. Recordings are stored on the buds themselves, up to two hours."
-    ],
-    [
-     "What reviewers found wrong",
-     "Battery life has taken a hit compared with the previous model, the review says; the default sound is overly bassy and a tad quiet; still no wireless charging or hearing tests. The recording features felt like a step too far: “I’m not wholly OK with it.”"
-    ],
-    [
-     "The ethics inside the hardware",
-     "On an ordinary phone call the other person hears a beep, and muting your microphone does not stop it; on Google Meet a voice announces “This call will be recorded in 3, 2, 1.” The buds cannot capture conversations around you or your own voice, the review notes; what they save is the call or the audio playing through them."
-    ]
-   ],
-   "rel": [
-    "scope",
-    "aimit",
-    "lhc"
-   ],
-   "src": "TIME Best Inventions 2026 · nothing.tech · TechRadar, 25 Jul 2026"
-  },
-  {
-   "id": "glow",
-   "dom": "sg",
-   "lab": "Singapore · Chemistry",
-   "art": "glow",
-   "cap": "Europe is banning the chemical that sets gel nails and 3D prints. NTU built a safer one",
-   "num": ">3.5×",
-   "nums": "how far a skin adhesive made with the new compound stretches without damaging the skin beneath",
-   "p1": "Photoinitiators are the molecules that make a liquid resin turn solid in seconds when light hits it, kick-starting a reaction called polymerisation. Two of the most used, TPO and BAPO, have been identified as reproductive toxins and are being banned in some regions, including the European Union, which has disrupted the gel-nail sector. A team at NTU led by Associate Professor Terry Steele has made a new family of them, aryl diazirines, that are non-toxic; several are soluble in water and liquid at room temperature.",
-   "p2": "First published online in NPG Asia Materials on 16 October 2026; NTU announced it on Friday 23 October. The new compounds release nitrogen gas as they cure.",
-   "deep": [
-    [
-     "What they showed",
-     "Demonstrations included a stretchy skin bioadhesive that extends to more than three and a half times its length without damaging the underlying skin, 3D-printed microfluidic channels from a soybean-oil-based resin, and a gasket cured in place with a handheld UV light to make a water-tight seal."
-    ],
-    [
-     "Why it matters",
-     "The most effective and widely used photoinitiators are being regulated out of existence because of toxicity, the NTU release says. Steele: the goal was an activator that is not only safe and biocompatible but also improves on the performance of existing materials."
-    ],
-    [
-     "Next",
-     "Lead author and PhD student Naziruddin Ali says the next step is to bridge the gap between the laboratory findings and industrial-scale manufacturing."
-    ]
-   ],
-   "rel": [
-    "crimson",
-    "lhc",
-    "scope"
-   ],
-   "src": "NTU Singapore, 23 Oct 2026 · NPG Asia Materials"
-  },
-  {
-   "id": "drex",
-   "dom": "life",
-   "lab": "Halloween · Fungi",
-   "hot": 0,
-   "art": "fungus",
-   "cap": "Half a metre tall, 2.2 kg, yellow tentacles from dead roots: D. rex, king of the sac fungi",
-   "num": "50 cm",
-   "nums": "height of the biggest Dianjunus rex mushrooms; up to 2.2 kg each",
-   "p1": "In 2024, researchers surveying fungi in a tropical rainforest in Yunnan Province, southwestern China, were tipped off by local farmers about something odd: yellowish, tentacle- and spatula-shaped mushrooms growing from decaying tree roots, some reaching 50 centimetres tall and weighing up to 2.2 kilograms. Named Dianjunus rex, they are the largest spore-making fruiting bodies known among all sac fungi, the group that includes morels, truffles and moulds.",
-   "p2": "The farmers wanted to know whether it was edible. The scientists’ answer was a new genus, and probably a whole new family.",
-   "deep": [
-    [
-     "A giant among small relatives",
-     "DNA places D. rex near candlesnuff fungus and dead man’s fingers, whose fruiting bodies are only a few centimetres tall. Sac fungi make their spores in microscopic bladder-like structures and mostly stay small; this one did not."
-    ],
-    [
-     "After the asteroid",
-     "The genetic analysis suggests the family first evolved after the mass extinction some 65 million years ago that wiped out the dinosaurs. Indunil Chinthani Senanayake of the Kunming Institute of Botany suggests that in the dark, cold years after the impact, fungi that decompose dead matter could keep functioning better than light-dependent photosynthesisers."
-    ],
-    [
-     "The name",
-     "Rex is Latin for king; Dian was an ancient kingdom of the region. Torda Varga of the Royal Botanic Gardens, Kew, who was not involved, finds it remarkable that a fungus with so enormous a fruiting body went undocumented until now, and suggests environmental DNA databases may hold more relatives. Reported in Frontiers in Fungal Biology."
-    ]
-   ],
-   "rel": [
-    "coaster",
-    "glow",
-    "blind"
-   ],
-   "src": "Science News, 27 Oct 2026 · Song et al., Frontiers in Fungal Biology 2026"
-  },
-  {
-   "id": "coaster",
-   "dom": "numbers",
-   "lab": "Numbers · Risk",
-   "art": "coaster",
-   "cap": "652 injuries in 1.7 billion rides: the numbers and physics of roller coasters",
-   "num": "6 g",
-   "nums": "the recommended acceleration limit in roller coaster standards, based on research from the space race",
-   "p1": "North American parks that chose to share data reported 652 roller coaster injuries in 2024, against about 1.7 billion amusement-park rides a year. That is roughly one injury per 2.6 million rides. Yet Science News reports a fresh debate: the industry standards recommend a 6 g limit on acceleration, based on NASA research from the space race, but disregard any force lasting less than 200 milliseconds, however intense.",
-   "p2": "The missing quantity is jerk, how fast acceleration changes. Hit an imperfection in the track and, says mechanical engineer Jurnan Schilder, “theoretically, you experience infinite jerk.”",
-   "deep": [
-    [
-     "History in g",
-     "The Flip Flap Railway opened in New York City in 1895 and put riders through an estimated 7.5 g, some say closer to 12 g, straining backs and necks. X2 at Magic Mountain in California, the first fourth-dimension coaster with seats that rotate on their own, opened in 2002: 60 metres high, 122 km/h. On 29 September Six Flags announced it would close permanently."
-    ],
-    [
-     "What the research says",
-     "A 2002 mathematical model using g-force data from three coasters found accelerations below the levels predicted to cause head injury. A 2017 paper found peak brain effects comparable with mild sports impacts, such as heading a football, and warned that limiting g-forces alone might be an insufficient design criterion."
-    ],
-    [
-     "Jerk and snap",
-     "David Eager, a biomechanical engineer at the University of Technology Sydney, says riders need time to sense acceleration changes. On a fourth-dimension coaster two sets of tracks mean double the variations: “Not only is the train sometimes shaking, but also the tilting mechanism is shaking,” says Schilder, of the University of Twente in the Netherlands."
-    ],
-    [
-     "Do the division",
-     "1,700,000,000 ÷ 652 is about 2.6 million. Then ask what the figure leaves out: only parks that chose to share data are counted."
-    ]
-   ],
-   "rel": [
-    "charge",
-    "drex",
-    "blind"
-   ],
-   "src": "Science News, 27 Oct 2026"
-  },
-  {
-   "id": "aimit",
-   "dom": "usingai",
-   "lab": "Using AI · MIT",
-   "hot": 0,
-   "big": 0,
-   "art": "aimit",
-   "cap": "MIT’s phrase for what a chatbot answer gives you: “the illusion of learning”",
-   "num": "8",
-   "nums": "principles in MIT’s 2026 report on AI in education",
-   "p1": "MIT’s report does not ban AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, giving up at the first sign of difficulty, and one you might not: fewer people. MIT saw fewer students at office hours and in in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
-   "p2": "The point: the product of school is you, not the mark.",
-   "deep": [
-    [
-     "What MIT asks of its own students",
-     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
-    ],
-    [
-     "Why checking matters",
-     "These systems invent citations, facts and code that look perfect. MIT’s rule for research: a human verifies, and AI is never listed as a co-author."
-    ],
-    [
-     "Keep it human",
-     "The report pushes a regular in-person social component, office hours and project-based work, and says deliberately AI-free experiences have value in themselves."
-    ]
-   ],
-   "rel": [
-    "buds",
-    "coaster",
-    "blind"
-   ],
-   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
-  },
-  {
-   "id": "neo",
-   "dom": "space",
-   "lab": "Space · Hardware",
-   "hot": 0,
-   "big": 0,
-   "art": "sunshade",
-   "cap": "864 solar cells on a 6-metre sunshade: NASA’s asteroid hunter is nearly built",
-   "num": "864",
-   "nums": "solar cells on NEO Surveyor’s sunshade, together making up to 2 kilowatts, the spacecraft’s only power",
-   "p1": "NEO Surveyor is the first spacecraft NASA has built specifically to find large numbers of potentially hazardous asteroids and comets. Its sunshade, built by Applied Aerospace in Stockton, California, stands 6 metres tall and 2.4 metres wide at the base: two flat panels joined at an angle of 23.5 degrees. Its main job is to block the Sun’s glare and keep the telescope cool; it also carries 864 solar cells, the spacecraft’s only source of power, which charge the batteries on board.",
-   "p2": "NASA blog update Monday 26 October. Launch is no earlier than September 2027. Dark asteroids reflect little visible light but glow in infrared as the Sun warms them, and infrared is what this telescope sees.",
-   "deep": [
-    [
-     "The eye",
-     "The telescope’s aperture is 50 cm. Two infrared detector arrays each build a 16-megapixel mosaic of the sky. Seeing an object in two infrared bands lets scientists estimate its temperature, and from that, its size."
-    ],
-    [
-     "Looking where ground telescopes can’t",
-     "It will watch for objects approaching from the Sun’s direction and for objects leading or trailing Earth’s orbit, places ground-based telescopes struggle with because of the Sun’s glare. It builds on NASA’s NEOWISE telescope."
-    ],
-    [
-     "The road so far",
-     "SolAero Technologies in Albuquerque added the 864 cells in January. Environmental testing finished in March at a thermal vacuum facility in El Segundo, California. In May the sunshade was delivered, ahead of schedule, to BAE Systems in Boulder, Colorado, and inspected in a clean room there in July."
-    ],
-    [
-     "Since then",
-     "Coarse Sun sensors, which help the spacecraft work out which way it is pointing, and temperature sensors have been fitted, and the solar array has passed its functional and performance tests."
-    ]
-   ],
-   "rel": [
-    "art3",
-    "eva",
-    "spadex"
-   ],
-   "src": "NASA / JPL · NEO Surveyor blog",
-   "img": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26715/PIA26715.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: BAE Systems Space & Mission Systems / NASA"
-  },
-  {
-   "id": "crimson",
-   "dom": "sg",
-   "lab": "Singapore · In orbit",
-   "hot": 0,
-   "art": "sat",
-   "cap": "NTU’s 14th satellite is up, carrying the first Singapore-made solar module to fly in orbit",
-   "num": "14",
-   "nums": "satellites NTU has launched since X-SAT in 2011; CRIMSON-1 went up on 1 October",
-   "p1": "CRIMSON-1 launched on Thursday 1 October on a SpaceX Falcon 9 from Vandenberg Space Force Base in California, on the Transporter-18 rideshare, and was pushed out into low Earth orbit by Exolaunch’s EXOpod Nova deployer. It carries several next-generation perovskite solar cells developed by NTU researchers with Singfilm Solar, an NUS spin-off, including a flexible perovskite module on ultrathin glass, the first Singapore-made solar module flown in orbit. The job: measure how well the cells’ durability and efficiency survive the trip from ground to space, and how much power they make up there.",
-   "p2": "NTU news release 2 October. It is one of the first projects backed by the National Space Agency of Singapore under its Space Access Programme.",
-   "deep": [
-    [
-     "The other experiment: thinking on board",
-     "CRIMSON-1 also carries an edge AI image-processing system. Instead of sending every raw image down a limited radio link, it processes images in orbit and sends less. Researchers will watch how the computer handles heat and power under heavy workloads."
-    ],
-    [
-     "Why perovskites",
-     "NTU’s landmark Science paper on perovskite solar cells came out in 2013. The cells are thin and light."
-    ],
-    [
-     "The one before",
-     "VELOX-AM, NTU’s 13th satellite, launched in July 2023 and deorbited in August 2026."
-    ],
-    [
-     "Who paid, who helped",
-     "Singapore’s government has put S$210 million into the Space Technology Development Programme since 2022. IMDA secured the satellite’s radio spectrum and orbital resources from the ITU; Exolaunch handled launch capacity, mission management, integration and deployment."
-    ]
-   ],
-   "rel": [
-    "glow",
-    "spadex",
-    "eva"
-   ],
-   "src": "NTU Singapore",
-   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/1---launch-of-crimson-1-group-photo-of-the-ntu-researchers-and-partners-at-sarc-ntu.jpg?sfvrsn=562baaf8_1",
-   "credit": "Photo: NTU Singapore",
-   "big": 0
   }
  ]
 }
