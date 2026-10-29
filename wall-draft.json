@@ -71,7 +71,9 @@
     "neo",
     "spadex"
    ],
-   "src": "NASA, 23 Oct 2026"
+   "src": "NASA, 23 Oct 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=1600",
+   "credit": "Image: NASA"
   },
   {
    "id": "eva",
@@ -103,7 +105,9 @@
     "neo",
     "crimson"
    ],
-   "src": "NASA Space Station blog, 28 Oct 2026"
+   "src": "NASA Space Station blog, 28 Oct 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/preview-menon-kutryk-102926a.jpg?w=1200",
+   "credit": "Photo: NASA"
   },
   {
    "id": "gany",
@@ -166,7 +170,9 @@
     "spadex",
     "neo"
    ],
-   "src": "NASA Earth Observatory, 21 Oct 2026"
+   "src": "NASA Earth Observatory, 21 Oct 2026",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/extratropical-cyclone-whips-past-iceland/icelandstorm_vir2_20261014_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / NOAA-21 VIIRS"
   },
   {
    "id": "spadex",
@@ -396,7 +402,7 @@
    "id": "drex",
    "dom": "life",
    "lab": "Halloween · Fungi",
-   "hot": 1,
+   "hot": 0,
    "art": "fungus",
    "cap": "Half a metre tall, 2.2 kg, yellow tentacles from dead roots: D. rex, king of the sac fungi",
    "num": "50 cm",
