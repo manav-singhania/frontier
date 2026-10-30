@@ -1,47 +1,497 @@
 {
- "edition": "07",
+ "edition": "08",
  "level": "High school",
- "date": "2026-10-30",
- "dateLabel": "Fri 30 Oct 2026",
+ "date": "2026-10-31",
+ "dateLabel": "Sat 31 Oct 2026",
  "week": [
   {
    "d": "SAT",
-   "t": "CHAPEA: four volunteers leave NASA’s 3D-printed Mars habitat after 378 days",
+   "t": "ISRO: GSLV-F18 places NVS-03, the next-generation NavIC satellite, in orbit",
+   "id": "gslv"
+  },
+  {
+   "d": "SAT",
+   "t": "CHAPEA crew leaves NASA’s 3D-printed Mars habitat after 378 days",
    "id": "chapea"
   },
   {
-   "d": "THU",
-   "t": "JPL: Teghaza 001, a 4.1-billion-year-old piece of Martian crust, found in the Sahara",
-   "id": "tegh"
+   "d": "FRI",
+   "t": "Earth Observatory: Vega Island’s ice looks like a skull in Landsat 9’s view",
+   "id": "vega"
   },
   {
    "d": "THU",
-   "t": "NEA: inter-monsoon winds setting in; haze expected to improve",
-   "id": "monsoon"
+   "t": "Voyager 1: the “Big Bang” power swap and the 18–20 October communications pause",
+   "id": "voyager"
   },
   {
-   "d": "WED",
-   "t": "Artemis III SLS core stage joins its boosters in the Vehicle Assembly Building",
-   "id": "stack"
+   "d": "THU",
+   "t": "Hubble and Webb release the Cat’s Head Nebula",
+   "id": "catneb"
   },
   {
-   "d": "WED",
-   "t": "Lucy becomes the first spacecraft to enter Jupiter’s Trojan asteroid region",
-   "id": "lucy"
-  },
-  {
-   "d": "TUE",
-   "t": "NTU and VFT open a S$15 million lab for vanadium flow batteries",
-   "id": "flow"
+   "d": "THU",
+   "t": "NUS team wins a Google.org AI-for-science grant",
+   "id": "nusai"
   }
  ],
  "tiles": [
   {
+   "id": "gslv",
+   "dom": "space",
+   "lab": "India · Space",
+   "hot": 1,
+   "big": 1,
+   "art": "gslv",
+   "cap": "Overnight, India’s 50 m GSLV put the NVS-03 satellite in orbit. ISRO: “Mission Success!”",
+   "num": "420 t",
+   "nums": "approximate lift-off mass of GSLV-F18, a three-stage rocket about 50 m tall carrying a payload of about 2,250 kg",
+   "p1": "GSLV-F18, the 20th flight of India’s Geosynchronous Satellite Launch Vehicle, flew from the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota, late on Friday night; ISRO’s live stream began at 23:20 IST, which is 01:50 on Saturday in Singapore. Early on Saturday ISRO posted: “Mission Success! GSLV-F18 has successfully placed NVS-03 in the intended orbit.” NVS-03 is the third satellite of the next-generation series for NavIC, India’s regional navigation system.",
+   "p2": "Why it matters: the satellite carries an indigenous atomic clock alongside procured ones, and adds an L1 signal to the existing L5 and S signals.",
+   "deep": [
+    [
+     "The orbit it was aimed at",
+     "A geosynchronous transfer orbit: perigee 170 km, apogee 37,023 km, inclination 20.75 degrees, on a launch azimuth of 106 degrees."
+    ],
+    [
+     "Three stages",
+     "From ISRO’s brochure: the first stage is the S139 solid motor, 20.1 m long, with four L40H liquid strap-ons; the second stage, GL40HT, is 11.9 m; the third is the CUS15 cryogenic stage, 9.8 m, burning liquid hydrogen and liquid oxygen. The payload fairing is 3.4 m across, in its metallic version."
+    ],
+    [
+     "Coverage",
+     "NavIC is designed to cover the Indian landmass and a region extending 1500 km around India’s borders."
+    ],
+    [
+     "Where the success line comes from",
+     "ISRO’s mission page still read “Launch is planned” when this was written; the success line is ISRO’s own post, made early on Saturday. ISRO captions the photo on this tile “GSLV-F18 on the launch pad”."
+    ]
+   ],
+   "rel": [
+    "stack",
+    "voyager",
+    "chapea"
+   ],
+   "src": "ISRO mission page and brochure, 27–28 Oct 2026 · ISRO post, 31 Oct 2026",
+   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
+   "credit": "Photo: ISRO"
+  },
+  {
+   "id": "voyager",
+   "dom": "space",
+   "lab": "Space · 49 years out",
+   "hot": 1,
+   "art": "voyager",
+   "cap": "From 18 November, a radio message to Voyager 1 will take a full day to arrive",
+   "num": "38,000 mph",
+   "nums": "Voyager 1’s speed (61,155 km/h); it is 16 billion miles (24 billion km) from Earth",
+   "p1": "NASA said on Thursday 29 October that engineers had turned off three devices on Voyager 1 and substituted three lower-power alternatives, a swap the team nicknamed the “Big Bang”, done in early September about six weeks after a similar swap on Voyager 2. With their plutonium supply continually depleting, both probes lose about 4 watts of power each year. The mission launched in 1977 with 10 dedicated science instruments; the team had already been forced to turn off two, and without the swap another would have followed as early as summer 2027.",
+   "p2": "Also in the report: contact with Voyager 1 was lost on 18 and 19 October during two scheduled contact attempts 24 hours apart, and the signal returned on 20 October. One group of thrusters had gone offline and backups activated automatically, a response known as fault protection. The root cause is still being investigated. Kareem Badaruddin, the Voyager mission manager at JPL, on the signal loss: “We’re relieved to be back in contact with Voyager 1 and are eager to understand what happened.”",
+   "deep": [
+    [
+     "One light-day",
+     "On 18 November Voyager 1 will be one light-day away: 16.09 billion miles (25.89 billion km). NASA: “That means that the radio waves used to communicate with the probe take 24 hours to reach it.” Suzanne Dodd, the Voyager project manager at JPL: “If you want to say ‘hello’ to Voyager, you send your message and then you go home and you wait two days before you finally get a response.”"
+    ],
+    [
+     "Why swap rather than switch off",
+     "The Big Bang was unusual because the three swaps had to happen simultaneously: only by swapping all three could the team both cut the power Voyager 1 uses and make sure heat is properly distributed on the spacecraft."
+    ],
+    [
+     "The farthest thing we have made",
+     "NASA calls Voyager 1 the spacecraft that has travelled farther than any other human-made object. The photo on this tile was taken on 27 April 1977 and shows one of the Voyagers in the 25-Foot Space Simulator at JPL, before launch."
+    ],
+    [
+     "Check the arithmetic",
+     "Light covers about 300,000 km every second. Multiply by the 86,400 seconds in a day and compare your answer with 25.89 billion km."
+    ]
+   ],
+   "rel": [
+    "gslv",
+    "stack",
+    "nazca"
+   ],
+   "src": "NASA JPL, Voyager mission update, 29 Oct 2026",
+   "img": "https://science.nasa.gov/wp-content/uploads/2024/04/pia21737.jpg",
+   "credit": "Photo: NASA/JPL-Caltech"
+  },
+  {
+   "id": "catneb",
+   "dom": "space",
+   "lab": "Halloween · Hubble + Webb",
+   "hot": 1,
+   "art": "green",
+   "cap": "A ghost cat 7,500 light-years away. Its red eye may be a young star still wrapped in dust",
+   "num": "7,500",
+   "nums": "light-years from Earth to the Carina Nebula, where Hubble and Webb photographed the Cat’s Head",
+   "p1": "NASA released the pictures on Thursday 29 October, “just in time for Halloween”: Hubble and the James Webb Space Telescope looked at the same pillar of gas and dust in the Carina Nebula, about 7,500 light-years from Earth, and found a shape like a cat sitting with its back to the viewer. NASA says the cat’s glowing red eye may indicate a young star that is still partially embedded in dust.",
+   "p2": "Why it looks like that: the pillar was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars. As that feedback erodes the surrounding gas and dust, the scene changes; NASA calls it a temporary scene that will eventually disperse.",
+   "deep": [
+    [
+     "Two telescopes, three views",
+     "Hubble’s Wide Field Camera 3 shows an opaque dust pillar edged by a luminous rim of gas. Webb looked at the same pillar with its NIRCam and MIRI cameras. The image processing was by Joseph DePasquale of the Space Telescope Science Institute."
+    ],
+    [
+     "Look for it",
+     "The photo on this tile is Hubble’s view. Find the cat first, then the red eye."
+    ],
+    [
+     "A number to picture",
+     "Light from this pillar set out 7,500 years ago. What you are looking at is the past."
+    ]
+   ],
+   "rel": [
+    "vega",
+    "voyager",
+    "seaspider"
+   ],
+   "src": "NASA / STScI, 29 Oct 2026",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/10/STScI-01M4BZ6G5147CKYXY9C9SY3D9F.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA, ESA, STScI; processing: Joseph DePasquale (STScI)"
+  },
+  {
+   "id": "nazca",
+   "dom": "space",
+   "lab": "Space · Mars",
+   "art": "mars",
+   "cap": "Curiosity is firing 150 laser shots into one spot, next to the rock it plans to drill",
+   "num": "5,048",
+   "nums": "Martian days (sols) into Curiosity’s mission when it took this close-up, on 18 October 2026",
+   "p1": "NASA’s Curiosity blog for sols 5043 to 5049, posted on Wednesday 28 October by planetary scientist Lucy Lim of NASA Goddard, says that after the Basque Lakes drill campaign the rover has returned to a spot just a few metres away. A block called Chiu Chiu was not a good drill candidate, but the block just beyond it was much more promising; it is now named Nazca, and it is “jam-packed” with disc- and needle-shaped lumps; one leading idea is that the shapes were created as crystals grew. ChemCam is concentrating all 150 of its laser shots on the same spot of a nearby crystal-form-rich target called Toucan.",
+   "p2": "Why 150 shots in one place: a normal ChemCam observation is a five-point raster with 30 shots per point. The 150-shot profile should penetrate approximately five times deeper into the rock.",
+   "deep": [
+    [
+     "Pictures first",
+     "MAHLI, the camera on the arm, takes five overlapping images at slightly different geometries for a Quantitative Relief Model of the surface, and doubles its focus steps for its highest-resolution imaging. The photo on this tile is MAHLI’s close-up of the disc-shaped lumps on Nazca, with scratches from the Dust Removal Tool."
+    ],
+    [
+     "Before the drill",
+     "LIBS, the Dust Removal Tool and the APXS spectrometer will all be applied to the Nazca spot before the preload test. The third laser target in the plan, Condor, is a nearby block with a finely layered texture exposed."
+    ],
+    [
+     "Clouds over Mars",
+     "Twilight cloud season is beginning, and Curiosity is imaging Phobos, the larger and brighter of Mars’ two moons, at night to estimate the sizes of particles in high-altitude carbon dioxide clouds."
+    ]
+   ],
+   "rel": [
+    "chapea",
+    "gslv",
+    "voyager"
+   ],
+   "src": "NASA Curiosity mission blog, 28 Oct 2026 (Lucy Lim)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA/JPL-Caltech/MSSS"
+  },
+  {
+   "id": "vega",
+   "dom": "earth",
+   "lab": "Halloween · From orbit",
+   "art": "berg",
+   "cap": "Landsat spotted a smirking skull in Antarctic ice. The missing snow is the scary part",
+   "num": "29",
+   "nums": "glaciers catalogued on Vega Island, east of the Antarctic Peninsula in the Weddell Sea",
+   "p1": "NASA Earth Observatory’s image of the day for Friday 30 October shows Vega Island, shrouded in ice in the lonely Weddell Sea, looking like a smirking skull in profile: a nunatak jutting out of the ice forms an eye socket and a lateral moraine forms a mouth. The images were acquired by the Operational Land Imager on Landsat 9 on 22 March 2025 and 10 October 2026; clouds obscured the island in March 2026.",
+   "p2": "Why it matters: in the March 2025 image a layer of snow coats the ice, typical of the region’s wettest month. Glaciologist Mauri Pelto of Nichols College: “The winter season was no treat for these glaciers.”",
+   "deep": [
+    [
+     "Jawline and eye socket",
+     "Pelto on ice exposed to melt: “But when exposed to melt, it weathers away, which will lead to a changing jawline and expanding eye socket.” He added that even a thin cover of new snow from a spring storm would be helpful in the short run."
+    ],
+    [
+     "Four ice caps, 29 glaciers",
+     "A paper published in 1982 described the island’s four ice caps and, using early Landsat observations, aerial photos and maps, catalogued 29 glaciers on Vega. Devil’s Bay Glacier has been closely monitored since the austral summer of 1998–1999."
+    ],
+    [
+     "The first visitors",
+     "The Swedish Antarctic Expedition of 1901–1903 set out to investigate the geography, geology, climate and wildlife of the eastern Antarctic Peninsula."
+    ],
+    [
+     "Look where it looks",
+     "The skull looks toward Devil Island, and Bahía del Diablo (Devil’s Bay) Glacier forms its jawbone."
+    ]
+   ],
+   "rel": [
+    "catneb",
+    "monsoon",
+    "seaspider"
+   ],
+   "src": "NASA Earth Observatory, 30 Oct 2026 (Lindsey Doermann)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/vega-island-frozen-in-fright/vegaislandzm_oli2_20261010_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / Lauren Dauphin"
+  },
+  {
+   "id": "nusai",
+   "dom": "sg",
+   "lab": "Singapore · AI for science",
+   "art": "cell",
+   "cap": "An NUS team is the only one in Asia among 17 picked for Google.org’s AI-for-science fund",
+   "num": "US$36 million",
+   "nums": "shared by 17 organisations worldwide under the Google.org Impact Challenge: AI for Science",
+   "p1": "NUS announced on Thursday 29 October that Assistant Professor Liu Boxiang and his team from the Department of Pharmacy and Pharmaceutical Sciences have received a grant under the Google.org Impact Challenge: AI for Science. NUS is among 17 organisations selected globally, and the only one in Asia, to receive a share of US$36 million to advance AI-powered scientific research. The team will use AI to map how genetic variations influence RNA splicing across populations.",
+   "p2": "In Liu’s words: “We are at an inflection point where AI is changing the way science is done.”",
+   "deep": [
+    [
+     "The question",
+     "Everyone’s DNA differs a little. The team wants AI to work out how those differences change RNA splicing, and how that varies from one population to another."
+    ],
+    [
+     "What comes with the money",
+     "Recipients also have the option to take part in a six-month Google.org Accelerator."
+    ],
+    [
+     "Why it is on this wall",
+     "This is AI being pointed at a hard science question by a team a few MRT stops away, not a chatbot answering questions. Compare it with the Using AI tile."
+    ]
+   ],
+   "rel": [
+    "monsoon",
+    "ai17",
+    "heat"
+   ],
+   "src": "NUS News, 29 Oct 2026",
+   "img": "https://content.presspage.com/uploads/2580/259c8e85-1ef7-40a9-abe2-4984d3707bb6/1920_lbx_1.jpg?10000",
+   "credit": "Photo: NUS"
+  },
+  {
+   "id": "heat",
+   "dom": "matter",
+   "lab": "Physics · Heat",
+   "art": "heat",
+   "cap": "Heat is jiggling. Blow on wet skin and the fastest molecules leave, so what is left cools",
+   "num": "1 Å",
+   "nums": "one angstrom, a ten-millionth of a millimetre; an atom’s radius is 1 or 2 of them",
+   "p1": "The first chapter of Richard Feynman’s Caltech physics lectures, given in 1961–63, starts with a drop of water a quarter of an inch across. Magnified two thousand times, it is forty feet across and still looks like smooth water. Magnified two thousand times again, it is about fifteen miles across and looks like a crowd at a football game seen from a very great distance: molecules, continually jiggling and bouncing. Feynman: “Now the jiggling motion is what we represent as heat: when we increase the temperature, we increase the motion.”",
+   "p2": "Try it: wet the back of your hand and blow on it. The molecules that escape are the ones with more energy than average, so the ones left behind have less, and the liquid cools as it evaporates. Feynman: “If we blow on the water so as to maintain a continuous preponderance in the number evaporating, then the water is cooled.”",
+   "deep": [
+    [
+     "How small an atom is",
+     "Atoms are 1 or 2 × 10⁻⁸ cm in radius; 10⁻⁸ cm is called an angstrom, so atoms are 1 or 2 angstroms in radius. Feynman’s way to remember it: if an apple is magnified to the size of the Earth, the atoms in the apple are approximately the size of the original apple."
+    ],
+    [
+     "Steam",
+     "“If we heat the water, the jiggling increases and the volume between the atoms increases, and if the heating continues there comes a time when the pull between the molecules is not enough to hold them together and they do fly apart and become separated from one another.” That is how steam is made."
+    ],
+    [
+     "Brown saw it in 1827",
+     "Robert Brown, a botanist, noticed little particles of plant pollen jiggling around in liquid, and found the same motion in water that had been trapped inside an old piece of quartz for millions of years. Feynman works out that the energy of that motion means a speed of a millimetre or so per second for an object a micron or two in diameter."
+    ],
+    [
+     "Temperature now has an exact number",
+     "The revised SI, approved in November 2018, defines the kelvin by fixing the Boltzmann constant at exactly 1.380649 × 10⁻²³ joules per kelvin, which ties temperature to energy of motion. Before that, the kelvin was 1/273.16 of the temperature of the triple point of water, 273.16 K."
+    ]
+   ],
+   "rel": [
+    "slit",
+    "cheshire",
+    "nusai"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. I ch. 1 and 41 · NIST, SI redefinition"
+  },
+  {
+   "id": "slit",
+   "dom": "matter",
+   "lab": "Physics · Quantum",
+   "art": "slit",
+   "cap": "Fire electrons one by one at two slits and, 20 minutes later, they have drawn stripes",
+   "num": "60,000",
+   "nums": "electrons, arriving one at a time, that built the stripes in the 1989 Hitachi experiment; the first 8 looked like random dots",
+   "p1": "In 1989 Akira Tonomura and co-workers at Hitachi sent electrons through a double-slit set-up (an electron biprism, which does the job of two slits) at fewer than 1,000 per second and watched them land one by one, detected with almost 100 per cent efficiency. After 8 electrons: scattered dots. After 270, then 2,000, then 60,000, over more than 20 minutes, the dots had built up into stripes, the interference pattern of a wave. In 2002 Physics World readers voted it the most beautiful experiment in physics: 20 votes, more than any other.",
+   "p2": "Feynman on this experiment, in his Caltech lectures: it is “impossible, absolutely impossible, to explain in any classical way, and which has in it the heart of quantum mechanics. In reality, it contains the only mystery.”",
+   "deep": [
+    [
+     "Bullets, waves, electrons",
+     "Feynman sets it up three ways. A machine gun firing at an armour-plate wall with two holes: bullets always arrive in identical lumps and the probabilities just add. Water waves in a shallow trough: the intensity can have any value at all, and the two waves interfere. Electrons from a heated tungsten wire: “The electrons arrive in lumps, like particles,” but “the probability of arrival of these lumps is distributed like the distribution of intensity of a wave.”"
+    ],
+    [
+     "Try to watch, and it changes",
+     "“By trying to ‘watch’ the electrons we have changed their motions.” Heisenberg’s rule puts a number on it: know an object’s momentum to within Δp and you cannot know its position better than Δx ≥ ħ/2Δp. Feynman: “No one has ever found (or even thought of) a way around the uncertainty principle.”"
+    ],
+    [
+     "See the wave yourself, no laser",
+     "Exploratorium’s version: two clean new pencils with erasers, one wrapped in a single layer of transparent tape. Hold them together to make a thin slit, hold it about 2.5 cm from your eye and look at a small bright light, a Mini Maglite or a candle flame. You see a line of blobs with dark bands between them: light bending around the edges and interfering. The narrower the slit, the more the light spreads out."
+    ],
+    [
+     "Light plus light equals dark",
+     "With a laser pointer shone through two gaps left in a taped-over lice comb onto a card at least 1.5 m away, you get light and dark bands; cover one slit and some of the dark bands vanish. Thomas Young first did this in 1801."
+    ]
+   ],
+   "rel": [
+    "heat",
+    "cheshire",
+    "catneb"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. III ch. 1 · Physics World, Sept 2002 · Exploratorium Science Snacks"
+  },
+  {
+   "id": "steam",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "art": "cube",
+   "cap": "A gaming PC in a 6-inch cube. One big slow fan keeps it quiet; 4K is where it struggles",
+   "num": "120 mm",
+   "nums": "the fan Valve built the Steam Machine around: a cube just large enough to hold it, cooling an AMD CPU and GPU",
+   "p1": "Valve’s Steam Machine, in TIME’s Best Inventions of 2026, is a six-inch cube. Valve hardware engineer Yazan Aldehayyat says the team wanted a computer powerful enough to run complex game engines and vivid open worlds but compact enough for a desk or TV stand; making it a six-inch cube just large enough to host a 120 mm fan solved both. That fan cools the AMD CPU and GPU at much lower speeds than a laptop’s, so the Machine is quiet enough for a living room. Inside, per Valve’s store page: a semi-custom AMD Zen 4 processor with 6 cores and 12 threads, a semi-custom RDNA3 graphics chip with 28 compute units, 16 GB of DDR5 memory plus 8 GB of GDDR6 video memory, a 512 GB or 2 TB NVMe SSD, Wi-Fi 6E and Bluetooth 5.3, running SteamOS 3. Released 22 June 2026 from US$1,049.",
+   "p2": "What reviewers found wrong: TechRadar’s Christian Guyton (25 July 2026, 3.33 out of 5) called it “seriously expensive even when compared to full-fat desktop PCs”, found performance “great at 1080p, decent at 1440p, and decidedly mixed at 4K” (Cyberpunk 2077: 71 fps at 1080p Ultra, 17 fps at 4K Ultra), and listed the Steam Controller sold separately, a single USB-C port at the rear, no Wi-Fi 7, games locked to Steam by default, and a small number of crashes.",
+   "deep": [
+    [
+     "Why one big fan is quiet",
+     "TIME’s explanation: the 120 mm fan cools the CPU and GPU at much lower speeds than those you would typically find in a laptop, which keeps the Machine quiet enough to actually use in a living room. Guyton agreed, calling the fan whisper-quiet."
+    ],
+    [
+     "Two kinds of memory",
+     "The 16 GB of DDR5 is the system memory the processor works in; the 8 GB of GDDR6 is video memory for the graphics chip. Guyton wrote that “the ongoing RAM crisis has taken a toll on the Steam Machine’s value proposition”."
+    ],
+    [
+     "Why 4K hurts",
+     "A 4K frame has four times the pixels of a 1080p frame, so the same chip has four times as much to draw. Guyton’s table shows it: Shadow of the Tomb Raider 131 fps at 1080p Highest, 47 fps at 4K Highest; Total War: Warhammer III 58 fps at 1080p Ultra, 24 fps at 4K Ultra."
+    ],
+    [
+     "Size and price",
+     "15.2 × 16.2 × 15.6 cm and 2.60 kg, with a 17-LED light bar, HDMI 2.0 and one DisplayPort 1.4. You can swap the SSD and the RAM, but that is it. The 2 TB model is US$1,349, and the controller adds US$79."
+    ]
+   ],
+   "rel": [
+    "analogue",
+    "slit",
+    "stack"
+   ],
+   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Steam store page · TechRadar, 25 Jul 2026 (Christian Guyton)"
+  },
+  {
+   "id": "analogue",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "art": "n64",
+   "cap": "A chip configured to be a Nintendo 64, playing the old cartridges in 4K with no lag",
+   "num": "837 g",
+   "nums": "weight of the Analogue 3D, 230 × 180 × 49 mm, with four original-style controller ports",
+   "p1": "The Analogue 3D, in TIME’s Best Inventions of 2026, plays original Nintendo 64 cartridges with original controllers but outputs 4K over HDMI. Instead of emulation software it uses an FPGA, a chip whose logic can be configured; Analogue says each of the N64’s three processors (CPU, RSP, RDP) is cycle accurate, executing in parallel at their original speeds, after nearly four years of FPGA engineering. Analogue says the resolution is 10 times the original: the majority of N64 games drew 320 pixels across, some 640.",
+   "p2": "What reviewers found wrong: TechRadar’s John-Anthony Disotto (22 November 2025) found no controller and no games in the box, cartridges that sometimes needed a second insertion to register, and warned: “Textures are blurry, controls can feel floaty, and frame rates dip more than you might remember.” His verdict: the N64 at its absolute best, but hard to justify without nostalgia and a cartridge collection.",
+   "deep": [
+    [
+     "FPGA versus emulator",
+     "An emulator is software on a modern processor imitating the old machine. An FPGA, a field-programmable gate array, has logic that can be configured to behave like the original circuits, running in parallel the way the original did. Analogue’s claim from that: “Lag free, zero signal degradation” and one hundred per cent cartridge compatibility. Disotto found “Everything responds instantly, with no input lag.”"
+    ],
+    [
+     "Old TVs, redrawn",
+     "It offers Original Display Modes that mimic CRT and PVM tube monitors, and those modes need a 4K-capable display. Disotto called the filters gorgeous and said they help make it the best way to play N64 on a modern TV."
+    ],
+    [
+     "The rest of the box",
+     "4K or 1080p output, NTSC and PAL, variable refresh rate, Bluetooth for wireless controllers, dual-band Wi-Fi for over-the-air updates, a 16 GB SD card pre-installed, 48 kHz 16-bit audio, two USB-A ports and USB-C power from a 30 W GaN supply. Region free. Price on Analogue’s store: US$269.99; the review, in November 2025, listed US$249.99. The 8BitDo 64 controller, with a Hall-effect joystick, is US$39.99 extra."
+    ],
+    [
+     "A claim that changed",
+     "TIME says the console supports save states; the November 2025 review said they were not available yet. Analogue added them, called Memories, in firmware 1.3.0 on 15 May 2026, so the review, not TIME, is the one that is out of date."
+    ]
+   ],
+   "rel": [
+    "steam",
+    "slit",
+    "ai17"
+   ],
+   "src": "TIME Best Inventions 2026 (Jessica Sager) · Analogue spec and firmware pages · TechRadar, 22 Nov 2025 (John-Anthony Disotto)"
+  },
+  {
+   "id": "cheshire",
+   "dom": "try",
+   "lab": "Try it · Mirror",
+   "art": "cheshire",
+   "cap": "Make a friend’s face disappear with a hand mirror, leaving only the eyes and mouth",
+   "num": "10–15 cm",
+   "nums": "size of the hand mirror; you also need a white wall and a partner who can sit very still",
+   "p1": "Sit so a white wall is on your right and your partner sits a few feet in front of you. Hold the bottom of a hand mirror in your left hand and put its edge against your nose, reflecting surface facing sideways toward the wall, so your right eye sees only the reflection of the wall while your left eye looks forward at your partner’s face. Now move your hand in front of the white surface as if passing a blackboard eraser over it. Parts of your friend’s face disappear.",
+   "p2": "Exploratorium’s tips: your friend should sit very still against a plain, light-coloured background, and keep your own head still too. If you cannot see it, switch which eye looks at the wall. Some people need several tries and a few never see it, so don’t give up too soon.",
+   "deep": [
+    [
+     "What is going on",
+     "Normally your two eyes see very slightly different pictures and your brain combines them into a single three-dimensional image. Here the mirror gives each eye a very different view, and the brain builds a picture that makes sense by selecting bits and pieces from both. It is very sensitive to changes and motion, so it emphasises the moving hand rather than the unmoving face, and parts of the face disappear."
+    ],
+    [
+     "What stays",
+     "“No one knows how or why some parts of the face may remain, but the eyes and mouth seem to be the last features to disappear.”"
+    ],
+    [
+     "The name",
+     "The Cheshire Cat in Lewis Carroll’s 1865 Alice’s Adventures in Wonderland vanishes leaving only its grin. On Halloween, this is your trick."
+    ]
+   ],
+   "rel": [
+    "slit",
+    "heat",
+    "seaspider"
+   ],
+   "src": "Exploratorium Science Snacks: Cheshire Cat"
+  },
+  {
+   "id": "seaspider",
+   "dom": "life",
+   "lab": "Halloween · Deep sea",
+   "art": "spider",
+   "cap": "Giant sea spiders with 25 cm legs glow for up to 10 minutes, 5,000 metres down",
+   "num": "25 cm",
+   "nums": "how far the legs of Colossendeis tasmanica can stretch out from a body roughly the size of a finger",
+   "p1": "Science News Explores reported on Friday 30 October that giant sea spiders, retrieved from nearly 5,000 metres below the surface in the Australian Abyss, emit light. Jérôme Mallefet, a marine biologist at the Catholic University of Louvain in Belgium, found them on a 2017 expedition aboard the RV Investigator that hauled up 25,000 specimens in nets. Poking the biggest species, Colossendeis tasmanica, raised a dim light; adding potassium chloride, a salt that can excite bioluminescent cells, triggered them to glow brightly for up to 10 minutes. The glow is described in the October issue of Deep Sea Research Part I.",
+   "p2": "They are not true spiders but relatives that split off from a common ancestor on the arthropod family tree some 500 million years ago. Mallefet: “It’s quite impressive for people scared of spiders.”",
+   "deep": [
+    [
+     "Where the glow may come from",
+     "The legs of giant sea spiders contain the digestive tract, Mallefet says, so the animals might get their glow from the creatures they eat, such as sea anemones, his team suggests."
+    ],
+    [
+     "Most of the deep sea glows",
+     "Some 76 per cent of deep-sea creatures produce a clear glow, a trait called bioluminescence that dates back 540 million years. A report from more than a century ago described a sea spider that “shone like a star, all its legs being lit along their surface with a strange blue radiance.”"
+    ],
+    [
+     "Glow versus fluorescence",
+     "Three sea-spider species also glowed green when Mallefet shone ultraviolet and blue light on them. That is fluorescence: absorbing light of one wavelength and re-emitting it as another. Mallefet is not sure what value the sea spiders get from it."
+    ]
+   ],
+   "rel": [
+    "catneb",
+    "cheshire",
+    "vega"
+   ],
+   "src": "Science News Explores, 30 Oct 2026 (Joshua Rapp Learn)"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 0,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, 48% more problems right. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
+    ],
+    [
+     "What the researchers concluded",
+     "The problem was not AI. It was asking for the answer instead of asking for help. Hamsa Bastani, one of the authors, called the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
+    ]
+   ],
+   "rel": [
+    "analogue",
+    "nusai",
+    "heat"
+   ],
+   "src": "PNAS, Bastani et al. 2025 · Wharton",
+   "big": 0
+  },
+  {
    "id": "stack",
    "dom": "space",
    "lab": "Space · Hardware",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "stack",
    "cap": "Artemis III’s 212-foot core stage now stands between its two boosters",
    "num": "212 ft",
@@ -63,82 +513,13 @@
     ]
    ],
    "rel": [
-    "art3",
-    "lucy",
-    "navic"
+    "gslv",
+    "voyager",
+    "chapea"
    ],
    "src": "NASA Kennedy, 28 Oct 2026",
    "img": "https://images-assets.nasa.gov/image/KSC-20261026-PH-FMX01_0018/KSC-20261026-PH-FMX01_0018~large.jpg",
    "credit": "Photo: NASA / Frank Michaux"
-  },
-  {
-   "id": "lucy",
-   "dom": "space",
-   "lab": "Space · First",
-   "hot": 1,
-   "art": "psyche",
-   "cap": "After 2.2 billion miles, Lucy is the first spacecraft to reach Jupiter’s Trojans",
-   "num": "2.2 billion",
-   "nums": "miles Lucy has travelled since its launch on 16 October 2021",
-   "p1": "NASA said on Wednesday 28 October that Lucy is the first spacecraft to enter the region of the Jupiter Trojan asteroids, five years and more than 2.2 billion miles after launch. There are no well-defined boundaries in space: mission engineers know Lucy is approaching Jupiter’s Lagrange point 4 (L4) by tracking its radio signals and images of the surrounding stars. Lucy is now more than five times farther from the Sun than Earth is.",
-   "p2": "Next stop: the asteroid Eurybates on 11 August 2027, less than a year away, to be observed for a few hours as Lucy flies past.",
-   "deep": [
-    [
-     "Islands of stability",
-     "The Trojans share Jupiter’s orbit around the Sun, guided by the combined gravitational pull of the Sun and Jupiter. They sit in two swarms, L4 leading Jupiter and L5 trailing it, about 484 million miles from Jupiter, which is as far from Jupiter as Jupiter is from the Sun. Thousands of asteroids live in these two unexplored islands."
-    ],
-    [
-     "Lonely rocks",
-     "On average the Trojan asteroids are more than 6 million miles apart, so Lucy will see mostly empty space between its targets."
-    ],
-    [
-     "The tour",
-     "After Eurybates come Polymele in September 2027, Leucus in April 2028 and Orus in November 2028. Lucy swings back past Earth in 2030 for a third gravity assist, then reaches the binary pair Patroclus and Menoetius in March 2033."
-    ],
-    [
-     "Why primitive",
-     "NASA calls the Trojans primitive solar-system bodies. Seeing them up close should help scientists refine their theories of how the planets formed 4.5 billion years ago and how they ended up where they are."
-    ]
-   ],
-   "rel": [
-    "stack",
-    "tegh",
-    "art3"
-   ],
-   "src": "NASA Lucy mission blog (Katherine Kretke, SwRI), 28 Oct 2026",
-   "img": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020366/Lucy_SP_update_h264_1080-00495_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA"
-  },
-  {
-   "id": "tegh",
-   "dom": "space",
-   "lab": "Space · Mars",
-   "art": "mars",
-   "cap": "A rose-coloured rock found in the Sahara is a 4.1-billion-year-old piece of Mars",
-   "num": "435",
-   "nums": "roughly how many meteorites from Mars have been found on Earth; Teghaza 001 is among the three oldest",
-   "p1": "When a rose-coloured meteorite was found in the Sahara Desert in 2022, nobody knew how old it was or where it came from. A NASA-funded team led by Yang Liu of JPL reported on Thursday 29 October in the journal Science that Teghaza 001, weighing nearly 2 pounds (800 grams), is a piece of Mars that formed more than 4.1 billion years ago, one of the three oldest Martian meteorites known. It was found on Mali’s Teghaza salt plain.",
-   "p2": "“This is really our first piece of Martian crust from a part of Mars we’ve never had a sample of before,” said second author Lee Saper, who did the work at JPL and is now at NASA Ames.",
-   "deep": [
-    [
-     "How you date a rock",
-     "Zircon crystals, which record clues to a rock’s formation, plus in-situ rubidium-strontium dating of single mineral grains on a surface piece smaller than a fingernail, a method pioneered by the team of Caltech co-author Francois Tissot that preserves rare samples for future work. Water on Mars altered the rock around 4.1 billion years ago, so it likely formed earlier still."
-    ],
-    [
-     "The other two",
-     "ALH84001 is nearly all one mineral and similar in age; Black Beauty formed about 2.1 billion years ago and is made of small volcanic rock fragments. Teghaza 001 has a mix of igneous minerals that record how crust formed from cooling magma and was later altered by water underground."
-    ],
-    [
-     "Where on Mars",
-     "The paper identifies 13 possible source locations on Mars that match its minerals and chemistry; its mineralogy also matches what the Mars Reconnaissance Orbiter sees in the cratered southern highlands. “We’ve only scratched the surface,” said Liu. A separate paper in June, in Science Advances, detailed its water content."
-    ]
-   ],
-   "rel": [
-    "lucy",
-    "stack",
-    "chapea"
-   ],
-   "src": "NASA / JPL, 29 Oct 2026 · Science"
   },
   {
    "id": "chapea",
@@ -165,182 +546,15 @@
     ]
    ],
    "rel": [
-    "tegh",
+    "nazca",
     "stack",
-    "art3"
+    "gslv"
    ],
    "src": "NASA media advisory M26-083, 27 Oct 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/10/chapeamission2cropped.jpg",
-   "credit": "Photo: NASA"
-  },
-  {
-   "id": "arnab",
-   "dom": "earth",
-   "lab": "Earth · From orbit",
-   "art": "cyclone",
-   "cap": "Cyclone Arnab, photographed by night from orbit, hit India’s coast at 130 km/h",
-   "num": "140 km/h",
-   "nums": "sustained winds when NOAA-20 captured the night image at 1:42 a.m. IST on 27 October",
-   "p1": "Arnab was the first named storm of the 2026 North Indian Ocean cyclone season, forming in the Bay of Bengal on 25 October, a late start for a basin that usually produces named cyclones in April or May. The VIIRS day-night band on the NOAA-20 satellite caught it at 20:12 UTC on 26 October (1:42 a.m. IST on the 27th), when the India Meteorological Department put sustained winds at about 140 km/h. It made landfall early on 28 October on the Andhra Pradesh and Yanam coast, between Bapatla and Visakhapatnam, with winds of 130 km/h.",
-   "p2": "IMD’s category: a very severe cyclonic storm, similar to a Category 1 hurricane on the Saffir-Simpson scale. Tens of thousands of people were evacuated beforehand.",
-   "deep": [
-    [
-     "Late this year",
-     "A basin that usually produces named cyclones in April or May got its first on 25 October. NASA’s article notes research linking the ongoing El Niño to reduced Bay of Bengal cyclone activity."
-    ],
-    [
-     "On the ground",
-     "Arnab uprooted trees, flooded crops and homes, limited fishing and disrupted transport and power."
-    ],
-    [
-     "The picture",
-     "NASA Earth Observatory image by Michala Garrison, using VIIRS day-night band data (VIIRS flies on NOAA-20); story by Adam Voiland. City lights are visible on the darkened land in the image."
-    ]
-   ],
-   "rel": [
-    "monsoon",
-    "navic",
-    "lucy"
-   ],
-   "src": "NASA Earth Observatory, 29 Oct 2026 · India Meteorological Department",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/arnab-strikes-india/typhoonarnab_vir_20261026_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA Earth Observatory / Michala Garrison, NOAA-20 VIIRS"
-  },
-  {
-   "id": "navic",
-   "dom": "space",
-   "lab": "India · Space",
-   "hot": 1,
-   "art": "gps",
-   "cap": "India’s 50 m GSLV is on the pad with a satellite carrying a home-made atomic clock",
-   "num": "1500 km",
-   "nums": "beyond India’s borders that NavIC signals are designed to reach",
-   "p1": "ISRO posted on Wednesday 28 October that GSLV-F18, the 20th flight of its Geosynchronous Satellite Launch Vehicle, is on the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota, with the NVS-03 satellite on top. NVS-03 is the third satellite of the next-generation series for NavIC, India’s regional navigation system, which provides position, navigation and timing over the Indian landmass and a region extending 1500 km around it. The satellite carries an indigenous atomic clock alongside procured ones, and adds an L1 signal to the existing L5 and S signals.",
-   "p2": "ISRO’s mission page said the launch was planned but gave no date or time when this was written. Watch for the result.",
-   "deep": [
-    [
-     "The rocket, by the numbers",
-     "From ISRO’s mission brochure: about 50 m tall and about 420 tonnes at lift-off. The first stage is a solid-propellant stage carrying 138.2 tonnes, with four liquid strap-on boosters; the second stage is liquid-fuelled; the third is a cryogenic stage burning 14.4 tonnes of liquid hydrogen and liquid oxygen."
-    ],
-    [
-     "Where it is going",
-     "Target orbit: a geosynchronous transfer orbit with a perigee of 170 km and an apogee of 37,023 km, inclined 20.75 degrees, on a launch azimuth of 106 degrees."
-    ],
-    [
-     "Why the clock matters",
-     "A navigation satellite broadcasts the time from its on-board clock; your receiver turns the arrival times of several satellites’ signals into a position. That is why the clocks are atomic, and why ISRO notes that this one is indigenous."
-    ]
-   ],
-   "rel": [
-    "arnab",
-    "stack",
-    "lucy"
-   ],
-   "src": "ISRO mission page and brochure, 28 Oct 2026",
-   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
-   "credit": "Photo: ISRO"
-  },
-  {
-   "id": "fermat",
-   "dom": "matter",
-   "lab": "Physics · Light",
-   "art": "lens",
-   "cap": "The Sun you watch setting has already set. Light bends, and takes the fastest route",
-   "num": "½°",
-   "nums": "how much higher the apparent Sun sits than the true Sun near the horizon, says Feynman",
-   "p1": "Feynman explains Fermat’s principle with a rescue. Someone has fallen out of a boat; you are on land, and you can run faster than you can swim. Do you go in a straight line? “Yes, no doubt!” says Feynman, then thinks again: it pays to run a little further along the land to shorten the swim. Light does the same. Fermat proposed in about 1650 that of all the possible paths between two points, light takes the one that needs the shortest time, and from that one idea come both the law of reflection and Snell’s law of refraction.",
-   "p2": "Test tonight: when you see the Sun setting, it is already well below the horizon. The atmosphere, thin at the top and dense at the bottom, curves the light so the apparent Sun is higher than the true Sun by about half a degree.",
-   "deep": [
-    [
-     "The water rule",
-     "Snell’s law: the sine of the angle in air equals a constant times the sine of the angle in water, and for water that constant n is approximately 1.33. Ptolemy had tabulated the bending long before: 10 degrees in air becomes 8 in water, 50 becomes 35, 80 becomes 50."
-    ],
-    [
-     "What least time predicts",
-     "If light takes the shortest-time path, the ratio of the sines must equal the ratio of the speeds, so light must travel slower in water than in air, by the factor n. Snell’s law alone never said that; the least-time idea did, and measurement agrees."
-    ],
-    [
-     "The mirage",
-     "On a hot road the air just above the surface is hotter and thinner than the cooler air higher up, and it slows light less, so light from the sky curves up into your eye. You see “water” on the road; when you get there it is as dry as the desert. What you saw was sky light “reflected” on the road."
-    ],
-    [
-     "Try it",
-     "Stand a pencil or spoon in a glass of water and look from the side. The kink at the surface is refraction, the bending Snell measured and least time explains."
-    ]
-   ],
-   "rel": [
-    "spag",
-    "hole",
-    "lucy"
-   ],
-   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 26 (Caltech)"
-  },
-  {
-   "id": "spag",
-   "dom": "matter",
-   "lab": "Physics · Mechanics",
-   "art": "spag",
-   "cap": "Bend dry spaghetti and it almost never breaks in two. Feynman puzzled over it. Twist first",
-   "num": "3+",
-   "nums": "pieces a bent strand of dry spaghetti almost always snaps into",
-   "p1": "Hold a strand of dry spaghetti by both ends and bend it until it breaks. You will almost never get two pieces: it snaps into three or more. Physicists, Richard Feynman among them, tried to work out why. The answer came in 2005 from Basile Audoly and Sébastien Neukirch at the University of Paris 6: after the first break, bending waves run along the strand, raise its curvature, and trigger an avalanche of new breaks, each sending out more waves.",
-   "p2": "In 2018 Ronald Heisser and Vishal Patil at MIT found the trick: twist the strand hard first, then bend it slowly, and it breaks into two.",
-   "deep": [
-    [
-     "Why twist works",
-     "Patil’s model says the first break releases twisting (torsional) waves that travel faster than the bending waves and carry away the energy that would otherwise have gone into further breaks."
-    ],
-    [
-     "Try it at the kitchen table",
-     "Bend a strand and count the pieces; repeat a few times. Then twist a fresh strand as far as you can and bend it slowly. Count again."
-    ],
-    [
-     "Beyond pasta",
-     "Physics World notes the research could lead to new ways of using twist to prevent fractures in rod-like materials such as multifibre structures and nanotubes, and help explain natural structures such as microtubules inside living cells."
-    ]
-   ],
-   "rel": [
-    "fermat",
-    "hole",
-    "honor"
-   ],
-   "src": "Physics World, 14 Aug 2018 (Hamish Johnston)"
-  },
-  {
-   "id": "honor",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 1,
-   "art": "gimbal",
-   "cap": "A phone whose camera pops out on a titanium robot arm and spins 360° in a second",
-   "num": "0.005 mm",
-   "nums": "machining precision Honor claims for the titanium gimbal; the gap where it rotates is 0.4 mm",
-   "p1": "The Honor Robot Phone, in TIME’s Best Inventions of 2026, carries its 200-megapixel main camera on a palm-sized robotic arm with four degrees of freedom: pan, tilt, roll and flip. On command it swivels out of the back of the phone and AI software tracks whatever it is pointed at, including you in selfie mode; when it is done, the arm folds flat into the camera panel. Honor says it developed its own micromotor and packed in more than 100 new components. The gimbal motor weighs 2.6 g, is titanium alloy, and turns the camera at up to 360 degrees per second.",
-   "p2": "What reviewers found wrong: Tom’s Guide’s John Velasco found the gimbal cannot rotate for true vertical video, it just crops the centre; he was leery about low light with a 1/1.28-inch sensor, worried about the moving parts in a drop, found it hefty at 8.75 ounces (an iPhone 17 Pro is 7.27), and it is not coming to the US.",
-   "deep": [
-    [
-     "Inside the arm",
-     "The flip motor is made from a 2100 MPa steel Honor calls shield steel, with 43 components in a 0.5 cubic centimetre space and a five-speed transmission. Torque density is quoted at up to 120 newton-metres per litre, with a rare-earth NdFeB core."
-    ],
-    [
-     "The cameras",
-     "Main: 200 MP on a 1/1.28-inch sensor, f/1.6, with optical and 3-axis mechanical stabilisation. Periscope telephoto: 200 MP, 1/1.4-inch, 2.7x optical zoom. Ultra-wide: 50 MP with a 122-degree field of view. Video up to 4K at 120 frames per second through Honor’s H1 image chip."
-    ],
-    [
-     "The rest of the phone",
-     "Snapdragon 8 Elite Gen 5 on a 3 nm process, a 6.31-inch OLED that peaks at 6,800 nits, and a 7,060 mAh silicon-carbon battery with 120 W wired and 50 W wireless charging. Announced in China on 12 August 2026 at RMB 9,999 and RMB 12,999, with sales from 18 August."
-    ],
-    [
-     "A number to doubt",
-     "Velasco’s spec table lists 25 W wired charging; Honor’s own pages say 120 W. They cannot both be right, and a charging claim is exactly the kind of number to time with a stopwatch."
-    ]
-   ],
-   "rel": [
-    "spag",
-    "stack",
-    "aicraft"
-   ],
-   "src": "TIME Best Inventions 2026 · Honor product and launch pages · Tom’s Guide, 12 Aug 2026"
+   "credit": "Photo: NASA",
+   "hot": 0,
+   "big": 0
   },
   {
    "id": "monsoon",
@@ -371,213 +585,15 @@
     ]
    ],
    "rel": [
-    "arnab",
-    "flow",
-    "navic"
+    "vega",
+    "nusai",
+    "gslv"
    ],
    "src": "NEA / Meteorological Service Singapore, 29 Oct 2026",
    "img": "https://www.nea.gov.sg/images/default-source/about-us/fwo-29-oct-26.jpg",
-   "credit": "Image: NEA"
-  },
-  {
-   "id": "flow",
-   "dom": "sg",
-   "lab": "Singapore · Energy",
-   "art": "flow",
-   "cap": "A battery that keeps its energy in two tanks of non-flammable liquid: NTU’s S$15m lab",
-   "num": "S$15 million",
-   "nums": "size of the four-year NTU–VFT joint lab announced on Tuesday 27 October",
-   "p1": "NTU’s Energy Research Institute (ERI@N) and VFT, an NTU spin-off founded in 2018, have launched a S$15 million joint research laboratory, NTU said on Tuesday 27 October, to develop vanadium redox flow batteries for the power grid. Unlike lithium-ion batteries, which store energy inside the cells, a flow battery stores it in liquid electrolytes held in external tanks; the liquids are water-based and non-flammable, which NTU says significantly reduces the risk of battery fires.",
-   "p2": "Why it matters: as grids add more intermittent solar and wind, they need a safe way to store electricity when generation is high and release it when renewable output falls or demand rises.",
-   "deep": [
-    [
-     "What they will work on",
-     "Better battery stacks and cooling, recovering and recycling the vanadium, power conversion efficiency, and AI-based fault detection and maintenance prediction."
-    ],
-    [
-     "Who",
-     "Professor Madhavi Srinivasan, executive director of ERI@N: “As the global energy transition accelerates, safe and efficient energy storage will become increasingly important to keeping electricity supplies stable and reliable.” VFT’s chief executive, Dr Vidal Bharath, says the challenge is no longer simply generating more renewable energy but finding safe, reliable and affordable ways to store it for when generation falls or demand rises."
-    ],
-    [
-     "The spin-off",
-     "VFT is built on technology developed at ERI@N and raised US$20.5 million in 2025 to expand manufacturing. The lab was launched at the Asia Clean Energy Summit during Singapore International Energy Week 2026 and is supported under the Research, Innovation and Enterprise 2025 plans."
-    ]
-   ],
-   "rel": [
-    "monsoon",
-    "honor",
-    "navic"
-   ],
-   "src": "NTU Singapore, 27 Oct 2026",
-   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1--launch-of-ntu-vft-joint-lab.jpg?sfvrsn=af38cc74_1",
-   "credit": "Photo: NTU Singapore"
-  },
-  {
-   "id": "hole",
-   "dom": "try",
-   "lab": "Try it · Paper tube",
-   "art": "hole",
-   "cap": "Roll a sheet of paper into a tube and you can see straight through your own hand",
-   "num": "28 cm",
-   "nums": "length of the tube: one A4 sheet rolled lengthwise, about 1.25 cm across",
-   "p1": "Roll a sheet of A4 paper lengthwise into a tube about 28 cm long and 1.25 cm in diameter, and tape it so it stays rolled. Hold it to your right eye with your right hand and look through it, keeping both eyes open. Now bring your left hand up, fingers pointing up and palm facing you, against the left side of the tube about halfway along. Your hand appears to have a hole in it.",
-   "p2": "Swap: tube in the left hand to the left eye, right palm against it. Some people find the effect stronger one way round.",
-   "deep": [
-    [
-     "What is going on",
-     "One of your eyes sees a hole, the other sees a hand. Your eyes and brain add the two images together and build a hand with a hole in it."
-    ],
-    [
-     "Your dominant eye",
-     "The effect is often stronger with one eye because one eye is likely dominant: your brain has a slight preference for its signal, much as you prefer one hand, though eye and hand preference do not have to match."
-    ],
-    [
-     "Find yours",
-     "Tear a coin-sized hole in a piece of paper, pick a distant object and look at it through the hole. Slowly bring the paper to your face while keeping the object in view. The eye the hole ends up against is your dominant eye. Exploratorium adds that top baseball hitters often don’t have a dominant eye."
-    ],
-    [
-     "Circle or oval",
-     "Make a second tube and squash it into a flat oval. Look through the round tube with one eye and the oval with the other at a white wall, and angle them so the two spots overlap. Most people see one shape, the one from the dominant eye; some see both overlapped."
-    ]
-   ],
-   "rel": [
-    "fermat",
-    "spag",
-    "fox"
-   ],
-   "src": "Exploratorium Science Snacks: Hole in Your Hand · Circles or Ovals"
-  },
-  {
-   "id": "aicraft",
-   "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Hand the boring, repetitive stuff to the machine. Keep for yourself anything you want to become good at, and anything you enjoy. His colleague Trent Cash at Waterloo adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient and AI will not turn our brains to mush. It is a choice, made daily.",
-   "deep": [
-    [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. When it was switched off, they found fewer than before. Three months was enough for the skill to fade."
-    ],
-    [
-     "The readers who gave up",
-     "People who worked through SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
-    ],
-    [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
-    ]
-   ],
-   "rel": [
-    "spag",
-    "hole",
-    "honor"
-   ],
-   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
+   "credit": "Image: NEA",
    "hot": 0,
    "big": 0
-  },
-  {
-   "id": "fox",
-   "dom": "life",
-   "lab": "Halloween · Bats",
-   "art": "bat",
-   "cap": "Madagascar’s giant bats, wingspan up to 1.5 m, are shrinking. Museum skulls told the story",
-   "num": "3.6 mm",
-   "nums": "how much longer pre-1980s flying-fox skulls were than later ones, about 6 per cent",
-   "p1": "The Madagascan flying fox, Pteropus rufus, is among the world’s biggest bats; fruit bats like it have wingspans of up to a metre and a half. Emily Cornelius Ruhs of Chicago’s Field Museum noticed that preserved specimens looked larger than bats caught today. With Steven Goodman she measured 12 skull and tooth features on 121 specimens from nine museums, collected over more than 150 years. Skulls from before the 1980s were 3.6 millimetres, about 6 per cent, longer than those collected after.",
-   "p2": "Published Thursday 29 October in the Journal of Mammalogy. The timing of the shrink matches the rise of commercial bat hunting, which may take the biggest animals first; climate change and habitat loss are other possible causes.",
-   "deep": [
-    [
-     "A population in trouble",
-     "Estimated at 300,000 in the early 2000s, the population is now down by about two-thirds. “Bats are eaten in Madagascar in certain villages and cultures,” says Ruhs; the question she raises is how to overcome the needs of the people who live there."
-    ],
-    [
-     "Why size matters",
-     "Smaller bodies could affect how the species copes with environmental, climate or disease stress. Emma Stone of the University of Bath: “Species are specifically adapted to their environments and adaptation takes place over thousands of years.”"
-    ],
-    [
-     "Museums as time machines",
-     "Specimens collected over more than 150 years let a bat from 1948 sit next to one from 1995 and tell a story that no single field trip could."
-    ]
-   ],
-   "rel": [
-    "silk",
-    "hole",
-    "spag"
-   ],
-   "src": "Science News, 29 Oct 2026 (Jake Buehler) · Ruhs & Goodman, Journal of Mammalogy"
-  },
-  {
-   "id": "silk",
-   "dom": "life",
-   "lab": "Halloween · Spiders",
-   "art": "spider",
-   "cap": "A spider turns liquid “dope” into thread tougher than Kevlar in milliseconds. Here’s how",
-   "num": "up to 7",
-   "nums": "types of silk spiders can spin; one spider often makes several",
-   "p1": "Spider silk is tougher than Kevlar and stronger than steel, yet nobody has matched it, partly because nobody knew how a spider turns a soup of proteins into a fibre within milliseconds. Gregory Holland’s team at San Diego State University used NMR, nuclear magnetic resonance, on liquid silk dope from black widows and mapped the steps, Quanta Magazine reported on Wednesday 28 October. The key is a condensate: phosphate triggers two amino acids, arginine and tyrosine, to interact, pushing water out and forming a denser, gel-like state whose sticky interaction persists into the finished fibre.",
-   "p2": "Why it matters: silkworms have been farmed for more than 4,000 years, but spiders eat each other, so each needs its own container, and it would take around a million of them to make one silk shirt. Lab-made spider silk is still weaker than the real thing.",
-   "deep": [
-    [
-     "Holy grail",
-     "Holland calls mapping the molecular steps from dope to fibre “really the holy grail”. The silk proteins, later named spidroins, were identified in 1907. Packages of black widows arrived every few months through 2023 and 2024; six times over two weeks, graduate student Hannah Johnson put on two pairs of protective gloves to silk them."
-    ],
-    [
-     "One protein, two states",
-     "Kevin Chalek, then a postdoc in the lab: “These are the same protein, so how can they be so different?” Simulations suggest arginine and tyrosine sit at the bends of beta sheets, guiding the proteins into their final structure."
-    ],
-    [
-     "Not just spiders",
-     "Condensates have been observed for more than a century: lab-made spidroins formed liquid-like globs in 2007, condensates turned up in worm eggs in 2009, and in 2020 Keiji Numata proposed that spider silk passes through a condensate phase. “It’s becoming clear that condensates are a common strategy that’s being used across a range of different organisms,” says Matthew Harrington of McGill. Daiwen Yang of NUS, not involved, calls the findings direct evidence."
-    ]
-   ],
-   "rel": [
-    "fox",
-    "hole",
-    "fermat"
-   ],
-   "src": "Quanta Magazine, 28 Oct 2026 (Yasemin Saplakoglu) · Holland lab, PNAS"
-  },
-  {
-   "id": "art3",
-   "dom": "space",
-   "lab": "Space · 2027",
-   "hot": 0,
-   "big": 0,
-   "art": "artemis",
-   "cap": "Artemis III: four astronauts, two Moon landers, one docking rehearsal in Earth orbit",
-   "num": "14 days",
-   "nums": "planned length of the 2027 Artemis III mission in low Earth orbit",
-   "p1": "NASA set out on Friday 23 October how Artemis III will fly. Launching in 2027, it will send NASA astronauts Randy Bresnik, Frank Rubio and Andre Douglas and ESA astronaut Luca Parmitano into low Earth orbit aboard Orion, launched on the SLS rocket from Kennedy Space Center in Florida. Over a planned 14 days they will rendezvous and dock with test versions of two Moon landers: Blue Origin’s Blue Moon Mark 2 and SpaceX’s Starship Version 3.",
-   "p2": "Why Earth orbit first: everything learned here, says Artemis program manager Jeremy Parsons, gets NASA closer to landing on the Moon in 2028, when Artemis astronauts are due to begin landing near the Moon’s South Pole.",
-   "deep": [
-    [
-     "The order of events",
-     "Blue Origin goes first, launching a Blue Moon Mark 2 test article into a circular low Earth orbit; it can stay up for as long as 30 days, which gives the schedule room. Orion follows and docks, and the astronauts spend about two days inside the Blue Moon test article checking the cabin environment, controls and life-support systems first-hand."
-    ],
-    [
-     "Then Starship",
-     "SpaceX launches a Starship Version 3 test article from Florida. Orion will rendezvous and dock with it in a test expected to last up to two hours. The crew will not go inside Starship on this flight."
-    ],
-    [
-     "Spare days",
-     "Orion then has up to five more days in orbit for checks of the Orion Crew Survival System suits and docking-sensor tests, a cellular biology experiment, and trials of ways to bring Moon samples back to Earth. Splashdown is in the Pacific Ocean, off the coast of California."
-    ],
-    [
-     "Three at once",
-     "“We’re launching three spacecraft on three different rockets and testing how they operate together,” said Parsons in NASA’s account of the plan. He presented it at a Kennedy briefing on Friday with NASA Administrator Jared Isaacman and Associate Administrator Amit Kshatriya. Artemis IV is planned as the first Artemis mission on the lunar surface."
-    ]
-   ],
-   "rel": [
-    "stack",
-    "lucy",
-    "chapea"
-   ],
-   "src": "NASA, 23 Oct 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg?w=1600",
-   "credit": "Image: NASA"
   }
  ]
 }
