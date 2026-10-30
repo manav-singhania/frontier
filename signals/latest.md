@@ -60,3 +60,11 @@ New this edition: stack, lucy, tegh, chapea, arnab, navic, fermat, spag, honor, 
 Retired for being opened: none new (opened list unchanged: mars, fabric, sat, aitry, green, artemis; none of them were on edition 06).
 Dropped by the one-week rule: none (no edition 06 tile had first ≤ 2026-10-23). Rotated out unopened: eva, gany, bomb, spadex, lhc, charge, blind, scope, buds, glow, drex, coaster, aimit, neo, crimson.
 Photos: 8 tiles carry real photos (stack, lucy, chapea, arnab, navic, monsoon, flow, art3); 8 of the 9 space/Earth/Singapore/India tiles. Next Using AI rotation: ai30 or aimit.
+
+## Edition 08 live (Sat 31 Oct 2026) — written by Claude; 30 Oct sync Opened list used
+Tiles now live: gslv (lead), voyager, catneb, nazca, vega, nusai, heat, slit, steam, analogue, cheshire, seaspider, ai17, stack, chapea, monsoon.
+New this edition: gslv, voyager, catneb, nazca, vega, nusai, heat, slit, steam, analogue, cheshire, seaspider; ai17 rotated in (aicraft rested). Carried: stack, chapea, monsoon.
+Retired for being opened: none of the edition 07 tiles were on the Opened list (mars, fabric, sat, artemis, aitry, duo, aqua, ai30, after, leaves, swiftend; none of them were on edition 07). Rotated out unopened: lucy, tegh, arnab, navic (replaced by gslv), fermat, spag, honor, flow, hole, aicraft, fox, silk, art3.
+Dropped by the one-week rule: none (no edition 07 tile had first ≤ 2026-10-24).
+Photos: 9 tiles carry real photos (gslv, voyager, catneb, nazca, vega, nusai, stack, chapea, monsoon); 9 of 9 space/Earth/Singapore/India tiles. Next Using AI rotation: aimit or aicraft (ai30 and aitry are opened; ai17 and aicraft ran most recently).
+Lean applied: Saturday lead is a rocket with a photo (GSLV launch overnight); Gadgets lane fed with two new tiles (Steam Machine, Analogue 3D) per his interests-box ask; one Life tile (glowing sea spiders) and the Cat's Head Nebula for Halloween.
