@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "tiles": [
   {
    "id": "after",
@@ -231,11 +231,12 @@
    "lab": "Using AI · Evidence",
    "src": "PNAS, Bastani et al. 2025 · Wharton",
    "first": "2026-10-25",
-   "last": "2026-10-28",
+   "last": "2026-10-31",
    "editions": [
     "02b",
     "05",
-    "05b"
+    "05b",
+    "08"
    ]
   },
   {
@@ -1007,9 +1008,10 @@
    "lab": "Space · Hardware",
    "src": "NASA Kennedy, 28 Oct 2026",
    "first": "2026-10-30",
-   "last": "2026-10-30",
+   "last": "2026-10-31",
    "editions": [
-    "07"
+    "07",
+    "08"
    ]
   },
   {
@@ -1043,9 +1045,10 @@
    "lab": "Space · Saturday",
    "src": "NASA media advisory M26-083, 27 Oct 2026",
    "first": "2026-10-30",
-   "last": "2026-10-30",
+   "last": "2026-10-31",
    "editions": [
-    "07"
+    "07",
+    "08"
    ]
   },
   {
@@ -1115,9 +1118,10 @@
    "lab": "Singapore · Weather",
    "src": "NEA / Meteorological Service Singapore, 29 Oct 2026",
    "first": "2026-10-30",
-   "last": "2026-10-30",
+   "last": "2026-10-31",
    "editions": [
-    "07"
+    "07",
+    "08"
    ]
   },
   {
@@ -1166,6 +1170,150 @@
    "last": "2026-10-30",
    "editions": [
     "07"
+   ]
+  },
+  {
+   "id": "gslv",
+   "cap": "Overnight, India’s 50 m GSLV put the NVS-03 satellite in orbit. ISRO: “Mission Success!”",
+   "lane": "space",
+   "lab": "India · Space",
+   "src": "ISRO mission page and brochure, 27–28 Oct 2026 · ISRO post, 31 Oct 2026",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "voyager",
+   "cap": "From 18 November, a radio message to Voyager 1 will take a full day to arrive",
+   "lane": "space",
+   "lab": "Space · 49 years out",
+   "src": "NASA JPL, Voyager mission update, 29 Oct 2026",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "catneb",
+   "cap": "A ghost cat 7,500 light-years away. Its red eye may be a young star still wrapped in dust",
+   "lane": "space",
+   "lab": "Halloween · Hubble + Webb",
+   "src": "NASA / STScI, 29 Oct 2026",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "nazca",
+   "cap": "Curiosity is firing 150 laser shots into one spot, next to the rock it plans to drill",
+   "lane": "space",
+   "lab": "Space · Mars",
+   "src": "NASA Curiosity mission blog, 28 Oct 2026 (Lucy Lim)",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "vega",
+   "cap": "Landsat spotted a smirking skull in Antarctic ice. The missing snow is the scary part",
+   "lane": "earth",
+   "lab": "Halloween · From orbit",
+   "src": "NASA Earth Observatory, 30 Oct 2026 (Lindsey Doermann)",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "nusai",
+   "cap": "An NUS team is the only one in Asia among 17 picked for Google.org’s AI-for-science fund",
+   "lane": "sg",
+   "lab": "Singapore · AI for science",
+   "src": "NUS News, 29 Oct 2026",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "heat",
+   "cap": "Heat is jiggling. Blow on wet skin and the fastest molecules leave, so what is left cools",
+   "lane": "matter",
+   "lab": "Physics · Heat",
+   "src": "The Feynman Lectures on Physics, Vol. I ch. 1 and 41 · NIST, SI redefinition",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "slit",
+   "cap": "Fire electrons one by one at two slits and, 20 minutes later, they have drawn stripes",
+   "lane": "matter",
+   "lab": "Physics · Quantum",
+   "src": "The Feynman Lectures on Physics, Vol. III ch. 1 · Physics World, Sept 2002 · Exploratorium Science Snacks",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "steam",
+   "cap": "A gaming PC in a 6-inch cube. One big slow fan keeps it quiet; 4K is where it struggles",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Steam store page · TechRadar, 25 Jul 2026 (Christian Guyton)",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "analogue",
+   "cap": "A chip configured to be a Nintendo 64, playing the old cartridges in 4K with no lag",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Jessica Sager) · Analogue spec and firmware pages · TechRadar, 22 Nov 2025 (John-Anthony Disotto)",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "cheshire",
+   "cap": "Make a friend’s face disappear with a hand mirror, leaving only the eyes and mouth",
+   "lane": "try",
+   "lab": "Try it · Mirror",
+   "src": "Exploratorium Science Snacks: Cheshire Cat",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
+   ]
+  },
+  {
+   "id": "seaspider",
+   "cap": "Giant sea spiders with 25 cm legs glow for up to 10 minutes, 5,000 metres down",
+   "lane": "life",
+   "lab": "Halloween · Deep sea",
+   "src": "Science News Explores, 30 Oct 2026 (Joshua Rapp Learn)",
+   "first": "2026-10-31",
+   "last": "2026-10-31",
+   "editions": [
+    "08"
    ]
   }
  ]
