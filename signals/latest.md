@@ -70,3 +70,11 @@ Photos: 9 tiles carry real photos (gslv, voyager, catneb, nazca, vega, nusai, st
 Lean applied: Saturday lead is a rocket with a photo (GSLV launch overnight); Gadgets lane fed with two new tiles (Steam Machine, Analogue 3D) per his interests-box ask; one Life tile (glowing sea spiders) and the Cat's Head Nebula for Halloween.
 
 signals sync skipped 2026-10-31: Mac not reachable
+
+## Edition 09 live (Sun 1 Nov 2026) — written by Claude; signals sync skipped 31 Oct, so the 30 Oct Opened list was used
+Tiles now live: iro (lead), hubble, chiri, quiet, flowbat, ccus, pend, muon, instax, nose, bats, voyager, nazca, steam, aimit.
+New this edition: iro, hubble, chiri, quiet, flowbat, ccus, pend, muon, instax, nose, bats; aimit rotated in (ai17 out). Carried: voyager, nazca, steam.
+Retired for being opened: none (Opened list mars, fabric, sat, artemis, aitry, duo, aqua, ai30, after, leaves, swiftend; none of them were on edition 08).
+Dropped by the one-week rule: ai17 (first 2026-10-25). Rotated out unopened: gslv, catneb, vega, nusai, heat, slit, analogue, cheshire, seaspider, stack, chapea, monsoon.
+Photos: 6 tiles carry real photos (iro, hubble, chiri, flowbat, voyager, nazca); 6 of the 8 space/Earth/Singapore/India tiles (quiet and ccus have drawn art). Next Using AI rotation: aicraft (ai17 and aimit ran most recently; ai30 and aitry are opened).
+Lean applied: Sunday lead is a spacewalk with a NASA photo and a date to come back for (second spacewalk Thu 5 Nov, 7:45 pm SGT); Gadgets lane kept at two (Instax Cinema new, Steam Machine carried); one Life tile (shrinking flying foxes) and one Earth numbers-style tile (quiet Atlantic season) deliberately off his usual lanes.
