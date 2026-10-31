@@ -68,3 +68,5 @@ Retired for being opened: none of the edition 07 tiles were on the Opened list (
 Dropped by the one-week rule: none (no edition 07 tile had first ≤ 2026-10-24).
 Photos: 9 tiles carry real photos (gslv, voyager, catneb, nazca, vega, nusai, stack, chapea, monsoon); 9 of 9 space/Earth/Singapore/India tiles. Next Using AI rotation: aimit or aicraft (ai30 and aitry are opened; ai17 and aicraft ran most recently).
 Lean applied: Saturday lead is a rocket with a photo (GSLV launch overnight); Gadgets lane fed with two new tiles (Steam Machine, Analogue 3D) per his interests-box ask; one Life tile (glowing sea spiders) and the Cat's Head Nebula for Halloween.
+
+signals sync skipped 2026-10-31: Mac not reachable
