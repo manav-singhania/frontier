@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "tiles": [
   {
    "id": "after",
@@ -274,10 +274,11 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-10-29",
+   "last": "2026-11-01",
    "editions": [
     "02b",
-    "06"
+    "06",
+    "09"
    ]
   },
   {
@@ -1191,9 +1192,10 @@
    "lab": "Space · 49 years out",
    "src": "NASA JPL, Voyager mission update, 29 Oct 2026",
    "first": "2026-10-31",
-   "last": "2026-10-31",
+   "last": "2026-11-01",
    "editions": [
-    "08"
+    "08",
+    "09"
    ]
   },
   {
@@ -1215,9 +1217,10 @@
    "lab": "Space · Mars",
    "src": "NASA Curiosity mission blog, 28 Oct 2026 (Lucy Lim)",
    "first": "2026-10-31",
-   "last": "2026-10-31",
+   "last": "2026-11-01",
    "editions": [
-    "08"
+    "08",
+    "09"
    ]
   },
   {
@@ -1275,9 +1278,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026 (Kevin Cortez) · Steam store page · TechRadar, 25 Jul 2026 (Christian Guyton)",
    "first": "2026-10-31",
-   "last": "2026-10-31",
+   "last": "2026-11-01",
    "editions": [
-    "08"
+    "08",
+    "09"
    ]
   },
   {
@@ -1314,6 +1318,138 @@
    "last": "2026-10-31",
    "editions": [
     "08"
+   ]
+  },
+  {
+   "id": "iro",
+   "cap": "Two astronauts spent 7 h 11 min outside the ISS fitting a solar array. Next one: Thursday",
+   "lane": "space",
+   "lab": "Space · Spacewalk",
+   "src": "NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia) · NASA release, 13 Oct 2026",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "hubble",
+   "cap": "NASA asks companies: can you fly up and save Hubble before it falls to Earth, around 2033?",
+   "lane": "space",
+   "lab": "Space · Rescue",
+   "src": "NASA Science, 30 Oct 2026 (Alise Fisher)",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "chiri",
+   "cap": "Arizona’s new national park: rock pillars from an eruption 1,000 times Mount St. Helens",
+   "lane": "earth",
+   "lab": "Earth · From orbit",
+   "src": "NASA Earth Observatory, 28 Oct 2026 (Adam Voiland)",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "quiet",
+   "cap": "The Atlantic has produced one hurricane all year. The Pacific had an 892-millibar monster",
+   "lane": "earth",
+   "lab": "Earth · Hurricanes",
+   "src": "NOAA National Hurricane Center: 2026 season tables and Tropical Weather Outlooks, 30–31 Oct 2026 · NASA Earth Observatory, 29 Oct 2026",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "flowbat",
+   "cap": "A battery that lives in tanks of non-flammable liquid, not a sealed cell: NTU’s S$15m lab",
+   "lane": "sg",
+   "lab": "Singapore · Energy",
+   "src": "NTU Singapore news, 27 Oct 2026",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "ccus",
+   "cap": "An IIT Bombay rig pulls up to 3 tonnes of CO₂ a day from factory emissions and the air",
+   "lane": "matter",
+   "lab": "India · Climate tech",
+   "src": "PIB backgrounder, 27 Oct 2026, drawing on Department of Science and Technology programmes",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "pend",
+   "cap": "Swing a bottle of water on a string. Pour out half the water: the timing does not change",
+   "lane": "matter",
+   "lab": "Physics · Clocks",
+   "src": "Exploratorium Science Snacks: Pendulum Snake · The Feynman Lectures on Physics, Vol. I, Ch. 5 · Michael Fowler, University of Virginia, Physics 152: The Pendulum",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "muon",
+   "cap": "One muon crosses your hand about every second. On paper, almost none should reach you",
+   "lane": "matter",
+   "lab": "Physics · Relativity",
+   "src": "CERN High School Teachers programme: cosmic ray muons and relativistic time dilation · MIT OpenCourseWare 8.20, Prof. Markus Klute · Physics World, 25 Jul 2023 (Michael Allen) · home.cern",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "instax",
+   "cap": "A camera with a printer inside: 16 seconds a print, 15-second films, a dial of ten decades",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Fujifilm specifications page · TechRadar (Timothy Coleman, updated 17 Feb 2026) · Tom’s Guide (Nikita Achanta, 4 Feb 2026)",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "nose",
+   "cap": "Eyes closed, hands up: touch your nose, then each fingertip of the other hand. Then wiggle",
+   "lane": "try",
+   "lab": "Try it · Body sense",
+   "src": "Exploratorium Science Snacks: Proprioception",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
+   ]
+  },
+  {
+   "id": "bats",
+   "cap": "Bats with 1.5 m wingspans are shrinking: skulls 6 percent smaller than before the 1980s",
+   "lane": "life",
+   "lab": "Life · Museum detectives",
+   "src": "Science News, 29 Oct 2026 (Jake Buehler) · Ruhs & Goodman, Journal of Mammalogy, 2026",
+   "first": "2026-11-01",
+   "last": "2026-11-01",
+   "editions": [
+    "09"
    ]
   }
  ]
