@@ -1,47 +1,447 @@
 {
- "edition": "09",
+ "edition": "10",
  "level": "High school",
- "date": "2026-11-01",
- "dateLabel": "Sun 1 Nov 2026",
+ "date": "2026-11-02",
+ "dateLabel": "Mon 2 Nov 2026",
  "week": [
   {
-   "d": "SAT",
-   "t": "NHC: no tropical cyclones in the Atlantic and none expected for 7 days; one hurricane all season",
-   "id": "quiet"
-  },
-  {
    "d": "FRI",
-   "t": "NASA asks industry about a commercial mission to service Hubble before it re-enters around 2033–2034",
-   "id": "hubble"
+   "t": "Quanta: 41% of the interstellar gas in our galactic neighbourhood is in a state a 1969 theory said should barely exist",
+   "id": "fog"
   },
   {
    "d": "THU",
-   "t": "Menon and Kutryk install the seventh roll-out solar array in a 7 h 11 min spacewalk",
-   "id": "iro"
+   "t": "NASA opens Dragonfly’s passenger list: names fly to Titan, deadline 15 Jan 2027",
+   "id": "titan"
   },
   {
    "d": "THU",
-   "t": "Science News: Malagasy flying foxes have skulls 6 percent smaller than before the 1980s",
-   "id": "bats"
+   "t": "Science: Manx shearwaters get jet lag and drift up to 15° off their heading",
+   "id": "jetlag"
+  },
+  {
+   "d": "THU",
+   "t": "MSS: inter-monsoon conditions setting in; haze expected to improve",
+   "id": "inter"
   },
   {
    "d": "WED",
-   "t": "Earth Observatory: Landsat 9’s view of Chiricahua, redesignated a national park in October",
-   "id": "chiri"
+   "t": "PIB backgrounder: India’s NGLV designed for 30 tonnes to low Earth orbit",
+   "id": "nglv"
   },
   {
-   "d": "TUE",
-   "t": "NTU and VFT launch a S$15 million joint lab for flow batteries",
-   "id": "flowbat"
+   "d": "MON",
+   "t": "A*STAR, NRP, NTU and Micron launch Singapore’s first Embodied AI Challenge",
+   "id": "robo"
   }
  ],
  "tiles": [
   {
+   "id": "titan",
+   "dom": "space",
+   "lab": "Space · Titan",
+   "hot": 1,
+   "big": 1,
+   "art": "dragonfly",
+   "cap": "Your name can fly to Titan on NASA’s Dragonfly. The passenger list closes 15 January",
+   "num": "2034",
+   "nums": "the year Dragonfly arrives at Saturn’s moon Titan, after a launch scheduled for 2028",
+   "p1": "NASA is inviting the public to send their names aboard Dragonfly, a rotorcraft, and be part of the first science mission to fly and explore the surface of another world. The passenger list is open until 11:59 pm US Eastern time on 15 January 2027. Scheduled to launch in 2028, Dragonfly will travel to Titan, a world with a thick atmosphere, rivers and lakes of liquid methane, sweeping dunes and a landscape rich in organic material.",
+   "p2": "Why it matters to you: NASA’s sign-up is a web form called “Send Your Name to Titan”, and it issues a personalised digital boarding pass. The deadline in Singapore time is 12:59 pm on Saturday 16 January.",
+   "deep": [
+    [
+     "A rotorcraft on another moon",
+     "After arriving in 2034, Dragonfly will fly to different locations on the moon, exploring Titan’s diverse environments and searching for clues about prebiotic chemistry, the chemistry that came before biology, to help scientists better understand the ingredients and conditions for life."
+    ],
+    [
+     "Flying, not driving",
+     "NASA describes Titan as a remarkable world with a thick atmosphere, rivers and lakes of liquid methane, sweeping dunes and a landscape rich in organic material. Dragonfly will fly to different locations on the moon; NASA calls it the first science mission to fly and explore the surface of another world."
+    ],
+    [
+     "Who runs it",
+     "Dragonfly is the fourth mission in NASA’s New Frontiers Program, managed by NASA’s Marshall Space Flight Center in Huntsville, Alabama, for the agency’s Science Mission Directorate. Elizabeth Turtle of APL, the Johns Hopkins Applied Physics Laboratory, is the principal investigator."
+    ],
+    [
+     "The arithmetic of waiting",
+     "Sign up by January 2027, launch in 2028, arrive in 2034: your name spends about six years in flight. Add eight to your age now, and that is how old you will be when it lands."
+    ]
+   ],
+   "rel": [
+    "iro",
+    "fog",
+    "boo"
+   ],
+   "src": "NASA release 26-091, 29 Oct 2026 (Jessica Taveau)",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01a-hero-image-16-9-v02.jpg",
+   "credit": "Image: NASA / Johns Hopkins APL"
+  },
+  {
+   "id": "boo",
+   "dom": "space",
+   "lab": "Space · Halloween in orbit",
+   "hot": 1,
+   "art": "eva",
+   "cap": "Nobody knocks on the ISS hatch at Halloween, so astronauts build costumes from cargo boxes",
+   "num": "25+",
+   "nums": "years of continuous human presence aboard the space station, and a costume album to match",
+   "p1": "NASA’s Johnson Space Center posted its Halloween album from orbit on Thursday 29 October. Although no ghouls, goblins or trick-or-treaters come knocking at the International Space Station’s front hatch, crews still dress up, in costumes often designed from materials available aboard the station. In 2022, Koichi Wakata of JAXA and NASA astronauts Frank Rubio, Nicole Mann and Josh Cassada dressed as video game and cartoon characters, using stowage containers in their costumes and holding improvised trick-or-treat bags.",
+   "p2": "Why now: Halloween was Saturday. The photo on this tile is from Expedition 57, when Commander Alexander Gerst of ESA dressed as Darth Vader.",
+   "deep": [
+    [
+     "Elvis, Vader and a mad scientist",
+     "Flight Engineer Sergei Prokopyev of Roscosmos dressed as Elvis Presley, Commander Alexander Gerst of ESA as Darth Vader, and Flight Engineer Serena Auñón-Chancellor of NASA as a mad scientist, posing inside the Kibo Japanese Experiment Module during Expedition 57."
+    ],
+    [
+     "Superman at last",
+     "ESA astronaut Luca Parmitano finally got his wish to fly like Superman aboard the station during Expedition 37. In orbit, the flying part needs no special effects."
+    ],
+    [
+     "Made from what is up there",
+     "Costumes are often designed from materials available aboard the space station. In 2022 the Expedition 68 crew used stowage containers in their outfits; in 2023 Jasmin Moghbeli, Satoshi Furukawa, Loral O’Hara and Andreas Mogensen celebrated together."
+    ],
+    [
+     "Back to work",
+     "NASA’s station blog on Friday 30 October: Anil Menon and Joshua Kutryk will install the eighth and final roll-out solar array on Thursday 5 November, raising the station’s power generating capacity from 160 kilowatts to about 215 kilowatts."
+    ]
+   ],
+   "rel": [
+    "iro",
+    "titan",
+    "pocket"
+   ],
+   "src": "NASA Johnson, 29 Oct 2026 (John Uri) · NASA Space Station blog, 30 Oct 2026 (Mark A. Garcia)",
+   "img": "https://www.nasa.gov/wp-content/uploads/2025/11/iss057e057509.jpg",
+   "credit": "Photo: NASA"
+  },
+  {
+   "id": "fog",
+   "dom": "space",
+   "lab": "Space · Between the stars",
+   "art": "gal",
+   "cap": "“Empty” space holds about 130 hydrogen atoms per litre. Two-fifths of it should not exist",
+   "num": "41%",
+   "nums": "of the interstellar gas in our galactic neighbourhood sits in an “unstable” state that a 1969 theory said should barely exist",
+   "p1": "You might imagine space to be empty. But the seeming void between the stars contains a barely perceptible fog of hydrogen and other neutral atoms: New Horizons found around 130 hydrogen atoms per litre of space. A 1969 model by George Field, Donald Goldsmith and Harm Habing said this gas should sit in one of two states, cold at about 100 kelvins (minus 173 degrees Celsius) or warm near 8,000 kelvins, with almost nothing in between.",
+   "p2": "Why it is a good story: the person who found the in-between gas was an undergraduate, Jonathan Shelest at the Technion in Haifa, and his first thought was that he had made a mistake.",
+   "deep": [
+    [
+     "The map",
+     "Gaia observed almost 2 billion stars from different angles as Earth moved around the Sun. In 2024 a separate team used such tools to build a continuous three-dimensional map of the density of interstellar dust inside a sphere more than 4,000 light-years wide around our Sun. Shelest and his professor Shmuel Bialy used that kind of map to work out the state of the gas."
+    ],
+    [
+     "The forbidden zone",
+     "Shelest found that 27% of the ISM in our galactic neighbourhood was cold, 32% was warm, and the remaining 41% sat squarely in the forbidden zone as unstable medium. “I thought I was wrong,” he said. Tested on a different, lower-resolution dust map, the unstable fraction shifted by only about 5%."
+    ],
+    [
+     "Blankets around clouds",
+     "Instead of vanishing, the unstable gas formed massive, coherent blankets that wrapped around the cold clouds completely. “All that midrange medium, neither hot nor cold, implies that the older theory is incomplete,” said Adam Ginsburg of the University of Florida."
+    ],
+    [
+     "Where it stands",
+     "The paper was posted in July 2026 and is undergoing peer review. On the day it went up, Shelest’s inbox filled with messages from excited astronomers and requests to collaborate."
+    ]
+   ],
+   "rel": [
+    "titan",
+    "muon",
+    "iro"
+   ],
+   "src": "Quanta Magazine, 30 Oct 2026 (Perri Thaler)"
+  },
+  {
+   "id": "jetlag",
+   "dom": "life",
+   "lab": "Life · Navigation",
+   "art": "swift",
+   "cap": "Seabirds get jet lag. Fly east or west fast enough and they veer up to 15° off their line",
+   "num": "1,045",
+   "nums": "breeding Manx shearwaters fitted with miniature GPS trackers over 20 years by Tim Guilford and colleagues at Oxford",
+   "p1": "Jet lag isn’t just for travellers hurtling across time zones. Manx shearwaters fly fast enough to experience it, researchers reported on Thursday 29 October in Science. Decades of tracking data from foraging flights revealed that rapid east-west journeys can throw the seabirds’ internal clocks out of sync with local time, causing them to misjudge the Sun’s position and veer slightly off their heading.",
+   "p2": "Connects to: your own body clock on a flight to London does the same thing. The difference is that you do not steer by the Sun.",
+   "deep": [
+    [
+     "A compass that needs a watch",
+     "Scientists have long predicted that the mismatch between a bird’s internal clock and local time could confound its sun-based compass, but testing the idea in the wild “has seemed impossible until now,” says Tim Guilford, a biologist at the University of Oxford."
+    ],
+    [
+     "20 years of trackers",
+     "Over 20 years, Guilford and colleagues equipped 1,045 breeding Manx shearwaters with miniature GPS trackers. The trackers logged thousands of trips from United Kingdom breeding colonies to feeding grounds up to 1,000 kilometres away; the team isolated 1,837 continuous homeward flights."
+    ],
+    [
+     "15 degrees",
+     "The birds veered as expected, by as much as 15 degrees from their intended direction. The birds seem to process and integrate multiple navigational cues without relying blindly on any one of them."
+    ],
+    [
+     "An Indian angle",
+     "This navigational tug-of-war excites Sangeeta Rani, a chronobiologist at the University of Lucknow in India."
+    ]
+   ],
+   "rel": [
+    "pupil",
+    "weeds",
+    "fog"
+   ],
+   "src": "Science News, 29 Oct 2026 (Anirban Mukhopadhyay) · Science, 29 Oct 2026"
+  },
+  {
+   "id": "inter",
+   "dom": "sg",
+   "lab": "Singapore · Weather",
+   "art": "rain",
+   "cap": "The haze is set to ease: inter-monsoon winds arrive, with thundery afternoons on most days",
+   "num": "36.1 °C",
+   "nums": "the hottest reading of 16 to 28 October, at Woodlands on 23 October; the next fortnight should run 33 to 35 °C",
+   "p1": "With the weakening of the Southwest Monsoon, inter-monsoon conditions have been progressively setting in over Singapore and the surrounding region, the Meteorological Service Singapore said on Thursday 29 October. The inter-monsoon period is characterised by light and variable winds, as well as increased showers and higher lightning activity. Together with wetter conditions over Singapore and the nearby areas, the smoke haze situation is expected to improve.",
+   "p2": "Why here: between 16 and 28 October, air quality reached “Unhealthy” levels for seven days and “Very Unhealthy” levels for three. Watch the air-quality readings over the next two weeks and see whether the forecast holds.",
+   "deep": [
+    [
+     "What changed in the wind",
+     "With winds blowing mostly from the southeast or southwest, smoke haze was transported to Singapore. The inter-monsoon period brings light and variable winds, more showers and more lightning, and that is what is expected to improve the haze."
+    ],
+    [
+     "The fortnight ahead",
+     "In the first fortnight of November 2026, moderate to heavy thundery showers are expected over parts of the island in the afternoon on most days. Total rainfall is forecast to be slightly above its long-term average over most parts of the island; daily maximum temperatures between 33 and 35 degrees Celsius on most days, slightly above 35 on a few days."
+    ],
+    [
+     "Late October’s extremes",
+     "On 21 October, heavy thundery showers fell over western Singapore, with the fortnight’s highest daily total, 81.0 mm, at Tuas South. The highest daily maximum temperature, 36.1 degrees Celsius, was recorded at Woodlands on 23 October. Tanjong Katong had rainfall 72 per cent below average; Punggol 24 per cent above."
+    ],
+    [
+     "November normally",
+     "The climate-station averages for November, 1991 to 2020: daily maximum 31.2 °C, daily minimum 24.6 °C, 252.3 mm of rain over 19 rain days. This fortnight’s forecast is slightly wetter than that."
+    ]
+   ],
+   "rel": [
+    "robo",
+    "straw",
+    "pupil"
+   ],
+   "src": "NEA / Meteorological Service Singapore advisory, 29 Oct 2026",
+   "img": "https://www.nea.gov.sg/images/default-source/about-us/fwo-29-oct-26.jpg",
+   "credit": "Image: NEA / Meteorological Service Singapore"
+  },
+  {
+   "id": "robo",
+   "dom": "sg",
+   "lab": "Singapore · Robots",
+   "hot": 1,
+   "art": "rover",
+   "cap": "Teach a robot to open a chip-factory chamber and put it back together: S$88,000 in prizes",
+   "num": "S$50,000",
+   "nums": "top prize in Singapore’s first national Embodied AI Challenge; onsite finals at RoboSG! on 20 March 2027",
+   "p1": "The National Robotics Programme, A*STAR, PINE Lab@NTU and Micron Technology have launched the Singapore Embodied AI Challenge for Manufacturing, Singapore’s first national-level competition dedicated to advancing embodied AI and robotics through real-world industry challenges. It was launched at ITAP on 21 October; the press release followed on Monday 26 October. Participants develop embodied AI solutions using a robotic embodiment platform to perform precise industrial manipulation tasks within a 3D mock-up chamber developed by Micron.",
+   "p2": "Why here: it is open to teams worldwide, teams may comprise one to five members, and the online simulation phase is currently underway until 31 December 2026.",
+   "deep": [
+    [
+     "The tasks",
+     "Teams will programme robots to execute tasks such as opening the chamber, removing and reinstalling components, conducting inspections, cleaning surfaces, and completing reassembly procedures. Teams will be ranked based on the number of operational steps they successfully complete."
+    ],
+    [
+     "How it runs",
+     "The competition begins with an online simulation phase, underway until 31 December 2026, which is also when registration closes. The highest-scoring teams advance to the onsite finals at RoboSG! 2027 on 20 March 2027, with shortlisted overseas teams eligible for travel subsidies."
+    ],
+    [
+     "Who supplies what",
+     "Infineon Technologies will contribute sensor technologies, while Galbot will provide a robotic platform, developer toolkit, robot hardware, and support for real-world data collection. Lightwheel and the National Supercomputing Centre (NSCC) Singapore support the competition infrastructure: simulation, benchmarking, evaluation and AI cloud computing."
+    ],
+    [
+     "The phrase to know",
+     "“Embodied AI represents the next frontier in robotics, bridging the gap between digital intelligence and physical execution,” says Prof Ziwei Wang, Director of PINE Lab@NTU. The total prize pool is S$88,000."
+    ]
+   ],
+   "rel": [
+    "inter",
+    "pocket",
+    "aicraft"
+   ],
+   "src": "A*STAR press release, 26 Oct 2026",
+   "img": "https://www.a-star.edu.sg/api/media/84446a15-2aa0-4446-a31f-3dd15789ed41/OG%20Singapore%20Launches%20First%20National%20Embodied%20AI%20Challenge%20.webp",
+   "credit": "Photo: A*STAR press release"
+  },
+  {
+   "id": "nglv",
+   "dom": "space",
+   "lab": "India · Next rocket",
+   "art": "gslv",
+   "cap": "India’s next rocket is designed to lift 30 tonnes to orbit, triple what LVM3 can carry",
+   "num": "1,000 hours",
+   "nums": "how long ISRO’s home-built 300 mN plasma thruster ran in a life test completed on 27 March 2025",
+   "p1": "In September 2024, the Union Cabinet approved the development of the Next Generation Launch Vehicle (NGLV). Designed for a maximum capacity of 30 tonnes to low Earth orbit, the NGLV triples India’s current launch payload capability compared with the 10-tonne limit of the LVM3. The figures come from a PIB backgrounder drawing on Department of Space material, released on Wednesday 28 October, during the ESTIC 2026 conclave in New Delhi.",
+   "p2": "Why it matters to you: the same note says India now looks ahead to the planned Bharatiya Antariksh Station, its own space station, with Gaganyaan advancing India’s human spaceflight goals.",
+   "deep": [
+    [
+     "From Thumba to 30 tonnes",
+     "India’s space journey began with a sounding rocket launched from Thumba, Kerala, on 21 November 1963. ISRO was formed on 15 August 1969, superseding INCOSPAR, and was brought under the Department of Space in 1972."
+    ],
+    [
+     "An electric engine",
+     "On 27 March 2025, ISRO completed a 1,000-hour life test of its indigenous 300 mN stationary plasma thruster. 300 millinewtons is about the weight of a 30-gram object, and 1,000 hours is nearly six weeks of continuous running: electric thrusters push gently for a long time."
+    ],
+    [
+     "Technology out the door",
+     "NewSpace India Limited (NSIL) has signed 118 Technology Transfer Agreements to transfer 83 technologies developed by ISRO to Indian industry. Cumulative investment in Indian space start-ups reached approximately US$618.5 million as of 31 March 2026."
+    ],
+    [
+     "The target",
+     "As per the Department of Space, India’s space economy is targeted to reach US$44 billion by 2033. ISRO is also collaborating with the Department of Atomic Energy on RHU and RTG requirements, radioisotope heater units and thermoelectric generators, for possible future Chandrayaan and Mars missions."
+    ]
+   ],
+   "rel": [
+    "titan",
+    "iro",
+    "robo"
+   ],
+   "src": "PIB backgrounder “India’s New-Age Space Technologies”, 28 Oct 2026 (PIB Research; sources include the Department of Space)",
+   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/oct/image003_20261028121646_5e519f.jpg",
+   "credit": "Image: PIB backgrounder"
+  },
+  {
+   "id": "straw",
+   "dom": "matter",
+   "lab": "Physics · Sound",
+   "art": "straw",
+   "cap": "Flatten a straw, snip two lips, blow: a buzzing oboe. Snip it shorter and the note climbs",
+   "num": "about 350 m/s",
+   "nums": "the speed of every sound wave in air, high note or low, according to the Exploratorium",
+   "p1": "Sound is a branch of mechanics, Feynman says, and so it is to be understood in terms of Newton’s laws: move something in the air and the air is compressed, a change of pressure is produced which pushes on additional air, and the disturbance travels. The Exploratorium’s Straw Oboe lets you hear the whole chain. Flatten one end of a plastic straw between your teeth, cut equal pieces from each side of the flattened end so the straw has two “lips”, seal your lips around it and blow, adjusting how hard you bite and blow until the straw sings.",
+   "p2": "Test it: snip the straw shorter and shorter with scissors. In a shorter straw the standing wave inside is shorter too, so the pitch is higher; in a longer straw the note is lower.",
+   "deep": [
+    [
+     "The reed",
+     "The bevelled lips act as a reed. When you blow, there is high pressure in your mouth; as air rushes through the straw, the pressure in the straw drops; the high pressure outside pushes the sides of the reed inward, closing off the flow; the pressure then builds inside and pops the reed open again."
+    ],
+    [
+     "Resonance",
+     "The sound is an example of resonance: when you vibrate something at its natural frequency, the vibrations build and grow more and more extreme. The straw resonates when the sound waves bouncing back and forth inside make a standing wave, and the exact note depends on the length of the straw."
+    ],
+    [
+     "Newton was wrong, Laplace was right",
+     "Newton argued that heat was conducted between regions so rapidly that the temperature could not rise or fall. Feynman: “This argument gives the isothermal speed of sound, and it is wrong.” Laplace put forward the opposite idea, that the changes are adiabatic, so compression raises the temperature, and the correct result followed: the speed of sound depends only on the gas temperature and not on the pressure or the density."
+    ],
+    [
+     "Going further",
+     "Slide a slightly larger straw onto the end and use it like a trombone. Speed equals wavelength times frequency: at about 350 metres per second, a 350-hertz note has a wavelength of one metre."
+    ]
+   ],
+   "rel": [
+    "pupil",
+    "muon",
+    "inter"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. I, ch. 47 · Exploratorium Science Snacks: Straw Oboe, Organ Pipe"
+  },
+  {
+   "id": "pocket",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "art": "ereader",
+   "cap": "A $99 e-reader 5.95 mm thin that magnets to the back of your phone. Catch: no Kindle app",
+   "num": "72 g",
+   "nums": "the weight of the Xteink X4 Pro, with a 4.3-inch, 219-ppi screen and an 1100 mAh battery",
+   "p1": "TIME put the Xteink X4 Pro on its Best Inventions of 2026 list on 15 October: an e-reader small enough to pocket that can magnetically snap to the back of a smartphone, now with a touchscreen, adjustable warm-and-cool front lighting and a larger battery. Xteink’s spec page: 4.3-inch screen at 219 ppi, 1100 mAh battery, 72 g, 111 × 69 × 5.95 mm, a 16 GB microSD card in the box (expandable to 256 GB), Wi-Fi 2.4 GHz and Bluetooth. There is no ebook storefront; its unlocked firmware means you upload your own EPUBs.",
+   "p2": "What reviewers found wrong: TechRadar’s James Rogerson, after a month, called the interface “ugly and clunky”; no Android means it can’t run the Kindle or Kobo apps, and it charges through what he calls a “slightly fiddly proprietary charger” (a pogo-pin port, per Xteink) rather than USB-C.",
+   "deep": [
+    [
+     "The engineering choice",
+     "Rogerson’s guess for the proprietary charger: “presumably in an effort to keep this as small as possible”. Xteink’s own FAQ confirms a charging cable is not included in the box. The battery “seems long-lasting too”, he wrote; Xteink gives no hours figure, only 1100 mAh."
+    ],
+    [
+     "Pixels",
+     "219 pixels per inch on a 4.3-inch screen; look up the ppi of your phone and compare. The screen is a front-lit panel with adjustable brightness and warm/cool light, and page turns work by tap, swipe or physical buttons."
+    ],
+    [
+     "The magnets",
+     "Rogerson: the magnets “weren’t strong enough to securely attach it to my phone while in a case”, and it can shift around and come loose in a pocket. He still called it “a pleasure to read books on”, and “thin enough that it doesn’t stick out much beyond the camera bump” of his iPhone."
+    ],
+    [
+     "Who it is for",
+     "Formats are EPUB and TXT, with JPG and BMP images. Because many bought ebooks need their DRM removed first, and new firmware must be flashed to get the most out of it, Rogerson “can’t really recommend this to the average ebook reader”. Price: $99 on Xteink’s site, down from a listed $129, though it was showing as sold out this weekend."
+    ]
+   ],
+   "rel": [
+    "instax",
+    "robo",
+    "aicraft"
+   ],
+   "src": "TIME Best Inventions 2026, 15 Oct 2026 (Eliza Thompson) · Xteink spec page · TechRadar, 29 Aug 2026 (James Rogerson)"
+  },
+  {
+   "id": "pupil",
+   "dom": "try",
+   "lab": "Try it · Your eyes",
+   "art": "pupil",
+   "cap": "Phone torch, mirror: watch your pupil snap shut, then overshoot. Now light the other eye",
+   "num": "1.5 to 8+ mm",
+   "nums": "your pupil’s diameter runs from 1.5 mm in bright light to more than 8 mm in the dark, says the Exploratorium",
+   "p1": "Stand at a mirror and find the pupil, the black hole in the centre of your iris. Shine a light toward that eye (a phone torch, briefly, is fine) and watch the pupil contract. Notice that it takes longer for your pupil to dilate than it does to contract, and that it sometimes overshoots its mark: it shrinks down too far, then reopens slightly. Now shine the light into the other eye only, and watch the first one change anyway.",
+   "p2": "Test it: in a dimly lit room, open and close one eye while watching the pupil of the other eye in the mirror. It moves even though its own light has not changed.",
+   "deep": [
+    [
+     "Why it is black",
+     "The pupil is an opening that lets light into your eye. Since most of the light entering your eye does not escape, your pupil appears black. In dim light it expands to allow more light in; in bright light, it contracts."
+    ],
+    [
+     "The wiring",
+     "Light detected by the retina is converted to nerve impulses that travel down the optic nerve. Some go to the muscles that control the size of the pupil: more light creates more impulses, causing the muscles to close the pupil. Part of the optic nerve from one eye crosses over and couples to the muscles that control the pupil size of the other eye, which is why one pupil changes when you shine the light into the other."
+    ],
+    [
+     "A reflex, not a decision",
+     "The Exploratorium’s Shrinking Spot snack names it: the photopupillary reflex, controlled in the midbrain. Like all reflexes, its reaction is automatic, and because the midbrain always sends its messages to both irises, it occurs in both eyes even if only one eye is suddenly exposed to a change in light."
+    ],
+    [
+     "Bigger",
+     "Put a magnifying glass flat on the mirror and look into its centre. Light reflecting from your eye passes through the lens twice, once on its way to the mirror and once on its way back, so the image of your eye is magnified twice."
+    ]
+   ],
+   "rel": [
+    "straw",
+    "jetlag",
+    "aicraft"
+   ],
+   "src": "Exploratorium Science Snacks: Pupil; Shrinking Spot"
+  },
+  {
+   "id": "weeds",
+   "dom": "life",
+   "lab": "Life · Her own farm",
+   "art": "shrub",
+   "cap": "A 14-year-old boiled 24 plants from her family’s farm. 13 of them killed some bacteria",
+   "num": "13 of 24",
+   "nums": "farm plants whose extracts killed some bacteria; none worked as well as current medicines",
+   "p1": "Locklyn Ward, 14, lives on a farm in Oklahoma. One evening while she was helping feed the cows, she got curious about the plants growing in the field, so she set out to see if any of them could take down bacteria. She picked 24 plants, 12 of them native to her state, cut them into one-gram pieces and boiled each to extract chemicals from it, then tested those extracts against two types of bacteria: Escherichia coli and Staphylococcus epidermidis.",
+   "p2": "Why it matters: overuse of current antibiotics is leading to more drug-resistant bacteria, so new solutions are much needed. Her method needs a pot, paper disks and patience.",
+   "deep": [
+    [
+     "The disk test",
+     "The test involved paper disks soaked in either the plant extracts or current antibiotics. If chemicals from the farm plants had antibiotic powers, the bacteria around those paper disks would die."
+    ],
+    [
+     "The result",
+     "No farm-plant extract worked as well as current medicines. But 13 of the 24 plants did kill some bacteria, including seven native plants."
+    ],
+    [
+     "Where the idea came from",
+     "“Growing up, my grandmother often talked with me about how plants and herbs can be used for medicine and healing,” Locklyn says. “And as a citizen of the Cherokee Nation, I’ve always been interested in learning more about plants and their traditional and potential medicinal uses.”"
+    ],
+    [
+     "What it earned",
+     "A finalist spot in the 2026 Thermo Fisher Scientific Junior Innovators Challenge, a programme run by Society for Science, which also publishes Science News Explores."
+    ]
+   ],
+   "rel": [
+    "jetlag",
+    "pupil",
+    "robo"
+   ],
+   "src": "Science News Explores, 27 Oct 2026 (Maria Temming)"
+  },
+  {
    "id": "iro",
    "dom": "space",
    "lab": "Space · Spacewalk",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "eva",
    "cap": "Two astronauts spent 7 h 11 min outside the ISS fitting a solar array. Next one: Thursday",
    "num": "215 kW",
@@ -67,232 +467,19 @@
     ]
    ],
    "rel": [
-    "hubble",
-    "voyager",
-    "nazca"
+    "titan",
+    "boo",
+    "nglv"
    ],
    "src": "NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia) · NASA release, 13 Oct 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/10/blog-useva100-102926e.jpg",
    "credit": "Photo: NASA / NASA+"
   },
   {
-   "id": "hubble",
-   "dom": "space",
-   "lab": "Space · Rescue",
-   "hot": 1,
-   "art": "scope",
-   "cap": "NASA asks companies: can you fly up and save Hubble before it falls to Earth, around 2033?",
-   "num": "2032",
-   "nums": "the year by which NASA anticipates a servicing mission would need to take place",
-   "p1": "On Friday 30 October NASA said it had issued a Request for Information on 29 October, asking industry about potential commercial servicing of the Hubble Space Telescope. NASA’s analysis predicts Hubble is likely to re-enter the atmosphere in the 2033 to 2034 timeframe, so a mission would need to take place by 2032. Responses are open until 3 p.m. EST on Monday 30 November.",
-   "p2": "Why now: in Nicky Fox’s words, Hubble has fundamentally changed how humanity views our universe for more than 35 years; it has been operating for more than three decades; NASA’s own prediction gives it well under a decade before re-entry.",
-   "deep": [
-    [
-     "What a Request for Information is",
-     "It is not a contract. NASA describes what it needs, companies describe what they could do and roughly what it would take, and NASA uses the answers to decide whether and how to buy a mission."
-    ],
-    [
-     "The photo",
-     "NASA’s caption: the Hubble Space Telescope returns to orbit as an improved telescope after its second servicing mission in February 1997."
-    ],
-    [
-     "Who is involved",
-     "NASA Administrator Jared Isaacman and Nicky Fox, associate administrator of the Science Mission Directorate, are quoted in the announcement. Hubble is a project of international cooperation between NASA and ESA."
-    ]
-   ],
-   "rel": [
-    "iro",
-    "voyager",
-    "muon"
-   ],
-   "src": "NASA Science, 30 Oct 2026 (Alise Fisher)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA"
-  },
-  {
-   "id": "chiri",
-   "dom": "earth",
-   "lab": "Earth · From orbit",
-   "art": "rocks",
-   "cap": "Arizona’s new national park: rock pillars from an eruption 1,000 times Mount St. Helens",
-   "num": "27 million",
-   "nums": "years ago, the eruptions in what is now southeastern Arizona that laid down the rock",
-   "p1": "Some 27 million years ago, a volcano in what is now southeastern Arizona unleashed a series of eruptions, strewing more than 1,000 times as much volcanic material across the landscape as Mount St. Helens did in 1980. In some areas the deposits were nearly 1,600 feet (500 meters) thick. Erosion since then has carved them into a maze of pinnacles and balanced rocks. The area was designated a national monument in 1924 and in October 2026 it was redesignated as Chiricahua National Park.",
-   "p2": "Why this picture: the OLI (Operational Land Imager) on Landsat 9 captured a cloud-free image of the new national park on 2 July 2026; NASA’s Earth Observatory published it on Wednesday 28 October.",
-   "deep": [
-    [
-     "The hole it left",
-     "The eruptions left the Turkey Creek caldera, roughly 12 miles (19 kilometers) wide and 4,900 feet (1,500 meters) deep."
-    ],
-    [
-     "Four worlds meet",
-     "Four biogeographic regions converge in the park: the Sonoran Desert, the Chihuahuan Desert, the Rocky Mountains and the Sierra Madre. The range’s highest point, just outside the park, rises 2,986 meters (9,795 feet) above sea level, more than 1,800 meters above the surrounding valley."
-    ],
-    [
-     "Standing-up rocks",
-     "The park lies on the traditional lands of the Chiricahua Apache, and the Earth Observatory’s title calls it the land of the standing-up rocks. Big Balanced Rock has a surprisingly large boulder precariously perched on top; hiking through Rhyolite Canyon or driving through Bonita Canyon means a dizzying maze of pinnacles."
-    ],
-    [
-     "Reading the image",
-     "In the satellite view the park boundary is outlined; grey ridges are cut by green, vegetated canyons, and to the west the land is flatter, redder and less vegetated. Credit: NASA Earth Observatory image by Lauren Dauphin, using Landsat data from the U.S. Geological Survey."
-    ]
-   ],
-   "rel": [
-    "quiet",
-    "nazca",
-    "ccus"
-   ],
-   "src": "NASA Earth Observatory, 28 Oct 2026 (Adam Voiland)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-land-of-the-standing-up-rocks/chiricahua_oli2_20260702_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA Earth Observatory / Lauren Dauphin, using Landsat data from the U.S. Geological Survey"
-  },
-  {
-   "id": "quiet",
-   "dom": "earth",
-   "lab": "Earth · Hurricanes",
-   "art": "cyclone",
-   "cap": "The Atlantic has produced one hurricane all year. The Pacific had an 892-millibar monster",
-   "num": "1",
-   "nums": "hurricane in the Atlantic in 2026 so far: Isaias, 6–10 October, 105 knots, 959 mb",
-   "p1": "The US National Hurricane Center’s season table (as of 21 UTC on 31 October) lists ten named Atlantic systems in 2026: nine tropical or subtropical storms and a single hurricane, Isaias, a major hurricane that peaked at 105 knots (about 195 km/h) with a central pressure of 959 millibars. The latest, Subtropical Storm Josephine, lasted from 21 to 22 October. The eastern Pacific table runs to 22 systems, including Polo (20–29 September), which peaked at 155 knots (about 287 km/h) and 892 millibars.",
-   "p2": "Why now: NHC’s Saturday 31 October outlook says tropical cyclone formation is not expected in the Atlantic during the next 7 days; the eastern Pacific gives a 40 percent chance of a system forming well southeast of Hawaii within 7 days.",
-   "deep": [
-    [
-     "Knots and millibars",
-     "Forecasters give wind in knots (nautical miles per hour; 1 knot is 1.852 km/h) and pressure in millibars. Polo’s 892 mb is the lowest pressure in either table."
-    ],
-    [
-     "What “major” means",
-     "NHC’s table defines a major hurricane as one with winds of 96 knots or higher. Isaias at 105 knots qualifies; none of the other nine Atlantic systems reached hurricane strength at all."
-    ],
-    [
-     "The season’s calendar",
-     "The Atlantic list began with Tropical Storm Arthur on 17–18 June and includes Bertha, Cristobal, Dolly, Edouard, Fay, Gonzalo, Hanna, Isaias and Josephine. Fay lasted longest, 19 to 29 September, peaking at 60 knots."
-    ],
-    [
-     "Meanwhile, nearer home",
-     "Cyclone Arnab, the first named storm of the 2026 North Indian Ocean cyclone season, emerged in the Bay of Bengal on 25 October and made landfall on the Andhra Pradesh and Yanam coast early on 28 October with sustained winds of 130 kilometres per hour, similar to a Category 1 storm on the Saffir-Simpson scale, per NASA’s Earth Observatory."
-    ]
-   ],
-   "rel": [
-    "chiri",
-    "flowbat",
-    "iro"
-   ],
-   "src": "NOAA National Hurricane Center: 2026 season tables and Tropical Weather Outlooks, 30–31 Oct 2026 · NASA Earth Observatory, 29 Oct 2026"
-  },
-  {
-   "id": "flowbat",
-   "dom": "sg",
-   "lab": "Singapore · Energy",
-   "art": "tank",
-   "cap": "A battery that lives in tanks of non-flammable liquid, not a sealed cell: NTU’s S$15m lab",
-   "num": "S$15 million",
-   "nums": "the four-year NTU-VFT joint lab for vanadium redox flow batteries, announced 27 October",
-   "p1": "Nanyang Technological University, through its Energy Research Institute @ NTU (ERI@N), and the company VFT have launched a S$15 million joint research laboratory to develop safer, more durable and cost-effective batteries for the power grid. The lab works on vanadium redox flow batteries (VRFBs), which use non-flammable, aqueous-based liquids to store energy, significantly reducing the risk of battery fires compared with conventional lithium-ion batteries. VRFBs store energy in liquid electrolytes held in external tanks, and their storage capacity can be increased by using larger tanks.",
-   "p2": "Why here: VFT’s CEO, Dr Vidal Bharath, puts it this way: “The challenge is no longer simply generating more renewable energy.” Power systems also need safe ways to store it. The lab was launched at the Asia Clean Energy Summit, held as part of Singapore International Energy Week 2026.",
-   "deep": [
-    [
-     "Why tanks",
-     "Because the energy is in the liquid, not in the cell, a bigger tank means more hours of storage. That is the opposite of a phone battery, where everything is sealed in one package."
-    ],
-    [
-     "The spin-off",
-     "Founded in 2018, VFT is an NTU spin-off based on technology developed at ERI@N. The company raised US$20.5 million in 2025 to expand manufacturing and deployment of its flow-battery systems."
-    ],
-    [
-     "What the lab will do",
-     "Researchers will develop more powerful and efficient flow batteries and use artificial intelligence to monitor battery performance, detect faults and predict maintenance needs. The collaboration is supported under Singapore’s Research, Innovation and Enterprise 2025 plans."
-    ],
-    [
-     "In their words",
-     "Professor Madhavi Srinivasan, Executive Director of ERI@N: “we aim to develop safer, longer-lasting and sustainable batteries to power our future energy grid.” The four-year collaboration runs through ERI@N."
-    ]
-   ],
-   "rel": [
-    "ccus",
-    "steam",
-    "quiet"
-   ],
-   "src": "NTU Singapore news, 27 Oct 2026",
-   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1--launch-of-ntu-vft-joint-lab.jpg?sfvrsn=af38cc74_1",
-   "credit": "Photo: NTU Singapore"
-  },
-  {
-   "id": "ccus",
-   "dom": "matter",
-   "lab": "India · Climate tech",
-   "art": "co2",
-   "cap": "An IIT Bombay rig pulls up to 3 tonnes of CO₂ a day from factory emissions and the air",
-   "num": "3 t",
-   "nums": "of carbon dioxide per day that India’s first integrated CCUS field laboratory at IIT Bombay can capture",
-   "p1": "CCUS stands for carbon capture, utilisation and storage. Capture systems separate carbon dioxide from gases released during fuel combustion or industrial processes; the captured gas is then either put to productive use or stored permanently underground, injected deep into suitable geological formations. India’s first integrated CCUS field laboratory at IIT Bombay, inaugurated in May 2026, is an indigenous facility that can capture up to 3 tonnes of carbon dioxide per day from industrial emissions and ambient air, and converts it into carbonate and bicarbonate products.",
-   "p2": "Why now: a PIB backgrounder on 27 October 2026, drawing on Department of Science and Technology programmes, sets out the plan: a national CCUS roadmap launched in December 2025, and ₹20,000 crore allocated over five years in the Union Budget 2026–27.",
-   "deep": [
-    [
-     "Where the CO₂ comes from",
-     "As of August 2026, fossil-fuel sources accounted for 45.12% of India’s total installed power capacity. Industry is the other big source, which is why the first cluster of five carbon capture and utilisation testbeds is for the cement industry."
-    ],
-    [
-     "The centres",
-     "Two national CCUS centres were established in 2022, at IIT Bombay and at JNCASR in Bengaluru. As of April 2026 the backgrounder counts three projects operational, six under construction and sixteen at the proposed stage. Scientific drilling in Deccan Traps basalt formations will further assess India’s potential for safe and permanent carbon dioxide storage."
-    ],
-    [
-     "The target",
-     "India’s journey towards Net Zero by 2070 requires reducing emissions across its energy and industrial sectors; capture is meant for the emissions that are hardest to design away."
-    ],
-    [
-     "Think it through",
-     "Three tonnes a day is a test size, not a power-station size. A field laboratory’s job is to prove the chemistry and the costs at a scale that can be copied, which is what the cement testbeds are for."
-    ]
-   ],
-   "rel": [
-    "flowbat",
-    "chiri",
-    "quiet"
-   ],
-   "src": "PIB backgrounder, 27 Oct 2026, drawing on Department of Science and Technology programmes"
-  },
-  {
-   "id": "pend",
-   "dom": "matter",
-   "lab": "Physics · Clocks",
-   "art": "pend",
-   "cap": "Swing a bottle of water on a string. Pour out half the water: the timing does not change",
-   "num": "24",
-   "nums": "swings in 30 seconds for a 38.7 cm pendulum, the longest in the Exploratorium’s Pendulum Snake",
-   "p1": "The time a pendulum takes for one swing depends on its length and on gravity, and on nothing else: T = 2π√(L/g), where T is the period in seconds per swing, L is the length in metres and g is the acceleration due to gravity, 9.8 m/s². The mass cancels out of the equation, so pendulums of different masses but the same length behave identically, and for small swings the size of the swing does not matter either. Galileo was the first to record that the period of a swinging lamp high in a cathedral was independent of the amplitude of the oscillations, at least for the small amplitudes he could observe.",
-   "p2": "Test it, as the Exploratorium suggests: swing a bottle of water on a string, first full, then with half the water dumped out; then try little swings and big, wide swings. Does the period change? Counting swings in 30 seconds each time will tell you.",
-   "deep": [
-    [
-     "The number on this tile",
-     "The Exploratorium’s longest pendulum swings back and forth 24 times in 30 seconds, which is 0.8 swings per second. Put 9.8 m/s² and 0.8 swings per second into the formula and you get a length of 0.387 metres, or 38.7 centimetres. Its shortest, 20.5 cm, makes 33 swings in the same 30 seconds."
-    ],
-    [
-     "Galileo’s pulse",
-     "Feynman tells it in Chapter 5 of his Lectures: Galileo’s first experiments on motion were done by using his pulse to count off equal intervals of time. He decided that a given pendulum always swings back and forth in equal intervals of time so long as the size of the swing is kept small; count 3600 swings in an hour and each period is one second."
-    ],
-    [
-     "The first real clock",
-     "In 1657 Huygens constructed the first pendulum clock, a vast improvement in timekeeping over all previous techniques, so the pendulum was the first oscillator of real technological importance. Today’s version is electrical: Feynman calls oscillators “electrical pendulums”, a current swinging to and fro."
-    ],
-    [
-     "Where the rule bends",
-     "Michael Fowler of the University of Virginia: the pendulum is not quite a simple harmonic oscillator; the period does depend on the amplitude, but provided the angular amplitude is kept small this is a small effect. Your wide swings should run very slightly slower."
-    ]
-   ],
-   "rel": [
-    "muon",
-    "nose",
-    "flowbat"
-   ],
-   "src": "Exploratorium Science Snacks: Pendulum Snake · The Feynman Lectures on Physics, Vol. I, Ch. 5 · Michael Fowler, University of Virginia, Physics 152: The Pendulum"
-  },
-  {
    "id": "muon",
    "dom": "matter",
    "lab": "Physics · Relativity",
-   "hot": 1,
+   "hot": 0,
    "art": "muon",
    "cap": "One muon crosses your hand about every second. On paper, almost none should reach you",
    "num": "2.2 µs",
@@ -318,17 +505,18 @@
     ]
    ],
    "rel": [
-    "pend",
-    "hubble",
-    "voyager"
+    "straw",
+    "fog",
+    "pupil"
    ],
-   "src": "CERN High School Teachers programme: cosmic ray muons and relativistic time dilation · MIT OpenCourseWare 8.20, Prof. Markus Klute · Physics World, 25 Jul 2023 (Michael Allen) · home.cern"
+   "src": "CERN High School Teachers programme: cosmic ray muons and relativistic time dilation · MIT OpenCourseWare 8.20, Prof. Markus Klute · Physics World, 25 Jul 2023 (Michael Allen) · home.cern",
+   "big": 0
   },
   {
    "id": "instax",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
-   "hot": 1,
+   "hot": 0,
    "art": "gopro",
    "cap": "A camera with a printer inside: 16 seconds a print, 15-second films, a dial of ten decades",
    "num": "635 × 318 dpi",
@@ -354,223 +542,43 @@
     ]
    ],
    "rel": [
-    "steam",
-    "nose",
-    "iro"
+    "pocket",
+    "boo",
+    "robo"
    ],
-   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Fujifilm specifications page · TechRadar (Timothy Coleman, updated 17 Feb 2026) · Tom’s Guide (Nikita Achanta, 4 Feb 2026)"
-  },
-  {
-   "id": "nose",
-   "dom": "try",
-   "lab": "Try it · Body sense",
-   "art": "nose",
-   "cap": "Eyes closed, hands up: touch your nose, then each fingertip of the other hand. Then wiggle",
-   "p1": "Close your eyes and raise both hands above your head. Keep the fingers of your left hand totally still. With your right hand, quickly touch your index fingertip to your nose, then quickly touch the tip of your left thumb with the tip of your right index finger. Repeat, returning to your nose in between, trying to land on each fingertip in turn. Switch hands and try again. How many did you hit? Now try once more while wiggling the fingers of the raised hand.",
-   "p2": "What is going on: even with your eyes closed you have a sense of body position. Muscles, tendons, joints and the inner ear contain proprioceptors, also known as stretch receptors, which relay positional information to your brain. Wiggling the fingers sends extra information, which is why the second round usually goes better.",
-   "deep": [
-    [
-     "Why you miss",
-     "Most of us are highly dependent on visual cues for judging distance and position, so proprioception alone is not enough to give the fine detail these tasks need. With repeated tries you can learn to do them better."
-    ],
-    [
-     "X marks the spot",
-     "Hold a sheet of paper on the table, mark an X, raise the pencil hand above your head, close your eyes and try to put a dot on the X. Open your eyes, check, and try again several times, then repeat with your eyes open; looking at the position of the X between tries helps you adjust."
-    ],
-    [
-     "Handwriting with eyes shut",
-     "Write the word proprioception on a lined sheet, then write it again next to it with your eyes closed. Most people find vision is not an important cue for writing, because the feel of writing comes from proprioceptors in the hands and fingers."
-    ],
-    [
-     "Where it goes",
-     "The Exploratorium links this to Dr. Patricia Cowings, a psychophysiologist who trained as an astronaut at NASA and was an alternate to go into space in 1979; she developed individually tailored protocols to prevent motion sickness in astronauts, and her Autogenic Feedback Training, known by the initials AFTE, has been used widely."
-    ]
-   ],
-   "rel": [
-    "pend",
-    "instax",
-    "bats"
-   ],
-   "src": "Exploratorium Science Snacks: Proprioception"
-  },
-  {
-   "id": "bats",
-   "dom": "life",
-   "lab": "Life · Museum detectives",
-   "art": "bat",
-   "cap": "Bats with 1.5 m wingspans are shrinking: skulls 6 percent smaller than before the 1980s",
-   "num": "121",
-   "nums": "museum specimens of the Malagasy flying fox, stored in nine museums, measured for the paper",
-   "p1": "Malagasy flying foxes (Pteropus rufus), fruit bats of Madagascar with a leathery wingspan of up to a metre and a half, have skulls that are 6 percent smaller than they were prior to the 1980s. The first hints came from scientific collections at the Field Museum in Chicago, where flying vertebrate ecologist Emily Cornelius Ruhs and conservation biologist Steven Goodman noticed something strange. They recorded 12 skull and tooth features on 121 specimens stored in nine museums, collected over more than 150 years; skulls from before the 1980s averaged 3.6 millimetres longer, about 6 percent, than those collected after.",
-   "p2": "Why: possible causes included climate change or habitat loss, but the timing lines up with the commercialisation of flying fox hunting. Until the 1980s the animals were mostly hunted on a very small scale to feed a family or small community; as hunting pressure increased, the biggest bats may have been selectively targeted.",
-   "deep": [
-    [
-     "The drawer evidence",
-     "Two Field Museum specimens tell it side by side: a bat collected in 1948 next to a visibly smaller one collected in 1995. Museum drawers are time machines for exactly this kind of question."
-    ],
-    [
-     "How many are left",
-     "There were an estimated 300,000 Malagasy flying foxes in Madagascar in the early 2000s; researchers estimate the number has dropped by two-thirds since then. “Bats are eaten in Madagascar in certain villages and cultures,” Ruhs says."
-    ],
-    [
-     "Why size matters",
-     "Emma Stone, a conservation biologist at the University of Bath: “Species are specifically adapted to their environments and adaptation takes place over thousands of years.”"
-    ],
-    [
-     "Next",
-     "Future work on the bats’ genetics could tell researchers how modern populations are faring, Ruhs says. The paper, “Shrinking giants”, was published in the Journal of Mammalogy on 29 October 2026."
-    ]
-   ],
-   "rel": [
-    "nose",
-    "chiri",
-    "aimit"
-   ],
-   "src": "Science News, 29 Oct 2026 (Jake Buehler) · Ruhs & Goodman, Journal of Mammalogy, 2026"
-  },
-  {
-   "id": "voyager",
-   "dom": "space",
-   "lab": "Space · 49 years out",
-   "hot": 0,
-   "art": "voyager",
-   "cap": "From 18 November, a radio message to Voyager 1 will take a full day to arrive",
-   "num": "38,000 mph",
-   "nums": "Voyager 1’s speed (61,155 km/h); it is 16 billion miles (24 billion km) from Earth",
-   "p1": "NASA said on Thursday 29 October that engineers had turned off three devices on Voyager 1 and substituted three lower-power alternatives, a swap the team nicknamed the “Big Bang”, done in early September about six weeks after a similar swap on Voyager 2. With their plutonium supply continually depleting, both probes lose about 4 watts of power each year. The mission launched in 1977 with 10 dedicated science instruments; the team had already been forced to turn off two, and without the swap another would have followed as early as summer 2027.",
-   "p2": "Also in the report: contact with Voyager 1 was lost on 18 and 19 October during two scheduled contact attempts 24 hours apart, and the signal returned on 20 October. One group of thrusters had gone offline and backups activated automatically, a response known as fault protection. The root cause is still being investigated. Kareem Badaruddin, the Voyager mission manager at JPL, on the signal loss: “We’re relieved to be back in contact with Voyager 1 and are eager to understand what happened.”",
-   "deep": [
-    [
-     "One light-day",
-     "On 18 November Voyager 1 will be one light-day away: 16.09 billion miles (25.89 billion km). NASA: “That means that the radio waves used to communicate with the probe take 24 hours to reach it.” Suzanne Dodd, the Voyager project manager at JPL: “If you want to say ‘hello’ to Voyager, you send your message and then you go home and you wait two days before you finally get a response.”"
-    ],
-    [
-     "Why swap rather than switch off",
-     "The Big Bang was unique because the three swaps had to happen simultaneously: only by swapping all three could the team both cut the power Voyager 1 uses and make sure heat is properly distributed on the spacecraft."
-    ],
-    [
-     "The farthest thing we have made",
-     "NASA calls Voyager 1 the spacecraft that has travelled farther than any other human-made object. The photo on this tile was taken on 27 April 1977 and shows one of the Voyagers in the 25-Foot Space Simulator at JPL, before launch."
-    ],
-    [
-     "Check the arithmetic",
-     "Light covers about 300,000 km every second. Multiply by the 86,400 seconds in a day and compare your answer with 25.89 billion km."
-    ]
-   ],
-   "rel": [
-    "iro",
-    "hubble",
-    "muon"
-   ],
-   "src": "NASA Science Voyager blog, 29 Oct 2026",
-   "img": "https://science.nasa.gov/wp-content/uploads/2024/04/pia21737.jpg",
-   "credit": "Photo: NASA/JPL-Caltech",
+   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Fujifilm specifications page · TechRadar (Timothy Coleman, updated 17 Feb 2026) · Tom’s Guide (Nikita Achanta, 4 Feb 2026)",
    "big": 0
   },
   {
-   "id": "nazca",
-   "dom": "space",
-   "lab": "Space · Mars",
-   "art": "mars",
-   "cap": "Curiosity is firing 150 laser shots into one spot, next to the rock it plans to drill",
-   "num": "5,048",
-   "nums": "Martian days (sols) into Curiosity’s mission when it took this close-up, on 18 October 2026",
-   "p1": "NASA’s Curiosity blog for sols 5043 to 5049, posted on Wednesday 28 October by planetary scientist Lucy Lim of NASA Goddard, says that after the Basque Lakes drill campaign the rover has returned to a spot just a few metres from the Chiu Chiu block. A block called Chiu Chiu was not a good drill candidate, but the block just beyond it was much more promising; it is now named Nazca, and it is “jam-packed” with disc- and needle-shaped lumps; one leading idea is that the shapes were created as crystals grew. ChemCam is concentrating all 150 of its laser shots on the same spot of a nearby crystal-form-rich target called Toucan.",
-   "p2": "Why 150 shots in one place: a normal ChemCam observation is a five-point raster with 30 shots per point. The 150-shot profile should penetrate approximately five times deeper into the rock.",
-   "deep": [
-    [
-     "Pictures first",
-     "MAHLI, the camera on the arm, takes five overlapping images at slightly different geometries for a Quantitative Relief Model of the surface, and doubles its focus steps for its highest-resolution imaging. The photo on this tile is MAHLI’s close-up of the disc-shaped lumps on Nazca, with scratches from the Dust Removal Tool."
-    ],
-    [
-     "Before the drill",
-     "LIBS, the Dust Removal Tool and the APXS spectrometer will all be applied to the Nazca spot before the preload test. The third laser target in the plan, Condor, is a nearby block with a finely layered texture exposed."
-    ],
-    [
-     "Clouds over Mars",
-     "Twilight cloud season is beginning, and Curiosity is imaging Phobos, the larger and brighter of Mars’ two moons, at night to estimate the sizes of particles in high-altitude carbon dioxide clouds."
-    ]
-   ],
-   "rel": [
-    "chiri",
-    "iro",
-    "voyager"
-   ],
-   "src": "NASA Curiosity mission blog, 28 Oct 2026 (Lucy Lim)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA/JPL-Caltech/MSSS",
-   "hot": 0,
-   "big": 0
-  },
-  {
-   "id": "steam",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "art": "cube",
-   "cap": "A gaming PC in a 6-inch cube. One big slow fan keeps it quiet; 4K is where it struggles",
-   "num": "120 mm",
-   "nums": "the fan Valve built the Steam Machine around: a cube just large enough to hold it, cooling an AMD CPU and GPU",
-   "p1": "Valve’s Steam Machine, in TIME’s Best Inventions of 2026, is a six-inch cube. Valve hardware engineer Yazan Aldehayyat says the team wanted a computer powerful enough to run complex game engines and vivid open worlds but compact enough for a desk or TV stand; making it a six-inch cube just large enough to host a 120 mm fan solved both. That fan cools the AMD CPU and GPU at much lower speeds than a laptop’s, so the Machine is quiet enough for a living room. Inside, per Valve’s store page: a semi-custom AMD Zen 4 processor with 6 cores and 12 threads, a semi-custom RDNA3 graphics chip with 28 compute units, 16 GB of DDR5 memory plus 8 GB of GDDR6 video memory, a 512 GB or 2 TB NVMe SSD, Wi-Fi 6E and Bluetooth 5.3, running SteamOS 3. Price and date were announced on 22 June 2026; it went on sale at the end of June 2026 from US$1,049.",
-   "p2": "What reviewers found wrong: TechRadar’s Christian Guyton (25 July 2026, 3.33 out of 5) called it “seriously expensive even when compared to full-fat desktop PCs”, found performance “great at 1080p, decent at 1440p, and decidedly mixed at 4K” (Cyberpunk 2077: 71 fps at 1080p Ultra, 17 fps at 4K Ultra), and his cons included the Steam Controller sold separately and games locked to Steam by default; he also noted a single USB-C port at the rear, no Wi-Fi 7 and a small number of crashes.",
-   "deep": [
-    [
-     "Why one big fan is quiet",
-     "TIME’s explanation: the 120 mm fan cools the CPU and GPU at much lower speeds than those you would typically find in a laptop, which keeps the Machine quiet enough to actually use in a living room. Guyton agreed, calling the fan whisper-quiet."
-    ],
-    [
-     "Two kinds of memory",
-     "The 16 GB of DDR5 is the system memory the processor works in; the 8 GB of GDDR6 is video memory for the graphics chip. Guyton wrote that “the ongoing RAM crisis has taken a toll on the Steam Machine’s value proposition”."
-    ],
-    [
-     "Why 4K hurts",
-     "A 4K frame has four times the pixels of a 1080p frame, so the same chip has four times as much to draw. Guyton’s table shows it: Shadow of the Tomb Raider 131 fps at 1080p Highest, 47 fps at 4K Highest; Total War: Warhammer III 58 fps at 1080p Ultra, 24 fps at 4K Ultra."
-    ],
-    [
-     "Size and price",
-     "15.2 × 16.2 × 15.6 cm and 2.60 kg, with a 17-LED light bar, HDMI 2.0 and one DisplayPort 1.4. You can swap the SSD and the RAM, but that is it. The 2 TB model is US$1,349, and the controller adds US$79 in a bundle (US$99 on its own)."
-    ]
-   ],
-   "rel": [
-    "instax",
-    "flowbat",
-    "iro"
-   ],
-   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Steam store page · TechRadar, 25 Jul 2026 (Christian Guyton)",
-   "big": 0
-  },
-  {
-   "id": "aimit",
+   "id": "aicraft",
    "dom": "usingai",
-   "lab": "Using AI · MIT",
+   "lab": "Using AI · Quote",
+   "art": "aicraft",
    "hot": 0,
    "big": 0,
-   "art": "aimit",
-   "cap": "MIT’s phrase for what a chatbot answer gives you: “the illusion of learning”",
-   "num": "8",
-   "nums": "principles in MIT’s 2026 report on AI in education",
-   "p1": "MIT’s report does not ban AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
-   "p2": "The point: the product of school is you, not the mark.",
+   "cap": "“Outsource the crap, not the craft”",
+   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Hand the boring, repetitive stuff to the machine. Keep for yourself anything you want to become good at, and anything you enjoy. His colleague Trent Cash at Waterloo adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
+   "p2": "Why it is not scary: Cash also says humans are resilient and AI will not turn our brains to mush. It is a choice, made daily.",
    "deep": [
     [
-     "What MIT asks of its own students",
-     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
+     "The doctors who forgot",
+     "Doctors used an AI tool for three months to spot growths during colonoscopies. When it was switched off, they found fewer than before. Three months was enough for the skill to fade."
     ],
     [
-     "Why checking matters",
-     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s rule for research: a human verifies, and AI is never listed as a co-author."
+     "The readers who gave up",
+     "People who worked through SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
     ],
     [
-     "Keep it human",
-     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
+     "Your list",
+     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
     ]
    ],
    "rel": [
-    "bats",
-    "nose",
-    "instax"
+    "pocket",
+    "pupil",
+    "robo"
    ],
-   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
+   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026"
   }
  ]
 }

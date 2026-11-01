@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "tiles": [
   {
    "id": "after",
@@ -259,12 +259,13 @@
    "lab": "Using AI · Quote",
    "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
    "first": "2026-10-25",
-   "last": "2026-10-30",
+   "last": "2026-11-02",
    "editions": [
     "02b",
     "03",
     "03b",
-    "07"
+    "07",
+    "10"
    ]
   },
   {
@@ -1327,9 +1328,10 @@
    "lab": "Space · Spacewalk",
    "src": "NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia) · NASA release, 13 Oct 2026",
    "first": "2026-11-01",
-   "last": "2026-11-01",
+   "last": "2026-11-02",
    "editions": [
-    "09"
+    "09",
+    "10"
    ]
   },
   {
@@ -1411,9 +1413,10 @@
    "lab": "Physics · Relativity",
    "src": "CERN High School Teachers programme: cosmic ray muons and relativistic time dilation · MIT OpenCourseWare 8.20, Prof. Markus Klute · Physics World, 25 Jul 2023 (Michael Allen) · home.cern",
    "first": "2026-11-01",
-   "last": "2026-11-01",
+   "last": "2026-11-02",
    "editions": [
-    "09"
+    "09",
+    "10"
    ]
   },
   {
@@ -1423,9 +1426,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026 (Kevin Cortez) · Fujifilm specifications page · TechRadar (Timothy Coleman, updated 17 Feb 2026) · Tom’s Guide (Nikita Achanta, 4 Feb 2026)",
    "first": "2026-11-01",
-   "last": "2026-11-01",
+   "last": "2026-11-02",
    "editions": [
-    "09"
+    "09",
+    "10"
    ]
   },
   {
@@ -1450,6 +1454,138 @@
    "last": "2026-11-01",
    "editions": [
     "09"
+   ]
+  },
+  {
+   "id": "titan",
+   "cap": "Your name can fly to Titan on NASA’s Dragonfly. The passenger list closes 15 January",
+   "lane": "space",
+   "lab": "Space · Titan",
+   "src": "NASA release 26-091, 29 Oct 2026 (Jessica Taveau)",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "boo",
+   "cap": "Nobody knocks on the ISS hatch at Halloween, so astronauts build costumes from cargo boxes",
+   "lane": "space",
+   "lab": "Space · Halloween in orbit",
+   "src": "NASA Johnson, 29 Oct 2026 (John Uri) · NASA Space Station blog, 30 Oct 2026 (Mark A. Garcia)",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "fog",
+   "cap": "“Empty” space holds about 130 hydrogen atoms per litre. Two-fifths of it should not exist",
+   "lane": "space",
+   "lab": "Space · Between the stars",
+   "src": "Quanta Magazine, 30 Oct 2026 (Perri Thaler)",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "jetlag",
+   "cap": "Seabirds get jet lag. Fly east or west fast enough and they veer up to 15° off their line",
+   "lane": "life",
+   "lab": "Life · Navigation",
+   "src": "Science News, 29 Oct 2026 (Anirban Mukhopadhyay) · Science, 29 Oct 2026",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "inter",
+   "cap": "The haze is set to ease: inter-monsoon winds arrive, with thundery afternoons on most days",
+   "lane": "sg",
+   "lab": "Singapore · Weather",
+   "src": "NEA / Meteorological Service Singapore advisory, 29 Oct 2026",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "robo",
+   "cap": "Teach a robot to open a chip-factory chamber and put it back together: S$88,000 in prizes",
+   "lane": "sg",
+   "lab": "Singapore · Robots",
+   "src": "A*STAR press release, 26 Oct 2026",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "nglv",
+   "cap": "India’s next rocket is designed to lift 30 tonnes to orbit, triple what LVM3 can carry",
+   "lane": "space",
+   "lab": "India · Next rocket",
+   "src": "PIB backgrounder “India’s New-Age Space Technologies”, 28 Oct 2026 (PIB Research; sources include the Department of Space)",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "straw",
+   "cap": "Flatten a straw, snip two lips, blow: a buzzing oboe. Snip it shorter and the note climbs",
+   "lane": "matter",
+   "lab": "Physics · Sound",
+   "src": "The Feynman Lectures on Physics, Vol. I, ch. 47 · Exploratorium Science Snacks: Straw Oboe, Organ Pipe",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "pocket",
+   "cap": "A $99 e-reader 5.95 mm thin that magnets to the back of your phone. Catch: no Kindle app",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026, 15 Oct 2026 (Eliza Thompson) · Xteink spec page · TechRadar, 29 Aug 2026 (James Rogerson)",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "pupil",
+   "cap": "Phone torch, mirror: watch your pupil snap shut, then overshoot. Now light the other eye",
+   "lane": "try",
+   "lab": "Try it · Your eyes",
+   "src": "Exploratorium Science Snacks: Pupil; Shrinking Spot",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
+   ]
+  },
+  {
+   "id": "weeds",
+   "cap": "A 14-year-old boiled 24 plants from her family’s farm. 13 of them killed some bacteria",
+   "lane": "life",
+   "lab": "Life · Her own farm",
+   "src": "Science News Explores, 27 Oct 2026 (Maria Temming)",
+   "first": "2026-11-02",
+   "last": "2026-11-02",
+   "editions": [
+    "10"
    ]
   }
  ]
