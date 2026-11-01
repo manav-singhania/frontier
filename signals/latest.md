@@ -78,3 +78,5 @@ Retired for being opened: none (Opened list mars, fabric, sat, artemis, aitry, d
 Dropped by the one-week rule: ai17 (first 2026-10-25). Rotated out unopened: gslv, catneb, vega, nusai, heat, slit, analogue, cheshire, seaspider, stack, chapea, monsoon.
 Photos: 6 tiles carry real photos (iro, hubble, chiri, flowbat, voyager, nazca); 6 of the 8 space/Earth/Singapore/India tiles (quiet and ccus have drawn art). Next Using AI rotation: aicraft (ai17 and aimit ran most recently; ai30 and aitry are opened).
 Lean applied: Sunday lead is a spacewalk with a NASA photo and a date to come back for (second spacewalk Thu 5 Nov, 7:45 pm SGT); Gadgets lane kept at two (Instax Cinema new, Steam Machine carried); one Life tile (shrinking flying foxes) and one Earth numbers-style tile (quiet Atlantic season) deliberately off his usual lanes.
+
+signals sync skipped 2026-11-01: Mac not reachable (only a Windows PC was linked)
