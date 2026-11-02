@@ -88,3 +88,5 @@ Retired for being opened: none (Opened list mars, fabric, sat, artemis, aitry, d
 Dropped by the one-week rule: aimit (first 2026-10-25). Rotated out unopened: hubble, chiri, quiet, flowbat, ccus, pend, nose, bats, voyager, nazca, steam.
 Photos: 6 tiles carry real photos (titan, boo, iro, inter, robo, nglv); 6 of the 7 space/Earth/Singapore/India tiles (fog has drawn art). Next Using AI rotation: ai17 or aimit (ai30 and aitry are opened; aicraft ran today).
 Lean applied: Monday lead is a Space tile with a NASA image and something he can do (put his name on Dragonfly before 15 Jan); Gadgets fed with a new tile (Xteink X4 Pro) plus Instax carried; two Life tiles (seabird jet lag, a 14-year-old's farm-plant antibiotics test) deliberately off his usual lanes; physics rotated to sound (straw oboe) with muon carried.
+
+signals sync skipped 2026-11-02: Mac not reachable (only a Windows PC was linked)
