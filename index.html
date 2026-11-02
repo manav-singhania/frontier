@@ -593,7 +593,23 @@ pupil:function(c,w,h){grad(c,w,h,"#0b1020","#141c38",1);var cx=w*.5,cy=h*.5,R=h*
  c.fillStyle="#05070f";c.beginPath();c.arc(cx,cy,R*.3,0,7);c.fill();
  c.strokeStyle="#f2a93b";c.lineWidth=3;c.shadowColor="#f2a93b";c.shadowBlur=16;c.setLineDash([6,6]);c.beginPath();c.arc(cx,cy,R*.6,0,7);c.stroke();c.setLineDash([]);c.shadowBlur=0;
  c.fillStyle="rgba(255,255,255,.85)";c.beginPath();c.arc(cx-R*.12,cy-R*.12,R*.06,0,7);c.fill();
- c.fillStyle="#8a8f99";c.font="bold "+Math.round(h*.07)+"px system-ui";c.fillText("1.5–8 mm",w*.06,h*.92)}
+ c.fillStyle="#8a8f99";c.font="bold "+Math.round(h*.07)+"px system-ui";c.fillText("1.5–8 mm",w*.06,h*.92)},
+eddy:function(c,w,h){grad(c,w,h,"#0b1020","#141c38",1);var r=rnd(733);
+ var g=c.createLinearGradient(w*.38,0,w*.62,0);g.addColorStop(0,"#5a3a1c");g.addColorStop(.5,"#d08a4a");g.addColorStop(1,"#5a3a1c");c.fillStyle=g;c.fillRect(w*.38,h*.04,w*.24,h*.92);
+ c.strokeStyle="rgba(255,255,255,.12)";c.lineWidth=1;for(var i=0;i<12;i++){c.beginPath();c.moveTo(w*.38,h*(.08+i*.075));c.lineTo(w*.62,h*(.08+i*.075));c.stroke()}
+ c.fillStyle="#8a8f99";c.fillRect(w*.44,h*.4,w*.12,h*.09);c.fillStyle="#d64545";c.fillRect(w*.44,h*.4,w*.06,h*.09);
+ c.strokeStyle="#f2a93b";c.lineWidth=2.5;c.shadowColor="#f2a93b";c.shadowBlur=12;for(var k=0;k<3;k++){c.beginPath();c.ellipse(w*.5,h*(.33+k*.12),w*.1,h*.028,0,0,7);c.stroke()}c.shadowBlur=0;
+ for(var j=0;j<20;j++){c.fillStyle="rgba(255,255,255,"+(.1+r()*.3)+")";c.beginPath();c.arc(r()*w,r()*h,1+r()*2,0,7);c.fill()}
+ c.fillStyle="#8a8f99";c.font="bold "+Math.round(h*.07)+"px system-ui";c.fillText("slow",w*.68,h*.47)},
+fade:function(c,w,h){grad(c,w,h,"#f3c6cf","#f3c6cf",1);var cx=w*.5,cy=h*.5,R=h*.26;
+ var g=c.createRadialGradient(cx,cy,0,cx,cy,R);g.addColorStop(0,"rgba(120,150,210,.55)");g.addColorStop(.45,"rgba(120,150,210,.28)");g.addColorStop(1,"rgba(243,198,207,0)");c.fillStyle=g;c.beginPath();c.arc(cx,cy,R,0,7);c.fill();
+ c.fillStyle="#1a1a2a";c.beginPath();c.arc(w*.5+R*1.6,cy,h*.012,0,7);c.fill();
+ c.fillStyle="#6a4a55";c.font="bold "+Math.round(h*.06)+"px system-ui";c.fillText("stare at the black dot",w*.06,h*.92)},
+privacy:function(c,w,h){grad(c,w,h,"#101418","#1e2630",1);
+ c.fillStyle="#2a323a";c.fillRect(w*.33,h*.06,w*.34,h*.88);c.fillStyle="#0b1020";c.fillRect(w*.355,h*.1,w*.29,h*.8);
+ for(var i=0;i<22;i++){c.fillStyle=i%2?"rgba(242,169,59,.9)":"rgba(242,169,59,.2)";c.fillRect(w*(.36+i*.0132),h*.1,w*.006,h*.8)}
+ c.strokeStyle="#f2a93b";c.lineWidth=2.5;c.shadowColor="#f2a93b";c.shadowBlur=14;c.beginPath();c.moveTo(w*.5,h*.5);c.lineTo(w*.5-w*.2,h*.5-h*.3);c.moveTo(w*.5,h*.5);c.lineTo(w*.5+w*.2,h*.5-h*.3);c.stroke();c.shadowBlur=0;
+ c.fillStyle="#8a8f99";c.font="bold "+Math.round(h*.07)+"px system-ui";c.fillText("narrow / wide",w*.06,h*.92)}
 };
 function draw(id,cv){var c=cv.getContext('2d');c.clearRect(0,0,cv.width,cv.height);(ART[id]||ART.gal)(c,cv.width,cv.height)}
 function ls(k,v){try{if(v===undefined){var x=localStorage.getItem(k);return x?JSON.parse(x):null}localStorage.setItem(k,JSON.stringify(v))}catch(e){return null}}
@@ -625,7 +641,7 @@ $('#keyGo').addEventListener('click',async function(){var k=$('#keyIn').value.tr
 var byId={},log=[],cur=null;
 function dayDiff(a,b){return Math.round((new Date(b)-new Date(a))/864e5)}
 var ARCH=null,FIRST={};
-function build(W){ED=W.date;byId={};var seen=ls('fr:seen')||{};W.tiles=W.tiles.filter(function(t){if(seen[t.id]&&seen[t.id]<ED)return false;var f=FIRST[t.id];if(f&&dayDiff(f,ED)>=7&&!seen[t.id])return false;return true});
+function build(W){ED=W.date;byId={};var seen=ls('fr:seen')||{};W.tiles=W.tiles.filter(function(t){if(seen[t.id]&&seen[t.id]<ED)return false;var f=FIRST[t.id];if(f&&dayDiff(f,ED)>=7&&!seen[t.id]&&t.dom!=='usingai')return false;return true});
  $('#date').textContent=W.dateLabel+' · '+W.tiles.length+' new · tap anything · nothing leaves this page';$('#cd').textContent=W.dateLabel.replace(/^\w+ /,'');$('#chk').textContent=W.dateLabel.replace(/^\w+ /,'').replace(/ \d{4}$/,'');
  var wall=$('#wall');wall.innerHTML='';W.tiles.forEach(function(t){byId[t.id]=t;var b=document.createElement('button');b.className='tile'+(t.big?' big':'');b.dataset.dom=t.dom;b.dataset.id=t.id;
   b.innerHTML='<canvas width="480" height="'+(t.big?300:600)+'"></canvas>'+(t.img?'<img alt="" loading="lazy" src="'+t.img+'">':'')+'<div class="shade"></div><span class="lab'+(t.hot?' hot':'')+'">'+t.lab+'</span><span class="cap">'+t.cap+'</span>';

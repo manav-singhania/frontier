@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "tiles": [
   {
    "id": "after",
@@ -231,12 +231,13 @@
    "lab": "Using AI · Evidence",
    "src": "PNAS, Bastani et al. 2025 · Wharton",
    "first": "2026-10-25",
-   "last": "2026-10-31",
+   "last": "2026-11-03",
    "editions": [
     "02b",
     "05",
     "05b",
-    "08"
+    "08",
+    "11"
    ]
   },
   {
@@ -1463,9 +1464,10 @@
    "lab": "Space · Titan",
    "src": "NASA release 26-091, 29 Oct 2026 (Jessica Taveau)",
    "first": "2026-11-02",
-   "last": "2026-11-02",
+   "last": "2026-11-03",
    "editions": [
-    "10"
+    "10",
+    "11"
    ]
   },
   {
@@ -1547,9 +1549,10 @@
    "lab": "Physics · Sound",
    "src": "The Feynman Lectures on Physics, Vol. I, ch. 47 · Exploratorium Science Snacks: Straw Oboe, Organ Pipe",
    "first": "2026-11-02",
-   "last": "2026-11-02",
+   "last": "2026-11-03",
    "editions": [
-    "10"
+    "10",
+    "11"
    ]
   },
   {
@@ -1559,9 +1562,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026, 15 Oct 2026 (Eliza Thompson) · Xteink spec page · TechRadar, 29 Aug 2026 (James Rogerson)",
    "first": "2026-11-02",
-   "last": "2026-11-02",
+   "last": "2026-11-03",
    "editions": [
-    "10"
+    "10",
+    "11"
    ]
   },
   {
@@ -1587,6 +1591,138 @@
    "editions": [
     "10"
    ]
+  },
+  {
+   "id": "reentry",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "Swift, built for 2 years, watched the sky for 22. On Wednesday it falls out of it",
+   "lane": "space",
+   "lab": "Space · Falling telescope",
+   "src": "NASA Swift blog, 2 Nov 2026 (Alise Fisher, Goddard)"
+  },
+  {
+   "id": "escapade",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "Two fridge-sized probes skim Earth on Saturday evening, fire engines, and leave for Mars",
+   "lane": "space",
+   "lab": "Space · Earth slingshot",
+   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)"
+  },
+  {
+   "id": "oxy",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "Hubble looked at 37 small galaxies and found most of their oxygen has gone missing",
+   "lane": "space",
+   "lab": "Space · Missing oxygen",
+   "src": "NASA Hubble news, 2 Nov 2026 · The Astrophysical Journal, doi 10.3847/1538-4357/ae93a6"
+  },
+  {
+   "id": "nvs",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "A 36-minute engine burn lifted India’s new navigation satellite from 170 km to 5,478 km",
+   "lane": "space",
+   "lab": "India · Orbit raising",
+   "src": "ISRO, Orbit manoeuvring of NVS-03 spacecraft, 31 Oct 2026 · ISRO GSLV-F18 mission page"
+  },
+  {
+   "id": "gorge",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "A 460-metre-deep gash in Pennsylvania, photographed from orbit as the forest turns orange",
+   "lane": "earth",
+   "lab": "Earth · Satellite autumn",
+   "src": "NASA Earth Observatory, Image of the Day, 2 Nov 2026 (story by Lindsey Doermann; image by Michala Garrison)"
+  },
+  {
+   "id": "soraq",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "A Moon rover the size of a baseball, designed with a toy company. It swims through dust",
+   "lane": "space",
+   "lab": "Space · Toy rover",
+   "src": "Science News Explores, 2 Nov 2026 (Kendra Redmond) · Science Robotics, Hirano et al., 10 June 2026"
+  },
+  {
+   "id": "eddy",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "Drop a magnet down a copper pipe and it falls in slow motion. Nothing is touching it",
+   "lane": "matter",
+   "lab": "Physics · Magnetism",
+   "src": "Exploratorium Science Snacks: Eddy Currents · The Feynman Lectures on Physics, Vol. II, ch. 16"
+  },
+  {
+   "id": "s26",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "A phone screen only its owner can read: two kinds of pixels, and the wide ones switch off",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 · Samsung spec page · Tom’s Guide review and lab tests, March 2026 · TechRadar review, 2 Mar 2026"
+  },
+  {
+   "id": "lace",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "NTU built an AI that writes port-operations software in about an hour, for about S$12.70",
+   "lane": "sg",
+   "lab": "Singapore · AI engineer",
+   "src": "NTU Singapore Research Hub, 8 Oct 2026 · Nature Machine Intelligence, doi 10.1038/s42256-026-01307-8"
+  },
+  {
+   "id": "fade",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "Stare at the black dot: the blue blur beside it quietly vanishes. Move your eyes: back",
+   "lane": "try",
+   "lab": "Try it · Your eyes",
+   "src": "Exploratorium Science Snacks: Fading Dot"
+  },
+  {
+   "id": "whatsup",
+   "first": "2026-11-03",
+   "last": "2026-11-03",
+   "editions": [
+    "11"
+   ],
+   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
+   "lane": "space",
+   "lab": "Space · This month",
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026"
   }
  ]
 }
