@@ -90,3 +90,12 @@ Photos: 6 tiles carry real photos (titan, boo, iro, inter, robo, nglv); 6 of the
 Lean applied: Monday lead is a Space tile with a NASA image and something he can do (put his name on Dragonfly before 15 Jan); Gadgets fed with a new tile (Xteink X4 Pro) plus Instax carried; two Life tiles (seabird jet lag, a 14-year-old's farm-plant antibiotics test) deliberately off his usual lanes; physics rotated to sound (straw oboe) with muon carried.
 
 signals sync skipped 2026-11-02: Mac not reachable (only a Windows PC was linked)
+
+## Edition 11 live (Tue 3 Nov 2026) — written by Claude; signals sync skipped 2 Nov, so the 30 Oct Opened list was used
+Tiles now live: reentry (lead), escapade, oxy, nvs, gorge, soraq, eddy, s26, lace, fade, whatsup, ai17, titan, straw, pocket.
+New this edition: reentry, escapade, oxy, nvs, gorge, soraq, eddy, s26, lace, fade, whatsup; ai17 rotated in (aicraft out). Carried: titan, straw, pocket.
+Retired for being opened: none (Opened list mars, fabric, sat, artemis, aitry, duo, aqua, ai30, after, leaves, swiftend; none of them were on edition 10).
+Dropped by the one-week rule: none (no edition 10 tile had first ≤ 2026-10-27). Rotated out unopened: boo, fog, jetlag, inter, robo, nglv, pupil, weeds, iro, muon, instax, aicraft.
+Photos: 8 tiles carry real photos (reentry, escapade, oxy, nvs, gorge, lace, whatsup, titan); 8 of the 9 space/Earth/Singapore/India tiles (soraq has drawn art, its source photo is JAXA/TOMY copyright). Next Using AI rotation: aimit (aicraft and ai17 ran most recently; ai30 and aitry are opened).
+Lean applied: he opened swiftend, so the lead is Swift falling back to Earth on Wednesday with a NASA image and a Singapore-time window; Space lane fed (ESCAPADE Earth flyby Sat 6 pm SGT, Hubble oxygen, SORA-Q toy rover, November sky); Gadgets kept at two (Galaxy S26 Ultra privacy display new, Xteink carried); deliberately elsewhere: an Earth tile (Pine Creek Gorge from Landsat) and a try tile (fading dot).
+Note: index.html now exempts the standing usingai tiles from the page's one-week hide (they all have first = 25 Oct, so the rotated tile was being hidden); revert the `t.dom!=='usingai'` clause in build() if that is not wanted. The lead's id is "reentry" because "swift" already exists in the archive from edition 02.
