@@ -1,47 +1,476 @@
 {
- "edition": "10",
+ "edition": "11",
  "level": "High school",
- "date": "2026-11-02",
- "dateLabel": "Mon 2 Nov 2026",
+ "date": "2026-11-03",
+ "dateLabel": "Tue 3 Nov 2026",
  "week": [
   {
-   "d": "FRI",
-   "t": "Quanta: 41% of the interstellar gas in our galactic neighbourhood is in a state a 1969 theory said should barely exist",
-   "id": "fog"
-  },
-  {
-   "d": "THU",
-   "t": "NASA opens Dragonfly’s passenger list: names fly to Titan, deadline 15 Jan 2027",
-   "id": "titan"
-  },
-  {
-   "d": "THU",
-   "t": "Science: Manx shearwaters get jet lag and drift up to 15° off their heading",
-   "id": "jetlag"
-  },
-  {
-   "d": "THU",
-   "t": "MSS: inter-monsoon conditions setting in; haze expected to improve",
-   "id": "inter"
-  },
-  {
-   "d": "WED",
-   "t": "PIB backgrounder: India’s NGLV designed for 30 tonnes to low Earth orbit",
-   "id": "nglv"
+   "d": "MON",
+   "t": "NASA: Swift expected to re-enter on Wednesday 4 Nov, 22 years after launch; risk to anyone 1 in 2,100",
+   "id": "reentry"
   },
   {
    "d": "MON",
-   "t": "A*STAR, NRP, NTU and Micron launch Singapore’s first Embodied AI Challenge",
-   "id": "robo"
+   "t": "NASA: ESCAPADE’s twin probes to make powered Earth flybys on 7 and 9 Nov, then cruise to Mars",
+   "id": "escapade"
+  },
+  {
+   "d": "MON",
+   "t": "Hubble: 37 dwarf galaxies are missing most of their oxygen; supernova winds blamed",
+   "id": "oxy"
+  },
+  {
+   "d": "MON",
+   "t": "Science News Explores: Japan’s baseball-sized SORA-Q rover swims through Moon dust",
+   "id": "soraq"
+  },
+  {
+   "d": "SAT",
+   "t": "ISRO: first orbit-raising burn on NVS-03, 2,174.8 s, perigee lifted from 170 km to 5,478 km",
+   "id": "nvs"
+  },
+  {
+   "d": "MON",
+   "t": "Landsat 8 imaged Pine Creek Gorge in full autumn colour on 25 Oct; NASA’s Image of the Day",
+   "id": "gorge"
   }
  ],
  "tiles": [
   {
+   "id": "reentry",
+   "dom": "space",
+   "lab": "Space · Falling telescope",
+   "hot": 1,
+   "big": 1,
+   "art": "swift",
+   "cap": "Swift, built for 2 years, watched the sky for 22. On Wednesday it falls out of it",
+   "num": "1 in 2,100",
+   "nums": "NASA’s estimate of the risk that a surviving piece harms anyone on Earth",
+   "p1": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday 4 November, almost 22 years after launch. As of Monday the US Space Force predicted that the roughly 3,200-pound (about 1,450 kg) spacecraft will come down at about 3:30 am US Eastern time, which is 4:30 pm in Singapore, with an uncertainty of 11 hours either way. NASA expects most of it to burn up, but some components are expected to survive.",
+   "p2": "Why here: because Swift orbits at a low tilt, any surviving fragments can only land between 20.6° south and 20.6° north. Singapore, at about 1.3° north, sits inside that band.",
+   "deep": [
+    [
+     "What Swift did",
+     "Swift launched in 2004 to catch gamma-ray bursts, the brightest explosions in the universe, and was designed for a two-year prime mission. It kept working for more than two decades of science operations."
+    ],
+    [
+     "The odds",
+     "NASA puts the risk of harm to anyone on Earth at approximately 1 in 2,100. That is the chance for the whole planet combined; for any one person it is a tiny fraction of that."
+    ],
+    [
+     "The band",
+     "Swift’s orbit has a low inclination, so NASA says re-entry locations of surviving fragments are limited to between 20.6 degrees south and 20.6 degrees north latitude. Everywhere outside that band is out of the question."
+    ],
+    [
+     "Watch the update",
+     "NASA and the Space Force say they will keep monitoring the re-entry and updating the prediction, so the Wednesday-afternoon estimate for Singapore could move by hours either way."
+    ]
+   ],
+   "rel": [
+    "escapade",
+    "whatsup",
+    "titan"
+   ],
+   "src": "NASA Swift blog, 2 Nov 2026 (Alise Fisher, Goddard)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA"
+  },
+  {
+   "id": "escapade",
+   "dom": "space",
+   "lab": "Space · Earth slingshot",
+   "hot": 1,
+   "art": "psyche",
+   "cap": "Two fridge-sized probes skim Earth on Saturday evening, fire engines, and leave for Mars",
+   "num": "9 minutes",
+   "nums": "the length of each trans-Mars injection burn, adding more than 1,000 mph (about 1,600 km/h)",
+   "p1": "NASA’s twin ESCAPADE spacecraft will each perform a manoeuvre no agency spacecraft has flown before, a powered flyby of Earth, one after the other. The first makes its closest approach and finishes its engine burn around 5 am US Eastern on Saturday 7 November, which is 6 pm in Singapore; the second follows around 6 am Eastern on Monday 9 November, 7 pm here. Each burn is made over southern Australia and raises the craft’s speed from about 6.3 to about 6.7 miles per second (roughly 10.1 to 10.8 km/s).",
+   "p2": "Why now: ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun, so the pair looped around Earth–Sun Lagrange point 2 in a loiter orbit, waiting for the right moment to be thrown onward.",
+   "deep": [
+    [
+     "How close",
+     "Closest approach is between 600 and 1,100 miles (roughly 970 to 1,770 km) above the surface. At the speed they leave, NASA says, the spacecraft could fly from Washington, DC, to San Francisco in less than 7 minutes, about Mach 30 to Mach 31."
+    ],
+    [
+     "Then the long cruise",
+     "After the flybys comes a 10-month cruise. Arrival at Mars is set for 7 and 9 September 2027, where the pair will be the first multi-spacecraft mission to fly in formation around the planet, measuring how the solar wind strips away the Martian atmosphere."
+    ],
+    [
+     "Bonus science on the way",
+     "While loitering, the spacecraft flew through a distant part of Earth’s magnetotail, the long magnetic wake the solar wind drags out behind our planet. NASA says those findings will be shared soon."
+    ],
+    [
+     "Can you see them",
+     "NASA says the spacecraft are faint and a telescope will most likely be needed; the coordinates come from JPL’s Horizons system. Each one is about the size of a standard refrigerator."
+    ]
+   ],
+   "rel": [
+    "reentry",
+    "nvs",
+    "titan"
+   ],
+   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: Advanced Space / Matt Bolliger, via NASA"
+  },
+  {
+   "id": "oxy",
+   "dom": "space",
+   "lab": "Space · Missing oxygen",
+   "art": "gal",
+   "cap": "Hubble looked at 37 small galaxies and found most of their oxygen has gone missing",
+   "num": "37",
+   "nums": "nearby dwarf galaxies, each holding a few thousand to hundreds of millions of stars",
+   "p1": "In a paper published on Monday in The Astrophysical Journal, researchers using the Hubble Space Telescope looked at 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing. Oxygen is the most abundant element after hydrogen and helium, and it is made inside stars, so a galaxy full of stars should be keeping it.",
+   "p2": "The suspect: galactic winds. Supernovae blow gas out of these small galaxies, and the winds turn out to be far better at removing oxygen from low-mass galaxies than current models predict.",
+   "deep": [
+    [
+     "Why small galaxies lose",
+     "A dwarf galaxy has weak gravity, so when a star explodes, the hot gas it throws out can escape altogether instead of falling back. NASA says the findings show dwarf galaxies can hold on to only a small fraction of the oxygen their stars make."
+    ],
+    [
+     "The programme",
+     "The work is called GLOW, Galaxies Losing Oxygen via Winds, funded by NASA and the National Science Foundation. Kristen Wingfield McQuinn of Rutgers leads it, with Grace Telford of the University of Utah as a co-investigator."
+    ],
+    [
+     "More than Hubble",
+     "The team combined archival Hubble images with data from NASA’s retired Spitzer Space Telescope, the Very Large Array and the Australian Telescope Compact Array. A similar look at Milky Way-sized galaxies was done in 2014."
+    ],
+    [
+     "Next",
+     "McQuinn has an approved programme on the Nancy Grace Roman Space Telescope to follow up, and Telford will use Hubble to look at massive stars."
+    ]
+   ],
+   "rel": [
+    "reentry",
+    "whatsup",
+    "titan"
+   ],
+   "src": "NASA Hubble news, 2 Nov 2026 · The Astrophysical Journal, doi 10.3847/1538-4357/ae93a6",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA, ESA, Hubble Heritage / A. Aloisi (STScI, ESA)"
+  },
+  {
+   "id": "nvs",
+   "dom": "space",
+   "lab": "India · Orbit raising",
+   "hot": 1,
+   "art": "gslv",
+   "cap": "A 36-minute engine burn lifted India’s new navigation satellite from 170 km to 5,478 km",
+   "num": "2,174.8 s",
+   "nums": "the first Liquid Apogee Motor burn on NVS-03, completed on Saturday at 16:48 Indian time",
+   "p1": "GSLV-F18 injected NVS-03 into a 170.3 km × 38,080 km orbit on 30 October at 23:51 IST, which was 2:21 am on Saturday in Singapore. The next afternoon ISRO fired the satellite’s LAM engine for 2,174.8 seconds, and the orbit became 5,477.6 km × 37,833.4 km. The satellite’s health is normal, and further burns in the coming days will place it in geostationary orbit at 111.75° east.",
+   "p2": "Why the numbers matter: a transfer orbit is a lopsided ellipse. Each burn near the high point lifts the low point, so the orbit is rounded off step by step rather than in one go.",
+   "deep": [
+    [
+     "What NVS-03 is",
+     "It is the third satellite in India’s next-generation navigation system, meant to continue the IRNSS series, which provides navigation services over the Indian land mass and a region extending 1,500 km around the country’s borders. It carries an indigenous atomic clock alongside procured ones and adds an L1 signal to the existing L5 and S-band signals."
+    ],
+    [
+     "The launcher",
+     "GSLV-F18 was the 20th flight of India’s Geosynchronous Satellite Launch Vehicle, flown from the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota. ISRO calls the destination a Geosynchronous Transfer Orbit."
+    ],
+    [
+     "Why 111.75° east",
+     "A geostationary satellite circles once a day, so from the ground it seems to hang over one longitude. ISRO’s target slot is 111.75° east, from which the satellite stays in view of India all day, every day."
+    ],
+    [
+     "Where it is now",
+     "After one burn the low point is already above 5,000 km while the high point barely moved, from 38,080 km to 37,833.4 km. Count how many burns ISRO reports before the orbit is round."
+    ]
+   ],
+   "rel": [
+    "escapade",
+    "reentry",
+    "lace"
+   ],
+   "src": "ISRO, Orbit manoeuvring of NVS-03 spacecraft, 31 Oct 2026 · ISRO GSLV-F18 mission page",
+   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
+   "credit": "Photo: ISRO, GSLV-F18 on the pad"
+  },
+  {
+   "id": "gorge",
+   "dom": "earth",
+   "lab": "Earth · Satellite autumn",
+   "art": "leaves",
+   "cap": "A 460-metre-deep gash in Pennsylvania, photographed from orbit as the forest turns orange",
+   "num": "72 km",
+   "nums": "the length of Pine Creek Gorge, from Ansonia south to the West Branch Susquehanna",
+   "p1": "The Operational Land Imager on Landsat 8 captured Pine Creek Gorge on 25 October 2026, amid the warm hues of fall foliage. The gorge, called Pennsylvania’s Grand Canyon, reaches depths of about 1,500 feet (460 metres) and runs some 45 miles (72 km); it is deepest around Waterville. NASA Earth Observatory published it as its Image of the Day on Monday.",
+   "p2": "Why the river runs the wrong way: Pine Creek once flowed to the north. Glaciers dammed the river and filled the valley with lakes; today it drains south to the Susquehanna.",
+   "deep": [
+    [
+     "Two dates, one place",
+     "NASA paired the 25 October image with one from 9 October, so you can see the colour sweep across the plateau in just over two weeks. The full-size 25 October file is 47.9 megabytes; the 9 October one is 15.3."
+    ],
+    [
+     "From desert to landmark",
+     "Logging stripped the slopes so completely that by the early 20th century the area was known as the Pennsylvania Desert. The forest grew back, and in 1968 an area of 30,000 acres (12,000 hectares) was designated a National Natural Landmark."
+    ],
+    [
+     "Where",
+     "Pine Creek Gorge forms a deep scar in the Allegheny Plateau, in north-central Pennsylvania. NASA’s page pairs the satellite view with a ground photo taken from Colton Point State Park, on the gorge’s rim, in October 2009."
+    ]
+   ],
+   "rel": [
+    "whatsup",
+    "fade",
+    "lace"
+   ],
+   "src": "NASA Earth Observatory, Image of the Day, 2 Nov 2026 (story by Lindsey Doermann; image by Michala Garrison)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/pennsylvania’s-grand-canyon/pinecreekgorge_oli_20261025_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA Earth Observatory / Michala Garrison, Landsat 8"
+  },
+  {
+   "id": "soraq",
+   "dom": "space",
+   "lab": "Space · Toy rover",
+   "art": "rover",
+   "cap": "A Moon rover the size of a baseball, designed with a toy company. It swims through dust",
+   "num": "90 minutes",
+   "nums": "how long SORA-Q crawled around its landing site after JAXA’s SLIM touched down on the Moon",
+   "p1": "SORA-Q, from sora (space) and kyu (sphere), with a Q for quest and question, is about the starting size and shape of a baseball and weighs as much as a cup of water. It rode to the Moon on Japan’s SLIM lander, which reached the surface on 19 January 2024, and was dropped seconds before touchdown. It then crawled for more than 90 minutes and drove to about 5 metres from SLIM. Compare Perseverance and Curiosity, the size of small cars.",
+   "p2": "Why a toy company: JAXA engineer Daichi Hirano wanted something small and cheap that might also reach cramped spaces, so his team worked with toy engineers at TOMY, the company that owns Transformers in Japan.",
+   "deep": [
+    [
+     "The swimming trick",
+     "Smaller wheels get stuck more easily in powdery regolith, so SORA-Q’s wheels are offset and sweep up and down in circles. One wheel sweeping up while the other goes down makes it crawl; both in sync and it does a butterfly stroke through the dust."
+    ],
+    [
+     "Packaging",
+     "The design was published in Science Robotics on 10 June 2026 by Hirano and colleagues. Keenan Albee, a roboticist at the University of Southern California who was not involved, said the most impressive part to him was the packaging: a ball that unfolds into a rover."
+    ],
+    [
+     "Why small",
+     "NASA’s VIPER rover design was the size of a golf cart. Hirano, at JAXA in Sagamihara, says small rovers cost less and might also be able to reach cramped spaces that a big machine cannot."
+    ]
+   ],
+   "rel": [
+    "titan",
+    "nvs",
+    "eddy"
+   ],
+   "src": "Science News Explores, 2 Nov 2026 (Kendra Redmond) · Science Robotics, Hirano et al., 10 June 2026"
+  },
+  {
+   "id": "eddy",
+   "dom": "matter",
+   "lab": "Physics · Magnetism",
+   "art": "eddy",
+   "cap": "Drop a magnet down a copper pipe and it falls in slow motion. Nothing is touching it",
+   "num": "1 m",
+   "nums": "of copper, aluminium or brass tube is enough; a pencil clatters straight through, the magnet dawdles",
+   "p1": "The Exploratorium’s Eddy Currents snack needs a 60 cm to 1 m length of aluminium, copper or brass tubing (not iron) and a neodymium disc magnet at least 1.25 cm across and longer than it is wide. Drop the magnet through and notice that it takes noticeably more time to fall than a plastic pen or wooden pencil does. Try the same through a plastic PVC tube and the magic is gone.",
+   "p2": "What is going on: the falling magnet’s changing field pushes the tube’s electrons round in circular, eddy-like currents. Those currents make their own magnetic field, which pushes back on the magnet, so it falls much more slowly.",
+   "deep": [
+    [
+     "Feynman’s pendulum",
+     "In the Feynman Lectures a copper plate swings as a pendulum between the poles of an electromagnet. Switch the magnet on and the swing is suddenly arrested: the eddy currents exert a strong resistance to the motion, just like the viscous drag in honey. Cut slots in the plate and the braking is drastically reduced, because the currents can no longer flow in big loops."
+    ],
+    [
+     "Lenz’s rule",
+     "Feynman’s one-line version: the emf tries to oppose any flux change. The currents in the tube always flow the way that fights the magnet’s motion, which is why the tube only ever slows the magnet and never speeds it up."
+    ],
+    [
+     "Perfect conductor",
+     "Feynman adds that below 3.8 kelvin tin conducts perfectly, and if you put an electromagnet next to a sheet of perfect conductor, eddy currents appear in the sheet so that no magnetic flux enters at all."
+    ],
+    [
+     "A slower version",
+     "Two flat aluminium plates about 6 mm thick, spaced just wider than the magnet, give a remarkably slow rate of fall; allow at least a 15 cm drop. The same physics is why transformer cores are built from laminated sheets, and why eddy currents are used to damp the swing of mechanical balances."
+    ]
+   ],
+   "rel": [
+    "straw",
+    "fade",
+    "s26"
+   ],
+   "src": "Exploratorium Science Snacks: Eddy Currents · The Feynman Lectures on Physics, Vol. II, ch. 16"
+  },
+  {
+   "id": "s26",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "art": "privacy",
+   "cap": "A phone screen only its owner can read: two kinds of pixels, and the wide ones switch off",
+   "num": "1,806 nits",
+   "nums": "peak brightness measured by Tom’s Guide, against 1,860 on last year’s S25 Ultra: dimmer, even with privacy off",
+   "p1": "The Samsung Galaxy S26 Ultra made TIME’s Best Inventions of 2026 list as “a privacy-focused smartphone”. Its 6.9-inch display has two different kinds of pixels, narrow and wide; in privacy mode the wide pixels turn off, which limits what can be seen from the side, with no stick-on filter. Samsung lists it at 214 g, 7.9 mm thick, with a 5,000 mAh battery, a Snapdragon 8 Elite Gen 5 chip, a 200-megapixel main camera and an Armor Aluminum frame.",
+   "p2": "What reviewers found wrong: Tom’s Guide measured 1,806 nits peak against 1,860 for last year’s S25 Ultra, dimmer across the board even with privacy off, and listed narrower viewing angles, a camera bump that makes the phone wobble when laid flat, and still no Qi2 magnets.",
+   "deep": [
+    [
+     "The engineering",
+     "Samsung describes the feature as controlling the screen’s viewing angle to limit peripheral vision, and calls it the world’s first Privacy Display on mobile. TechRadar’s description: the panel has narrow and wide pixels, and in privacy mode the wide pixels turn off. It can be set for the whole screen or only for PINs, passwords and notification pop-ups, and per app."
+    ],
+    [
+     "What the lab found",
+     "Tom’s Guide measured 586 nits with Maximum Privacy on and 588 with it off, so the person holding the phone loses almost nothing. The whole panel, though, is dimmer than before: 1,209 nits in auto-brightness against 1,231 on the S25 Ultra, while Samsung rates it at up to 2,600 nits."
+    ],
+    [
+     "Complaints",
+     "By mid-March some owners were reporting blurry lettering, eye strain and headaches on Reddit; Tom’s Guide noted it was not clear how widespread the problem was, or whether it was the privacy feature or the panel itself. Samsung’s suggested fixes were dark mode, extra dim and Eye Comfort Shield."
+    ],
+    [
+     "The rest of the phone",
+     "TechRadar’s review calls it Samsung’s best Galaxy S phone yet but an iterative update, with no more titanium frame and no MagSafe-style magnets. Battery life in Tom’s Guide’s web test: 16 h 10 min, nearly two hours more than the S25 Ultra. Price $1,299.99."
+    ]
+   ],
+   "rel": [
+    "pocket",
+    "eddy",
+    "lace"
+   ],
+   "src": "TIME Best Inventions 2026 · Samsung spec page · Tom’s Guide review and lab tests, March 2026 · TechRadar review, 2 Mar 2026"
+  },
+  {
+   "id": "lace",
+   "dom": "sg",
+   "lab": "Singapore · AI engineer",
+   "art": "random",
+   "cap": "NTU built an AI that writes port-operations software in about an hour, for about S$12.70",
+   "num": "97–99%",
+   "nums": "how close LACE’s algorithms came to the best result from any method tested, on four new maritime problems",
+   "p1": "A new NTU system called LACE could cut the design of algorithms for complex scheduling, routing and resource-allocation problems from months to about an hour. Tested on four new maritime problems, its software scored 97 to 99 per cent against the best result obtained by any method tested, with runs taking about an hour and under US$10 (S$12.70) in computation fees per problem.",
+   "p2": "Why it matters here: Singapore runs one of the busiest ports on Earth, and deciding which ship berths where, and when, is exactly the kind of problem this is built for.",
+   "deep": [
+    [
+     "How it works",
+     "LACE stands for Large Language Model-driven Algorithm Construction via Complementary Evolution. LACE first breaks a problem into modular pieces, then uses a large language model to build and evolve a team of specialist rules whose strengths complement each other, keeping and refining the best portfolio."
+    ],
+    [
+     "Who built it",
+     "The work is led by Asst Prof Yan Ran and Research Fellow Dr Gong Huatian of NTU’s School of Civil and Environmental Engineering. The paper was published in Nature Machine Intelligence on 1 October 2026."
+    ],
+    [
+     "Versus Google",
+     "The team compared it with Google’s FunSearch, which, NTU says, failed completely to produce feasible algorithms or software for these problems. Dr Gong notes that traditional design of such software can take months and cost hundreds of thousands."
+    ],
+    [
+     "Test it yourself",
+     "Give a chatbot a small scheduling puzzle, three ships and two berths with different arrival times, and ask it for a rule rather than an answer. Then make a fourth ship arrive early and see whether the rule still holds."
+    ]
+   ],
+   "rel": [
+    "s26",
+    "ai17",
+    "nvs"
+   ],
+   "src": "NTU Singapore Research Hub, 8 Oct 2026 · Nature Machine Intelligence, doi 10.1038/s42256-026-01307-8",
+   "img": "https://www.ntu.edu.sg/media/images/librariesprovider108/hub-stories/prof-yan-and-dr-gong.jpg?sfvrsn=6e9ab727_3",
+   "credit": "Photo: NTU Singapore"
+  },
+  {
+   "id": "fade",
+   "dom": "try",
+   "lab": "Try it · Your eyes",
+   "art": "fade",
+   "cap": "Stare at the black dot: the blue blur beside it quietly vanishes. Move your eyes: back",
+   "num": "2.5 cm",
+   "nums": "the size of the paper dot in the Exploratorium’s version, seen through waxed paper until its edges blur",
+   "p1": "Look at the small black dot on this tile and keep your eyes and head perfectly still. The fuzzy blue patch next to it fades until it blends into the pink, and it comes back the moment you move your eyes. The Exploratorium’s Fading Dot snack does it with a 1-inch (2.5 cm) blue paper dot on pink paper under a sheet of waxed paper, lifted until the blue is very faint.",
+   "p2": "What is going on: your eyes make tiny jittering movements all the time, and each movement sends new information to the brain. A blurred edge changes so gradually that the jitter brings nothing new, so the brain stops reporting it. If the dot had a distinct border your eyes would immediately detect the change.",
+   "deep": [
+    [
+     "Why the rest stays sharp",
+     "Everything else on the page keeps its crisp edges, so every micro-movement refreshes it. Only the thing with no edge can slip away."
+    ],
+    [
+     "Fog",
+     "The Exploratorium notes a 2003 paper in the Proceedings of the International Joint Conference on Neural Networks reporting that moving cars seem to slow down in foggy conditions: low contrast reduces perceived speed."
+    ],
+    [
+     "Make your own",
+     "Cut a 2.5 cm blue dot, put it in the centre of a pink sheet, lay waxed paper on top and lift the waxed paper toward your face until the blue is just a faint smudge. Then fix your gaze beside it. Try other colour pairs."
+    ],
+    [
+     "Related",
+     "This is a cousin of the afterimage: both come from your visual system adapting to anything that does not change. The difference is that here nothing is burned in; the signal simply stops being reported."
+    ]
+   ],
+   "rel": [
+    "straw",
+    "eddy",
+    "gorge"
+   ],
+   "src": "Exploratorium Science Snacks: Fading Dot"
+  },
+  {
+   "id": "whatsup",
+   "dom": "space",
+   "lab": "Space · This month",
+   "art": "jup",
+   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
+   "num": "15 per hour",
+   "nums": "Leonid meteors at best, before dawn on 17–18 November, after the Moon has set",
+   "p1": "NASA’s What’s Up for November 2026, presented by Raquel Villanueva of JPL: the Southern Taurids peak around 5 November with occasional bright fireballs; the Northern Taurids around the 12th at about five meteors an hour; Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter, Mars reddish; and the Leonids run before dawn on 17–18 November, up to around 15 an hour under ideal skies.",
+   "p2": "Why here: Singapore sits almost on the equator, so Mars and Jupiter rise steeply in the east before dawn, and a full Moon on 24 November, the first of three supermoons in a row, climbs high overhead.",
+   "deep": [
+    [
+     "Moon phases",
+     "Third quarter 1 November, new Moon on the 8th, first quarter on the 17th, full supermoon on the 24th, third quarter again on the 30th. The new Moon week, 5–12 November, is the dark window for the Taurids."
+    ],
+    [
+     "1.2 degrees",
+     "A common rule of thumb: your little finger at arm’s length covers about one degree of sky. Mars and Jupiter will sit about a finger apart, close enough to share a view in binoculars but easy to tell apart by colour."
+    ],
+    [
+     "A light-day away",
+     "On 17 November NASA marks Voyager 1 becoming the first human-made object one light-day from Earth: a radio message sent that day takes a full 24 hours to reach it."
+    ],
+    [
+     "Seeing meteors",
+     "NASA’s advice for the Leonids: find a dark location and give your eyes about half an hour to adjust. In Singapore that means a dark park or beach with an open eastern sky in the hours before dawn, once the Moon has set."
+    ]
+   ],
+   "rel": [
+    "reentry",
+    "oxy",
+    "escapade"
+   ],
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
+   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
+   "credit": "Photo: NASA / Preston Dyches"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 0,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, 48% more problems right. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
+    ],
+    [
+     "What the researchers concluded",
+     "The problem was not AI. It was asking for the answer instead of asking for help. The researchers call the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
+    ]
+   ],
+   "rel": [
+    "lace",
+    "s26",
+    "fade"
+   ],
+   "src": "PNAS, Bastani et al. 2025 · Wharton",
+   "big": 0
+  },
+  {
    "id": "titan",
    "dom": "space",
    "lab": "Space · Titan",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "dragonfly",
    "cap": "Your name can fly to Titan on NASA’s Dragonfly. The passenger list closes 15 January",
    "num": "2034",
@@ -67,233 +496,13 @@
     ]
    ],
    "rel": [
-    "iro",
-    "fog",
-    "boo"
+    "reentry",
+    "escapade",
+    "soraq"
    ],
    "src": "NASA release 26-091, 29 Oct 2026 (Jessica Taveau)",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01a-hero-image-16-9-v02.jpg",
    "credit": "Image: NASA / Johns Hopkins APL"
-  },
-  {
-   "id": "boo",
-   "dom": "space",
-   "lab": "Space · Halloween in orbit",
-   "hot": 1,
-   "art": "eva",
-   "cap": "Nobody knocks on the ISS hatch at Halloween, so astronauts build costumes from cargo boxes",
-   "num": "25+",
-   "nums": "years of continuous human presence aboard the space station, and a costume album to match",
-   "p1": "NASA’s Johnson Space Center posted its Halloween album from orbit on Thursday 29 October. Although no ghouls, goblins or trick-or-treaters come knocking at the International Space Station’s front hatch, crews still dress up, in costumes often designed from materials available aboard the station. In 2022, Koichi Wakata of JAXA and NASA astronauts Frank Rubio, Nicole Mann and Josh Cassada dressed as video game and cartoon characters, using stowage containers in their costumes and holding improvised trick-or-treat bags.",
-   "p2": "Why now: Halloween was Saturday. The photo on this tile is from Expedition 57, when Commander Alexander Gerst of ESA dressed as Darth Vader.",
-   "deep": [
-    [
-     "Elvis, Vader and a mad scientist",
-     "Flight Engineer Sergei Prokopyev of Roscosmos dressed as Elvis Presley, Commander Alexander Gerst of ESA as Darth Vader, and Flight Engineer Serena Auñón-Chancellor of NASA as a mad scientist, posing inside the Kibo Japanese Experiment Module during Expedition 57."
-    ],
-    [
-     "Superman at last",
-     "ESA astronaut Luca Parmitano finally got his wish to fly like Superman aboard the station during Expedition 37. In orbit, the flying part needs no special effects."
-    ],
-    [
-     "Made from what is up there",
-     "Costumes are often designed from materials available aboard the space station. In 2022 the Expedition 68 crew used stowage containers in their outfits; in 2023 Jasmin Moghbeli, Satoshi Furukawa, Loral O’Hara and Andreas Mogensen celebrated together."
-    ],
-    [
-     "Back to work",
-     "NASA’s station blog on Friday 30 October: Anil Menon and Joshua Kutryk will install the eighth and final roll-out solar array on Thursday 5 November, raising the station’s power generating capacity from 160 kilowatts to about 215 kilowatts."
-    ]
-   ],
-   "rel": [
-    "iro",
-    "titan",
-    "pocket"
-   ],
-   "src": "NASA Johnson, 29 Oct 2026 (John Uri) · NASA Space Station blog, 30 Oct 2026 (Mark A. Garcia)",
-   "img": "https://www.nasa.gov/wp-content/uploads/2025/11/iss057e057509.jpg",
-   "credit": "Photo: NASA"
-  },
-  {
-   "id": "fog",
-   "dom": "space",
-   "lab": "Space · Between the stars",
-   "art": "gal",
-   "cap": "“Empty” space holds about 130 hydrogen atoms per litre. Two-fifths of it should not exist",
-   "num": "41%",
-   "nums": "of the interstellar gas in our galactic neighbourhood sits in an “unstable” state that a 1969 theory said should barely exist",
-   "p1": "You might imagine space to be empty. But the seeming void between the stars contains a barely perceptible fog of hydrogen and other neutral atoms: New Horizons found around 130 hydrogen atoms per litre of space. A 1969 model by George Field, Donald Goldsmith and Harm Habing said this gas should sit in one of two states, cold at about 100 kelvins (minus 173 degrees Celsius) or warm near 8,000 kelvins, with almost nothing in between.",
-   "p2": "Why it is a good story: the person who found the in-between gas was an undergraduate, Jonathan Shelest at the Technion in Haifa, and his first thought was that he had made a mistake.",
-   "deep": [
-    [
-     "The map",
-     "Gaia observed almost 2 billion stars from different angles as Earth moved around the Sun. In 2024 a separate team used such tools to build a continuous three-dimensional map of the density of interstellar dust inside a sphere more than 4,000 light-years wide around our Sun. Shelest and his professor Shmuel Bialy used that kind of map to work out the state of the gas."
-    ],
-    [
-     "The forbidden zone",
-     "Shelest found that 27% of the ISM in our galactic neighbourhood was cold, 32% was warm, and the remaining 41% sat squarely in the forbidden zone as unstable medium. “I thought I was wrong,” he said. Tested on a different, lower-resolution dust map, the unstable fraction shifted by only about 5%."
-    ],
-    [
-     "Blankets around clouds",
-     "Instead of vanishing, the unstable gas formed massive, coherent blankets that wrapped around the cold clouds completely. “All that midrange medium, neither hot nor cold, implies that the older theory is incomplete,” said Adam Ginsburg of the University of Florida."
-    ],
-    [
-     "Where it stands",
-     "The paper was posted in July 2026 and is undergoing peer review. On the day it went up, Shelest’s inbox filled with messages from excited astronomers and requests to collaborate."
-    ]
-   ],
-   "rel": [
-    "titan",
-    "muon",
-    "iro"
-   ],
-   "src": "Quanta Magazine, 30 Oct 2026 (Perri Thaler)"
-  },
-  {
-   "id": "jetlag",
-   "dom": "life",
-   "lab": "Life · Navigation",
-   "art": "swift",
-   "cap": "Seabirds get jet lag. Fly east or west fast enough and they veer up to 15° off their line",
-   "num": "1,045",
-   "nums": "breeding Manx shearwaters fitted with miniature GPS trackers over 20 years by Tim Guilford and colleagues at Oxford",
-   "p1": "Jet lag isn’t just for travellers hurtling across time zones. Manx shearwaters fly fast enough to experience it, researchers reported on Thursday 29 October in Science. Decades of tracking data from foraging flights revealed that rapid east-west journeys can throw the seabirds’ internal clocks out of sync with local time, causing them to misjudge the Sun’s position and veer slightly off their heading.",
-   "p2": "Connects to: your own body clock on a flight to London does the same thing. The difference is that you do not steer by the Sun.",
-   "deep": [
-    [
-     "A compass that needs a watch",
-     "Scientists have long predicted that the mismatch between a bird’s internal clock and local time could confound its sun-based compass, but testing the idea in the wild “has seemed impossible until now,” says Tim Guilford, a biologist at the University of Oxford."
-    ],
-    [
-     "20 years of trackers",
-     "Over 20 years, Guilford and colleagues equipped 1,045 breeding Manx shearwaters with miniature GPS trackers. The trackers logged thousands of trips from United Kingdom breeding colonies to feeding grounds up to 1,000 kilometres away; the team isolated 1,837 continuous homeward flights."
-    ],
-    [
-     "15 degrees",
-     "The birds veered as expected, by as much as 15 degrees from their intended direction. The birds seem to process and integrate multiple navigational cues without relying blindly on any one of them."
-    ],
-    [
-     "An Indian angle",
-     "This navigational tug-of-war excites Sangeeta Rani, a chronobiologist at the University of Lucknow in India."
-    ]
-   ],
-   "rel": [
-    "pupil",
-    "weeds",
-    "fog"
-   ],
-   "src": "Science News, 29 Oct 2026 (Anirban Mukhopadhyay) · Science, 29 Oct 2026"
-  },
-  {
-   "id": "inter",
-   "dom": "sg",
-   "lab": "Singapore · Weather",
-   "art": "rain",
-   "cap": "The haze is set to ease: inter-monsoon winds arrive, with thundery afternoons on most days",
-   "num": "36.1 °C",
-   "nums": "the hottest reading of 16 to 28 October, at Woodlands on 23 October; the next fortnight should run 33 to 35 °C",
-   "p1": "With the weakening of the Southwest Monsoon, inter-monsoon conditions have been progressively setting in over Singapore and the surrounding region, the Meteorological Service Singapore said on Thursday 29 October. The inter-monsoon period is characterised by light and variable winds, as well as increased showers and higher lightning activity. Together with wetter conditions over Singapore and the nearby areas, the smoke haze situation is expected to improve.",
-   "p2": "Why here: between 16 and 28 October, air quality reached “Unhealthy” levels for seven days and “Very Unhealthy” levels for three. Watch the air-quality readings over the next two weeks and see whether the forecast holds.",
-   "deep": [
-    [
-     "What changed in the wind",
-     "With winds blowing mostly from the southeast or southwest, smoke haze was transported to Singapore. The inter-monsoon period brings light and variable winds, more showers and more lightning, and that is what is expected to improve the haze."
-    ],
-    [
-     "The fortnight ahead",
-     "In the first fortnight of November 2026, moderate to heavy thundery showers are expected over parts of the island in the afternoon on most days. Total rainfall is forecast to be slightly above its long-term average over most parts of the island; daily maximum temperatures between 33 and 35 degrees Celsius on most days, slightly above 35 on a few days."
-    ],
-    [
-     "Late October’s extremes",
-     "On 21 October, heavy thundery showers fell over western Singapore, with the fortnight’s highest daily total, 81.0 mm, at Tuas South. The highest daily maximum temperature, 36.1 degrees Celsius, was recorded at Woodlands on 23 October. Tanjong Katong had rainfall 72 per cent below average; Punggol 24 per cent above."
-    ],
-    [
-     "November normally",
-     "The climate-station averages for November, 1991 to 2020: daily maximum 31.2 °C, daily minimum 24.6 °C, 252.3 mm of rain over 19 rain days. This fortnight’s forecast is slightly wetter than that."
-    ]
-   ],
-   "rel": [
-    "robo",
-    "straw",
-    "pupil"
-   ],
-   "src": "NEA / Meteorological Service Singapore advisory, 29 Oct 2026",
-   "img": "https://www.nea.gov.sg/images/default-source/about-us/fwo-29-oct-26.jpg",
-   "credit": "Image: NEA / Meteorological Service Singapore"
-  },
-  {
-   "id": "robo",
-   "dom": "sg",
-   "lab": "Singapore · Robots",
-   "hot": 1,
-   "art": "rover",
-   "cap": "Teach a robot to open a chip-factory chamber and put it back together: S$88,000 in prizes",
-   "num": "S$50,000",
-   "nums": "top prize in Singapore’s first national Embodied AI Challenge; onsite finals at RoboSG! on 20 March 2027",
-   "p1": "The National Robotics Programme, A*STAR, PINE Lab@NTU and Micron Technology have launched the Singapore Embodied AI Challenge for Manufacturing, Singapore’s first national-level competition dedicated to advancing embodied AI and robotics through real-world industry challenges. It was launched at ITAP on 21 October; the press release followed on Monday 26 October. Participants develop embodied AI solutions using a robotic embodiment platform to perform precise industrial manipulation tasks within a 3D mock-up chamber developed by Micron.",
-   "p2": "Why here: it is open to teams worldwide, teams may comprise one to five members, and the online simulation phase is currently underway until 31 December 2026.",
-   "deep": [
-    [
-     "The tasks",
-     "Teams will programme robots to execute tasks such as opening the chamber, removing and reinstalling components, conducting inspections, cleaning surfaces, and completing reassembly procedures. Teams will be ranked based on the number of operational steps they successfully complete."
-    ],
-    [
-     "How it runs",
-     "The competition begins with an online simulation phase, underway until 31 December 2026, which is also when registration closes. The highest-scoring teams advance to the onsite finals at RoboSG! 2027 on 20 March 2027, with shortlisted overseas teams eligible for travel subsidies."
-    ],
-    [
-     "Who supplies what",
-     "Infineon Technologies will contribute sensor technologies, while Galbot will provide a robotic platform, developer toolkit, robot hardware, and support for real-world data collection. Lightwheel and the National Supercomputing Centre (NSCC) Singapore support the competition infrastructure: simulation, benchmarking, evaluation and AI cloud computing."
-    ],
-    [
-     "The phrase to know",
-     "“Embodied AI represents the next frontier in robotics, bridging the gap between digital intelligence and physical execution,” says Prof Ziwei Wang, Director of PINE Lab@NTU. The total prize pool is S$88,000."
-    ]
-   ],
-   "rel": [
-    "inter",
-    "pocket",
-    "aicraft"
-   ],
-   "src": "A*STAR press release, 26 Oct 2026",
-   "img": "https://www.a-star.edu.sg/api/media/84446a15-2aa0-4446-a31f-3dd15789ed41/OG%20Singapore%20Launches%20First%20National%20Embodied%20AI%20Challenge%20.webp",
-   "credit": "Photo: A*STAR press release"
-  },
-  {
-   "id": "nglv",
-   "dom": "space",
-   "lab": "India · Next rocket",
-   "art": "gslv",
-   "cap": "India’s next rocket is designed to lift 30 tonnes to orbit, triple what LVM3 can carry",
-   "num": "1,000 hours",
-   "nums": "how long ISRO’s home-built 300 mN plasma thruster ran in a life test completed on 27 March 2025",
-   "p1": "In September 2024, the Union Cabinet approved the development of the Next Generation Launch Vehicle (NGLV). Designed for a maximum capacity of 30 tonnes to low Earth orbit, the NGLV triples India’s current launch payload capability compared with the 10-tonne limit of the LVM3. The figures come from a PIB backgrounder drawing on Department of Space material, released on Wednesday 28 October, during the ESTIC 2026 conclave in New Delhi.",
-   "p2": "Why it matters to you: the same note says India now looks ahead to the planned Bharatiya Antariksh Station, its own space station, with Gaganyaan advancing India’s human spaceflight goals.",
-   "deep": [
-    [
-     "From Thumba to 30 tonnes",
-     "India’s space journey began with a sounding rocket launched from Thumba, Kerala, on 21 November 1963. ISRO was formed on 15 August 1969, superseding INCOSPAR, and was brought under the Department of Space in 1972."
-    ],
-    [
-     "An electric engine",
-     "On 27 March 2025, ISRO completed a 1,000-hour life test of its indigenous 300 mN stationary plasma thruster. 300 millinewtons is about the weight of a 30-gram object, and 1,000 hours is nearly six weeks of continuous running: electric thrusters push gently for a long time."
-    ],
-    [
-     "Technology out the door",
-     "NewSpace India Limited (NSIL) has signed 118 Technology Transfer Agreements to transfer 83 technologies developed by ISRO to Indian industry. Cumulative investment in Indian space start-ups reached approximately US$618.5 million as of 31 March 2026."
-    ],
-    [
-     "The target",
-     "As per the Department of Space, India’s space economy is targeted to reach US$44 billion by 2033. ISRO is also collaborating with the Department of Atomic Energy on RHU and RTG requirements, radioisotope heater units and thermoelectric generators, for possible future Chandrayaan and Mars missions."
-    ]
-   ],
-   "rel": [
-    "titan",
-    "iro",
-    "robo"
-   ],
-   "src": "PIB backgrounder “India’s New-Age Space Technologies”, 28 Oct 2026 (PIB Research; sources include the Department of Space)",
-   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/oct/image003_20261028121646_5e519f.jpg",
-   "credit": "Image: PIB backgrounder"
   },
   {
    "id": "straw",
@@ -324,17 +533,19 @@
     ]
    ],
    "rel": [
-    "pupil",
-    "muon",
-    "inter"
+    "eddy",
+    "fade",
+    "whatsup"
    ],
-   "src": "The Feynman Lectures on Physics, Vol. I, ch. 47 · Exploratorium Science Snacks: Straw Oboe, Organ Pipe"
+   "src": "The Feynman Lectures on Physics, Vol. I, ch. 47 · Exploratorium Science Snacks: Straw Oboe, Organ Pipe",
+   "hot": 0,
+   "big": 0
   },
   {
    "id": "pocket",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
-   "hot": 1,
+   "hot": 0,
    "art": "ereader",
    "cap": "A $99 e-reader 5.95 mm thin that magnets to the back of your phone. Catch: no Kindle app",
    "num": "72 g",
@@ -360,225 +571,12 @@
     ]
    ],
    "rel": [
-    "instax",
-    "robo",
-    "aicraft"
+    "s26",
+    "lace",
+    "ai17"
    ],
-   "src": "TIME Best Inventions 2026, 15 Oct 2026 (Eliza Thompson) · Xteink spec page · TechRadar, 29 Aug 2026 (James Rogerson)"
-  },
-  {
-   "id": "pupil",
-   "dom": "try",
-   "lab": "Try it · Your eyes",
-   "art": "pupil",
-   "cap": "Phone torch, mirror: watch your pupil snap shut, then overshoot. Now light the other eye",
-   "num": "1.5 to 8+ mm",
-   "nums": "your pupil’s diameter runs from 1.5 mm in bright light to more than 8 mm in the dark, says the Exploratorium",
-   "p1": "Stand at a mirror and find the pupil, the black hole in the centre of your iris. Shine a light toward that eye (a phone torch, briefly, is fine) and watch the pupil contract. Notice that it takes longer for your pupil to dilate than it does to contract, and that it sometimes overshoots its mark: it shrinks down too far, then reopens slightly. Now shine the light into the other eye only, and watch the first one change anyway.",
-   "p2": "Test it: in a dimly lit room, open and close one eye while watching the pupil of the other eye in the mirror. It moves even though its own light has not changed.",
-   "deep": [
-    [
-     "Why it is black",
-     "The pupil is an opening that lets light into your eye. Since most of the light entering your eye does not escape, your pupil appears black. In dim light it expands to allow more light in; in bright light, it contracts."
-    ],
-    [
-     "The wiring",
-     "Light detected by the retina is converted to nerve impulses that travel down the optic nerve. Some go to the muscles that control the size of the pupil: more light creates more impulses, causing the muscles to close the pupil. Part of the optic nerve from one eye crosses over and couples to the muscles that control the pupil size of the other eye, which is why one pupil changes when you shine the light into the other."
-    ],
-    [
-     "A reflex, not a decision",
-     "The Exploratorium’s Shrinking Spot snack names it: the photopupillary reflex, controlled in the midbrain. Like all reflexes, its reaction is automatic, and because the midbrain always sends its messages to both irises, it occurs in both eyes even if only one eye is suddenly exposed to a change in light."
-    ],
-    [
-     "Bigger",
-     "Put a magnifying glass flat on the mirror and look into its centre. Light reflecting from your eye passes through the lens twice, once on its way to the mirror and once on its way back, so the image of your eye is magnified twice."
-    ]
-   ],
-   "rel": [
-    "straw",
-    "jetlag",
-    "aicraft"
-   ],
-   "src": "Exploratorium Science Snacks: Pupil; Shrinking Spot"
-  },
-  {
-   "id": "weeds",
-   "dom": "life",
-   "lab": "Life · Her own farm",
-   "art": "shrub",
-   "cap": "A 14-year-old boiled 24 plants from her family’s farm. 13 of them killed some bacteria",
-   "num": "13 of 24",
-   "nums": "farm plants whose extracts killed some bacteria; none worked as well as current medicines",
-   "p1": "Locklyn Ward, 14, lives on a farm in Oklahoma. One evening while she was helping feed the cows, she got curious about the plants growing in the field, so she set out to see if any of them could take down bacteria. She picked 24 plants, 12 of them native to her state, cut them into one-gram pieces and boiled each to extract chemicals from it, then tested those extracts against two types of bacteria: Escherichia coli and Staphylococcus epidermidis.",
-   "p2": "Why it matters: overuse of current antibiotics is leading to more drug-resistant bacteria, so new solutions are much needed. Her method needs a pot, paper disks and patience.",
-   "deep": [
-    [
-     "The disk test",
-     "The test involved paper disks soaked in either the plant extracts or current antibiotics. If chemicals from the farm plants had antibiotic powers, the bacteria around those paper disks would die."
-    ],
-    [
-     "The result",
-     "No farm-plant extract worked as well as current medicines. But 13 of the 24 plants did kill some bacteria, including seven native plants."
-    ],
-    [
-     "Where the idea came from",
-     "“Growing up, my grandmother often talked with me about how plants and herbs can be used for medicine and healing,” Locklyn says. “And as a citizen of the Cherokee Nation, I’ve always been interested in learning more about plants and their traditional and potential medicinal uses.”"
-    ],
-    [
-     "What it earned",
-     "A finalist spot in the 2026 Thermo Fisher Scientific Junior Innovators Challenge, a programme run by Society for Science, which also publishes Science News Explores."
-    ]
-   ],
-   "rel": [
-    "jetlag",
-    "pupil",
-    "robo"
-   ],
-   "src": "Science News Explores, 27 Oct 2026 (Maria Temming)"
-  },
-  {
-   "id": "iro",
-   "dom": "space",
-   "lab": "Space · Spacewalk",
-   "hot": 0,
-   "big": 0,
-   "art": "eva",
-   "cap": "Two astronauts spent 7 h 11 min outside the ISS fitting a solar array. Next one: Thursday",
-   "num": "215 kW",
-   "nums": "the station’s power once all eight roll-out arrays are in, up from 160 kW: an increase of up to 30%",
-   "p1": "NASA astronaut Anil Menon and CSA (Canadian Space Agency) astronaut Joshua Kutryk concluded their spacewalk outside the International Space Station at 3:08 p.m. EDT on 29 October, which is 3:08 on Friday morning in Singapore. During the 7-hour, 11-minute spacewalk they installed and deployed an International Space Station Roll-Out Solar Array (IROSA) on the station’s 2A electrical power channel, the seventh IROSA installed on the station. It was U.S. spacewalk 100, Menon’s fourth and Kutryk’s first, and the 285th spacewalk in support of station assembly, maintenance and upgrades.",
-   "p2": "Why it matters to you: the eighth and final IROSA goes on the 3B power channel in a spacewalk planned for Thursday 5 November, with NASA’s live coverage beginning at 6:45 a.m. (US Eastern time, which by then has gone back to standard time: 7:45 pm in Singapore).",
-   "deep": [
-    [
-     "Riding the arm",
-     "The photo on this tile is NASA’s: Menon rides the Canadarm2 robotic arm to begin the installation of the roll-out solar array on the station’s port-side truss structure, while orbiting 260 miles above Earth."
-    ],
-    [
-     "How the array got there",
-     "The final pair of roll-out arrays flew up in the SpaceX Dragon cargo ship that launched on NASA’s 35th commercial resupply mission at 6:33 a.m. EDT on 13 October."
-    ],
-    [
-     "The power arithmetic",
-     "NASA: together, the eight arrays will increase available power by up to 30%, boosting the station’s power generation capacity from 160 kilowatts to approximately 215 kilowatts. Check it yourself: 215 divided by 160 comes to a little more than 1.3, so NASA’s “up to 30%” is a rounded figure."
-    ],
-    [
-     "Get-ahead work",
-     "Menon and Kutryk also completed several get-ahead tasks to prepare for the 5 November spacewalk. Watching the second one live is a Thursday-evening plan."
-    ]
-   ],
-   "rel": [
-    "titan",
-    "boo",
-    "nglv"
-   ],
-   "src": "NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia) · NASA release, 13 Oct 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/blog-useva100-102926e.jpg",
-   "credit": "Photo: NASA / NASA+"
-  },
-  {
-   "id": "muon",
-   "dom": "matter",
-   "lab": "Physics · Relativity",
-   "hot": 0,
-   "art": "muon",
-   "cap": "One muon crosses your hand about every second. On paper, almost none should reach you",
-   "num": "2.2 µs",
-   "nums": "a muon’s mean lifetime at rest: at nearly the speed of light, that is only about 660 metres of travel",
-   "p1": "Cosmic rays from space collide with atoms 15 to 20 kilometres up in the atmosphere. The collisions create pions, which decay into muons. A muon has a measured mean lifetime of about 2.2 microseconds; even at the speed of light it would travel on average only about 660 metres before decaying. From 15 km up, the trip takes 50 microseconds, more than twenty lifetimes, so almost no muons should reach the ground. Yet they arrive at ground level at about one per square centimetre per minute.",
-   "p2": "The explanation is Einstein’s: time ticks slowly for particles moving at speeds close to that of light. In MIT’s version of the sum, a muon at 0.998 times the speed of light has a time-stretch factor of 15, and about one muon travels through your hand every second.",
-   "deep": [
-    [
-     "The factor",
-     "The stretch is the Lorentz factor, 1/√(1 − v²/c²). For a 20 GeV muon, the CERN page gets it from E = mc²: the muon’s rest mass is 106 MeV, so the factor is 20 GeV divided by 106 MeV, which is 189. Its lifetime, as we see it, becomes 189 × 2.2 microseconds, and a significant fraction of the muons made in the upper atmosphere reach the ground."
-    ],
-    [
-     "MIT’s version",
-     "Prof. Markus Klute’s MIT lecture on muons: the lifetime is about 2.2 microseconds, the muons are produced at close to the speed of light, 0.998 times it, the classical distance works out to about 660 metres, and the gamma factor is 15; the clock in the muon, as observed by us, ticks much, much slower than for a muon at rest."
-    ],
-    [
-     "Muons as X-rays",
-     "Physics World: as many as 10,000 muons rain down on each square metre every minute, and muons at shallow angles can travel as far as 300 km before hitting the ground. Because they pass through rock, detectors placed beside volcanoes such as Sakurajima in Japan image the magma conduits inside, a technique called muography."
-    ],
-    [
-     "Discovery",
-     "Victor Hess found cosmic rays on a balloon flight in 1912, measuring the rate of ionisation as he ascended to 5300 metres. The muon itself was identified in 1937. At rest, CERN notes, it decays after only 2.2 microseconds into an electron and two kinds of neutrinos."
-    ]
-   ],
-   "rel": [
-    "straw",
-    "fog",
-    "pupil"
-   ],
-   "src": "CERN High School Teachers programme: cosmic ray muons and relativistic time dilation · MIT OpenCourseWare 8.20, Prof. Markus Klute · Physics World, 25 Jul 2023 (Michael Allen) · home.cern",
+   "src": "TIME Best Inventions 2026, 15 Oct 2026 (Eliza Thompson) · Xteink spec page · TechRadar, 29 Aug 2026 (James Rogerson)",
    "big": 0
-  },
-  {
-   "id": "instax",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "art": "gopro",
-   "cap": "A camera with a printer inside: 16 seconds a print, 15-second films, a dial of ten decades",
-   "num": "635 × 318 dpi",
-   "nums": "the print head’s resolution: 1600 × 600 dots exposed onto instax mini film in about 16 seconds",
-   "p1": "Fujifilm’s Instax Mini Evo Cinema, in TIME’s Best Inventions of 2026, is two machines in one 270 g body styled like a Super 8 film camera. The camera half is a 1/5-inch CMOS sensor of approximately 5 million pixels behind an f/2.0 lens equivalent to 28 mm, recording 1920 × 2560 stills and 15-second video clips at 24 frames per second (600 × 800 in standard mode; 1080 × 1440 in a high-quality mode that works only with the 2020 setting and records to microSD) to internal memory or a microSD card up to 256 GB. The printer half exposes the digital image onto chemical instax mini film at 1600 × 600 dots, 40 × 80 µm per dot, in about 16 seconds; a full charge is good for approximately 100 prints.",
-   "p2": "What reviewers found wrong: TechRadar’s Timothy Coleman, after two weeks, called operation “pretty sluggish”, saw a loading wheel almost every time he recorded a video or switched eras, had the camera freeze once until the battery drained, and judged the video “lo-fi at just HD 720p”; his cons list reads sluggish operation, poor image quality, video clip length limitations, pricey. Tom’s Guide’s Nikita Achanta found the print lever finicky and the camera expensive: US$409 at Tom’s Guide, US$419 at TechRadar.",
-   "deep": [
-    [
-     "Why the print looks like film",
-     "The print is a real photochemical picture: instead of light from a lens, the print head exposes the instax film from the digital file, at 1600 × 600 dots. The print is only 1600 × 600 dots, far fewer than the sensor’s 1920 × 2560."
-    ],
-    [
-     "The Gen Dial",
-     "Twist it before shooting to apply one of ten effects named for the decades 1930 to 2020, inspired by a century of film formats, each with a degree control. The 1.54-inch LCD has approximately 170,000 dots and is not touch-sensitive."
-    ],
-    [
-     "The numbers that limit it",
-     "Shutter 1/4 to 1/8000 second and ISO 100 to 1600, both automatic. Video bitrate is 2.5 Mbps in standard mode and 9.0 Mbps in high quality, and each clip stops at about 15 seconds; internal memory holds approximately 50 shots and 10 clips. Charging takes 2 to 3 hours over USB-C, which is for charging only."
-    ],
-    [
-     "The verdict split",
-     "Coleman: “Technically speaking, this is a poor camera”, yet it still won his heart. Achanta: “one of the best instant cameras you can buy right now, period.” Both call it expensive; Achanta still lists its image and print quality as a plus."
-    ]
-   ],
-   "rel": [
-    "pocket",
-    "boo",
-    "robo"
-   ],
-   "src": "TIME Best Inventions 2026 (Kevin Cortez) · Fujifilm specifications page · TechRadar (Timothy Coleman, updated 17 Feb 2026) · Tom’s Guide (Nikita Achanta, 4 Feb 2026)",
-   "big": 0
-  },
-  {
-   "id": "aicraft",
-   "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
-   "hot": 0,
-   "big": 0,
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Hand the boring, repetitive stuff to the machine. Keep for yourself anything you want to become good at, and anything you enjoy. His colleague Trent Cash at Waterloo adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient and AI will not turn our brains to mush. It is a choice, made daily.",
-   "deep": [
-    [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. When it was switched off, they found fewer than before. Three months was enough for the skill to fade."
-    ],
-    [
-     "The readers who gave up",
-     "People who worked through SAT reading questions with AI help were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because sticking with a hard question is itself the skill."
-    ],
-    [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
-    ]
-   ],
-   "rel": [
-    "pocket",
-    "pupil",
-    "robo"
-   ],
-   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026"
   }
  ]
 }
