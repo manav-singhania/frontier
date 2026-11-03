@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "tiles": [
   {
    "id": "after",
@@ -276,11 +276,12 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-11-01",
+   "last": "2026-11-04",
    "editions": [
     "02b",
     "06",
-    "09"
+    "09",
+    "12"
    ]
   },
   {
@@ -1595,9 +1596,10 @@
   {
    "id": "reentry",
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "editions": [
-    "11"
+    "11",
+    "12"
    ],
    "cap": "Swift, built for 2 years, watched the sky for 22. On Wednesday it falls out of it",
    "lane": "space",
@@ -1607,9 +1609,10 @@
   {
    "id": "escapade",
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "editions": [
-    "11"
+    "11",
+    "12"
    ],
    "cap": "Two fridge-sized probes skim Earth on Saturday evening, fire engines, and leave for Mars",
    "lane": "space",
@@ -1679,9 +1682,10 @@
   {
    "id": "s26",
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "editions": [
-    "11"
+    "11",
+    "12"
    ],
    "cap": "A phone screen only its owner can read: two kinds of pixels, and the wide ones switch off",
    "lane": "gadgets",
@@ -1703,9 +1707,10 @@
   {
    "id": "fade",
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "editions": [
-    "11"
+    "11",
+    "12"
    ],
    "cap": "Stare at the black dot: the blue blur beside it quietly vanishes. Move your eyes: back",
    "lane": "try",
@@ -1715,14 +1720,135 @@
   {
    "id": "whatsup",
    "first": "2026-11-03",
-   "last": "2026-11-03",
+   "last": "2026-11-04",
    "editions": [
-    "11"
+    "11",
+    "12"
    ],
    "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
    "lane": "space",
    "lab": "Space · This month",
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026"
+  },
+  {
+   "id": "eva2",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "9:30 pm tomorrow: two astronauts unroll the last of eight new solar wings on the ISS",
+   "lane": "space",
+   "lab": "Space · Tomorrow night",
+   "src": "NASA Space Station blog, 3 Nov 2026 (Mark A. Garcia) · NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia)"
+  },
+  {
+   "id": "cme",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "India’s Aditya-L1 caught a solar eruption that did not grow like a bubble. It was lopsided",
+   "lane": "space",
+   "lab": "India · The Sun in 3D",
+   "src": "ISRO, 3 Nov 2026 · Indian Institute of Astrophysics, Bengaluru · The Astrophysical Journal Letters"
+  },
+  {
+   "id": "pacific",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "25 named storms on, the Pacific is still churning: a super typhoon and a parade of storms",
+   "lane": "earth",
+   "lab": "Earth · Typhoon year",
+   "src": "NASA Earth Observatory, 3 Nov 2026 (story by Adam Voiland, images by Michala Garrison)"
+  },
+  {
+   "id": "bluesky",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "Make a sunset in a jar: shine a torch through milky water and the far end turns orange",
+   "lane": "matter",
+   "lab": "Physics · Light",
+   "src": "Exploratorium Science Snacks: Blue Sky (Exploratorium Teacher Institute)"
+  },
+  {
+   "id": "moonfall",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "The Moon is falling. Every second it drops about 1/20 of an inch, and keeps missing Earth",
+   "lane": "space",
+   "lab": "Physics · Gravity",
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation (Caltech)"
+  },
+  {
+   "id": "cirqa",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "Garmin’s Cirqa is a fitness tracker with no screen at all: a 14.8 g puck on a fabric strap",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Hannah Singleton) · Garmin spec page and owner’s manual · TechRadar review, 6 Aug 2026 (Matt Evans) · Tom’s Guide, 8 Aug 2026 (Dan Bracaglia)"
+  },
+  {
+   "id": "lcer",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "An NUS rig caught 400 kg of CO₂ a day from a waste plant’s exhaust. Next: 5 tonnes a day",
+   "lane": "sg",
+   "lab": "Singapore · Carbon capture",
+   "src": "NUS News, 27 Oct 2026"
+  },
+  {
+   "id": "herro",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "An A*STAR AI cuts errors in long DNA reads 100-fold: 32 of 46 chromosomes read end to end",
+   "lane": "sg",
+   "lab": "Singapore · Reading DNA",
+   "src": "A*STAR Research, 27 Oct 2026 · Nature 655, 158–165 (2026)"
+  },
+  {
+   "id": "grinch",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "Would a heart that grew three sizes make you strong? A python’s can swell 25% in a day",
+   "lane": "life",
+   "lab": "Life · Hearts",
+   "src": "Science News Explores, 3 Nov 2026 (Tina Hesman Saey) · JACC: Advances, 2025 · PNAS, 2024"
+  },
+  {
+   "id": "septemp",
+   "first": "2026-11-04",
+   "last": "2026-11-04",
+   "editions": [
+    "12"
+   ],
+   "cap": "September’s oceans ran 1.10 °C above average, the biggest departure of any month on record",
+   "lane": "earth",
+   "lab": "Earth · Hot ocean",
+   "src": "NOAA National Centers for Environmental Information, Monitoring Global Temperature and Precipitation in September 2026 (9 Oct 2026)"
   }
  ]
 }
