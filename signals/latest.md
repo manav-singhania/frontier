@@ -101,3 +101,12 @@ Lean applied: he opened swiftend, so the lead is Swift falling back to Earth on 
 Note: index.html now exempts the standing usingai tiles from the page's one-week hide (they all have first = 25 Oct, so the rotated tile was being hidden); revert the `t.dom!=='usingai'` clause in build() if that is not wanted. The lead's id is "reentry" because "swift" already exists in the archive from edition 02.
 
 signals sync skipped 2026-11-03: Mac not reachable (only a Windows PC was linked; monitor locked there, no parent key)
+
+## Edition 12 live (Wed 4 Nov 2026) — written by Claude; signals sync skipped 3 Nov, so the 30 Oct Opened list was used
+Tiles now live: eva2 (lead), cme, pacific, bluesky, moonfall, cirqa, lcer, herro, grinch, septemp, aimit, reentry, escapade, whatsup, s26, fade.
+New this edition: eva2, cme, pacific, bluesky, moonfall, cirqa, lcer, herro, grinch, septemp; aimit rotated in (ai17 out). Carried: reentry, escapade, whatsup, s26, fade.
+Retired for being opened: none (Opened list mars, fabric, sat, artemis, aitry, duo, aqua, ai30, after, leaves, swiftend; none of them were on edition 11).
+Dropped by the one-week rule: ai17 (first 2026-10-25; standing usingai tile, rested rather than retired). Rotated out unopened: oxy, nvs, gorge, soraq, eddy, lace, titan, straw, pocket.
+Photos: 7 tiles carry real photos (eva2, cme, pacific, bluesky, reentry, escapade, whatsup); 6 of the 10 space/Earth/Singapore/India tiles (moonfall, lcer, herro, septemp have drawn art: Feynman text, Getty/stock/no-photo pages). Next Using AI rotation: aicraft (ai17 and aimit ran most recently; ai30 and aitry are opened).
+Lean applied: Wednesday lead is the second ISS spacewalk (Thu 5 Nov, 9:30 pm SGT) with a CSA/NASA photo and a time to watch; Space fed (Aditya-L1 3D eruption as the India tile, Swift re-entry today and ESCAPADE Saturday carried); Gadgets kept at two (Garmin Cirqa new, S26 carried); physics rotated to light (blue sky in a jar, hands-on) and gravity (the falling Moon); deliberately elsewhere: a Life tile (Grinch hearts) and two Earth tiles (Pacific typhoon year with the DSCOVR frame, NOAA's September ocean record).
+Fact check cut or corrected: cme nums wording, bluesky milk-vs-air claim, moonfall 'beautiful precision', cirqa sensor wording and 1–3 bpm, herro 'discarding reads', grinch 'would not add muscle', reentry '11 hours either way' and 'brightest explosions'.
