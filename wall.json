@@ -1,9 +1,29 @@
 {
- "edition": "11",
+ "edition": 12,
  "level": "High school",
- "date": "2026-11-03",
- "dateLabel": "Tue 3 Nov 2026",
+ "date": "2026-11-04",
+ "dateLabel": "Wed 4 Nov 2026",
  "week": [
+  {
+   "d": "TUE",
+   "t": "NASA: second spacewalk Thu 5 Nov, 8:30 am EST (9:30 pm SGT), fits the eighth and last roll-out solar array",
+   "id": "eva2"
+  },
+  {
+   "d": "TUE",
+   "t": "ISRO: Aditya-L1’s VELC shows a 5 Aug 2024 solar eruption expanded lopsidedly, mapped in 3D from one spacecraft",
+   "id": "cme"
+  },
+  {
+   "d": "TUE",
+   "t": "NASA Earth Observatory: 25 named storms in the NW Pacific since April; Champi peaked near 300 km/h",
+   "id": "pacific"
+  },
+  {
+   "d": "TUE",
+   "t": "Science News Explores: a python’s heart can balloon up to 25% in a day; the Grinch’s would have collapsed",
+   "id": "grinch"
+  },
   {
    "d": "MON",
    "t": "NASA: Swift expected to re-enter on Wednesday 4 Nov, 22 years after launch; risk to anyone 1 in 2,100",
@@ -13,45 +33,428 @@
    "d": "MON",
    "t": "NASA: ESCAPADE’s twin probes to make powered Earth flybys on 7 and 9 Nov, then cruise to Mars",
    "id": "escapade"
-  },
-  {
-   "d": "MON",
-   "t": "Hubble: 37 dwarf galaxies are missing most of their oxygen; supernova winds blamed",
-   "id": "oxy"
-  },
-  {
-   "d": "MON",
-   "t": "Science News Explores: Japan’s baseball-sized SORA-Q rover swims through Moon dust",
-   "id": "soraq"
-  },
-  {
-   "d": "SAT",
-   "t": "ISRO: first orbit-raising burn on NVS-03, 2,174.8 s, perigee lifted from 170 km to 5,478 km",
-   "id": "nvs"
-  },
-  {
-   "d": "MON",
-   "t": "Landsat 8 imaged Pine Creek Gorge in full autumn colour on 25 Oct; NASA’s Image of the Day",
-   "id": "gorge"
   }
  ],
  "tiles": [
   {
+   "id": "eva2",
+   "dom": "space",
+   "lab": "Space · Tomorrow night",
+   "hot": 1,
+   "big": 1,
+   "art": "eva",
+   "cap": "9:30 pm tomorrow: two astronauts unroll the last of eight new solar wings on the ISS",
+   "num": "160 → 215 kW",
+   "nums": "The station’s power-generating capacity before and after the roll-out arrays, a job begun in June 2021",
+   "p1": "The second and final spacewalk of this pair is scheduled to start at 8:30 am US Eastern time on Thursday 5 November, which is 9:30 pm in Singapore. Flight engineers Joshua Kutryk of the Canadian Space Agency and Anil Menon of NASA will install the eighth and final roll-out solar array on the station’s starboard truss. Jessica Watkins and Luke Delaney will help them into their suits, monitor the pair and operate the Canadarm2 robotic arm from inside.",
+   "p2": "Why now: the first walk of the pair, on 29 October, ran 7 hours 11 minutes; this one finishes a power upgrade that began in June 2021.",
+   "deep": [
+    [
+     "The job",
+     "The new arrays unroll over the station’s original solar wings. Since June 2021 crews have been adding them to raise the station’s power-generating capacity from 160 kilowatts to about 215 kilowatts. The 29 October walk fitted the seventh array; Thursday’s is the eighth and last."
+    ],
+    [
+     "Who is outside",
+     "For Kutryk, the 29 October walk was his first; for Menon it was his fourth. NASA counted it as US spacewalk 100 and the 285th spacewalk in support of station assembly, maintenance and upgrades."
+    ],
+    [
+     "Watching it",
+     "NASA says live continuous coverage begins at 7 am on Thursday, US Eastern time, which is 8 pm in Singapore, with the walk itself due to start 90 minutes later. The first walk in the pair lasted 7 hours 11 minutes."
+    ],
+    [
+     "Meanwhile inside",
+     "A Dragon cargo ship is expected to return to Earth in mid-November packed with completed science experiments. In the Russian segment, station commander Pyotr Dubrov was installing Earth-observation gear and flight engineer Anna Kikina was transferring water from the Progress 96 cargo craft."
+    ]
+   ],
+   "rel": [
+    "reentry",
+    "escapade",
+    "whatsup"
+   ],
+   "src": "NASA Space Station blog, 3 Nov 2026 (Mark A. Garcia) · NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia)",
+   "img": "https://images-assets.nasa.gov/image/iss075e0253663/iss075e0253663~large.jpg",
+   "credit": "Photo: CSA / NASA"
+  },
+  {
+   "id": "cme",
+   "dom": "space",
+   "lab": "India · The Sun in 3D",
+   "hot": 1,
+   "big": 0,
+   "art": "corona",
+   "cap": "India’s Aditya-L1 caught a solar eruption that did not grow like a bubble. It was lopsided",
+   "num": "1.05–1.5",
+   "nums": "Solar radii from the Sun’s centre: the ring of corona shown by VELC, Aditya-L1’s coronagraph, in ISRO’s image of the eruption",
+   "p1": "ISRO reported on 3 November that a coronal mass ejection observed on 5 August 2024 did not expand outward from the Sun like a simple symmetric bubble, as previously thought. Instead it underwent non-uniform expansion and developed an asymmetric shape. The result comes from VELC, the Visible Emission Line Coronagraph on Aditya-L1, India’s Sun-watching spacecraft, in work by the Indian Institute of Astrophysics in Bengaluru.",
+   "p2": "Why it matters: a CME aimed at Earth can disrupt satellites and communications, and whether it expands evenly changes how the solar wind drags on it, so when it arrives.",
+   "deep": [
+    [
+     "What a CME is",
+     "A coronal mass ejection is a massive burst of hot, magnetised plasma released from the Sun’s outer atmosphere. Most coronagraphs can only image it in two dimensions, as motion across the sky."
+    ],
+    [
+     "The speed-gun trick",
+     "VELC uses Doppler spectroscopy, which ISRO says works on the same principle as traffic speed guns. During the 5 August 2024 CME it detected two Doppler-shifted branches on opposite sides of the normal coronal emission line: plasma coming toward the observer and plasma moving away, in the same eruption."
+    ],
+    [
+     "Why lopsided",
+     "A symmetrically expanding CME shell could not reproduce the observed spectral pattern. Once the team’s three-dimensional model added asymmetric sideways expansion and a tilt, the simulated spectra matched the VELC observations."
+    ],
+    [
+     "One spacecraft, three dimensions",
+     "Working out a CME’s 3D shape normally needs several spacecraft looking from different angles. The authors say this shows VELC can constrain the three-dimensional geometry of an eruption from a single vantage point. The paper, by Saurabh Tripathi, Tanmoy Samanta and Jayant Joshi, is in The Astrophysical Journal Letters."
+    ]
+   ],
+   "rel": [
+    "eva2",
+    "septemp",
+    "whatsup"
+   ],
+   "src": "ISRO, 3 Nov 2026 · Indian Institute of Astrophysics, Bengaluru · The Astrophysical Journal Letters",
+   "img": "https://www.isro.gov.in/media_isro/image/index/Latest/shot1.png.webp",
+   "credit": "Image: ISRO / IIA, Aditya-L1 VELC, with NASA SDO/AIA"
+  },
+  {
+   "id": "pacific",
+   "dom": "earth",
+   "lab": "Earth · Typhoon year",
+   "hot": 1,
+   "big": 0,
+   "art": "cyclone",
+   "cap": "25 named storms on, the Pacific is still churning: a super typhoon and a parade of storms",
+   "num": "~300 km/h",
+   "nums": "Typhoon Champi’s maximum sustained winds, nearly 185 mph, before its remnants reached Alaska",
+   "p1": "NASA’s Earth Observatory says tropical cyclone activity in the Northwest Pacific has been elevated since April 2026, when Sinlaku surged to super typhoon strength and battered Micronesia, Guam and the Northern Mariana Islands. Twenty-five named storms later, the basin still hummed with activity in late October. On 29 October the EPIC camera on the DSCOVR satellite caught Super Typhoon In-fa near the Mariana Islands while the remnants of Typhoon Champi approached Alaska amid a parade of storms moving across the Bering Sea.",
+   "p2": "Why: a strong El Niño is under way in the Pacific, a likely contributor, and El Niño shifts storms toward Guam, the Northern Marianas, Japan and the Korean Peninsula.",
+   "deep": [
+    [
+     "A rare shape",
+     "In-fa showed traits of an annular storm: these typically lack the prominent outer spiral rainbands. Annular storms are rare, just 4 percent of tropical cyclones in the western North Pacific, and their eyes average about 45 kilometres across."
+    ],
+    [
+     "Champi",
+     "Champi reached maximum sustained winds of nearly 300 kilometres per hour. It narrowly skirted Taiwan and Guam but still brought damaging winds and intense rain to both, and to parts of China and Japan."
+    ],
+    [
+     "Typhoons in Alaska",
+     "Champi is the fourth ex-typhoon to enter Alaskan waters this year, after Bang-Lang in August, Dujuan in September and Choi-wan in early October. Roughly 60 ex-typhoons have affected the state since 1970; the autumns of 1997 and 2015, both very strong El Niño years, had three each."
+    ],
+    [
+     "Fifth for the Marianas",
+     "In-fa is the fifth typhoon to affect the Mariana Islands this year. El Niño emerges roughly every two to seven years and changes where Pacific storms form and travel."
+    ]
+   ],
+   "rel": [
+    "septemp",
+    "cme",
+    "whatsup"
+   ],
+   "src": "NASA Earth Observatory, 3 Nov 2026 (story by Adam Voiland, images by Michala Garrison)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-pacific's-busy-storm-season/storminfa_epic_20261029_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA Earth Observatory / Michala Garrison, DSCOVR EPIC"
+  },
+  {
+   "id": "bluesky",
+   "dom": "matter",
+   "lab": "Physics · Light",
+   "hot": 0,
+   "big": 0,
+   "art": "bluesky",
+   "cap": "Make a sunset in a jar: shine a torch through milky water and the far end turns orange",
+   "num": "×10",
+   "nums": "Blue light is scattered roughly ten times more than red by the molecules of the air",
+   "p1": "Fill a clear container with water, shine a torch through it from one end, and add milk a few drops at a time until the beam shows. From the side the beam looks bluish-white; from the end it looks yellow-orange. You have made the sky and a sunset in one jar: the milk makes the beam visible, and the light scatters the way sunlight does off air molecules, with short blue wavelengths scattered far more than long red ones.",
+   "p2": "Why it matters: the scattered blue is what you see when you look up; the red that was not scattered keeps going straight, and that is a sunset.",
+   "deep": [
+    [
+     "Why blue",
+     "Sunlight is white light holding every colour, each with its own wavelength. As it crosses the atmosphere it collides with gas molecules and is scattered, and shorter wavelengths scatter more: the Exploratorium puts blue at approximately ten times red. Violet scatters even more, but the Sun emits much less violet, so the sky looks blue."
+    ],
+    [
+     "Why orange",
+     "At sunset the light travels a longer path through the atmosphere, so most of the blue is scattered out before it reaches you and what is left looks reddish orange. In the jar, the far end of the beam is the sunset: add enough milk and you can watch the beam shift from blue-white to yellow-orange along its length."
+    ],
+    [
+     "The test",
+     "Hold a white card at the far end of the container to catch the orange spot on it. If you have added enough milk, you can see the beam itself shift from blue-white to yellow-orange along its length."
+    ],
+    [
+     "Going further",
+     "Scattering polarises light, because light is a transverse wave. Put a lens from polarised sunglasses between torch and jar and rotate it: a friend watching from the top sees the beam brighten as you, watching from the side, see it dim, and the other way round."
+    ]
+   ],
+   "rel": [
+    "fade",
+    "moonfall",
+    "pacific"
+   ],
+   "src": "Exploratorium Science Snacks: Blue Sky (Exploratorium Teacher Institute)",
+   "img": "https://www.exploratorium.edu/sites/default/files/BlueSky_DSC_8209_H.jpg",
+   "credit": "Photo: Exploratorium"
+  },
+  {
+   "id": "moonfall",
+   "dom": "space",
+   "lab": "Physics · Gravity",
+   "hot": 0,
+   "big": 0,
+   "art": "moonfall",
+   "cap": "The Moon is falling. Every second it drops about 1/20 of an inch, and keeps missing Earth",
+   "num": "1/3600",
+   "nums": "How much weaker gravity is at the Moon, 60 times farther from Earth’s centre than we are: 1 over 60 squared",
+   "p1": "Feynman’s arithmetic: an object dropped near the Earth’s surface falls 16 feet in its first second. The Moon is 240,000 miles away, 60 times as far from the Earth’s centre as we are, and Newton’s law says gravity weakens with the square of the distance, so the Moon should fall only 1/3600 of 16 feet each second, which is roughly 1/20 of an inch. Measure how far the Moon’s orbit curves away from a straight line in one second and you get the same 1/20 of an inch.",
+   "p2": "Why it feels wrong: the Moon never gets any closer. It falls, Feynman says, in the sense that it falls away from the straight line it would follow if there were no forces.",
+   "deep": [
+    [
+     "The 27-day clock",
+     "The Moon goes around the Earth in approximately 27 days. From the size of its orbit and that period you can work out how far it deviates from a straight line in one second: roughly 1/20 of an inch."
+    ],
+    [
+     "Newton’s near miss",
+     "Newton first found a discrepancy so large that he regarded the theory as contradicted by the facts. Later a new measurement of the size of the Earth showed that astronomers had been using an incorrect distance to the Moon; with the right number the calculation gave beautiful agreement."
+    ],
+    [
+     "A number that is deep",
+     "Compare gravity with electricity: the gravitational attraction between two electrons, relative to their electrical repulsion, is 1 divided by 4.17 × 10⁴². Feynman: this fantastic number is a natural constant, so it involves something deep in nature."
+    ],
+    [
+     "What gravity is",
+     "Feynman is blunt: no one has since given any machinery behind the law of gravity. The law says what gravity does, and why mathematics can describe nature without a mechanism behind it, he says, no one knows."
+    ]
+   ],
+   "rel": [
+    "bluesky",
+    "eva2",
+    "escapade"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation (Caltech)"
+  },
+  {
+   "id": "cirqa",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 0,
+   "big": 0,
+   "art": "band",
+   "cap": "Garmin’s Cirqa is a fitness tracker with no screen at all: a 14.8 g puck on a fabric strap",
+   "num": "10 days",
+   "nums": "Garmin’s battery claim; TechRadar’s reviewer got a solid week with three or four workouts",
+   "p1": "TIME’s Best Inventions 2026 list includes the Cirqa, a screenless band from Garmin. The engineering is in subtraction: no display, a 27 × 47 × 9 mm module weighing 14.8 g in a fibre-reinforced polymer case, a fabric strap, Bluetooth and ANT+ radios, an accelerometer, a wrist-based heart-rate sensor and a Pulse Ox blood-oxygen sensor, 128 MB of memory and a 5 ATM water rating, which Garmin defines as withstanding pressure equal to a depth of 50 m. Garmin’s suggested price is US$199.99.",
+   "p2": "Why TIME picked it: rival screenless wearables, it says, normalised paywalled health insights, and Garmin’s Jill Kaiser says it gives you your insights without locking you into additional prices.",
+   "deep": [
+    [
+     "What is inside",
+     "The radio spec is in the manual: 2400–2483.5 MHz at under 13 dBm, the 2.4 GHz band. It works from −20 °C to 60 °C but charges only between 0 °C and 45 °C. The battery is a built-in rechargeable lithium-ion cell; Garmin does not publish its capacity."
+    ],
+    [
+     "No GPS",
+     "There is no GPS inside; routes come from your phone. A dedicated side button starts and stops your most common activity without the phone, and it auto-detects activities longer than 15 minutes. TechRadar found the heart-rate sensor within 1–3 beats per minute of a Polar H10 chest strap, with one outlier of about 10 bpm."
+    ],
+    [
+     "What reviewers found wrong",
+     "TechRadar’s Matt Evans (6 August 2026) listed limited metrics compared with a full Garmin watch, a relatively high price for the puck, a bicep band sold separately, and coaching features locked behind a paywall on top of the upfront cost: Garmin Connect+ at US$6.99 a month. Tom’s Guide found the strap the scratchiest of the bunch and noted it costs twice the Fitbit Air, US$199 against US$99."
+    ],
+    [
+     "The battery race",
+     "Tom’s Guide puts the Whoop 5.0 at roughly two weeks between charges against about ten days for the Cirqa, and the Fitbit Air at 5.2 g against the Cirqa’s 14.8 g. Lighter and longer-lasting are the two numbers every screenless band is chasing."
+    ]
+   ],
+   "rel": [
+    "s26",
+    "herro",
+    "fade"
+   ],
+   "src": "TIME Best Inventions 2026 (Hannah Singleton) · Garmin spec page and owner’s manual · TechRadar review, 6 Aug 2026 (Matt Evans) · Tom’s Guide, 8 Aug 2026 (Dan Bracaglia)"
+  },
+  {
+   "id": "lcer",
+   "dom": "sg",
+   "lab": "Singapore · Carbon capture",
+   "hot": 0,
+   "big": 0,
+   "art": "co2",
+   "cap": "An NUS rig caught 400 kg of CO₂ a day from a waste plant’s exhaust. Next: 5 tonnes a day",
+   "num": "S$65m",
+   "nums": "Awarded to five scale-up projects, three of them from NUS, announced on 23 October",
+   "p1": "Three NUS teams from the Department of Chemical and Biomolecular Engineering have won Low Carbon Energy Research scale-up grants, among five projects sharing S$65 million from Singapore’s Advanced Energy and Decarbonisation Office. Professor Zhao Dan’s capture system, tested at a waste-to-energy research facility, captured around 400 kilogrammes of carbon dioxide a day with close to 100 per cent recovery; the next phase is designed for five tonnes a day from higher-concentration flue gas.",
+   "p2": "Why here: the awards were announced at the first Singapore Industry Decarbonisation Forum on 23 October, with Deputy Prime Minister Gan Kim Yong as guest of honour.",
+   "deep": [
+    [
+     "Capture at the power plant",
+     "A separate pilot by Zhao’s team at YTL PowerSeraya’s natural-gas combined-cycle plant targets two tonnes of carbon dioxide a day, and the group is working with Chevron to evaluate capture materials."
+    ],
+    [
+     "Hydrogen without the CO₂",
+     "Associate Professor Sibudjing Kawi’s team, with Siemens and PacificLight Power, splits methane in a catalytic membrane reactor at a relatively low 500 to 600 degrees Celsius. The first phase produced 500 litres of hydrogen a day and a prototype designed for one kilogramme of hydrogen and three kilogrammes of carbon nanotubes daily; the next aims at 100 kilogrammes of hydrogen and 300 kilogrammes of nanotubes a day."
+    ],
+    [
+     "Membranes",
+     "Associate Professor Zhang Sui’s hollow-fibre membranes captured around four kilogrammes of carbon dioxide a day in small modules; the scale-up is a modular pilot able to process up to 1 ton of flue gas per day."
+    ],
+    [
+     "What the grant is",
+     "The scale-up grant gives follow-on support to projects that achieved promising outcomes under an earlier LCER programme. All three NUS leads are in the College of Design and Engineering."
+    ]
+   ],
+   "rel": [
+    "septemp",
+    "herro",
+    "cirqa"
+   ],
+   "src": "NUS News, 27 Oct 2026"
+  },
+  {
+   "id": "herro",
+   "dom": "sg",
+   "lab": "Singapore · Reading DNA",
+   "hot": 0,
+   "big": 0,
+   "art": "cell",
+   "cap": "An A*STAR AI cuts errors in long DNA reads 100-fold: 32 of 46 chromosomes read end to end",
+   "num": "32 of 46",
+   "nums": "Human chromosomes reconstructed telomere to telomere, repetitive stretches included, after HERRO cleaned the reads",
+   "p1": "Ultra-long nanopore reads of DNA are powerful but error-prone. HERRO, a deep-learning algorithm from A*STAR’s Genome Institute of Singapore with the University of Zagreb and Oxford Nanopore Technologies, learns to correct those errors and reduced them by up to 100-fold in human genomes. With the cleaned reads the team reconstructed up to 32 of the 46 chromosomes end to end, including highly repetitive sections.",
+   "p2": "Why it matters: the repetitive parts of the genome are the hardest to assemble, and they are where long reads earn their keep.",
+   "deep": [
+    [
+     "The method",
+     "HERRO is a deep-learning model trained to spot and fix the characteristic mistakes in ultra-long nanopore sequences, while keeping the reads at their full length so they still carry long-range information."
+    ],
+    [
+     "Who",
+     "The first author is Dominik Stanojević; the senior researcher is Mile Šikić of A*STAR’s Genome Institute of Singapore, who did his PhD at the University of Zagreb in 2008."
+    ],
+    [
+     "Where",
+     "The work is published in Nature, volume 655, pages 158–165 (2026)."
+    ]
+   ],
+   "rel": [
+    "lcer",
+    "cirqa",
+    "aimit"
+   ],
+   "src": "A*STAR Research, 27 Oct 2026 · Nature 655, 158–165 (2026)"
+  },
+  {
+   "id": "grinch",
+   "dom": "life",
+   "lab": "Life · Hearts",
+   "hot": 0,
+   "big": 0,
+   "art": "blood",
+   "cap": "Would a heart that grew three sizes make you strong? A python’s can swell 25% in a day",
+   "num": "25%",
+   "nums": "How much a python’s heart can balloon in a day after it eats, then shrink back once the meal is digested",
+   "p1": "Science News Explores asked heart scientists about the Grinch, whose heart grows three sizes and who then, in the 1966 film, gains the strength of ten Grinches plus two. Heart size is generally pegged to body size, says cardiologist Michelle Kittleson: bigger people tend to have bigger hearts. Some animals really do grow theirs fast: when pythons eat, their hearts can balloon by up to 25 percent in a day, and larger hearts pump blood with more force. But a human heart that suddenly inflated would be too big to pump blood; Kittleson says the Grinch would have keeled over and collapsed.",
+   "p2": "Why it is more than a joke: a 2025 analysis of records from more than 360,000 people in Australia found those with smaller-than-average hearts had a higher risk of dying within five years.",
+   "deep": [
+    [
+     "Python hearts",
+     "Leslie Leinwand, a molecular biologist and geneticist at the University of Colorado Boulder, works on pythons. The bigger the meal, the more the heart grows, and it shrinks back once the meal is digested; her team reported the finding in the Proceedings of the National Academy of Sciences in 2024. Whether it makes the snakes stronger overall, they do not know."
+    ],
+    [
+     "The good kind of big",
+     "With hard, regular training, Leinwand says, your heart gets bigger, but in a good way. Kittleson: an athlete’s heart gets bigger and thicker, and that helps them pump more blood per minute than someone with a normal-size heart."
+    ],
+    [
+     "The bad kind",
+     "The one rare condition in which a heart inflates suddenly is takotsubo, or stress cardiomyopathy. A surge of epinephrine, also called adrenaline, from extreme stress can make the heart chamber bulge, and that causes immediate heart failure as the heart gets too big to pump blood."
+    ],
+    [
+     "The data",
+     "The Australian analysis, in JACC: Advances, looked at medical records from more than 360,000 people. Those with smaller-than-average hearts had a higher risk of dying within five years than people with average or larger hearts."
+    ]
+   ],
+   "rel": [
+    "herro",
+    "bluesky",
+    "fade"
+   ],
+   "src": "Science News Explores, 3 Nov 2026 (Tina Hesman Saey) · JACC: Advances, 2025 · PNAS, 2024"
+  },
+  {
+   "id": "septemp",
+   "dom": "earth",
+   "lab": "Earth · Hot ocean",
+   "hot": 0,
+   "big": 0,
+   "art": "nino",
+   "cap": "September’s oceans ran 1.10 °C above average, the biggest departure of any month on record",
+   "num": "1.10 °C",
+   "nums": "Global ocean surface in September 2026 above the 20th-century average: the highest for any month NOAA has recorded",
+   "p1": "NOAA’s National Centers for Environmental Information report that September 2026 was the second-warmest September in a record that starts in 1850, 1.33 °C above the 20th-century average and 0.07 °C behind 2023. The ocean surface was 1.10 °C above average, the highest departure for any month on record, with persistent El Niño conditions driving record warmth across the central and eastern tropical Pacific.",
+   "p2": "Connects to: the same El Niño that NASA’s experts call a likely contributor to the Pacific’s crowded typhoon year.",
+   "deep": [
+    [
+     "Land and ice",
+     "Land surfaces were 1.83 °C above average, the third-highest September in the 177-year record. Global sea-ice extent was 8.54 million square miles, 800,000 square miles below the 1991–2020 average and the third-smallest September in the 48-year record."
+    ],
+    [
+     "Storms",
+     "The globe produced 19 tropical storms in September; nine reached cyclone strength and six became major cyclones. The Atlantic managed four tropical storms and no hurricanes, the first time in the satellite era that no hurricane formed before October."
+    ],
+    [
+     "The year so far",
+     "January to September 2026 ranks second-highest on record behind 2024, and NOAA says 2026 is very likely to land among the five warmest years, with second-warmest the most probable outcome."
+    ]
+   ],
+   "rel": [
+    "pacific",
+    "lcer",
+    "cme"
+   ],
+   "src": "NOAA National Centers for Environmental Information, Monitoring Global Temperature and Precipitation in September 2026 (9 Oct 2026)"
+  },
+  {
+   "id": "aimit",
+   "dom": "usingai",
+   "lab": "Using AI · MIT",
+   "hot": 0,
+   "big": 0,
+   "art": "aimit",
+   "cap": "MIT’s phrase for what a chatbot answer gives you: “the illusion of learning”",
+   "num": "8",
+   "nums": "principles in MIT’s 2026 report on AI in education",
+   "p1": "MIT’s report does not ban AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
+   "p2": "The point: the product of school is you, not the mark.",
+   "deep": [
+    [
+     "What MIT asks of its own students",
+     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
+    ],
+    [
+     "Why checking matters",
+     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s rule for research: a human verifies, and AI is never listed as a co-author."
+    ],
+    [
+     "Keep it human",
+     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
+    ]
+   ],
+   "rel": [
+    "herro",
+    "cirqa",
+    "fade"
+   ],
+   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
+  },
+  {
    "id": "reentry",
    "dom": "space",
    "lab": "Space · Falling telescope",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "swift",
    "cap": "Swift, built for 2 years, watched the sky for 22. On Wednesday it falls out of it",
    "num": "1 in 2,100",
    "nums": "NASA’s estimate of the risk that a surviving piece harms anyone on Earth",
-   "p1": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday 4 November, almost 22 years after launch. As of Monday the US Space Force predicted that the roughly 3,200-pound (about 1,450 kg) spacecraft will come down at about 3:30 am US Eastern time, which is 4:30 pm in Singapore, with an uncertainty of 11 hours either way. NASA expects most of it to burn up, but some components are expected to survive.",
+   "p1": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday 4 November, almost 22 years after launch. As of Monday the US Space Force predicted that the roughly 3,200-pound (about 1,450 kg) spacecraft will come down at about 3:30 am US Eastern time, which is 4:30 pm in Singapore, with an uncertainty of 11 hours. NASA expects most of it to burn up, but some components are expected to survive.",
    "p2": "Why here: because Swift orbits at a low tilt, any surviving fragments can only land between 20.6° south and 20.6° north. Singapore, at about 1.3° north, sits inside that band.",
    "deep": [
     [
      "What Swift did",
-     "Swift launched in 2004 to catch gamma-ray bursts, the brightest explosions in the universe, and was designed for a two-year prime mission. It kept working for more than two decades of science operations."
+     "Swift launched in 2004 to catch gamma-ray bursts, the most powerful explosions in the cosmos, and was designed for a two-year prime mission. It kept working for more than two decades of science operations."
     ],
     [
      "The odds",
@@ -67,9 +470,9 @@
     ]
    ],
    "rel": [
+    "eva2",
     "escapade",
-    "whatsup",
-    "titan"
+    "whatsup"
    ],
    "src": "NASA Swift blog, 2 Nov 2026 (Alise Fisher, Goddard)",
    "img": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
@@ -79,7 +482,7 @@
    "id": "escapade",
    "dom": "space",
    "lab": "Space · Earth slingshot",
-   "hot": 1,
+   "hot": 0,
    "art": "psyche",
    "cap": "Two fridge-sized probes skim Earth on Saturday evening, fire engines, and leave for Mars",
    "num": "9 minutes",
@@ -106,294 +509,13 @@
    ],
    "rel": [
     "reentry",
-    "nvs",
-    "titan"
+    "eva2",
+    "moonfall"
    ],
    "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
    "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: Advanced Space / Matt Bolliger, via NASA"
-  },
-  {
-   "id": "oxy",
-   "dom": "space",
-   "lab": "Space · Missing oxygen",
-   "art": "gal",
-   "cap": "Hubble looked at 37 small galaxies and found most of their oxygen has gone missing",
-   "num": "37",
-   "nums": "nearby dwarf galaxies, each holding a few thousand to hundreds of millions of stars",
-   "p1": "In a paper published on Monday in The Astrophysical Journal, researchers using the Hubble Space Telescope looked at 37 nearby dwarf galaxies and found that much of the oxygen they expected to see is missing. Oxygen is the most abundant element after hydrogen and helium, and it is made inside stars, so a galaxy full of stars should be keeping it.",
-   "p2": "The suspect: galactic winds. Supernovae blow gas out of these small galaxies, and the winds turn out to be far better at removing oxygen from low-mass galaxies than current models predict.",
-   "deep": [
-    [
-     "Why small galaxies lose",
-     "A dwarf galaxy has weak gravity, so when a star explodes, the hot gas it throws out can escape altogether instead of falling back. NASA says the findings show dwarf galaxies can hold on to only a small fraction of the oxygen their stars make."
-    ],
-    [
-     "The programme",
-     "The work is called GLOW, Galaxies Losing Oxygen via Winds, funded by NASA and the National Science Foundation. Kristen Wingfield McQuinn of Rutgers leads it, with Grace Telford of the University of Utah as a co-investigator."
-    ],
-    [
-     "More than Hubble",
-     "The team combined archival Hubble images with data from NASA’s retired Spitzer Space Telescope, the Very Large Array and the Australian Telescope Compact Array. A similar look at Milky Way-sized galaxies was done in 2014."
-    ],
-    [
-     "Next",
-     "McQuinn has an approved programme on the Nancy Grace Roman Space Telescope to follow up, and Telford will use Hubble to look at massive stars."
-    ]
-   ],
-   "rel": [
-    "reentry",
-    "whatsup",
-    "titan"
-   ],
-   "src": "NASA Hubble news, 2 Nov 2026 · The Astrophysical Journal, doi 10.3847/1538-4357/ae93a6",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/11/STScI-01M4RST3TGWT2T53FVXQBSP75D.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA, ESA, Hubble Heritage / A. Aloisi (STScI, ESA)"
-  },
-  {
-   "id": "nvs",
-   "dom": "space",
-   "lab": "India · Orbit raising",
-   "hot": 1,
-   "art": "gslv",
-   "cap": "A 36-minute engine burn lifted India’s new navigation satellite from 170 km to 5,478 km",
-   "num": "2,174.8 s",
-   "nums": "the first Liquid Apogee Motor burn on NVS-03, completed on Saturday at 16:48 Indian time",
-   "p1": "GSLV-F18 injected NVS-03 into a 170.3 km × 38,080 km orbit on 30 October at 23:51 IST, which was 2:21 am on Saturday in Singapore. The next afternoon ISRO fired the satellite’s LAM engine for 2,174.8 seconds, and the orbit became 5,477.6 km × 37,833.4 km. The satellite’s health is normal, and further burns in the coming days will place it in geostationary orbit at 111.75° east.",
-   "p2": "Why the numbers matter: a transfer orbit is a lopsided ellipse. Each burn near the high point lifts the low point, so the orbit is rounded off step by step rather than in one go.",
-   "deep": [
-    [
-     "What NVS-03 is",
-     "It is the third satellite in India’s next-generation navigation system, meant to continue the IRNSS series, which provides navigation services over the Indian land mass and a region extending 1,500 km around the country’s borders. It carries an indigenous atomic clock alongside procured ones and adds an L1 signal to the existing L5 and S-band signals."
-    ],
-    [
-     "The launcher",
-     "GSLV-F18 was the 20th flight of India’s Geosynchronous Satellite Launch Vehicle, flown from the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota. ISRO calls the destination a Geosynchronous Transfer Orbit."
-    ],
-    [
-     "Why 111.75° east",
-     "A geostationary satellite circles once a day, so from the ground it seems to hang over one longitude. ISRO’s target slot is 111.75° east, from which the satellite stays in view of India all day, every day."
-    ],
-    [
-     "Where it is now",
-     "After one burn the low point is already above 5,000 km while the high point barely moved, from 38,080 km to 37,833.4 km. Count how many burns ISRO reports before the orbit is round."
-    ]
-   ],
-   "rel": [
-    "escapade",
-    "reentry",
-    "lace"
-   ],
-   "src": "ISRO, Orbit manoeuvring of NVS-03 spacecraft, 31 Oct 2026 · ISRO GSLV-F18 mission page",
-   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
-   "credit": "Photo: ISRO, GSLV-F18 on the pad"
-  },
-  {
-   "id": "gorge",
-   "dom": "earth",
-   "lab": "Earth · Satellite autumn",
-   "art": "leaves",
-   "cap": "A 460-metre-deep gash in Pennsylvania, photographed from orbit as the forest turns orange",
-   "num": "72 km",
-   "nums": "the length of Pine Creek Gorge, from Ansonia south to the West Branch Susquehanna",
-   "p1": "The Operational Land Imager on Landsat 8 captured Pine Creek Gorge on 25 October 2026, amid the warm hues of fall foliage. The gorge, called Pennsylvania’s Grand Canyon, reaches depths of about 1,500 feet (460 metres) and runs some 45 miles (72 km); it is deepest around Waterville. NASA Earth Observatory published it as its Image of the Day on Monday.",
-   "p2": "Why the river runs the wrong way: Pine Creek once flowed to the north. Glaciers dammed the river and filled the valley with lakes; today it drains south to the Susquehanna.",
-   "deep": [
-    [
-     "Two dates, one place",
-     "NASA paired the 25 October image with one from 9 October, so you can see the colour sweep across the plateau in just over two weeks. The full-size 25 October file is 47.9 megabytes; the 9 October one is 15.3."
-    ],
-    [
-     "From desert to landmark",
-     "Logging stripped the slopes so completely that by the early 20th century the area was known as the Pennsylvania Desert. The forest grew back, and in 1968 an area of 30,000 acres (12,000 hectares) was designated a National Natural Landmark."
-    ],
-    [
-     "Where",
-     "Pine Creek Gorge forms a deep scar in the Allegheny Plateau, in north-central Pennsylvania. NASA’s page pairs the satellite view with a ground photo taken from Colton Point State Park, on the gorge’s rim, in October 2009."
-    ]
-   ],
-   "rel": [
-    "whatsup",
-    "fade",
-    "lace"
-   ],
-   "src": "NASA Earth Observatory, Image of the Day, 2 Nov 2026 (story by Lindsey Doermann; image by Michala Garrison)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/pennsylvania’s-grand-canyon/pinecreekgorge_oli_20261025_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA Earth Observatory / Michala Garrison, Landsat 8"
-  },
-  {
-   "id": "soraq",
-   "dom": "space",
-   "lab": "Space · Toy rover",
-   "art": "rover",
-   "cap": "A Moon rover the size of a baseball, designed with a toy company. It swims through dust",
-   "num": "90 minutes",
-   "nums": "how long SORA-Q crawled around its landing site after JAXA’s SLIM touched down on the Moon",
-   "p1": "SORA-Q, from sora (space) and kyu (sphere), with a Q for quest and question, is about the starting size and shape of a baseball and weighs as much as a cup of water. It rode to the Moon on Japan’s SLIM lander, which reached the surface on 19 January 2024, and was dropped seconds before touchdown. It then crawled for more than 90 minutes and drove to about 5 metres from SLIM. Compare Perseverance and Curiosity, the size of small cars.",
-   "p2": "Why a toy company: JAXA engineer Daichi Hirano wanted something small and cheap that might also reach cramped spaces, so his team worked with toy engineers at TOMY, the company that owns Transformers in Japan.",
-   "deep": [
-    [
-     "The swimming trick",
-     "Smaller wheels get stuck more easily in powdery regolith, so SORA-Q’s wheels are offset and sweep up and down in circles. One wheel sweeping up while the other goes down makes it crawl; both in sync and it does a butterfly stroke through the dust."
-    ],
-    [
-     "Packaging",
-     "The design was published in Science Robotics on 10 June 2026 by Hirano and colleagues. Keenan Albee, a roboticist at the University of Southern California who was not involved, said the most impressive part to him was the packaging: a ball that unfolds into a rover."
-    ],
-    [
-     "Why small",
-     "NASA’s VIPER rover design was the size of a golf cart. Hirano, at JAXA in Sagamihara, says small rovers cost less and might also be able to reach cramped spaces that a big machine cannot."
-    ]
-   ],
-   "rel": [
-    "titan",
-    "nvs",
-    "eddy"
-   ],
-   "src": "Science News Explores, 2 Nov 2026 (Kendra Redmond) · Science Robotics, Hirano et al., 10 June 2026"
-  },
-  {
-   "id": "eddy",
-   "dom": "matter",
-   "lab": "Physics · Magnetism",
-   "art": "eddy",
-   "cap": "Drop a magnet down a copper pipe and it falls in slow motion. Nothing is touching it",
-   "num": "1 m",
-   "nums": "of copper, aluminium or brass tube is enough; a pencil clatters straight through, the magnet dawdles",
-   "p1": "The Exploratorium’s Eddy Currents snack needs a 60 cm to 1 m length of aluminium, copper or brass tubing (not iron) and a neodymium disc magnet at least 1.25 cm across and longer than it is wide. Drop the magnet through and notice that it takes noticeably more time to fall than a plastic pen or wooden pencil does. Try the same through a plastic PVC tube and the magic is gone.",
-   "p2": "What is going on: the falling magnet’s changing field pushes the tube’s electrons round in circular, eddy-like currents. Those currents make their own magnetic field, which pushes back on the magnet, so it falls much more slowly.",
-   "deep": [
-    [
-     "Feynman’s pendulum",
-     "In the Feynman Lectures a copper plate swings as a pendulum between the poles of an electromagnet. Switch the magnet on and the swing is suddenly arrested: the eddy currents exert a strong resistance to the motion, just like the viscous drag in honey. Cut slots in the plate and the braking is drastically reduced, because the currents can no longer flow in big loops."
-    ],
-    [
-     "Lenz’s rule",
-     "Feynman’s one-line version: the emf tries to oppose any flux change. The currents in the tube always flow the way that fights the magnet’s motion, which is why the tube only ever slows the magnet and never speeds it up."
-    ],
-    [
-     "Perfect conductor",
-     "Feynman adds that below 3.8 kelvin tin conducts perfectly, and if you put an electromagnet next to a sheet of perfect conductor, eddy currents appear in the sheet so that no magnetic flux enters at all."
-    ],
-    [
-     "A slower version",
-     "Two flat aluminium plates about 6 mm thick, spaced just wider than the magnet, give a remarkably slow rate of fall; allow at least a 15 cm drop. The same physics is why transformer cores are built from laminated sheets, and why eddy currents are used to damp the swing of mechanical balances."
-    ]
-   ],
-   "rel": [
-    "straw",
-    "fade",
-    "s26"
-   ],
-   "src": "Exploratorium Science Snacks: Eddy Currents · The Feynman Lectures on Physics, Vol. II, ch. 16"
-  },
-  {
-   "id": "s26",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 1,
-   "art": "privacy",
-   "cap": "A phone screen only its owner can read: two kinds of pixels, and the wide ones switch off",
-   "num": "1,806 nits",
-   "nums": "peak brightness measured by Tom’s Guide, against 1,860 on last year’s S25 Ultra: dimmer, even with privacy off",
-   "p1": "The Samsung Galaxy S26 Ultra made TIME’s Best Inventions of 2026 list as “a privacy-focused smartphone”. Its 6.9-inch display has two different kinds of pixels, narrow and wide; in privacy mode the wide pixels turn off, which limits what can be seen from the side, with no stick-on filter. Samsung lists it at 214 g, 7.9 mm thick, with a 5,000 mAh battery, a Snapdragon 8 Elite Gen 5 chip, a 200-megapixel main camera and an Armor Aluminum frame.",
-   "p2": "What reviewers found wrong: Tom’s Guide measured 1,806 nits peak against 1,860 for last year’s S25 Ultra, dimmer across the board even with privacy off, and listed narrower viewing angles, a camera bump that makes the phone wobble when laid flat, and still no Qi2 magnets.",
-   "deep": [
-    [
-     "The engineering",
-     "Samsung describes the feature as controlling the screen’s viewing angle to limit peripheral vision, and calls it the world’s first Privacy Display on mobile. TechRadar’s description: the panel has narrow and wide pixels, and in privacy mode the wide pixels turn off. It can be set for the whole screen or only for PINs, passwords and notification pop-ups, and per app."
-    ],
-    [
-     "What the lab found",
-     "Tom’s Guide measured 586 nits with Maximum Privacy on and 588 with it off, so the person holding the phone loses almost nothing. The whole panel, though, is dimmer than before: 1,209 nits in auto-brightness against 1,231 on the S25 Ultra, while Samsung rates it at up to 2,600 nits."
-    ],
-    [
-     "Complaints",
-     "By mid-March some owners were reporting blurry lettering, eye strain and headaches on Reddit; Tom’s Guide noted it was not clear how widespread the problem was, or whether it was the privacy feature or the panel itself. Samsung’s suggested fixes were dark mode, extra dim and Eye Comfort Shield."
-    ],
-    [
-     "The rest of the phone",
-     "TechRadar’s review calls it Samsung’s best Galaxy S phone yet but an iterative update, with no more titanium frame and no MagSafe-style magnets. Battery life in Tom’s Guide’s web test: 16 h 10 min, nearly two hours more than the S25 Ultra. Price $1,299.99."
-    ]
-   ],
-   "rel": [
-    "pocket",
-    "eddy",
-    "lace"
-   ],
-   "src": "TIME Best Inventions 2026 · Samsung spec page · Tom’s Guide review and lab tests, March 2026 · TechRadar review, 2 Mar 2026"
-  },
-  {
-   "id": "lace",
-   "dom": "sg",
-   "lab": "Singapore · AI engineer",
-   "art": "random",
-   "cap": "NTU built an AI that writes port-operations software in about an hour, for about S$12.70",
-   "num": "97–99%",
-   "nums": "how close LACE’s algorithms came to the best result from any method tested, on four new maritime problems",
-   "p1": "A new NTU system called LACE could cut the design of algorithms for complex scheduling, routing and resource-allocation problems from months to about an hour. Tested on four new maritime problems, its software scored 97 to 99 per cent against the best result obtained by any method tested, with runs taking about an hour and under US$10 (S$12.70) in computation fees per problem.",
-   "p2": "Why it matters here: Singapore runs one of the busiest ports on Earth, and deciding which ship berths where, and when, is exactly the kind of problem this is built for.",
-   "deep": [
-    [
-     "How it works",
-     "LACE stands for Large Language Model-driven Algorithm Construction via Complementary Evolution. LACE first breaks a problem into modular pieces, then uses a large language model to build and evolve a team of specialist rules whose strengths complement each other, keeping and refining the best portfolio."
-    ],
-    [
-     "Who built it",
-     "The work is led by Asst Prof Yan Ran and Research Fellow Dr Gong Huatian of NTU’s School of Civil and Environmental Engineering. The paper was published in Nature Machine Intelligence on 1 October 2026."
-    ],
-    [
-     "Versus Google",
-     "The team compared it with Google’s FunSearch, which, NTU says, failed completely to produce feasible algorithms or software for these problems. Dr Gong notes that traditional design of such software can take months and cost hundreds of thousands."
-    ],
-    [
-     "Test it yourself",
-     "Give a chatbot a small scheduling puzzle, three ships and two berths with different arrival times, and ask it for a rule rather than an answer. Then make a fourth ship arrive early and see whether the rule still holds."
-    ]
-   ],
-   "rel": [
-    "s26",
-    "ai17",
-    "nvs"
-   ],
-   "src": "NTU Singapore Research Hub, 8 Oct 2026 · Nature Machine Intelligence, doi 10.1038/s42256-026-01307-8",
-   "img": "https://www.ntu.edu.sg/media/images/librariesprovider108/hub-stories/prof-yan-and-dr-gong.jpg?sfvrsn=6e9ab727_3",
-   "credit": "Photo: NTU Singapore"
-  },
-  {
-   "id": "fade",
-   "dom": "try",
-   "lab": "Try it · Your eyes",
-   "art": "fade",
-   "cap": "Stare at the black dot: the blue blur beside it quietly vanishes. Move your eyes: back",
-   "num": "2.5 cm",
-   "nums": "the size of the paper dot in the Exploratorium’s version, seen through waxed paper until its edges blur",
-   "p1": "Look at the small black dot on this tile and keep your eyes and head perfectly still. The fuzzy blue patch next to it fades until it blends into the pink, and it comes back the moment you move your eyes. The Exploratorium’s Fading Dot snack does it with a 1-inch (2.5 cm) blue paper dot on pink paper under a sheet of waxed paper, lifted until the blue is very faint.",
-   "p2": "What is going on: your eyes make tiny jittering movements all the time, and each movement sends new information to the brain. A blurred edge changes so gradually that the jitter brings nothing new, so the brain stops reporting it. If the dot had a distinct border your eyes would immediately detect the change.",
-   "deep": [
-    [
-     "Why the rest stays sharp",
-     "Everything else on the page keeps its crisp edges, so every micro-movement refreshes it. Only the thing with no edge can slip away."
-    ],
-    [
-     "Fog",
-     "The Exploratorium notes a 2003 paper in the Proceedings of the International Joint Conference on Neural Networks reporting that moving cars seem to slow down in foggy conditions: low contrast reduces perceived speed."
-    ],
-    [
-     "Make your own",
-     "Cut a 2.5 cm blue dot, put it in the centre of a pink sheet, lay waxed paper on top and lift the waxed paper toward your face until the blue is just a faint smudge. Then fix your gaze beside it. Try other colour pairs."
-    ],
-    [
-     "Related",
-     "This is a cousin of the afterimage: both come from your visual system adapting to anything that does not change. The difference is that here nothing is burned in; the signal simply stops being reported."
-    ]
-   ],
-   "rel": [
-    "straw",
-    "eddy",
-    "gorge"
-   ],
-   "src": "Exploratorium Science Snacks: Fading Dot"
+   "credit": "Image: Advanced Space / Matt Bolliger, via NASA",
+   "big": 0
   },
   {
    "id": "whatsup",
@@ -425,157 +547,87 @@
    ],
    "rel": [
     "reentry",
-    "oxy",
-    "escapade"
+    "escapade",
+    "cme"
    ],
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
    "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
-   "credit": "Photo: NASA / Preston Dyches"
-  },
-  {
-   "id": "ai17",
-   "dom": "usingai",
-   "lab": "Using AI · Evidence",
-   "hot": 0,
-   "art": "ai17",
-   "cap": "The students who got their answers from AI scored 17% worse on the test",
-   "num": "–17%",
-   "nums": "on the exam, after working with a chatbot",
-   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, 48% more problems right. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
-   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
-   "deep": [
-    [
-     "The hint-only version was different",
-     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
-    ],
-    [
-     "What the researchers concluded",
-     "The problem was not AI. It was asking for the answer instead of asking for help. The researchers call the result a cautionary tale."
-    ],
-    [
-     "Try it on yourself",
-     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
-    ]
-   ],
-   "rel": [
-    "lace",
-    "s26",
-    "fade"
-   ],
-   "src": "PNAS, Bastani et al. 2025 · Wharton",
-   "big": 0
-  },
-  {
-   "id": "titan",
-   "dom": "space",
-   "lab": "Space · Titan",
-   "hot": 0,
-   "big": 0,
-   "art": "dragonfly",
-   "cap": "Your name can fly to Titan on NASA’s Dragonfly. The passenger list closes 15 January",
-   "num": "2034",
-   "nums": "the year Dragonfly arrives at Saturn’s moon Titan, after a launch scheduled for 2028",
-   "p1": "NASA is inviting the public to send their names aboard Dragonfly, a rotorcraft, and be part of the first science mission to fly and explore the surface of another world. The passenger list is open until 11:59 pm US Eastern time on 15 January 2027. Scheduled to launch in 2028, Dragonfly will travel to Titan, a world with a thick atmosphere, rivers and lakes of liquid methane, sweeping dunes and a landscape rich in organic material.",
-   "p2": "Why it matters to you: NASA’s sign-up is a web form called “Send Your Name to Titan”, and it issues a personalised digital boarding pass. The deadline in Singapore time is 12:59 pm on Saturday 16 January.",
-   "deep": [
-    [
-     "A rotorcraft on another moon",
-     "After arriving in 2034, Dragonfly will fly to different locations on the moon, exploring Titan’s diverse environments and searching for clues about prebiotic chemistry, the chemistry that came before biology, to help scientists better understand the ingredients and conditions for life."
-    ],
-    [
-     "Flying, not driving",
-     "NASA describes Titan as a remarkable world with a thick atmosphere, rivers and lakes of liquid methane, sweeping dunes and a landscape rich in organic material. Dragonfly will fly to different locations on the moon; NASA calls it the first science mission to fly and explore the surface of another world."
-    ],
-    [
-     "Who runs it",
-     "Dragonfly is the fourth mission in NASA’s New Frontiers Program, managed by NASA’s Marshall Space Flight Center in Huntsville, Alabama, for the agency’s Science Mission Directorate. Elizabeth Turtle of APL, the Johns Hopkins Applied Physics Laboratory, is the principal investigator."
-    ],
-    [
-     "The arithmetic of waiting",
-     "Sign up by January 2027, launch in 2028, arrive in 2034: your name spends about six years in flight. Add eight to your age now, and that is how old you will be when it lands."
-    ]
-   ],
-   "rel": [
-    "reentry",
-    "escapade",
-    "soraq"
-   ],
-   "src": "NASA release 26-091, 29 Oct 2026 (Jessica Taveau)",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/10/27-10097-01a-hero-image-16-9-v02.jpg",
-   "credit": "Image: NASA / Johns Hopkins APL"
-  },
-  {
-   "id": "straw",
-   "dom": "matter",
-   "lab": "Physics · Sound",
-   "art": "straw",
-   "cap": "Flatten a straw, snip two lips, blow: a buzzing oboe. Snip it shorter and the note climbs",
-   "num": "about 350 m/s",
-   "nums": "the speed of every sound wave in air, high note or low, according to the Exploratorium",
-   "p1": "Sound is a branch of mechanics, Feynman says, and so it is to be understood in terms of Newton’s laws: move something in the air and the air is compressed, a change of pressure is produced which pushes on additional air, and the disturbance travels. The Exploratorium’s Straw Oboe lets you hear the whole chain. Flatten one end of a plastic straw between your teeth, cut equal pieces from each side of the flattened end so the straw has two “lips”, seal your lips around it and blow, adjusting how hard you bite and blow until the straw sings.",
-   "p2": "Test it: snip the straw shorter and shorter with scissors. In a shorter straw the standing wave inside is shorter too, so the pitch is higher; in a longer straw the note is lower.",
-   "deep": [
-    [
-     "The reed",
-     "The bevelled lips act as a reed. When you blow, there is high pressure in your mouth; as air rushes through the straw, the pressure in the straw drops; the high pressure outside pushes the sides of the reed inward, closing off the flow; the pressure then builds inside and pops the reed open again."
-    ],
-    [
-     "Resonance",
-     "The sound is an example of resonance: when you vibrate something at its natural frequency, the vibrations build and grow more and more extreme. The straw resonates when the sound waves bouncing back and forth inside make a standing wave, and the exact note depends on the length of the straw."
-    ],
-    [
-     "Newton was wrong, Laplace was right",
-     "Newton argued that heat was conducted between regions so rapidly that the temperature could not rise or fall. Feynman: “This argument gives the isothermal speed of sound, and it is wrong.” Laplace put forward the opposite idea, that the changes are adiabatic, so compression raises the temperature, and the correct result followed: the speed of sound depends only on the gas temperature and not on the pressure or the density."
-    ],
-    [
-     "Going further",
-     "Slide a slightly larger straw onto the end and use it like a trombone. Speed equals wavelength times frequency: at about 350 metres per second, a 350-hertz note has a wavelength of one metre."
-    ]
-   ],
-   "rel": [
-    "eddy",
-    "fade",
-    "whatsup"
-   ],
-   "src": "The Feynman Lectures on Physics, Vol. I, ch. 47 · Exploratorium Science Snacks: Straw Oboe, Organ Pipe",
+   "credit": "Photo: NASA / Preston Dyches",
    "hot": 0,
    "big": 0
   },
   {
-   "id": "pocket",
+   "id": "s26",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
    "hot": 0,
-   "art": "ereader",
-   "cap": "A $99 e-reader 5.95 mm thin that magnets to the back of your phone. Catch: no Kindle app",
-   "num": "72 g",
-   "nums": "the weight of the Xteink X4 Pro, with a 4.3-inch, 219-ppi screen and an 1100 mAh battery",
-   "p1": "TIME put the Xteink X4 Pro on its Best Inventions of 2026 list on 15 October: an e-reader small enough to pocket that can magnetically snap to the back of a smartphone, now with a touchscreen, adjustable warm-and-cool front lighting and a larger battery. Xteink’s spec page: 4.3-inch screen at 219 ppi, 1100 mAh battery, 72 g, 111 × 69 × 5.95 mm, a 16 GB microSD card in the box (expandable to 256 GB), Wi-Fi 2.4 GHz and Bluetooth. There is no ebook storefront; its unlocked firmware means you upload your own EPUBs.",
-   "p2": "What reviewers found wrong: TechRadar’s James Rogerson, after a month, called the interface “ugly and clunky”; no Android means it can’t run the Kindle or Kobo apps, and it charges through what he calls a “slightly fiddly proprietary charger” (a pogo-pin port, per Xteink) rather than USB-C.",
+   "art": "privacy",
+   "cap": "A phone screen only its owner can read: two kinds of pixels, and the wide ones switch off",
+   "num": "1,806 nits",
+   "nums": "peak brightness measured by Tom’s Guide, against 1,860 on last year’s S25 Ultra: dimmer, even with privacy off",
+   "p1": "The Samsung Galaxy S26 Ultra made TIME’s Best Inventions of 2026 list as “a privacy-focused smartphone”. Its 6.9-inch display has two different kinds of pixels, narrow and wide; in privacy mode the wide pixels turn off, which limits what can be seen from the side, with no stick-on filter. Samsung lists it at 214 g, 7.9 mm thick, with a 5,000 mAh battery, a Snapdragon 8 Elite Gen 5 chip, a 200-megapixel main camera and an Armor Aluminum frame.",
+   "p2": "What reviewers found wrong: Tom’s Guide measured 1,806 nits peak against 1,860 for last year’s S25 Ultra, dimmer across the board even with privacy off, and listed narrower viewing angles, a camera bump that makes the phone wobble when laid flat, and still no Qi2 magnets.",
    "deep": [
     [
-     "The engineering choice",
-     "Rogerson’s guess for the proprietary charger: “presumably in an effort to keep this as small as possible”. Xteink’s own FAQ confirms a charging cable is not included in the box. The battery “seems long-lasting too”, he wrote; Xteink gives no hours figure, only 1100 mAh."
+     "The engineering",
+     "Samsung describes the feature as controlling the screen’s viewing angle to limit peripheral vision, and calls it the world’s first Privacy Display on mobile. TechRadar’s description: the panel has narrow and wide pixels, and in privacy mode the wide pixels turn off. It can be set for the whole screen or only for PINs, passwords and notification pop-ups, and per app."
     ],
     [
-     "Pixels",
-     "219 pixels per inch on a 4.3-inch screen; look up the ppi of your phone and compare. The screen is a front-lit panel with adjustable brightness and warm/cool light, and page turns work by tap, swipe or physical buttons."
+     "What the lab found",
+     "Tom’s Guide measured 586 nits with Maximum Privacy on and 588 with it off, so the person holding the phone loses almost nothing. The whole panel, though, is dimmer than before: 1,209 nits in auto-brightness against 1,231 on the S25 Ultra, while Samsung rates it at up to 2,600 nits."
     ],
     [
-     "The magnets",
-     "Rogerson: the magnets “weren’t strong enough to securely attach it to my phone while in a case”, and it can shift around and come loose in a pocket. He still called it “a pleasure to read books on”, and “thin enough that it doesn’t stick out much beyond the camera bump” of his iPhone."
+     "Complaints",
+     "By mid-March some owners were reporting blurry lettering, eye strain and headaches on Reddit; Tom’s Guide noted it was not clear how widespread the problem was, or whether it was the privacy feature or the panel itself. Samsung’s suggested fixes were dark mode, extra dim and Eye Comfort Shield."
     ],
     [
-     "Who it is for",
-     "Formats are EPUB and TXT, with JPG and BMP images. Because many bought ebooks need their DRM removed first, and new firmware must be flashed to get the most out of it, Rogerson “can’t really recommend this to the average ebook reader”. Price: $99 on Xteink’s site, down from a listed $129, though it was showing as sold out this weekend."
+     "The rest of the phone",
+     "TechRadar’s review calls it Samsung’s best Galaxy S phone yet but an iterative update, with no more titanium frame and no MagSafe-style magnets. Battery life in Tom’s Guide’s web test: 16 h 10 min, nearly two hours more than the S25 Ultra. Price $1,299.99."
     ]
    ],
    "rel": [
-    "s26",
-    "lace",
-    "ai17"
+    "cirqa",
+    "fade",
+    "herro"
    ],
-   "src": "TIME Best Inventions 2026, 15 Oct 2026 (Eliza Thompson) · Xteink spec page · TechRadar, 29 Aug 2026 (James Rogerson)",
+   "src": "TIME Best Inventions 2026 · Samsung spec page · Tom’s Guide review and lab tests, March 2026 · TechRadar review, 2 Mar 2026",
+   "big": 0
+  },
+  {
+   "id": "fade",
+   "dom": "try",
+   "lab": "Try it · Your eyes",
+   "art": "fade",
+   "cap": "Stare at the black dot: the blue blur beside it quietly vanishes. Move your eyes: back",
+   "num": "2.5 cm",
+   "nums": "the size of the paper dot in the Exploratorium’s version, seen through waxed paper until its edges blur",
+   "p1": "Look at the small black dot on this tile and keep your eyes and head perfectly still. The fuzzy blue patch next to it fades until it blends into the pink, and it comes back the moment you move your eyes. The Exploratorium’s Fading Dot snack does it with a 1-inch (2.5 cm) blue paper dot on pink paper under a sheet of waxed paper, lifted until the blue is very faint.",
+   "p2": "What is going on: your eyes make tiny jittering movements all the time, and each movement sends new information to the brain. A blurred edge changes so gradually that the jitter brings nothing new, so the brain stops reporting it. If the dot had a distinct border your eyes would immediately detect the change.",
+   "deep": [
+    [
+     "Why the rest stays sharp",
+     "Everything else on the page keeps its crisp edges, so every micro-movement refreshes it. Only the thing with no edge can slip away."
+    ],
+    [
+     "Fog",
+     "The Exploratorium notes a 2003 paper in the Proceedings of the International Joint Conference on Neural Networks reporting that moving cars seem to slow down in foggy conditions: low contrast reduces perceived speed."
+    ],
+    [
+     "Make your own",
+     "Cut a 2.5 cm blue dot, put it in the centre of a pink sheet, lay waxed paper on top and lift the waxed paper toward your face until the blue is just a faint smudge. Then fix your gaze beside it. Try other colour pairs."
+    ],
+    [
+     "Related",
+     "This is a cousin of the afterimage: both come from your visual system adapting to anything that does not change. The difference is that here nothing is burned in; the signal simply stops being reported."
+    ]
+   ],
+   "rel": [
+    "bluesky",
+    "grinch",
+    "cirqa"
+   ],
+   "src": "Exploratorium Science Snacks: Fading Dot",
+   "hot": 0,
    "big": 0
   }
  ]
