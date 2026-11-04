@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "tiles": [
   {
    "id": "after",
@@ -260,13 +260,14 @@
    "lab": "Using AI · Quote",
    "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
    "first": "2026-10-25",
-   "last": "2026-11-02",
+   "last": "2026-11-05",
    "editions": [
     "02b",
     "03",
     "03b",
     "07",
-    "10"
+    "10",
+    "13"
    ]
   },
   {
@@ -1609,12 +1610,13 @@
   {
    "id": "escapade",
    "first": "2026-11-03",
-   "last": "2026-11-04",
+   "last": "2026-11-05",
    "editions": [
     "11",
-    "12"
+    "12",
+    "13"
    ],
-   "cap": "Two fridge-sized probes skim Earth on Saturday evening, fire engines, and leave for Mars",
+   "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
    "lane": "space",
    "lab": "Space · Earth slingshot",
    "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)"
@@ -1720,10 +1722,11 @@
   {
    "id": "whatsup",
    "first": "2026-11-03",
-   "last": "2026-11-04",
+   "last": "2026-11-05",
    "editions": [
     "11",
-    "12"
+    "12",
+    "13"
    ],
    "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
    "lane": "space",
@@ -1793,9 +1796,10 @@
   {
    "id": "cirqa",
    "first": "2026-11-04",
-   "last": "2026-11-04",
+   "last": "2026-11-05",
    "editions": [
-    "12"
+    "12",
+    "13"
    ],
    "cap": "Garmin’s Cirqa is a fitness tracker with no screen at all: a 14.8 g puck on a fabric strap",
    "lane": "gadgets",
@@ -1829,9 +1833,10 @@
   {
    "id": "grinch",
    "first": "2026-11-04",
-   "last": "2026-11-04",
+   "last": "2026-11-05",
    "editions": [
-    "12"
+    "12",
+    "13"
    ],
    "cap": "Would a heart that grew three sizes make you strong? A python’s can swell 25% in a day",
    "lane": "life",
@@ -1849,6 +1854,138 @@
    "lane": "earth",
    "lab": "Earth · Hot ocean",
    "src": "NOAA National Centers for Environmental Information, Monitoring Global Temperature and Precipitation in September 2026 (9 Oct 2026)"
+  },
+  {
+   "id": "walk101",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "Tonight, 9:30 pm: two astronauts step out to fit the ISS’s last roll-out solar array",
+   "lane": "space",
+   "lab": "Space · Tonight, 9:30 pm",
+   "src": "NASA Space Station blog, 4 Nov 2026 (Mark A. Garcia) · NASA Space Station blog, 3 Nov 2026 (Mark A. Garcia)"
+  },
+  {
+   "id": "ozone",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "This year’s ozone hole was the 7th largest in 48 years. The layer is still healing",
+   "lane": "earth",
+   "lab": "Earth · Ozone hole",
+   "src": "NASA Earth Science News Team, 4 Nov 2026 (Sally Younger), with NOAA"
+  },
+  {
+   "id": "flare",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "A rocket gets about 5 minutes to observe. A new alert says when a solar flare is worth it",
+   "lane": "space",
+   "lab": "Space · Rocket timing",
+   "src": "NASA Science News blog, 4 Nov 2026 (Vanessa Thomas, NASA Goddard) · The Astrophysical Journal, 4 Nov 2026"
+  },
+  {
+   "id": "lhcb",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "LHCb at CERN has evidence of a one-in-ten-billion decay, hunted for more than 40 years",
+   "lane": "matter",
+   "lab": "Physics · Particles",
+   "src": "CERN news, 3 Nov 2026"
+  },
+  {
+   "id": "balance",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "Float a ping-pong ball on a hair dryer. Tilt the dryer: it stays. Now try it near a wall",
+   "lane": "matter",
+   "lab": "Physics · Moving air",
+   "src": "Exploratorium Science Snacks: Balancing Ball"
+  },
+  {
+   "id": "graystep",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "Two greys, one line. Cover the line with a pencil and they turn into the same grey",
+   "lane": "try",
+   "lab": "Try it · Your eyes",
+   "src": "Exploratorium Science Snacks: Gray Step"
+  },
+  {
+   "id": "lox",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "India is building a methane rocket engine. More than 70% of its parts are 3D-printed",
+   "lane": "space",
+   "lab": "India · Rocket engine",
+   "src": "ISRO, Development of LOX-Methane engine in ISRO, 16 Oct 2026"
+  },
+  {
+   "id": "haze6",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "Today’s PSI forecast is 51–80, moderate. Smoke was seen over south Kalimantan yesterday",
+   "lane": "sg",
+   "lab": "Singapore · Air today",
+   "src": "NEA Haze Situation Update, 4 Nov 2026 · NEA Haze Situation Update, 1 Nov 2026 · Meteorological Service Singapore weather outlook, 29 Oct – 15 Nov 2026"
+  },
+  {
+   "id": "wetware",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "At NUS, a rack of 20 computers runs on living neurons grown from stem cells",
+   "lane": "sg",
+   "lab": "Singapore · Living computers",
+   "src": "NUS Medicine news, 17 Aug 2026"
+  },
+  {
+   "id": "lego",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "A 2×4 Lego brick with a chip smaller than one stud, a synthesiser, and no screen anywhere",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Chris Stokel-Walker) · LEGO Group announcement, 5 Jan 2026, and “How we made the LEGO SMART Play system” · TechRadar, 7 Jan 2026 (Jacob Krol) · Tom’s Guide, 7 Jan 2026 (Kate Kozuch)"
+  },
+  {
+   "id": "introspect",
+   "first": "2026-11-05",
+   "last": "2026-11-05",
+   "editions": [
+    "13"
+   ],
+   "cap": "Researchers slipped a “thought” into an AI and asked if it noticed. 1 time in 5, it did",
+   "lane": "mind",
+   "lab": "Mind · Inside an AI",
+   "src": "Quanta Magazine, 4 Nov 2026 (Ben Brubaker)"
   }
  ]
 }
