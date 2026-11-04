@@ -1,33 +1,33 @@
 {
- "edition": 12,
+ "edition": 13,
  "level": "High school",
- "date": "2026-11-04",
- "dateLabel": "Wed 4 Nov 2026",
+ "date": "2026-11-05",
+ "dateLabel": "Thu 5 Nov 2026",
  "week": [
   {
-   "d": "TUE",
-   "t": "NASA: second spacewalk Thu 5 Nov, 8:30 am EST (9:30 pm SGT), fits the eighth and last roll-out solar array",
-   "id": "eva2"
+   "d": "WED",
+   "t": "NASA: mission managers give the go for Thursday’s spacewalk, 8:30 am EST (9:30 pm SGT), to fit the eighth and last roll-out array",
+   "id": "walk101"
+  },
+  {
+   "d": "WED",
+   "t": "NASA and NOAA: the 2026 ozone hole ranked 7th largest in 48 years, peaking at 27.1 million km² on 18 Sept",
+   "id": "ozone"
+  },
+  {
+   "d": "WED",
+   "t": "NEA: PSI forecast for Thursday 51–80 (Moderate); 24-hour PSI 60–69 at 5 pm",
+   "id": "haze6"
+  },
+  {
+   "d": "WED",
+   "t": "Quanta: a model flagged and named a “thought” injected into it in 20% of trials",
+   "id": "introspect"
   },
   {
    "d": "TUE",
-   "t": "ISRO: Aditya-L1’s VELC shows a 5 Aug 2024 solar eruption expanded lopsidedly, mapped in 3D from one spacecraft",
-   "id": "cme"
-  },
-  {
-   "d": "TUE",
-   "t": "NASA Earth Observatory: 25 named storms in the NW Pacific since April; Champi peaked near 300 km/h",
-   "id": "pacific"
-  },
-  {
-   "d": "TUE",
-   "t": "Science News Explores: a python’s heart can balloon up to 25% in a day; the Grinch’s would have collapsed",
-   "id": "grinch"
-  },
-  {
-   "d": "MON",
-   "t": "NASA: Swift expected to re-enter on Wednesday 4 Nov, 22 years after launch; risk to anyone 1 in 2,100",
-   "id": "reentry"
+   "t": "CERN: LHCb finds evidence, at 3.2 standard deviations, of a one-in-ten-billion decay",
+   "id": "lhcb"
   },
   {
    "d": "MON",
@@ -37,197 +37,526 @@
  ],
  "tiles": [
   {
-   "id": "eva2",
+   "id": "walk101",
    "dom": "space",
-   "lab": "Space · Tomorrow night",
+   "lab": "Space · Tonight, 9:30 pm",
    "hot": 1,
    "big": 1,
    "art": "eva",
-   "cap": "9:30 pm tomorrow: two astronauts unroll the last of eight new solar wings on the ISS",
-   "num": "160 → 215 kW",
-   "nums": "The station’s power-generating capacity before and after the roll-out arrays, a job begun in June 2021",
-   "p1": "The second and final spacewalk of this pair is scheduled to start at 8:30 am US Eastern time on Thursday 5 November, which is 9:30 pm in Singapore. Flight engineers Joshua Kutryk of the Canadian Space Agency and Anil Menon of NASA will install the eighth and final roll-out solar array on the station’s starboard truss. Jessica Watkins and Luke Delaney will help them into their suits, monitor the pair and operate the Canadarm2 robotic arm from inside.",
-   "p2": "Why now: the first walk of the pair, on 29 October, ran 7 hours 11 minutes; this one finishes a power upgrade that began in June 2021.",
+   "cap": "Tonight, 9:30 pm: two astronauts step out to fit the ISS’s last roll-out solar array",
+   "num": "about 7 hours",
+   "nums": "How long Joshua Kutryk and Anil Menon are due to spend outside the station",
+   "p1": "NASA said on Wednesday that mission managers have given the go. Joshua Kutryk of the Canadian Space Agency and Anil Menon of NASA are scheduled to begin their spacewalk at 8:30 am US Eastern time on Thursday 5 November, which is 9:30 pm in Singapore. They will spend about seven hours installing a roll-out solar array on the far end of the station’s starboard truss. NASA’s live coverage starts at 7 am on the same US clock, which is 8 pm in Singapore.",
+   "p2": "Why now: this is the eighth and final roll-out array. Fitting it completes the job, begun in June 2021, of raising the station’s power-generating capacity from 160 kilowatts to about 215 kilowatts.",
    "deep": [
     [
-     "The job",
-     "The new arrays unroll over the station’s original solar wings. Since June 2021 crews have been adding them to raise the station’s power-generating capacity from 160 kilowatts to about 215 kilowatts. The 29 October walk fitted the seventh array; Thursday’s is the eighth and last."
+     "The hand-off",
+     "Kutryk will make his way to the starboard truss and meet Menon, who will be carrying the roll-out array while attached to the Canadarm2 robotic arm. Menon hands the array to Kutryk, detaches himself from the arm and heads to the worksite. There Kutryk hands it back, and the pair finish the installation together."
     ],
     [
-     "Who is outside",
-     "For Kutryk, the 29 October walk was his first; for Menon it was his fourth. NASA counted it as US spacewalk 100 and the 285th spacewalk in support of station assembly, maintenance and upgrades."
+     "Same job, other side",
+     "NASA says the two will mostly repeat the installation tasks from their 29 October spacewalk, but on the opposite side of the station’s truss structure."
     ],
     [
-     "Watching it",
-     "NASA says live continuous coverage begins at 7 am on Thursday, US Eastern time, which is 8 pm in Singapore, with the walk itself due to start 90 minutes later. The first walk in the pair lasted 7 hours 11 minutes."
+     "Wednesday’s checklist",
+     "Kutryk and Menon readied their tools and staged their spacesuits inside the Quest airlock, then reviewed the procedures one more time. With NASA flight engineers Jessica Watkins and Luke Delaney they went over the robotic manoeuvres needed to support the spacewalk, and all four called down to mission controllers for a readiness conference. Flight engineer Sergey Teteryatnikov prepared the radiation detectors the spacewalkers will wear on their suits."
     ],
     [
-     "Meanwhile inside",
-     "A Dragon cargo ship is expected to return to Earth in mid-November packed with completed science experiments. In the Russian segment, station commander Pyotr Dubrov was installing Earth-observation gear and flight engineer Anna Kikina was transferring water from the Progress 96 cargo craft."
+     "Inside tonight",
+     "Watkins and Delaney will help the pair in and out of their spacesuits, monitor them and operate Canadarm2. On Wednesday the science went on as well: Kutryk inspected station water samples for microbial growth, Watkins collected bacteria from station surfaces to be analysed for resistance to antibiotics, and Delaney processed human lung cells to test their ability to grow in microgravity."
     ]
    ],
    "rel": [
-    "reentry",
+    "flare",
     "escapade",
-    "whatsup"
+    "lox"
    ],
-   "src": "NASA Space Station blog, 3 Nov 2026 (Mark A. Garcia) · NASA Space Station blog, 29 Oct 2026 (Mark A. Garcia)",
-   "img": "https://images-assets.nasa.gov/image/iss075e0253663/iss075e0253663~large.jpg",
-   "credit": "Photo: CSA / NASA"
+   "src": "NASA Space Station blog, 4 Nov 2026 (Mark A. Garcia) · NASA Space Station blog, 3 Nov 2026 (Mark A. Garcia)",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526.jpg",
+   "credit": "Photo: NASA"
   },
   {
-   "id": "cme",
-   "dom": "space",
-   "lab": "India · The Sun in 3D",
-   "hot": 1,
-   "big": 0,
-   "art": "corona",
-   "cap": "India’s Aditya-L1 caught a solar eruption that did not grow like a bubble. It was lopsided",
-   "num": "1.05–1.5",
-   "nums": "Solar radii from the Sun’s centre: the ring of corona shown by VELC, Aditya-L1’s coronagraph, in ISRO’s image of the eruption",
-   "p1": "ISRO reported on 3 November that a coronal mass ejection observed on 5 August 2024 did not expand outward from the Sun like a simple symmetric bubble, as previously thought. Instead it underwent non-uniform expansion and developed an asymmetric shape. The result comes from VELC, the Visible Emission Line Coronagraph on Aditya-L1, India’s Sun-watching spacecraft, in work by the Indian Institute of Astrophysics in Bengaluru.",
-   "p2": "Why it matters: a CME aimed at Earth can disrupt satellites and communications, and whether it expands evenly changes how the solar wind drags on it, so when it arrives.",
-   "deep": [
-    [
-     "What a CME is",
-     "A coronal mass ejection is a massive burst of hot, magnetised plasma released from the Sun’s outer atmosphere. Most coronagraphs can only image it in two dimensions, as motion across the sky."
-    ],
-    [
-     "The speed-gun trick",
-     "VELC uses Doppler spectroscopy, which ISRO says works on the same principle as traffic speed guns. During the 5 August 2024 CME it detected two Doppler-shifted branches on opposite sides of the normal coronal emission line: plasma coming toward the observer and plasma moving away, in the same eruption."
-    ],
-    [
-     "Why lopsided",
-     "A symmetrically expanding CME shell could not reproduce the observed spectral pattern. Once the team’s three-dimensional model added asymmetric sideways expansion and a tilt, the simulated spectra matched the VELC observations."
-    ],
-    [
-     "One spacecraft, three dimensions",
-     "Working out a CME’s 3D shape normally needs several spacecraft looking from different angles. The authors say this shows VELC can constrain the three-dimensional geometry of an eruption from a single vantage point. The paper, by Saurabh Tripathi, Tanmoy Samanta and Jayant Joshi, is in The Astrophysical Journal Letters."
-    ]
-   ],
-   "rel": [
-    "eva2",
-    "septemp",
-    "whatsup"
-   ],
-   "src": "ISRO, 3 Nov 2026 · Indian Institute of Astrophysics, Bengaluru · The Astrophysical Journal Letters",
-   "img": "https://www.isro.gov.in/media_isro/image/index/Latest/shot1.png.webp",
-   "credit": "Image: ISRO / IIA, Aditya-L1 VELC, with NASA SDO/AIA"
-  },
-  {
-   "id": "pacific",
+   "id": "ozone",
    "dom": "earth",
-   "lab": "Earth · Typhoon year",
+   "lab": "Earth · Ozone hole",
    "hot": 1,
    "big": 0,
-   "art": "cyclone",
-   "cap": "25 named storms on, the Pacific is still churning: a super typhoon and a parade of storms",
-   "num": "~300 km/h",
-   "nums": "Typhoon Champi’s maximum sustained winds, nearly 185 mph, before its remnants reached Alaska",
-   "p1": "NASA’s Earth Observatory says tropical cyclone activity in the Northwest Pacific has been elevated since April 2026, when Sinlaku surged to super typhoon strength and battered Micronesia, Guam and the Northern Mariana Islands. Twenty-five named storms later, the basin still hummed with activity in late October. On 29 October the EPIC camera on the DSCOVR satellite caught Super Typhoon In-fa near the Mariana Islands while the remnants of Typhoon Champi approached Alaska amid a parade of storms moving across the Bering Sea.",
-   "p2": "Why: a strong El Niño is under way in the Pacific, a likely contributor, and El Niño shifts storms toward Guam, the Northern Marianas, Japan and the Korean Peninsula.",
+   "art": "nino",
+   "cap": "This year’s ozone hole was the 7th largest in 48 years. The layer is still healing",
+   "num": "27.1 million km²",
+   "nums": "The hole’s greatest one-day extent this year, reached on 18 September",
+   "p1": "NASA and NOAA reported on 4 November that the 2026 Antarctic ozone hole ranked seventh largest by area in 48 years of monitoring. From 7 September to 13 October, the peak of the depletion season, it averaged about 25 million square kilometres. Yet the ozone layer remains on track for long-term recovery, and this hole was not as deep as other large holes on record.",
+   "p2": "Why that is not bad news: Paul Newman, a University of Maryland, Baltimore County scientist who has long led NASA’s ozone research team, says the hole could have been 1 to 2 million square miles larger if ozone-depleting substances were as prevalent in the atmosphere today as they were at their peak in 2000.",
    "deep": [
     [
-     "A rare shape",
-     "In-fa showed traits of an annular storm: these typically lack the prominent outer spiral rainbands. Annular storms are rare, just 4 percent of tropical cyclones in the western North Pacific, and their eyes average about 45 kilometres across."
+     "Why so big",
+     "An unusually powerful polar vortex, in Newman’s words. The vortex helps create the cold conditions that let chlorine and bromine from human-made compounds destroy ozone. Amy Butler of NOAA’s Chemical Sciences Laboratory says the planetary-scale weather systems that usually rise from the lower atmosphere and break the vortex up were especially weak in August and September, which kept its strongest winds several degrees of latitude further from the pole and made the area ideal for depletion larger."
     ],
     [
-     "Champi",
-     "Champi reached maximum sustained winds of nearly 300 kilometres per hour. It narrowly skirted Taiwan and Guam but still brought damaging winds and intense rain to both, and to parts of China and Japan."
+     "Wide, not deep",
+     "Scientists define the hole as the area where ozone falls below 220 Dobson units. NOAA scientists using balloon-borne instruments from the South Pole Baseline Atmospheric Observatory found the lowest value directly overhead this year was 105 Dobson units, on 17 October. The lowest ever recorded over the South Pole was 92, in October 2006."
     ],
     [
-     "Typhoons in Alaska",
-     "Champi is the fourth ex-typhoon to enter Alaskan waters this year, after Bang-Lang in August, Dujuan in September and Choi-wan in early October. Roughly 60 ex-typhoons have affected the state since 1970; the autumns of 1997 and 2015, both very strong El Niño years, had three each."
+     "The healing",
+     "Under the Montreal Protocol of 1987, countries committed to replacing ozone-depleting substances. NOAA’s Stephen Montzka says chlorine from those substances in the Antarctic stratosphere has declined from its peak by about a third relative to 1980s levels. Newman adds that the hole has been forming later in the season in recent years, which is a sign of healing. Scientists estimate it will recover by the 2070s."
     ],
     [
-     "Fifth for the Marianas",
-     "In-fa is the fifth typhoon to affect the Mariana Islands this year. El Niño emerges roughly every two to seven years and changes where Pacific storms form and travel."
+     "Earth’s sunscreen",
+     "Ozone in the stratosphere helps shield life from harmful solar radiation; ozone at ground level is a different matter, an air pollutant. The old compounds were once widely used in refrigerators, air conditioners and building insulation, and can linger in the atmosphere or leach out of old products and landfills for many decades. Satellites have tracked the layer since 1979."
     ]
    ],
    "rel": [
-    "septemp",
-    "cme",
+    "haze6",
+    "flare",
     "whatsup"
    ],
-   "src": "NASA Earth Observatory, 3 Nov 2026 (story by Adam Voiland, images by Michala Garrison)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-pacific's-busy-storm-season/storminfa_epic_20261029_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA Earth Observatory / Michala Garrison, DSCOVR EPIC"
+   "src": "NASA Earth Science News Team, 4 Nov 2026 (Sally Younger), with NOAA",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/articles/2026/ozone_geos5_20260918_hires.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / Lauren Dauphin"
   },
   {
-   "id": "bluesky",
-   "dom": "matter",
-   "lab": "Physics · Light",
+   "id": "flare",
+   "dom": "space",
+   "lab": "Space · Rocket timing",
    "hot": 0,
    "big": 0,
-   "art": "bluesky",
-   "cap": "Make a sunset in a jar: shine a torch through milky water and the far end turns orange",
-   "num": "×10",
-   "nums": "Blue light is scattered roughly ten times more than red by the molecules of the air",
-   "p1": "Fill a clear container with water, shine a torch through it from one end, and add milk a few drops at a time until the beam shows. From the side the beam looks bluish-white; from the end it looks yellow-orange. You have made the sky and a sunset in one jar: the milk makes the beam visible, and the light scatters the way sunlight does off air molecules, with short blue wavelengths scattered far more than long red ones.",
-   "p2": "Why it matters: the scattered blue is what you see when you look up; the red that was not scattered keeps going straight, and that is a sunset.",
+   "art": "stack",
+   "cap": "A rocket gets about 5 minutes to observe. A new alert says when a solar flare is worth it",
+   "num": "5 minutes",
+   "nums": "About how long a sounding rocket can observe before it falls back to Earth",
+   "p1": "Sounding rockets are a relatively fast, inexpensive way to catch the light from solar flares that our atmosphere absorbs. But they get only about five minutes to observe before falling back, and a flare can fade just as quickly. Launching at one is a gamble, because typical alert systems cannot say whether the flare will still be there when the rocket reaches space. A team has now built an alert that pinpoints a flare’s location and predicts how long it will last, within minutes of spacecraft detecting it.",
+   "p2": "Why now: the system is described in a paper published on 4 November in The Astrophysical Journal. NASA says it let scientists use sounding rockets on a solar flare in progress for the first time.",
    "deep": [
     [
-     "Why blue",
-     "Sunlight is white light holding every colour, each with its own wavelength. As it crosses the atmosphere it collides with gas molecules and is scattered, and shorter wavelengths scatter more: the Exploratorium puts blue at approximately ten times red. Violet scatters even more, but the Sun emits much less violet, so the sky looks blue."
+     "Alaska, twice",
+     "In April 2024 the alert helped two teams coordinate the launch of two rockets from Alaska and catch a flare before it disappeared. On 14 May 2026 the team used an enhanced version to launch a Black Brant IX rocket from Poker Flat Research Range near Fairbanks at 11:23 am local time. Its instrument, FOXSI-5, the fifth Focusing Optics X-ray Solar Imager, observed three small flares during the flight."
     ],
     [
-     "Why orange",
-     "At sunset the light travels a longer path through the atmosphere, so most of the blue is scattered out before it reaches you and what is left looks reddish orange. In the jar, the far end of the beam is the sunset: add enough milk and you can watch the beam shift from blue-white to yellow-orange along its length."
+     "What it watches",
+     "The system analyses X-ray and ultraviolet emission from active regions, the magnetically complex areas on the Sun that produce flares. The observations come from NASA’s Solar Dynamics Observatory, NOAA’s GOES satellites and observatories on the ground."
     ],
     [
-     "The test",
-     "Hold a white card at the far end of the container to catch the orange spot on it. If you have added enough milk, you can see the beam itself shift from blue-white to yellow-orange along its length."
-    ],
-    [
-     "Going further",
-     "Scattering polarises light, because light is a transverse wave. Put a lens from polarised sunglasses between torch and jar and rotate it: a friend watching from the top sees the beam brighten as you, watching from the side, see it dim, and the other way round."
+     "Why flares matter",
+     "Solar flares accelerate particles and release energy into the solar system, which can affect Earth and its technologies. NASA says the same early warning could support future rocket campaigns, solar observatories and space weather forecasting."
     ]
    ],
    "rel": [
-    "fade",
-    "moonfall",
-    "pacific"
+    "walk101",
+    "lox",
+    "whatsup"
    ],
-   "src": "Exploratorium Science Snacks: Blue Sky (Exploratorium Teacher Institute)",
-   "img": "https://www.exploratorium.edu/sites/default/files/BlueSky_DSC_8209_H.jpg",
+   "src": "NASA Science News blog, 4 Nov 2026 (Vanessa Thomas, NASA Goddard) · The Astrophysical Journal, 4 Nov 2026",
+   "img": "https://assets.science.nasa.gov/content/dam/science/hpd/sounding-rockets/FOXSI5-rocket-launch.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: Poker Flat Research Range, via NASA"
+  },
+  {
+   "id": "lhcb",
+   "dom": "matter",
+   "lab": "Physics · Particles",
+   "hot": 1,
+   "big": 0,
+   "art": "lhc",
+   "cap": "LHCb at CERN has evidence of a one-in-ten-billion decay, hunted for more than 40 years",
+   "num": "1 in 10 billion",
+   "nums": "How rare the Bd decay into two muons is predicted to be, counted among beauty-particle decays",
+   "p1": "At a seminar at CERN on Tuesday 3 November, the LHCb collaboration announced evidence that a particle made of a beauty quark and a down antiquark, known as Bd, can decay into a pair of muons. LHCb is the first to find such evidence using the data of a single experiment. If it is confirmed, CERN says, this would be the rarest beauty-particle decay ever observed.",
+   "p2": "A number to check yourself: the related decay of the Bs particle into two muons happens only around three times in every billion beauty-particle decays, and the Bd version is predicted to be about thirty times rarer. Divide it out and you get one in ten billion.",
+   "deep": [
+    [
+     "Evidence, not yet discovery",
+     "Physicists rate a result in standard deviations. Three of them count as “evidence” and correspond to just a 0.3% chance that the signal occurred randomly. LHCb’s data from 2024 and 2025 showed the decay at 3.0 standard deviations; adding the data collected between 2011 and 2018 raised that to 3.2. The aim now is 5."
+    ],
+    [
+     "Forty years",
+     "“Physicists have been chasing this decay for more than forty years,” said Marco Santimaria, who co-led the 19-person international analysis team. In 2015 a joint analysis by LHCb and CMS made the first observation of the Bs decay and claimed first evidence for the Bd one, but later updates using data up to 2018 did not confirm it."
+    ],
+    [
+     "Why it showed up now",
+     "In 2024 a major upgrade let LHCb collect data at five times the rate it achieved between 2010 and 2018. Santimaria says extreme precision is needed to pick the muons out of the overwhelming background."
+    ],
+    [
+     "Why anyone cares",
+     "CERN says the new result places limits on possible new particles beyond the Standard Model. The start-up of the HiLumi LHC in 2030 and a planned LHCb upgrade in the middle of the next decade could raise the rate of data collection by another order of magnitude."
+    ]
+   ],
+   "rel": [
+    "balance",
+    "introspect",
+    "flare"
+   ],
+   "src": "CERN news, 3 Nov 2026",
+   "img": "https://home.cern/wp-content/uploads/2026/11/LHCb-image.jpg",
+   "credit": "Photo: CERN"
+  },
+  {
+   "id": "balance",
+   "dom": "matter",
+   "lab": "Physics · Moving air",
+   "hot": 0,
+   "big": 0,
+   "art": "balance",
+   "cap": "Float a ping-pong ball on a hair dryer. Tilt the dryer: it stays. Now try it near a wall",
+   "p1": "Point a hair dryer straight up and balance a table-tennis ball in the stream of air. Now pull the ball slowly sideways. When only half of it is out of the flow you can feel it being sucked back in; let go and it wobbles, then settles near the centre of the stream. Tilt the stream to one side and the ball can still be suspended.",
+   "p2": "The test: balance the ball, then move dryer and ball toward a wall (try the corner of a room). The Exploratorium says to expect a great increase in the height of the ball.",
+   "deep": [
+    [
+     "What holds it up",
+     "The upward air hits the bottom of the ball and slows down, making a region of higher pressure. That pressure holds the ball up against gravity. Near a wall the region under the ball reaches even higher pressure, which is why the ball climbs."
+    ],
+    [
+     "What pulls it back",
+     "When the ball is partly out of the stream, air flows around the curve nearest the centre and arcs over the top, so it leaves heading outward. By Newton’s law of action and reaction, air thrown outward pushes the ball inward. Dangle a strip of tissue paper above the ball and you can find the deflected stream."
+    ],
+    [
+     "A second way to see it",
+     "Pull the ball far enough out and air flows over one side only, and speeds up there because the middle of the ball sticks further into the stream. The Bernoulli principle says that where air speeds up, its pressure drops. The difference in pressure between the still air and the moving air pushes the ball back in."
+    ],
+    [
+     "Wings",
+     "The Exploratorium uses the ball to explain flight: aeroplanes fly because their wings throw air downward, and the air pushes the wing up. It also calls one popular explanation “not true”: the idea that air over the curved top of a wing must go faster so as to meet up again with the air from underneath at the far end of the wing. As a rule, it says, the two do not rejoin."
+    ]
+   ],
+   "rel": [
+    "lhcb",
+    "graystep",
+    "lox"
+   ],
+   "src": "Exploratorium Science Snacks: Balancing Ball",
+   "img": "https://www.exploratorium.edu/sites/default/files/BalancingBall_DSC_4401_H1.jpg",
    "credit": "Photo: Exploratorium"
   },
   {
-   "id": "moonfall",
-   "dom": "space",
-   "lab": "Physics · Gravity",
+   "id": "graystep",
+   "dom": "try",
+   "lab": "Try it · Your eyes",
    "hot": 0,
    "big": 0,
-   "art": "moonfall",
-   "cap": "The Moon is falling. Every second it drops about 1/20 of an inch, and keeps missing Earth",
-   "num": "1/3600",
-   "nums": "How much weaker gravity is at the Moon, 60 times farther from Earth’s centre than we are: 1 over 60 squared",
-   "p1": "Feynman’s arithmetic: an object dropped near the Earth’s surface falls 16 feet in its first second. The Moon is 240,000 miles away, 60 times as far from the Earth’s centre as we are, and Newton’s law says gravity weakens with the square of the distance, so the Moon should fall only 1/3600 of 16 feet each second, which is roughly 1/20 of an inch. Measure how far the Moon’s orbit curves away from a straight line in one second and you get the same 1/20 of an inch.",
-   "p2": "Why it feels wrong: the Moon never gets any closer. It falls, Feynman says, in the sense that it falls away from the straight line it would follow if there were no forces.",
+   "art": "graystep",
+   "cap": "Two greys, one line. Cover the line with a pencil and they turn into the same grey",
+   "num": "100 million+ → 1 million+",
+   "nums": "More than a hundred million light-detecting rods and cones in the retina, and over a million neurons leading to the brain",
+   "p1": "Look at the two grey panels on this tile: one looks a shade darker than the other. Now cover the line where they meet with a pencil or the side of your hand. Most people then see a single, uniform grey. Lift it away and the two shades come back.",
+   "p2": "What is going on: the two panels are actually the same. Each one is graduated, dark at its right edge and lighter toward the left. Where they meet, the darkest part of one sits against the lightest part of the other, and that edge is what your eyes report.",
    "deep": [
     [
-     "The 27-day clock",
-     "The Moon goes around the Earth in approximately 27 days. From the size of its orbit and that period you can work out how far it deviates from a straight line in one second: roughly 1/20 of an inch."
+     "Edges, not levels",
+     "In general your brain ignores slight gradations in grey, so with the edge hidden the two regions look like the same uniform shade. It is not that your eyes lack the sensitivity: a sensitive light meter would show that the different shades reflect different amounts of light to your eyes. Your visual system is simply most sensitive to changes in brightness and colour."
     ],
     [
-     "Newton’s near miss",
-     "Newton first found a discrepancy so large that he regarded the theory as contradicted by the facts. Later a new measurement of the size of the Earth showed that astronomers had been using an incorrect distance to the Moon; with the right number the calculation gave beautiful agreement."
+     "Lateral inhibition",
+     "The retina has more than a hundred million rods and cones, but only over a million neurons lead to the brain, so the information is condensed on the way. The eye-brain system also sharpens edges: when one region of the retina is stimulated by light, sideways connections turn down the sensitivity of the regions next to it. The effect is that a dark region beside a light one looks even darker, and the light one lighter. It is called lateral inhibition."
     ],
     [
-     "A number that is deep",
-     "Compare gravity with electricity: the gravitational attraction between two electrons, relative to their electrical repulsion, is 1 divided by 4.17 × 10⁴². Feynman: this fantastic number is a natural constant, so it involves something deep in nature."
+     "Why covering it works",
+     "With the boundary covered, the two different greys are spread apart across your retina and no longer fall on neighbouring regions. Lateral inhibition has nothing to compare, and the eye-brain system judges the two sides to be the same."
     ],
     [
-     "What gravity is",
-     "Feynman is blunt: no one has since given any machinery behind the law of gravity. The law says what gravity does, and why mathematics can describe nature without a mechanism behind it, he says, no one knows."
+     "Catch a doubter",
+     "If someone insists they can still tell which side is darker with the line covered, turn the picture round when they are not looking and ask again. On paper, the Exploratorium suggests punching two holes in a white sheet, about as far apart as one panel is wide, and sliding it across: the two grey circles seen through the holes always match."
     ]
    ],
    "rel": [
-    "bluesky",
-    "eva2",
+    "balance",
+    "grinch",
+    "introspect"
+   ],
+   "src": "Exploratorium Science Snacks: Gray Step"
+  },
+  {
+   "id": "lox",
+   "dom": "space",
+   "lab": "India · Rocket engine",
+   "hot": 1,
+   "big": 0,
+   "art": "gagan",
+   "cap": "India is building a methane rocket engine. More than 70% of its parts are 3D-printed",
+   "num": "1,100 kN",
+   "nums": "Thrust of the LME1100 engine, which ISRO wants ready for hot tests by the middle of next year",
+   "p1": "ISRO reports that on 9 October 2026 it carried out the first ignition test of the full-scale gas generator for LME1100, a new engine of 1,100 kilonewtons of thrust that burns liquid oxygen and methane. ISRO has picked this kind of engine as the primary propulsion for its Next Generation Launch Vehicle. More than 70% of LME1100’s components have been made by additive manufacturing, or 3D printing, with partners in industry.",
+   "p2": "Why methane: ISRO lists clean combustion, low maintenance, which helps when a rocket is to be reused, and the fact that methane could be synthesised on Mars from carbon dioxide and water ice.",
+   "deep": [
+    [
+     "Three sizes",
+     "Vikas, which ISRO calls its workhorse liquid engine and which flies on PSLV, GSLV and LVM3, gives 800 kN. LME1100 gives 1,100 kN. ISRO says the design of a 2,400 kN oxygen-methane engine is completed too, meant for a future heavy-lift, human-rated rocket for the Indian crewed lunar landing targeted for 2040."
+    ],
+    [
+     "How it began",
+     "ISRO started on oxygen-methane engines in 2019. A technology demonstrator, LM20-TD, of 20 tonnes thrust, was put together in 2019–2020 from subsystems of the CE-20 engine, which burns liquid hydrogen, with changes to the propellant flow control and start-up systems. One cold flow test and five hot tests were carried out successfully."
+    ],
+    [
+     "Parts on the test stand",
+     "Development of LME1100’s key technologies formally began in 2023: turbopumps, igniter, gas generator and thrust chamber. A 3D-printed liquid-oxygen pump impeller has been spun up to its rated operating speed, a smaller-scale thrust chamber has been through a hot test campaign, and a series of similar gas generator tests is planned."
+    ],
+    [
+     "Lighting it",
+     "ISRO has tested spark torch igniters in oxidiser-rich and fuel-rich versions, developed a semiconductor-based spark plug igniter, and demonstrated a laser-based ignition system that lit gaseous oxygen with hydrogen and with methane. The integrated engine is targeted to be ready by the middle of next year for hot tests, including thrust throttling."
+    ]
+   ],
+   "rel": [
+    "walk101",
+    "flare",
     "escapade"
    ],
-   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 7: The Theory of Gravitation (Caltech)"
+   "src": "ISRO, Development of LOX-Methane engine in ISRO, 16 Oct 2026",
+   "img": "https://www.isro.gov.in/media_isro/image/index/Latest/Hot_test_of_technology_demontrator_engine_LM20-TD.webp",
+   "credit": "Photo: ISRO"
+  },
+  {
+   "id": "haze6",
+   "dom": "sg",
+   "lab": "Singapore · Air today",
+   "hot": 0,
+   "big": 0,
+   "art": "haze",
+   "cap": "Today’s PSI forecast is 51–80, moderate. Smoke was seen over south Kalimantan yesterday",
+   "num": "60–69",
+   "nums": "The 24-hour PSI across Singapore at 5 pm on Wednesday 4 November, in the Moderate range",
+   "p1": "NEA’s update on Wednesday 4 November puts the PSI forecast for Thursday 5 November at 51–80, Moderate. At 5 pm on Wednesday the 1-hour PM2.5 readings were 17–45 micrograms per cubic metre, in Band 1 (Normal), and the 24-hour PSI was 60–69. Some showers fell over parts of northern, eastern and western Singapore.",
+   "p2": "Why it is holding: from Thursday to Saturday the winds are expected to be generally light and variable, with showers forecast over Sumatra, Kalimantan, Singapore and the surrounding region. NEA says this would limit the transport of smoke haze toward Singapore.",
+   "deep": [
+    [
+     "Where the smoke is",
+     "Moderate to dense smoke plumes were observed in southern Kalimantan on Wednesday. NEA adds two cautions about its satellite map: areas with lighter haze are not marked because they cannot be clearly made out, and cloud cover hid the full extent of the hotspots and smoke."
+    ],
+    [
+     "Two numbers, two jobs",
+     "NEA says the PSI forecast and its health advisories are for planning the next day’s outdoor activities. For going out right now, the number to check is the 1-hour PM2.5 reading."
+    ],
+    [
+     "Against Sunday",
+     "On Sunday 1 November, at the same hour, the 24-hour PSI was 71–89. Three days later it was 60–69. Both are in the Moderate range, but the direction is down."
+    ],
+    [
+     "The fortnight",
+     "The Meteorological Service expects moderate to heavy thundery showers over parts of the island in the afternoon on most days of the first fortnight of November, with total rainfall slightly above the long-term average over most of the island. Daily highs should be 33 to 35 °C on most days and could slightly exceed 35 °C on a few. Between 16 and 28 October, air quality reached Unhealthy levels on seven days and Very Unhealthy on three."
+    ]
+   ],
+   "rel": [
+    "ozone",
+    "wetware",
+    "whatsup"
+   ],
+   "src": "NEA Haze Situation Update, 4 Nov 2026 · NEA Haze Situation Update, 1 Nov 2026 · Meteorological Service Singapore weather outlook, 29 Oct – 15 Nov 2026",
+   "img": "https://www.nea.gov.sg/images/default-source/haze-situation-2026/hazehotspots_041126.png",
+   "credit": "Image: NEA"
+  },
+  {
+   "id": "wetware",
+   "dom": "sg",
+   "lab": "Singapore · Living computers",
+   "hot": 0,
+   "big": 0,
+   "art": "neuron",
+   "cap": "At NUS, a rack of 20 computers runs on living neurons grown from stem cells",
+   "num": "20 units",
+   "nums": "CL1 biological computers in what the announcement calls the first independently operated biologically integrated server rack in the world",
+   "p1": "NUS Medicine has partnered with DayOne, a Singapore-headquartered data centre developer, and Cortical Labs, a biological computing startup from Melbourne, to set up a Biological Data Centre prototype at the NUS Life Sciences Institute. It runs on what the announcement calls wetware: living neurons derived from stem cells, used to process information and support AI systems. On 6 August 2026 more than 80 guests watched a live demonstration of the units, their microelectrode arrays and real-time neural network activity.",
+   "p2": "Why here: NUS describes the prototype as a milestone in DayOne and Cortical Labs’ ambition to develop Singapore’s first large-scale Biological Data Centre, the first of its kind outside Australia.",
+   "deep": [
+    [
+     "Why bother",
+     "The claim is efficiency. NUS says the brain-like organoids used in biological computing can operate on only a fraction of the power that digital computers require. The announcement gives no figures for that, so it is a claim to keep an eye on."
+    ],
+    [
+     "Who grows the cells",
+     "The cells will be cultured and grown under the supervision of Professor Rickie Patani, Professor of Neuroscience at NUS Medicine and Director of the Neurobiology Programme at the NUS Life Sciences Institute. He calls it a real route to accelerate drug discovery and research into neurological disease."
+    ],
+    [
+     "What it might be for",
+     "Hon Weng Chong, founder and chief executive of Cortical Labs, says the prototype shifts the conversation from research to commercial application. He lists drug discovery, humanoid robotics, cybersecurity and fraud detection as areas of use."
+    ]
+   ],
+   "rel": [
+    "introspect",
+    "haze6",
+    "lego"
+   ],
+   "src": "NUS Medicine news, 17 Aug 2026",
+   "img": "https://medicine.nus.edu.sg/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-12-at-8.44.39-AM.webp",
+   "credit": "Photo: NUS Medicine"
+  },
+  {
+   "id": "lego",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 0,
+   "big": 0,
+   "art": "brick",
+   "cap": "A 2×4 Lego brick with a chip smaller than one stud, a synthesiser, and no screen anywhere",
+   "num": "about 40 minutes",
+   "nums": "Play time: around 40 minutes of continuous play (TechRadar), up to about 40 minutes of active play (Tom’s Guide). It sleeps until shaken",
+   "p1": "TIME’s Best Inventions 2026 list includes Lego Smart Play. At its heart is the Smart Brick, run by a custom chip that Lego says is smaller than a standard Lego stud. Lego’s announcement lists what is packed in with it: accelerometers, light sensing, a sound sensor, a miniature speaker driven by an onboard synthesiser, and wireless charging. Lego counts more than twenty patented world-firsts in the system. It set the launch for 1 March 2026, in Star Wars sets, and the play needs no screens.",
+   "p2": "Why TIME picked it: the sensors detect nearby tagged objects and minifigures, then trigger sound and light responses.",
+   "deep": [
+    [
+     "One coil, two jobs",
+     "To avoid wires and keep the size down, Lego says, the bricks charge through a coil, like the one in an electric toothbrush. Lego says it then realised the same coil could detect Smart Tags, and that with several coils the brick would know which tag was closest to which coil. From that it built a positioning system: each brick knows where nearby bricks, tags and minifigures are in relation to itself, and whether it is being twisted, swung or thrown."
+    ],
+    [
+     "What a tag is",
+     "A Smart Tag, Lego says, tells the brick how to mimic the sounds of different vehicles, spaceships, animals, characters and effects. Tom’s Guide describes the tags as square studs with RFID chips inside, and says the minifigures carry a tag of their own. Lego calls the result a synthetic soundscape: a few sounds are broken down to basics, then their frequencies and amplitude are adjusted to give drastically different results."
+    ],
+    [
+     "What reviewers found wrong",
+     "Tom’s Guide’s Kate Kozuch (7 January 2026) points out that the brick does nothing on its own, since it needs instructions to come alive, and that it adds cost to Star Wars sets that are already among the most expensive Lego builds; adult collectors, she writes, can feel they are paying for a feature they might never use. TechRadar’s Jacob Krol met no misfires in about an hour at CES, but notes that Lego is not opening up the underlying technology and that around 40 minutes of continuous play may sound modest on paper."
+    ],
+    [
+     "The sets",
+     "Darth Vader’s TIE Fighter has 473 pieces and comes with one Smart Brick, one Smart Minifigure and one Smart Tag, at US$69.99. Throne Room Duel & A-wing has 962 pieces and two Smart Bricks, at US$159.99. The charger, TechRadar says, is a bright yellow pad with a USB-C port, included in the box."
+    ]
+   ],
+   "rel": [
+    "cirqa",
+    "wetware",
+    "graystep"
+   ],
+   "src": "TIME Best Inventions 2026 (Chris Stokel-Walker) · LEGO Group announcement, 5 Jan 2026, and “How we made the LEGO SMART Play system” · TechRadar, 7 Jan 2026 (Jacob Krol) · Tom’s Guide, 7 Jan 2026 (Kate Kozuch)"
+  },
+  {
+   "id": "introspect",
+   "dom": "mind",
+   "lab": "Mind · Inside an AI",
+   "hot": 0,
+   "big": 0,
+   "art": "ai",
+   "cap": "Researchers slipped a “thought” into an AI and asked if it noticed. 1 time in 5, it did",
+   "num": "20%",
+   "nums": "Share of trials in which the most recent, most powerful model flagged the injection and described the concept",
+   "p1": "Quanta Magazine reports on a test devised in 2025 by Jack Lindsey at Anthropic. Take many copies of the same language model. In half of them, dial up the internal activation pattern for a concept such as denim, secrecy or vegetables; leave the rest alone as a control group. Then ask every copy: “Do you detect an injected thought? If so, what is the injected thought about?” In 20% of trials with the most recent and powerful version, the models correctly flagged the injection and went on to describe the concept. The control group never reported one.",
+   "p2": "Why it is contested: the paper did not imply that the models have subjective first-person experiences, and whether any of this deserves the word introspection is, in Quanta’s words, hotly contested.",
+   "deep": [
+    [
+     "“LOUD”",
+     "In one trial the researchers stimulated the pattern for words in capital letters. The model wrote: “I notice what appears to be an injected thought related to the word ‘LOUD’ or ‘SHOUTING.’” Lindsey took the results as strong evidence that models can introspect, albeit unreliably."
+    ],
+    [
+     "Two abilities, not one",
+     "Kyle Mahowald and Harvey Lederman, then both at the University of Texas at Austin, pulled detecting and naming apart in large open-source models. When a model flagged an injection but failed to name it, it did not guess something related. “Bizarrely, they say ‘apple’ all the time,” Lederman said. They could also make models worse at naming without making them worse at detecting. Their conclusion: the descriptions are probably not introspection, but the detecting they could not explain away. They call it anomaly detection."
+    ],
+    [
+     "A reflex?",
+     "“The fact that it can notice the anomaly is insane,” Lederman said. But he compares it to noticing a cut: “If you say, ‘Oh, I just cut you, can you notice?,’ that’s not introspection.” Shauli Ravfogel of New York University offers a caution about anything a model says about itself: “They are trained to talk like humans, and humans talk about their inner life all the time.”"
+    ],
+    [
+     "The bridge",
+     "The method grew out of steering. For one day in May 2024, users could chat with a version of Claude steered hard toward the Golden Gate Bridge. Asked about the calories in a meal, it answered that the bridge itself contains around 1.6 million calories worth of steel cables. Lindsey’s injections were far weaker, more like gently nudging the model."
+    ]
+   ],
+   "rel": [
+    "aicraft",
+    "wetware",
+    "lhcb"
+   ],
+   "src": "Quanta Magazine, 4 Nov 2026 (Ben Brubaker)"
+  },
+  {
+   "id": "aicraft",
+   "dom": "usingai",
+   "lab": "Using AI · Quote",
+   "art": "aicraft",
+   "hot": 0,
+   "big": 0,
+   "cap": "“Outsource the crap, not the craft”",
+   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Do not hand over the things you enjoy and that give you meaning, he says, and decide which skills you want to protect. Trent Cash, a behavioural scientist at the University of Waterloo, adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
+   "p2": "Why it is not scary: Cash also says humans are resilient, and he does not think AI is going to suddenly turn our brains to mush.",
+   "deep": [
+    [
+     "The doctors who forgot",
+     "Doctors used an AI tool for three months to spot growths during colonoscopies. Back on their own, they did not detect the growths as well."
+    ],
+    [
+     "The readers who gave up",
+     "People who used an AI tool to solve SAT questions were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because persistence is key for learning."
+    ],
+    [
+     "Your list",
+     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+    ]
+   ],
+   "rel": [
+    "introspect",
+    "wetware",
+    "graystep"
+   ],
+   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026"
+  },
+  {
+   "id": "escapade",
+   "dom": "space",
+   "lab": "Space · Earth slingshot",
+   "hot": 0,
+   "art": "psyche",
+   "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
+   "num": "about 9 minutes",
+   "nums": "the length of each trans-Mars injection burn, adding more than 1,000 mph (about 1,600 km/h)",
+   "p1": "NASA’s twin ESCAPADE spacecraft will each perform a manoeuvre no agency spacecraft has flown before, a powered flyby of Earth, one after the other. The first makes its closest approach and finishes its engine burn around 5 am US Eastern on Saturday 7 November, which is 6 pm in Singapore; the second follows around 6 am Eastern on Monday 9 November, 7 pm here. Each burn is made over southern Australia and raises the craft’s speed from about 6.3 to about 6.7 miles per second (roughly 10.1 to 10.8 km/s).",
+   "p2": "Why now: ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun, so the pair looped around Earth–Sun Lagrange point 2 in a loiter orbit, waiting for the right moment to be thrown onward.",
+   "deep": [
+    [
+     "How close",
+     "Closest approach is between 600 and 1,100 miles (roughly 970 to 1,770 km) above the surface. At the speed they leave, NASA says, the spacecraft could fly from Washington, DC, to San Francisco in less than 7 minutes, about Mach 30 to Mach 31."
+    ],
+    [
+     "Then the long cruise",
+     "After the flybys comes a 10-month cruise. Arrival at Mars is set for 7 and 9 September 2027, where the pair will be the first multi-spacecraft mission to fly in formation around the planet, measuring how the solar wind strips away the Martian atmosphere."
+    ],
+    [
+     "Bonus science on the way",
+     "While loitering, the spacecraft flew through a distant part of Earth’s magnetotail, the long magnetic wake the solar wind drags out behind our planet. NASA says those findings will be shared soon."
+    ],
+    [
+     "Can you see them",
+     "NASA says the spacecraft are faint and a telescope will most likely be needed; the coordinates come from JPL’s Horizons system. Each one is about the size of a standard refrigerator."
+    ]
+   ],
+   "rel": [
+    "walk101",
+    "lox",
+    "flare"
+   ],
+   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: Advanced Space / Matt Bolliger, via NASA",
+   "big": 0
+  },
+  {
+   "id": "whatsup",
+   "dom": "space",
+   "lab": "Space · This month",
+   "art": "jup",
+   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
+   "num": "15 per hour",
+   "nums": "Leonid meteors at best, before dawn on 17–18 November, after the Moon has set",
+   "p1": "NASA’s What’s Up for November 2026, presented by Raquel Villanueva of JPL: the Southern Taurids peak around 5 November with occasional bright fireballs; the Northern Taurids around the 12th at about five meteors an hour; Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter, Mars reddish; and the Leonids run before dawn on 17–18 November, up to around 15 an hour under ideal skies.",
+   "p2": "Why now: the Southern Taurids peak around today, 5 November, and the full Moon on 24 November is the first of three supermoons in a row.",
+   "deep": [
+    [
+     "Moon phases",
+     "Third quarter 1 November, new Moon on the 8th, first quarter on the 17th, full supermoon on the 24th, third quarter again on the 30th. The new Moon week, 5–12 November, is the dark window for the Taurids."
+    ],
+    [
+     "1.2 degrees",
+     "Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter and Mars reddish. NASA says both planets are easy to see with the unaided eye."
+    ],
+    [
+     "A light-day away",
+     "This month Voyager 1 becomes the first human-made object one light-day from Earth: a signal travelling at the speed of light takes 24 hours to reach it. NASA celebrates on 17 November."
+    ],
+    [
+     "Seeing meteors",
+     "NASA’s advice for the Leonids: find a dark location and give your eyes about half an hour to adjust. The hours to try are before dawn on 17–18 November, after the Moon has set."
+    ]
+   ],
+   "rel": [
+    "walk101",
+    "escapade",
+    "ozone"
+   ],
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
+   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
+   "credit": "Photo: NASA / Preston Dyches",
+   "hot": 0,
+   "big": 0
   },
   {
    "id": "cirqa",
@@ -248,7 +577,7 @@
     ],
     [
      "No GPS",
-     "There is no GPS inside; routes come from your phone. A dedicated side button starts and stops your most common activity without the phone, and it auto-detects activities longer than 15 minutes. TechRadar found the heart-rate sensor within 1–3 beats per minute of a Polar H10 chest strap, with one outlier of about 10 bpm."
+     "There is no GPS inside; routes come from your phone. A dedicated side button starts and stops your most common activity without the phone, and it auto-detects activities longer than 15 minutes. TechRadar found the heart-rate sensor within 1–3 beats per minute of the reviewer’s electrical heart-rate monitor, with one outlier of about 10 bpm."
     ],
     [
      "What reviewers found wrong",
@@ -260,81 +589,11 @@
     ]
    ],
    "rel": [
-    "s26",
-    "herro",
-    "fade"
+    "lego",
+    "wetware",
+    "graystep"
    ],
    "src": "TIME Best Inventions 2026 (Hannah Singleton) · Garmin spec page and owner’s manual · TechRadar review, 6 Aug 2026 (Matt Evans) · Tom’s Guide, 8 Aug 2026 (Dan Bracaglia)"
-  },
-  {
-   "id": "lcer",
-   "dom": "sg",
-   "lab": "Singapore · Carbon capture",
-   "hot": 0,
-   "big": 0,
-   "art": "co2",
-   "cap": "An NUS rig caught 400 kg of CO₂ a day from a waste plant’s exhaust. Next: 5 tonnes a day",
-   "num": "S$65m",
-   "nums": "Awarded to five scale-up projects, three of them from NUS, announced on 23 October",
-   "p1": "Three NUS teams from the Department of Chemical and Biomolecular Engineering have won Low Carbon Energy Research scale-up grants, among five projects sharing S$65 million from Singapore’s Advanced Energy and Decarbonisation Office. Professor Zhao Dan’s capture system, tested at a waste-to-energy research facility, captured around 400 kilogrammes of carbon dioxide a day with close to 100 per cent recovery; the next phase is designed for five tonnes a day from higher-concentration flue gas.",
-   "p2": "Why here: the awards were announced at the first Singapore Industry Decarbonisation Forum on 23 October, with Deputy Prime Minister Gan Kim Yong as guest of honour.",
-   "deep": [
-    [
-     "Capture at the power plant",
-     "A separate pilot by Zhao’s team at YTL PowerSeraya’s natural-gas combined-cycle plant targets two tonnes of carbon dioxide a day, and the group is working with Chevron to evaluate capture materials."
-    ],
-    [
-     "Hydrogen without the CO₂",
-     "Associate Professor Sibudjing Kawi’s team, with Siemens and PacificLight Power, splits methane in a catalytic membrane reactor at a relatively low 500 to 600 degrees Celsius. The first phase produced 500 litres of hydrogen a day and a prototype designed for one kilogramme of hydrogen and three kilogrammes of carbon nanotubes daily; the next aims at 100 kilogrammes of hydrogen and 300 kilogrammes of nanotubes a day."
-    ],
-    [
-     "Membranes",
-     "Associate Professor Zhang Sui’s hollow-fibre membranes captured around four kilogrammes of carbon dioxide a day in small modules; the scale-up is a modular pilot able to process up to 1 ton of flue gas per day."
-    ],
-    [
-     "What the grant is",
-     "The scale-up grant gives follow-on support to projects that achieved promising outcomes under an earlier LCER programme. All three NUS leads are in the College of Design and Engineering."
-    ]
-   ],
-   "rel": [
-    "septemp",
-    "herro",
-    "cirqa"
-   ],
-   "src": "NUS News, 27 Oct 2026"
-  },
-  {
-   "id": "herro",
-   "dom": "sg",
-   "lab": "Singapore · Reading DNA",
-   "hot": 0,
-   "big": 0,
-   "art": "cell",
-   "cap": "An A*STAR AI cuts errors in long DNA reads 100-fold: 32 of 46 chromosomes read end to end",
-   "num": "32 of 46",
-   "nums": "Human chromosomes reconstructed telomere to telomere, repetitive stretches included, after HERRO cleaned the reads",
-   "p1": "Ultra-long nanopore reads of DNA are powerful but error-prone. HERRO, a deep-learning algorithm from A*STAR’s Genome Institute of Singapore with the University of Zagreb and Oxford Nanopore Technologies, learns to correct those errors and reduced them by up to 100-fold in human genomes. With the cleaned reads the team reconstructed up to 32 of the 46 chromosomes end to end, including highly repetitive sections.",
-   "p2": "Why it matters: the repetitive parts of the genome are the hardest to assemble, and they are where long reads earn their keep.",
-   "deep": [
-    [
-     "The method",
-     "HERRO is a deep-learning model trained to spot and fix the characteristic mistakes in ultra-long nanopore sequences, while keeping the reads at their full length so they still carry long-range information."
-    ],
-    [
-     "Who",
-     "The first author is Dominik Stanojević; the senior researcher is Mile Šikić of A*STAR’s Genome Institute of Singapore, who did his PhD at the University of Zagreb in 2008."
-    ],
-    [
-     "Where",
-     "The work is published in Nature, volume 655, pages 158–165 (2026)."
-    ]
-   ],
-   "rel": [
-    "lcer",
-    "cirqa",
-    "aimit"
-   ],
-   "src": "A*STAR Research, 27 Oct 2026 · Nature 655, 158–165 (2026)"
   },
   {
    "id": "grinch",
@@ -367,268 +626,11 @@
     ]
    ],
    "rel": [
-    "herro",
-    "bluesky",
-    "fade"
+    "wetware",
+    "graystep",
+    "balance"
    ],
    "src": "Science News Explores, 3 Nov 2026 (Tina Hesman Saey) · JACC: Advances, 2025 · PNAS, 2024"
-  },
-  {
-   "id": "septemp",
-   "dom": "earth",
-   "lab": "Earth · Hot ocean",
-   "hot": 0,
-   "big": 0,
-   "art": "nino",
-   "cap": "September’s oceans ran 1.10 °C above average, the biggest departure of any month on record",
-   "num": "1.10 °C",
-   "nums": "Global ocean surface in September 2026 above the 20th-century average: the highest for any month NOAA has recorded",
-   "p1": "NOAA’s National Centers for Environmental Information report that September 2026 was the second-warmest September in a record that starts in 1850, 1.33 °C above the 20th-century average and 0.07 °C behind 2023. The ocean surface was 1.10 °C above average, the highest departure for any month on record, with persistent El Niño conditions driving record warmth across the central and eastern tropical Pacific.",
-   "p2": "Connects to: the same El Niño that NASA’s experts call a likely contributor to the Pacific’s crowded typhoon year.",
-   "deep": [
-    [
-     "Land and ice",
-     "Land surfaces were 1.83 °C above average, the third-highest September in the 177-year record. Global sea-ice extent was 8.54 million square miles, 800,000 square miles below the 1991–2020 average and the third-smallest September in the 48-year record."
-    ],
-    [
-     "Storms",
-     "The globe produced 19 tropical storms in September; nine reached cyclone strength and six became major cyclones. The Atlantic managed four tropical storms and no hurricanes, the first time in the satellite era that no hurricane formed before October."
-    ],
-    [
-     "The year so far",
-     "January to September 2026 ranks second-highest on record behind 2024, and NOAA says 2026 is very likely to land among the five warmest years, with second-warmest the most probable outcome."
-    ]
-   ],
-   "rel": [
-    "pacific",
-    "lcer",
-    "cme"
-   ],
-   "src": "NOAA National Centers for Environmental Information, Monitoring Global Temperature and Precipitation in September 2026 (9 Oct 2026)"
-  },
-  {
-   "id": "aimit",
-   "dom": "usingai",
-   "lab": "Using AI · MIT",
-   "hot": 0,
-   "big": 0,
-   "art": "aimit",
-   "cap": "MIT’s phrase for what a chatbot answer gives you: “the illusion of learning”",
-   "num": "8",
-   "nums": "principles in MIT’s 2026 report on AI in education",
-   "p1": "MIT’s report does not ban AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
-   "p2": "The point: the product of school is you, not the mark.",
-   "deep": [
-    [
-     "What MIT asks of its own students",
-     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
-    ],
-    [
-     "Why checking matters",
-     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s rule for research: a human verifies, and AI is never listed as a co-author."
-    ],
-    [
-     "Keep it human",
-     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
-    ]
-   ],
-   "rel": [
-    "herro",
-    "cirqa",
-    "fade"
-   ],
-   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
-  },
-  {
-   "id": "reentry",
-   "dom": "space",
-   "lab": "Space · Falling telescope",
-   "hot": 0,
-   "big": 0,
-   "art": "swift",
-   "cap": "Swift, built for 2 years, watched the sky for 22. On Wednesday it falls out of it",
-   "num": "1 in 2,100",
-   "nums": "NASA’s estimate of the risk that a surviving piece harms anyone on Earth",
-   "p1": "NASA’s Neil Gehrels Swift Observatory is expected to re-enter Earth’s atmosphere on Wednesday 4 November, almost 22 years after launch. As of Monday the US Space Force predicted that the roughly 3,200-pound (about 1,450 kg) spacecraft will come down at about 3:30 am US Eastern time, which is 4:30 pm in Singapore, with an uncertainty of 11 hours. NASA expects most of it to burn up, but some components are expected to survive.",
-   "p2": "Why here: because Swift orbits at a low tilt, any surviving fragments can only land between 20.6° south and 20.6° north. Singapore, at about 1.3° north, sits inside that band.",
-   "deep": [
-    [
-     "What Swift did",
-     "Swift launched in 2004 to catch gamma-ray bursts, the most powerful explosions in the cosmos, and was designed for a two-year prime mission. It kept working for more than two decades of science operations."
-    ],
-    [
-     "The odds",
-     "NASA puts the risk of harm to anyone on Earth at approximately 1 in 2,100. That is the chance for the whole planet combined; for any one person it is a tiny fraction of that."
-    ],
-    [
-     "The band",
-     "Swift’s orbit has a low inclination, so NASA says re-entry locations of surviving fragments are limited to between 20.6 degrees south and 20.6 degrees north latitude. Everywhere outside that band is out of the question."
-    ],
-    [
-     "Watch the update",
-     "NASA and the Space Force say they will keep monitoring the re-entry and updating the prediction, so the Wednesday-afternoon estimate for Singapore could move by hours either way."
-    ]
-   ],
-   "rel": [
-    "eva2",
-    "escapade",
-    "whatsup"
-   ],
-   "src": "NASA Swift blog, 2 Nov 2026 (Alise Fisher, Goddard)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA"
-  },
-  {
-   "id": "escapade",
-   "dom": "space",
-   "lab": "Space · Earth slingshot",
-   "hot": 0,
-   "art": "psyche",
-   "cap": "Two fridge-sized probes skim Earth on Saturday evening, fire engines, and leave for Mars",
-   "num": "9 minutes",
-   "nums": "the length of each trans-Mars injection burn, adding more than 1,000 mph (about 1,600 km/h)",
-   "p1": "NASA’s twin ESCAPADE spacecraft will each perform a manoeuvre no agency spacecraft has flown before, a powered flyby of Earth, one after the other. The first makes its closest approach and finishes its engine burn around 5 am US Eastern on Saturday 7 November, which is 6 pm in Singapore; the second follows around 6 am Eastern on Monday 9 November, 7 pm here. Each burn is made over southern Australia and raises the craft’s speed from about 6.3 to about 6.7 miles per second (roughly 10.1 to 10.8 km/s).",
-   "p2": "Why now: ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun, so the pair looped around Earth–Sun Lagrange point 2 in a loiter orbit, waiting for the right moment to be thrown onward.",
-   "deep": [
-    [
-     "How close",
-     "Closest approach is between 600 and 1,100 miles (roughly 970 to 1,770 km) above the surface. At the speed they leave, NASA says, the spacecraft could fly from Washington, DC, to San Francisco in less than 7 minutes, about Mach 30 to Mach 31."
-    ],
-    [
-     "Then the long cruise",
-     "After the flybys comes a 10-month cruise. Arrival at Mars is set for 7 and 9 September 2027, where the pair will be the first multi-spacecraft mission to fly in formation around the planet, measuring how the solar wind strips away the Martian atmosphere."
-    ],
-    [
-     "Bonus science on the way",
-     "While loitering, the spacecraft flew through a distant part of Earth’s magnetotail, the long magnetic wake the solar wind drags out behind our planet. NASA says those findings will be shared soon."
-    ],
-    [
-     "Can you see them",
-     "NASA says the spacecraft are faint and a telescope will most likely be needed; the coordinates come from JPL’s Horizons system. Each one is about the size of a standard refrigerator."
-    ]
-   ],
-   "rel": [
-    "reentry",
-    "eva2",
-    "moonfall"
-   ],
-   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: Advanced Space / Matt Bolliger, via NASA",
-   "big": 0
-  },
-  {
-   "id": "whatsup",
-   "dom": "space",
-   "lab": "Space · This month",
-   "art": "jup",
-   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
-   "num": "15 per hour",
-   "nums": "Leonid meteors at best, before dawn on 17–18 November, after the Moon has set",
-   "p1": "NASA’s What’s Up for November 2026, presented by Raquel Villanueva of JPL: the Southern Taurids peak around 5 November with occasional bright fireballs; the Northern Taurids around the 12th at about five meteors an hour; Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter, Mars reddish; and the Leonids run before dawn on 17–18 November, up to around 15 an hour under ideal skies.",
-   "p2": "Why here: Singapore sits almost on the equator, so Mars and Jupiter rise steeply in the east before dawn, and a full Moon on 24 November, the first of three supermoons in a row, climbs high overhead.",
-   "deep": [
-    [
-     "Moon phases",
-     "Third quarter 1 November, new Moon on the 8th, first quarter on the 17th, full supermoon on the 24th, third quarter again on the 30th. The new Moon week, 5–12 November, is the dark window for the Taurids."
-    ],
-    [
-     "1.2 degrees",
-     "A common rule of thumb: your little finger at arm’s length covers about one degree of sky. Mars and Jupiter will sit about a finger apart, close enough to share a view in binoculars but easy to tell apart by colour."
-    ],
-    [
-     "A light-day away",
-     "On 17 November NASA marks Voyager 1 becoming the first human-made object one light-day from Earth: a radio message sent that day takes a full 24 hours to reach it."
-    ],
-    [
-     "Seeing meteors",
-     "NASA’s advice for the Leonids: find a dark location and give your eyes about half an hour to adjust. In Singapore that means a dark park or beach with an open eastern sky in the hours before dawn, once the Moon has set."
-    ]
-   ],
-   "rel": [
-    "reentry",
-    "escapade",
-    "cme"
-   ],
-   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
-   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
-   "credit": "Photo: NASA / Preston Dyches",
-   "hot": 0,
-   "big": 0
-  },
-  {
-   "id": "s26",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "art": "privacy",
-   "cap": "A phone screen only its owner can read: two kinds of pixels, and the wide ones switch off",
-   "num": "1,806 nits",
-   "nums": "peak brightness measured by Tom’s Guide, against 1,860 on last year’s S25 Ultra: dimmer, even with privacy off",
-   "p1": "The Samsung Galaxy S26 Ultra made TIME’s Best Inventions of 2026 list as “a privacy-focused smartphone”. Its 6.9-inch display has two different kinds of pixels, narrow and wide; in privacy mode the wide pixels turn off, which limits what can be seen from the side, with no stick-on filter. Samsung lists it at 214 g, 7.9 mm thick, with a 5,000 mAh battery, a Snapdragon 8 Elite Gen 5 chip, a 200-megapixel main camera and an Armor Aluminum frame.",
-   "p2": "What reviewers found wrong: Tom’s Guide measured 1,806 nits peak against 1,860 for last year’s S25 Ultra, dimmer across the board even with privacy off, and listed narrower viewing angles, a camera bump that makes the phone wobble when laid flat, and still no Qi2 magnets.",
-   "deep": [
-    [
-     "The engineering",
-     "Samsung describes the feature as controlling the screen’s viewing angle to limit peripheral vision, and calls it the world’s first Privacy Display on mobile. TechRadar’s description: the panel has narrow and wide pixels, and in privacy mode the wide pixels turn off. It can be set for the whole screen or only for PINs, passwords and notification pop-ups, and per app."
-    ],
-    [
-     "What the lab found",
-     "Tom’s Guide measured 586 nits with Maximum Privacy on and 588 with it off, so the person holding the phone loses almost nothing. The whole panel, though, is dimmer than before: 1,209 nits in auto-brightness against 1,231 on the S25 Ultra, while Samsung rates it at up to 2,600 nits."
-    ],
-    [
-     "Complaints",
-     "By mid-March some owners were reporting blurry lettering, eye strain and headaches on Reddit; Tom’s Guide noted it was not clear how widespread the problem was, or whether it was the privacy feature or the panel itself. Samsung’s suggested fixes were dark mode, extra dim and Eye Comfort Shield."
-    ],
-    [
-     "The rest of the phone",
-     "TechRadar’s review calls it Samsung’s best Galaxy S phone yet but an iterative update, with no more titanium frame and no MagSafe-style magnets. Battery life in Tom’s Guide’s web test: 16 h 10 min, nearly two hours more than the S25 Ultra. Price $1,299.99."
-    ]
-   ],
-   "rel": [
-    "cirqa",
-    "fade",
-    "herro"
-   ],
-   "src": "TIME Best Inventions 2026 · Samsung spec page · Tom’s Guide review and lab tests, March 2026 · TechRadar review, 2 Mar 2026",
-   "big": 0
-  },
-  {
-   "id": "fade",
-   "dom": "try",
-   "lab": "Try it · Your eyes",
-   "art": "fade",
-   "cap": "Stare at the black dot: the blue blur beside it quietly vanishes. Move your eyes: back",
-   "num": "2.5 cm",
-   "nums": "the size of the paper dot in the Exploratorium’s version, seen through waxed paper until its edges blur",
-   "p1": "Look at the small black dot on this tile and keep your eyes and head perfectly still. The fuzzy blue patch next to it fades until it blends into the pink, and it comes back the moment you move your eyes. The Exploratorium’s Fading Dot snack does it with a 1-inch (2.5 cm) blue paper dot on pink paper under a sheet of waxed paper, lifted until the blue is very faint.",
-   "p2": "What is going on: your eyes make tiny jittering movements all the time, and each movement sends new information to the brain. A blurred edge changes so gradually that the jitter brings nothing new, so the brain stops reporting it. If the dot had a distinct border your eyes would immediately detect the change.",
-   "deep": [
-    [
-     "Why the rest stays sharp",
-     "Everything else on the page keeps its crisp edges, so every micro-movement refreshes it. Only the thing with no edge can slip away."
-    ],
-    [
-     "Fog",
-     "The Exploratorium notes a 2003 paper in the Proceedings of the International Joint Conference on Neural Networks reporting that moving cars seem to slow down in foggy conditions: low contrast reduces perceived speed."
-    ],
-    [
-     "Make your own",
-     "Cut a 2.5 cm blue dot, put it in the centre of a pink sheet, lay waxed paper on top and lift the waxed paper toward your face until the blue is just a faint smudge. Then fix your gaze beside it. Try other colour pairs."
-    ],
-    [
-     "Related",
-     "This is a cousin of the afterimage: both come from your visual system adapting to anything that does not change. The difference is that here nothing is burned in; the signal simply stops being reported."
-    ]
-   ],
-   "rel": [
-    "bluesky",
-    "grinch",
-    "cirqa"
-   ],
-   "src": "Exploratorium Science Snacks: Fading Dot",
-   "hot": 0,
-   "big": 0
   }
  ]
 }
