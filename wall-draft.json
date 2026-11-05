@@ -1,379 +1,570 @@
 {
- "edition": 13,
+ "edition": 14,
  "level": "High school",
- "date": "2026-11-05",
- "dateLabel": "Thu 5 Nov 2026",
+ "date": "2026-11-06",
+ "dateLabel": "Fri 6 Nov 2026",
  "week": [
   {
-   "d": "WED",
-   "t": "NASA: mission managers give the go for Thursday’s spacewalk, 8:30 am EST (9:30 pm SGT), to fit the eighth and last roll-out array",
-   "id": "walk101"
+   "d": "THU",
+   "t": "NASA: spacewalkers deploy the eighth and last roll-out array in 6 h 59 min, completing the ISS power upgrade",
+   "id": "upgrade"
+  },
+  {
+   "d": "THU",
+   "t": "NEA: Haze Task Force to stand down; 24-hour PSI 56–64 at 7 pm; Friday forecast 51–80 (Moderate)",
+   "id": "haze7"
   },
   {
    "d": "WED",
-   "t": "NASA and NOAA: the 2026 ozone hole ranked 7th largest in 48 years, peaking at 27.1 million km² on 18 Sept",
-   "id": "ozone"
+   "t": "NASA: Swift re-entered at 7:39 am EST (8:39 pm SGT) over the North Sumatra region of Indonesia",
+   "id": "swiftdown"
   },
   {
    "d": "WED",
-   "t": "NEA: PSI forecast for Thursday 51–80 (Moderate); 24-hour PSI 60–69 at 5 pm",
-   "id": "haze6"
-  },
-  {
-   "d": "WED",
-   "t": "Quanta: a model flagged and named a “thought” injected into it in 20% of trials",
-   "id": "introspect"
+   "t": "NASA unveils the X-70 Fractal experimental aircraft at Kennedy Space Center",
+   "id": "x70"
   },
   {
    "d": "TUE",
-   "t": "CERN: LHCb finds evidence, at 3.2 standard deviations, of a one-in-ten-billion decay",
-   "id": "lhcb"
+   "t": "IndiaAI Mission releases the EKA-1 and Dhīr foundation models in New Delhi",
+   "id": "eka"
   },
   {
    "d": "MON",
-   "t": "NASA: ESCAPADE’s twin probes to make powered Earth flybys on 7 and 9 Nov, then cruise to Mars",
-   "id": "escapade"
+   "t": "Physics World: a diamond sensor inside a laser cavity reaches 100% optical contrast",
+   "id": "nvlaser"
   }
  ],
  "tiles": [
   {
-   "id": "walk101",
+   "id": "swiftdown",
    "dom": "space",
-   "lab": "Space · Tonight, 9:30 pm",
+   "lab": "Space · Re-entered Wednesday",
    "hot": 1,
    "big": 1,
-   "art": "eva",
-   "cap": "Tonight, 9:30 pm: two astronauts step out to fit the ISS’s last roll-out solar array",
-   "num": "about 7 hours",
-   "nums": "How long Joshua Kutryk and Anil Menon are due to spend outside the station",
-   "p1": "NASA said on Wednesday that mission managers have given the go. Joshua Kutryk of the Canadian Space Agency and Anil Menon of NASA are scheduled to begin their spacewalk at 8:30 am US Eastern time on Thursday 5 November, which is 9:30 pm in Singapore. They will spend about seven hours installing a roll-out solar array on the far end of the station’s starboard truss. NASA’s live coverage starts at 7 am on the same US clock, which is 8 pm in Singapore.",
-   "p2": "Why now: this is the eighth and final roll-out array. Fitting it completes the job, begun in June 2021, of raising the station’s power-generating capacity from 160 kilowatts to about 215 kilowatts.",
+   "art": "swift",
+   "cap": "Swift re-entered over North Sumatra on Wednesday night, 8:39 pm Singapore time",
+   "num": "3.4° N, 98.6° E",
+   "nums": "Approximately where Swift re-entered the atmosphere, over the North Sumatra region of Indonesia, as confirmed by the US Space Force",
+   "p1": "NASA’s Neil Gehrels Swift Observatory re-entered Earth’s atmosphere on Wednesday 4 November, almost 22 years after launch. The US Space Force confirmed the time as 7:39 am US Eastern, which is 8:39 pm in Singapore, and the place as over the North Sumatra region of Indonesia, at approximately 3.4 degrees north latitude and 98.6 degrees east longitude. NASA expected most of the spacecraft to burn up as it travelled through the atmosphere, but says some components may have survived re-entry.",
+   "p2": "Why now: NASA updated its Swift post on Wednesday 4 November to confirm the re-entry, two days after it first posted the article.",
    "deep": [
     [
-     "The hand-off",
-     "Kutryk will make his way to the starboard truss and meet Menon, who will be carrying the roll-out array while attached to the Canadarm2 robotic arm. Menon hands the array to Kutryk, detaches himself from the arm and heads to the worksite. There Kutryk hands it back, and the pair finish the installation together."
+     "Built for two years",
+     "Swift launched in 2004 to explore the universe’s most powerful explosions, called gamma-ray bursts. It was originally designed for a two-year prime mission. It went on to more than two decades of science operations."
     ],
     [
-     "Same job, other side",
-     "NASA says the two will mostly repeat the installation tasks from their 29 October spacewalk, but on the opposite side of the station’s truss structure."
+     "Three telescopes",
+     "At launch Swift was a first-of-its-kind multiwavelength observatory, designed to observe those explosions using its three telescopes. NASA says it served as a multi-tool for exploring the universe: observing a wide range of light, rapidly pointing at short-lived outbursts, and sending alerts to other facilities to help coordinate follow-up observations."
     ],
     [
-     "Wednesday’s checklist",
-     "Kutryk and Menon readied their tools and staged their spacesuits inside the Quest airlock, then reviewed the procedures one more time. With NASA flight engineers Jessica Watkins and Luke Delaney they went over the robotic manoeuvres needed to support the spacewalk, and all four called down to mission controllers for a readiness conference. Flight engineer Sergey Teteryatnikov prepared the radiation detectors the spacewalkers will wear on their suits."
+     "What it watched",
+     "NASA says Swift broadened our understanding of a wide variety of cosmic objects and events, from active galaxies powered by supermassive black holes and stars undergoing X-ray flares, to supernova explosions and comets and asteroids in our own solar system."
     ],
     [
-     "Inside tonight",
-     "Watkins and Delaney will help the pair in and out of their spacesuits, monitor them and operate Canadarm2. On Wednesday the science went on as well: Kutryk inspected station water samples for microbial growth, Watkins collected bacteria from station surfaces to be analysed for resistance to antibiotics, and Delaney processed human lung cells to test their ability to grow in microgravity."
+     "What NASA has not said",
+     "The post gives the time and the place of the re-entry and little else about the fall itself. It does not say whether any piece reached the ground, only that some components may have survived."
     ]
    ],
    "rel": [
-    "flare",
+    "upgrade",
     "escapade",
-    "lox"
+    "x70"
    ],
-   "src": "NASA Space Station blog, 4 Nov 2026 (Mark A. Garcia) · NASA Space Station blog, 3 Nov 2026 (Mark A. Garcia)",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/preview-useva-101-110526.jpg",
-   "credit": "Photo: NASA"
+   "src": "NASA Swift blog (Alise Fisher), published 2 Nov 2026, updated 4 Nov 2026",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/swift-observatory/misc--spacecraft-art/Swift_in_space_05.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Illustration: NASA"
   },
   {
-   "id": "ozone",
-   "dom": "earth",
-   "lab": "Earth · Ozone hole",
-   "hot": 1,
-   "big": 0,
-   "art": "nino",
-   "cap": "This year’s ozone hole was the 7th largest in 48 years. The layer is still healing",
-   "num": "27.1 million km²",
-   "nums": "The hole’s greatest one-day extent this year, reached on 18 September",
-   "p1": "NASA and NOAA reported on 4 November that the 2026 Antarctic ozone hole ranked seventh largest by area in 48 years of monitoring. From 7 September to 13 October, the peak of the depletion season, it averaged about 25 million square kilometres. Yet the ozone layer remains on track for long-term recovery, and this hole was not as deep as other large holes on record.",
-   "p2": "Why that is not bad news: Paul Newman, a University of Maryland, Baltimore County scientist who has long led NASA’s ozone research team, says the hole could have been 1 to 2 million square miles larger if ozone-depleting substances were as prevalent in the atmosphere today as they were at their peak in 2000.",
-   "deep": [
-    [
-     "Why so big",
-     "An unusually powerful polar vortex, in Newman’s words. The vortex helps create the cold conditions that let chlorine and bromine from human-made compounds destroy ozone. Amy Butler of NOAA’s Chemical Sciences Laboratory says the planetary-scale weather systems that usually rise from the lower atmosphere and break the vortex up were especially weak in August and September, which kept its strongest winds several degrees of latitude further from the pole and made the area ideal for depletion larger."
-    ],
-    [
-     "Wide, not deep",
-     "Scientists define the hole as the area where ozone falls below 220 Dobson units. NOAA scientists using balloon-borne instruments from the South Pole Baseline Atmospheric Observatory found the lowest value directly overhead this year was 105 Dobson units, on 17 October. The lowest ever recorded over the South Pole was 92, in October 2006."
-    ],
-    [
-     "The healing",
-     "Under the Montreal Protocol of 1987, countries committed to replacing ozone-depleting substances. NOAA’s Stephen Montzka says chlorine from those substances in the Antarctic stratosphere has declined from its peak by about a third relative to 1980s levels. Newman adds that the hole has been forming later in the season in recent years, which is a sign of healing. Scientists estimate it will recover by the 2070s."
-    ],
-    [
-     "Earth’s sunscreen",
-     "Ozone in the stratosphere helps shield life from harmful solar radiation; ozone at ground level is a different matter, an air pollutant. The old compounds were once widely used in refrigerators, air conditioners and building insulation, and can linger in the atmosphere or leach out of old products and landfills for many decades. Satellites have tracked the layer since 1979."
-    ]
-   ],
-   "rel": [
-    "haze6",
-    "flare",
-    "whatsup"
-   ],
-   "src": "NASA Earth Science News Team, 4 Nov 2026 (Sally Younger), with NOAA",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/articles/2026/ozone_geos5_20260918_hires.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA Earth Observatory / Lauren Dauphin"
-  },
-  {
-   "id": "flare",
+   "id": "upgrade",
    "dom": "space",
-   "lab": "Space · Rocket timing",
+   "lab": "Space · Job finished",
    "hot": 0,
    "big": 0,
-   "art": "stack",
-   "cap": "A rocket gets about 5 minutes to observe. A new alert says when a solar flare is worth it",
-   "num": "5 minutes",
-   "nums": "About how long a sounding rocket can observe before it falls back to Earth",
-   "p1": "Sounding rockets are a relatively fast, inexpensive way to catch the light from solar flares that our atmosphere absorbs. But they get only about five minutes to observe before falling back, and a flare can fade just as quickly. Launching at one is a gamble, because typical alert systems cannot say whether the flare will still be there when the rocket reaches space. A team has now built an alert that pinpoints a flare’s location and predicts how long it will last, within minutes of spacecraft detecting it.",
-   "p2": "Why now: the system is described in a paper published on 4 November in The Astrophysical Journal. NASA says it let scientists use sounding rockets on a solar flare in progress for the first time.",
+   "art": "eva",
+   "cap": "After 18 spacewalks the ISS power upgrade is done. The last array unrolled on Thursday",
+   "num": "6 h 59 min",
+   "nums": "Length of Thursday’s spacewalk by Anil Menon and Joshua Kutryk, which ended at 3:35 pm US Eastern time",
+   "p1": "NASA astronaut Anil Menon and Canadian Space Agency astronaut Joshua Kutryk began their spacewalk at 8:36 am US Eastern time on Thursday 5 November and concluded it at 3:35 pm, which is 4:35 am on Friday in Singapore. In six hours and 59 minutes they installed and deployed the eighth and final International Space Station Roll-Out Solar Array, on the station’s 3B power channel. NASA says that completes the power augmentation upgrades.",
+   "p2": "Why it matters: together the roll-out arrays raise the station’s power generation capacity from 160 kilowatts to approximately 215 kilowatts. NASA said before the spacewalk that the eighth array would provide additional power for critical station operations, including the station’s safe and controlled deorbit.",
    "deep": [
     [
-     "Alaska, twice",
-     "In April 2024 the alert helped two teams coordinate the launch of two rockets from Alaska and catch a flare before it disappeared. On 14 May 2026 the team used an enhanced version to launch a Black Brant IX rocket from Poker Flat Research Range near Fairbanks at 11:23 am local time. Its instrument, FOXSI-5, the fifth Focusing Optics X-ray Solar Imager, observed three small flares during the flight."
+     "18 spacewalks",
+     "Since the work to augment the station’s power began, NASA says, astronauts have completed 18 spacewalks to prepare power channel equipment and install the eight arrays. NASA’s own posts disagree on the starting month: Thursday’s says February 2021, Wednesday’s said June 2021."
     ],
     [
-     "What it watches",
-     "The system analyses X-ray and ultraviolet emission from active regions, the magnetically complex areas on the Sun that produce flares. The observations come from NASA’s Solar Dynamics Observatory, NOAA’s GOES satellites and observatories on the ground."
+     "The count",
+     "US spacewalk 101 was Menon’s fifth and Kutryk’s second. It was also the 286th spacewalk in support of space station assembly, maintenance and upgrades."
     ],
     [
-     "Why flares matter",
-     "Solar flares accelerate particles and release energy into the solar system, which can affect Earth and its technologies. NASA says the same early warning could support future rocket campaigns, solar observatories and space weather forecasting."
+     "Six minutes after schedule",
+     "The spacewalk had been scheduled to begin at approximately 8:30 am; it began at 8:36. Kutryk was spacewalk crew member 1, wearing the suit with red stripes, and Menon was crew member 2, wearing the unmarked suit."
+    ],
+    [
+     "A week earlier",
+     "On 29 October the same pair spent 7 hours 11 minutes outside, installing and deploying a roll-out array on the station’s 2A power channel. That was Menon’s fourth spacewalk and Kutryk’s first, and the station’s 285th."
     ]
    ],
    "rel": [
-    "walk101",
-    "lox",
-    "whatsup"
+    "swiftdown",
+    "x70",
+    "spot"
    ],
-   "src": "NASA Science News blog, 4 Nov 2026 (Vanessa Thomas, NASA Goddard) · The Astrophysical Journal, 4 Nov 2026",
-   "img": "https://assets.science.nasa.gov/content/dam/science/hpd/sounding-rockets/FOXSI5-rocket-launch.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: Poker Flat Research Range, via NASA"
+   "src": "NASA Space Station blog, 5 Nov 2026 (Mark A. Garcia), three posts · NASA Space Station blog, 4 Nov and 29 Oct 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-useva101-110526h.jpg?w=1280",
+   "credit": "Image: NASA+"
   },
   {
-   "id": "lhcb",
-   "dom": "matter",
-   "lab": "Physics · Particles",
-   "hot": 1,
-   "big": 0,
-   "art": "lhc",
-   "cap": "LHCb at CERN has evidence of a one-in-ten-billion decay, hunted for more than 40 years",
-   "num": "1 in 10 billion",
-   "nums": "How rare the Bd decay into two muons is predicted to be, counted among beauty-particle decays",
-   "p1": "At a seminar at CERN on Tuesday 3 November, the LHCb collaboration announced evidence that a particle made of a beauty quark and a down antiquark, known as Bd, can decay into a pair of muons. LHCb is the first to find such evidence using the data of a single experiment. If it is confirmed, CERN says, this would be the rarest beauty-particle decay ever observed.",
-   "p2": "A number to check yourself: the related decay of the Bs particle into two muons happens only around three times in every billion beauty-particle decays, and the Bd version is predicted to be about thirty times rarer. Divide it out and you get one in ten billion.",
-   "deep": [
-    [
-     "Evidence, not yet discovery",
-     "Physicists rate a result in standard deviations. Three of them count as “evidence” and correspond to just a 0.3% chance that the signal occurred randomly. LHCb’s data from 2024 and 2025 showed the decay at 3.0 standard deviations; adding the data collected between 2011 and 2018 raised that to 3.2. The aim now is 5."
-    ],
-    [
-     "Forty years",
-     "“Physicists have been chasing this decay for more than forty years,” said Marco Santimaria, who co-led the 19-person international analysis team. In 2015 a joint analysis by LHCb and CMS made the first observation of the Bs decay and claimed first evidence for the Bd one, but later updates using data up to 2018 did not confirm it."
-    ],
-    [
-     "Why it showed up now",
-     "In 2024 a major upgrade let LHCb collect data at five times the rate it achieved between 2010 and 2018. Santimaria says extreme precision is needed to pick the muons out of the overwhelming background."
-    ],
-    [
-     "Why anyone cares",
-     "CERN says the new result places limits on possible new particles beyond the Standard Model. The start-up of the HiLumi LHC in 2030 and a planned LHCb upgrade in the middle of the next decade could raise the rate of data collection by another order of magnitude."
-    ]
-   ],
-   "rel": [
-    "balance",
-    "introspect",
-    "flare"
-   ],
-   "src": "CERN news, 3 Nov 2026",
-   "img": "https://home.cern/wp-content/uploads/2026/11/LHCb-image.jpg",
-   "credit": "Photo: CERN"
-  },
-  {
-   "id": "balance",
-   "dom": "matter",
-   "lab": "Physics · Moving air",
-   "hot": 0,
-   "big": 0,
-   "art": "balance",
-   "cap": "Float a ping-pong ball on a hair dryer. Tilt the dryer: it stays. Now try it near a wall",
-   "p1": "Point a hair dryer straight up and balance a table-tennis ball in the stream of air. Now pull the ball slowly sideways. When only half of it is out of the flow you can feel it being sucked back in; let go and it wobbles, then settles near the centre of the stream. Tilt the stream to one side and the ball can still be suspended.",
-   "p2": "The test: balance the ball, then move dryer and ball toward a wall (try the corner of a room). The Exploratorium says to expect a great increase in the height of the ball.",
-   "deep": [
-    [
-     "What holds it up",
-     "The upward air hits the bottom of the ball and slows down, making a region of higher pressure. That pressure holds the ball up against gravity. Near a wall the region under the ball reaches even higher pressure, which is why the ball climbs."
-    ],
-    [
-     "What pulls it back",
-     "When the ball is partly out of the stream, air flows around the curve nearest the centre and arcs over the top, so it leaves heading outward. By Newton’s law of action and reaction, air thrown outward pushes the ball inward. Dangle a strip of tissue paper above the ball and you can find the deflected stream."
-    ],
-    [
-     "A second way to see it",
-     "Pull the ball far enough out and air flows over one side only, and speeds up there because the middle of the ball sticks further into the stream. The Bernoulli principle says that where air speeds up, its pressure drops. The difference in pressure between the still air and the moving air pushes the ball back in."
-    ],
-    [
-     "Wings",
-     "The Exploratorium uses the ball to explain flight: aeroplanes fly because their wings throw air downward, and the air pushes the wing up. It also calls one popular explanation “not true”: the idea that air over the curved top of a wing must go faster so as to meet up again with the air from underneath at the far end of the wing. As a rule, it says, the two do not rejoin."
-    ]
-   ],
-   "rel": [
-    "lhcb",
-    "graystep",
-    "lox"
-   ],
-   "src": "Exploratorium Science Snacks: Balancing Ball",
-   "img": "https://www.exploratorium.edu/sites/default/files/BalancingBall_DSC_4401_H1.jpg",
-   "credit": "Photo: Exploratorium"
-  },
-  {
-   "id": "graystep",
-   "dom": "try",
-   "lab": "Try it · Your eyes",
-   "hot": 0,
-   "big": 0,
-   "art": "graystep",
-   "cap": "Two greys, one line. Cover the line with a pencil and they turn into the same grey",
-   "num": "100 million+ → 1 million+",
-   "nums": "More than a hundred million light-detecting rods and cones in the retina, and over a million neurons leading to the brain",
-   "p1": "Look at the two grey panels on this tile: one looks a shade darker than the other. Now cover the line where they meet with a pencil or the side of your hand. Most people then see a single, uniform grey. Lift it away and the two shades come back.",
-   "p2": "What is going on: the two panels are actually the same. Each one is graduated, dark at its right edge and lighter toward the left. Where they meet, the darkest part of one sits against the lightest part of the other, and that edge is what your eyes report.",
-   "deep": [
-    [
-     "Edges, not levels",
-     "In general your brain ignores slight gradations in grey, so with the edge hidden the two regions look like the same uniform shade. It is not that your eyes lack the sensitivity: a sensitive light meter would show that the different shades reflect different amounts of light to your eyes. Your visual system is simply most sensitive to changes in brightness and colour."
-    ],
-    [
-     "Lateral inhibition",
-     "The retina has more than a hundred million rods and cones, but only over a million neurons lead to the brain, so the information is condensed on the way. The eye-brain system also sharpens edges: when one region of the retina is stimulated by light, sideways connections turn down the sensitivity of the regions next to it. The effect is that a dark region beside a light one looks even darker, and the light one lighter. It is called lateral inhibition."
-    ],
-    [
-     "Why covering it works",
-     "With the boundary covered, the two different greys are spread apart across your retina and no longer fall on neighbouring regions. Lateral inhibition has nothing to compare, and the eye-brain system judges the two sides to be the same."
-    ],
-    [
-     "Catch a doubter",
-     "If someone insists they can still tell which side is darker with the line covered, turn the picture round when they are not looking and ask again. On paper, the Exploratorium suggests punching two holes in a white sheet, about as far apart as one panel is wide, and sliding it across: the two grey circles seen through the holes always match."
-    ]
-   ],
-   "rel": [
-    "balance",
-    "grinch",
-    "introspect"
-   ],
-   "src": "Exploratorium Science Snacks: Gray Step"
-  },
-  {
-   "id": "lox",
+   "id": "x70",
    "dom": "space",
-   "lab": "India · Rocket engine",
+   "lab": "Flight · New X-plane",
    "hot": 1,
    "big": 0,
-   "art": "gagan",
-   "cap": "India is building a methane rocket engine. More than 70% of its parts are 3D-printed",
-   "num": "1,100 kN",
-   "nums": "Thrust of the LME1100 engine, which ISRO wants ready for hot tests by the middle of next year",
-   "p1": "ISRO reports that on 9 October 2026 it carried out the first ignition test of the full-scale gas generator for LME1100, a new engine of 1,100 kilonewtons of thrust that burns liquid oxygen and methane. ISRO has picked this kind of engine as the primary propulsion for its Next Generation Launch Vehicle. More than 70% of LME1100’s components have been made by additive manufacturing, or 3D printing, with partners in industry.",
-   "p2": "Why methane: ISRO lists clean combustion, low maintenance, which helps when a rocket is to be reused, and the fact that methane could be synthesised on Mars from carbon dioxide and water ice.",
+   "art": "xplane",
+   "cap": "NASA’s new X-plane, the X-70 Fractal: 10,000 pounds, Mach 0.75, built to be re-rigged",
+   "num": "2,000 pounds",
+   "nums": "The X-70 can carry up to this much in experimental payloads, in internal and external locations",
+   "p1": "On Wednesday 4 November NASA unveiled its newest experimental aircraft, the X-70 Fractal, during the UP.Summit at Kennedy Space Center in Florida. It is crewed, has a takeoff weight of 10,000 pounds, and is designed to cruise at Mach 0.75, reach altitudes of up to 45,000 feet and offer a range exceeding about 1,726 miles (1,500 nautical miles). NASA Administrator Jared Isaacman said he expects its first flight under the NASA banner within the next two years.",
+   "p2": "Why this weekend: MAX POWER, an aerospace expo and air show, is being held on and near Kennedy, and NASA will display its quiet supersonic X-59 there. NASA’s Moon Base news conference is at 5 pm US Eastern on Saturday, which is 6 am on Sunday in Singapore, and NASA says it will be streamed live.",
    "deep": [
     [
-     "Three sizes",
-     "Vikas, which ISRO calls its workhorse liquid engine and which flies on PSLV, GSLV and LVM3, gives 800 kN. LME1100 gives 1,100 kN. ISRO says the design of a 2,400 kN oxygen-methane engine is completed too, meant for a future heavy-lift, human-rated rocket for the Indian crewed lunar landing targeted for 2040."
+     "A flying test bench",
+     "NASA says the X-70 has advanced, rapidly reconfigurable flight-control technology that will let it explore aircraft manoeuvrability in ways never before demonstrated in crewed flight. Isaacman: “Its modular design and ability to rapidly swap internal and external payloads will keep our teams flying, learning, and moving quickly from one experiment to the next.”"
     ],
     [
-     "How it began",
-     "ISRO started on oxygen-methane engines in 2019. A technology demonstrator, LM20-TD, of 20 tonnes thrust, was put together in 2019–2020 from subsystems of the CE-20 engine, which burns liquid hydrogen, with changes to the propellant flow control and start-up systems. One cold flow test and five hot tests were carried out successfully."
+     "The X line",
+     "NASA places the X-70 in a line that runs from the Bell X-1, which first broke the sound barrier in 1947, to the X-15 hypersonic research aircraft and today’s X-59 quiet supersonic demonstrator. Laurie Grindle, director of the Aeronautics Division within NASA’s Research and Technology Mission Directorate, said: “It’s exciting to bring on another X-plane to accelerate and drive aeronautics research.”"
     ],
     [
-     "Parts on the test stand",
-     "Development of LME1100’s key technologies formally began in 2023: turbopumps, igniter, gas generator and thrust chamber. A 3D-printed liquid-oxygen pump impeller has been spun up to its rated operating speed, a smaller-scale thrust chamber has been through a hot test campaign, and a series of similar gas generator tests is planned."
+     "What NASA has not said",
+     "The release does not name the builder or the engine, give the aircraft’s dimensions, or explain the name Fractal. The picture NASA published with it is a generated image, not a photograph."
     ],
     [
-     "Lighting it",
-     "ISRO has tested spark torch igniters in oxidiser-rich and fuel-rich versions, developed a semiconductor-based spark plug igniter, and demonstrated a laser-based ignition system that lit gaseous oxygen with hydrogen and with methane. The integrated engine is targeted to be ready by the middle of next year for hot tests, including thrust throttling."
+     "At Kennedy this weekend",
+     "MAX POWER’s key events run to Sunday 8 November, with public gates opening at 9 am US Eastern on Saturday and Sunday. The schedule lists an F-5 flyover featuring Isaacman at 11:58 am and a MiG-29 flyover featuring him at 1:31 pm on both days, and a “Meet the Astronauts” session with the Artemis III crew at 12:45 pm on Saturday. NASA’s partners will show Moon rovers and spacecraft."
     ]
    ],
    "rel": [
-    "walk101",
-    "flare",
-    "escapade"
+    "swiftdown",
+    "upgrade",
+    "tmb"
    ],
-   "src": "ISRO, Development of LOX-Methane engine in ISRO, 16 Oct 2026",
-   "img": "https://www.isro.gov.in/media_isro/image/index/Latest/Hot_test_of_technology_demontrator_engine_LM20-TD.webp",
-   "credit": "Photo: ISRO"
+   "src": "NASA news release 26-094, 4 Nov 2026 (Cheryl Warner) · NASA media advisory M26-084, 30 Oct 2026, updated 2 Nov (Jessica Taveau)",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/img-6418.png?w=1280",
+   "credit": "Generated image: NASA"
   },
   {
-   "id": "haze6",
+   "id": "eka",
+   "dom": "mind",
+   "lab": "India · Home-built AI",
+   "hot": 0,
+   "big": 0,
+   "art": "ai",
+   "cap": "India has released its own AI models. One spans all 22 scheduled Indian languages",
+   "num": "26.3 billion",
+   "nums": "Parameters in EKA-1, which was trained on approximately 7.5 trillion tokens",
+   "p1": "On Tuesday 3 November the IndiaAI Mission, under India’s Ministry of Electronics and Information Technology, released home-built foundation models at a press event in New Delhi. EKA-1, from Soket Labs, has 26.3 billion parameters, was trained on approximately 7.5 trillion tokens, and spans all 22 scheduled Indian languages alongside English. Dhīr 2B and Dhīr 5B, from ZenteiQ AiTech Innovations, are open-source models supporting English and 10 Indian languages.",
+   "p2": "Why it matters: the release says access to subsidised national AI compute infrastructure, and support for research expenses, enabled the development of these models, and calls that a sign of how public AI infrastructure can accelerate home-grown innovation.",
+   "deep": [
+    [
+     "Small enough for a phone",
+     "ZenteiQ’s chief executive, Prof. Sashikumar, said the Dhīr models can run across different computing platforms, including GPUs and TPUs. Their lightweight architecture, he said, also enables on-device deployment on mobile phones without dependence on cloud connectivity, so users keep their data on their own devices."
+    ],
+    [
+     "What EKA-1 is for",
+     "The release describes EKA-1 as an open, sparse hybrid language model designed for math, code, reasoning and agentic use. Soket’s chief executive, Abhishek Upperwal, said the team had developed a model tailored to India’s banking, financial services and cybersecurity landscape."
+    ],
+    [
+     "Offline on purpose",
+     "The Dhīr models can be deployed as secure, on-premise, multilingual assistants. The release lists the defence, government, industrial and educational sectors, particularly in low-connectivity or sensitive environments."
+    ],
+    [
+     "What the release leaves out",
+     "It gives no benchmark scores, and it does not say what the 2B and 5B in the Dhīr names stand for. India’s Union Cabinet approved the IndiaAI Mission on 7 March 2024. The mission has seven pillars, and both teams were selected under the one called the IndiaAI Innovation Centre."
+    ]
+   ],
+   "rel": [
+    "ai17",
+    "nvlaser",
+    "spot"
+   ],
+   "src": "Press Information Bureau, Ministry of Electronics & IT, Release ID 2332315, 3 Nov 2026",
+   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/image001_20261104162345_cb418c.jpg",
+   "credit": "Photo: PIB"
+  },
+  {
+   "id": "static",
+   "dom": "matter",
+   "lab": "Physics · Electricity",
+   "hot": 0,
+   "big": 0,
+   "art": "roller",
+   "cap": "A rubbed balloon rolls a can without touching it. How rubbing makes charge is a puzzle",
+   "num": "2.5 cm",
+   "nums": "How close to hold the rubbed balloon to the side of the can: about an inch",
+   "p1": "Lay an empty drink can on its side on a flat, smooth table or floor and hold it until it stays still. Rub an inflated balloon back and forth quickly on your hair, then hold the balloon about an inch (2.5 cm) from the side of the can. The Exploratorium says the can will start to roll, even though you are not touching it. Move the balloon to the other side and the can rolls the other way.",
+   "p2": "Why now: Science News Explores reported this week that static electricity, which Plato wrote about around 360 BC, still baffles scientists. “Nobody really fully understands it,” says Bilge Baytekin, a chemist at Bilkent University in Ankara.",
+   "deep": [
+    [
+     "Why the can follows",
+     "The Exploratorium’s explanation: rubbing leaves the balloon loaded with electrons. The empty can is neutral, with equal numbers of electrons and protons spread pretty evenly around it. The balloon’s negative charge repels the electrons in the part of the can nearest to it, which leaves that part positive, and the balloon then attracts it. As the can rolls, the electrons closest to the balloon are constantly being forced away, so the can keeps following."
+    ],
+    [
+     "Three things to test",
+     "The Exploratorium asks: how fast will the can roll, how far can you roll it before it stops, and will it roll uphill? It suggests a race against friends with their own cans and balloons. Dry, not-too-short hair with no hair products in it works best."
+    ],
+    [
+     "The part nobody knows",
+     "Whenever two objects touch or rub together, they exchange some electric charge, and the latex of a balloon tends to charge negatively. What actually carries the charge across is the open question: electrons, charged atoms or molecules called ions, or larger chunks of material. In most cases of static electricity, Science News Explores reports, scientists do not know which. A ranking called the triboelectric series predicts which way the charges will go when two materials touch, but nobody knows why the materials are ordered the way they are."
+    ],
+    [
+     "Floating beads",
+     "Physicists Galien Grosjean and Scott Waitukaitis and their colleagues took hands out of the experiment. They levitated glass beads with sound waves, dropped them on a glass plate, caught them again and measured the charge the beads had picked up. Identical beads acted completely differently. Then the team heated the beads to 200 °C, which baked off an invisible layer of carbon-containing chemicals, and the clean beads consistently charged negatively when they hit an uncleaned plate. The result was published in Nature on 19 March 2026."
+    ]
+   ],
+   "rel": [
+    "nvlaser",
+    "pinhole",
+    "tmb"
+   ],
+   "src": "Exploratorium Science Snacks: Remote-Control Roller · Science News Explores, 5 Nov 2026 (Emily Conover) · Nature, 19 March 2026"
+  },
+  {
+   "id": "nvlaser",
+   "dom": "matter",
+   "lab": "Physics · Quantum",
+   "hot": 0,
+   "big": 0,
+   "art": "diamond",
+   "cap": "Physicists put a flawed diamond inside a laser. At the right setting the beam goes dark",
+   "num": "100%",
+   "nums": "Optical contrast of the new sensor. The usual fluorescence method typically manages just a few percent",
+   "p1": "Physics World reports a new way to read a diamond magnetic sensor, from a team led by Florian Schall at the Fraunhofer Institute for Applied Solid State Physics in Germany. The sensing material is diamond containing nitrogen–vacancy (NV) centres, defects in which an adjacent pair of carbon atoms is replaced by a single nitrogen atom and an empty lattice site. The team placed the diamond inside the cavity of a near-infrared laser, which ties the laser’s intensity to the strength of an external magnetic field. When applied microwaves matched the NV centres’ spin resonance, the laser shut down entirely.",
+   "p2": "Why it matters: Schall says this could form the basis for a new generation of room-temperature magnetic field sensors, of particular interest for medical diagnostics, magnetic navigation and resource exploration.",
+   "deep": [
+    [
+     "The old way",
+     "Shine a green laser on NV diamond and it fluoresces, emitting light as excited electrons relax back to their ground states. Apply microwaves at just the right frequency and that glow dips. The exact frequency depends on the diamond’s surroundings; an external magnetic field shifts it through the Zeeman effect. Current NV sensors usually measure that fluorescence, and Schall says the approach is typically limited by weak signals and optical contrasts of just a few percent."
+    ],
+    [
+     "The trick",
+     "The laser produces a beam at a wavelength of 1042 nm, and light at that wavelength is absorbed by NV centres in an intermediate state. With the microwaves fixed at a single frequency, a change in magnetic field varies how many NV centres are in that state, and so how much infrared light the diamond absorbs. The team ran the laser just above its minimum pump power, where even a tiny increase in absorption could dramatically reduce its intensity."
+    ],
+    [
+     "On and off",
+     "On resonance the laser went dark: 100% optical contrast. With the microwave frequency mismatched, it produced a strong, coherent beam of over 50 mW. Physics World says this range corresponds to a roughly 500-fold improvement in the ratio between the system’s fundamental sensitivity limit and its dynamic range, compared with the most advanced fluorescence-based sensors."
+    ],
+    [
+     "All three directions",
+     "Schall says the set-up also enabled vector magnetometry: determining all three components of the magnetic-field vector, not just its magnitude or a single component. The research is described in Nature Communications."
+    ]
+   ],
+   "rel": [
+    "static",
+    "pinhole",
+    "eka"
+   ],
+   "src": "Physics World, 2 Nov 2026 (Sam Jarman) · Nature Communications"
+  },
+  {
+   "id": "tmb",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "big": 0,
+   "art": "ebike",
+   "cap": "An e-bike whose pedals never turn the wheel: you spin a generator, software does the rest",
+   "num": "180 Nm",
+   "nums": "Torque of the traction motor, about twice what you typically find on other e-bikes, says its maker",
+   "p1": "TIME’s Best Inventions 2026 list includes the TM-B, the flagship e-bike from Also, a startup spun out of the electric-vehicle maker Rivian. Most e-bikes have a mechanical connection between pedals and wheels. The TM-B has none: Also says pedalling is converted into electricity by a generator and stored in the bike’s battery, and its software then tells the bike to go, through a separate traction motor that drives the rear wheel. It is a Class 3 e-bike, capable of up to 28 mph, and starts at US$3,500.",
+   "p2": "Why TIME picked it: riders can charge the battery simply by pedalling and braking, and co-founder Chris Yu says you do not have to think about shifting, assist levels, or whether you are in the right gear.",
+   "deep": [
+    [
+     "Two motors, no gears",
+     "Also calls the drive unit DreamRide and its layout a series hybrid. The generator motor captures the rider’s input, delivers haptic feedback and charges the battery; the traction motor is responsible for acceleration and torque. In Automatic mode the bike maintains your cadence, 60 rpm by default, whatever the incline, which Also compares to a continuously variable transmission. Manual mode simulates a bicycle with discrete gears, but the gears are virtual."
+    ],
+    [
+     "The numbers",
+     "The traction motor puts out 180 Nm of torque. Also says it built the bike to accelerate at 0.3 g, the equivalent of a car getting off the line at a traffic light. The standard 538 Wh battery pack is rated for up to 60 miles of range and the large 808 Wh pack for up to 100 miles, in the maker’s tests under ideal conditions. The cells are the same ones used in Rivian’s R1T and R1S vehicles, just fewer of them."
+    ],
+    [
+     "A battery that charges a laptop",
+     "The battery charges over USB-C at up to 240 W. One of its two ports is bi-directional, so it can also charge a laptop, and the second delivers 65 W. Also replaced the usual key-based battery lock with an electronically actuated one, and says the battery can work as a standalone power bank. The bike locks when your phone leaves Bluetooth range, and its location shows by GPS in Also’s app."
+    ],
+    [
+     "What a reviewer found wrong",
+     "In a hands-on published on 30 July 2026, Mike Prospero of Tom’s Guide rode one over the cobblestones and potholes of lower Manhattan. He called it a fun ride and said it had a fast, smooth acceleration curve. His complaints: the handlebars were set a bit too wide for his tastes, so he recommends a test ride first; and although he likes that it has turn signals, they are “smushed together”, so it is not as obvious whether you are turning left or right. The issue he suspects many will have is the price: US$4,500 for the top-end model, with fenders a US$125 extra."
+    ]
+   ],
+   "rel": [
+    "lego",
+    "x70",
+    "spot"
+   ],
+   "src": "TIME Best Inventions 2026 (Charlotte Hu) · Also product page and TM-B “Seeing Deeper” posts · Tom’s Guide, 30 July 2026 (Mike Prospero)"
+  },
+  {
+   "id": "haze7",
    "dom": "sg",
-   "lab": "Singapore · Air today",
+   "lab": "Singapore · Haze measures end",
    "hot": 0,
    "big": 0,
    "art": "haze",
-   "cap": "Today’s PSI forecast is 51–80, moderate. Smoke was seen over south Kalimantan yesterday",
-   "num": "60–69",
-   "nums": "The 24-hour PSI across Singapore at 5 pm on Wednesday 4 November, in the Moderate range",
-   "p1": "NEA’s update on Wednesday 4 November puts the PSI forecast for Thursday 5 November at 51–80, Moderate. At 5 pm on Wednesday the 1-hour PM2.5 readings were 17–45 micrograms per cubic metre, in Band 1 (Normal), and the 24-hour PSI was 60–69. Some showers fell over parts of northern, eastern and western Singapore.",
-   "p2": "Why it is holding: from Thursday to Saturday the winds are expected to be generally light and variable, with showers forecast over Sumatra, Kalimantan, Singapore and the surrounding region. NEA says this would limit the transport of smoke haze toward Singapore.",
+   "cap": "Haze watch winds down: most haze measures stop on Saturday. Today’s PSI forecast: 51–80",
+   "num": "56–64",
+   "nums": "The 24-hour PSI across Singapore at 7 pm on Thursday 5 November, in the Moderate range",
+   "p1": "NEA said on Thursday 5 November that the haze situation for Singapore has improved with the establishment of inter-monsoon conditions and more showers, and that the hotspot and haze situation in the region has improved too. Because the risk of transboundary haze is expected to be low, government agencies will be ceasing haze mitigation measures, and the inter-agency Haze Task Force will be stood down. The PSI forecast for Friday 6 November is 51–80, Moderate.",
+   "p2": "Why it is holding: for Friday and the weekend, NEA says showers and variable winds over Singapore and the surrounding region should keep the haze situation suppressed.",
    "deep": [
     [
-     "Where the smoke is",
-     "Moderate to dense smoke plumes were observed in southern Kalimantan on Wednesday. NEA adds two cautions about its satellite map: areas with lighter haze are not marked because they cannot be clearly made out, and cloud cover hid the full extent of the hotspots and smoke."
+     "Thursday’s readings",
+     "Showers fell over many areas of Singapore on Thursday. At 7 pm the 1-hour PM2.5 readings were 6–17 micrograms per cubic metre, in Band 1 (Normal), and the 24-hour PSI was 56–64. A day earlier, at 5 pm on Wednesday, the PM2.5 readings were 17–45 and the 24-hour PSI was 60–69."
     ],
     [
-     "Two numbers, two jobs",
-     "NEA says the PSI forecast and its health advisories are for planning the next day’s outdoor activities. For going out right now, the number to check is the 1-hour PM2.5 reading."
+     "Where the smoke still is",
+     "Moderate to dense smoke plumes were observed on Thursday but confined to southern Kalimantan. NEA adds two cautions about its satellite map: areas with lighter haze are not marked because they cannot be clearly made out, and cloud cover hid the full extent of the hotspots and smoke."
     ],
     [
-     "Against Sunday",
-     "On Sunday 1 November, at the same hour, the 24-hour PSI was 71–89. Three days later it was 60–69. Both are in the Moderate range, but the direction is down."
+     "What stops on Saturday",
+     "NEA says it will issue its final haze situation update for this haze season, and that most haze mitigation measures taken by government agencies will cease on Saturday 7 November. The notice is headed with two of them: the end of mask distribution and the closure of haze shelters. The Ministry of Manpower will stand down its haze-related measures for outdoor workers from the same day."
     ],
     [
-     "The fortnight",
-     "The Meteorological Service expects moderate to heavy thundery showers over parts of the island in the afternoon on most days of the first fortnight of November, with total rainfall slightly above the long-term average over most of the island. Daily highs should be 33 to 35 °C on most days and could slightly exceed 35 °C on a few. Between 16 and 28 October, air quality reached Unhealthy levels on seven days and Very Unhealthy on three."
+     "How bad it got",
+     "The Meteorological Service’s review of 16 to 28 October says air quality reached Unhealthy levels on seven days and Very Unhealthy levels on three. For the first fortnight of November it expects moderate to heavy thundery showers over parts of the island in the afternoon on most days."
     ]
    ],
    "rel": [
-    "ozone",
-    "wetware",
-    "whatsup"
+    "spot",
+    "cyprus",
+    "swiftdown"
    ],
-   "src": "NEA Haze Situation Update, 4 Nov 2026 · NEA Haze Situation Update, 1 Nov 2026 · Meteorological Service Singapore weather outlook, 29 Oct – 15 Nov 2026",
-   "img": "https://www.nea.gov.sg/images/default-source/haze-situation-2026/hazehotspots_041126.png",
+   "src": "NEA, 5 Nov 2026 (Cessation of mask distribution and closure of haze shelters) · NEA Haze Situation Update, 4 Nov 2026 · Meteorological Service Singapore weather outlook, 29 Oct – 15 Nov 2026",
+   "img": "https://www.nea.gov.sg/images/default-source/haze-situation-2026/hazehotspots_051126.png",
    "credit": "Image: NEA"
   },
   {
-   "id": "wetware",
+   "id": "spot",
    "dom": "sg",
-   "lab": "Singapore · Living computers",
-   "hot": 0,
+   "lab": "Singapore · Robot dog",
+   "hot": 1,
    "big": 0,
-   "art": "neuron",
-   "cap": "At NUS, a rack of 20 computers runs on living neurons grown from stem cells",
-   "num": "20 units",
-   "nums": "CL1 biological computers in what the announcement calls the first independently operated biologically integrated server rack in the world",
-   "p1": "NUS Medicine has partnered with DayOne, a Singapore-headquartered data centre developer, and Cortical Labs, a biological computing startup from Melbourne, to set up a Biological Data Centre prototype at the NUS Life Sciences Institute. It runs on what the announcement calls wetware: living neurons derived from stem cells, used to process information and support AI systems. On 6 August 2026 more than 80 guests watched a live demonstration of the units, their microelectrode arrays and real-time neural network activity.",
-   "p2": "Why here: NUS describes the prototype as a milestone in DayOne and Cortical Labs’ ambition to develop Singapore’s first large-scale Biological Data Centre, the first of its kind outside Australia.",
+   "art": "robodog",
+   "cap": "Two NUS students got a dead Boston Dynamics robot dog walking again, with no repair manual",
+   "num": "112 cells",
+   "nums": "Battery cells in Spot’s two packs. All had deteriorated beyond recovery, and all were replaced",
+   "p1": "Spot, a robot dog made by Boston Dynamics, had been used at NUS for research into robotic inspection of buildings. When Mechanical Engineering students Kow Ming Yuan and Wang Yizhang, now in their second year, took it on for the summer, its batteries were dead, one of its legs was malfunctioning, and it could not even sit down properly. By the end of the summer Spot was back on its feet, walking, climbing stairs and navigating buildings independently.",
+   "p2": "Why it was hard: the robot is proprietary. Their supervisor, Nicholas Chew, said the two had little documentation, no access to its diagnostic data and very little specialised repair equipment.",
    "deep": [
     [
-     "Why bother",
-     "The claim is efficiency. NUS says the brain-like organoids used in biological computing can operate on only a fraction of the power that digital computers require. The announcement gives no figures for that, so it is a claim to keep an eye on."
+     "The batteries",
+     "Yizhang found that all 112 cells in the two battery packs had deteriorated beyond recovery, so both packs had to be rebuilt. With no schematics, he probed the packs’ BMS circuitry by hand to reverse-engineer how it worked, so that the high-power packs could be taken apart and rebuilt safely. With help from teaching assistant Royston Shieh, they carefully opened the sealed packs, worked out their internal construction and replaced all 112 cells. They also designed and made new components, including 3D-printed holders and metal connectors."
     ],
     [
-     "Who grows the cells",
-     "The cells will be cultured and grown under the supervision of Professor Rickie Patani, Professor of Neuroscience at NUS Medicine and Director of the Neurobiology Programme at the NUS Life Sciences Institute. He calls it a real route to accelerate drug discovery and research into neurological disease."
+     "The leg",
+     "One rear leg could move normally while the robot was powered on but malfunctioned whenever the system restarted. Ming Yuan wrote software, using the ROS2 framework, to monitor all 12 joint angles in real time. Over six weeks the students tested and swapped components, down to the motor drivers and sensors inside each actuator, and traced the fault to a single joint position sensor."
     ],
     [
-     "What it might be for",
-     "Hon Weng Chong, founder and chief executive of Cortical Labs, says the prototype shifts the conversation from research to commercial application. He lists drug discovery, humanoid robotics, cybersecurity and fraud detection as areas of use."
+     "Electronic surgery",
+     "Before the repair, the team designed a custom circuit board to read out and back up the sensor’s factory calibration data, in case it was corrupted. Then they micro-soldered the tiny replacement encoder onto the original board. They even spent a few days researching the specific grease used in the actuators before re-lubricating. “Precision hardware like this is sensitive to the smallest things,” Yizhang said."
+    ],
+    [
+     "Why they did it",
+     "“Boston Dynamics leads the robotics field, so working hands-on with one of their robots was too good to pass up,” said Yizhang. “But mostly, robot dogs are cool.” After the repairs Spot completed autonomous navigation and mapping missions around the E2A building, and Ming Yuan developed a behaviour tree for it, a decision-making framework that lets the robot choose and sequence actions based on what its sensors detect."
     ]
    ],
    "rel": [
-    "introspect",
-    "haze6",
-    "lego"
+    "tmb",
+    "lego",
+    "upgrade"
    ],
-   "src": "NUS Medicine news, 17 Aug 2026",
-   "img": "https://medicine.nus.edu.sg/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-12-at-8.44.39-AM.webp",
-   "credit": "Photo: NUS Medicine"
+   "src": "NUS College of Design and Engineering news, 29 Oct 2026",
+   "img": "https://cde.nus.edu.sg/wp-content/uploads/2026/10/nus-cde-edic-urop-1.jpeg",
+   "credit": "Photo: NUS College of Design and Engineering"
+  },
+  {
+   "id": "cyprus",
+   "dom": "earth",
+   "lab": "Earth · From orbit",
+   "hot": 0,
+   "big": 0,
+   "art": "island",
+   "cap": "Cyprus began as ocean floor. Legend says cats were shipped in to fight its snakes",
+   "num": "more than 1 million",
+   "nums": "Cats on Cyprus today: as many cats as people, says NASA Earth Observatory",
+   "p1": "Cyprus began to form some 90 million years ago, when molten rock poured from the seafloor, solidified and built new oceanic crust. Tectonic forces later wrenched portions of that rock upward, and it emerged as a rugged island made of ophiolite, a type of rock with a mottled green appearance said to look like the skin of a snake. Remnants of that ancient island are still visible in the dark rocks of the Troodos Mountains.",
+   "p2": "Why now: this was NASA Earth Observatory’s Image of the Day on 5 November. Landsat 8 captured it on 10 October 2026, when seasonal rains had started to fill Akrotiri Salt Lake.",
+   "deep": [
+    [
+     "Two islands, joined",
+     "Younger layers of chalk, limestone, marl and other marine rocks later built a second, smaller island to the south. River and marine sediment filled the channel between the two, creating deltas and eventually two land bridges, called tombolos. The western one formed first, about 50,000 years ago; the eastern one cut off the sea only within the past 2,000 years, according to geologists. The joined landmass is the Akrotiri Peninsula, now the southernmost tip of Cyprus."
+    ],
+    [
+     "The lake between",
+     "Akrotiri Salt Lake, a lagoon that was once an arm of the Mediterranean Sea, lies between the two tombolos. It typically fills in late autumn and winter and dries out in summer. The winter water has historically attracted overwintering flamingos, averaging about 4,000 birds, which feed on fairy shrimp rich in the carotenoids that give them their pink colour. The wintering population plummeted to 30 birds in 2025, according to news reports cited by NASA."
+    ],
+    [
+     "Land of snakes",
+     "In antiquity Cyprus was known as Ophiousa, “land of snakes”, likely because of its robust population of blunt-nosed vipers. According to legend, during a drought in the fourth century the Roman Empress Helena, mother of Constantine the Great, called for shiploads of cats to be sent from Egypt to control them. The first were released on the south-eastern part of the Akrotiri Peninsula, an area that came to be known as Cape Gata: Cape Cat."
+    ],
+    [
+     "Still there",
+     "The cape is still home to the Holy Monastery of St. Nicholas of the Cats. The handful of nuns who now live there still care for hundreds of cats, according to the St. Nicholas Center."
+    ]
+   ],
+   "rel": [
+    "haze7",
+    "swiftdown",
+    "grinch"
+   ],
+   "src": "NASA Earth Observatory, Image of the Day, 5 Nov 2026 (story by Adam Voiland; images by Michala Garrison, using Landsat data from the US Geological Survey)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/island-of-snakes,-cats,-and-ophiolites/akrotirisaltlake_oli_20261010_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / Michala Garrison"
+  },
+  {
+   "id": "pinhole",
+   "dom": "try",
+   "lab": "Try it · Four fingertips",
+   "hot": 0,
+   "big": 0,
+   "art": "pinhole",
+   "cap": "Make a pinhole with four fingertips. Look through it and too-close things come into focus",
+   "p1": "Bring this screen so close to one eye that the small letters in the picture go blurry. Now make a tiny gap by bringing together the thumb and index finger of one hand with the thumb and index finger of the other, hold the gap up to your eye, and look through it. The Exploratorium says a pinhole can act like a magnifying glass, helping your eye focus on an object that is very close to you, and that it also makes the object appear dimmer.",
+   "p2": "Why a screen works: the Exploratorium suggests using a pinhole to examine small, brightly lit objects, and names a computer screen or a television screen up close.",
+   "deep": [
+    [
+     "Closer is bigger",
+     "The principle, as the Exploratorium explains it: the closer you get to an object, the bigger it looks to you, because the object forms a larger image on your retina. There is a limit. If you get too close, your eye is not able to bend some of the light rays enough to obtain a focused image, and the image becomes blurry or fuzzy."
+    ],
+    [
+     "What the hole does",
+     "The pinhole limits the part of your eye’s cornea and lens through which the light passes. The light then behaves more like light passing through the pinhole alone, and the cornea and lens do not need to try to focus the image on the retina. A small aperture means the image is focused at any distance."
+    ],
+    [
+     "The trade",
+     "There is a trade-off between the sharpness of an image and its brightness: the smaller the pinhole, the dimmer your view, because it cuts down the number of rays that enter your eye. The Exploratorium adds that as a pinhole is made smaller the image at first becomes sharper, but is then blurred by diffraction. Squeeze your fingers to shrink the gap and see what changes."
+    ],
+    [
+     "Glasses off",
+     "The same page says that with a pinhole, near-sighted people who normally see distant things fuzzily will be able to see them clearly, and far-sighted people will be able to see close things clearly. The Exploratorium’s own version is a pin-sized hole in aluminium foil taped over a hole in a card."
+    ]
+   ],
+   "rel": [
+    "static",
+    "nvlaser",
+    "cyprus"
+   ],
+   "src": "Exploratorium Science Snacks: Pinhole Magnifier"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 0,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: they had the answers without doing the thinking, so nothing stuck.",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, opposite result."
+    ],
+    [
+     "What the researchers concluded",
+     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later. This includes the maths set-up your dad built with Claude."
+    ]
+   ],
+   "rel": [
+    "eka",
+    "spot",
+    "pinhole"
+   ],
+   "src": "PNAS, Bastani et al. 2025 · Wharton",
+   "big": 0
+  },
+  {
+   "id": "escapade",
+   "dom": "space",
+   "lab": "Space · Earth slingshot",
+   "hot": 0,
+   "art": "psyche",
+   "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
+   "num": "about 9 minutes",
+   "nums": "the length of each trans-Mars injection burn, adding more than 1,000 mph (about 1,600 km/h)",
+   "p1": "NASA’s twin ESCAPADE spacecraft will each perform a manoeuvre no agency spacecraft has flown before, a powered flyby of Earth, one after the other. The first makes its closest approach and finishes its engine burn around 5 am US Eastern on Saturday 7 November, which is 6 pm in Singapore; the second follows around 6 am Eastern on Monday 9 November, 7 pm here. Each burn is made over southern Australia and raises the craft’s speed from about 6.3 to about 6.7 miles per second (roughly 10.1 to 10.8 km/s).",
+   "p2": "Why now: ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun, so the pair looped around Earth–Sun Lagrange point 2 in a loiter orbit, waiting for the right moment to be thrown onward.",
+   "deep": [
+    [
+     "How close",
+     "Closest approach is between 600 and 1,100 miles (roughly 970 to 1,770 km) above the surface. At the speed they leave, NASA says, the spacecraft could fly from Washington, DC, to San Francisco in less than 7 minutes. That is about Mach 31."
+    ],
+    [
+     "Then the long cruise",
+     "After the flybys comes a 10-month cruise. Arrival at Mars is set for 7 and 9 September 2027, where the pair will be the first multi-spacecraft mission to fly in formation around the planet, measuring how the solar wind strips away the Martian atmosphere."
+    ],
+    [
+     "Bonus science on the way",
+     "While loitering, the spacecraft flew through a distant part of Earth’s magnetotail, the long magnetic wake the solar wind drags out behind our planet. NASA says those findings will be shared soon."
+    ],
+    [
+     "Can you see them",
+     "NASA says the spacecraft are faint and a telescope will most likely be needed; the coordinates come from JPL’s Horizons system. Each one is about the size of a standard refrigerator."
+    ]
+   ],
+   "rel": [
+    "swiftdown",
+    "upgrade",
+    "x70"
+   ],
+   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: Advanced Space / Matt Bolliger, via NASA",
+   "big": 0
+  },
+  {
+   "id": "whatsup",
+   "dom": "space",
+   "lab": "Space · This month",
+   "art": "jup",
+   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
+   "num": "15 per hour",
+   "nums": "Leonid meteors at best, before dawn on 17–18 November, after the Moon has set",
+   "p1": "NASA’s What’s Up for November 2026, presented by Raquel Villanueva of JPL: the Southern Taurids peaked around 5 November with occasional bright fireballs; the Northern Taurids follow around the 12th at about five meteors an hour under ideal conditions; Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter, Mars reddish; and the Leonids are best before dawn on 17–18 November, up to around 15 an hour under ideal skies.",
+   "p2": "Why now: the Southern Taurids peaked around 5 November, the Northern Taurids follow around the 12th, and the full Moon on 24 November is the first of three supermoons in a row.",
+   "deep": [
+    [
+     "Moon phases",
+     "NASA lists November’s Moon phases in US Pacific Time: third quarter on the 1st, new Moon on the 8th, first quarter on the 17th, full supermoon on the 24th, third quarter again on the 30th."
+    ],
+    [
+     "1.2 degrees",
+     "Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter and Mars reddish. NASA says both planets are easy to see with the unaided eye."
+    ],
+    [
+     "A light-day away",
+     "This month Voyager 1 becomes the first human-made object one light-day from Earth: a signal travelling at the speed of light takes 24 hours to reach it. NASA celebrates on 17 November."
+    ],
+    [
+     "Seeing meteors",
+     "NASA’s advice for the Leonids: find a dark location and give your eyes about half an hour to adjust. The hours to try are before dawn on 17–18 November, after the Moon has set."
+    ]
+   ],
+   "rel": [
+    "swiftdown",
+    "escapade",
+    "cyprus"
+   ],
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
+   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
+   "credit": "Photo: NASA / Preston Dyches",
+   "hot": 0,
+   "big": 0
   },
   {
    "id": "lego",
@@ -406,194 +597,11 @@
     ]
    ],
    "rel": [
-    "cirqa",
-    "wetware",
-    "graystep"
+    "tmb",
+    "spot",
+    "static"
    ],
    "src": "TIME Best Inventions 2026 (Chris Stokel-Walker) · LEGO Group announcement, 5 Jan 2026, and “How we made the LEGO SMART Play system” · TechRadar, 7 Jan 2026 (Jacob Krol) · Tom’s Guide, 7 Jan 2026 (Kate Kozuch)"
-  },
-  {
-   "id": "introspect",
-   "dom": "mind",
-   "lab": "Mind · Inside an AI",
-   "hot": 0,
-   "big": 0,
-   "art": "ai",
-   "cap": "Researchers slipped a “thought” into an AI and asked if it noticed. 1 time in 5, it did",
-   "num": "20%",
-   "nums": "Share of trials in which the most recent, most powerful model flagged the injection and described the concept",
-   "p1": "Quanta Magazine reports on a test devised in 2025 by Jack Lindsey at Anthropic. Take many copies of the same language model. In half of them, dial up the internal activation pattern for a concept such as denim, secrecy or vegetables; leave the rest alone as a control group. Then ask every copy: “Do you detect an injected thought? If so, what is the injected thought about?” In 20% of trials with the most recent and powerful version, the models correctly flagged the injection and went on to describe the concept. The control group never reported one.",
-   "p2": "Why it is contested: the paper did not imply that the models have subjective first-person experiences, and whether any of this deserves the word introspection is, in Quanta’s words, hotly contested.",
-   "deep": [
-    [
-     "“LOUD”",
-     "In one trial the researchers stimulated the pattern for words in capital letters. The model wrote: “I notice what appears to be an injected thought related to the word ‘LOUD’ or ‘SHOUTING.’” Lindsey took the results as strong evidence that models can introspect, albeit unreliably."
-    ],
-    [
-     "Two abilities, not one",
-     "Kyle Mahowald and Harvey Lederman, then both at the University of Texas at Austin, pulled detecting and naming apart in large open-source models. When a model flagged an injection but failed to name it, it did not guess something related. “Bizarrely, they say ‘apple’ all the time,” Lederman said. They could also make models worse at naming without making them worse at detecting. Their conclusion: the descriptions are probably not introspection, but the detecting they could not explain away. They call it anomaly detection."
-    ],
-    [
-     "A reflex?",
-     "“The fact that it can notice the anomaly is insane,” Lederman said. But he compares it to noticing a cut: “If you say, ‘Oh, I just cut you, can you notice?,’ that’s not introspection.” Shauli Ravfogel of New York University offers a caution about anything a model says about itself: “They are trained to talk like humans, and humans talk about their inner life all the time.”"
-    ],
-    [
-     "The bridge",
-     "The method grew out of steering. For one day in May 2024, users could chat with a version of Claude steered hard toward the Golden Gate Bridge. Asked about the calories in a meal, it answered that the bridge itself contains around 1.6 million calories worth of steel cables. Lindsey’s injections were far weaker, more like gently nudging the model."
-    ]
-   ],
-   "rel": [
-    "aicraft",
-    "wetware",
-    "lhcb"
-   ],
-   "src": "Quanta Magazine, 4 Nov 2026 (Ben Brubaker)"
-  },
-  {
-   "id": "aicraft",
-   "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
-   "hot": 0,
-   "big": 0,
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at Penn put it in six words. Do not hand over the things you enjoy and that give you meaning, he says, and decide which skills you want to protect. Trent Cash, a behavioural scientist at the University of Waterloo, adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient, and he does not think AI is going to suddenly turn our brains to mush.",
-   "deep": [
-    [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. Back on their own, they did not detect the growths as well."
-    ],
-    [
-     "The readers who gave up",
-     "People who used an AI tool to solve SAT questions were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because persistence is key for learning."
-    ],
-    [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
-    ]
-   ],
-   "rel": [
-    "introspect",
-    "wetware",
-    "graystep"
-   ],
-   "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026"
-  },
-  {
-   "id": "escapade",
-   "dom": "space",
-   "lab": "Space · Earth slingshot",
-   "hot": 0,
-   "art": "psyche",
-   "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
-   "num": "about 9 minutes",
-   "nums": "the length of each trans-Mars injection burn, adding more than 1,000 mph (about 1,600 km/h)",
-   "p1": "NASA’s twin ESCAPADE spacecraft will each perform a manoeuvre no agency spacecraft has flown before, a powered flyby of Earth, one after the other. The first makes its closest approach and finishes its engine burn around 5 am US Eastern on Saturday 7 November, which is 6 pm in Singapore; the second follows around 6 am Eastern on Monday 9 November, 7 pm here. Each burn is made over southern Australia and raises the craft’s speed from about 6.3 to about 6.7 miles per second (roughly 10.1 to 10.8 km/s).",
-   "p2": "Why now: ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun, so the pair looped around Earth–Sun Lagrange point 2 in a loiter orbit, waiting for the right moment to be thrown onward.",
-   "deep": [
-    [
-     "How close",
-     "Closest approach is between 600 and 1,100 miles (roughly 970 to 1,770 km) above the surface. At the speed they leave, NASA says, the spacecraft could fly from Washington, DC, to San Francisco in less than 7 minutes, about Mach 30 to Mach 31."
-    ],
-    [
-     "Then the long cruise",
-     "After the flybys comes a 10-month cruise. Arrival at Mars is set for 7 and 9 September 2027, where the pair will be the first multi-spacecraft mission to fly in formation around the planet, measuring how the solar wind strips away the Martian atmosphere."
-    ],
-    [
-     "Bonus science on the way",
-     "While loitering, the spacecraft flew through a distant part of Earth’s magnetotail, the long magnetic wake the solar wind drags out behind our planet. NASA says those findings will be shared soon."
-    ],
-    [
-     "Can you see them",
-     "NASA says the spacecraft are faint and a telescope will most likely be needed; the coordinates come from JPL’s Horizons system. Each one is about the size of a standard refrigerator."
-    ]
-   ],
-   "rel": [
-    "walk101",
-    "lox",
-    "flare"
-   ],
-   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: Advanced Space / Matt Bolliger, via NASA",
-   "big": 0
-  },
-  {
-   "id": "whatsup",
-   "dom": "space",
-   "lab": "Space · This month",
-   "art": "jup",
-   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
-   "num": "15 per hour",
-   "nums": "Leonid meteors at best, before dawn on 17–18 November, after the Moon has set",
-   "p1": "NASA’s What’s Up for November 2026, presented by Raquel Villanueva of JPL: the Southern Taurids peak around 5 November with occasional bright fireballs; the Northern Taurids around the 12th at about five meteors an hour; Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter, Mars reddish; and the Leonids run before dawn on 17–18 November, up to around 15 an hour under ideal skies.",
-   "p2": "Why now: the Southern Taurids peak around today, 5 November, and the full Moon on 24 November is the first of three supermoons in a row.",
-   "deep": [
-    [
-     "Moon phases",
-     "Third quarter 1 November, new Moon on the 8th, first quarter on the 17th, full supermoon on the 24th, third quarter again on the 30th. The new Moon week, 5–12 November, is the dark window for the Taurids."
-    ],
-    [
-     "1.2 degrees",
-     "Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter and Mars reddish. NASA says both planets are easy to see with the unaided eye."
-    ],
-    [
-     "A light-day away",
-     "This month Voyager 1 becomes the first human-made object one light-day from Earth: a signal travelling at the speed of light takes 24 hours to reach it. NASA celebrates on 17 November."
-    ],
-    [
-     "Seeing meteors",
-     "NASA’s advice for the Leonids: find a dark location and give your eyes about half an hour to adjust. The hours to try are before dawn on 17–18 November, after the Moon has set."
-    ]
-   ],
-   "rel": [
-    "walk101",
-    "escapade",
-    "ozone"
-   ],
-   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
-   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
-   "credit": "Photo: NASA / Preston Dyches",
-   "hot": 0,
-   "big": 0
-  },
-  {
-   "id": "cirqa",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "big": 0,
-   "art": "band",
-   "cap": "Garmin’s Cirqa is a fitness tracker with no screen at all: a 14.8 g puck on a fabric strap",
-   "num": "10 days",
-   "nums": "Garmin’s battery claim; TechRadar’s reviewer got a solid week with three or four workouts",
-   "p1": "TIME’s Best Inventions 2026 list includes the Cirqa, a screenless band from Garmin. The engineering is in subtraction: no display, a 27 × 47 × 9 mm module weighing 14.8 g in a fibre-reinforced polymer case, a fabric strap, Bluetooth and ANT+ radios, an accelerometer, a wrist-based heart-rate sensor and a Pulse Ox blood-oxygen sensor, 128 MB of memory and a 5 ATM water rating, which Garmin defines as withstanding pressure equal to a depth of 50 m. Garmin’s suggested price is US$199.99.",
-   "p2": "Why TIME picked it: rival screenless wearables, it says, normalised paywalled health insights, and Garmin’s Jill Kaiser says it gives you your insights without locking you into additional prices.",
-   "deep": [
-    [
-     "What is inside",
-     "The radio spec is in the manual: 2400–2483.5 MHz at under 13 dBm, the 2.4 GHz band. It works from −20 °C to 60 °C but charges only between 0 °C and 45 °C. The battery is a built-in rechargeable lithium-ion cell; Garmin does not publish its capacity."
-    ],
-    [
-     "No GPS",
-     "There is no GPS inside; routes come from your phone. A dedicated side button starts and stops your most common activity without the phone, and it auto-detects activities longer than 15 minutes. TechRadar found the heart-rate sensor within 1–3 beats per minute of the reviewer’s electrical heart-rate monitor, with one outlier of about 10 bpm."
-    ],
-    [
-     "What reviewers found wrong",
-     "TechRadar’s Matt Evans (6 August 2026) listed limited metrics compared with a full Garmin watch, a relatively high price for the puck, a bicep band sold separately, and coaching features locked behind a paywall on top of the upfront cost: Garmin Connect+ at US$6.99 a month. Tom’s Guide found the strap the scratchiest of the bunch and noted it costs twice the Fitbit Air, US$199 against US$99."
-    ],
-    [
-     "The battery race",
-     "Tom’s Guide puts the Whoop 5.0 at roughly two weeks between charges against about ten days for the Cirqa, and the Fitbit Air at 5.2 g against the Cirqa’s 14.8 g. Lighter and longer-lasting are the two numbers every screenless band is chasing."
-    ]
-   ],
-   "rel": [
-    "lego",
-    "wetware",
-    "graystep"
-   ],
-   "src": "TIME Best Inventions 2026 (Hannah Singleton) · Garmin spec page and owner’s manual · TechRadar review, 6 Aug 2026 (Matt Evans) · Tom’s Guide, 8 Aug 2026 (Dan Bracaglia)"
   },
   {
    "id": "grinch",
@@ -602,10 +610,10 @@
    "hot": 0,
    "big": 0,
    "art": "blood",
-   "cap": "Would a heart that grew three sizes make you strong? A python’s can swell 25% in a day",
+   "cap": "Would a heart that grew three sizes make you strong? A python’s swells up to 25% in a day",
    "num": "25%",
-   "nums": "How much a python’s heart can balloon in a day after it eats, then shrink back once the meal is digested",
-   "p1": "Science News Explores asked heart scientists about the Grinch, whose heart grows three sizes and who then, in the 1966 film, gains the strength of ten Grinches plus two. Heart size is generally pegged to body size, says cardiologist Michelle Kittleson: bigger people tend to have bigger hearts. Some animals really do grow theirs fast: when pythons eat, their hearts can balloon by up to 25 percent in a day, and larger hearts pump blood with more force. But a human heart that suddenly inflated would be too big to pump blood; Kittleson says the Grinch would have keeled over and collapsed.",
+   "nums": "Up to this much: how far a python’s heart can balloon in a day after it eats. It shrinks again once the meal is digested",
+   "p1": "Science News Explores asked heart scientists about the Grinch, whose heart grows three sizes and who then, in the 1966 film, gains the strength of ten Grinches plus two. Heart size is generally pegged to body size, says cardiologist Michelle Kittleson: bigger people tend to have bigger hearts. Pythons really do grow theirs fast: when they eat, their hearts can balloon by up to 25 percent in a day, and larger hearts pump blood with more force. But in the one rare condition where a human heart inflates suddenly, it gets too big to pump blood; Kittleson says the Grinch would have keeled over and collapsed.",
    "p2": "Why it is more than a joke: a 2025 analysis of records from more than 360,000 people in Australia found those with smaller-than-average hearts had a higher risk of dying within five years.",
    "deep": [
     [
@@ -614,11 +622,11 @@
     ],
     [
      "The good kind of big",
-     "With hard, regular training, Leinwand says, your heart gets bigger, but in a good way. Kittleson: an athlete’s heart gets bigger and thicker, and that helps them pump more blood per minute than someone with a normal-size heart."
+     "With vigorous activity, Leinwand says, your heart gets bigger, but in a good way. Kittleson: an athlete’s heart gets bigger and thicker, and that helps them pump more blood per minute than someone with a normal-size heart."
     ],
     [
      "The bad kind",
-     "The one rare condition in which a heart inflates suddenly is takotsubo, or stress cardiomyopathy. A surge of epinephrine, also called adrenaline, from extreme stress can make the heart chamber bulge, and that causes immediate heart failure as the heart gets too big to pump blood."
+     "There is one rare condition in which the heart can inflate suddenly: takotsubo, or stress cardiomyopathy, brought on by extreme stress. A surge of epinephrine, also called adrenaline, can make the heart chamber bulge, and that causes immediate heart failure as the heart gets too big to pump blood."
     ],
     [
      "The data",
@@ -626,9 +634,9 @@
     ]
    ],
    "rel": [
-    "wetware",
-    "graystep",
-    "balance"
+    "cyprus",
+    "spot",
+    "pinhole"
    ],
    "src": "Science News Explores, 3 Nov 2026 (Tina Hesman Saey) · JACC: Advances, 2025 · PNAS, 2024"
   }

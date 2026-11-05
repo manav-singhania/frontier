@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "tiles": [
   {
    "id": "after",
@@ -231,13 +231,14 @@
    "lab": "Using AI · Evidence",
    "src": "PNAS, Bastani et al. 2025 · Wharton",
    "first": "2026-10-25",
-   "last": "2026-11-03",
+   "last": "2026-11-06",
    "editions": [
     "02b",
     "05",
     "05b",
     "08",
-    "11"
+    "11",
+    "14"
    ]
   },
   {
@@ -1610,11 +1611,12 @@
   {
    "id": "escapade",
    "first": "2026-11-03",
-   "last": "2026-11-05",
+   "last": "2026-11-06",
    "editions": [
     "11",
     "12",
-    "13"
+    "13",
+    "14"
    ],
    "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
    "lane": "space",
@@ -1722,11 +1724,12 @@
   {
    "id": "whatsup",
    "first": "2026-11-03",
-   "last": "2026-11-05",
+   "last": "2026-11-06",
    "editions": [
     "11",
     "12",
-    "13"
+    "13",
+    "14"
    ],
    "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
    "lane": "space",
@@ -1833,10 +1836,11 @@
   {
    "id": "grinch",
    "first": "2026-11-04",
-   "last": "2026-11-05",
+   "last": "2026-11-06",
    "editions": [
     "12",
-    "13"
+    "13",
+    "14"
    ],
    "cap": "Would a heart that grew three sizes make you strong? A python’s can swell 25% in a day",
    "lane": "life",
@@ -1966,9 +1970,10 @@
   {
    "id": "lego",
    "first": "2026-11-05",
-   "last": "2026-11-05",
+   "last": "2026-11-06",
    "editions": [
-    "13"
+    "13",
+    "14"
    ],
    "cap": "A 2×4 Lego brick with a chip smaller than one stud, a synthesiser, and no screen anywhere",
    "lane": "gadgets",
@@ -1986,6 +1991,138 @@
    "lane": "mind",
    "lab": "Mind · Inside an AI",
    "src": "Quanta Magazine, 4 Nov 2026 (Ben Brubaker)"
+  },
+  {
+   "id": "swiftdown",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "Swift re-entered over North Sumatra on Wednesday night, 8:39 pm Singapore time",
+   "lane": "space",
+   "lab": "Space · Re-entered Wednesday",
+   "src": "NASA Swift blog (Alise Fisher), published 2 Nov 2026, updated 4 Nov 2026"
+  },
+  {
+   "id": "upgrade",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "After 18 spacewalks the ISS power upgrade is done. The last array unrolled on Thursday",
+   "lane": "space",
+   "lab": "Space · Job finished",
+   "src": "NASA Space Station blog, 5 Nov 2026 (Mark A. Garcia), three posts · NASA Space Station blog, 4 Nov and 29 Oct 2026"
+  },
+  {
+   "id": "x70",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "NASA’s new X-plane, the X-70 Fractal: 10,000 pounds, Mach 0.75, built to be re-rigged",
+   "lane": "space",
+   "lab": "Flight · New X-plane",
+   "src": "NASA news release 26-094, 4 Nov 2026 (Cheryl Warner) · NASA media advisory M26-084, 30 Oct 2026, updated 2 Nov (Jessica Taveau)"
+  },
+  {
+   "id": "eka",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "India has released its own AI models. One spans all 22 scheduled Indian languages",
+   "lane": "mind",
+   "lab": "India · Home-built AI",
+   "src": "Press Information Bureau, Ministry of Electronics & IT, Release ID 2332315, 3 Nov 2026"
+  },
+  {
+   "id": "static",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "A rubbed balloon rolls a can without touching it. How rubbing makes charge is a puzzle",
+   "lane": "matter",
+   "lab": "Physics · Electricity",
+   "src": "Exploratorium Science Snacks: Remote-Control Roller · Science News Explores, 5 Nov 2026 (Emily Conover) · Nature, 19 March 2026"
+  },
+  {
+   "id": "nvlaser",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "Physicists put a flawed diamond inside a laser. At the right setting the beam goes dark",
+   "lane": "matter",
+   "lab": "Physics · Quantum",
+   "src": "Physics World, 2 Nov 2026 (Sam Jarman) · Nature Communications"
+  },
+  {
+   "id": "tmb",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "An e-bike whose pedals never turn the wheel: you spin a generator, software does the rest",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Charlotte Hu) · Also product page and TM-B “Seeing Deeper” posts · Tom’s Guide, 30 July 2026 (Mike Prospero)"
+  },
+  {
+   "id": "haze7",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "Haze watch winds down: most haze measures stop on Saturday. Today’s PSI forecast: 51–80",
+   "lane": "sg",
+   "lab": "Singapore · Haze measures end",
+   "src": "NEA, 5 Nov 2026 (Cessation of mask distribution and closure of haze shelters) · NEA Haze Situation Update, 4 Nov 2026 · Meteorological Service Singapore weather outlook, 29 Oct – 15 Nov 2026"
+  },
+  {
+   "id": "spot",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "Two NUS students got a dead Boston Dynamics robot dog walking again, with no repair manual",
+   "lane": "sg",
+   "lab": "Singapore · Robot dog",
+   "src": "NUS College of Design and Engineering news, 29 Oct 2026"
+  },
+  {
+   "id": "cyprus",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "Cyprus began as ocean floor. Legend says cats were shipped in to fight its snakes",
+   "lane": "earth",
+   "lab": "Earth · From orbit",
+   "src": "NASA Earth Observatory, Image of the Day, 5 Nov 2026 (story by Adam Voiland; images by Michala Garrison, using Landsat data from the US Geological Survey)"
+  },
+  {
+   "id": "pinhole",
+   "first": "2026-11-06",
+   "last": "2026-11-06",
+   "editions": [
+    "14"
+   ],
+   "cap": "Make a pinhole with four fingertips. Look through it and too-close things come into focus",
+   "lane": "try",
+   "lab": "Try it · Four fingertips",
+   "src": "Exploratorium Science Snacks: Pinhole Magnifier"
   }
  ]
 }
