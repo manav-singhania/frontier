@@ -49,6 +49,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-
 .tile canvas,.tile img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover}
 .tile .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(5,8,18,.82) 100%)}
 .tile .lab{position:absolute;top:10px;left:10px;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(5,8,18,.55);padding:3px 7px;border-radius:5px;backdrop-filter:blur(4px)}
+.tile .pic{position:absolute;top:10px;right:10px;font-size:11px;color:#fff;background:rgba(5,8,18,.55);padding:2px 6px;border-radius:5px}
 .tile .lab.hot{background:var(--amber);color:var(--amber-ink)}
 .tile .cap{position:absolute;left:12px;right:12px;bottom:12px;font-family:var(--display);font-weight:800;font-size:clamp(15px,2.1vw,21px);line-height:1.08;letter-spacing:-.02em;text-wrap:balance;text-shadow:0 1px 10px rgba(0,0,0,.5)}
 .tile.big{grid-column:span 2;aspect-ratio:8/5}
@@ -682,8 +683,8 @@ var ARCH=null,FIRST={};
 function build(W){ED=W.date;byId={};var seen=ls('fr:seen')||{};W.tiles=W.tiles.filter(function(t){if(seen[t.id]&&seen[t.id]<ED)return false;var f=FIRST[t.id];if(f&&dayDiff(f,ED)>=7&&!seen[t.id]&&t.dom!=='usingai')return false;return true});
  $('#date').textContent=W.dateLabel+' · '+W.tiles.length+' new · tap anything · nothing leaves this page';$('#cd').textContent=W.dateLabel.replace(/^\w+ /,'');$('#chk').textContent=W.dateLabel.replace(/^\w+ /,'').replace(/ \d{4}$/,'');
  var wall=$('#wall');wall.innerHTML='';W.tiles.forEach(function(t){byId[t.id]=t;var b=document.createElement('button');b.className='tile'+(t.big?' big':'');b.dataset.dom=t.dom;b.dataset.id=t.id;
-  b.innerHTML='<canvas width="480" height="'+(t.big?300:600)+'"></canvas>'+(t.img?'<img alt="" loading="lazy" src="'+t.img+'">':'')+'<div class="shade"></div><span class="lab'+(t.hot?' hot':'')+'">'+t.lab+'</span><span class="cap">'+t.cap+'</span>';
-  wall.appendChild(b);draw(t.art||t.id,b.querySelector('canvas'));var im=b.querySelector('img');if(im)im.onerror=function(){im.remove()};b.addEventListener('click',function(){open(t.id)})});
+  b.innerHTML='<canvas width="480" height="'+(t.big?300:600)+'"></canvas><div class="shade"></div><span class="lab'+(t.hot?' hot':'')+'">'+t.lab+'</span><span class="cap">'+t.cap+'</span>'+(t.img?'<span class="pic" title="Real photo inside">◉</span>':'');
+  wall.appendChild(b);draw(t.art||t.id,b.querySelector('canvas'));b.addEventListener('click',function(){open(t.id)})});
  var tk=$('#ticker');tk.innerHTML='';W.week.forEach(function(x){var b=document.createElement('button');b.className='t';b.innerHTML='<span class="d">'+x.d+'</span><span>'+x.t+'</span>';b.addEventListener('click',function(){open(x.id)});tk.appendChild(b)});
  var chips=document.querySelectorAll('.chip'),tiles=document.querySelectorAll('.tile');
  chips.forEach(function(c){c.onclick=function(){chips.forEach(function(x){x.setAttribute('aria-pressed','false')});c.setAttribute('aria-pressed','true');var f=c.dataset.f;var isLog=f==='log';$('#log').hidden=!isLog;$('#wall').hidden=isLog;$('#ask').hidden=isLog;if(isLog)renderLog();tiles.forEach(function(k){k.hidden=isLog||!(f==='all'||k.dataset.dom===f)});ev('lane',f)}});
