@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "tiles": [
   {
    "id": "after",
@@ -278,12 +278,13 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-11-04",
+   "last": "2026-11-07",
    "editions": [
     "02b",
     "06",
     "09",
-    "12"
+    "12",
+    "15"
    ]
   },
   {
@@ -1611,12 +1612,13 @@
   {
    "id": "escapade",
    "first": "2026-11-03",
-   "last": "2026-11-06",
+   "last": "2026-11-07",
    "editions": [
     "11",
     "12",
     "13",
-    "14"
+    "14",
+    "15"
    ],
    "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
    "lane": "space",
@@ -1724,12 +1726,13 @@
   {
    "id": "whatsup",
    "first": "2026-11-03",
-   "last": "2026-11-06",
+   "last": "2026-11-07",
    "editions": [
     "11",
     "12",
     "13",
-    "14"
+    "14",
+    "15"
    ],
    "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
    "lane": "space",
@@ -2067,9 +2070,10 @@
   {
    "id": "tmb",
    "first": "2026-11-06",
-   "last": "2026-11-06",
+   "last": "2026-11-07",
    "editions": [
-    "14"
+    "14",
+    "15"
    ],
    "cap": "An e-bike whose pedals never turn the wheel: you spin a generator, software does the rest",
    "lane": "gadgets",
@@ -2123,6 +2127,150 @@
    "lane": "try",
    "lab": "Try it · Four fingertips",
    "src": "Exploratorium Science Snacks: Pinhole Magnifier"
+  },
+  {
+   "id": "splice",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "A drone played Moon lander over a dry lake bed, mapping the ground to find a safe spot",
+   "lane": "space",
+   "lab": "Space · Moon landing tech",
+   "src": "NASA Armstrong Flight Research Center (Armstrong Communications; page editor Dede Dinius), 4 Nov 2026 · NASA media advisory M26-084, updated 2 Nov 2026 · NASA Live schedule"
+  },
+  {
+   "id": "mcon",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "A full gamepad under an inch thick snaps to your phone by magnet and slides out to play",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Jessica Sager) · Ohsnap MCON product page · Tom’s Guide, 25 Aug 2026 (John Velasco)"
+  },
+  {
+   "id": "cold",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "A record low on China’s space station: atoms at about 10 trillionths of a kelvin",
+   "lane": "matter",
+   "lab": "Physics · Cold",
+   "src": "Science News, 5 Nov 2026 (Emily Conover) · Science (W. Xiong et al., 2026)"
+  },
+  {
+   "id": "octopus",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "Is the hole wider than the gap between its eyes? An octopus is through in seconds",
+   "lane": "life",
+   "lab": "Life · Escape artists",
+   "src": "Science News, 5 Nov 2026 (Nora Bradford) · Journal of Experimental Biology (W. Xin et al.)"
+  },
+  {
+   "id": "gle77",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "A Sun storm sent radiation above Shetland to 1,000 times ground level. No alert came",
+   "lane": "space",
+   "lab": "Space · Sun storm",
+   "src": "Physics World, 6 Nov 2026 (Pranjal Malewar) · Space Weather (F. Baird, B. Clewer et al., University of Surrey)"
+  },
+  {
+   "id": "memswitch",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "NUS built radio switches two micrometres across that hold their setting with power off",
+   "lane": "sg",
+   "lab": "Singapore · Tiny switches",
+   "src": "NUS News, 6 Nov 2026"
+  },
+  {
+   "id": "sep",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "Before re-entry, India’s crew capsule must cut loose. ISRO has tested the split",
+   "lane": "space",
+   "lab": "India · Crew capsule",
+   "src": "ISRO, 16 Oct 2026 (Crew Module–Service Module Separation Tests for Gaganyaan Programme)"
+  },
+  {
+   "id": "goose",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "A river that travels 5.5 miles to get 1.3 miles, photographed from the space station",
+   "lane": "earth",
+   "lab": "Earth · From orbit",
+   "src": "NASA Earth Observatory, Image of the Day for 6 Nov 2026 (story by Lindsey Doermann)"
+  },
+  {
+   "id": "blocks",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "Feynman explained energy with a boy and his 28 blocks. The twist: there are no blocks",
+   "lane": "matter",
+   "lab": "Physics · Energy",
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 4: Conservation of Energy (Caltech)"
+  },
+  {
+   "id": "fib",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "0, 1, 1, 2, 3, 5, 8, 13, 21… Count the spirals on a pine cone: usually you land on these",
+   "lane": "numbers",
+   "lab": "Numbers · Check it",
+   "src": "Science News Explores, Scientists Say: Fibonacci sequence, 2 Nov 2026 (Katie Grace Carpenter)"
+  },
+  {
+   "id": "fist",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "Your fist at arm’s length covers about 10°: a ruler for anything far away, even the sky",
+   "lane": "try",
+   "lab": "Try it · Your hand",
+   "src": "Exploratorium Science Snacks: Handy Measuring Tool · NASA What’s Up, November 2026"
+  },
+  {
+   "id": "hazeend",
+   "first": "2026-11-07",
+   "last": "2026-11-07",
+   "editions": [
+    "15"
+   ],
+   "cap": "Haze shelters close and mask handouts end at 6 pm today. Today’s PSI forecast: 40–70",
+   "lane": "sg",
+   "lab": "Singapore · Haze season ends",
+   "src": "NEA Haze Situation Update, 6 Nov 2026 · NEA, 5 Nov 2026 (Cessation of mask distribution and closure of haze shelters) · NEA, 4 Nov 2026 (Transboundary Haze Pollution Act) · Meteorological Service Singapore advisory, 29 Oct 2026 (Onset of inter-monsoon period)"
   }
  ]
 }
