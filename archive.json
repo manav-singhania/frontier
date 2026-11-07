@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "tiles": [
   {
    "id": "after",
@@ -261,14 +261,15 @@
    "lab": "Using AI · Quote",
    "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
    "first": "2026-10-25",
-   "last": "2026-11-05",
+   "last": "2026-11-08",
    "editions": [
     "02b",
     "03",
     "03b",
     "07",
     "10",
-    "13"
+    "13",
+    "16"
    ]
   },
   {
@@ -1612,13 +1613,14 @@
   {
    "id": "escapade",
    "first": "2026-11-03",
-   "last": "2026-11-07",
+   "last": "2026-11-08",
    "editions": [
     "11",
     "12",
     "13",
     "14",
-    "15"
+    "15",
+    "16"
    ],
    "cap": "Two fridge-sized probes skim Earth Saturday and Monday, fire engines, and leave for Mars",
    "lane": "space",
@@ -1726,13 +1728,14 @@
   {
    "id": "whatsup",
    "first": "2026-11-03",
-   "last": "2026-11-07",
+   "last": "2026-11-08",
    "editions": [
     "11",
     "12",
     "13",
     "14",
-    "15"
+    "15",
+    "16"
    ],
    "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
    "lane": "space",
@@ -2143,9 +2146,10 @@
   {
    "id": "mcon",
    "first": "2026-11-07",
-   "last": "2026-11-07",
+   "last": "2026-11-08",
    "editions": [
-    "15"
+    "15",
+    "16"
    ],
    "cap": "A full gamepad under an inch thick snaps to your phone by magnet and slides out to play",
    "lane": "gadgets",
@@ -2215,9 +2219,10 @@
   {
    "id": "goose",
    "first": "2026-11-07",
-   "last": "2026-11-07",
+   "last": "2026-11-08",
    "editions": [
-    "15"
+    "15",
+    "16"
    ],
    "cap": "A river that travels 5.5 miles to get 1.3 miles, photographed from the space station",
    "lane": "earth",
@@ -2251,9 +2256,10 @@
   {
    "id": "fist",
    "first": "2026-11-07",
-   "last": "2026-11-07",
+   "last": "2026-11-08",
    "editions": [
-    "15"
+    "15",
+    "16"
    ],
    "cap": "Your fist at arm’s length covers about 10°: a ruler for anything far away, even the sky",
    "lane": "try",
@@ -2271,6 +2277,126 @@
    "lane": "sg",
    "lab": "Singapore · Haze season ends",
    "src": "NEA Haze Situation Update, 6 Nov 2026 · NEA, 5 Nov 2026 (Cessation of mask distribution and closure of haze shelters) · NEA, 4 Nov 2026 (Transboundary Haze Pollution Act) · Meteorological Service Singapore advisory, 29 Oct 2026 (Onset of inter-monsoon period)"
+  },
+  {
+   "id": "astro",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "NASA is hiring astronauts. Last time, more than 8,000 people applied and 10 got in",
+   "lane": "space",
+   "lab": "Space · Join NASA",
+   "src": "NASA news release 26-093, 7 Nov 2026 · NASA media advisory M26-084 (MAX POWER key events), updated 2 Nov 2026"
+  },
+  {
+   "id": "m30",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "This ball of stars orbits our galaxy the wrong way. The Milky Way may have captured it",
+   "lane": "space",
+   "lab": "Space · Hubble",
+   "src": "NASA Science, Hubble: “Hubble Learns Galactic History From Stars”, 5 Nov 2026 · NASA image article “M30’s Sparkling Stars”, 6 Nov 2026"
+  },
+  {
+   "id": "thz",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "A Bengaluru chip sends terahertz waves through a barrier with 1–2% loss, at 100 Gbit/s",
+   "lane": "matter",
+   "lab": "India · 6G chip",
+   "src": "PIB, Ministry of Science & Technology, release of 4 Nov 2026 (PRID 2332613) · Advanced Materials, DOI 10.1002/adma.75322"
+  },
+  {
+   "id": "h2metal",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "Hydrogen hides in metal and snaps it. NTU froze an alloy to −196°C and caught it in place",
+   "lane": "sg",
+   "lab": "Singapore · Hidden hydrogen",
+   "src": "NTU College of Engineering news, “In Pursuit of Hydrogen”, 5 Nov 2026 (Laura Dobberstein) · Nature"
+  },
+  {
+   "id": "marvel",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "A*STAR’s automated lab screens up to 470 alloys a day, over 400 times the usual rate",
+   "lane": "sg",
+   "lab": "Singapore · Robot labs",
+   "src": "A*STAR press release, “MARVEL-AI: Accelerating Advanced Materials Innovation From Discovery To Deployment”, 27 Oct 2026"
+  },
+  {
+   "id": "aura",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "Glasses with a 70° view, 1920×1200 per eye, 95 g. The computer lives in your pocket",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Richard Eisenberg, 15 Oct 2026) · XREAL Aura specifications and US store · Tom’s Guide hands-on (Jason England, updated 21 May 2026) · TechRadar (Hamish Hector, 4 Sep 2026)"
+  },
+  {
+   "id": "rel15",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "A satellite’s mass grows by one part in two to three billion, Feynman notes. Check his sum",
+   "lane": "matter",
+   "lab": "Physics · Relativity",
+   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 15 “The Special Theory of Relativity” (sections 15-1, 15-4, 15-8, 15-9), feynmanlectures.caltech.edu"
+  },
+  {
+   "id": "spin",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "Sit on a swivel chair holding two water bottles, pull your arms in, and you speed up",
+   "lane": "matter",
+   "lab": "Physics · Spinning",
+   "src": "Exploratorium Science Snacks: “Momentum Machine”"
+  },
+  {
+   "id": "cones",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "Two people, one screen, different colours. Sometimes the display is at fault, not the eyes",
+   "lane": "mind",
+   "lab": "Mind · Your screen",
+   "src": "Physics World, “Why do people see colours differently? Sometimes, it’s the display’s fault”, Isabelle Dumé, 5 Nov 2026 · Optics Express"
+  },
+  {
+   "id": "ants",
+   "first": "2026-11-08",
+   "last": "2026-11-08",
+   "editions": [
+    "16"
+   ],
+   "cap": "Ant colonies sit still, then all burst into action at once, no leader. A model says why",
+   "lane": "life",
+   "lab": "Life · No leader",
+   "src": "Science News Explores, “Mystery solved? Why ‘sleeping’ ants suddenly explode with activity”, Tejasri Gururaj, 6 Nov 2026 · PRX Life, 5 Aug 2026"
   }
  ]
 }
