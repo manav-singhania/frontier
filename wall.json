@@ -1,53 +1,361 @@
 {
- "edition": 16,
+ "edition": 17,
  "level": "High school",
- "date": "2026-11-08",
- "dateLabel": "Sun 8 Nov 2026",
+ "date": "2026-11-09",
+ "dateLabel": "Mon 9 Nov 2026",
  "week": [
   {
+   "d": "MON",
+   "t": "NASA: ESCAPADE’s second spacecraft fires its 9-minute trans-Mars burn over Australia, 6:51 pm Singapore time",
+   "id": "oberth"
+  },
+  {
    "d": "SAT",
-   "t": "NASA: applications open for the next astronaut class; US citizens have until 3 December",
-   "id": "astro"
+   "t": "NASA: PROMISE, a nuclear-powered Moon rover built from Mars rover spares, to launch in late 2028",
+   "id": "promise"
   },
   {
    "d": "FRI",
-   "t": "Science News Explores: a model for why ant colonies burst into activity with no leader",
-   "id": "ants"
+   "t": "Science News: possible red blood cells, chemically confirmed, in a 115-million-year-old dinosaur bone",
+   "id": "dino"
   },
   {
-   "d": "THU",
-   "t": "NTU: evidence of hydrogen atoms inside a metal’s crystal lattice, after a plunge to −196°C",
-   "id": "h2metal"
+   "d": "FRI",
+   "t": "Quanta: the PBR theorem of 2012, now run on an IBM quantum computer, rules out Einstein’s picture of reality",
+   "id": "pbr"
   },
   {
-   "d": "THU",
-   "t": "Hubble: image of Messier 30, a globular cluster 27,500 light-years away, released 5 November",
-   "id": "m30"
-  },
-  {
-   "d": "THU",
-   "t": "Physics World: when two people see a screen’s colours differently, the display can be the cause",
-   "id": "cones"
+   "d": "FRI",
+   "t": "NUS: Prof Mario Lanza’s 2 × 2 µm hexagonal boron nitride radio switches, built into working circuits",
+   "id": "lanza"
   },
   {
    "d": "WED",
-   "t": "PIB: JNCASR silicon chip carries 100 Gbit/s across a terahertz barrier with 1–2% loss",
-   "id": "thz"
+   "t": "ISRO: NVS-03 completes four engine burns, 6,164 seconds in all, and reaches geosynchronous orbit",
+   "id": "nvs3"
   }
  ],
  "tiles": [
   {
+   "id": "oberth",
+   "dom": "space",
+   "lab": "Space · Tonight 6:51 pm",
+   "hot": 1,
+   "big": 1,
+   "art": "slingshot",
+   "cap": "Tonight, 6:51 pm here: a Mars probe over Australia fires its engine for 9 minutes and goes",
+   "num": "Mach 30 → 31",
+   "nums": "about 6.3 to about 6.7 miles per second after the 9-minute burn, which adds more than 1,000 mph",
+   "p1": "NASA’s second ESCAPADE spacecraft makes its powered flyby of Earth tonight: its trans-Mars injection burn begins at 5:51 am US Eastern on Monday 9 November, which is 6:51 pm in Singapore, over southern Australia, the burn coming at closest approach, which NASA rounds to around 6 am Eastern, 7 pm here. The first spacecraft was due to do the same on Saturday; NASA’s ESCAPADE blog had not posted its result when this edition was written on Monday morning. A powered flyby, also called an Oberth manoeuvre, combines Earth’s gravity with an engine burn, and NASA says no agency spacecraft had flown one before.",
+   "p2": "Why now: Earth and Mars line up for a launch every 26 months. ESCAPADE launched in November 2025 when the planets were on opposite sides of the Sun, so the pair loitered around the Earth–Sun Lagrange point 2 and came back to Earth this month to be thrown onward.",
+   "deep": [
+    [
+     "How close, how fast",
+     "At closest approach the spacecraft pass 600 to 1,100 miles above Earth’s surface, higher than most Earth-orbiting satellites. The burn raises their speed from about 6.3 to about 6.7 miles per second, Mach 30 to Mach 31; at that speed, NASA says, a craft could fly from Washington, DC, to San Francisco in under 7 minutes."
+    ],
+    [
+     "Then ten months",
+     "A 10-month cruise follows. The first spacecraft arrives at Mars on 7 September 2027 and the second on 9 September, the first multi-spacecraft mission to fly in formation around Mars, measuring how the solar wind, material from the Sun moving at about a million miles per hour, strips away the Martian atmosphere."
+    ],
+    [
+     "Bonus science",
+     "While loitering, the pair passed through a distant part of Earth’s magnetotail that had never been directly explored. NASA says the team saw interesting activity and structure and plans to share findings soon."
+    ],
+    [
+     "Could you see it",
+     "Each spacecraft is about the size of a standard refrigerator and faint, so a telescope would most likely be needed. In the days after the burns the team will learn how well each craft is aimed and plan trajectory correction manoeuvres for the Mars rendezvous in September 2027."
+    ]
+   ],
+   "rel": [
+    "promise",
+    "whatsup",
+    "nvs3"
+   ],
+   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard); blog re-checked Mon 9 Nov, 06:40 SGT",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: Advanced Space/Matt Bolliger, via NASA ESCAPADE blog"
+  },
+  {
+   "id": "promise",
+   "dom": "space",
+   "lab": "Space · Moon Base",
+   "hot": 1,
+   "big": 0,
+   "art": "polar",
+   "cap": "NASA’s next Moon rover: built from Mars rover spares, with a nuclear generator on its back",
+   "num": "−242 °C",
+   "nums": "how cold the permanently shadowed craters the rover will drive into may get (minus 400 °F)",
+   "p1": "On Saturday at the MAX POWER expo at Kennedy Space Center, NASA announced PROMISE, the Polar Rover for Observation, Mapping, and In-Situ Exploration: an SUV-sized, six-wheeled, nuclear-powered rover for the Moon’s south pole, targeted to launch in late 2028 on an 18-month mission. JPL is building it from a combination of spare flight parts and engineering test models from the Curiosity and Perseverance Mars rovers, including the electronics, body structure and mobility system of the duplicate Curiosity test-bed vehicle. Blue Origin gets a $94 million contract, with an option worth a further $140 million based on performance, to deliver it on its Mark 1 lander.",
+   "p2": "Why now: the same announcement gave eight companies places on CLPS 2, a 10-year cargo-lander contract worth up to $10 billion in total, plus about $1.3 billion of launch task orders. NASA Administrator Jared Isaacman: “We are building the Moon Base mission by mission.”",
+   "deep": [
+    [
+     "A nuclear generator",
+     "Power comes from a flight-spare multi-mission radioisotope thermoelectric generator, which NASA describes as essentially a nuclear generator, fitted at the rear of the rover once it reaches the launch site. It lets PROMISE work through the long lunar night and inside permanently shadowed regions, where temperatures may fall to minus 242 °C."
+    ],
+    [
+     "A drill and a dashcam",
+     "The TRIDENT drill, from Honeybee Robotics, pulls up soil from as deep as 1 metre in 10-centimetre steps. Spectrometers analyse what comes up; a radiation detector rides along whose earlier version has run for 15 years on Curiosity; and a stereo Lunar Dashcam with its own illuminators is based on Perseverance’s landing cameras."
+    ],
+    [
+     "Shackleton Crater",
+     "NASA’s PROMISE page pictures Shackleton Crater, near the Moon’s south pole, about 21 kilometres wide and 4 kilometres deep. Laser altimetry from NASA’s Lunar Reconnaissance Orbiter has revealed boulders and low hills in its permanently shadowed interior."
+    ],
+    [
+     "For students too",
+     "On Sunday NASA opened a $1 million Moon Base Student Challenge in six categories, from power generation and construction to astronaut safety. It is for teams at US high schools and post-secondary schools, with registration by 25 January 2027."
+    ]
+   ],
+   "rel": [
+    "oberth",
+    "astro",
+    "bigg"
+   ],
+   "src": "NASA release 26-095, 7 Nov 2026 · NASA PROMISE mission page, updated 7 Nov 2026 · NASA release 26-096, 8 Nov 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/promise-7.jpg",
+   "credit": "Image: NASA artist’s concept"
+  },
+  {
+   "id": "nvs3",
+   "dom": "space",
+   "lab": "India · Parking a satellite",
+   "hot": 1,
+   "big": 0,
+   "art": "gps",
+   "cap": "Four burns, 103 minutes of firing, and India’s navigation satellite is parked 36,000 km up",
+   "num": "6,164 s",
+   "nums": "total burn time of NVS-03’s liquid apogee motor across four manoeuvres, about 103 minutes",
+   "p1": "ISRO reported on 4 November that NVS-03, placed by GSLV-F18 on 30 October at 23:51 IST into an orbit of 170.3 km by 38,080 km, has completed four orbit manoeuvres with a cumulative liquid apogee motor burn of 6,164 seconds. It now sits in a geosynchronous orbit of 35,765 km by 36,196 km, at an inclination ISRO lists as 29.98 degrees, and ISRO says the health of the satellite is normal. The first burn alone, on 31 October at 16:48 IST, lasted 2,174.8 seconds and lifted the low point of the orbit from 170 km to 5,477.6 km.",
+   "p2": "Why it matters: NVS-03 is the third satellite of India’s next-generation navigation system, carrying an indigenous atomic clock and adding an L1 signal to the existing L5 and S-band signals, to serve India and a region about 1,500 km around it.",
+   "deep": [
+    [
+     "Why four burns",
+     "The GSLV left NVS-03 in a long ellipse, 170.3 km at its lowest and 38,080 km at its highest. The liquid apogee motor fired four times, 6,164 seconds in all, turning that ellipse into a near-circle between 35,765 and 36,196 km up."
+    ],
+    [
+     "The clocks on board",
+     "NVS-03 carries an indigenous atomic clock alongside procured atomic clocks, and adds an L1 signal to the L5 and S-band signals the series already transmits. ISRO describes it as continuing the navigation services of the IRNSS series."
+    ],
+    [
+     "What it covers",
+     "The system’s coverage is the Indian land mass and a region extending about 1,500 km around India’s geopolitical boundary."
+    ],
+    [
+     "The rocket",
+     "GSLV-F18 was the 20th flight of the GSLV, from the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota, delivering the satellite to a geosynchronous transfer orbit."
+    ]
+   ],
+   "rel": [
+    "oberth",
+    "lanza",
+    "promise"
+   ],
+   "src": "ISRO, Final orbit manoeuvring of NVS-03 spacecraft (4 Nov 2026) and Orbit manoeuvring update (31 Oct 2026) · ISRO GSLV-F18 mission page",
+   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
+   "credit": "Photo: ISRO (GSLV-F18 on the launch pad)"
+  },
+  {
+   "id": "lanza",
+   "dom": "sg",
+   "lab": "Singapore · Atom-thin switches",
+   "hot": 0,
+   "big": 0,
+   "art": "chip",
+   "cap": "A 2G system used about 4 radio switches; 6G may need 100. NUS made them 2 micrometres wide",
+   "num": "2 × 2 µm",
+   "nums": "the size of each hexagonal boron nitride radio-frequency switch, which keeps its state when the power is off",
+   "p1": "NUS News profiled Professor Mario Lanza of the Department of Materials Science and Engineering on 6 November. His group’s paper in Nature on 8 July 2026, first author Dr Sebastian Pazos, reported radio-frequency switches made of hexagonal boron nitride, an insulating two-dimensional material, which can be only a single atomic layer thick, each measuring 2 by 2 micrometres. They were integrated onto commercially manufactured gallium nitride microchips and used in working circuits that adjust signal strength, redirect signals and select frequencies. A 2G system used about four such switches; 5G and 6G may need 50 to more than 100.",
+   "p2": "Why here: Lanza and Pazos founded the start-up Newmorphic at one-north. On 28 and 29 October it won the Advanced Manufacturing and Industrial Systems domain at SLINGSHOT 2026, a competition that drew more than 5,100 applications from 148 countries.",
+   "deep": [
+    [
+     "Resistors with memory",
+     "The switches are memristors, which the article describes as resistors with memory: they retain their state after power is removed."
+    ],
+    [
+     "Tunnelling leaks",
+     "A second paper, in Nature Materials on 1 July 2026 with Dr Yue Yuan as first author, used conductive atomic force microscopy on 2D materials. Quantum tunnelling, electrons slipping through barriers meant to stop them, increases energy consumption and usually accelerates device failure; the team found that tiny gaps between an atom-thin material and its electrodes change how far electrons travel. Lanza: “tiny physical gaps between electrodes can matter more than the material’s own ability to block electrical current.”"
+    ],
+    [
+     "One transistor as a neuron",
+     "A 2025 Nature article from the group showed that a single standard silicon transistor can emulate both neural and synaptic behaviour, work that usually takes dozens of transistors and bulky capacitors, pointing at spiking neural networks on battery-powered drones, robots and wearables."
+    ],
+    [
+     "How he works",
+     "Lanza says the team repeats experiments multiple times, uses test protocols as close as possible to those industry requires, and reports yield, variability, reliability and stability, with most fabrication on processes compatible with semiconductor wafer lines."
+    ]
+   ],
+   "rel": [
+    "nvs3",
+    "stockwell",
+    "aura"
+   ],
+   "src": "NUS News, “From atoms to systems: Prof Mario Lanza’s push to reinvent the electronics of the future”, 6 Nov 2026 · Nature, 8 Jul 2026 · Nature Materials, 1 Jul 2026",
+   "img": "https://content.presspage.com/uploads/2580/be73adc1-864e-4c81-8888-dd799b22ceda/1920_img-1200-16x9.jpg?10000",
+   "credit": "Photo: NUS News"
+  },
+  {
+   "id": "pbr",
+   "dom": "matter",
+   "lab": "Physics · Quantum",
+   "hot": 1,
+   "big": 0,
+   "art": "cards",
+   "cap": "On the worst hand of a card game, classical physics wins 3 in 4. Quantum wins every time",
+   "num": "3 in 4",
+   "nums": "a classical player’s odds of being right when the dealer turns up two red aces; a quantum player can always win",
+   "p1": "Einstein believed things have definite properties whether or not anyone looks; he once asked a colleague whether he really believed the Moon is not there when nobody is looking at it. He took the quantum wave function to be a summary of our ignorance, like a forecast of 77% rain about a day that will really turn out one way or the other. Quanta Magazine’s Charlie Wood, on 6 November, lays out the two theorems that rule this picture out: Bell’s theorem of 1964, and the PBR theorem of 2012 by Matthew Pusey, Jonathan Barrett and Terry Rudolph, which proved that if the cards have real states, and the first card’s real state does not affect the second’s, the quantum state cannot be mere knowledge.",
+   "p2": "Why now: last autumn a Cambridge team led by Crispin Barnes ran a five-card version of the PBR game on an IBM quantum computer. Jacques Pienaar: “From the moment [PBR] came out, people knew it would be a landmark.”",
+   "deep": [
+    [
+     "The card game",
+     "A dealer draws two cards, each at random from either a pile of 26 red cards or a pile of four aces, and asks the player to name one combination of piles the cards did not come from. Classically, when both cards are red aces the player can be right only 3 times in 4. In the quantum version of the game, the article explains, the player can always win."
+    ],
+    [
+     "Bell first",
+     "In 1935 Einstein, Podolsky and Rosen argued quantum theory was incomplete, assuming both reality and locality. John Stewart Bell showed in 1964, inspired by David Bohm’s pilot-wave theory of 1952, that a world both real and local cannot match quantum predictions; experiments in the 1980s sided with quantum mechanics."
+    ],
+    [
+     "Bite or dodge",
+     "Pusey: “Do you bite the bullet, or do you try and dodge the bullet?” His view is that if anything is real, the quantum state is real. Pienaar now favours QBism, which holds that the world itself may exist but quantum mechanics cannot describe it."
+    ],
+    [
+     "Watch your sanity",
+     "Lucien Hardy of the Perimeter Institute: “You have to watch out for your sanity in a field like quantum foundations.” David Schmid, also at Perimeter, wants a notion of reality that rings true enough that “when people see it, they can’t unsee it”."
+    ]
+   ],
+   "rel": [
+    "bigg",
+    "cones",
+    "oberth"
+   ],
+   "src": "Quanta Magazine, “A Strange Quantum Theorem Has Killed Einstein’s Reality”, Charlie Wood, 6 Nov 2026"
+  },
+  {
+   "id": "stockwell",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 0,
+   "big": 0,
+   "art": "speaker",
+   "cap": "A speaker that plays 40 hours, and when the battery finally wears out you swap it yourself",
+   "num": "40+ h",
+   "nums": "playtime claimed by Marshall; 20 minutes on a 30 W USB-C charger gives 7 hours",
+   "p1": "Marshall’s Stockwell III, on TIME’s Best Inventions of 2026 list, is a 1.3 kg portable speaker shaped like a mini version of the brand’s amps. Marshall’s specification page lists more than 40 hours of playtime, a full charge in under 3 hours on a 30 W USB-C cable, and a lithium-ion battery that is both rechargeable and replaceable; TIME calls a replaceable battery “essentially unheard of in consumer electronics”. Inside are one 3-inch woofer and two 1.75-inch full-range drivers in a sealed enclosure with a passive radiator, covering 54 to 20,000 Hz, with a maximum of 86 dB at 1 metre.",
+   "p2": "The engineering choices: Bluetooth 5.3 with Auracast and the LC3 codec, a 10 m range, an IP55 rating, 27% recycled material by product, and firmware updates promised for at least two years after the last unit is sold.",
+   "deep": [
+    [
+     "What reviewers found wrong",
+     "TechRadar’s Harry Padoan (18 August 2026): “At $249.99 / £199.99 / AU$379, the Stockwell III isn’t the cheapest option on the market”; the sound “does have a bit of a bass preference”; it is “only IP55”; “there’s no LDAC for higher-res Bluetooth playback”; and it still used “the older Marshall Bluetooth app”. Tom’s Guide’s Nikita Achanta: “Given its hefty weight, the Stockwell III isn’t the most portable speaker around.”"
+    ],
+    [
+     "What they liked",
+     "Padoan called it “a spectacular Bluetooth speaker that offers a substantial upgrade on its predecessor”, with “regimented, intent-filled bass”. Achanta found that “all the buttons and dials give great tactile feedback” and that the treble “felt vibrant and nuanced without becoming fatiguing”."
+    ],
+    [
+     "A number to watch",
+     "Marshall notes that some of its packaging may still say “35+ hours”; the figure rose to 40+ after final validation. Tom’s Guide’s Achanta played it at 50% volume and found it ran “just over 40 hours, keeping in line with Marshall’s claims”."
+    ],
+    [
+     "Designed where",
+     "Marshall lists the speaker as developed and designed in Sweden and manufactured in Thailand, 180 × 162 × 74 mm, with a strap and a USB-C cable in the box."
+    ]
+   ],
+   "rel": [
+    "aura",
+    "lanza",
+    "fingertips"
+   ],
+   "src": "TIME Best Inventions 2026 (Eliza Thompson, 15 Oct 2026) · Marshall Stockwell III specifications · TechRadar review (Harry Padoan, 18 Aug 2026) · Tom’s Guide review (Nikita Achanta, 18 Aug 2026)"
+  },
+  {
+   "id": "dino",
+   "dom": "life",
+   "lab": "Life · 115 million years",
+   "hot": 0,
+   "big": 0,
+   "art": "blood",
+   "cap": "Inside a 115-million-year-old dinosaur bone: possible red blood cells. Not everyone agrees",
+   "num": "20 µm",
+   "nums": "the size of the ellipsoid structures found inside the bone’s fossilised blood-vessel canals",
+   "p1": "A limb bone of Aratasaurus museunacionali, a small feathered theropod that lived about 115 million years ago in what is now northeastern Brazil, holds ellipsoid microstructures about 20 micrometres across inside its fossilised network of blood vessels. In PNAS on 2 November, Kliti Grice of Curtin University and colleagues report iron, carbon and nitrogen, the components of heme, in the structures, a laser light-scattering signal pointing to porphyrins, and a bone-extract analysis that ruled out chlorophyll contamination. They call them the oldest red blood cell structures identified and the first chemically proven.",
+   "p2": "The time capsule: hausmannite, a manganese oxide mineral inside the structures, may have protected cells and molecules, including collagen amino acids, rather than simply replacing biological material after it disappeared.",
+   "deep": [
+    [
+     "Not convinced",
+     "Mary Schweitzer of North Carolina State University, who in 2005 reported soft, flexible blood-vessel tissue from a 68-million-year-old Tyrannosaurus rex leg bone: “I am not convinced.” She notes that the heme signals come from the whole bone, not only the round structures, and that the proposed cells differ in size and shape from those of living birds and reptiles."
+    ],
+    [
+     "Convergence",
+     "Grice’s reply is that the case “rests on the convergence of anatomy, morphology, mineralogy, elemental analysis and molecular chemistry”, and that this kind of preservation “may not be quite as rare as we currently think”. She accepts that no one knows the original shape of dinosaur red blood cells or how fossilisation distorts them."
+    ],
+    [
+     "Fooled before",
+     "In 1997 spheres in a possible pterosaur fossil, once thought to be blood cells, turned out to be pyrite. Schweitzer: “Extraordinary claims require extraordinary evidence, and that does require state-of-the-art technology.”"
+    ],
+    [
+     "Where",
+     "The bone came from the Mina Pedra Branca site in northeastern Brazil, and the dinosaur is a Cretaceous species. The picture in the pop-out is an artist’s rendition of Aratasaurus."
+    ]
+   ],
+   "rel": [
+    "goose",
+    "fingertips",
+    "pbr"
+   ],
+   "src": "Science News, “This may be the best evidence yet that dinosaur blood can fossilize”, Carolyn Gramling, 6 Nov 2026 · PNAS, 2 Nov 2026",
+   "img": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_inline1.jpg",
+   "credit": "Image: Maurilio Oliveira / Wikimedia Commons (CC BY 4.0), via Science News"
+  },
+  {
+   "id": "bigg",
+   "dom": "matter",
+   "lab": "Physics · Gravity",
+   "hot": 0,
+   "big": 0,
+   "art": "torsion",
+   "cap": "Gravity’s constant is the one physicists cannot pin down. 225 years on, labs disagree",
+   "num": "1 in 10,000",
+   "nums": "the size of the disagreements between recent measurements of big G, while other constants are known to six or more digits",
+   "p1": "NIST announced on 16 April 2026 a new value for the gravitational constant, big G: 6.67387 × 10⁻¹¹ m³ kg⁻¹ s⁻², the end of a 10-year experiment plus two more years of analysis. Scientists have been measuring G for over 225 years, since Henry Cavendish in 1798 hung two lead balls on a horizontally suspended wooden beam with two heavier masses nearby, yet recent measurements disagree with one another by about one part in 10,000, while other constants are known to six or more significant digits. NIST’s value is 0.0235% lower than the French result it set out to replicate.",
+   "p2": "The weakest force: gravity is the weakest of the four fundamental forces. A pin-head magnet lifts a paper clip against the pull of the whole Earth, which is what makes G so hard to measure with laboratory masses about 500 billion trillion times smaller than the planet.",
+   "deep": [
+    [
+     "Hair-thin ribbon",
+     "Eight cylindrical metal masses: four on a rotating carousel, like four candlesticks in an old-fashioned chandelier, and four smaller ones inside on a disk hung from a copper-beryllium ribbon about the thickness of a human hair. The apparatus replicates an experiment run in 2007 at the BIPM in Sèvres, France."
+    ],
+    [
+     "An envelope",
+     "To stop himself unconsciously steering the result toward the expected value, NIST physicist Stephan Schlamminger had colleague Patrick Abbott subtract a secret number from the weights of some masses and put it in an envelope. The true result was revealed at 3 pm on 11 July 2024 at a meeting in Aurora, Colorado; an earlier reveal in 2022 was aborted at the last minute."
+    ],
+    [
+     "Little g and big G",
+     "Newton’s law is F = G m₁m₂/r². Little g, the acceleration you feel, is about 9.8 m/s² at Earth’s surface and 1.62 m/s² on the Moon; big G is the universal constant in the formula, and Cavendish measured it a century after Newton published the law."
+    ],
+    [
+     "Why bother",
+     "Schlamminger: “Every measurement is important, because the truth matters.” He says he will leave the remaining puzzle to younger generations of scientists."
+    ]
+   ],
+   "rel": [
+    "pbr",
+    "oberth",
+    "promise"
+   ],
+   "src": "NIST News, “NIST Weighs In on the Mystery of the Gravitational Constant”, 16 Apr 2026 (updated 5 May 2026) · Metrologia, 16 Apr 2026",
+   "img": "https://www.nist.gov/sites/default/files/images/2026/04/08/MeasuringBigG-CompositeEdit-v04.00_02_04_20.Still006.jpg",
+   "credit": "Photo: NIST / R. Eskalis"
+  },
+  {
    "id": "astro",
    "dom": "space",
    "lab": "Space · Join NASA",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "helmet",
    "cap": "NASA is hiring astronauts. Last time, more than 8,000 people applied and 10 got in",
    "num": "10 of 8,000+",
    "nums": "applicants were chosen for NASA’s 2025 astronaut class; applications for the next class opened on Saturday",
    "p1": "NASA opened applications on Saturday 7 November for its next class of astronauts, who it says will join the agency as America returns to the Moon, builds the Moon Base and lays the groundwork for the first crewed missions to Mars. US citizens have until 11:59 pm US Eastern on Thursday 3 December to submit their applications, and NASA expects to make its final selection in late 2027. The agency last opened applications in 2024: from more than 8,000 applications, 10 astronaut candidates were selected in 2025 and are now completing nearly two years of training.",
-   "p2": "Why this weekend: the call went out during NASA’s MAX POWER events in Florida, which run from Friday 6 to Sunday 8 November and include a Moon Base news conference at 5 pm US Eastern on Saturday, 6 am on Sunday in Singapore.",
+   "p2": "Why now: applications opened on Saturday 7 November and close at 11:59 pm US Eastern on Thursday 3 December; final selection is expected in late 2027, when training begins.",
    "deep": [
     [
      "The numbers",
@@ -67,87 +375,48 @@
     ]
    ],
    "rel": [
-    "m30",
-    "escapade",
-    "whatsup"
+    "promise",
+    "oberth",
+    "ai17"
    ],
    "src": "NASA news release 26-093, 7 Nov 2026 · NASA media advisory M26-084 (MAX POWER key events), updated 2 Nov 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg",
    "credit": "Photo: NASA / Helen Arase Vargas"
   },
   {
-   "id": "m30",
-   "dom": "space",
-   "lab": "Space · Hubble",
+   "id": "lecun",
+   "dom": "sg",
+   "lab": "Singapore · AI talk",
    "hot": 0,
    "big": 0,
-   "art": "gal",
-   "cap": "This ball of stars orbits our galaxy the wrong way. The Milky Way may have captured it",
-   "num": "27,500 light-years",
-   "nums": "to Messier 30, a globular cluster in Capricornus, in a Hubble image released on 5 November",
-   "p1": "Messier 30 is a globular cluster: a roughly spherical grouping of stars containing anywhere from tens of thousands to millions of stars, lying about 27,500 light-years away in the constellation Capricornus. Our Milky Way galaxy has at least 150 globular clusters, the nearest about 6,000 light-years away. Astronomers estimate their ages at between 11.5 and 13.5 billion years, which makes certain globular clusters nearly as old as the universe itself.",
-   "p2": "The twist: researchers have discovered that M30 and many other globular clusters orbit in the direction opposite to the way our galaxy spins. Instead of forming with the Milky Way, they may have been captured by it in the distant past.",
+   "art": "neuron",
+   "cap": "“If you are interested in human-level AI, don’t work on LLMs.” LeCun at NTU, plus pushback",
+   "p1": "On 3 November Yann LeCun, Jacob T. Schwartz Professor at NYU and executive chairman of Advanced Machine Intelligence, gave the Lee Kong Chian Distinguished Professor public lecture at NTU’s College of Computing and Data Science, titled “World Models: Enabling the Next AI Revolution”. His argument: large language models struggle to reach human-like intelligence, and the better route is world models, systems that build a model of an environment, learn its rules and predict outcomes from their own inputs rather than mainly from human writing. His closing slide urged AI scientists to set aside generative models, probabilistic models, contrastive methods and reinforcement learning.",
+   "p2": "Why it is interesting: NTU’s own write-up, published 6 November, carries the responses of three of its professors rather than only the famous visitor’s view.",
    "deep": [
     [
-     "Named for a comet hunter",
-     "The sparkling collection of stars is named Messier 30 after the French astronomer Charles Messier. It is also catalogued as NGC 7099."
+     "Agree",
+     "Nanyang Assistant Professor Zhang Mengmi, who works on AI and computational neuroscience: “I strongly agree with Yann LeCun that language cannot be the foundation of human-like intelligence.” She argued that agents should actively seek information and learn from experience, and, taking up LeCun’s description of reinforcement learning as the “cherry on the cake”, said “someone has to figure out how to make the cherry!”."
     ],
     [
-     "Fifteen years of watching",
-     "Hubble first observed these stars 15 years ago, and comparing positions across that time lets astronomers measure how the stars move. An earlier Hubble survey of the cluster, in red and near-infrared light, revealed stars down to just 20 per cent of the mass of the Sun."
+     "Disagree",
+     "Associate Professor Stefano V. Albrecht, who leads the Autonomous Agents Research Group: “Reinforcement learning is one of the most fundamental principles of learning in natural and artificial systems.” World models, he said, do not remove the difficulty of making decisions under uncertainty."
     ],
     [
-     "How we found our place",
-     "More than a century ago, the astronomer Harlow Shapley used observations of a particular type of variable star in globular clusters. His work showed that the Sun is not in the centre of our galaxy."
+     "Half and half",
+     "Professor Jordan Boyd-Graber acknowledged a “long history of Yann being right when I was wrong” and agreed that scaling and tweaking LLMs is a scientific dead end, but said “I think the evidence shows that AI progress is grounded in language”, since so much of humanity’s knowledge is stored in writing."
+    ],
+    [
+     "Advice to students",
+     "In a fireside chat hosted by Professor Bo An, LeCun advised students to take up physics and engineering, and said: “Basic programming is dead. But computer science is more alive than ever and more important than ever.”"
     ]
    ],
    "rel": [
-    "astro",
-    "whatsup",
-    "rel15"
+    "ai17",
+    "lanza",
+    "cones"
    ],
-   "src": "NASA Science, Hubble: “Hubble Learns Galactic History From Stars”, 5 Nov 2026 · NASA image article “M30’s Sparkling Stars”, 6 Nov 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg",
-   "credit": "Photo: ESA/Hubble & NASA, M. Libralato, G. Piotto, A. Sarajedini"
-  },
-  {
-   "id": "escapade",
-   "dom": "space",
-   "lab": "Space · Earth slingshot",
-   "hot": 0,
-   "art": "psyche",
-   "cap": "Two fridge-sized probes slingshot past Earth: one Saturday, the second Monday 7 pm here",
-   "num": "about 9 minutes",
-   "nums": "the length of each trans-Mars injection burn, adding more than 1,000 mph (about 1,600 km/h)",
-   "p1": "NASA’s twin ESCAPADE spacecraft perform a manoeuvre no agency spacecraft has flown before, a powered flyby of Earth, and do it twice: once for each spacecraft. The first spacecraft’s flyby and roughly 9-minute engine burn were scheduled for around 5 am US Eastern on Saturday 7 November, 6 pm in Singapore; NASA’s ESCAPADE blog had not posted the result when this edition was written early on Sunday. The second spacecraft follows around 6 am Eastern on Monday 9 November, 7 pm here, with its burn starting at 5:51 am Eastern. Each burn is made over southern Australia and raises the craft’s speed from about 6.3 to about 6.7 miles per second (roughly 10.1 to 10.8 km/s).",
-   "p2": "Why now: ESCAPADE launched in November 2025 when Earth and Mars were on opposite sides of the Sun, so the pair looped around Earth–Sun Lagrange point 2 in a loiter orbit, waiting for the right moment to be thrown onward.",
-   "deep": [
-    [
-     "How close",
-     "Closest approach is between 600 and 1,100 miles (roughly 970 to 1,770 km) above the surface. At the speed they leave, NASA says, the spacecraft could fly from Washington, DC, to San Francisco in less than 7 minutes. That is about Mach 31."
-    ],
-    [
-     "Then the long cruise",
-     "After the flybys comes a 10-month cruise. Arrival at Mars is set for 7 and 9 September 2027, where the pair will be the first multi-spacecraft mission to fly in formation around the planet, measuring how the solar wind strips away the Martian atmosphere."
-    ],
-    [
-     "Bonus science on the way",
-     "While loitering, the spacecraft flew through a distant part of Earth’s magnetotail, the long magnetic wake the solar wind drags out behind our planet. NASA says those findings will be shared soon."
-    ],
-    [
-     "Can you see them",
-     "NASA says the spacecraft are faint and a telescope will most likely be needed; the coordinates come from JPL’s Horizons system. Each one is about the size of a standard refrigerator."
-    ]
-   ],
-   "rel": [
-    "astro",
-    "m30",
-    "whatsup"
-   ],
-   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA ESCAPADE blog",
-   "big": 0
+   "src": "NTU College of Computing and Data Science news, “Are World Models the Future of AI?”, 6 Nov 2026"
   },
   {
    "id": "whatsup",
@@ -178,9 +447,9 @@
     ]
    ],
    "rel": [
-    "escapade",
-    "m30",
-    "fist"
+    "oberth",
+    "goose",
+    "cones"
    ],
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
    "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
@@ -189,125 +458,16 @@
    "big": 0
   },
   {
-   "id": "thz",
-   "dom": "matter",
-   "lab": "India · 6G chip",
-   "hot": 1,
-   "big": 0,
-   "art": "chip",
-   "cap": "A Bengaluru chip sends terahertz waves through a barrier with 1–2% loss, at 100 Gbit/s",
-   "num": "100 Gbit/s",
-   "nums": "carried by the chip’s splitter; at that rate a 5-gigabyte high-definition film could in principle be transferred in under half a second",
-   "p1": "Researchers at JNCASR in Bengaluru have made a silicon chip in which terahertz waves pass through an engineered barrier with little loss while carrying data at 100 gigabits per second. A single barrier added only about 1 to 2 per cent loss, and two barriers in sequence about 2 to 3 per cent. Future sixth-generation (6G) wireless networks are expected to use terahertz frequencies, and the work points to compact terahertz circuits for them.",
-   "p2": "Why here: two of the collaborators, Zhonghua Gu and Prakash Pitchappa, are at the Institute of Microelectronics at A*STAR in Singapore. The paper is in Advanced Materials, and the release came from India’s Ministry of Science and Technology on 4 November.",
-   "deep": [
-    [
-     "Three devices",
-     "The concept was tested in three devices fabricated on high-resistivity silicon, including one with an omega-shaped route containing four sharp bends and a central barrier. Measurements across 310 to 360 GHz agreed closely with simulations."
-    ],
-    [
-     "The data runs",
-     "In high-speed tests the double-barrier and omega-shaped devices carried 48 and 60 Gbit/s. The splitter supported 100 Gbit/s using QAM-32 modulation, which encodes information in the signal’s amplitude and phase."
-    ],
-    [
-     "Who",
-     "The work was led by Dr Abhishek Kumar, Assistant Professor at JNCASR, who heads its Meta Optics Laboratory (MetoLab), with Samina Mulla and Sangram Kumar Sadhu of JNCASR as joint first authors. Collaborators include IISER Kolkata, IIT Bombay, A*STAR, and the University of Lille and CNRS in France."
-    ],
-    [
-     "The idea",
-     "The release describes the effect as photonic Klein tunnelling: the barrier is created simply by changing the geometry of the holes in the chip. Dr Kumar said the result “suggests that this effect can become a useful design tool for terahertz chips”."
-    ]
-   ],
-   "rel": [
-    "h2metal",
-    "marvel",
-    "aura"
-   ],
-   "src": "PIB, Ministry of Science & Technology, release of 4 Nov 2026 (PRID 2332613) · Advanced Materials, DOI 10.1002/adma.75322",
-   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/image002_20261104172408_8825d9.jpg",
-   "credit": "Photo: PIB / JNCASR (the MetoLab team with the chip)"
-  },
-  {
-   "id": "h2metal",
-   "dom": "sg",
-   "lab": "Singapore · Hidden hydrogen",
-   "hot": 0,
-   "big": 0,
-   "art": "lattice",
-   "cap": "Hydrogen hides in metal and snaps it. NTU froze an alloy to −196°C and caught it in place",
-   "num": "−196°C",
-   "nums": "the liquid nitrogen the specimen was plunged into, to slow the hydrogen down enough to catch it",
-   "p1": "Hydrogen atoms that dissolve into a metal’s crystal lattice can make it brittle, and the failures can be sudden: NTU cites a Boeing 737 that lost a nose wheel at Melbourne Airport in 2009 and 32 steel anchor rods that fractured during construction of the San Francisco–Oakland Bay Bridge in 2013. A team led by Nanyang Assistant Professor Eason Chen of NTU’s School of Materials Science and Engineering has now obtained evidence of hydrogen dissolved in a metal’s crystal lattice, using cryogenic atom probe tomography on a high-entropy alloy. The findings are published in Nature.",
-   "p2": "Why it was hard: “The existence of hydrogen in materials is a bit like the existence of black holes,” says Chen. “We know it’s there, but it’s very difficult to observe.”",
-   "deep": [
-    [
-     "The trick",
-     "The specimen was plunged into liquid nitrogen at −196°C to slow the hydrogen’s movement. “The challenge was finding a material that could hold onto the hydrogen long enough for us to measure it,” says collaborator Dr Shi Rongjian."
-    ],
-    [
-     "Why it matters",
-     "Hydrogen embrittlement is the name for this weakening, and the nose wheel and the bridge rods are the two examples NTU gives. Seeing where the hydrogen sits, atom by atom, is the starting point for alloys that resist it."
-    ],
-    [
-     "Who",
-     "Chen joined NTU in 2024. His doctoral research was at the University of Oxford in 2014, and he set up a US$3 million programme at the University of Sydney before coming to Singapore."
-    ]
-   ],
-   "rel": [
-    "thz",
-    "marvel",
-    "spin"
-   ],
-   "src": "NTU College of Engineering news, “In Pursuit of Hydrogen”, 5 Nov 2026 (Laura Dobberstein) · Nature",
-   "img": "https://www.ntu.edu.sg/media/images/librariesprovider44/stories/dsc06434---ps-edited.png?sfvrsn=e509526c_1",
-   "credit": "Photo: NTU Singapore"
-  },
-  {
-   "id": "marvel",
-   "dom": "sg",
-   "lab": "Singapore · Robot labs",
-   "hot": 0,
-   "big": 0,
-   "art": "cube",
-   "cap": "A*STAR’s automated lab screens up to 470 alloys a day, over 400 times the usual rate",
-   "num": "470 a day",
-   "nums": "unique alloy samples screened and tested by MARVEL-AI’s metals line, more than 400 times conventional throughput",
-   "p1": "MARVEL-AI is an A*STAR-led initiative that links AI prediction, automated experiments and testing in a loop, with each round’s results feeding the next. It covers four classes of materials: metal alloys, polymers and organics, ceramics, and composites. For alloys, up to 470 unique samples can be screened and tested per day, which A*STAR says is more than 400 times conventional throughput.",
-   "p2": "Why now: the initiative was announced on 27 October under Singapore’s RIE2030 research plan, with industry collaborations across aerospace, advanced manufacturing, precision electronics and specialty polymers.",
-   "deep": [
-    [
-     "Polymers round the clock",
-     "The polymer workflow went from an 8-hour window handling up to 3 samples one after another to 24-hour continuous operation with up to 25 samples in parallel, producing 75 samples in 24 hours, about 25 times the daily output."
-    ],
-    [
-     "A lighter hydrogen capsule",
-     "On the composites side, a prototype hydrogen-carrying capsule came out 50 per cent lighter and four times more durable."
-    ],
-    [
-     "Discovery is not enough",
-     "“AI is creating unprecedented opportunities for materials discovery, but discovery alone is not enough,” says Professor Loh Xian Jun, Executive Director of MARVEL-AI. “The next challenge is proving they can work in the real world.” Partners include ST Engineering, Foxconn Industrial Internet, Google Cloud and Shimadzu."
-    ]
-   ],
-   "rel": [
-    "h2metal",
-    "thz",
-    "aura"
-   ],
-   "src": "A*STAR press release, “MARVEL-AI: Accelerating Advanced Materials Innovation From Discovery To Deployment”, 27 Oct 2026",
-   "img": "https://www.a-star.edu.sg/api/media/f2957adf-1c91-43aa-922b-08602b8eb2b2/MARVEL-AI%20Accelerating%20advanced%20materials%20OG.webp",
-   "credit": "Image: A*STAR"
-  },
-  {
    "id": "aura",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "lens",
    "cap": "Glasses with a 70° view, 1920×1200 per eye, 95 g. The computer lives in your pocket",
    "num": "95 g",
    "nums": "for the glasses; the tethered puck that does the computing weighs 265 g and carries a 4,455 mAh battery",
-   "p1": "XREAL’s Aura, on TIME’s Best Inventions of 2026 list, puts the computing power in a tethered puck that clips over a pocket or hangs on a lanyard, so the glasses themselves weigh 95 g. Each eye gets a Sony micro-OLED at 1920 × 1200 pixels, up to 120 Hz, with a 70-degree diagonal field of view through XREAL’s X Prism optics and electrochromic dimming in five steps. Three cameras sit on the front frame: two tracking cameras at the corners for hand tracking and spatial anchoring, and one RGB camera with a privacy LED.",
+   "p1": "XREAL’s Aura, on TIME’s Best Inventions of 2026 list, puts the computing power in a tethered puck that clips over a pocket or hangs on a lanyard, so the glasses themselves weigh 95 g. Each eye gets a Sony micro-OLED at 1920 × 1200 pixels, up to 120 Hz, with a 70-degree field of view through XREAL’s X Prism optics and electrochromic dimming in five steps. Three cameras sit on the front frame: two tracking cameras for hand tracking and spatial anchoring, and one RGB camera with a privacy LED.",
    "p2": "Why now: XREAL says shipping is expected to begin in mid-November 2026, at US$1,099 on its US store, with the US, Canada, Japan and South Korea first.",
    "deep": [
     [
@@ -316,7 +476,7 @@
     ],
     [
      "Latency",
-     "XREAL’s X1S co-processor in the glasses is rated at 3 ms motion-to-photon latency, the delay between your head moving and the picture updating. Brightness is rated up to 1,050 nits."
+     "XREAL’s X1S co-processor in the glasses is rated at 3 ms motion-to-photon latency. Brightness is rated up to 1,050 nits."
     ],
     [
      "What reviewers found wrong",
@@ -324,190 +484,46 @@
     ],
     [
      "The price problem",
-     "England: “I’d love for these to be sub-$1,000, I don’t see a world where this happens.” TechRadar’s Hamish Hector, trying them at IFA in September, hoped for the same and noted “there’s only so cheap we can expect XR tech to get”."
+     "England: “while I’d love for these to be sub-$1,000, I don’t see a world where this happens.” TechRadar’s Hamish Hector, trying them at IFA in September, hoped for the same and noted “there’s only so cheap we can expect XR tech to get”."
     ]
    ],
    "rel": [
-    "mcon",
-    "thz",
-    "cones"
+    "stockwell",
+    "cones",
+    "lecun"
    ],
    "src": "TIME Best Inventions 2026 (Richard Eisenberg, 15 Oct 2026) · XREAL Aura specifications and US store · Tom’s Guide hands-on (Jason England, updated 21 May 2026) · TechRadar (Hamish Hector, 4 Sep 2026)"
   },
   {
-   "id": "mcon",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
+   "id": "fingertips",
+   "dom": "try",
+   "lab": "Try it · Eyes shut",
    "hot": 0,
    "big": 0,
-   "art": "gamepad",
-   "cap": "A full gamepad under an inch thick snaps to your phone by magnet and slides out to play",
-   "num": "1,000 Hz",
-   "nums": "its polling rate over a cable, on the maker’s spec sheet; over Bluetooth it is 125 Hz",
-   "p1": "TIME’s Best Inventions 2026 list includes the Mcon, a mobile game controller from OhSnap. It attaches to your phone magnetically and pops out to reveal a full-size gamepad with thumbsticks, analog triggers and fold-out grips. A slider mechanism makes it easy to switch back to using the phone for calls and messages, and the controller is less than an inch thick. The maker’s spec sheet puts it at 144.1 × 69.4 × 24.1 mm and 197 g, and lists it at US$149.99.",
-   "p2": "Why TIME picked it: “What good is a mobile game controller if it gives you hand cramps?” TIME says the Mcon does not sacrifice functionality for pocketability.",
+   "art": "fingertips",
+   "cap": "Eyes shut, hands up: touch your nose, then your left thumb. Now wiggle the fingers, retry",
+   "p1": "Close your eyes and raise both hands above your head, keeping the fingers of your left hand completely still. With your right hand, quickly touch your right index fingertip to your nose, then to the tip of your left thumb. Go back to your nose and try each left fingertip in turn, then switch hands. The Exploratorium’s Proprioception snack asks: how accurately did you find each fingertip, did you improve, and did left and right differ? Now repeat with the fingers of the raised hand wiggling.",
+   "p2": "Why wiggling helps: moving fingers feed the brain extra information about where they are, so they become easier to locate in space; repetition improves the result too.",
    "deep": [
     [
-     "Sticks and triggers",
-     "Ohsnap says the joysticks are full-size GameSir “Mag-Res” (TMR) sticks, which it describes as ultra accurate, lower in power consumption and “anti-stick drift”, and as better than Hall-effect ones. The triggers are Hall-effect analog triggers, which the maker says allow precise control in throttle-based games. A gyroscope enables motion-based input for tilt-to-aim, driving or flying games."
+     "The sixth sense",
+     "Proprioceptors, also called stretch receptors, in your muscles, tendons, joints and inner ear send position information to the brain, which works out how your body is oriented and moving. Most people lean heavily on vision for position and distance, so proprioception alone gives imprecise results."
     ],
     [
-     "Three ways to connect",
-     "The spec sheet gives a polling rate for each connection: 125 Hz over Bluetooth Low Energy, 1,000 Hz wired, and 250 to 1,000 Hz over a 2.4 GHz mode that works with the maker’s Dock or Key Cast. The Bluetooth version is 5.4, the stated maximum range is 10 m, and the pad can connect to up to 3 devices and switch between them."
+     "Who used it",
+     "The Exploratorium pairs the snack with Dr Patricia Cowings, a psychophysiologist who trained as a NASA astronaut, was an alternate for a 1979 spaceflight, developed individually tailored protocols to prevent motion sickness in astronauts, and is principal investigator at NASA Ames Research Center."
     ],
     [
-     "Battery and magnets",
-     "Inside is a 500 mAh lithium-ion battery, rated for up to 9 hours of continuous use and up to 1.8 years on standby. Closing the Mcon activates an auto wake/sleep function and protects the controls. It fits MagSafe and PixelSnap phones and cases, with an adapter included for Android phones and regular cases. Your phone can charge the Mcon over USB-C, but the Mcon will not charge your phone."
-    ],
-    [
-     "What a reviewer found wrong",
-     "John Velasco of Tom’s Guide tried one, in an article published on 25 August 2026, and liked it: he wrote that it packs all the buttons, triggers, joysticks and grips needed to feel remarkably like a standard console controller. His caveats: much as he appreciates the wireless connection, “there are just some games”, like Resident Evil Village, “that are better suited with a direct connection”, and he gets rid of any worry about latency by connecting it via USB-C. Next to his iPhone 17 Pro it has a nearly identical footprint, “just with a slightly thicker chassis”."
-    ]
-   ],
-   "rel": [
-    "aura",
-    "fist",
-    "spin"
-   ],
-   "src": "TIME Best Inventions 2026 (Jessica Sager) · Ohsnap MCON product page · Tom’s Guide, 25 Aug 2026 (John Velasco)"
-  },
-  {
-   "id": "rel15",
-   "dom": "matter",
-   "lab": "Physics · Relativity",
-   "hot": 0,
-   "big": 0,
-   "art": "eq",
-   "cap": "A satellite’s mass grows by one part in two to three billion, Feynman notes. Check his sum",
-   "num": "2000×",
-   "nums": "the normal mass of the electrons in Caltech’s synchrotron, Feynman wrote: as heavy as a proton",
-   "p1": "For over 200 years Newton’s equations of motion were believed to describe nature correctly, Feynman writes, and the first time an error in these laws was discovered, the way to correct it was discovered too; both by Einstein in 1905. The fix changes Newton’s laws by introducing a correction factor to the mass, which grows with speed. A satellite goes around the Earth at 5 miles per second, so v/c is 5/186,000, and putting that into the formula shows the correction to the mass is only one part in two to three billion, “which is nearly impossible to observe.”",
-   "p2": "Check it: type 5 ÷ 186000 into a calculator, square it, then halve it. You get about 3.6 × 10⁻¹⁰, which is one part in roughly 2.8 billion: the size of the correction Feynman is talking about.",
-   "deep": [
-    [
-     "Found on paper first",
-     "“Because the effect is ordinarily so small,” Feynman writes, “it seems remarkable that it was discovered theoretically before it was discovered experimentally.”"
-    ],
-    [
-     "Where it is huge",
-     "To deflect the high-speed electrons in the synchrotron at Caltech, Feynman says, a magnetic field 2000 times stronger than Newton’s laws would predict is needed: the electrons’ mass is 2000 times as great as their normal mass, as great as that of a proton. Yet their speed cannot exceed the speed of light."
-    ],
-    [
-     "Clocks too",
-     "Not only must lengths shorten, Feynman writes, but clocks must slow down: when a clock in a space ship records 1 second as seen by the man in the ship, it shows 1/√(1 − u²/c²) second to the man outside."
-    ],
-    [
-     "And energy",
-     "Near the chapter’s end comes the famous link: the mass is equal to the total energy content divided by c²."
-    ]
-   ],
-   "rel": [
-    "spin",
-    "cones",
-    "m30"
-   ],
-   "src": "The Feynman Lectures on Physics, Vol. I, Ch. 15 “The Special Theory of Relativity” (sections 15-1, 15-4, 15-8, 15-9), feynmanlectures.caltech.edu"
-  },
-  {
-   "id": "spin",
-   "dom": "matter",
-   "lab": "Physics · Spinning",
-   "hot": 1,
-   "big": 0,
-   "art": "skater",
-   "cap": "Sit on a swivel chair holding two water bottles, pull your arms in, and you speed up",
-   "num": "2 litres",
-   "nums": "of water in each hand works; the Exploratorium says to use the heaviest masses you can hold at arm’s length",
-   "p1": "The Exploratorium’s Momentum Machine needs a rotating stool or chair, two heavy objects such as two 2-litre plastic bottles full of water, and a partner. Sit with one mass in each hand and your arms outstretched, have your partner start you rotating slowly and then let go and move away, and quickly pull the masses in towards your body. You rotate faster.",
-   "p2": "Why: a rotating object tends to keep a constant angular momentum unless an outside twisting force acts on it, and angular momentum is angular velocity times moment of inertia. Pull the mass closer to the axis and the moment of inertia drops, so the angular velocity has to rise.",
-   "deep": [
-    [
-     "Same trick on ice",
-     "The conservation of angular momentum, the Exploratorium notes, explains why ice skaters start to spin faster when they suddenly draw their arms inward, and why divers or gymnasts who go into the tuck position flip or twist at a faster rate."
-    ],
-    [
-     "Moment of inertia",
-     "The farther from the axis of rotation the mass is located, the larger the moment of inertia. That is why the bottles start at arm’s length, not against your chest."
-    ],
-    [
-     "Heavier is better",
-     "The type of mass is not critical, the Exploratorium says, but two 1-gallon milk jugs full of water work even better than 2-litre bottles. Use the heaviest masses you can hold at arm’s length."
-    ]
-   ],
-   "rel": [
-    "rel15",
-    "fist",
-    "mcon"
-   ],
-   "src": "Exploratorium Science Snacks: “Momentum Machine”"
-  },
-  {
-   "id": "cones",
-   "dom": "mind",
-   "lab": "Mind · Your screen",
-   "hot": 0,
-   "big": 0,
-   "art": "pupil",
-   "cap": "Two people, one screen, different colours. Sometimes the display is at fault, not the eyes",
-   "num": "3",
-   "nums": "types of cone cell in the eye; displays mix red, green and blue to target them, but not everyone’s cones respond the same way",
-   "p1": "People perceive colours differently, especially on modern displays that produce a wide range of colours, reports Physics World. Colour vision works thanks to three types of cone photoreceptor cells, and almost all display technologies exploit this by using red, green and blue. The problem with newer displays, Physics World explains, is that they do not necessarily activate the cones of different observers equally. The work was led by Andy Rider of the Institute of Ophthalmology at University College London.",
-   "p2": "How it started: Rider says the work began when display technology consultant John Frith got in touch with his group, after a friend of Frith’s in the film industry saw the colours of two side-by-side cinema projectors as wildly different.",
-   "deep": [
-    [
-     "Where it is published",
-     "The research was led by Andy Rider of UCL’s Institute of Ophthalmology and is published in Optics Express (DOI 10.1364/OE.613255)."
-    ],
-    [
-     "Three cones",
-     "The three cone types are called L, M and S, and each one responds to different wavelengths of visible light. When two people’s cones differ, the same red, green and blue mix on a display can look different to each of them, what Physics World calls colour mismatches, or metamerism failures."
-    ],
-    [
-     "Test it",
-     "Put two phones side by side showing the same photo and ask someone else whether the reds match. If the two of you disagree, the screens may be part of the reason."
-    ]
-   ],
-   "rel": [
-    "aura",
-    "rel15",
-    "ants"
-   ],
-   "src": "Physics World, “Why do people see colours differently? Sometimes, it’s the display’s fault”, Isabelle Dumé, 5 Nov 2026 · Optics Express"
-  },
-  {
-   "id": "ants",
-   "dom": "life",
-   "lab": "Life · No leader",
-   "hot": 0,
-   "big": 0,
-   "art": "ants",
-   "cap": "Ant colonies sit still, then all burst into action at once, no leader. A model says why",
-   "num": "30+ years",
-   "nums": "scientists have been mystified by the sudden bursts of activity in some ant colonies",
-   "p1": "Colonies of some ants sit still for long stretches, then burst into activity all at once with no leader giving the signal; the behaviour has mystified scientists for more than 30 years. Engineers Michael Napoli and Maurizio Porfiri of New York University and biologist Simon Garnier of the New Jersey Institute of Technology built a mathematical model, published on 5 August in PRX Life. In it, one wandering ant bumps a neighbour, which bumps the next, but an ant that has moved must rest before it can be set off again.",
-   "p2": "The catch: the first ant can spark activity throughout the rest of its colony only when three conditions line up, how quickly activity can travel through the colony, how easily ants respond to being bumped, and whether the whole colony has switched off into rest mode before the next spark.",
-   "deep": [
-    [
-     "Like freezing",
-     "The team compares the switch to drastic shifts such as liquid water freezing into solid ice. Once it starts, “like a cascade of dominoes, a massive spike of activity sweeps through the nest.”"
-    ],
-    [
-     "Humbling",
-     "Kirsten Prior, an ant biologist at Binghamton University who was not involved, says the result suggests bursts come down to simply speed and contact rate, and calls that “a bit humbling to me as an ant biologist.”"
-    ],
-    [
-     "Not settled",
-     "Grant Navid Doering, a biologist at Bilkent University in Ankara, says experiments with real colonies will be necessary to test the model’s predictions. Elva Robinson, an ecologist at the University of York, says the model opens a “black box” on how bursts happen but not on what colonies gain from them."
+     "Two more versions",
+     "The same page has two further activities, marking an X and writing with eyes shut, which need paper and pencil. The hands-only version needs nothing at all."
     ]
    ],
    "rel": [
     "cones",
-    "goose",
-    "spin"
+    "dino",
+    "stockwell"
    ],
-   "src": "Science News Explores, “Mystery solved? Why ‘sleeping’ ants suddenly explode with activity”, Tejasri Gururaj, 6 Nov 2026 · PRX Life, 5 Aug 2026",
-   "img": "https://www.snexplores.org/wp-content/uploads/sites/3/2026/11/1030_leaderless_ants_feat.jpg",
-   "credit": "Photo: Gilles San Martin (CC BY-SA 3.0), via Science News Explores"
+   "src": "Exploratorium Science Snacks: Proprioception"
   },
   {
    "id": "goose",
@@ -533,88 +549,82 @@
     [
      "Dark skies",
      "The park’s remote, high-desert location and 360-degree views of the sky helped earn it an International Dark Sky Park designation in 2021. NASA notes that in November 2026 the Northern Taurids, Southern Taurids and Leonids reach their peaks."
-    ],
-    [
-     "Check the ratio",
-     "Divide 5.5 by 1.3 and you get about 4.2. On that stretch the water travels more than four times the straight-line distance."
     ]
    ],
    "rel": [
-    "m30",
-    "ants",
-    "fist"
+    "dino",
+    "whatsup",
+    "astro"
    ],
    "src": "NASA Earth Observatory, Image of the Day for 6 Nov 2026 (story by Lindsey Doermann)",
    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/taking-a-gander-at-utah%E2%80%99s-goosenecks/ISS075-E-188830_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "credit": "Photo: NASA / ISS Crew Earth Observations Facility and Earth Science and Remote Sensing Unit, Johnson Space Center"
   },
   {
-   "id": "fist",
-   "dom": "try",
-   "lab": "Try it · Your hand",
+   "id": "cones",
+   "dom": "mind",
+   "lab": "Mind · Your screen",
    "hot": 0,
    "big": 0,
-   "art": "fist",
-   "cap": "Your fist at arm’s length covers about 10°: a ruler for anything far away, even the sky",
-   "num": "10°",
-   "nums": "about the angle your fist covers at arm’s length; an extended hand covers about 20°",
-   "p1": "Hold your arm out straight at shoulder height, make a fist and close one eye. The Exploratorium’s rule: measure your arm in fists, thumb not included, and most people come out at a ratio of 1 to 7. Now open your hand and fully extend your fingers. From thumb to little finger, most people’s arms are about three of those long, so whatever you can just hide behind your extended hand is three times farther away from you than it is tall.",
-   "p2": "Something to test: stand back from a door until your extended hand, at arm’s length, just covers it: top of the door at the top of your thumb, bottom at the tip of your little finger. Measure how far away you are: it should be about three door-heights.",
+   "art": "pupil",
+   "cap": "Two people, one screen, different colours. Sometimes the display is at fault",
+   "num": "3",
+   "nums": "types of cone cell in the eye; displays mix red, green and blue to target them, but not everyone’s cones respond the same way",
+   "p1": "People perceive colours differently, especially on modern displays that produce a wide range of colours, reports Physics World. Colour vision works thanks to three types of cone photoreceptor cells, and almost all display technologies exploit this by using red, green and blue. The problem with newer displays, Physics World explains, is that they do not necessarily activate the cones of different observers equally. The work was led by Andy Rider of the Institute of Ophthalmology at University College London.",
+   "p2": "How it started: Rider says the work began when display technology consultant John Frith got in touch with his group, after a friend of Frith’s in the film industry saw the colours of two side-by-side cinema projectors as wildly different.",
    "deep": [
     [
-     "From ratios to degrees",
-     "With both arms outstretched at shoulder level, your arms sweep out 180 degrees. Stack your extended hand from horizon to horizon and you should find about 9 of them fit: 180 ÷ 9 = 20, so your extended hand measures about 20 degrees. About two fists fit in one extended hand, so your fist sweeps out about 10 degrees."
+     "Where it is published",
+     "The research was led by Andy Rider of UCL’s Institute of Ophthalmology and is published in Optics Express (DOI 10.1364/OE.613255)."
     ],
     [
-     "Smaller rulers",
-     "The Exploratorium’s table goes on. The width of your thumbnail is about 1:30 of your arm’s length, or 2 degrees. The width of your little fingernail is about 1:60, or 1 degree."
+     "The friend’s eyes",
+     "The Physics World anecdote has a twist: when Rider’s group tested the friend who saw the two projectors so differently, he turned out to have a red–green colour-vision deficiency he had not known about. Rider says he has the same condition and was not properly diagnosed until his mid-30s. Displays can drive cones unequally, and eyes differ too."
     ],
     [
-     "Why it works",
-     "When your extended hand just hides a distant object, the object takes up the same angle at your eye as your hand does. Two similar triangles are created, one embedded in the other. The small one has your arm’s length as its base and your hand’s height as its altitude; the large one has the distance to the object as its base and the object’s height as its altitude. Keep your elbow straight: the ratio changes if you bend your arm."
-    ],
-    [
-     "Take it outside",
-     "The Exploratorium says this is a tool astronomers use to measure objects in the sky. Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November: a little more than the width of your little fingernail at arm’s length."
+     "Three cones",
+     "The three cone types are called L, M and S, and each one responds to different wavelengths of visible light. When two people’s cones differ, the same red, green and blue mix on a display can look different to each of them, what Physics World calls colour mismatches, or metamerism failures."
     ]
    ],
    "rel": [
-    "whatsup",
-    "spin",
-    "m30"
+    "aura",
+    "pbr",
+    "lecun"
    ],
-   "src": "Exploratorium Science Snacks: Handy Measuring Tool · NASA What’s Up, November 2026"
+   "src": "Physics World, “Why do people see colours differently? Sometimes, it’s the display’s fault”, Isabelle Dumé, 5 Nov 2026 · Optics Express"
   },
   {
-   "id": "aicraft",
+   "id": "ai17",
    "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
+   "lab": "Using AI · Evidence",
    "hot": 0,
-   "big": 0,
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at the University of Pennsylvania put it in six words. Do not hand over the things you enjoy and that give you meaning, he says, and decide which skills you want to protect. Trent Cash, a behavioural scientist at the University of Waterloo, adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient, and he does not think AI is going to suddenly turn our brains to mush.",
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: the researchers say the students used the bot as a “crutch” and did not learn the underlying concepts deeply enough.",
    "deep": [
     [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. Back on their own, they did not detect the growths as well."
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
     ],
     [
-     "The readers who gave up",
-     "People who used an AI tool to solve SAT questions were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because persistence is key for learning."
+     "What the researchers concluded",
+     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
     ],
     [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
     ]
    ],
    "rel": [
-    "cones",
-    "aura",
-    "ants"
+    "lecun",
+    "astro",
+    "fingertips"
    ],
-   "src": "Science News Explores, “Is AI making us dumber? Depends how it’s used”, Meghan Rosen, 13 Oct 2026 · Cash et al., Trends in Cognitive Sciences, Aug 2026 · Lira et al., arXiv preprint, Feb 2026"
+   "src": "PNAS, Bastani et al. 2025 · Wharton",
+   "big": 0
   }
  ]
 }
