@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "tiles": [
   {
    "id": "after",
@@ -280,13 +280,14 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-11-07",
+   "last": "2026-11-10",
    "editions": [
     "02b",
     "06",
     "09",
     "12",
-    "15"
+    "15",
+    "18"
    ]
   },
   {
@@ -2284,10 +2285,11 @@
   {
    "id": "astro",
    "first": "2026-11-08",
-   "last": "2026-11-09",
+   "last": "2026-11-10",
    "editions": [
     "16",
-    "17"
+    "17",
+    "18"
    ],
    "cap": "NASA is hiring astronauts. Last time, more than 8,000 people applied and 10 got in",
    "lane": "space",
@@ -2345,10 +2347,11 @@
   {
    "id": "aura",
    "first": "2026-11-08",
-   "last": "2026-11-09",
+   "last": "2026-11-10",
    "editions": [
     "16",
-    "17"
+    "17",
+    "18"
    ],
    "cap": "Glasses with a 70° view, 1920×1200 per eye, 95 g. The computer lives in your pocket",
    "lane": "gadgets",
@@ -2382,10 +2385,11 @@
   {
    "id": "cones",
    "first": "2026-11-08",
-   "last": "2026-11-09",
+   "last": "2026-11-10",
    "editions": [
     "16",
-    "17"
+    "17",
+    "18"
    ],
    "cap": "Two people, one screen, different colours. Sometimes the display is at fault, not the eyes",
    "lane": "mind",
@@ -2419,9 +2423,10 @@
   {
    "id": "promise",
    "first": "2026-11-09",
-   "last": "2026-11-09",
+   "last": "2026-11-10",
    "editions": [
-    "17"
+    "17",
+    "18"
    ],
    "cap": "NASA’s next Moon rover: built from Mars rover spares, with a nuclear generator on its back",
    "lane": "space",
@@ -2431,9 +2436,10 @@
   {
    "id": "nvs3",
    "first": "2026-11-09",
-   "last": "2026-11-09",
+   "last": "2026-11-10",
    "editions": [
-    "17"
+    "17",
+    "18"
    ],
    "cap": "Four burns, 103 minutes of firing, and India’s navigation satellite is parked 36,000 km up",
    "lane": "space",
@@ -2515,14 +2521,123 @@
   {
    "id": "fingertips",
    "first": "2026-11-09",
-   "last": "2026-11-09",
+   "last": "2026-11-10",
    "editions": [
-    "17"
+    "17",
+    "18"
    ],
    "cap": "Eyes shut, hands up: touch your nose, then your left thumb. Now wiggle the fingers, retry",
    "lane": "try",
    "lab": "Try it · Eyes shut",
    "src": "Exploratorium Science Snacks: Proprioception"
+  },
+  {
+   "id": "marsbound",
+   "cap": "Both Mars probes fired on time: two 9-minute burns, two days apart, and they are gone",
+   "lane": "space",
+   "lab": "Space · Mars-bound",
+   "src": "NASA, 9 Nov 2026 (Vanessa Thomas): NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars · NASA ESCAPADE mission page",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "wee",
+   "cap": "Chatbots raised on American English “correct” Indian English. An NUS dean weighs in",
+   "lane": "sg",
+   "lab": "Singapore · AI and words",
+   "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "clicks",
+   "cap": "A slide-out phone keyboard. The tester typed 30 words a minute on it, 53 on glass",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Martin Cizmar) · clicks.tech Power Keyboard spec page · Tom’s Guide, 18 Aug 2026 (Jason England)",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "seals",
+   "cap": "Seals hear in air and under water. No other mammal can. It began 26.7 million years ago",
+   "lane": "life",
+   "lab": "Life · Superpower",
+   "src": "Science News Explores, 9 Nov 2026 (Melissa Hobson): Seals long ago evolved to hear above the water, and below · Proceedings of the Royal Society B, 15 July 2026",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "pena",
+   "cap": "The only storm on the hurricane maps on Monday: 40 mph winds. The forecasters: “barely”",
+   "lane": "earth",
+   "lab": "Earth · Barely a storm",
+   "src": "NOAA National Hurricane Center / Central Pacific Hurricane Center, Tropical Storm Pena Advisory 13, 11 am HST Mon 9 Nov 2026 · NASA Earth Observatory, 3 Nov 2026: The Pacific’s Busy Storm Season",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "ratchet",
+   "cap": "Feynman’s tiny machine was meant to get free work out of jiggling air. It gets nowhere",
+   "lane": "matter",
+   "lab": "Physics · One-way street",
+   "src": "The Feynman Lectures on Physics, Vol. I, ch. 46: Ratchet and pawl (Caltech, feynmanlectures.caltech.edu)",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "polarised",
+   "cap": "Your laptop screen sends out light with a hidden direction. Sunglasses and tape reveal it",
+   "lane": "matter",
+   "lab": "Physics · Hidden light",
+   "src": "Exploratorium Science Snacks: Polarized-Light Mosaic (exploratorium.edu/snacks)",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "occult",
+   "cap": "In 1977 a star blinked five times before Uranus hid it. That is how its rings were found",
+   "lane": "space",
+   "lab": "Space · A star vanishes",
+   "src": "Science News Explores, 9 Nov 2026 (Katie Grace Carpenter): Scientists Say: Occultation",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
+  },
+  {
+   "id": "smac",
+   "cap": "A*STAR built a molecule that kills one yeast and spares its close cousins. That is hard",
+   "lane": "sg",
+   "lab": "Singapore · Fungus fighter",
+   "src": "A*STAR Research, 9 Nov 2026: A targeted SMAC-down on fungal foes · Advanced Science 13 (41), 2026",
+   "first": "2026-11-10",
+   "last": "2026-11-10",
+   "editions": [
+    "18"
+   ]
   }
  ]
 }

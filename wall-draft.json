@@ -1,13 +1,28 @@
 {
- "edition": 17,
+ "edition": 18,
  "level": "High school",
- "date": "2026-11-09",
- "dateLabel": "Mon 9 Nov 2026",
+ "date": "2026-11-10",
+ "dateLabel": "Tue 10 Nov 2026",
  "week": [
   {
    "d": "MON",
-   "t": "NASA: ESCAPADE’s second spacecraft fires its 9-minute trans-Mars burn over Australia, 6:51 pm Singapore time",
-   "id": "oberth"
+   "t": "NASA: both ESCAPADE spacecraft complete their powered Earth flybys, 7 and 9 Nov, and are on their way to Mars",
+   "id": "marsbound"
+  },
+  {
+   "d": "MON",
+   "t": "NOAA: Tropical Storm Pena, 40 mph, the only tropical cyclone on the National Hurricane Center’s maps",
+   "id": "pena"
+  },
+  {
+   "d": "MON",
+   "t": "Science News Explores: fossil ear scans show seals evolved amphibious hearing nearly 26.7 million years ago",
+   "id": "seals"
+  },
+  {
+   "d": "MON",
+   "t": "A*STAR: Gua-SMACS-16, a molecule that kills Candida tropicalis and largely spares three related yeasts",
+   "id": "smac"
   },
   {
    "d": "SAT",
@@ -15,113 +30,96 @@
    "id": "promise"
   },
   {
-   "d": "FRI",
-   "t": "Science News: possible red blood cells, chemically confirmed, in a 115-million-year-old dinosaur bone",
-   "id": "dino"
-  },
-  {
-   "d": "FRI",
-   "t": "Quanta: the PBR theorem of 2012, now run on an IBM quantum computer, rules out Einstein’s picture of reality",
-   "id": "pbr"
-  },
-  {
-   "d": "FRI",
-   "t": "NUS: Prof Mario Lanza’s 2 × 2 µm hexagonal boron nitride radio switches, built into working circuits",
-   "id": "lanza"
-  },
-  {
    "d": "WED",
-   "t": "ISRO: NVS-03 completes four engine burns, 6,164 seconds in all, and reaches geosynchronous orbit",
-   "id": "nvs3"
+   "t": "NUS: Prof Lionel Wee on chatbots raised on American English “correcting” Indian English",
+   "id": "wee"
   }
  ],
  "tiles": [
   {
-   "id": "oberth",
+   "id": "marsbound",
    "dom": "space",
-   "lab": "Space · Tonight 6:51 pm",
+   "lab": "Space · Mars-bound",
    "hot": 1,
    "big": 1,
    "art": "slingshot",
-   "cap": "Tonight, 6:51 pm here: a Mars probe over Australia fires its engine for 9 minutes and goes",
-   "num": "Mach 30 → 31",
-   "nums": "about 6.3 to about 6.7 miles per second after the 9-minute burn, which adds more than 1,000 mph",
-   "p1": "NASA’s second ESCAPADE spacecraft makes its powered flyby of Earth tonight: its trans-Mars injection burn begins at 5:51 am US Eastern on Monday 9 November, which is 6:51 pm in Singapore, over southern Australia, the burn coming at closest approach, which NASA rounds to around 6 am Eastern, 7 pm here. The first spacecraft was due to do the same on Saturday; NASA’s ESCAPADE blog had not posted its result when this edition was written on Monday morning. A powered flyby, also called an Oberth manoeuvre, combines Earth’s gravity with an engine burn, and NASA says no agency spacecraft had flown one before.",
-   "p2": "Why now: Earth and Mars line up for a launch every 26 months. ESCAPADE launched in November 2025 when the planets were on opposite sides of the Sun, so the pair loitered around the Earth–Sun Lagrange point 2 and came back to Earth this month to be thrown onward.",
+   "cap": "Both Mars probes fired on time: two 9-minute burns, two days apart, and they are gone",
+   "num": "2 for 2",
+   "nums": "powered Earth flybys: 5 am US Eastern on Saturday 7 Nov about 1,000 miles up, and 6 am on Monday 9 Nov about 650 miles up",
+   "p1": "NASA says both twin ESCAPADE spacecraft have completed their powered Earth flybys and are on their way to Mars. The first fired its roughly 9-minute trans-Mars injection burn at 5 am US Eastern on Saturday 7 November, when it was about 1,000 miles above Earth’s surface; the second did the same at 6 am Eastern on Monday 9 November (7 pm in Singapore), about 650 miles up. Asal Naseri, acting associate flight director for the Heliophysics Division at NASA Headquarters: “This is the first time NASA has used a powered Earth flyby to propel a spacecraft toward Mars, and we’ve now executed this maneuver twice, flawlessly, in just two days.”",
+   "p2": "Why it matters: Jeff Parker of Advanced Space, the lead mission designer, says the loiter-and-flyby route “provides the flexibility to launch almost anytime and then use Earth’s gravity to get a boost to Mars” instead of waiting every two years for the planets to line up.",
    "deep": [
     [
-     "How close, how fast",
-     "At closest approach the spacecraft pass 600 to 1,100 miles above Earth’s surface, higher than most Earth-orbiting satellites. The burn raises their speed from about 6.3 to about 6.7 miles per second, Mach 30 to Mach 31; at that speed, NASA says, a craft could fly from Washington, DC, to San Francisco in under 7 minutes."
+     "The route",
+     "ESCAPADE launched on 13 November 2025 from Cape Canaveral, when Earth and Mars were on opposite sides of the Sun. The pair spent about a year in a loiter orbit around Lagrange point 2, about a million miles from Earth, then swung back past Earth so that its gravity plus the engine burn could throw them towards Mars."
     ],
     [
-     "Then ten months",
-     "A 10-month cruise follows. The first spacecraft arrives at Mars on 7 September 2027 and the second on 9 September, the first multi-spacecraft mission to fly in formation around Mars, measuring how the solar wind, material from the Sun moving at about a million miles per hour, strips away the Martian atmosphere."
+     "Ten months to go",
+     "The cruise to Mars takes about 10 months, with trajectory correction manoeuvres along the way. Orbit insertion burns are planned for 7 and 9 September 2027, each spacecraft firing its engine for about 11 minutes, and science operations are expected to begin in June 2028."
     ],
     [
-     "Bonus science",
-     "While loitering, the pair passed through a distant part of Earth’s magnetotail that had never been directly explored. NASA says the team saw interesting activity and structure and plans to share findings soon."
+     "Two orbiters, one planet",
+     "Rob Lillis of the University of California, Berkeley, the principal investigator: “This will be the first science mission to choreograph two orbiters around Mars.” The goal is to measure how the solar wind, a million-mile-per-hour stream of material from the Sun, drives the loss of the Martian atmosphere, from two places at once."
     ],
     [
-     "Could you see it",
-     "Each spacecraft is about the size of a standard refrigerator and faint, so a telescope would most likely be needed. In the days after the burns the team will learn how well each craft is aimed and plan trajectory correction manoeuvres for the Mars rendezvous in September 2027."
+     "What is aboard",
+     "Each orbiter weighs about 209 kg dry and 535 kg fuelled, and carries an electrostatic analyser from UC Berkeley, a magnetometer from NASA Goddard, a Langmuir probe from Embry-Riddle and student-built cameras from Northern Arizona University. They rode to space on the second flight of Blue Origin’s New Glenn rocket."
     ]
    ],
    "rel": [
     "promise",
-    "whatsup",
-    "nvs3"
+    "nvs3",
+    "astro"
    ],
-   "src": "NASA ESCAPADE blog, 2 Nov 2026 (Vanessa Thomas, Goddard); blog re-checked Mon 9 Nov, 06:40 SGT",
+   "src": "NASA, 9 Nov 2026 (Vanessa Thomas): NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars · NASA ESCAPADE mission page",
    "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: Advanced Space/Matt Bolliger, via NASA ESCAPADE blog"
+   "credit": "Image: Advanced Space/Matt Bolliger, via NASA"
   },
   {
-   "id": "promise",
-   "dom": "space",
-   "lab": "Space · Moon Base",
+   "id": "wee",
+   "dom": "sg",
+   "lab": "Singapore · AI and words",
    "hot": 1,
    "big": 0,
-   "art": "polar",
-   "cap": "NASA’s next Moon rover: built from Mars rover spares, with a nuclear generator on its back",
-   "num": "−242 °C",
-   "nums": "how cold the permanently shadowed craters the rover will drive into may get (minus 400 °F)",
-   "p1": "On Saturday at the MAX POWER expo at Kennedy Space Center, NASA announced PROMISE, the Polar Rover for Observation, Mapping, and In-Situ Exploration: an SUV-sized, six-wheeled, nuclear-powered rover for the Moon’s south pole, targeted to launch in late 2028 on an 18-month mission. JPL is building it from a combination of spare flight parts and engineering test models from the Curiosity and Perseverance Mars rovers, including the electronics, body structure and mobility system of the duplicate Curiosity test-bed vehicle. Blue Origin gets a $94 million contract, with an option worth a further $140 million based on performance, to deliver it on its Mark 1 lander.",
-   "p2": "Why now: the same announcement gave eight companies places on CLPS 2, a 10-year cargo-lander contract worth up to $10 billion in total, plus about $1.3 billion of launch task orders. NASA Administrator Jared Isaacman: “We are building the Moon Base mission by mission.”",
+   "art": "neuron",
+   "cap": "Chatbots raised on American English “correct” Indian English. An NUS dean weighs in",
+   "p1": "Much of the language data that AI models learn from is American English, and NUS News reports that users in India have found chatbots “correcting” Indian English expressions as grammatical mistakes. Prof Lionel Wee, Dean of the NUS Faculty of Arts and Social Sciences and a sociolinguist, told a panel organised by The Mandala Club on 20 October that meaning depends on context: “Table number five wants their check” or “I’ve got to wash my hair” carry more than their words. He calls himself an “AI agnostic” and urges “a healthy dose of scepticism towards AI”.",
+   "p2": "Why here: a Singapore take on the Using AI lane, from a professor who researches how people actually talk.",
    "deep": [
     [
-     "A nuclear generator",
-     "Power comes from a flight-spare multi-mission radioisotope thermoelectric generator, which NASA describes as essentially a nuclear generator, fitted at the rear of the rover once it reaches the launch site. It lets PROMISE work through the long lunar night and inside permanently shadowed regions, where temperatures may fall to minus 242 °C."
+     "Who was there",
+     "The panel, “Lost in Translation”, was organised by The Mandala Club on 20 October 2026. Alongside Prof Wee were Rahat Kapur, co-founder and editorial director of Beyond The Boardroom, and Chathuni Uduwela, a public policy practitioner."
     ],
     [
-     "A drill and a dashcam",
-     "The TRIDENT drill, from Honeybee Robotics, pulls up soil from as deep as 1 metre in 10-centimetre steps. Spectrometers analyse what comes up; a radiation detector rides along whose earlier version has run for 15 years on Curiosity; and a stereo Lunar Dashcam with its own illuminators is based on Perseverance’s landing cameras."
+     "Comfort from a machine",
+     "Two stories from the panel: a colleague’s niece turned to a chatbot for comfort after a breakup, and a student kept using a religious chatbot app long after exams were over. Wee’s question: “Are we creating generations that are less resilient, less able to deal with setbacks and difficulties”."
     ],
     [
-     "Shackleton Crater",
-     "NASA’s PROMISE page pictures Shackleton Crater, near the Moon’s south pole, about 21 kilometres wide and 4 kilometres deep. Laser altimetry from NASA’s Lunar Reconnaissance Orbiter has revealed boulders and low hills in its permanently shadowed interior."
+     "Like calculators?",
+     "NUS News’ comparison: writing reduced the need to memorise, and calculators made manual calculation less necessary. Its question: as AI takes on more thinking tasks, which human skills should we keep cultivating?"
     ],
     [
-     "For students too",
-     "On Sunday NASA opened a $1 million Moon Base Student Challenge in six categories, from power generation and construction to astronaut safety. It is for teams at US high schools and post-secondary schools, with registration by 25 January 2027."
+     "Access is not enough",
+     "Wee: “Access on its own is not really meaningful if you don’t take into account the kinds of friction that people encounter”."
     ]
    ],
    "rel": [
-    "oberth",
-    "astro",
-    "bigg"
+    "aimit",
+    "cones",
+    "smac"
    ],
-   "src": "NASA release 26-095, 7 Nov 2026 · NASA PROMISE mission page, updated 7 Nov 2026 · NASA release 26-096, 8 Nov 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/promise-7.jpg",
-   "credit": "Image: NASA artist’s concept"
+   "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
+   "img": "https://content.presspage.com/uploads/2580/e6f09a72-5e29-426e-807e-c5e3ae130891/1920_20261104-proflionelweemandalaclub.jpg?10000",
+   "credit": "Photo: NUS News"
   },
   {
    "id": "nvs3",
    "dom": "space",
    "lab": "India · Parking a satellite",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "gps",
-   "cap": "Four burns, 103 minutes of firing, and India’s navigation satellite is parked 36,000 km up",
+   "cap": "Four burns, 103 minutes of firing: India’s navigation satellite is parked 36,000 km up",
    "num": "6,164 s",
    "nums": "total burn time of NVS-03’s liquid apogee motor across four manoeuvres, about 103 minutes",
    "p1": "ISRO reported on 4 November that NVS-03, placed by GSLV-F18 on 30 October at 23:51 IST into an orbit of 170.3 km by 38,080 km, has completed four orbit manoeuvres with a cumulative liquid apogee motor burn of 6,164 seconds. It now sits in a geosynchronous orbit of 35,765 km by 36,196 km, at an inclination ISRO lists as 29.98 degrees, and ISRO says the health of the satellite is normal. The first burn alone, on 31 October at 16:48 IST, lasted 2,174.8 seconds and lifted the low point of the orbit from 170 km to 5,477.6 km.",
@@ -145,204 +143,301 @@
     ]
    ],
    "rel": [
-    "oberth",
-    "lanza",
-    "promise"
+    "marsbound",
+    "promise",
+    "pena"
    ],
    "src": "ISRO, Final orbit manoeuvring of NVS-03 spacecraft (4 Nov 2026) and Orbit manoeuvring update (31 Oct 2026) · ISRO GSLV-F18 mission page",
    "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
    "credit": "Photo: ISRO (GSLV-F18 on the launch pad)"
   },
   {
-   "id": "lanza",
-   "dom": "sg",
-   "lab": "Singapore · Atom-thin switches",
-   "hot": 0,
-   "big": 0,
-   "art": "chip",
-   "cap": "A 2G system used about 4 radio switches; 6G may need 100. NUS made them 2 micrometres wide",
-   "num": "2 × 2 µm",
-   "nums": "the size of each hexagonal boron nitride radio-frequency switch, which keeps its state when the power is off",
-   "p1": "NUS News profiled Professor Mario Lanza of the Department of Materials Science and Engineering on 6 November. His group’s paper in Nature on 8 July 2026, first author Dr Sebastian Pazos, reported radio-frequency switches made of hexagonal boron nitride, an insulating two-dimensional material, which can be only a single atomic layer thick, each measuring 2 by 2 micrometres. They were integrated onto commercially manufactured gallium nitride microchips and used in working circuits that adjust signal strength, redirect signals and select frequencies. A 2G system used about four such switches; 5G and 6G may need 50 to more than 100.",
-   "p2": "Why here: Lanza and Pazos founded the start-up Newmorphic at one-north. On 28 and 29 October it won the Advanced Manufacturing and Industrial Systems domain at SLINGSHOT 2026, a competition that drew more than 5,100 applications from 148 countries.",
-   "deep": [
-    [
-     "Resistors with memory",
-     "The switches are memristors, which the article describes as resistors with memory: they retain their state after power is removed."
-    ],
-    [
-     "Tunnelling leaks",
-     "A second paper, in Nature Materials on 1 July 2026 with Dr Yue Yuan as first author, used conductive atomic force microscopy on 2D materials. Quantum tunnelling, electrons slipping through barriers meant to stop them, increases energy consumption and usually accelerates device failure; the team found that tiny gaps between an atom-thin material and its electrodes change how far electrons travel. Lanza: “tiny physical gaps between electrodes can matter more than the material’s own ability to block electrical current.”"
-    ],
-    [
-     "One transistor as a neuron",
-     "A 2025 Nature article from the group showed that a single standard silicon transistor can emulate both neural and synaptic behaviour, work that usually takes dozens of transistors and bulky capacitors, pointing at spiking neural networks on battery-powered drones, robots and wearables."
-    ],
-    [
-     "How he works",
-     "Lanza says the team repeats experiments multiple times, uses test protocols as close as possible to those industry requires, and reports yield, variability, reliability and stability, with most fabrication on processes compatible with semiconductor wafer lines."
-    ]
-   ],
-   "rel": [
-    "nvs3",
-    "stockwell",
-    "aura"
-   ],
-   "src": "NUS News, “From atoms to systems: Prof Mario Lanza’s push to reinvent the electronics of the future”, 6 Nov 2026 · Nature, 8 Jul 2026 · Nature Materials, 1 Jul 2026",
-   "img": "https://content.presspage.com/uploads/2580/be73adc1-864e-4c81-8888-dd799b22ceda/1920_img-1200-16x9.jpg?10000",
-   "credit": "Photo: NUS News"
-  },
-  {
-   "id": "pbr",
-   "dom": "matter",
-   "lab": "Physics · Quantum",
-   "hot": 1,
-   "big": 0,
-   "art": "cards",
-   "cap": "On the worst hand of a card game, classical physics wins 3 in 4. Quantum wins every time",
-   "num": "3 in 4",
-   "nums": "a classical player’s odds of being right when the dealer turns up two red aces; a quantum player can always win",
-   "p1": "Einstein believed things have definite properties whether or not anyone looks; he once asked a colleague whether he really believed the Moon is not there when nobody is looking at it. He took the quantum wave function to be a summary of our ignorance, like a forecast of 77% rain about a day that will really turn out one way or the other. Quanta Magazine’s Charlie Wood, on 6 November, lays out the two theorems that rule this picture out: Bell’s theorem of 1964, and the PBR theorem of 2012 by Matthew Pusey, Jonathan Barrett and Terry Rudolph, which proved that if the cards have real states, and the first card’s real state does not affect the second’s, the quantum state cannot be mere knowledge.",
-   "p2": "Why now: last autumn a Cambridge team led by Crispin Barnes ran a five-card version of the PBR game on an IBM quantum computer. Jacques Pienaar: “From the moment [PBR] came out, people knew it would be a landmark.”",
-   "deep": [
-    [
-     "The card game",
-     "A dealer draws two cards, each at random from either a pile of 26 red cards or a pile of four aces, and asks the player to name one combination of piles the cards did not come from. Classically, when both cards are red aces the player can be right only 3 times in 4. In the quantum version of the game, the article explains, the player can always win."
-    ],
-    [
-     "Bell first",
-     "In 1935 Einstein, Podolsky and Rosen argued quantum theory was incomplete, assuming both reality and locality. John Stewart Bell showed in 1964, inspired by David Bohm’s pilot-wave theory of 1952, that a world both real and local cannot match quantum predictions; experiments in the 1980s sided with quantum mechanics."
-    ],
-    [
-     "Bite or dodge",
-     "Pusey: “Do you bite the bullet, or do you try and dodge the bullet?” His view is that if anything is real, the quantum state is real. Pienaar now favours QBism, which holds that the world itself may exist but quantum mechanics cannot describe it."
-    ],
-    [
-     "Watch your sanity",
-     "Lucien Hardy of the Perimeter Institute: “You have to watch out for your sanity in a field like quantum foundations.” David Schmid, also at Perimeter, wants a notion of reality that rings true enough that “when people see it, they can’t unsee it”."
-    ]
-   ],
-   "rel": [
-    "bigg",
-    "cones",
-    "oberth"
-   ],
-   "src": "Quanta Magazine, “A Strange Quantum Theorem Has Killed Einstein’s Reality”, Charlie Wood, 6 Nov 2026"
-  },
-  {
-   "id": "stockwell",
+   "id": "clicks",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
-   "hot": 0,
+   "hot": 1,
    "big": 0,
-   "art": "speaker",
-   "cap": "A speaker that plays 40 hours, and when the battery finally wears out you swap it yourself",
-   "num": "40+ h",
-   "nums": "playtime claimed by Marshall; 20 minutes on a 30 W USB-C charger gives 7 hours",
-   "p1": "Marshall’s Stockwell III, on TIME’s Best Inventions of 2026 list, is a 1.3 kg portable speaker shaped like a mini version of the brand’s amps. Marshall’s specification page lists more than 40 hours of playtime, a full charge in under 3 hours on a 30 W USB-C cable, and a lithium-ion battery that is both rechargeable and replaceable; TIME calls a replaceable battery “essentially unheard of in consumer electronics”. Inside are one 3-inch woofer and two 1.75-inch full-range drivers in a sealed enclosure with a passive radiator, covering 54 to 20,000 Hz, with a maximum of 86 dB at 1 metre.",
-   "p2": "The engineering choices: Bluetooth 5.3 with Auracast and the LC3 codec, a 10 m range, an IP55 rating, 27% recycled material by product, and firmware updates promised for at least two years after the last unit is sold.",
+   "art": "keys",
+   "cap": "A slide-out phone keyboard. The tester typed 30 words a minute on it, 53 on glass",
+   "num": "30 vs 53",
+   "nums": "words per minute on the Clicks keyboard vs the touchscreen in Tom’s Guide’s test; accuracy 62% vs 81%",
+   "p1": "Clicks’ Power Keyboard snaps to the magnets on the back of a phone (MagSafe or Qi2) and slides out as a physical keyboard: 119.7 × 76.6 × 15.2 mm, 180 g, with a built-in 2,300 mAh battery that also tops up the phone over 5 W Qi wireless charging. TIME put it on its Best Inventions 2026 list; TIME calls the company “chockablock with BlackBerry alumni”, and says co-founder Jeffrey Gadway obsessively adjusted key curvature, row spacing and actuation points. Tom’s Guide’s Jason England typed 53 words a minute at 81% accuracy on his iPhone’s glass and 30 words a minute at 62% on the Clicks.",
+   "p2": "Why it is interesting: it is a bet that fingers remember what thumbs forgot, and the test says they mostly do not.",
    "deep": [
     [
-     "What reviewers found wrong",
-     "TechRadar’s Harry Padoan (18 August 2026): “At $249.99 / £199.99 / AU$379, the Stockwell III isn’t the cheapest option on the market”; the sound “does have a bit of a bass preference”; it is “only IP55”; “there’s no LDAC for higher-res Bluetooth playback”; and it still used “the older Marshall Bluetooth app”. Tom’s Guide’s Nikita Achanta: “Given its hefty weight, the Stockwell III isn’t the most portable speaker around.”"
+     "Inside",
+     "Bluetooth LE 5.4, pairing with up to 9 devices, three of them saved to the 1, 2 and 3 keys. By default 500 mAh of the battery is reserved for the keyboard itself. There is an adjustable LED backlight and a USB-C port, but the battery cannot charge other devices through it."
     ],
     [
-     "What they liked",
-     "Padoan called it “a spectacular Bluetooth speaker that offers a substantial upgrade on its predecessor”, with “regimented, intent-filled bass”. Achanta found that “all the buttons and dials give great tactile feedback” and that the treble “felt vibrant and nuanced without becoming fatiguing”."
+     "What went wrong",
+     "With the keyboard slid out the phone becomes top-heavy: “I constantly felt like it was going to somersault backward out of my hands.” The reviewer also found a “cheap-feeling plastic back” and a slide-out hinge that “feels almost distressingly loose”, called 2,300 mAh small for a power bank, and 5 W charging slow."
     ],
     [
-     "A number to watch",
-     "Marshall notes that some of its packaging may still say “35+ hours”; the figure rose to 40+ after final validation. Tom’s Guide’s Achanta played it at 50% volume and found it ran “just over 40 hours, keeping in line with Marshall’s claims”."
+     "What worked",
+     "The keys themselves were “objectively well-made”. As a pocket Bluetooth keyboard it drove a smart TV and a PS5, and it worked with Samsung DeX and Viture glasses. Verdict: “undeniably useful”, “not for everyone”."
     ],
     [
-     "Designed where",
-     "Marshall lists the speaker as developed and designed in Sweden and manufactured in Thailand, 180 × 162 × 74 mm, with a strap and a USB-C cable in the box."
+     "Price",
+     "The maker’s page says “From $139” with a $30 discount already applied; Tom’s Guide listed it at $99 when the review ran in August."
     ]
    ],
    "rel": [
     "aura",
-    "lanza",
-    "fingertips"
+    "cones",
+    "aimit"
    ],
-   "src": "TIME Best Inventions 2026 (Eliza Thompson, 15 Oct 2026) · Marshall Stockwell III specifications · TechRadar review (Harry Padoan, 18 Aug 2026) · Tom’s Guide review (Nikita Achanta, 18 Aug 2026)"
+   "src": "TIME Best Inventions 2026 (Martin Cizmar) · clicks.tech Power Keyboard spec page · Tom’s Guide, 18 Aug 2026 (Jason England)"
   },
   {
-   "id": "dino",
+   "id": "seals",
    "dom": "life",
-   "lab": "Life · 115 million years",
-   "hot": 0,
+   "lab": "Life · Superpower",
+   "hot": 1,
    "big": 0,
-   "art": "blood",
-   "cap": "Inside a 115-million-year-old dinosaur bone: possible red blood cells. Not everyone agrees",
-   "num": "20 µm",
-   "nums": "the size of the ellipsoid structures found inside the bone’s fossilised blood-vessel canals",
-   "p1": "A limb bone of Aratasaurus museunacionali, a small feathered theropod that lived about 115 million years ago in what is now northeastern Brazil, holds ellipsoid microstructures about 20 micrometres across inside its fossilised network of blood vessels. In PNAS on 2 November, Kliti Grice of Curtin University and colleagues report iron, carbon and nitrogen, the components of heme, in the structures, a laser light-scattering signal pointing to porphyrins, and a bone-extract analysis that ruled out chlorophyll contamination. They call them the oldest red blood cell structures identified and the first chemically proven.",
-   "p2": "The time capsule: hausmannite, a manganese oxide mineral inside the structures, may have protected cells and molecules, including collagen amino acids, rather than simply replacing biological material after it disappeared.",
+   "art": "seal",
+   "cap": "Seals hear in air and under water. No other mammal can. It began 26.7 million years ago",
+   "num": "<1%",
+   "nums": "of underwater sound reaches a human ear; water is more than 800 times denser than air",
+   "p1": "Water is more than 800 times denser than air, which is why less than one percent of underwater sound reaches a human ear. Seals, sea lions and walruses, the pinnipeds, have spongy ear tissue that fills with blood when they dive, equalising pressure and carrying sound well underwater. Paleontologist James Rule of Monash University in Melbourne calls this amphibious hearing “something of a superpower”: “They are the only mammals which can do this.”",
+   "p2": "Why now: Science News Explores reported the fossil ear scans on Monday; the paper appeared on 15 July in Proceedings of the Royal Society B.",
    "deep": [
     [
-     "Not convinced",
-     "Mary Schweitzer of North Carolina State University, who in 2005 reported soft, flexible blood-vessel tissue from a 68-million-year-old Tyrannosaurus rex leg bone: “I am not convinced.” She notes that the heme signals come from the whole bone, not only the round structures, and that the proposed cells differ in size and shape from those of living birds and reptiles."
+     "217 ears",
+     "The team made micro-CT scans of 217 ear specimens from museums around the world, covering 119 mammal species, including all 34 living pinniped species."
     ],
     [
-     "Convergence",
-     "Grice’s reply is that the case “rests on the convergence of anatomy, morphology, mineralogy, elemental analysis and molecular chemistry”, and that this kind of preservation “may not be quite as rare as we currently think”. She accepts that no one knows the original shape of dinosaur red blood cells or how fossilisation distorts them."
+     "When it started",
+     "Amphibious hearing evolved nearly 26.7 million years ago. Puijila, an early relative, spent much of its time in water but could hear only in air; Enaliarctos is thought to be among the first fully sea-dwelling pinnipeds."
     ],
     [
-     "Fooled before",
-     "In 1997 spheres in a possible pterosaur fossil, once thought to be blood cells, turned out to be pyrite. Schweitzer: “Extraordinary claims require extraordinary evidence, and that does require state-of-the-art technology.”"
+     "Why not otters",
+     "Sea otters make only short dives, which may explain why they never developed acute underwater hearing."
     ],
     [
-     "Where",
-     "The bone came from the Mina Pedra Branca site in northeastern Brazil, and the dinosaur is a Cretaceous species. The picture in the pop-out is an artist’s rendition of Aratasaurus."
+     "Masters of sound",
+     "Rule: “The evolution of amphibious hearing has made pinnipeds the masters of sound.” Next time your head is under water in a pool, listen: how much of the poolside noise reaches you?"
     ]
    ],
    "rel": [
-    "goose",
     "fingertips",
-    "pbr"
+    "cones",
+    "pena"
    ],
-   "src": "Science News, “This may be the best evidence yet that dinosaur blood can fossilize”, Carolyn Gramling, 6 Nov 2026 · PNAS, 2 Nov 2026",
-   "img": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/110426_CG_oldestfossil_inline1.jpg",
-   "credit": "Image: Maurilio Oliveira / Wikimedia Commons (CC BY 4.0), via Science News"
+   "src": "Science News Explores, 9 Nov 2026 (Melissa Hobson): Seals long ago evolved to hear above the water, and below · Proceedings of the Royal Society B, 15 July 2026"
   },
   {
-   "id": "bigg",
-   "dom": "matter",
-   "lab": "Physics · Gravity",
+   "id": "pena",
+   "dom": "earth",
+   "lab": "Earth · Barely a storm",
    "hot": 0,
    "big": 0,
-   "art": "torsion",
-   "cap": "Gravity’s constant is the one physicists cannot pin down. 225 years on, labs disagree",
-   "num": "1 in 10,000",
-   "nums": "the size of the disagreements between recent measurements of big G, while other constants are known to six or more digits",
-   "p1": "NIST announced on 16 April 2026 a new value for the gravitational constant, big G: 6.67387 × 10⁻¹¹ m³ kg⁻¹ s⁻², the end of a 10-year experiment plus two more years of analysis. Scientists have been measuring G for over 225 years, since Henry Cavendish in 1798 hung two lead balls on a horizontally suspended wooden beam with two heavier masses nearby, yet recent measurements disagree with one another by about one part in 10,000, while other constants are known to six or more significant digits. NIST’s value is 0.0235% lower than the French result it set out to replicate.",
-   "p2": "The weakest force: gravity is the weakest of the four fundamental forces. A pin-head magnet lifts a paper clip against the pull of the whole Earth, which is what makes G so hard to measure with laboratory masses about 500 billion trillion times smaller than the planet.",
+   "art": "cyclone",
+   "cap": "The only storm on the hurricane maps on Monday: 40 mph winds. The forecasters: “barely”",
+   "num": "40 mph",
+   "nums": "maximum sustained winds (65 km/h) of Tropical Storm Pena at 11 am Hawaii time on Monday, central pressure 1004 millibars",
+   "p1": "At 7 am US Eastern on Monday the US National Hurricane Center listed no tropical cyclones in the Atlantic and none in the eastern Pacific. The only one on its maps was Tropical Storm Pena in the central Pacific, about 640 miles southwest of South Point, Hawaii, moving west at 12 mph with 40 mph winds. The 11 am Hawaii-time advisory’s headline: “PENA BARELY A TROPICAL CYCLONE”.",
+   "p2": "Why now: a quiet week on the hurricane maps in a year in which the northwest Pacific had 25 named storms by late October, according to NASA Earth Observatory.",
    "deep": [
     [
-     "Hair-thin ribbon",
-     "Eight cylindrical metal masses: four on a rotating carousel, like four candlesticks in an old-fashioned chandelier, and four smaller ones inside on a disk hung from a copper-beryllium ribbon about the thickness of a human hair. The apparatus replicates an experiment run in 2007 at the BIPM in Sèvres, France."
+     "By the numbers",
+     "Pena was at 11.5°N 161.4°W, about 650 miles east-southeast of Johnston Island. Tropical-storm-force winds extended up to 105 miles from the centre; there were no watches or warnings, no land hazards, and little change in strength was expected."
     ],
     [
-     "An envelope",
-     "To stop himself unconsciously steering the result toward the expected value, NIST physicist Stephan Schlamminger had colleague Patrick Abbott subtract a secret number from the weights of some masses and put it in an envelope. The true result was revealed at 3 pm on 11 July 2024 at a meeting in Aurora, Colorado; an earlier reveal in 2022 was aborted at the last minute."
+     "The other ocean",
+     "NASA Earth Observatory’s 3 November feature: the northwest Pacific had 25 named storms by late October 2026. Super Typhoon In-fa was an “annular” storm, a type that makes up about 4% of western North Pacific cyclones and whose eyes average about 45 km across against a typical 25 km; Typhoon Champi’s winds reached nearly 300 km/h. NASA Goddard meteorologist Gary Partyka calls the strong El Niño a “likely contributor”."
     ],
     [
-     "Little g and big G",
-     "Newton’s law is F = G m₁m₂/r². Little g, the acceleration you feel, is about 9.8 m/s² at Earth’s surface and 1.62 m/s² on the Moon; big G is the universal constant in the formula, and Cavendish measured it a century after Newton published the law."
-    ],
-    [
-     "Why bother",
-     "Schlamminger: “Every measurement is important, because the truth matters.” He says he will leave the remaining puzzle to younger generations of scientists."
+     "Reading an advisory",
+     "This was advisory number 13, with the next due at 5 pm Hawaii time, six hours later. The pressure was 1004 mb (29.65 inches), and the forecaster signed it Mahoney."
     ]
    ],
    "rel": [
-    "pbr",
-    "oberth",
+    "seals",
+    "marsbound",
     "promise"
    ],
-   "src": "NIST News, “NIST Weighs In on the Mystery of the Gravitational Constant”, 16 Apr 2026 (updated 5 May 2026) · Metrologia, 16 Apr 2026",
-   "img": "https://www.nist.gov/sites/default/files/images/2026/04/08/MeasuringBigG-CompositeEdit-v04.00_02_04_20.Still006.jpg",
-   "credit": "Photo: NIST / R. Eskalis"
+   "src": "NOAA National Hurricane Center / Central Pacific Hurricane Center, Tropical Storm Pena Advisory 13, 11 am HST Mon 9 Nov 2026 · NASA Earth Observatory, 3 Nov 2026: The Pacific’s Busy Storm Season",
+   "img": "https://www.nhc.noaa.gov/xgtwo/resize/xgtwo_cpac_7d0_w1920.png",
+   "credit": "Image: NOAA / NHC–CPHC, central Pacific seven-day outlook (live)"
+  },
+  {
+   "id": "ratchet",
+   "dom": "matter",
+   "lab": "Physics · One-way street",
+   "hot": 0,
+   "big": 0,
+   "art": "ratchet",
+   "cap": "Feynman’s tiny machine was meant to get free work out of jiggling air. It gets nowhere",
+   "num": "k ln 2",
+   "nums": "the entropy a gas gains per molecule when you let it double its volume: Feynman’s number for “more mixed up”",
+   "p1": "Richard Feynman imagined a tiny axle with vanes, like a paddle wheel, in a box of gas, connected to a ratchet and pawl, a toothed wheel with a catch that lets it turn one way only. Gas molecules bang the vanes at random; the ratchet should turn the jiggle into one-way rotation and lift a flea. It fails: the pawl is tiny too, so it jiggles as well, and the chance it is bounced up at the wrong moment, letting the wheel slip back, is e^(−ε/kT), exactly the same as the chance of the vanes gathering the energy ε to climb one tooth. At a single temperature the two cancel and the wheel goes nowhere.",
+   "p2": "Why it matters, in Feynman’s words: “The fact that it gets nowhere is really the fundamental deep principle on which all of thermodynamics is based.”",
+   "deep": [
+    [
+     "Make it work",
+     "Keep the vanes at a temperature T1 and the ratchet colder at T2 and it does run forward. Balancing the forward and backward rates gives Q1/Q2 = T1/T2 and a work fraction of (T1 − T2)/T1, exactly Carnot’s limit for any engine. Make the ratchet hotter than the gas and it runs backwards."
+    ],
+    [
+     "A rectifier for molecules",
+     "Feynman calls the ratchet a rectifier for molecular motion, like an electrical rectifier. Maxwell’s demon, the imaginary creature who sorts fast molecules from slow ones, fails the same way: a finite demon heats up and jiggles."
+    ],
+    [
+     "Test the arrow of time",
+     "Newton’s equations work just as well with time running backwards, yet mixed gases never unmix. Feynman’s test: film two kinds of gas molecules mixing and play it in reverse: every single collision is reversible, and the film still looks obviously wrong."
+    ],
+    [
+     "Counting arrangements",
+     "Entropy is the logarithm of the number of microscopic arrangements that look the same from outside. Letting a gas double its volume at fixed temperature adds Nk ln 2, that is k ln 2 per molecule; mixing neon with argon adds the same amount."
+    ]
+   ],
+   "rel": [
+    "polarised",
+    "marsbound",
+    "cones"
+   ],
+   "src": "The Feynman Lectures on Physics, Vol. I, ch. 46: Ratchet and pawl (Caltech, feynmanlectures.caltech.edu)"
+  },
+  {
+   "id": "polarised",
+   "dom": "matter",
+   "lab": "Physics · Hidden light",
+   "hot": 0,
+   "big": 0,
+   "art": "tape",
+   "cap": "Your laptop screen sends out light with a hidden direction. Sunglasses and tape reveal it",
+   "num": "90°",
+   "nums": "the twist a half-wavelength delay gives polarised light inside a strip of stretched tape",
+   "p1": "LCD screens emit polarised light: the waves wobble in one direction. The Exploratorium’s Polarized-Light Mosaic uses that. Layer strips of clear packing tape on a sheet of clear plastic, sandwich it between two polarisers (two lenses from old polarising sunglasses work), hold it up to a window and turn the front polariser: the tape blazes with colours that change as you rotate. Stick tape on an LCD screen and it looks clear until you look through a polariser.",
+   "p2": "Why: the stretched polymer molecules in tape make it birefringent, so light travels at two different speeds inside it, depending on which way it is polarised.",
+   "deep": [
+    [
+     "Two speeds",
+     "Light polarised parallel to the stretch moves more slowly. The two components fall out of step and recombine with a rotated polarisation; thicker tape rotates it more, and a half-wavelength delay rotates it by 90 degrees."
+    ],
+    [
+     "Why colours",
+     "Each colour has its own refractive index (the speed of light in vacuum divided by its speed in the material), so each colour is rotated by a different amount and the second polariser lets different colours through at different angles. Where two or three strips overlap you get more colours still."
+    ],
+    [
+     "Tape warning",
+     "It needs tape with a shiny, non-matte surface; the Exploratorium says “Scotch brand tape may not work”, while some inexpensive 2-inch clear packing tapes do. Test a strip between two polarisers: it works if it goes from dark to light as you rotate one of them."
+    ]
+   ],
+   "rel": [
+    "ratchet",
+    "cones",
+    "occult"
+   ],
+   "src": "Exploratorium Science Snacks: Polarized-Light Mosaic (exploratorium.edu/snacks)"
+  },
+  {
+   "id": "occult",
+   "dom": "space",
+   "lab": "Space · A star vanishes",
+   "hot": 0,
+   "big": 0,
+   "art": "occult",
+   "cap": "In 1977 a star blinked five times before Uranus hid it. That is how its rings were found",
+   "num": "5",
+   "nums": "dimmings before Uranus covered the star and five flickers after: one for each ring",
+   "p1": "An occultation is when one object in the sky passes in front of another that looks smaller. In 1977 astronomers watched Uranus pass in front of a distant star and saw the star’s light dim five times before the planet blocked it, then flicker five times afterwards. Each dip was one of Uranus’s five rings crossing the starlight, rings that “do not glow brightly like Saturn’s”.",
+   "p2": "Why here: Science News Explores’ word of the week on Monday was occultation. The Moon passes in front of stars and planets pretty much every night.",
+   "deep": [
+    [
+     "The Moon as a knife-edge",
+     "Lunar occultations happen almost nightly as the Moon moves in front of stars and planets; occultations by planets are rarer. Watching starlight flicker behind the Moon can reveal its mountains and valleys."
+    ],
+    [
+     "Measuring an asteroid",
+     "Timing how long a star stays hidden behind an asteroid tells astronomers how big the asteroid is, without ever seeing its shape directly."
+    ],
+    [
+     "Alien air",
+     "When a world with an atmosphere occults a star, the starlight passes through that air on its way to us. The article puts it this way: occultations “can grant astronomers a rare opportunity to analyze a world’s atmosphere.”"
+    ],
+    [
+     "The reverse",
+     "A transit is the opposite case: a smaller-looking object passing in front of a larger one, such as an exoplanet crossing the face of its star."
+    ]
+   ],
+   "rel": [
+    "marsbound",
+    "promise",
+    "polarised"
+   ],
+   "src": "Science News Explores, 9 Nov 2026 (Katie Grace Carpenter): Scientists Say: Occultation"
+  },
+  {
+   "id": "smac",
+   "dom": "sg",
+   "lab": "Singapore · Fungus fighter",
+   "hot": 0,
+   "big": 0,
+   "art": "fungus",
+   "cap": "A*STAR built a molecule that kills one yeast and spares its close cousins. That is hard",
+   "num": "1 of 4",
+   "nums": "Candida species killed: C. tropicalis died, while C. albicans, C. auris and C. glabrata were largely spared in mixed cultures",
+   "p1": "Broad-spectrum antifungal drugs kill the harmful fungus and can also kill the helpful ones living in you. A*STAR’s Infectious Diseases Labs and Bioinformatics Institute designed Gua-SMACS-16, a synthetic molecule that killed Candida tropicalis while largely sparing mammalian cells, zebrafish embryos and three related yeasts, C. albicans, C. auris and C. glabrata, in mixed cultures. Senior scientist Ning Li: “A narrow-spectrum antifungal could offer important advantages by preserving beneficial fungi in the microbiome”.",
+   "p2": "Why now: published in Advanced Science and highlighted by A*STAR Research on Monday.",
+   "deep": [
+    [
+     "The tell",
+     "The selectivity is linked to β-glucan, a major component of fungal cell walls: C. tropicalis walls contain relatively less β-glucan than the other species tested."
+    ],
+    [
+     "Team-up",
+     "Combined with the existing drug caspofungin, Gua-SMACS-16 showed strong synergy against other Candida species, including C. auris, which the WHO designates a critical priority. Yue Wang of A*STAR IDL: “Caspofungin reduces β-glucan production, which may weaken cell walls and allow more Gua-SMACS-16 to reach cell membranes”."
+    ],
+    [
+     "What SMACS means",
+     "Synthetic membrane-active cationic supramolecule. Wang: “Gua-SMACS-16 is designed to preferentially bind fungal cells, rather than mammalian ones”."
+    ]
+   ],
+   "rel": [
+    "wee",
+    "seals",
+    "aimit"
+   ],
+   "src": "A*STAR Research, 9 Nov 2026: A targeted SMAC-down on fungal foes · Advanced Science 13 (41), 2026"
+  },
+  {
+   "id": "promise",
+   "dom": "space",
+   "lab": "Space · Moon Base",
+   "hot": 0,
+   "big": 0,
+   "art": "polar",
+   "cap": "NASA’s next Moon rover: Mars rover spares, with a nuclear generator on its back",
+   "num": "−242 °C",
+   "nums": "how cold the permanently shadowed craters the rover will drive into may get (minus 400 °F)",
+   "p1": "On Saturday 7 November at the MAX POWER expo at Kennedy Space Center, NASA announced PROMISE, the Polar Rover for Observation, Mapping, and In-Situ Exploration: an SUV-sized, six-wheeled, nuclear-powered rover for the Moon’s south pole, targeted to launch in late 2028 on an 18-month mission. JPL is building it from a combination of spare flight parts and engineering test models from the Curiosity and Perseverance Mars rovers, including the electronics, body structure and mobility system of the duplicate Curiosity test-bed vehicle. Blue Origin gets a $94 million contract, with an option worth a further $140 million based on performance, to deliver it on its Mark 1 lander.",
+   "p2": "Why now: the same announcement gave eight companies places on CLPS 2, a 10-year cargo-lander contract worth up to $10 billion in total, plus about $1.3 billion of launch task orders. NASA Administrator Jared Isaacman: “We are building the Moon Base mission by mission.”",
+   "deep": [
+    [
+     "A nuclear generator",
+     "Power comes from a flight-spare multi-mission radioisotope thermoelectric generator, which NASA describes as essentially a nuclear generator, fitted at the rear of the rover once it reaches the launch site. It lets PROMISE work through the long lunar night and inside permanently shadowed regions, where temperatures may fall to minus 242 °C."
+    ],
+    [
+     "A drill and a dashcam",
+     "The TRIDENT drill, from Honeybee Robotics, pulls up soil from as deep as 1 metre in 10-centimetre steps. Spectrometers analyse what comes up; a radiation detector rides along whose earlier version has run for 15 years on Curiosity; and a stereo Lunar Dashcam with its own illuminators is based on Perseverance’s landing cameras."
+    ],
+    [
+     "Shackleton Crater",
+     "NASA’s PROMISE page pictures Shackleton Crater, near the Moon’s south pole, about 21 kilometres wide and 4 kilometres deep. Laser altimetry from NASA’s Lunar Reconnaissance Orbiter has revealed boulders and low hills in its permanently shadowed interior."
+    ],
+    [
+     "For students too",
+     "On Sunday 8 November NASA opened a $1 million Moon Base Student Challenge in six categories, from power generation and construction to astronaut safety. It is for teams at US high schools and post-secondary schools, with registration by 25 January 2027."
+    ]
+   ],
+   "rel": [
+    "marsbound",
+    "astro",
+    "nvs3"
+   ],
+   "src": "NASA release 26-095, 7 Nov 2026 · NASA PROMISE mission page, updated 7 Nov 2026 · NASA release 26-096, 8 Nov 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/promise-7.jpg",
+   "credit": "Image: NASA artist’s concept"
   },
   {
    "id": "astro",
@@ -376,86 +471,12 @@
    ],
    "rel": [
     "promise",
-    "oberth",
-    "ai17"
+    "marsbound",
+    "aimit"
    ],
    "src": "NASA news release 26-093, 7 Nov 2026 · NASA media advisory M26-084 (MAX POWER key events), updated 2 Nov 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg",
    "credit": "Photo: NASA / Helen Arase Vargas"
-  },
-  {
-   "id": "lecun",
-   "dom": "sg",
-   "lab": "Singapore · AI talk",
-   "hot": 0,
-   "big": 0,
-   "art": "neuron",
-   "cap": "“If you are interested in human-level AI, don’t work on LLMs.” LeCun at NTU, plus pushback",
-   "p1": "On 3 November Yann LeCun, Jacob T. Schwartz Professor at NYU and executive chairman of Advanced Machine Intelligence, gave the Lee Kong Chian Distinguished Professor public lecture at NTU’s College of Computing and Data Science, titled “World Models: Enabling the Next AI Revolution”. His argument: large language models struggle to reach human-like intelligence, and the better route is world models, systems that build a model of an environment, learn its rules and predict outcomes from their own inputs rather than mainly from human writing. His closing slide urged AI scientists to set aside generative models, probabilistic models, contrastive methods and reinforcement learning.",
-   "p2": "Why it is interesting: NTU’s own write-up, published 6 November, carries the responses of three of its professors rather than only the famous visitor’s view.",
-   "deep": [
-    [
-     "Agree",
-     "Nanyang Assistant Professor Zhang Mengmi, who works on AI and computational neuroscience: “I strongly agree with Yann LeCun that language cannot be the foundation of human-like intelligence.” She argued that agents should actively seek information and learn from experience, and, taking up LeCun’s description of reinforcement learning as the “cherry on the cake”, said “someone has to figure out how to make the cherry!”."
-    ],
-    [
-     "Disagree",
-     "Associate Professor Stefano V. Albrecht, who leads the Autonomous Agents Research Group: “Reinforcement learning is one of the most fundamental principles of learning in natural and artificial systems.” World models, he said, do not remove the difficulty of making decisions under uncertainty."
-    ],
-    [
-     "Half and half",
-     "Professor Jordan Boyd-Graber acknowledged a “long history of Yann being right when I was wrong” and agreed that scaling and tweaking LLMs is a scientific dead end, but said “I think the evidence shows that AI progress is grounded in language”, since so much of humanity’s knowledge is stored in writing."
-    ],
-    [
-     "Advice to students",
-     "In a fireside chat hosted by Professor Bo An, LeCun advised students to take up physics and engineering, and said: “Basic programming is dead. But computer science is more alive than ever and more important than ever.”"
-    ]
-   ],
-   "rel": [
-    "ai17",
-    "lanza",
-    "cones"
-   ],
-   "src": "NTU College of Computing and Data Science news, “Are World Models the Future of AI?”, 6 Nov 2026"
-  },
-  {
-   "id": "whatsup",
-   "dom": "space",
-   "lab": "Space · This month",
-   "art": "jup",
-   "cap": "Mars and Jupiter pass 1.2° apart on 15–16 November, and three supermoons start on the 24th",
-   "num": "15 per hour",
-   "nums": "Leonid meteors at best, before dawn on 17–18 November, after the Moon has set",
-   "p1": "NASA’s What’s Up for November 2026, presented by Raquel Villanueva of JPL: the Southern Taurids peaked around 5 November with occasional bright fireballs; the Northern Taurids follow around the 12th at about five meteors an hour under ideal conditions; Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter, Mars reddish; and the Leonids are best before dawn on 17–18 November, up to around 15 an hour under ideal skies.",
-   "p2": "Why now: the Southern Taurids peaked around 5 November, the Northern Taurids follow around the 12th, and the full Moon on 24 November is the first of three supermoons in a row.",
-   "deep": [
-    [
-     "Moon phases",
-     "NASA lists November’s Moon phases in US Pacific Time: third quarter on the 1st, new Moon on the 8th, first quarter on the 17th, full supermoon on the 24th, third quarter again on the 30th."
-    ],
-    [
-     "1.2 degrees",
-     "Mars and Jupiter appear about 1.2 degrees apart before sunrise on 15–16 November, Jupiter the brighter and Mars reddish. NASA says both planets are easy to see with the unaided eye."
-    ],
-    [
-     "A light-day away",
-     "This month Voyager 1 becomes the first human-made object one light-day from Earth: a signal travelling at the speed of light takes 24 hours to reach it. NASA celebrates on 17 November."
-    ],
-    [
-     "Seeing meteors",
-     "NASA’s advice for the Leonids: find a dark location and give your eyes about half an hour to adjust. The hours to try are before dawn on 17–18 November, after the Moon has set."
-    ]
-   ],
-   "rel": [
-    "oberth",
-    "goose",
-    "cones"
-   ],
-   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips (Raquel Villanueva, JPL), 2 Nov 2026",
-   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
-   "credit": "Photo: NASA / Preston Dyches",
-   "hot": 0,
-   "big": 0
   },
   {
    "id": "aura",
@@ -488,77 +509,11 @@
     ]
    ],
    "rel": [
-    "stockwell",
+    "clicks",
     "cones",
-    "lecun"
+    "polarised"
    ],
    "src": "TIME Best Inventions 2026 (Richard Eisenberg, 15 Oct 2026) · XREAL Aura specifications and US store · Tom’s Guide hands-on (Jason England, updated 21 May 2026) · TechRadar (Hamish Hector, 4 Sep 2026)"
-  },
-  {
-   "id": "fingertips",
-   "dom": "try",
-   "lab": "Try it · Eyes shut",
-   "hot": 0,
-   "big": 0,
-   "art": "fingertips",
-   "cap": "Eyes shut, hands up: touch your nose, then your left thumb. Now wiggle the fingers, retry",
-   "p1": "Close your eyes and raise both hands above your head, keeping the fingers of your left hand completely still. With your right hand, quickly touch your right index fingertip to your nose, then to the tip of your left thumb. Go back to your nose and try each left fingertip in turn, then switch hands. The Exploratorium’s Proprioception snack asks: how accurately did you find each fingertip, did you improve, and did left and right differ? Now repeat with the fingers of the raised hand wiggling.",
-   "p2": "Why wiggling helps: moving fingers feed the brain extra information about where they are, so they become easier to locate in space; repetition improves the result too.",
-   "deep": [
-    [
-     "The sixth sense",
-     "Proprioceptors, also called stretch receptors, in your muscles, tendons, joints and inner ear send position information to the brain, which works out how your body is oriented and moving. Most people lean heavily on vision for position and distance, so proprioception alone gives imprecise results."
-    ],
-    [
-     "Who used it",
-     "The Exploratorium pairs the snack with Dr Patricia Cowings, a psychophysiologist who trained as a NASA astronaut, was an alternate for a 1979 spaceflight, developed individually tailored protocols to prevent motion sickness in astronauts, and is principal investigator at NASA Ames Research Center."
-    ],
-    [
-     "Two more versions",
-     "The same page has two further activities, marking an X and writing with eyes shut, which need paper and pencil. The hands-only version needs nothing at all."
-    ]
-   ],
-   "rel": [
-    "cones",
-    "dino",
-    "stockwell"
-   ],
-   "src": "Exploratorium Science Snacks: Proprioception"
-  },
-  {
-   "id": "goose",
-   "dom": "earth",
-   "lab": "Earth · From orbit",
-   "hot": 0,
-   "big": 0,
-   "art": "meander",
-   "cap": "A river that travels 5.5 miles to get 1.3 miles, photographed from the space station",
-   "num": "5.5 for 1.3",
-   "nums": "miles the San Juan River flows (8.9 km) between two points only 1.3 miles (2.1 km) apart",
-   "p1": "An astronaut aboard the International Space Station photographed this stretch of the San Juan River in southern Utah on 6 October 2026. The river flows through a series of entrenched meanders, also known as goosenecks, on its westward path to Lake Powell. In Utah’s Goosenecks State Park it runs through a canyon 1,000 feet (300 metres) deep, and one section is so curvy that the river travels 5.5 miles (8.9 km) between two points that are only 1.3 miles (2.1 km) apart.",
-   "p2": "Why now: it was NASA Earth Observatory’s Image of the Day for 6 November 2026.",
-   "deep": [
-    [
-     "How a river got stuck in rock",
-     "Tens of millions of years ago, NASA says, the San Juan shared some characteristics with today’s Mississippi River. Some experts think that, starting around 20 million years ago, the plateau’s rise elevated the river’s headwaters, which increased its gradient and sped its flow. The river cut through 300-million-year-old rock."
-    ],
-    [
-     "The camera",
-     "This is astronaut photograph ISS075-E-188830, taken by a member of the Expedition 75 crew with a Nikon Z9 digital camera using a focal length of 400 millimetres. NASA says the image has been cropped and enhanced to improve contrast, and lens artifacts have been removed."
-    ],
-    [
-     "Dark skies",
-     "The park’s remote, high-desert location and 360-degree views of the sky helped earn it an International Dark Sky Park designation in 2021. NASA notes that in November 2026 the Northern Taurids, Southern Taurids and Leonids reach their peaks."
-    ]
-   ],
-   "rel": [
-    "dino",
-    "whatsup",
-    "astro"
-   ],
-   "src": "NASA Earth Observatory, Image of the Day for 6 Nov 2026 (story by Lindsey Doermann)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/taking-a-gander-at-utah%E2%80%99s-goosenecks/ISS075-E-188830_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA / ISS Crew Earth Observations Facility and Earth Science and Remote Sensing Unit, Johnson Space Center"
   },
   {
    "id": "cones",
@@ -587,44 +542,75 @@
     ]
    ],
    "rel": [
+    "polarised",
     "aura",
-    "pbr",
-    "lecun"
+    "wee"
    ],
    "src": "Physics World, “Why do people see colours differently? Sometimes, it’s the display’s fault”, Isabelle Dumé, 5 Nov 2026 · Optics Express"
   },
   {
-   "id": "ai17",
-   "dom": "usingai",
-   "lab": "Using AI · Evidence",
+   "id": "fingertips",
+   "dom": "try",
+   "lab": "Try it · Eyes shut",
    "hot": 0,
-   "art": "ai17",
-   "cap": "The students who got their answers from AI scored 17% worse on the test",
-   "num": "–17%",
-   "nums": "on the exam, after working with a chatbot",
-   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
-   "p2": "Why: the researchers say the students used the bot as a “crutch” and did not learn the underlying concepts deeply enough.",
+   "big": 0,
+   "art": "fingertips",
+   "cap": "Eyes shut, hands up: touch your nose, then your left thumb. Now wiggle the fingers, retry",
+   "p1": "Close your eyes and raise both hands above your head, keeping the fingers of your left hand completely still. With your right hand, quickly touch your right index fingertip to your nose, then to the tip of your left thumb. Go back to your nose and try each left fingertip in turn, then switch hands. The Exploratorium’s Proprioception snack asks: how accurately did you find each fingertip, did you improve, and did left and right differ? Now repeat with the fingers of the raised hand wiggling.",
+   "p2": "Why wiggling helps: moving fingers feed the brain extra information about where they are, so they become easier to locate in space; repetition improves the result too.",
    "deep": [
     [
-     "The hint-only version was different",
-     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
+     "The sixth sense",
+     "Proprioceptors, also called stretch receptors, in your muscles, tendons, joints and inner ear send position information to the brain, which works out how your body is oriented and moving. Most people lean heavily on vision for position and distance, so proprioception alone gives imprecise results."
     ],
     [
-     "What the researchers concluded",
-     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
+     "Who used it",
+     "The Exploratorium pairs the snack with Dr Patricia Cowings, a psychophysiologist who trained as a NASA astronaut, was an alternate for a 1979 spaceflight, developed individually tailored protocols to prevent motion sickness in astronauts, and is principal investigator at NASA Ames Research Center."
     ],
     [
-     "Try it on yourself",
-     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
+     "Two more versions",
+     "The same page has two further activities, marking an X and writing with eyes shut, which need paper and pencil. The hands-only version needs nothing at all."
     ]
    ],
    "rel": [
-    "lecun",
-    "astro",
-    "fingertips"
+    "cones",
+    "seals",
+    "polarised"
    ],
-   "src": "PNAS, Bastani et al. 2025 · Wharton",
-   "big": 0
+   "src": "Exploratorium Science Snacks: Proprioception"
+  },
+  {
+   "id": "aimit",
+   "dom": "usingai",
+   "lab": "Using AI · MIT",
+   "hot": 0,
+   "big": 0,
+   "art": "aimit",
+   "cap": "MIT’s phrase for what a chatbot answer can create: “the illusion of learning”",
+   "num": "8",
+   "nums": "principles in MIT’s 2026 report on AI in education",
+   "p1": "MIT’s report does not call for banning AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
+   "p2": "The point: the product of school is you, not the mark.",
+   "deep": [
+    [
+     "What MIT asks of its own students",
+     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
+    ],
+    [
+     "Why checking matters",
+     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s guidance for research: a human is responsible for verifying the output, and AI should never be listed as a co-author."
+    ],
+    [
+     "Keep it human",
+     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
+    ]
+   ],
+   "rel": [
+    "wee",
+    "clicks",
+    "astro"
+   ],
+   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
   }
  ]
 }
