@@ -1,47 +1,360 @@
 {
- "edition": 18,
+ "edition": 19,
  "level": "High school",
- "date": "2026-11-10",
- "dateLabel": "Tue 10 Nov 2026",
+ "date": "2026-11-11",
+ "dateLabel": "Wed 11 Nov 2026",
  "week": [
   {
-   "d": "MON",
-   "t": "NASA: both ESCAPADE spacecraft complete their powered Earth flybys, 7 and 9 Nov, and are on their way to Mars",
-   "id": "marsbound"
+   "d": "TUE",
+   "t": "Science News Explores: four footprints in North Dakota are the first adult T. rex trackway; walking pace about 1.6 m/s",
+   "id": "trex"
   },
   {
    "d": "MON",
-   "t": "NOAA: Tropical Storm Pena, 40 mph, the only tropical cyclone on the National Hurricane Center’s maps",
-   "id": "pena"
+   "t": "NASA: Chandra finds a hidden black hole or neutron star feeding the 113-day outbursts of the star AT 2016blu",
+   "id": "chandra"
   },
   {
    "d": "MON",
-   "t": "Science News Explores: fossil ear scans show seals evolved amphibious hearing nearly 26.7 million years ago",
-   "id": "seals"
+   "t": "NASA: the station crew packs a Dragon cargo craft with mould samples and a spacesuit for return next week",
+   "id": "dragon"
   },
   {
    "d": "MON",
-   "t": "A*STAR: Gua-SMACS-16, a molecule that kills Candida tropicalis and largely spares three related yeasts",
-   "id": "smac"
+   "t": "Physics World: a 3° limit on how well δ-CP, the neutrino–antineutrino angle, can ever be measured",
+   "id": "neutrino"
   },
   {
-   "d": "SAT",
-   "t": "NASA: PROMISE, a nuclear-powered Moon rover built from Mars rover spares, to launch in late 2028",
-   "id": "promise"
+   "d": "MON",
+   "t": "Quanta: QT45, a 45-nucleotide RNA that copies other RNA strands, found in a pool of 10 trillion",
+   "id": "rna"
   },
   {
-   "d": "WED",
-   "t": "NUS: Prof Lionel Wee on chatbots raised on American English “correcting” Indian English",
-   "id": "wee"
+   "d": "THU",
+   "t": "India’s DST: the star cluster UBC 63, 4,892 light-years away, is really two clusters that passed within 23 light-years",
+   "id": "ubc63"
   }
  ],
  "tiles": [
   {
+   "id": "chandra",
+   "dom": "space",
+   "lab": "Space · Hidden thief",
+   "hot": 1,
+   "big": 1,
+   "art": "binary",
+   "cap": "A star 30 million light-years away flares every 113 days. X-rays found what was robbing it",
+   "num": "113 days",
+   "nums": "between the outbursts of the star AT 2016blu; at least 27 of them were recorded between 2012 and 2026",
+   "p1": "For 15 years astronomers watched a star in the spiral galaxy NGC 4559, about 30 million light-years away, brighten like a supernova and then survive, over and over. The star, AT 2016blu, is a luminous blue variable, a type sometimes called a “supernova impostor”, with at least 33 times the Sun’s mass. NASA’s Chandra X-ray Observatory has now found the cause: a previously hidden companion, either a black hole or a neutron star, that pulls material off the star every 113 days as the two orbit each other.",
+   "p2": "Why now: NASA published the result on Monday 9 November; the paper is in The Astrophysical Journal.",
+   "deep": [
+    [
+     "Caught at the right time",
+     "Chandra observed the star on 24 to 27 March 2026, after optical telescopes saw an outburst begin, under its “Target of Opportunity” programme. In X-rays the star was at least 100 times brighter than in 2001 to 2002, before the outbursts started. Lead author Mojgan Aghakhanloo of the University of Virginia: “Until we were able to get Chandra data at the right time, we couldn’t figure out what was making this happen.”"
+    ],
+    [
+     "Why Chandra",
+     "A nearby bright X-ray source sits close to AT 2016blu on the sky, and NASA says Chandra is the only X-ray telescope with vision sharp enough to tell the two apart. The page calls this the first X-ray detection of this class of erupting star, and the first found with a black hole or neutron star companion."
+    ],
+    [
+     "Amateurs counted the bursts",
+     "The optical record came from the Katzman Automatic Imaging Telescope, the Las Cumbres Observatory Global Supernova Project and the American Association of Variable Star Observers, including data from more than 30 amateur astronomers. Co-author Núria Torres-Albà: “This star’s behavior was confusing at first because it kept acting like a supernova, but clearly it’s not because it keeps surviving these outbursts about three times a year.”"
+    ],
+    [
+     "The picture",
+     "The image combines Chandra X-rays with a Sloan Digital Sky Survey optical view of NGC 4559. The best-known luminous blue variable is Eta Carinae, in our own galaxy."
+    ]
+   ],
+   "rel": [
+    "ubc63",
+    "neutrino",
+    "marsbound"
+   ],
+   "src": "NASA / Chandra X-ray Center, 9 Nov 2026 (Megan Watzke): NASA’s Chandra Finds Source of Star’s Mysterious Outbursts · The Astrophysical Journal (Aghakhanloo et al.)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/chandra/2026/at2016blu.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: X-ray NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; optical SDSS; processing NASA/CXC/SAO/P. Edmonds"
+  },
+  {
+   "id": "dragon",
+   "dom": "space",
+   "lab": "Space · Coming home",
+   "hot": 1,
+   "big": 0,
+   "art": "capsule",
+   "cap": "A spacesuit, station mould, drinking water: what the crew is packing into Dragon",
+   "num": "200 days",
+   "nums": "in space, across two expeditions, for NASA’s Jessica Watkins on 31 October; the photo shows her marking it with a tray of sweets",
+   "p1": "NASA’s station blog for Monday 9 November says the Expedition 75 crew began the week packing a SpaceX Dragon cargo craft to return to Earth next week. Flight engineer Anil Menon examined colonies of bacteria, mould and fungi grown from samples swabbed off station surfaces, measured and photographed them, and packed them for return. Jessica Watkins and Luke Delaney unpacked a newly delivered spacesuit, checked it and readied it for the Quest airlock, then moved another suit into Dragon so engineers on the ground can examine it.",
+   "p2": "Why it is interesting: nearly everything that goes up must be counted, swabbed, photographed and, if it is worth the seat, brought back down.",
+   "deep": [
+    [
+     "Water and breath",
+     "Canadian Space Agency flight engineer Joshua Kutryk collected samples of the station’s drinking water for microbial analysis on Earth. Roscosmos flight engineer Sergey Teteryatnikov recorded his breathing rate wearing an acoustic monitor around his neck, for research on how weightlessness affects the respiratory system."
+    ],
+    [
+     "Housekeeping in orbit",
+     "Station commander Pyotr Dubrov photographed mountains, volcanoes and deserts in South America and Africa. Anna Kikina checked docking mechanisms, cleaned smoke detectors and serviced life-support gear."
+    ],
+    [
+     "What NASA did not say",
+     "The blog gives no undocking or splashdown date and no mission number for this Dragon, only “next week”. The crew of seven: Dubrov, Kikina and Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the CSA."
+    ]
+   ],
+   "rel": [
+    "astro",
+    "marsbound",
+    "chandra"
+   ],
+   "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg",
+   "credit": "Photo: NASA / Anil Menon"
+  },
+  {
+   "id": "ubc63",
+   "dom": "space",
+   "lab": "India · Two clusters",
+   "hot": 0,
+   "big": 0,
+   "art": "twin",
+   "cap": "A star cluster 4,892 light-years away turned out to be two, fresh from a near miss",
+   "num": "23 light-years",
+   "nums": "the closest approach of the two clusters, about 6 million years ago; today they are about 85 light-years apart and drifting away from each other",
+   "p1": "UBC 63 is a sparse open cluster in our galaxy, about 4,892 light-years from Earth, and it was catalogued as one object. A team led by Indian astronomers has found it is two: UBC 63A, about 21 million years old, and UBC 63B, about 562 million years old. The clue was a chance finding in the cluster’s colour-magnitude diagram, the chart of star colour against brightness, which showed two distinct sequences where one cluster would show one.",
+   "p2": "Why now: announced by India’s Department of Science and Technology on 5 November; the paper is in The Astronomical Journal.",
+   "deep": [
+    [
+     "Rewinding the flyby",
+     "Using ESA’s Gaia measurements, machine learning and dynamical simulations run on high-performance computers, the team traced the two clusters back. When the younger one formed they were about 60 parsecs apart (about 196 light-years); about 6 million years ago they passed within about 7 parsecs (about 23 light-years); today they are about 26 parsecs apart (about 85 light-years)."
+    ],
+    [
+     "Not a pair for keeps",
+     "The two clusters are not gravitationally bound, so they are drifting apart. Lead author Samrat Biswas is an INSPIRE Senior Research Fellow at Gauhati University; co-authors include Biman J. Medhi (Gauhati), Sukanta Deb (Cotton University), H. S. Das (Assam University) and Maheswar Gopinathan and Ram Sagar of the Indian Institute of Astrophysics, with collaborators in Italy, China and Japan."
+    ],
+    [
+     "Read it yourself",
+     "A colour-magnitude diagram puts each star’s colour across and its brightness up. Stars born together trace one curve; two curves mean two birthdays. That is the whole trick, and it works on a chart you can draw by hand."
+    ]
+   ],
+   "rel": [
+    "chandra",
+    "neutrino",
+    "marsbound"
+   ],
+   "src": "PIB / Department of Science and Technology, 5 Nov 2026: Team led by Indian astronomers redefine star cluster UBC 63 as a double cluster system spotted after close flyby · The Astronomical Journal, doi 10.3847/1538-3881/ae8c38"
+  },
+  {
+   "id": "thunder",
+   "dom": "matter",
+   "lab": "Physics · Sound",
+   "hot": 1,
+   "big": 0,
+   "art": "bolt",
+   "cap": "Flash, then count. Every 5 seconds before the thunder is a mile of air. Test it today",
+   "num": "5 s = 1 mile",
+   "nums": "NOAA’s rule: count the seconds from flash to thunder and divide by 5 for miles; 1 mile is 1.6 km, so about 3 seconds for each kilometre",
+   "p1": "Light reaches you from a lightning flash almost instantly; the sound takes about 5 seconds for every mile, says the US National Weather Service, so 15 seconds means the strike was about 3 miles off, and no gap at all means very close. NOAA says thunder is usually heard only out to about 10 miles, and lightning can strike that far from a storm, which is why its rule is simple: if you hear thunder, lightning is close enough to strike you. Count from indoors.",
+   "p2": "Why here: Singapore is in its inter-monsoon weeks, which NEA said would bring moderate to heavy thundery showers over parts of the island in the afternoon on most days of early November.",
+   "deep": [
+    [
+     "Why sound is slow",
+     "Feynman’s lecture on sound shows that the speed of sound in a gas depends only on its temperature, not on the pressure or density, and that it runs at roughly 1/√3 of the average speed of the gas molecules themselves: sound is carried by the motion of the molecules, so it travels at about their own pace."
+    ],
+    [
+     "Newton got it wrong",
+     "Newton assumed the air in a sound wave stays at one temperature as it is squeezed. Feynman calls the result the isothermal speed of sound, and wrong. Laplace fixed it: the squeeze is so quick that heat has no time to flow, so each compression also warms, and the wave moves faster than Newton predicted."
+    ],
+    [
+     "The 30/30 rule",
+     "Weather Service offices say to head indoors when you cannot count to 30 between flash and thunder, and to stay there 30 minutes after the last clap. A sharp crack means the channel passed nearby; a long rumble means it was at least several miles away."
+    ],
+    [
+     "How hot",
+     "The air in a lightning channel may reach 50,000 °F, about five times hotter than the surface of the Sun, says NOAA. That sudden heating is what makes the air expand with a bang. The US sees about 25 million lightning flashes a year."
+    ]
+   ],
+   "rel": [
+    "neutrino",
+    "coins",
+    "pena"
+   ],
+   "src": "NOAA / National Weather Service lightning safety pages (Thunder; Understanding Lightning Science; NWS Shreveport and Melbourne 30/30 rule) · The Feynman Lectures on Physics, Vol. I, ch. 47 · NEA advisory, 29 Oct 2026"
+  },
+  {
+   "id": "neutrino",
+   "dom": "matter",
+   "lab": "Physics · Particles",
+   "hot": 0,
+   "big": 0,
+   "art": "neutrino",
+   "cap": "A hundred trillion neutrinos crossed you while you read this. Physicists want one angle",
+   "num": "3°",
+   "nums": "the best precision quantum theory allows on the angle δ-CP from about 1,000 neutrino and antineutrino events; the DUNE experiment, due in 2028, is projected to reach 7–18°",
+   "p1": "The Sun alone sends about a hundred trillion neutrinos through your body every second, says CERN, and a typical one could cross a light-year of solid lead without hitting anything. Catching a few is how physicists hope to measure δ-CP, an angle between 0° and 360° that says whether neutrinos and antineutrinos behave differently: 0° or 180° means no difference, 90° or 270° means the biggest possible one. Michela Ignoti, a PhD student at the University of Milan: “A CP-violating phase is connected to the matter-antimatter imbalance in the universe.”",
+   "p2": "Why now: Physics World reported on Monday 9 November that Ignoti and Claudia Frugiuele have worked out the ultimate limit on how well that angle can ever be measured.",
+   "deep": [
+    [
+     "The ceiling",
+     "Using quantum-information theory, the Milan pair find that about 1,000 neutrino and antineutrino events could, in principle, fix δ-CP to about 3°. That is a theoretical ceiling, not a measurement; their paper has been accepted by Physical Review Letters."
+    ],
+    [
+     "Where the information hides",
+     "Beam experiments such as T2K in Japan, and the coming Hyper-Kamiokande, look mostly at the first oscillation peak, where neutrinos are most likely to have changed type. The extra information sits at the second maximum, where there are far fewer events. Patrick Huber of Virginia Tech, who was not involved: “the event rates in the second oscillation maximum are much, much smaller … About 10 times smaller at least.”"
+    ],
+    [
+     "Who is listening",
+     "DUNE, in the United States, is projected to pin δ-CP to within 7–18° after it comes online in 2028, depending on the true value. JUNO in China began its first data run last year and can read the first and tenth oscillation peaks. Huber thinks the new result is unlikely to send experiment designers back to the drawing board."
+    ],
+    [
+     "Feel the number",
+     "Count one second. About a hundred trillion solar neutrinos went through you, and almost certainly none of them touched a single atom. The photo shows a prototype of DUNE’s liquid-argon detector."
+    ]
+   ],
+   "rel": [
+    "thunder",
+    "chandra",
+    "ubc63"
+   ],
+   "src": "Physics World, 9 Nov 2026 (Jacklin Kwan): Quantum information reveals limits of neutrino flavour measurements · CERN, 20 Jul 2026 (Davide De Biasio): The puzzle of neutrinos, seventy years on",
+   "img": "https://physicsworld.com/wp-content/uploads/2026/11/dune-prototype-detector-marina-cavazza-cern.jpg",
+   "credit": "Photo: Marina Cavazza / CERN, via Physics World"
+  },
+  {
+   "id": "ear3a",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 0,
+   "big": 0,
+   "art": "buds",
+   "cap": "Earbuds that record what you just heard. Maker says 10 hours; the tester got 4.5 with ANC",
+   "num": "32 MB",
+   "nums": "of flash memory inside Nothing’s Ear (3a) earbuds, enough to hold audio snapshots of up to a minute and call recordings",
+   "p1": "Nothing’s Ear (3a) are $99 earbuds on TIME’s Best Inventions 2026 list for one trick: pinch both buds and they save an “audio snapshot” of up to a minute, including up to 30 seconds of what played before you pinched, which the app can replay, transcribe or share. Inside: a 12 mm dynamic driver in each bud, Bluetooth 6.0, three directional microphones per bud, 32 MB of flash storage and an IP54 rating against dust and splashes. TechRadar’s Becky Scarrott lists one bud at 4.53 g and gave the pair 4 out of 5.",
+   "p2": "Why it is interesting: the hardware is ordinary; the argument is about what a microphone in your ear should be allowed to remember.",
+   "deep": [
+    [
+     "Battery: two stories",
+     "Nothing’s launch post says up to 10 hours per charge with noise cancelling off, 6 hours with it on, and 42 hours in total with the case. TechRadar’s spec sheet gives 6 hours with ANC off, 4.5 hours with it on and 25 hours with the case; in testing the reviewer found the 4.5-hour figure “bang on”, and wrote: “In my briefing, I was told the buds themselves would last 10 hours — but that turned out not to be the case.” Battery scored 2.5 of 5."
+    ],
+    [
+     "The privacy problem",
+     "The buds can also record a phone call. Nothing says “a privacy notification alerts others when recording during a call or meeting”; TechRadar found “the only indication here that you’re being recorded may be a brief beep” and called covert recording of private conversations “a serious issue”. Its do-not-buy list: “The idea of covert surveillance bothers you.”"
+    ],
+    [
+     "What worked",
+     "Noise cancelling cuts sound in the human-voice range by up to 6 dB, with peak reduction of 45 dB, says Nothing; TechRadar called the ANC “no slouch” and the sound “fun, upfront”, with LDAC support at $99 “good stuff”. Faults: no wireless charging, “a little bass-heavy at times”, and buds “a little big” for small ears."
+    ]
+   ],
+   "rel": [
+    "clicks",
+    "wee",
+    "aicraft"
+   ],
+   "src": "TIME Best Inventions 2026 (Daniel Varghese) · Nothing launch post, Ear (3a) available now, 7 Jul 2026 · TechRadar, 25 Jul 2026 (Becky Scarrott), 4/5"
+  },
+  {
+   "id": "trex",
+   "dom": "life",
+   "lab": "Life · Footprints",
+   "hot": 1,
+   "big": 0,
+   "art": "track",
+   "cap": "Four footprints, 66.5 million years old: a T. rex walking at 1.6 metres a second. Match it",
+   "num": "1.6 m/s",
+   "nums": "the walking speed worked out from the spacing of the prints, about a brisk human walking pace; each print is about 80 cm across",
+   "p1": "Four fossil footprints on a steep slope in North Dakota form the first known trackway, three or more prints in a row, likely made by an adult Tyrannosaurus rex. Their spacing suggests the animal was moving at about 1.6 metres (5.2 feet) per second, which Science News Explores calls a brisk human walking pace. Kent Hups, who teaches at Northglenn High School near Denver and works at the Denver Museum of Nature and Science, found the first print while fossil hunting in 2025: three toes, about 80 centimetres across.",
+   "p2": "Try it: 1.6 metres a second is 16 metres in 10 seconds. Pace it out along a corridor and see whether you have to hurry.",
+   "deep": [
+    [
+     "Only one suspect",
+     "The prints are in the Hell Creek Formation and are roughly 66.5 million years old. Adult T. rex reached about 12 metres long. Peter Falkingham of Liverpool John Moores University in England, who led the analysis: “As far as our knowledge goes, T. rex is about the only track-maker that could have made these.”"
+    ],
+    [
+     "Why it is a first",
+     "Before this, only single adult T. rex prints were known, plus trackways from possible juveniles or a related species. The team’s paper appeared in the Journal of Vertebrate Paleontology on 8 September 2026."
+    ],
+    [
+     "Hedges",
+     "The prints are poorly preserved, so the speed estimate could be somewhat too high or too low. A fifth print may still be hidden in the hillside; the team is waiting for erosion to uncover it. Hups: “I can’t wait to get back out there and keep looking for more.”"
+    ]
+   ],
+   "rel": [
+    "rna",
+    "coins",
+    "smac"
+   ],
+   "src": "Science News Explores, 10 Nov 2026 (Erin Garcia de Jesús): Four T. rex footprints hint at how fast it traveled · Falkingham et al., Journal of Vertebrate Paleontology, 8 Sep 2026"
+  },
+  {
+   "id": "rna",
+   "dom": "life",
+   "lab": "Life · Origins",
+   "hot": 0,
+   "big": 0,
+   "art": "rna",
+   "cap": "A 45-letter molecule that copies other molecules: a hint of how life could have begun",
+   "num": "10 trillion",
+   "nums": "random RNA molecules in the starting pool from which QT45 and two similar copiers emerged, about a hundred-billionth of all possible sequences of that length",
+   "p1": "Modern cells have a chicken-and-egg problem: DNA holds the instructions, proteins do the work, and each needs the other. The “RNA world” idea says RNA once did both jobs. In the late 1980s researchers found RNAs that act as catalysts, named ribozymes, and in 1996 a ribozyme was made that joins RNA building blocks together. Quanta reports that Philipp Holliger’s team at the MRC Laboratory of Molecular Biology in the UK has now found QT45 (“quite tiny”), an RNA just 45 nucleotides long that can copy another RNA strand. Holliger: “In principle it can copy any sequence.”",
+   "p2": "Why it matters: earlier lab-made copiers were several hundred nucleotides long, while RNAs that assemble on their own have been only about 10 to 15. Forty-five is within reach of chance; Holliger says that “does not seem an unreasonable ask”.",
+   "deep": [
+    [
+     "Why size matters",
+     "Gerald Joyce’s group at the Salk Institute evolved ribozymes in the lab in 2019, but mutations tended to destroy their catalytic activity, which suggested self-sustaining RNA evolution is hard. Holliger started with RNAs of 20 to 40 nucleotides and searched a pool of about 10 trillion random molecules; QT45 and two other small copiers turned up."
+    ],
+    [
+     "Ice and acid",
+     "Holliger’s team has shown that cycles of changing acidity plus freezing and thawing can drive RNA replication exponentially, conditions that may have existed near the icy poles of the young Earth."
+    ],
+    [
+     "The catches",
+     "Quanta’s caveats: an RNA world might not count as alive, since life also needs a metabolism, and nobody knows whether a suitable niche existed on the early Earth. Copying errors, though, would give RNA what Darwinian evolution needs: variation to select from."
+    ]
+   ],
+   "rel": [
+    "trex",
+    "smac",
+    "neutrino"
+   ],
+   "src": "Quanta Magazine, 9 Nov 2026 (Philip Ball): Did Life Begin in an RNA World?"
+  },
+  {
+   "id": "coins",
+   "dom": "try",
+   "lab": "Try it · One eye",
+   "hot": 0,
+   "big": 0,
+   "art": "coins",
+   "cap": "Two coins, one eye. Slide them until they look the same size, then open the other eye",
+   "p1": "Take two coins of different sizes, a 50-cent and a 5-cent coin will do. Close one eye, hold one coin in each hand against a bright, plain background, and move them towards or away from you until they look exactly the same size. Now open both eyes: the trick collapses, and you see a small coin close and a big coin far. The Exploratorium’s point: with one eye closed, your depth perception is almost nonexistent, so your brain cannot tell a small near thing from a big far one.",
+   "p2": "Why it works: if two objects look the same size and you know one is farther away, your brain decides the far one is larger. Take away the distance clue and it has nothing to decide with.",
+   "deep": [
+    [
+     "Silhouettes help",
+     "The Exploratorium says a very bright, solid-coloured background works best, so the coins appear in silhouette and their features cannot be made out. Detail on the coin faces is a size clue; remove it and the illusion gets stronger."
+    ],
+    [
+     "Two eyes, two viewpoints",
+     "With both eyes open you gather more information and more points of view, so you judge size, shape and distance more accurately. One eye gives you a flat picture; two give you the geometry."
+    ],
+    [
+     "Where nature uses it",
+     "The pupa of the butterfly Spalgis epius carries a pattern like a rhesus macaque’s face and is only about half as wide as a fingernail, yet it seems to scare off birds, which may read it as a bigger, more distant monkey. And the Sun is far larger than the Moon but far farther away: their apparent sizes are nearly equal, which is why the Moon can almost exactly cover the Sun in a total eclipse."
+    ]
+   ],
+   "rel": [
+    "thunder",
+    "trex",
+    "ear3a"
+   ],
+   "src": "Exploratorium Science Snacks: Size and Distance"
+  },
+  {
    "id": "marsbound",
    "dom": "space",
    "lab": "Space · Mars-bound",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "slingshot",
    "cap": "Both Mars probes fired on time: two 9-minute burns, two days apart, and they are gone",
    "num": "2 for 2",
@@ -67,377 +380,13 @@
     ]
    ],
    "rel": [
-    "promise",
-    "nvs3",
+    "chandra",
+    "dragon",
     "astro"
    ],
    "src": "NASA, 9 Nov 2026 (Vanessa Thomas): NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars · NASA ESCAPADE mission page",
    "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "credit": "Image: Advanced Space/Matt Bolliger, via NASA"
-  },
-  {
-   "id": "wee",
-   "dom": "sg",
-   "lab": "Singapore · AI and words",
-   "hot": 1,
-   "big": 0,
-   "art": "neuron",
-   "cap": "Chatbots raised on American English “correct” Indian English. An NUS dean weighs in",
-   "p1": "Much of the language data that AI models learn from is American English, and NUS News reports that users in India have found chatbots “correcting” Indian English expressions as grammatical mistakes. Prof Lionel Wee, Dean of the NUS Faculty of Arts and Social Sciences and a sociolinguist, told a panel organised by The Mandala Club on 20 October that meaning depends on context: “Table number five wants their check” or “I’ve got to wash my hair” carry more than their words. He calls himself an “AI agnostic” and urges “a healthy dose of scepticism towards AI”.",
-   "p2": "Why here: a Singapore take on the Using AI lane, from a professor who researches how people actually talk.",
-   "deep": [
-    [
-     "Who was there",
-     "The panel, “Lost in Translation”, was organised by The Mandala Club on 20 October 2026. Alongside Prof Wee were Rahat Kapur, co-founder and editorial director of Beyond The Boardroom, and Chathuni Uduwela, a public policy practitioner."
-    ],
-    [
-     "Comfort from a machine",
-     "Two stories from the panel: a colleague’s niece turned to a chatbot for comfort after a breakup, and a student kept using a religious chatbot app long after exams were over. Wee’s question: “Are we creating generations that are less resilient, less able to deal with setbacks and difficulties”."
-    ],
-    [
-     "Like calculators?",
-     "NUS News’ comparison: writing reduced the need to memorise, and calculators made manual calculation less necessary. Its question: as AI takes on more thinking tasks, which human skills should we keep cultivating?"
-    ],
-    [
-     "Access is not enough",
-     "Wee: “Access on its own is not really meaningful if you don’t take into account the kinds of friction that people encounter”."
-    ]
-   ],
-   "rel": [
-    "aimit",
-    "cones",
-    "smac"
-   ],
-   "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
-   "img": "https://content.presspage.com/uploads/2580/e6f09a72-5e29-426e-807e-c5e3ae130891/1920_20261104-proflionelweemandalaclub.jpg?10000",
-   "credit": "Photo: NUS News"
-  },
-  {
-   "id": "nvs3",
-   "dom": "space",
-   "lab": "India · Parking a satellite",
-   "hot": 0,
-   "big": 0,
-   "art": "gps",
-   "cap": "Four burns, 103 minutes of firing: India’s navigation satellite is parked 36,000 km up",
-   "num": "6,164 s",
-   "nums": "total burn time of NVS-03’s liquid apogee motor across four manoeuvres, about 103 minutes",
-   "p1": "ISRO reported on 4 November that NVS-03, placed by GSLV-F18 on 30 October at 23:51 IST into an orbit of 170.3 km by 38,080 km, has completed four orbit manoeuvres with a cumulative liquid apogee motor burn of 6,164 seconds. It now sits in a geosynchronous orbit of 35,765 km by 36,196 km, at an inclination ISRO lists as 29.98 degrees, and ISRO says the health of the satellite is normal. The first burn alone, on 31 October at 16:48 IST, lasted 2,174.8 seconds and lifted the low point of the orbit from 170 km to 5,477.6 km.",
-   "p2": "Why it matters: NVS-03 is the third satellite of India’s next-generation navigation system, carrying an indigenous atomic clock and adding an L1 signal to the existing L5 and S-band signals, to serve India and a region about 1,500 km around it.",
-   "deep": [
-    [
-     "Why four burns",
-     "The GSLV left NVS-03 in a long ellipse, 170.3 km at its lowest and 38,080 km at its highest. The liquid apogee motor fired four times, 6,164 seconds in all, turning that ellipse into a near-circle between 35,765 and 36,196 km up."
-    ],
-    [
-     "The clocks on board",
-     "NVS-03 carries an indigenous atomic clock alongside procured atomic clocks, and adds an L1 signal to the L5 and S-band signals the series already transmits. ISRO describes it as continuing the navigation services of the IRNSS series."
-    ],
-    [
-     "What it covers",
-     "The system’s coverage is the Indian land mass and a region extending about 1,500 km around India’s geopolitical boundary."
-    ],
-    [
-     "The rocket",
-     "GSLV-F18 was the 20th flight of the GSLV, from the Second Launch Pad at Satish Dhawan Space Centre, Sriharikota, delivering the satellite to a geosynchronous transfer orbit."
-    ]
-   ],
-   "rel": [
-    "marsbound",
-    "promise",
-    "pena"
-   ],
-   "src": "ISRO, Final orbit manoeuvring of NVS-03 spacecraft (4 Nov 2026) and Orbit manoeuvring update (31 Oct 2026) · ISRO GSLV-F18 mission page",
-   "img": "https://www.isro.gov.in/media_isro/image/index/GSLVF18_NVS03/TPF05922.webp",
-   "credit": "Photo: ISRO (GSLV-F18 on the launch pad)"
-  },
-  {
-   "id": "clicks",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 1,
-   "big": 0,
-   "art": "keys",
-   "cap": "A slide-out phone keyboard. The tester typed 30 words a minute on it, 53 on glass",
-   "num": "30 vs 53",
-   "nums": "words per minute on the Clicks keyboard vs the touchscreen in Tom’s Guide’s test; accuracy 62% vs 81%",
-   "p1": "Clicks’ Power Keyboard snaps to the magnets on the back of a phone (MagSafe or Qi2) and slides out as a physical keyboard: 119.7 × 76.6 × 15.2 mm, 180 g, with a built-in 2,300 mAh battery that also tops up the phone over 5 W Qi wireless charging. TIME put it on its Best Inventions 2026 list; TIME calls the company “chockablock with BlackBerry alumni”, and says co-founder Jeffrey Gadway obsessively adjusted key curvature, row spacing and actuation points. Tom’s Guide’s Jason England typed 53 words a minute at 81% accuracy on his iPhone’s glass and 30 words a minute at 62% on the Clicks.",
-   "p2": "Why it is interesting: it is a bet that fingers remember what thumbs forgot, and the test says they mostly do not.",
-   "deep": [
-    [
-     "Inside",
-     "Bluetooth LE 5.4, pairing with up to 9 devices, three of them saved to the 1, 2 and 3 keys. By default 500 mAh of the battery is reserved for the keyboard itself. There is an adjustable LED backlight and a USB-C port, but the battery cannot charge other devices through it."
-    ],
-    [
-     "What went wrong",
-     "With the keyboard slid out the phone becomes top-heavy: “I constantly felt like it was going to somersault backward out of my hands.” The reviewer also found a “cheap-feeling plastic back” and a slide-out hinge that “feels almost distressingly loose”, called 2,300 mAh small for a power bank, and 5 W charging slow."
-    ],
-    [
-     "What worked",
-     "The keys themselves were “objectively well-made”. As a pocket Bluetooth keyboard it drove a smart TV and a PS5, and it worked with Samsung DeX and Viture glasses. Verdict: “undeniably useful”, “not for everyone”."
-    ],
-    [
-     "Price",
-     "The maker’s page says “From $139” with a $30 discount already applied; Tom’s Guide listed it at $99 when the review ran in August."
-    ]
-   ],
-   "rel": [
-    "aura",
-    "cones",
-    "aimit"
-   ],
-   "src": "TIME Best Inventions 2026 (Martin Cizmar) · clicks.tech Power Keyboard spec page · Tom’s Guide, 18 Aug 2026 (Jason England)"
-  },
-  {
-   "id": "seals",
-   "dom": "life",
-   "lab": "Life · Superpower",
-   "hot": 1,
-   "big": 0,
-   "art": "seal",
-   "cap": "Seals hear in air and under water. No other mammal can. It began 26.7 million years ago",
-   "num": "<1%",
-   "nums": "of underwater sound reaches a human ear; water is more than 800 times denser than air",
-   "p1": "Water is more than 800 times denser than air, which is why less than one percent of underwater sound reaches a human ear. Seals, sea lions and walruses, the pinnipeds, have spongy ear tissue that fills with blood when they dive, equalising pressure and carrying sound well underwater. Paleontologist James Rule of Monash University in Melbourne calls this amphibious hearing “something of a superpower”: “They are the only mammals which can do this.”",
-   "p2": "Why now: Science News Explores reported the fossil ear scans on Monday; the paper appeared on 15 July in Proceedings of the Royal Society B.",
-   "deep": [
-    [
-     "217 ears",
-     "The team made micro-CT scans of 217 ear specimens from museums around the world, covering 119 mammal species, including all 34 living pinniped species."
-    ],
-    [
-     "When it started",
-     "Amphibious hearing evolved nearly 26.7 million years ago. Puijila, an early relative, spent much of its time in water but could hear only in air; Enaliarctos is thought to be among the first fully sea-dwelling pinnipeds."
-    ],
-    [
-     "Why not otters",
-     "Sea otters make only short dives, which may explain why they never developed acute underwater hearing."
-    ],
-    [
-     "Masters of sound",
-     "Rule: “The evolution of amphibious hearing has made pinnipeds the masters of sound.” Next time your head is under water in a pool, listen: how much of the poolside noise reaches you?"
-    ]
-   ],
-   "rel": [
-    "fingertips",
-    "cones",
-    "pena"
-   ],
-   "src": "Science News Explores, 9 Nov 2026 (Melissa Hobson): Seals long ago evolved to hear above the water, and below · Proceedings of the Royal Society B, 15 July 2026"
-  },
-  {
-   "id": "pena",
-   "dom": "earth",
-   "lab": "Earth · Barely a storm",
-   "hot": 0,
-   "big": 0,
-   "art": "cyclone",
-   "cap": "The only storm on the hurricane maps on Monday: 40 mph winds. The forecasters: “barely”",
-   "num": "40 mph",
-   "nums": "maximum sustained winds (65 km/h) of Tropical Storm Pena at 11 am Hawaii time on Monday, central pressure 1004 millibars",
-   "p1": "At 7 am US Eastern on Monday the US National Hurricane Center listed no tropical cyclones in the Atlantic and none in the eastern Pacific. The only one on its maps was Tropical Storm Pena in the central Pacific, about 640 miles southwest of South Point, Hawaii, moving west at 12 mph with 40 mph winds. The 11 am Hawaii-time advisory’s headline: “PENA BARELY A TROPICAL CYCLONE”.",
-   "p2": "Why now: a quiet week on the hurricane maps in a year in which the northwest Pacific had 25 named storms by late October, according to NASA Earth Observatory.",
-   "deep": [
-    [
-     "By the numbers",
-     "Pena was at 11.5°N 161.4°W, about 650 miles east-southeast of Johnston Island. Tropical-storm-force winds extended up to 105 miles from the centre; there were no watches or warnings, no land hazards, and little change in strength was expected."
-    ],
-    [
-     "The other ocean",
-     "NASA Earth Observatory’s 3 November feature: the northwest Pacific had 25 named storms by late October 2026. Super Typhoon In-fa was an “annular” storm, a type that makes up about 4% of western North Pacific cyclones and whose eyes average about 45 km across against a typical 25 km; Typhoon Champi’s winds reached nearly 300 km/h. NASA Goddard meteorologist Gary Partyka calls the strong El Niño a “likely contributor”."
-    ],
-    [
-     "Reading an advisory",
-     "This was advisory number 13, with the next due at 5 pm Hawaii time, six hours later. The pressure was 1004 mb (29.65 inches), and the forecaster signed it Mahoney."
-    ]
-   ],
-   "rel": [
-    "seals",
-    "marsbound",
-    "promise"
-   ],
-   "src": "NOAA National Hurricane Center / Central Pacific Hurricane Center, Tropical Storm Pena Advisory 13, 11 am HST Mon 9 Nov 2026 · NASA Earth Observatory, 3 Nov 2026: The Pacific’s Busy Storm Season",
-   "img": "https://www.nhc.noaa.gov/xgtwo/resize/xgtwo_cpac_7d0_w1920.png",
-   "credit": "Image: NOAA / NHC–CPHC, central Pacific seven-day outlook (live)"
-  },
-  {
-   "id": "ratchet",
-   "dom": "matter",
-   "lab": "Physics · One-way street",
-   "hot": 0,
-   "big": 0,
-   "art": "ratchet",
-   "cap": "Feynman’s tiny machine was meant to get free work out of jiggling air. It gets nowhere",
-   "num": "k ln 2",
-   "nums": "the entropy a gas gains per molecule when you let it double its volume: Feynman’s number for “more mixed up”",
-   "p1": "Richard Feynman imagined a tiny axle with vanes, like a paddle wheel, in a box of gas, connected to a ratchet and pawl, a toothed wheel with a catch that lets it turn one way only. Gas molecules bang the vanes at random; the ratchet should turn the jiggle into one-way rotation and lift a flea. It fails: the pawl is tiny too, so it jiggles as well, and the chance it is bounced up at the wrong moment, letting the wheel slip back, is e^(−ε/kT), exactly the same as the chance of the vanes gathering the energy ε to climb one tooth. At a single temperature the two cancel and the wheel goes nowhere.",
-   "p2": "Why it matters, in Feynman’s words: “The fact that it gets nowhere is really the fundamental deep principle on which all of thermodynamics is based.”",
-   "deep": [
-    [
-     "Make it work",
-     "Keep the vanes at a temperature T1 and the ratchet colder at T2 and it does run forward. Balancing the forward and backward rates gives Q1/Q2 = T1/T2 and a work fraction of (T1 − T2)/T1, exactly Carnot’s limit for any engine. Make the ratchet hotter than the gas and it runs backwards."
-    ],
-    [
-     "A rectifier for molecules",
-     "Feynman calls the ratchet a rectifier for molecular motion, like an electrical rectifier. Maxwell’s demon, the imaginary creature who sorts fast molecules from slow ones, fails the same way: a finite demon heats up and jiggles."
-    ],
-    [
-     "Test the arrow of time",
-     "Newton’s equations work just as well with time running backwards, yet mixed gases never unmix. Feynman’s test: film two kinds of gas molecules mixing and play it in reverse: every single collision is reversible, and the film still looks obviously wrong."
-    ],
-    [
-     "Counting arrangements",
-     "Entropy is the logarithm of the number of microscopic arrangements that look the same from outside. Letting a gas double its volume at fixed temperature adds Nk ln 2, that is k ln 2 per molecule; mixing neon with argon adds the same amount."
-    ]
-   ],
-   "rel": [
-    "polarised",
-    "marsbound",
-    "cones"
-   ],
-   "src": "The Feynman Lectures on Physics, Vol. I, ch. 46: Ratchet and pawl (Caltech, feynmanlectures.caltech.edu)"
-  },
-  {
-   "id": "polarised",
-   "dom": "matter",
-   "lab": "Physics · Hidden light",
-   "hot": 0,
-   "big": 0,
-   "art": "tape",
-   "cap": "Your laptop screen sends out light with a hidden direction. Sunglasses and tape reveal it",
-   "num": "90°",
-   "nums": "the twist a half-wavelength delay gives polarised light inside a strip of stretched tape",
-   "p1": "LCD screens emit polarised light: the waves wobble in one direction. The Exploratorium’s Polarized-Light Mosaic uses that. Layer strips of clear packing tape on a sheet of clear plastic, sandwich it between two polarisers (two lenses from old polarising sunglasses work), hold it up to a window and turn the front polariser: the tape blazes with colours that change as you rotate. Stick tape on an LCD screen and it looks clear until you look through a polariser.",
-   "p2": "Why: the stretched polymer molecules in tape make it birefringent, so light travels at two different speeds inside it, depending on which way it is polarised.",
-   "deep": [
-    [
-     "Two speeds",
-     "Light polarised parallel to the stretch moves more slowly. The two components fall out of step and recombine with a rotated polarisation; thicker tape rotates it more, and a half-wavelength delay rotates it by 90 degrees."
-    ],
-    [
-     "Why colours",
-     "Each colour has its own refractive index (the speed of light in vacuum divided by its speed in the material), so each colour is rotated by a different amount and the second polariser lets different colours through at different angles. Where two or three strips overlap you get more colours still."
-    ],
-    [
-     "Tape warning",
-     "It needs tape with a shiny, non-matte surface; the Exploratorium says “Scotch brand tape may not work”, while some inexpensive 2-inch clear packing tapes do. Test a strip between two polarisers: it works if it goes from dark to light as you rotate one of them."
-    ]
-   ],
-   "rel": [
-    "ratchet",
-    "cones",
-    "occult"
-   ],
-   "src": "Exploratorium Science Snacks: Polarized-Light Mosaic (exploratorium.edu/snacks)"
-  },
-  {
-   "id": "occult",
-   "dom": "space",
-   "lab": "Space · A star vanishes",
-   "hot": 0,
-   "big": 0,
-   "art": "occult",
-   "cap": "In 1977 a star blinked five times before Uranus hid it. That is how its rings were found",
-   "num": "5",
-   "nums": "dimmings before Uranus covered the star and five flickers after: one for each ring",
-   "p1": "An occultation is when one object in the sky passes in front of another that looks smaller. In 1977 astronomers watched Uranus pass in front of a distant star and saw the star’s light dim five times before the planet blocked it, then flicker five times afterwards. Each dip was one of Uranus’s five rings crossing the starlight, rings that “do not glow brightly like Saturn’s”.",
-   "p2": "Why here: Science News Explores’ word of the week on Monday was occultation. The Moon passes in front of stars and planets pretty much every night.",
-   "deep": [
-    [
-     "The Moon as a knife-edge",
-     "Lunar occultations happen almost nightly as the Moon moves in front of stars and planets; occultations by planets are rarer. Watching starlight flicker behind the Moon can reveal its mountains and valleys."
-    ],
-    [
-     "Measuring an asteroid",
-     "Timing how long a star stays hidden behind an asteroid tells astronomers how big the asteroid is, without ever seeing its shape directly."
-    ],
-    [
-     "Alien air",
-     "When a world with an atmosphere occults a star, the starlight passes through that air on its way to us. The article puts it this way: occultations “can grant astronomers a rare opportunity to analyze a world’s atmosphere.”"
-    ],
-    [
-     "The reverse",
-     "A transit is the opposite case: a smaller-looking object passing in front of a larger one, such as an exoplanet crossing the face of its star."
-    ]
-   ],
-   "rel": [
-    "marsbound",
-    "promise",
-    "polarised"
-   ],
-   "src": "Science News Explores, 9 Nov 2026 (Katie Grace Carpenter): Scientists Say: Occultation"
-  },
-  {
-   "id": "smac",
-   "dom": "sg",
-   "lab": "Singapore · Fungus fighter",
-   "hot": 0,
-   "big": 0,
-   "art": "fungus",
-   "cap": "A*STAR built a molecule that kills one yeast and spares its close cousins. That is hard",
-   "num": "1 of 4",
-   "nums": "Candida species killed: C. tropicalis died, while C. albicans, C. auris and C. glabrata were largely spared in mixed cultures",
-   "p1": "Broad-spectrum antifungal drugs kill the harmful fungus and can also kill the helpful ones living in you. A*STAR’s Infectious Diseases Labs and Bioinformatics Institute designed Gua-SMACS-16, a synthetic molecule that killed Candida tropicalis while largely sparing mammalian cells, zebrafish embryos and three related yeasts, C. albicans, C. auris and C. glabrata, in mixed cultures. Senior scientist Ning Li: “A narrow-spectrum antifungal could offer important advantages by preserving beneficial fungi in the microbiome”.",
-   "p2": "Why now: published in Advanced Science and highlighted by A*STAR Research on Monday.",
-   "deep": [
-    [
-     "The tell",
-     "The selectivity is linked to β-glucan, a major component of fungal cell walls: C. tropicalis walls contain relatively less β-glucan than the other species tested."
-    ],
-    [
-     "Team-up",
-     "Combined with the existing drug caspofungin, Gua-SMACS-16 showed strong synergy against other Candida species, including C. auris, which the WHO designates a critical priority. Yue Wang of A*STAR IDL: “Caspofungin reduces β-glucan production, which may weaken cell walls and allow more Gua-SMACS-16 to reach cell membranes”."
-    ],
-    [
-     "What SMACS means",
-     "Synthetic membrane-active cationic supramolecule. Wang: “Gua-SMACS-16 is designed to preferentially bind fungal cells, rather than mammalian ones”."
-    ]
-   ],
-   "rel": [
-    "wee",
-    "seals",
-    "aimit"
-   ],
-   "src": "A*STAR Research, 9 Nov 2026: A targeted SMAC-down on fungal foes · Advanced Science 13 (41), 2026"
-  },
-  {
-   "id": "promise",
-   "dom": "space",
-   "lab": "Space · Moon Base",
-   "hot": 0,
-   "big": 0,
-   "art": "polar",
-   "cap": "NASA’s next Moon rover: Mars rover spares, with a nuclear generator on its back",
-   "num": "−242 °C",
-   "nums": "how cold the permanently shadowed craters the rover will drive into may get (minus 400 °F)",
-   "p1": "On Saturday 7 November at the MAX POWER expo at Kennedy Space Center, NASA announced PROMISE, the Polar Rover for Observation, Mapping, and In-Situ Exploration: an SUV-sized, six-wheeled, nuclear-powered rover for the Moon’s south pole, targeted to launch in late 2028 on an 18-month mission. JPL is building it from a combination of spare flight parts and engineering test models from the Curiosity and Perseverance Mars rovers, including the electronics, body structure and mobility system of the duplicate Curiosity test-bed vehicle. Blue Origin gets a $94 million contract, with an option worth a further $140 million based on performance, to deliver it on its Mark 1 lander.",
-   "p2": "Why now: the same announcement gave eight companies places on CLPS 2, a 10-year cargo-lander contract worth up to $10 billion in total, plus about $1.3 billion of launch task orders. NASA Administrator Jared Isaacman: “We are building the Moon Base mission by mission.”",
-   "deep": [
-    [
-     "A nuclear generator",
-     "Power comes from a flight-spare multi-mission radioisotope thermoelectric generator, which NASA describes as essentially a nuclear generator, fitted at the rear of the rover once it reaches the launch site. It lets PROMISE work through the long lunar night and inside permanently shadowed regions, where temperatures may fall to minus 242 °C."
-    ],
-    [
-     "A drill and a dashcam",
-     "The TRIDENT drill, from Honeybee Robotics, pulls up soil from as deep as 1 metre in 10-centimetre steps. Spectrometers analyse what comes up; a radiation detector rides along whose earlier version has run for 15 years on Curiosity; and a stereo Lunar Dashcam with its own illuminators is based on Perseverance’s landing cameras."
-    ],
-    [
-     "Shackleton Crater",
-     "NASA’s PROMISE page pictures Shackleton Crater, near the Moon’s south pole, about 21 kilometres wide and 4 kilometres deep. Laser altimetry from NASA’s Lunar Reconnaissance Orbiter has revealed boulders and low hills in its permanently shadowed interior."
-    ],
-    [
-     "For students too",
-     "On Sunday 8 November NASA opened a $1 million Moon Base Student Challenge in six categories, from power generation and construction to astronaut safety. It is for teams at US high schools and post-secondary schools, with registration by 25 January 2027."
-    ]
-   ],
-   "rel": [
-    "marsbound",
-    "astro",
-    "nvs3"
-   ],
-   "src": "NASA release 26-095, 7 Nov 2026 · NASA PROMISE mission page, updated 7 Nov 2026 · NASA release 26-096, 8 Nov 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/promise-7.jpg",
-   "credit": "Image: NASA artist’s concept"
   },
   {
    "id": "astro",
@@ -470,147 +419,186 @@
     ]
    ],
    "rel": [
-    "promise",
+    "dragon",
     "marsbound",
-    "aimit"
+    "aicraft"
    ],
    "src": "NASA news release 26-093, 7 Nov 2026 · NASA media advisory M26-084 (MAX POWER key events), updated 2 Nov 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg",
    "credit": "Photo: NASA / Helen Arase Vargas"
   },
   {
-   "id": "aura",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
+   "id": "pena",
+   "dom": "earth",
+   "lab": "Earth · Still barely a storm",
    "hot": 0,
    "big": 0,
-   "art": "lens",
-   "cap": "Glasses with a 70° view, 1920×1200 per eye, 95 g. The computer lives in your pocket",
-   "num": "95 g",
-   "nums": "for the glasses; the tethered puck that does the computing weighs 265 g and carries a 4,455 mAh battery",
-   "p1": "XREAL’s Aura, on TIME’s Best Inventions of 2026 list, puts the computing power in a tethered puck that clips over a pocket or hangs on a lanyard, so the glasses themselves weigh 95 g. Each eye gets a Sony micro-OLED at 1920 × 1200 pixels, up to 120 Hz, with a 70-degree field of view through XREAL’s X Prism optics and electrochromic dimming in five steps. Three cameras sit on the front frame: two tracking cameras for hand tracking and spatial anchoring, and one RGB camera with a privacy LED.",
-   "p2": "Why now: XREAL says shipping is expected to begin in mid-November 2026, at US$1,099 on its US store, with the US, Canada, Japan and South Korea first.",
+   "art": "cyclone",
+   "cap": "Pena is still the only storm on the hurricane maps: 40 mph, 1,400 km southwest of Honolulu",
+   "num": "40 mph",
+   "nums": "maximum sustained winds (65 km/h) of Tropical Storm Pena at 11 am Hawaii time on Tuesday 10 November, its 17th advisory; central pressure 1004 millibars",
+   "p1": "On Tuesday the US National Hurricane Center listed no tropical cyclones in the Atlantic and none in the eastern Pacific. The only one on its maps was Tropical Storm Pena in the central Pacific, about 870 miles (1,400 km) southwest of Honolulu and about 500 miles (805 km) southeast of Johnston Island, moving west-southwest at 9 mph with 40 mph winds. Its advisory headline: “PENA TURNING WEST-SOUTHWEST OVER THE CENTRAL PACIFIC”.",
+   "p2": "Why now: a quiet week on the hurricane maps in a year in which the northwest Pacific had 25 named storms by late October, according to NASA Earth Observatory.",
    "deep": [
     [
-     "The puck",
-     "It runs Android XR on a Snapdragon platform rated at 48 TOPS of AI processing, with 12 or 16 GB of memory, a fan for cooling and a 4,455 mAh rated battery. It takes Bluetooth keyboards, mice and game controllers, and has a fingerprint button."
+     "By the numbers",
+     "Pena was at 10.8°N 165.2°W at 11 am Hawaii time on Tuesday. Tropical-storm-force winds extended up to 115 miles (185 km) from the centre; there were no watches or warnings and no land hazards. The forecast: “A turn to the west and then west-northwest is expected over the next couple of days” and “Little change in strength is forecast over the next several days.”"
     ],
     [
-     "Latency",
-     "XREAL’s X1S co-processor in the glasses is rated at 3 ms motion-to-photon latency. Brightness is rated up to 1,050 nits."
+     "The other ocean",
+     "NASA Earth Observatory’s 3 November feature: the northwest Pacific had 25 named storms by late October 2026. Super Typhoon In-fa was an “annular” storm, a type that makes up about 4% of western North Pacific cyclones and whose eyes average about 45 km across against a typical 25 km; Typhoon Champi’s winds reached nearly 300 km/h. NASA Goddard meteorologist Gary Partyka calls the strong El Niño a “likely contributor”."
     ],
     [
-     "What reviewers found wrong",
-     "Tom’s Guide’s Jason England, trying them at Google I/O in May, saw “some edge blurring”, found it “slower to do things than on an actual computer”, and wrote that “you won’t be taking these outside in public without getting second looks”. He estimated the puck is “probably good for 2-3 hours of heavy use”; XREAL lists no battery life in hours."
-    ],
-    [
-     "The price problem",
-     "England: “while I’d love for these to be sub-$1,000, I don’t see a world where this happens.” TechRadar’s Hamish Hector, trying them at IFA in September, hoped for the same and noted “there’s only so cheap we can expect XR tech to get”."
+     "Reading an advisory",
+     "This was public advisory number 17, issued at 11 am Hawaii Standard Time (2100 UTC, 5 am Wednesday in Singapore). The pressure was 1004 mb. Advisories come every six hours while a storm lives."
     ]
    ],
    "rel": [
-    "clicks",
-    "cones",
-    "polarised"
+    "thunder",
+    "dragon",
+    "marsbound"
    ],
-   "src": "TIME Best Inventions 2026 (Richard Eisenberg, 15 Oct 2026) · XREAL Aura specifications and US store · Tom’s Guide hands-on (Jason England, updated 21 May 2026) · TechRadar (Hamish Hector, 4 Sep 2026)"
+   "src": "NOAA National Hurricane Center / Central Pacific Hurricane Center, Tropical Storm Pena Public Advisory 17, 11 am HST Tue 10 Nov 2026; NHC Atlantic and eastern Pacific outlooks, Tue 10 Nov 2026 · NASA Earth Observatory, 3 Nov 2026: The Pacific’s Busy Storm Season",
+   "img": "https://www.nhc.noaa.gov/xgtwo/resize/xgtwo_cpac_7d0_w1920.png",
+   "credit": "Image: NOAA / NHC–CPHC, central Pacific seven-day outlook (live)"
   },
   {
-   "id": "cones",
-   "dom": "mind",
-   "lab": "Mind · Your screen",
+   "id": "wee",
+   "dom": "sg",
+   "lab": "Singapore · AI and words",
    "hot": 0,
    "big": 0,
-   "art": "pupil",
-   "cap": "Two people, one screen, different colours. Sometimes the display is at fault",
-   "num": "3",
-   "nums": "types of cone cell in the eye; displays mix red, green and blue to target them, but not everyone’s cones respond the same way",
-   "p1": "People perceive colours differently, especially on modern displays that produce a wide range of colours, reports Physics World. Colour vision works thanks to three types of cone photoreceptor cells, and almost all display technologies exploit this by using red, green and blue. The problem with newer displays, Physics World explains, is that they do not necessarily activate the cones of different observers equally. The work was led by Andy Rider of the Institute of Ophthalmology at University College London.",
-   "p2": "How it started: Rider says the work began when display technology consultant John Frith got in touch with his group, after a friend of Frith’s in the film industry saw the colours of two side-by-side cinema projectors as wildly different.",
+   "art": "neuron",
+   "cap": "Chatbots raised on American English “correct” Indian English. An NUS dean weighs in",
+   "p1": "Much of the language data that AI models learn from is American English, and NUS News reports that users in India have found chatbots “correcting” Indian English expressions as grammatical mistakes. Prof Lionel Wee, Dean of the NUS Faculty of Arts and Social Sciences and a sociolinguist, told a panel organised by The Mandala Club on 20 October that meaning depends on context: “Table number five wants their check” or “I’ve got to wash my hair” carry more than their words. He calls himself an “AI agnostic” and urges “a healthy dose of scepticism towards AI”.",
+   "p2": "Why here: a Singapore take on the Using AI lane, from a professor who researches how people actually talk.",
    "deep": [
     [
-     "Where it is published",
-     "The research was led by Andy Rider of UCL’s Institute of Ophthalmology and is published in Optics Express (DOI 10.1364/OE.613255)."
+     "Who was there",
+     "The panel, “Lost in Translation”, was organised by The Mandala Club on 20 October 2026. Alongside Prof Wee were Rahat Kapur, co-founder and editorial director of Beyond The Boardroom, and Chathuni Uduwela, a public policy practitioner."
     ],
     [
-     "The friend’s eyes",
-     "The Physics World anecdote has a twist: when Rider’s group tested the friend who saw the two projectors so differently, he turned out to have a red–green colour-vision deficiency he had not known about. Rider says he has the same condition and was not properly diagnosed until his mid-30s. Displays can drive cones unequally, and eyes differ too."
+     "Comfort from a machine",
+     "Two stories from the panel: a colleague’s niece turned to a chatbot for comfort after a breakup, and a student kept using a religious chatbot app long after exams were over. Wee’s question: “Are we creating generations that are less resilient, less able to deal with setbacks and difficulties”."
     ],
     [
-     "Three cones",
-     "The three cone types are called L, M and S, and each one responds to different wavelengths of visible light. When two people’s cones differ, the same red, green and blue mix on a display can look different to each of them, what Physics World calls colour mismatches, or metamerism failures."
+     "Like calculators?",
+     "NUS News’ comparison: writing reduced the need to memorise, and calculators made manual calculation less necessary. Its question: as AI takes on more thinking tasks, which human skills should we keep cultivating?"
+    ],
+    [
+     "Access is not enough",
+     "Wee: “Access on its own is not really meaningful if you don’t take into account the kinds of friction that people encounter”."
     ]
    ],
    "rel": [
-    "polarised",
-    "aura",
-    "wee"
+    "aicraft",
+    "ear3a",
+    "smac"
    ],
-   "src": "Physics World, “Why do people see colours differently? Sometimes, it’s the display’s fault”, Isabelle Dumé, 5 Nov 2026 · Optics Express"
+   "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
+   "img": "https://content.presspage.com/uploads/2580/e6f09a72-5e29-426e-807e-c5e3ae130891/1920_20261104-proflionelweemandalaclub.jpg?10000",
+   "credit": "Photo: NUS News"
   },
   {
-   "id": "fingertips",
-   "dom": "try",
-   "lab": "Try it · Eyes shut",
+   "id": "smac",
+   "dom": "sg",
+   "lab": "Singapore · Fungus fighter",
    "hot": 0,
    "big": 0,
-   "art": "fingertips",
-   "cap": "Eyes shut, hands up: touch your nose, then your left thumb. Now wiggle the fingers, retry",
-   "p1": "Close your eyes and raise both hands above your head, keeping the fingers of your left hand completely still. With your right hand, quickly touch your right index fingertip to your nose, then to the tip of your left thumb. Go back to your nose and try each left fingertip in turn, then switch hands. The Exploratorium’s Proprioception snack asks: how accurately did you find each fingertip, did you improve, and did left and right differ? Now repeat with the fingers of the raised hand wiggling.",
-   "p2": "Why wiggling helps: moving fingers feed the brain extra information about where they are, so they become easier to locate in space; repetition improves the result too.",
+   "art": "fungus",
+   "cap": "A*STAR built a molecule that kills one yeast and spares its close cousins. That is hard",
+   "num": "1 of 4",
+   "nums": "Candida species killed: C. tropicalis died, while C. albicans, C. auris and C. glabrata were largely spared in mixed cultures",
+   "p1": "Broad-spectrum antifungal drugs kill the harmful fungus and can also kill the helpful ones living in you. A*STAR’s Infectious Diseases Labs and Bioinformatics Institute designed Gua-SMACS-16, a synthetic molecule that killed Candida tropicalis while largely sparing mammalian cells, zebrafish embryos and three related yeasts, C. albicans, C. auris and C. glabrata, in mixed cultures. Senior scientist Ning Li: “A narrow-spectrum antifungal could offer important advantages by preserving beneficial fungi in the microbiome”.",
+   "p2": "Why now: published in Advanced Science and highlighted by A*STAR Research on Monday.",
    "deep": [
     [
-     "The sixth sense",
-     "Proprioceptors, also called stretch receptors, in your muscles, tendons, joints and inner ear send position information to the brain, which works out how your body is oriented and moving. Most people lean heavily on vision for position and distance, so proprioception alone gives imprecise results."
+     "The tell",
+     "The selectivity is linked to β-glucan, a major component of fungal cell walls: C. tropicalis walls contain relatively less β-glucan than the other species tested."
     ],
     [
-     "Who used it",
-     "The Exploratorium pairs the snack with Dr Patricia Cowings, a psychophysiologist who trained as a NASA astronaut, was an alternate for a 1979 spaceflight, developed individually tailored protocols to prevent motion sickness in astronauts, and is principal investigator at NASA Ames Research Center."
+     "Team-up",
+     "Combined with the existing drug caspofungin, Gua-SMACS-16 showed strong synergy against other Candida species, including C. auris, which the WHO designates a critical priority. Yue Wang of A*STAR IDL: “Caspofungin reduces β-glucan production, which may weaken cell walls and allow more Gua-SMACS-16 to reach cell membranes”."
     ],
     [
-     "Two more versions",
-     "The same page has two further activities, marking an X and writing with eyes shut, which need paper and pencil. The hands-only version needs nothing at all."
-    ]
-   ],
-   "rel": [
-    "cones",
-    "seals",
-    "polarised"
-   ],
-   "src": "Exploratorium Science Snacks: Proprioception"
-  },
-  {
-   "id": "aimit",
-   "dom": "usingai",
-   "lab": "Using AI · MIT",
-   "hot": 0,
-   "big": 0,
-   "art": "aimit",
-   "cap": "MIT’s phrase for what a chatbot answer can create: “the illusion of learning”",
-   "num": "8",
-   "nums": "principles in MIT’s 2026 report on AI in education",
-   "p1": "MIT’s report does not call for banning AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
-   "p2": "The point: the product of school is you, not the mark.",
-   "deep": [
-    [
-     "What MIT asks of its own students",
-     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
-    ],
-    [
-     "Why checking matters",
-     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s guidance for research: a human is responsible for verifying the output, and AI should never be listed as a co-author."
-    ],
-    [
-     "Keep it human",
-     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
+     "What SMACS means",
+     "Synthetic membrane-active cationic supramolecule. Wang: “Gua-SMACS-16 is designed to preferentially bind fungal cells, rather than mammalian ones”."
     ]
    ],
    "rel": [
     "wee",
-    "clicks",
+    "rna",
+    "trex"
+   ],
+   "src": "A*STAR Research, 9 Nov 2026: A targeted SMAC-down on fungal foes · Advanced Science 13 (41), 2026"
+  },
+  {
+   "id": "clicks",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 0,
+   "big": 0,
+   "art": "keys",
+   "cap": "A slide-out phone keyboard. The tester typed 30 words a minute on it, 53 on glass",
+   "num": "30 vs 53",
+   "nums": "words per minute on the Clicks keyboard vs the touchscreen in Tom’s Guide’s test; accuracy 62% vs 81%",
+   "p1": "Clicks’ Power Keyboard snaps to the magnets on the back of a phone (MagSafe or Qi2) and slides out as a physical keyboard: 119.7 × 76.6 × 15.2 mm, 180 g, with a built-in 2,300 mAh battery that also tops up the phone over 5 W Qi wireless charging. TIME put it on its Best Inventions 2026 list; TIME calls the company “chockablock with BlackBerry alumni”, and says co-founder Jeffrey Gadway obsessively adjusted key curvature, row spacing and actuation points. Tom’s Guide’s Jason England typed 53 words a minute at 81% accuracy on his iPhone’s glass and 30 words a minute at 62% on the Clicks.",
+   "p2": "Why it is interesting: it is a bet that fingers remember what thumbs forgot, and the test says they mostly do not.",
+   "deep": [
+    [
+     "Inside",
+     "Bluetooth LE 5.4, pairing with up to 9 devices, three of them saved to the 1, 2 and 3 keys. By default 500 mAh of the battery is reserved for the keyboard itself. There is an adjustable LED backlight and a USB-C port, but the battery cannot charge other devices through it."
+    ],
+    [
+     "What went wrong",
+     "With the keyboard slid out the phone becomes top-heavy: “I constantly felt like it was going to somersault backward out of my hands.” The reviewer also found a “cheap-feeling plastic back” and a slide-out hinge that “feels almost distressingly loose”, called 2,300 mAh small for a power bank, and 5 W charging slow."
+    ],
+    [
+     "What worked",
+     "The keys themselves were “objectively well-made”. As a pocket Bluetooth keyboard it drove a smart TV and a PS5, and it worked with Samsung DeX and Viture glasses. Verdict: “undeniably useful”, “not for everyone”."
+    ],
+    [
+     "Price",
+     "The maker’s page says “From $139” with a $30 discount already applied; Tom’s Guide listed it at $99 when the review ran in August."
+    ]
+   ],
+   "rel": [
+    "ear3a",
+    "aicraft",
+    "coins"
+   ],
+   "src": "TIME Best Inventions 2026 (Martin Cizmar) · clicks.tech Power Keyboard spec page · Tom’s Guide, 18 Aug 2026 (Jason England)"
+  },
+  {
+   "id": "aicraft",
+   "dom": "usingai",
+   "lab": "Using AI · Quote",
+   "art": "aicraft",
+   "hot": 0,
+   "big": 0,
+   "cap": "“Outsource the crap, not the craft”",
+   "p1": "Behavioural scientist Benjamin Lira Luttges at the University of Pennsylvania put it in six words. Do not hand over the things you enjoy and that give you meaning, he says, and decide which skills you want to protect. Trent Cash, a behavioural scientist at the University of Waterloo, adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
+   "p2": "Why it is not scary: Cash also says humans are resilient, and he does not think AI is going to suddenly turn our brains to mush.",
+   "deep": [
+    [
+     "The doctors who forgot",
+     "Doctors used an AI tool for three months to spot growths during colonoscopies. Back on their own, they did not detect the growths as well."
+    ],
+    [
+     "The readers who gave up",
+     "People who used an AI tool to solve SAT questions were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because persistence is key for learning."
+    ],
+    [
+     "Your list",
+     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+    ]
+   ],
+   "rel": [
+    "ear3a",
+    "wee",
     "astro"
    ],
-   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
+   "src": "Science News Explores, “Is AI making us dumber? Depends how it’s used”, Meghan Rosen, 13 Oct 2026 · Cash et al., Trends in Cognitive Sciences, Aug 2026 · Lira et al., arXiv preprint, Feb 2026"
   }
  ]
 }
