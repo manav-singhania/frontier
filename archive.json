@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "tiles": [
   {
    "id": "after",
@@ -262,7 +262,7 @@
    "lab": "Using AI · Quote",
    "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
    "first": "2026-10-25",
-   "last": "2026-11-08",
+   "last": "2026-11-11",
    "editions": [
     "02b",
     "03",
@@ -270,7 +270,8 @@
     "07",
     "10",
     "13",
-    "16"
+    "16",
+    "19"
    ]
   },
   {
@@ -2285,11 +2286,12 @@
   {
    "id": "astro",
    "first": "2026-11-08",
-   "last": "2026-11-10",
+   "last": "2026-11-11",
    "editions": [
     "16",
     "17",
-    "18"
+    "18",
+    "19"
    ],
    "cap": "NASA is hiring astronauts. Last time, more than 8,000 people applied and 10 got in",
    "lane": "space",
@@ -2538,9 +2540,10 @@
    "lab": "Space · Mars-bound",
    "src": "NASA, 9 Nov 2026 (Vanessa Thomas): NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars · NASA ESCAPADE mission page",
    "first": "2026-11-10",
-   "last": "2026-11-10",
+   "last": "2026-11-11",
    "editions": [
-    "18"
+    "18",
+    "19"
    ]
   },
   {
@@ -2550,9 +2553,10 @@
    "lab": "Singapore · AI and words",
    "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
    "first": "2026-11-10",
-   "last": "2026-11-10",
+   "last": "2026-11-11",
    "editions": [
-    "18"
+    "18",
+    "19"
    ]
   },
   {
@@ -2562,9 +2566,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026 (Martin Cizmar) · clicks.tech Power Keyboard spec page · Tom’s Guide, 18 Aug 2026 (Jason England)",
    "first": "2026-11-10",
-   "last": "2026-11-10",
+   "last": "2026-11-11",
    "editions": [
-    "18"
+    "18",
+    "19"
    ]
   },
   {
@@ -2586,9 +2591,10 @@
    "lab": "Earth · Barely a storm",
    "src": "NOAA National Hurricane Center / Central Pacific Hurricane Center, Tropical Storm Pena Advisory 13, 11 am HST Mon 9 Nov 2026 · NASA Earth Observatory, 3 Nov 2026: The Pacific’s Busy Storm Season",
    "first": "2026-11-10",
-   "last": "2026-11-10",
+   "last": "2026-11-11",
    "editions": [
-    "18"
+    "18",
+    "19"
    ]
   },
   {
@@ -2634,9 +2640,118 @@
    "lab": "Singapore · Fungus fighter",
    "src": "A*STAR Research, 9 Nov 2026: A targeted SMAC-down on fungal foes · Advanced Science 13 (41), 2026",
    "first": "2026-11-10",
-   "last": "2026-11-10",
+   "last": "2026-11-11",
    "editions": [
-    "18"
+    "18",
+    "19"
+   ]
+  },
+  {
+   "id": "chandra",
+   "cap": "A star 30 million light-years away flares every 113 days. X-rays found what was robbing it",
+   "lane": "space",
+   "lab": "Space · Hidden thief",
+   "src": "NASA / Chandra X-ray Center, 9 Nov 2026 (Megan Watzke): NASA’s Chandra Finds Source of Star’s Mysterious Outbursts · The Astrophysical Journal (Aghakhanloo et al.)",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "dragon",
+   "cap": "A spacesuit, station mould, drinking water: what the crew is packing into Dragon",
+   "lane": "space",
+   "lab": "Space · Coming home",
+   "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "ubc63",
+   "cap": "A star cluster 4,892 light-years away turned out to be two, fresh from a near miss",
+   "lane": "space",
+   "lab": "India · Two clusters",
+   "src": "PIB / Department of Science and Technology, 5 Nov 2026: Team led by Indian astronomers redefine star cluster UBC 63 as a double cluster system spotted after close flyby · The Astronomical Journal, doi 10.3847/1538-3881/ae8c38",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "thunder",
+   "cap": "Flash, then count. Every 5 seconds before the thunder is a mile of air. Test it today",
+   "lane": "matter",
+   "lab": "Physics · Sound",
+   "src": "NOAA / National Weather Service lightning safety pages (Thunder; Understanding Lightning Science; NWS Shreveport and Melbourne 30/30 rule) · The Feynman Lectures on Physics, Vol. I, ch. 47 · NEA advisory, 29 Oct 2026",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "neutrino",
+   "cap": "A hundred trillion neutrinos crossed you while you read this. Physicists want one angle",
+   "lane": "matter",
+   "lab": "Physics · Particles",
+   "src": "Physics World, 9 Nov 2026 (Jacklin Kwan): Quantum information reveals limits of neutrino flavour measurements · CERN, 20 Jul 2026 (Davide De Biasio): The puzzle of neutrinos, seventy years on",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "ear3a",
+   "cap": "Earbuds that record what you just heard. Maker says 10 hours; the tester got 4.5 with ANC",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Daniel Varghese) · Nothing launch post, Ear (3a) available now, 7 Jul 2026 · TechRadar, 25 Jul 2026 (Becky Scarrott), 4/5",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "trex",
+   "cap": "Four footprints, 66.5 million years old: a T. rex walking at 1.6 metres a second. Match it",
+   "lane": "life",
+   "lab": "Life · Footprints",
+   "src": "Science News Explores, 10 Nov 2026 (Erin Garcia de Jesús): Four T. rex footprints hint at how fast it traveled · Falkingham et al., Journal of Vertebrate Paleontology, 8 Sep 2026",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "rna",
+   "cap": "A 45-letter molecule that copies other molecules: a hint of how life could have begun",
+   "lane": "life",
+   "lab": "Life · Origins",
+   "src": "Quanta Magazine, 9 Nov 2026 (Philip Ball): Did Life Begin in an RNA World?",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
+   ]
+  },
+  {
+   "id": "coins",
+   "cap": "Two coins, one eye. Slide them until they look the same size, then open the other eye",
+   "lane": "try",
+   "lab": "Try it · One eye",
+   "src": "Exploratorium Science Snacks: Size and Distance",
+   "first": "2026-11-11",
+   "last": "2026-11-11",
+   "editions": [
+    "19"
    ]
   }
  ]
