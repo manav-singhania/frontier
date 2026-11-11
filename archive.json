@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "tiles": [
   {
    "id": "after",
@@ -231,7 +231,7 @@
    "lab": "Using AI · Evidence",
    "src": "PNAS, Bastani et al. 2025 · Wharton",
    "first": "2026-10-25",
-   "last": "2026-11-09",
+   "last": "2026-11-12",
    "editions": [
     "02b",
     "05",
@@ -239,7 +239,8 @@
     "08",
     "11",
     "14",
-    "17"
+    "17",
+    "20"
    ]
   },
   {
@@ -2553,10 +2554,11 @@
    "lab": "Singapore · AI and words",
    "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
    "first": "2026-11-10",
-   "last": "2026-11-11",
+   "last": "2026-11-12",
    "editions": [
     "18",
-    "19"
+    "19",
+    "20"
    ]
   },
   {
@@ -2653,9 +2655,10 @@
    "lab": "Space · Hidden thief",
    "src": "NASA / Chandra X-ray Center, 9 Nov 2026 (Megan Watzke): NASA’s Chandra Finds Source of Star’s Mysterious Outbursts · The Astrophysical Journal (Aghakhanloo et al.)",
    "first": "2026-11-11",
-   "last": "2026-11-11",
+   "last": "2026-11-12",
    "editions": [
-    "19"
+    "19",
+    "20"
    ]
   },
   {
@@ -2665,9 +2668,10 @@
    "lab": "Space · Coming home",
    "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
    "first": "2026-11-11",
-   "last": "2026-11-11",
+   "last": "2026-11-12",
    "editions": [
-    "19"
+    "19",
+    "20"
    ]
   },
   {
@@ -2713,9 +2717,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026 (Daniel Varghese) · Nothing launch post, Ear (3a) available now, 7 Jul 2026 · TechRadar, 25 Jul 2026 (Becky Scarrott), 4/5",
    "first": "2026-11-11",
-   "last": "2026-11-11",
+   "last": "2026-11-12",
    "editions": [
-    "19"
+    "19",
+    "20"
    ]
   },
   {
@@ -2752,6 +2757,138 @@
    "last": "2026-11-11",
    "editions": [
     "19"
+   ]
+  },
+  {
+   "id": "lightday",
+   "cap": "Voyager 1 is one light-day away next week. NASA wants your phone to flash it on Tuesday",
+   "lane": "space",
+   "lab": "Space · Light-day",
+   "src": "NASA release M26-086, 10 Nov 2026 (Gerelle Q. Dodson): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities · NASA Science, What’s Up: November 2026",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "leonids",
+   "cap": "Leonids before dawn on Tuesday and Wednesday, up to 15 an hour. Tonight, the Taurids",
+   "lane": "space",
+   "lab": "Space · Meteors",
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "ruby",
+   "cap": "Perseverance’s laser lit two reds in a Mars rock, 692.7 and 694.1 nm: ruby’s glow",
+   "lane": "space",
+   "lab": "Space · Rubies on Mars?",
+   "src": "NASA Science, Perseverance rover blog: Rubies on Mars? (Roger C. Wiens, Purdue University), posted 9 Nov 2026 · Geophysical Research Letters (Ollila et al.)",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "navajo",
+   "cap": "A reservoir rose nearly 60 feet in seven weeks. Landsat watched the desert lake refill",
+   "lane": "earth",
+   "lab": "Earth · Refilled",
+   "src": "NASA Earth Observatory, Image of the Day, 11 Nov 2026: Water Surges Into Navajo Reservoir (Lindsey Doermann; images Michala Garrison, Landsat data from USGS)",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "guide",
+   "cap": "An IISc drone flies beside a blind walker and places obstacles to within 25 cm",
+   "lane": "mind",
+   "lab": "India · Drone guide",
+   "src": "Indian Institute of Science, Bengaluru (Mohit Singh): Helping drones guide visually impaired people, 2026 · ACM Transactions on Cyber-Physical Systems (Raj et al., 2026)",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "motor",
+   "cap": "A motor from 60 cm of wire, 2 magnets, 2 paper clips and a battery. Trick: one black mark",
+   "lane": "matter",
+   "lab": "Physics · Motor",
+   "src": "Exploratorium Science Snacks: Stripped-Down Motor · The Feynman Lectures on Physics, Vol. II, ch. 1 (Caltech)",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "airspeed",
+   "cap": "Air molecules hit your hand at about 500 m/s, all day. You feel nothing. Here is why",
+   "lane": "matter",
+   "lab": "Physics · Air",
+   "src": "NIST, SI Redefinition: Kelvin — Boltzmann Constant · The Feynman Lectures on Physics, Vol. I, ch. 39 (Caltech) · Exploratorium Science Snacks: Bernoulli Levitator",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "tincan",
+   "cap": "A $100 kids’ landline: cord, no screen, no apps, Wi-Fi inside. One 7-year-old shrugged",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Emma Barker Bonomo) · tincan.kids product and About pages · Tom’s Guide (Mike Prospero), updated 19 Jul 2026, one-month test",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "planes",
+   "cap": "NTU’s AI steers planes round moving thunderstorms. In the busiest tests, none got close",
+   "lane": "sg",
+   "lab": "Singapore · AI in the storm",
+   "src": "NTU School of Mechanical and Aerospace Engineering news, 4 Nov 2026: Artificial Intelligence Keeps Planes Safe in Bad Weather (MAE Collective 2026, AI edition) · Advanced Engineering Informatics 65:103157 (2025)",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "moire",
+   "cap": "Hold two combs a finger-width apart and slide one. The rippling pattern is not in them",
+   "lane": "try",
+   "lab": "Try it · Two combs",
+   "src": "Exploratorium Science Snacks: Moiré Patterns",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
+   ]
+  },
+  {
+   "id": "kelp",
+   "cap": "A 14-year-old borrowed a sea robot, got seasick at the controls, surveyed 6 kelp beds",
+   "lane": "life",
+   "lab": "Life · Robot diver",
+   "src": "Science News Explores, 10 Nov 2026 (Maria Temming), on Linden Hunter-Pinsky’s kelp-forest ROV survey",
+   "first": "2026-11-12",
+   "last": "2026-11-12",
+   "editions": [
+    "20"
    ]
   }
  ]
