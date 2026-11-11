@@ -1,47 +1,522 @@
 {
- "edition": 19,
+ "edition": 20,
  "level": "High school",
- "date": "2026-11-11",
- "dateLabel": "Wed 11 Nov 2026",
+ "date": "2026-11-12",
+ "dateLabel": "Thu 12 Nov 2026",
  "week": [
   {
+   "d": "WED",
+   "t": "NASA Earth Observatory: Navajo Reservoir rose nearly 60 feet between 20 September and 7 November, to 108% of average",
+   "id": "navajo"
+  },
+  {
    "d": "TUE",
-   "t": "Science News Explores: four footprints in North Dakota are the first adult T. rex trackway; walking pace about 1.6 m/s",
-   "id": "trex"
+   "t": "NASA invites the public to flash VGR in Morse code at Voyager 1 on 17 November, the eve of its one-light-day mark",
+   "id": "lightday"
+  },
+  {
+   "d": "TUE",
+   "t": "Science News Explores: a 14-year-old piloted a borrowed ROV over six California kelp beds and found few urchins",
+   "id": "kelp"
+  },
+  {
+   "d": "TUE",
+   "t": "NASA: the station crew packs a Dragon cargo craft with microbe samples and a spacesuit for return next week",
+   "id": "dragon"
+  },
+  {
+   "d": "MON",
+   "t": "NASA: Perseverance’s SuperCam traces glows at 692.7 and 694.1 nm to chromium in corundum, the ruby family",
+   "id": "ruby"
   },
   {
    "d": "MON",
    "t": "NASA: Chandra finds a hidden black hole or neutron star feeding the 113-day outbursts of the star AT 2016blu",
    "id": "chandra"
-  },
-  {
-   "d": "MON",
-   "t": "NASA: the station crew packs a Dragon cargo craft with mould samples and a spacesuit for return next week",
-   "id": "dragon"
-  },
-  {
-   "d": "MON",
-   "t": "Physics World: a 3° limit on how well δ-CP, the neutrino–antineutrino angle, can ever be measured",
-   "id": "neutrino"
-  },
-  {
-   "d": "MON",
-   "t": "Quanta: QT45, a 45-nucleotide RNA that copies other RNA strands, found in a pool of 10 trillion",
-   "id": "rna"
-  },
-  {
-   "d": "THU",
-   "t": "India’s DST: the star cluster UBC 63, 4,892 light-years away, is really two clusters that passed within 23 light-years",
-   "id": "ubc63"
   }
  ],
  "tiles": [
   {
+   "id": "lightday",
+   "dom": "space",
+   "lab": "Space · Light-day",
+   "hot": 1,
+   "big": 1,
+   "art": "shine",
+   "cap": "Voyager 1 is one light-day away next week. NASA wants your phone to flash it on Tuesday",
+   "num": "16 billion miles",
+   "nums": "more than 16 billion miles (25.9 billion km) from Earth: light, and any radio command, now takes 24 hours to reach Voyager 1",
+   "p1": "On Wednesday 18 November, NASA says, Voyager 1 will have travelled one light-day from Earth: more than 16 billion miles (25.9 billion km), so far that light from Earth takes 24 hours to reach it. The evening before, Tuesday 17 November, NASA is asking people everywhere to make a symbolic wave of golden light around the planet after sunset, “Shine Bright for Voyager’s Light-Day”. A NASA web page makes a phone or tablet flash VGR, Voyager’s call sign, in Morse code.",
+   "p2": "Why now: NASA announced the activities on Tuesday 10 November. A panel from JPL is streamed on NASA’s site on Friday 20 November at 1 am Singapore time (Thursday noon US Eastern).",
+   "deep": [
+    [
+     "Who is talking",
+     "The discussion at JPL’s von Kármán Auditorium in Southern California includes Nicky Fox, NASA’s associate administrator for science; Jonathan Lunine, JPL’s chief scientist; Suzanne Dodd, the Voyager project manager; Kareem Badaruddin, the Voyager mission manager; and Jamie Rankin of Princeton University, the deputy project scientist. It takes questions and is streamed live."
+    ],
+    [
+     "A film is coming",
+     "NASA says the event previews a Voyager documentary on NASA+ planned for 2027, the mission’s 50th anniversary."
+    ],
+    [
+     "Which day, exactly",
+     "NASA’s invitation says the one-light-day mark falls on Wednesday 18 November, with the light activation the evening before; NASA’s November skywatching page lists the milestone on 17 November. Its chart puts Voyager 1 in the constellation Ophiuchus, toward the western horizon at about 5 pm on the 17th: you cannot see the probe, but you can face it."
+    ],
+    [
+     "Where the picture comes from",
+     "The image is an artist’s concept of a Voyager spacecraft from NASA/JPL-Caltech; no camera is out there to photograph it."
+    ]
+   ],
+   "rel": [
+    "leonids",
+    "dragon",
+    "chandra"
+   ],
+   "src": "NASA release M26-086, 10 Nov 2026 (Gerelle Q. Dodson): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities · NASA Science, What’s Up: November 2026",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
+   "credit": "Image: NASA/JPL-Caltech (artist’s concept)"
+  },
+  {
+   "id": "leonids",
+   "dom": "space",
+   "lab": "Space · Meteors",
+   "hot": 1,
+   "big": 0,
+   "art": "meteor",
+   "cap": "Leonids before dawn on Tuesday and Wednesday, up to 15 an hour. Tonight, the Taurids",
+   "num": "15 an hour",
+   "nums": "Leonid meteors under ideal skies in the early hours of 17 and 18 November, after the Moon has set; most people will see fewer",
+   "p1": "NASA’s skywatching notes for November put the Leonid meteor shower at its best in the early morning hours of Tuesday 17 and Wednesday 18 November, after the Moon sets: up to about 15 meteors an hour under ideal conditions, fewer for most viewers. Tonight, 12 November, the Northern Taurids peak at a gentler 5 an hour. And on the mornings of 15 and 16 November Mars and Jupiter stand about 1.2° apart in the south-east before sunrise, Jupiter the brighter, Mars reddish beside it.",
+   "p2": "Why now: New Moon was 8 November and first quarter is 17 November (US Pacific time); NASA says to look after the Moon sets.",
+   "deep": [
+    [
+     "Watch several mornings",
+     "NASA suggests watching Mars and Jupiter on more than one morning, to see them close in and then separate again. Jupiter is the brighter of the two."
+    ],
+    [
+     "Three supermoons",
+     "The full Moon of 24 November is a supermoon, the first of three in a row: November, December and January. Third quarter follows on 30 November."
+    ],
+    [
+     "Faced the right way",
+     "NASA’s chart for 17 November also marks where Voyager 1 sits, in Ophiuchus toward the western horizon at about 5 pm, the day it is a light-day away."
+    ],
+    [
+     "The photo",
+     "NASA’s page opens with the full Moon rising over Vasquez Rocks, north of Los Angeles, photographed by Preston Dyches of NASA on 24 June 2021."
+    ]
+   ],
+   "rel": [
+    "lightday",
+    "ruby",
+    "chandra"
+   ],
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
+   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
+   "credit": "Photo: NASA / Preston Dyches (CC BY-NC 2.0)"
+  },
+  {
+   "id": "ruby",
+   "dom": "space",
+   "lab": "Space · Rubies on Mars?",
+   "hot": 1,
+   "big": 0,
+   "art": "ruby",
+   "cap": "Perseverance’s laser lit two reds in a Mars rock, 692.7 and 694.1 nm: ruby’s glow",
+   "num": "692.7 nm",
+   "nums": "and 694.1 nanometres: the two luminescence peaks SuperCam saw, traced to chromium in corundum, the mineral family that includes ruby",
+   "p1": "When Perseverance’s SuperCam fires its laser at a rock, some rocks glow back. Roger Wiens of Purdue University, SuperCam’s principal investigator, writes that luminescence peaks at 692.7 and 694.1 nanometres have been traced to chromium sitting in corundum, the mineral family that includes ruby. “While we haven’t found collectable rubies on Mars yet,” he writes, the find is reported in Geophysical Research Letters in a paper led by Ann Ollila.",
+   "p2": "Why now: NASA posted the blog on Monday 9 November (written 4 November). The team thinks the corundum may come from localised metamorphism in large impacts near the rim of Jezero crater.",
+   "deep": [
+    [
+     "The laser as a lamp",
+     "SuperCam’s luminescence measurement reads the light a rock gives off after the laser hits it; the exact wavelengths act like a fingerprint of the atoms inside. Here the fingerprint was chromium inside corundum."
+    ],
+    [
+     "Why that matters",
+     "Corundum needs particular conditions to form. Wiens’ team suggests metamorphism driven by large impacts near the crater rim, where the rover has been exploring."
+    ],
+    [
+     "The rock in the picture",
+     "NASA’s image shows “Nhlanguleni”, a heavily pitted, light-toned float rock, photographed by the WATSON camera on the rover’s SHERLOC instrument on Sol 2023, 29 October 2026, at a spot called “Kapama Karula” in the “South Idubi” region."
+    ],
+    [
+     "In his words",
+     "“Exploration on Mars turns up the unexpected,” Wiens writes."
+    ]
+   ],
+   "rel": [
+    "leonids",
+    "lightday",
+    "chandra"
+   ],
+   "src": "NASA Science, Perseverance rover blog: Rubies on Mars? (Roger C. Wiens, Purdue University), posted 9 Nov 2026 · Geophysical Research Letters (Ollila et al.)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_SIF_2023_0846549705_738EBY_N0930000SRLC02503_0000LMJ.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+   "credit": "Photo: NASA/JPL-Caltech"
+  },
+  {
+   "id": "navajo",
+   "dom": "earth",
+   "lab": "Earth · Refilled",
+   "hot": 0,
+   "big": 0,
+   "art": "reservoir",
+   "cap": "A reservoir rose nearly 60 feet in seven weeks. Landsat watched the desert lake refill",
+   "num": "60 ft",
+   "nums": "nearly 60 feet (18 m) of rise at Navajo Reservoir between 20 September and 7 November 2026, from 60% to 108% of average for the date",
+   "p1": "Two Landsat 9 images, taken on 20 September and 7 November 2026, show Navajo Reservoir on the New Mexico–Colorado border swelling after weeks of rain. US Army Corps of Engineers data say the lake rose nearly 60 feet (18 m) between the two dates, from 60 percent of average for the date to 108 percent, its highest since August 2019. The cause: back-to-back extreme rain events over the Four Corners region in late October and early November, with precipitation from early September to early November two to four times the average.",
+   "p2": "Why now: NASA Earth Observatory’s image of the day for Wednesday 11 November, after a “snow drought” winter had left the lake low.",
+   "deep": [
+    [
+     "One storm, five inches",
+     "Pagosa Springs, Colorado, about 40 miles (64 km) northeast of the lake, on the San Juan River, got 5.05 inches (12.8 cm) of rain in the first storm. The river reached major flood stage on 23 October and nearly matched its 1911 record on 1 November; evacuation orders were issued and dozens of people were rescued."
+    ],
+    [
+     "Drought over, for now",
+     "The US Drought Monitor said on 3 November that short-term drought had ended for the Southwest and Great Basin. The 2025–26 snowpack had been so low that the spring melt gave the reservoir little."
+    ],
+    [
+     "Why so wet",
+     "Earth Observatory links the weather to El Niño and to a low-latitude low-pressure system fed by unusually warm ocean temperatures."
+    ],
+    [
+     "The eyes",
+     "The Operational Land Imager on Landsat 9; images by Michala Garrison, story by Lindsey Doermann."
+    ]
+   ],
+   "rel": [
+    "leonids",
+    "planes",
+    "kelp"
+   ],
+   "src": "NASA Earth Observatory, Image of the Day, 11 Nov 2026: Water Surges Into Navajo Reservoir (Lindsey Doermann; images Michala Garrison, Landsat data from USGS)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Image: NASA Earth Observatory / Michala Garrison, Landsat 9 data from USGS"
+  },
+  {
+   "id": "guide",
+   "dom": "mind",
+   "lab": "India · Drone guide",
+   "hot": 0,
+   "big": 0,
+   "art": "guidedrone",
+   "cap": "An IISc drone flies beside a blind walker and places obstacles to within 25 cm",
+   "num": "25 cm",
+   "nums": "how closely the drone judged the distance to the person it followed; cars and bicycles within 60 cm, where existing depth software was off by 1.4 to 2 m",
+   "p1": "A smart cane only finds what is straight ahead. Yogesh Simmhan’s group at the Indian Institute of Science in Bengaluru wants a small drone flying alongside a visually impaired person, warning of obstacles around them. The catch: a cheap drone has one camera, and a single camera cannot easily tell whether an object is small and close or big and far away. Their method, NeoARCADE, turns a camera’s depth scores into real distances: on the IISc campus it judged the distance to the person it followed to within 25 cm, and to cars and bicycles within 60 cm.",
+   "p2": "Why here: more than 2.2 billion people worldwide have some form of visual impairment, the IISc page says; the paper is in ACM Transactions on Cyber-Physical Systems (2026).",
+   "deep": [
+    [
+     "Teach it a ruler",
+     "Existing depth-map software only ranks nearer and farther. Here the user first stands at a few known distances from the drone; the system derives a rule linking depth score to distance, then applies it to other objects using each object’s pixel closest to the camera. When conditions change it detects the drift and recalibrates."
+    ],
+    [
+     "In the field",
+     "Testing, led by doctoral student Suman Raj, used a small off-the-shelf drone following a student posing as a visually impaired person around campus, with the computing done on a small GPU device that fits in a backpack."
+    ],
+    [
+     "The numbers",
+     "Within 25 cm for the person, 60 cm for cars and bicycles; the existing depth-map software was off by 1.4 to 2 m."
+    ],
+    [
+     "Who",
+     "Simmhan is in IISc’s Department of Computational and Data Sciences; the authors are Raj, Madhabhavi, Kumar, Gupta and Simmhan."
+    ]
+   ],
+   "rel": [
+    "planes",
+    "tincan",
+    "ai17"
+   ],
+   "src": "Indian Institute of Science, Bengaluru (Mohit Singh): Helping drones guide visually impaired people, 2026 · ACM Transactions on Cyber-Physical Systems (Raj et al., 2026)"
+  },
+  {
+   "id": "motor",
+   "dom": "matter",
+   "lab": "Physics · Motor",
+   "hot": 0,
+   "big": 0,
+   "art": "motor",
+   "cap": "A motor from 60 cm of wire, 2 magnets, 2 paper clips and a battery. Trick: one black mark",
+   "num": "60 cm",
+   "nums": "of solid copper wire (20–24 gauge), wound into a 2.5 cm coil of four or five loops, is enough for the Exploratorium’s stripped-down motor",
+   "p1": "The Exploratorium’s stripped-down motor is a coil of wire about 2.5 cm across, resting in two unfolded paper clips above a ceramic magnet, with a C or D battery wired in through strips of aluminium foil. Flick it and it spins. When current flows the coil becomes an electromagnet with a north face and a south face; the magnet below pulls the opposite pole and pushes the like one, so the coil turns. Equivalently, Feynman’s force law says a magnetic field pushes sideways on moving charges, and the current in the top and bottom of the loop is pushed in opposite directions: a twist.",
+   "p2": "Why it keeps going: one projecting wire end is painted black on half its circumference, so the current cuts out for half of every turn, the coil never settles, and inertia carries it round to the next push.",
+   "deep": [
+    [
+     "Build it",
+     "Wind four or five loops; wrap each wire end round the coil to hold it, leaving about 5 cm sticking out each side; strip the insulation or sand the enamel off the ends. Set the coil so it clears the magnet by about 1.5 mm (1/16 in). Stack a second magnet inside the cup under the first to strengthen the field."
+    ],
+    [
+     "If it will not spin",
+     "Check the coil is balanced, the enamel fully removed, exactly one end half-painted, and the coil clears the magnet. The Exploratorium says to be patient: the design has a high success rate. Then reverse the battery, add a second, or flip the magnets and watch what changes."
+    ],
+    [
+     "The real thing",
+     "The sliding contacts are commutators. Real DC motors use commutators that reverse the current every half-turn instead of just cutting it, which makes them about twice as powerful as this design. Swap the battery for a sensitive galvanometer, spin the coil by hand, and it becomes a generator."
+    ],
+    [
+     "Feynman’s one line",
+     "In Volume II, chapter 1, the whole of electromagnetism’s push on a charge is one formula: the electric field pushes any charge, the magnetic field pushes only a moving charge, and sideways to its motion. The motor is that second term, made of paper clips."
+    ]
+   ],
+   "rel": [
+    "airspeed",
+    "tincan",
+    "moire"
+   ],
+   "src": "Exploratorium Science Snacks: Stripped-Down Motor · The Feynman Lectures on Physics, Vol. II, ch. 1 (Caltech)"
+  },
+  {
+   "id": "airspeed",
+   "dom": "matter",
+   "lab": "Physics · Air",
+   "hot": 0,
+   "big": 0,
+   "art": "molecules",
+   "cap": "Air molecules hit your hand at about 500 m/s, all day. You feel nothing. Here is why",
+   "num": "500 m/s",
+   "nums": "the average speed of air molecules at 300 K (25 °C), about 1,100 mph, says NIST; individual molecules vary, 223 m/s and 717 m/s among its examples",
+   "p1": "At 300 K, about 25 °C, the molecules of air move at an average of about 500 m/s, around 1,100 mph, according to NIST, the US standards institute; some go at 223 m/s, others at 717 m/s, in every direction. Feynman’s lecture on the kinetic theory of gases turns that pummelling into pressure: each molecule bouncing off a wall hands it a small kick of momentum, and adding up the kicks per second gives a pressure equal to two-thirds of the molecules’ kinetic energy per unit volume. You feel none of it because it comes from all sides at once.",
+   "p2": "Test it with the Exploratorium’s Bernoulli levitator: push a pin through a 7.5 cm square of card, hold it under a thread spool with the pin up the hole, blow hard down through the spool and let go. The card hangs on.",
+   "deep": [
+    [
+     "The one-third",
+     "Molecules move randomly in all directions, so on average the motion splits equally between the three directions of space; only the share aimed at the wall counts, which is where the 1/3 in Feynman’s formula comes from. Only half the molecules near the wall are heading toward it, and that half cancels the factor 2 in each bounce, so the final formula has no stray twos."
+    ],
+    [
+     "Temperature is speed",
+     "Feynman defines temperature so that the average kinetic energy of a molecule is 3/2 kT, with Boltzmann’s constant k. Two different gases at the same temperature have the same average energy per molecule, so the lighter molecules move faster. k was fixed at exactly 1.380649 × 10⁻²³ joules per kelvin when the kelvin was redefined in November 2018, NIST explains."
+    ],
+    [
+     "Why the card hangs",
+     "Air leaving the spool spreads fast across the card; the Exploratorium says any fluid loses pressure as it speeds up, so the fast layer between spool and card is at lower pressure than the still air below, and the still air pushes the card up against the spool. The same effect works an atomizer and can pop windows out when two trains pass."
+    ],
+    [
+     "Light has pressure too",
+     "Feynman adds that a gas of light, photons, pushes with one-third of its energy per volume rather than two-thirds."
+    ]
+   ],
+   "rel": [
+    "motor",
+    "moire",
+    "navajo"
+   ],
+   "src": "NIST, SI Redefinition: Kelvin — Boltzmann Constant · The Feynman Lectures on Physics, Vol. I, ch. 39 (Caltech) · Exploratorium Science Snacks: Bernoulli Levitator"
+  },
+  {
+   "id": "tincan",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "big": 0,
+   "art": "handset",
+   "cap": "A $100 kids’ landline: cord, no screen, no apps, Wi-Fi inside. One 7-year-old shrugged",
+   "num": "$9.99",
+   "nums": "a month for Tin Can’s Party Line plan, which lets approved ordinary phone numbers call in; Tin Can to Tin Can calls are free",
+   "p1": "Tin Can looks like an old desk phone with a curly cord, and that is the point: no screen, no apps, no texting, no games, no internet. Inside it is a Wi-Fi device: it runs on 2.4 GHz Wi-Fi, plugs into a wall socket, needs no phone line and, as Tom’s Guide’s Mike Prospero explains, makes its calls with VoIP, voice carried over the internet. Only people a parent approves in the companion app can call it or be called; 911 emergency calls are always on. TIME put it on its Best Inventions 2026 list, noting that some 106 countries and 39 US states now restrict phones in schools.",
+   "p2": "Why it is interesting: the engineering is deliberately less. The question is whether a phone that can do only one thing stays interesting.",
+   "deep": [
+    [
+     "What is inside",
+     "A Wi-Fi radio and a VoIP stack, a speakerphone, voicemail with a greeting you record yourself, speed dial and calling hours set in the app. Prospero compares the idea to MagicJack, the internet-phone gadget of years ago. Tin Can does not publish the handset’s weight or materials. A wired model, Flashback, takes an Ethernet cable instead of Wi-Fi."
+    ],
+    [
+     "The month-long test",
+     "Prospero gave one to his 7-year-old. Call quality was “good, but not great”; several voicemails were “crackly, which made them hard to understand”; voicemails can only be heard on the phone, not in the app; and after a month “the novelty of the Tin Can wore off pretty quickly”, and when he suggested calling a friend “she sort of just shrugs.” One parent told him the cords are “waaaaay too easy to unplug.”"
+    ],
+    [
+     "The blue-bubble problem",
+     "A Tin Can cannot call a child who has a rival kids’ phone such as Pinwheel or Ring Ring: “It’s like a more exclusive version of the blue bubble,” Prospero writes. Tin Can to Tin Can is free; calls with ordinary numbers need the $9.99-a-month Party Line plan, with one free month included."
+    ],
+    [
+     "The maker’s line",
+     "“Tech made for kids doesn’t have to be addictive to be useful,” says Tin Can’s About page; the company, Tin Can Untechnologies, is in Seattle. A see-through Technicaller Clear edition with a light-up ringer costs $125."
+    ]
+   ],
+   "rel": [
+    "ear3a",
+    "guide",
+    "ai17"
+   ],
+   "src": "TIME Best Inventions 2026 (Emma Barker Bonomo) · tincan.kids product and About pages · Tom’s Guide (Mike Prospero), updated 19 Jul 2026, one-month test"
+  },
+  {
+   "id": "planes",
+   "dom": "sg",
+   "lab": "Singapore · AI in the storm",
+   "hot": 0,
+   "big": 0,
+   "art": "stormpath",
+   "cap": "NTU’s AI steers planes round moving thunderstorms. In the busiest tests, none got close",
+   "num": "95%",
+   "nums": "of eight aircraft reached their goal in the same storms where four aircraft scored 100%; in the most crowded tests separation between planes was never lost",
+   "p1": "Thunderstorms force controllers to reroute planes, and climate change is bringing more severe weather, writes NTU’s engineering school. The team of Associate Professor Sameer Alam, director of NTU’s Air Traffic Management Research Institute, built a cooperative AI, with the unlovely name IDDPG, a multi-agent framework that keeps aircraft a safe distance from thunderstorm cells and from each other while minimising total flight distance. In a 200 by 200 nautical mile box with two storm cells drifting northwest to southeast over 30 minutes, four aircraft from three entry points all got through safely; with eight aircraft the goal-reach rate fell to 95 percent and flight distances grew slightly.",
+   "p2": "Why here: the test airspace was a real en route area of the Singapore flight information region, the sky our controllers manage.",
+   "deep": [
+    [
+     "Pushing it",
+     "“We wanted to push the model to its limits,” Alam says. In six scenarios from one small cell to three large moving cells, performance declined as complexity rose and improved when storm tracks were known in advance. In the most crowded scenarios the goal-reach rate stayed at 98 to 99 percent and separation was never lost."
+    ],
+    [
+     "The weak spot",
+     "Uncertainty about when each plane arrives. The team tested four levels of estimated-time-of-arrival uncertainty, from negligible to high, and high uncertainty significantly degraded performance."
+    ],
+    [
+     "Why not one brain",
+     "Existing automation tools, the team says, are not scalable or efficient enough for fast-changing weather, and a single-agent approach limits cooperative decisions. “Our aim is to find an optimal solution to ensure safe separation distance among multiple aircraft,” Alam says."
+    ],
+    [
+     "Where it is published",
+     "Advanced Engineering Informatics 2025 (Pang, Hu, Zhang, Alam, Lulli) and the AAMAS 2026 conference on autonomous agents in Paphos, Cyprus. The article appeared on NTU’s mechanical and aerospace engineering news page on 4 November."
+    ]
+   ],
+   "rel": [
+    "guide",
+    "navajo",
+    "wee"
+   ],
+   "src": "NTU School of Mechanical and Aerospace Engineering news, 4 Nov 2026: Artificial Intelligence Keeps Planes Safe in Bad Weather (MAE Collective 2026, AI edition) · Advanced Engineering Informatics 65:103157 (2025)"
+  },
+  {
+   "id": "moire",
+   "dom": "try",
+   "lab": "Try it · Two combs",
+   "hot": 0,
+   "big": 0,
+   "art": "moire",
+   "cap": "Hold two combs a finger-width apart and slide one. The rippling pattern is not in them",
+   "num": "2.5 cm",
+   "nums": "from a mirror: one comb and its reflection make the pattern too",
+   "p1": "Hold two identical pocket combs about a finger’s width apart, look through them, and slide or turn one. Bands of light and dark ripple across; the Exploratorium says the pattern magnifies the slightest misalignment. The Exploratorium calls them moiré patterns: dark where the teeth of one comb cover the gaps of the other, light where the gaps line up. Only one comb? Hold it about 2.5 cm from a mirror and look at it together with its reflection.",
+   "p2": "Why it works: the pattern is in the image your eye forms, not in the combs. It magnifies tiny misalignments: perfectly aligned, no pattern; more misaligned, the bands get thinner and closer together.",
+   "deep": [
+    [
+     "Bigger versions",
+     "Two pieces of window screen overlapped and flexed; or one screen, a light and a white card moved away, so the screen and its own shadow make the pattern. Two transparencies printed with concentric circles, moved apart and together, give a pattern that looks like the nodal lines of a two-slit interference pattern, where light waves from the two slits cancel."
+    ],
+    [
+     "Spot it outside",
+     "Chain-link fences seen through each other, thin curtains folded double, and layers of fine fabric all show moiré."
+    ],
+    [
+     "Why it magnifies",
+     "Perfect alignment gives no pattern at all, and the greater the misalignment, the thinner and closer the bands, which is why the slightest misalignment shows up as a large, easily visible pattern."
+    ]
+   ],
+   "rel": [
+    "airspeed",
+    "motor",
+    "kelp"
+   ],
+   "src": "Exploratorium Science Snacks: Moiré Patterns"
+  },
+  {
+   "id": "kelp",
+   "dom": "life",
+   "lab": "Life · Robot diver",
+   "hot": 0,
+   "big": 0,
+   "art": "kelp",
+   "cap": "A 14-year-old borrowed a sea robot, got seasick at the controls, surveyed 6 kelp beds",
+   "num": "6 kelp beds",
+   "nums": "two declining, two recovering, two stable, chosen from Kelpwatch satellite data off Santa Cruz, California",
+   "p1": "Linden Hunter-Pinsky, 14, passes kelp beds on his way to school in Santa Cruz, California. The state’s kelp declined sharply in the 2010s, due to a heat wave and other factors, and some beds near Santa Cruz are recovering while others are not. He used Kelpwatch satellite data to pick six beds, two declining, two recovering and two stable, borrowed a remotely operated vehicle from a local nonprofit, and piloted it from his family’s rowboat. “I was being jostled around by the waves while staring at this controller, and I got seasick,” he told Science News Explores.",
+   "p2": "Why now: the project, done while he was at Gateway Middle School, made him a finalist in the 2026 Thermo Fisher Scientific Junior Innovators Challenge; the article ran on Tuesday 10 November.",
+   "deep": [
+    [
+     "What the camera saw",
+     "None of the six beds had many sea urchins, which graze on kelp. He would “love to look more into other factors that might be preventing kelp forest recovery in certain places.”"
+    ],
+    [
+     "Why kelp matters",
+     "Kelp forests shelter many species, including endangered ones, and trap climate-warming carbon."
+    ],
+    [
+     "Next",
+     "He is living in Chile for a year and is considering extending the project to Chile’s kelp forests. His advice: “Don’t feel constrained by what you think is a good project.”"
+    ]
+   ],
+   "rel": [
+    "navajo",
+    "guide",
+    "moire"
+   ],
+   "src": "Science News Explores, 10 Nov 2026 (Maria Temming), on Linden Hunter-Pinsky’s kelp-forest ROV survey"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 0,
+   "big": 0,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: the researchers say the students used the bot as a “crutch” and did not learn the underlying concepts deeply enough.",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
+    ],
+    [
+     "What the researchers concluded",
+     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
+    ]
+   ],
+   "rel": [
+    "tincan",
+    "guide",
+    "ear3a"
+   ],
+   "src": "PNAS, Bastani et al. 2025 · Wharton"
+  },
+  {
+   "id": "dragon",
+   "dom": "space",
+   "lab": "Space · Coming home",
+   "hot": 0,
+   "big": 0,
+   "art": "capsule",
+   "cap": "A spacesuit, station mould, drinking water: what the crew is packing into Dragon",
+   "num": "200 days",
+   "nums": "in space, across two expeditions, for NASA’s Jessica Watkins on 31 October; the photo shows her marking it with a tray of sweets",
+   "p1": "NASA’s station blog for Monday 9 November says the Expedition 75 crew began the week packing a SpaceX Dragon cargo craft to return to Earth next week. Flight engineer Anil Menon examined colonies of bacteria, mould and fungi grown from samples swabbed off station surfaces, measured and photographed them, and packed them for return. Jessica Watkins and Luke Delaney unpacked a newly delivered spacesuit, checked it and readied it for the Quest airlock, then moved another suit into Dragon so engineers on the ground can examine it.",
+   "p2": "Why it is interesting: nearly everything that goes up must be counted, swabbed, photographed and, if it is worth the seat, brought back down.",
+   "deep": [
+    [
+     "Water and breath",
+     "Canadian Space Agency flight engineer Joshua Kutryk collected samples of the station’s drinking water for microbial analysis on Earth. Roscosmos flight engineer Sergey Teteryatnikov recorded his breathing rate wearing an acoustic monitor around his neck, for research on how weightlessness affects the respiratory system."
+    ],
+    [
+     "Housekeeping in orbit",
+     "Station commander Pyotr Dubrov photographed mountains, volcanoes and deserts in South America and Africa. Anna Kikina checked docking mechanisms, cleaned smoke detectors and serviced life-support gear."
+    ],
+    [
+     "What NASA did not say",
+     "The blog gives no undocking or splashdown date and no mission number for this Dragon, only “next week”. The crew of seven: Dubrov, Kikina and Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the CSA."
+    ]
+   ],
+   "rel": [
+    "lightday",
+    "chandra",
+    "ruby"
+   ],
+   "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg",
+   "credit": "Photo: NASA / Anil Menon"
+  },
+  {
    "id": "chandra",
    "dom": "space",
    "lab": "Space · Hidden thief",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "binary",
    "cap": "A star 30 million light-years away flares every 113 days. X-rays found what was robbing it",
    "num": "113 days",
@@ -67,157 +542,13 @@
     ]
    ],
    "rel": [
-    "ubc63",
-    "neutrino",
-    "marsbound"
+    "ruby",
+    "lightday",
+    "leonids"
    ],
    "src": "NASA / Chandra X-ray Center, 9 Nov 2026 (Megan Watzke): NASA’s Chandra Finds Source of Star’s Mysterious Outbursts · The Astrophysical Journal (Aghakhanloo et al.)",
    "img": "https://assets.science.nasa.gov/content/dam/science/missions/chandra/2026/at2016blu.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "credit": "Image: X-ray NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; optical SDSS; processing NASA/CXC/SAO/P. Edmonds"
-  },
-  {
-   "id": "dragon",
-   "dom": "space",
-   "lab": "Space · Coming home",
-   "hot": 1,
-   "big": 0,
-   "art": "capsule",
-   "cap": "A spacesuit, station mould, drinking water: what the crew is packing into Dragon",
-   "num": "200 days",
-   "nums": "in space, across two expeditions, for NASA’s Jessica Watkins on 31 October; the photo shows her marking it with a tray of sweets",
-   "p1": "NASA’s station blog for Monday 9 November says the Expedition 75 crew began the week packing a SpaceX Dragon cargo craft to return to Earth next week. Flight engineer Anil Menon examined colonies of bacteria, mould and fungi grown from samples swabbed off station surfaces, measured and photographed them, and packed them for return. Jessica Watkins and Luke Delaney unpacked a newly delivered spacesuit, checked it and readied it for the Quest airlock, then moved another suit into Dragon so engineers on the ground can examine it.",
-   "p2": "Why it is interesting: nearly everything that goes up must be counted, swabbed, photographed and, if it is worth the seat, brought back down.",
-   "deep": [
-    [
-     "Water and breath",
-     "Canadian Space Agency flight engineer Joshua Kutryk collected samples of the station’s drinking water for microbial analysis on Earth. Roscosmos flight engineer Sergey Teteryatnikov recorded his breathing rate wearing an acoustic monitor around his neck, for research on how weightlessness affects the respiratory system."
-    ],
-    [
-     "Housekeeping in orbit",
-     "Station commander Pyotr Dubrov photographed mountains, volcanoes and deserts in South America and Africa. Anna Kikina checked docking mechanisms, cleaned smoke detectors and serviced life-support gear."
-    ],
-    [
-     "What NASA did not say",
-     "The blog gives no undocking or splashdown date and no mission number for this Dragon, only “next week”. The crew of seven: Dubrov, Kikina and Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the CSA."
-    ]
-   ],
-   "rel": [
-    "astro",
-    "marsbound",
-    "chandra"
-   ],
-   "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg",
-   "credit": "Photo: NASA / Anil Menon"
-  },
-  {
-   "id": "ubc63",
-   "dom": "space",
-   "lab": "India · Two clusters",
-   "hot": 0,
-   "big": 0,
-   "art": "twin",
-   "cap": "A star cluster 4,892 light-years away turned out to be two, fresh from a near miss",
-   "num": "23 light-years",
-   "nums": "the closest approach of the two clusters, about 6 million years ago; today they are about 85 light-years apart and drifting away from each other",
-   "p1": "UBC 63 is a sparse open cluster in our galaxy, about 4,892 light-years from Earth, and it was catalogued as one object. A team led by Indian astronomers has found it is two: UBC 63A, about 21 million years old, and UBC 63B, about 562 million years old. The clue was a chance finding in the cluster’s colour-magnitude diagram, the chart of star colour against brightness, which showed two distinct sequences where one cluster would show one.",
-   "p2": "Why now: announced by India’s Department of Science and Technology on 5 November; the paper is in The Astronomical Journal.",
-   "deep": [
-    [
-     "Rewinding the flyby",
-     "Using ESA’s Gaia measurements, machine learning and dynamical simulations run on high-performance computers, the team traced the two clusters back. When the younger one formed they were about 60 parsecs apart (about 196 light-years); about 6 million years ago they passed within about 7 parsecs (about 23 light-years); today they are about 26 parsecs apart (about 85 light-years)."
-    ],
-    [
-     "Not a pair for keeps",
-     "The two clusters are not gravitationally bound, so they are drifting apart. Lead author Samrat Biswas is an INSPIRE Senior Research Fellow at Gauhati University; co-authors include Biman J. Medhi (Gauhati), Sukanta Deb (Cotton University), H. S. Das (Assam University) and Maheswar Gopinathan and Ram Sagar of the Indian Institute of Astrophysics, with collaborators in Italy, China and Japan."
-    ],
-    [
-     "Read it yourself",
-     "A colour-magnitude diagram puts each star’s colour across and its brightness up. Stars born together trace one curve; two curves mean two birthdays. That is the whole trick, and it works on a chart you can draw by hand."
-    ]
-   ],
-   "rel": [
-    "chandra",
-    "neutrino",
-    "marsbound"
-   ],
-   "src": "PIB / Department of Science and Technology, 5 Nov 2026: Team led by Indian astronomers redefine star cluster UBC 63 as a double cluster system spotted after close flyby · The Astronomical Journal, doi 10.3847/1538-3881/ae8c38"
-  },
-  {
-   "id": "thunder",
-   "dom": "matter",
-   "lab": "Physics · Sound",
-   "hot": 1,
-   "big": 0,
-   "art": "bolt",
-   "cap": "Flash, then count. Every 5 seconds before the thunder is a mile of air. Test it today",
-   "num": "5 s = 1 mile",
-   "nums": "NOAA’s rule: count the seconds from flash to thunder and divide by 5 for miles; 1 mile is 1.6 km, so about 3 seconds for each kilometre",
-   "p1": "Light reaches you from a lightning flash almost instantly; the sound takes about 5 seconds for every mile, says the US National Weather Service, so 15 seconds means the strike was about 3 miles off, and no gap at all means very close. NOAA says thunder is usually heard only out to about 10 miles, and lightning can strike that far from a storm, which is why its rule is simple: if you hear thunder, lightning is close enough to strike you. Count from indoors.",
-   "p2": "Why here: Singapore is in its inter-monsoon weeks, which NEA said would bring moderate to heavy thundery showers over parts of the island in the afternoon on most days of early November.",
-   "deep": [
-    [
-     "Why sound is slow",
-     "Feynman’s lecture on sound shows that the speed of sound in a gas depends only on its temperature, not on the pressure or density, and that it runs at roughly 1/√3 of the average speed of the gas molecules themselves: sound is carried by the motion of the molecules, so it travels at about their own pace."
-    ],
-    [
-     "Newton got it wrong",
-     "Newton assumed the air in a sound wave stays at one temperature as it is squeezed. Feynman calls the result the isothermal speed of sound, and wrong. Laplace fixed it: the squeeze is so quick that heat has no time to flow, so each compression also warms, and the wave moves faster than Newton predicted."
-    ],
-    [
-     "The 30/30 rule",
-     "Weather Service offices say to head indoors when you cannot count to 30 between flash and thunder, and to stay there 30 minutes after the last clap. A sharp crack means the channel passed nearby; a long rumble means it was at least several miles away."
-    ],
-    [
-     "How hot",
-     "The air in a lightning channel may reach 50,000 °F, about five times hotter than the surface of the Sun, says NOAA. That sudden heating is what makes the air expand with a bang. The US sees about 25 million lightning flashes a year."
-    ]
-   ],
-   "rel": [
-    "neutrino",
-    "coins",
-    "pena"
-   ],
-   "src": "NOAA / National Weather Service lightning safety pages (Thunder; Understanding Lightning Science; NWS Shreveport and Melbourne 30/30 rule) · The Feynman Lectures on Physics, Vol. I, ch. 47 · NEA advisory, 29 Oct 2026"
-  },
-  {
-   "id": "neutrino",
-   "dom": "matter",
-   "lab": "Physics · Particles",
-   "hot": 0,
-   "big": 0,
-   "art": "neutrino",
-   "cap": "A hundred trillion neutrinos crossed you while you read this. Physicists want one angle",
-   "num": "3°",
-   "nums": "the best precision quantum theory allows on the angle δ-CP from about 1,000 neutrino and antineutrino events; the DUNE experiment, due in 2028, is projected to reach 7–18°",
-   "p1": "The Sun alone sends about a hundred trillion neutrinos through your body every second, says CERN, and a typical one could cross a light-year of solid lead without hitting anything. Catching a few is how physicists hope to measure δ-CP, an angle between 0° and 360° that says whether neutrinos and antineutrinos behave differently: 0° or 180° means no difference, 90° or 270° means the biggest possible one. Michela Ignoti, a PhD student at the University of Milan: “A CP-violating phase is connected to the matter-antimatter imbalance in the universe.”",
-   "p2": "Why now: Physics World reported on Monday 9 November that Ignoti and Claudia Frugiuele have worked out the ultimate limit on how well that angle can ever be measured.",
-   "deep": [
-    [
-     "The ceiling",
-     "Using quantum-information theory, the Milan pair find that about 1,000 neutrino and antineutrino events could, in principle, fix δ-CP to about 3°. That is a theoretical ceiling, not a measurement; their paper has been accepted by Physical Review Letters."
-    ],
-    [
-     "Where the information hides",
-     "Beam experiments such as T2K in Japan, and the coming Hyper-Kamiokande, look mostly at the first oscillation peak, where neutrinos are most likely to have changed type. The extra information sits at the second maximum, where there are far fewer events. Patrick Huber of Virginia Tech, who was not involved: “the event rates in the second oscillation maximum are much, much smaller … About 10 times smaller at least.”"
-    ],
-    [
-     "Who is listening",
-     "DUNE, in the United States, is projected to pin δ-CP to within 7–18° after it comes online in 2028, depending on the true value. JUNO in China began its first data run last year and can read the first and tenth oscillation peaks. Huber thinks the new result is unlikely to send experiment designers back to the drawing board."
-    ],
-    [
-     "Feel the number",
-     "Count one second. About a hundred trillion solar neutrinos went through you, and almost certainly none of them touched a single atom. The photo shows a prototype of DUNE’s liquid-argon detector."
-    ]
-   ],
-   "rel": [
-    "thunder",
-    "chandra",
-    "ubc63"
-   ],
-   "src": "Physics World, 9 Nov 2026 (Jacklin Kwan): Quantum information reveals limits of neutrino flavour measurements · CERN, 20 Jul 2026 (Davide De Biasio): The puzzle of neutrinos, seventy years on",
-   "img": "https://physicsworld.com/wp-content/uploads/2026/11/dune-prototype-detector-marina-cavazza-cern.jpg",
-   "credit": "Photo: Marina Cavazza / CERN, via Physics World"
   },
   {
    "id": "ear3a",
@@ -246,221 +577,11 @@
     ]
    ],
    "rel": [
-    "clicks",
+    "tincan",
     "wee",
-    "aicraft"
+    "ai17"
    ],
    "src": "TIME Best Inventions 2026 (Daniel Varghese) · Nothing launch post, Ear (3a) available now, 7 Jul 2026 · TechRadar, 25 Jul 2026 (Becky Scarrott), 4/5"
-  },
-  {
-   "id": "trex",
-   "dom": "life",
-   "lab": "Life · Footprints",
-   "hot": 1,
-   "big": 0,
-   "art": "track",
-   "cap": "Four footprints, 66.5 million years old: a T. rex walking at 1.6 metres a second. Match it",
-   "num": "1.6 m/s",
-   "nums": "the walking speed worked out from the spacing of the prints, about a brisk human walking pace; each print is about 80 cm across",
-   "p1": "Four fossil footprints on a steep slope in North Dakota form the first known trackway, three or more prints in a row, likely made by an adult Tyrannosaurus rex. Their spacing suggests the animal was moving at about 1.6 metres (5.2 feet) per second, which Science News Explores calls a brisk human walking pace. Kent Hups, who teaches at Northglenn High School near Denver and works at the Denver Museum of Nature and Science, found the first print while fossil hunting in 2025: three toes, about 80 centimetres across.",
-   "p2": "Try it: 1.6 metres a second is 16 metres in 10 seconds. Pace it out along a corridor and see whether you have to hurry.",
-   "deep": [
-    [
-     "Only one suspect",
-     "The prints are in the Hell Creek Formation and are roughly 66.5 million years old. Adult T. rex reached about 12 metres long. Peter Falkingham of Liverpool John Moores University in England, who led the analysis: “As far as our knowledge goes, T. rex is about the only track-maker that could have made these.”"
-    ],
-    [
-     "Why it is a first",
-     "Before this, only single adult T. rex prints were known, plus trackways from possible juveniles or a related species. The team’s paper appeared in the Journal of Vertebrate Paleontology on 8 September 2026."
-    ],
-    [
-     "Hedges",
-     "The prints are poorly preserved, so the speed estimate could be somewhat too high or too low. A fifth print may still be hidden in the hillside; the team is waiting for erosion to uncover it. Hups: “I can’t wait to get back out there and keep looking for more.”"
-    ]
-   ],
-   "rel": [
-    "rna",
-    "coins",
-    "smac"
-   ],
-   "src": "Science News Explores, 10 Nov 2026 (Erin Garcia de Jesús): Four T. rex footprints hint at how fast it traveled · Falkingham et al., Journal of Vertebrate Paleontology, 8 Sep 2026"
-  },
-  {
-   "id": "rna",
-   "dom": "life",
-   "lab": "Life · Origins",
-   "hot": 0,
-   "big": 0,
-   "art": "rna",
-   "cap": "A 45-letter molecule that copies other molecules: a hint of how life could have begun",
-   "num": "10 trillion",
-   "nums": "random RNA molecules in the starting pool from which QT45 and two similar copiers emerged, about a hundred-billionth of all possible sequences of that length",
-   "p1": "Modern cells have a chicken-and-egg problem: DNA holds the instructions, proteins do the work, and each needs the other. The “RNA world” idea says RNA once did both jobs. In the late 1980s researchers found RNAs that act as catalysts, named ribozymes, and in 1996 a ribozyme was made that joins RNA building blocks together. Quanta reports that Philipp Holliger’s team at the MRC Laboratory of Molecular Biology in the UK has now found QT45 (“quite tiny”), an RNA just 45 nucleotides long that can copy another RNA strand. Holliger: “In principle it can copy any sequence.”",
-   "p2": "Why it matters: earlier lab-made copiers were several hundred nucleotides long, while RNAs that assemble on their own have been only about 10 to 15. Forty-five is within reach of chance; Holliger says that “does not seem an unreasonable ask”.",
-   "deep": [
-    [
-     "Why size matters",
-     "Gerald Joyce’s group at the Salk Institute evolved ribozymes in the lab in 2019, but mutations tended to destroy their catalytic activity, which suggested self-sustaining RNA evolution is hard. Holliger started with RNAs of 20 to 40 nucleotides and searched a pool of about 10 trillion random molecules; QT45 and two other small copiers turned up."
-    ],
-    [
-     "Ice and acid",
-     "Holliger’s team has shown that cycles of changing acidity plus freezing and thawing can drive RNA replication exponentially, conditions that may have existed near the icy poles of the young Earth."
-    ],
-    [
-     "The catches",
-     "Quanta’s caveats: an RNA world might not count as alive, since life also needs a metabolism, and nobody knows whether a suitable niche existed on the early Earth. Copying errors, though, would give RNA what Darwinian evolution needs: variation to select from."
-    ]
-   ],
-   "rel": [
-    "trex",
-    "smac",
-    "neutrino"
-   ],
-   "src": "Quanta Magazine, 9 Nov 2026 (Philip Ball): Did Life Begin in an RNA World?"
-  },
-  {
-   "id": "coins",
-   "dom": "try",
-   "lab": "Try it · One eye",
-   "hot": 0,
-   "big": 0,
-   "art": "coins",
-   "cap": "Two coins, one eye. Slide them until they look the same size, then open the other eye",
-   "p1": "Take two coins of different sizes, a 50-cent and a 5-cent coin will do. Close one eye, hold one coin in each hand against a bright, plain background, and move them towards or away from you until they look exactly the same size. Now open both eyes: the trick collapses, and you see a small coin close and a big coin far. The Exploratorium’s point: with one eye closed, your depth perception is almost nonexistent, so your brain cannot tell a small near thing from a big far one.",
-   "p2": "Why it works: if two objects look the same size and you know one is farther away, your brain decides the far one is larger. Take away the distance clue and it has nothing to decide with.",
-   "deep": [
-    [
-     "Silhouettes help",
-     "The Exploratorium says a very bright, solid-coloured background works best, so the coins appear in silhouette and their features cannot be made out. Detail on the coin faces is a size clue; remove it and the illusion gets stronger."
-    ],
-    [
-     "Two eyes, two viewpoints",
-     "With both eyes open you gather more information and more points of view, so you judge size, shape and distance more accurately. One eye gives you a flat picture; two give you the geometry."
-    ],
-    [
-     "Where nature uses it",
-     "The pupa of the butterfly Spalgis epius carries a pattern like a rhesus macaque’s face and is only about half as wide as a fingernail, yet it seems to scare off birds, which may read it as a bigger, more distant monkey. And the Sun is far larger than the Moon but far farther away: their apparent sizes are nearly equal, which is why the Moon can almost exactly cover the Sun in a total eclipse."
-    ]
-   ],
-   "rel": [
-    "thunder",
-    "trex",
-    "ear3a"
-   ],
-   "src": "Exploratorium Science Snacks: Size and Distance"
-  },
-  {
-   "id": "marsbound",
-   "dom": "space",
-   "lab": "Space · Mars-bound",
-   "hot": 0,
-   "big": 0,
-   "art": "slingshot",
-   "cap": "Both Mars probes fired on time: two 9-minute burns, two days apart, and they are gone",
-   "num": "2 for 2",
-   "nums": "powered Earth flybys: 5 am US Eastern on Saturday 7 Nov about 1,000 miles up, and 6 am on Monday 9 Nov about 650 miles up",
-   "p1": "NASA says both twin ESCAPADE spacecraft have completed their powered Earth flybys and are on their way to Mars. The first fired its roughly 9-minute trans-Mars injection burn at 5 am US Eastern on Saturday 7 November, when it was about 1,000 miles above Earth’s surface; the second did the same at 6 am Eastern on Monday 9 November (7 pm in Singapore), about 650 miles up. Asal Naseri, acting associate flight director for the Heliophysics Division at NASA Headquarters: “This is the first time NASA has used a powered Earth flyby to propel a spacecraft toward Mars, and we’ve now executed this maneuver twice, flawlessly, in just two days.”",
-   "p2": "Why it matters: Jeff Parker of Advanced Space, the lead mission designer, says the loiter-and-flyby route “provides the flexibility to launch almost anytime and then use Earth’s gravity to get a boost to Mars” instead of waiting every two years for the planets to line up.",
-   "deep": [
-    [
-     "The route",
-     "ESCAPADE launched on 13 November 2025 from Cape Canaveral, when Earth and Mars were on opposite sides of the Sun. The pair spent about a year in a loiter orbit around Lagrange point 2, about a million miles from Earth, then swung back past Earth so that its gravity plus the engine burn could throw them towards Mars."
-    ],
-    [
-     "Ten months to go",
-     "The cruise to Mars takes about 10 months, with trajectory correction manoeuvres along the way. Orbit insertion burns are planned for 7 and 9 September 2027, each spacecraft firing its engine for about 11 minutes, and science operations are expected to begin in June 2028."
-    ],
-    [
-     "Two orbiters, one planet",
-     "Rob Lillis of the University of California, Berkeley, the principal investigator: “This will be the first science mission to choreograph two orbiters around Mars.” The goal is to measure how the solar wind, a million-mile-per-hour stream of material from the Sun, drives the loss of the Martian atmosphere, from two places at once."
-    ],
-    [
-     "What is aboard",
-     "Each orbiter weighs about 209 kg dry and 535 kg fuelled, and carries an electrostatic analyser from UC Berkeley, a magnetometer from NASA Goddard, a Langmuir probe from Embry-Riddle and student-built cameras from Northern Arizona University. They rode to space on the second flight of Blue Origin’s New Glenn rocket."
-    ]
-   ],
-   "rel": [
-    "chandra",
-    "dragon",
-    "astro"
-   ],
-   "src": "NASA, 9 Nov 2026 (Vanessa Thomas): NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars · NASA ESCAPADE mission page",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/escapade/ESCAPADE_TMI.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: Advanced Space/Matt Bolliger, via NASA"
-  },
-  {
-   "id": "astro",
-   "dom": "space",
-   "lab": "Space · Join NASA",
-   "hot": 0,
-   "big": 0,
-   "art": "helmet",
-   "cap": "NASA is hiring astronauts. Last time, more than 8,000 people applied and 10 got in",
-   "num": "10 of 8,000+",
-   "nums": "applicants were chosen for NASA’s 2025 astronaut class; applications for the next class opened on Saturday",
-   "p1": "NASA opened applications on Saturday 7 November for its next class of astronauts, who it says will join the agency as America returns to the Moon, builds the Moon Base and lays the groundwork for the first crewed missions to Mars. US citizens have until 11:59 pm US Eastern on Thursday 3 December to submit their applications, and NASA expects to make its final selection in late 2027. The agency last opened applications in 2024: from more than 8,000 applications, 10 astronaut candidates were selected in 2025 and are now completing nearly two years of training.",
-   "p2": "Why now: applications opened on Saturday 7 November and close at 11:59 pm US Eastern on Thursday 3 December; final selection is expected in late 2027, when training begins.",
-   "deep": [
-    [
-     "The numbers",
-     "Since the 1960s, NASA has selected 370 people to train as astronaut candidates. The agency has 32 astronauts active in its astronaut corps today."
-    ],
-    [
-     "If you want to fly it",
-     "For pilots, NASA lists 750 hours as pilot in command of high-performance jet aircraft, or 1,500 total flight hours in other fixed-wing aircraft including 750 as pilot in command, or 1,000 total flight hours in rotary-wing aircraft including 300 as pilot in command. Only US citizens can apply."
-    ],
-    [
-     "What they said",
-     "“This is an extraordinary time to join NASA’s astronaut corps,” said NASA Administrator Jared Isaacman, adding that the missions “will demand technical excellence, sound judgment, teamwork, and courage.” Deputy Administrator Matt Anderson put it shorter: “The window is open. The mission is waiting.”"
-    ],
-    [
-     "Who picks",
-     "Scott Tingle, chief astronaut, chairs the Astronaut Selection Board at NASA’s Johnson Space Center in Houston; for those who apply, he says, becoming a NASA astronaut “is more than a career opportunity”. The photo shows NASA announcing its 2025 astronaut candidate class at Johnson on 22 September 2025."
-    ]
-   ],
-   "rel": [
-    "dragon",
-    "marsbound",
-    "aicraft"
-   ],
-   "src": "NASA news release 26-093, 7 Nov 2026 · NASA media advisory M26-084 (MAX POWER key events), updated 2 Nov 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg",
-   "credit": "Photo: NASA / Helen Arase Vargas"
-  },
-  {
-   "id": "pena",
-   "dom": "earth",
-   "lab": "Earth · Still barely a storm",
-   "hot": 0,
-   "big": 0,
-   "art": "cyclone",
-   "cap": "Pena is still the only storm on the hurricane maps: 40 mph, 1,400 km southwest of Honolulu",
-   "num": "40 mph",
-   "nums": "maximum sustained winds (65 km/h) of Tropical Storm Pena at 11 am Hawaii time on Tuesday 10 November, its 17th advisory; central pressure 1004 millibars",
-   "p1": "On Tuesday the US National Hurricane Center listed no tropical cyclones in the Atlantic and none in the eastern Pacific. The only one on its maps was Tropical Storm Pena in the central Pacific, about 870 miles (1,400 km) southwest of Honolulu and about 500 miles (805 km) southeast of Johnston Island, moving west-southwest at 9 mph with 40 mph winds. Its advisory headline: “PENA TURNING WEST-SOUTHWEST OVER THE CENTRAL PACIFIC”.",
-   "p2": "Why now: a quiet week on the hurricane maps in a year in which the northwest Pacific had 25 named storms by late October, according to NASA Earth Observatory.",
-   "deep": [
-    [
-     "By the numbers",
-     "Pena was at 10.8°N 165.2°W at 11 am Hawaii time on Tuesday. Tropical-storm-force winds extended up to 115 miles (185 km) from the centre; there were no watches or warnings and no land hazards. The forecast: “A turn to the west and then west-northwest is expected over the next couple of days” and “Little change in strength is forecast over the next several days.”"
-    ],
-    [
-     "The other ocean",
-     "NASA Earth Observatory’s 3 November feature: the northwest Pacific had 25 named storms by late October 2026. Super Typhoon In-fa was an “annular” storm, a type that makes up about 4% of western North Pacific cyclones and whose eyes average about 45 km across against a typical 25 km; Typhoon Champi’s winds reached nearly 300 km/h. NASA Goddard meteorologist Gary Partyka calls the strong El Niño a “likely contributor”."
-    ],
-    [
-     "Reading an advisory",
-     "This was public advisory number 17, issued at 11 am Hawaii Standard Time (2100 UTC, 5 am Wednesday in Singapore). The pressure was 1004 mb. Advisories come every six hours while a storm lives."
-    ]
-   ],
-   "rel": [
-    "thunder",
-    "dragon",
-    "marsbound"
-   ],
-   "src": "NOAA National Hurricane Center / Central Pacific Hurricane Center, Tropical Storm Pena Public Advisory 17, 11 am HST Tue 10 Nov 2026; NHC Atlantic and eastern Pacific outlooks, Tue 10 Nov 2026 · NASA Earth Observatory, 3 Nov 2026: The Pacific’s Busy Storm Season",
-   "img": "https://www.nhc.noaa.gov/xgtwo/resize/xgtwo_cpac_7d0_w1920.png",
-   "credit": "Image: NOAA / NHC–CPHC, central Pacific seven-day outlook (live)"
   },
   {
    "id": "wee",
@@ -491,114 +612,13 @@
     ]
    ],
    "rel": [
-    "aicraft",
-    "ear3a",
-    "smac"
+    "planes",
+    "ai17",
+    "ear3a"
    ],
    "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
    "img": "https://content.presspage.com/uploads/2580/e6f09a72-5e29-426e-807e-c5e3ae130891/1920_20261104-proflionelweemandalaclub.jpg?10000",
    "credit": "Photo: NUS News"
-  },
-  {
-   "id": "smac",
-   "dom": "sg",
-   "lab": "Singapore · Fungus fighter",
-   "hot": 0,
-   "big": 0,
-   "art": "fungus",
-   "cap": "A*STAR built a molecule that kills one yeast and spares its close cousins. That is hard",
-   "num": "1 of 4",
-   "nums": "Candida species killed: C. tropicalis died, while C. albicans, C. auris and C. glabrata were largely spared in mixed cultures",
-   "p1": "Broad-spectrum antifungal drugs kill the harmful fungus and can also kill the helpful ones living in you. A*STAR’s Infectious Diseases Labs and Bioinformatics Institute designed Gua-SMACS-16, a synthetic molecule that killed Candida tropicalis while largely sparing mammalian cells, zebrafish embryos and three related yeasts, C. albicans, C. auris and C. glabrata, in mixed cultures. Senior scientist Ning Li: “A narrow-spectrum antifungal could offer important advantages by preserving beneficial fungi in the microbiome”.",
-   "p2": "Why now: published in Advanced Science and highlighted by A*STAR Research on Monday.",
-   "deep": [
-    [
-     "The tell",
-     "The selectivity is linked to β-glucan, a major component of fungal cell walls: C. tropicalis walls contain relatively less β-glucan than the other species tested."
-    ],
-    [
-     "Team-up",
-     "Combined with the existing drug caspofungin, Gua-SMACS-16 showed strong synergy against other Candida species, including C. auris, which the WHO designates a critical priority. Yue Wang of A*STAR IDL: “Caspofungin reduces β-glucan production, which may weaken cell walls and allow more Gua-SMACS-16 to reach cell membranes”."
-    ],
-    [
-     "What SMACS means",
-     "Synthetic membrane-active cationic supramolecule. Wang: “Gua-SMACS-16 is designed to preferentially bind fungal cells, rather than mammalian ones”."
-    ]
-   ],
-   "rel": [
-    "wee",
-    "rna",
-    "trex"
-   ],
-   "src": "A*STAR Research, 9 Nov 2026: A targeted SMAC-down on fungal foes · Advanced Science 13 (41), 2026"
-  },
-  {
-   "id": "clicks",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "big": 0,
-   "art": "keys",
-   "cap": "A slide-out phone keyboard. The tester typed 30 words a minute on it, 53 on glass",
-   "num": "30 vs 53",
-   "nums": "words per minute on the Clicks keyboard vs the touchscreen in Tom’s Guide’s test; accuracy 62% vs 81%",
-   "p1": "Clicks’ Power Keyboard snaps to the magnets on the back of a phone (MagSafe or Qi2) and slides out as a physical keyboard: 119.7 × 76.6 × 15.2 mm, 180 g, with a built-in 2,300 mAh battery that also tops up the phone over 5 W Qi wireless charging. TIME put it on its Best Inventions 2026 list; TIME calls the company “chockablock with BlackBerry alumni”, and says co-founder Jeffrey Gadway obsessively adjusted key curvature, row spacing and actuation points. Tom’s Guide’s Jason England typed 53 words a minute at 81% accuracy on his iPhone’s glass and 30 words a minute at 62% on the Clicks.",
-   "p2": "Why it is interesting: it is a bet that fingers remember what thumbs forgot, and the test says they mostly do not.",
-   "deep": [
-    [
-     "Inside",
-     "Bluetooth LE 5.4, pairing with up to 9 devices, three of them saved to the 1, 2 and 3 keys. By default 500 mAh of the battery is reserved for the keyboard itself. There is an adjustable LED backlight and a USB-C port, but the battery cannot charge other devices through it."
-    ],
-    [
-     "What went wrong",
-     "With the keyboard slid out the phone becomes top-heavy: “I constantly felt like it was going to somersault backward out of my hands.” The reviewer also found a “cheap-feeling plastic back” and a slide-out hinge that “feels almost distressingly loose”, called 2,300 mAh small for a power bank, and 5 W charging slow."
-    ],
-    [
-     "What worked",
-     "The keys themselves were “objectively well-made”. As a pocket Bluetooth keyboard it drove a smart TV and a PS5, and it worked with Samsung DeX and Viture glasses. Verdict: “undeniably useful”, “not for everyone”."
-    ],
-    [
-     "Price",
-     "The maker’s page says “From $139” with a $30 discount already applied; Tom’s Guide listed it at $99 when the review ran in August."
-    ]
-   ],
-   "rel": [
-    "ear3a",
-    "aicraft",
-    "coins"
-   ],
-   "src": "TIME Best Inventions 2026 (Martin Cizmar) · clicks.tech Power Keyboard spec page · Tom’s Guide, 18 Aug 2026 (Jason England)"
-  },
-  {
-   "id": "aicraft",
-   "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
-   "hot": 0,
-   "big": 0,
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at the University of Pennsylvania put it in six words. Do not hand over the things you enjoy and that give you meaning, he says, and decide which skills you want to protect. Trent Cash, a behavioural scientist at the University of Waterloo, adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient, and he does not think AI is going to suddenly turn our brains to mush.",
-   "deep": [
-    [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. Back on their own, they did not detect the growths as well."
-    ],
-    [
-     "The readers who gave up",
-     "People who used an AI tool to solve SAT questions were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because persistence is key for learning."
-    ],
-    [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
-    ]
-   ],
-   "rel": [
-    "ear3a",
-    "wee",
-    "astro"
-   ],
-   "src": "Science News Explores, “Is AI making us dumber? Depends how it’s used”, Meghan Rosen, 13 Oct 2026 · Cash et al., Trends in Cognitive Sciences, Aug 2026 · Lira et al., arXiv preprint, Feb 2026"
   }
  ]
 }
