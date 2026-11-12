@@ -1,47 +1,201 @@
 {
- "edition": 20,
+ "edition": 21,
  "level": "High school",
- "date": "2026-11-12",
- "dateLabel": "Thu 12 Nov 2026",
+ "date": "2026-11-13",
+ "dateLabel": "Fri 13 Nov 2026",
  "week": [
   {
+   "d": "THU",
+   "t": "ISRO fires the rebuilt PSLV third stage (PS3) in a ground static test at Sriharikota, after anomalies on two flights",
+   "id": "ps3"
+  },
+  {
+   "d": "THU",
+   "t": "Science News: ESA’s Hera passed within 30 km of Didymos and Dimorphos on 4 November, the pair whose moon Dimorphos NASA’s DART struck in 2022",
+   "id": "hera"
+  },
+  {
+   "d": "THU",
+   "t": "NTU and Motherson team up on Spinheat, magnetic nanoparticles that cure coatings from inside: one hour matched 24 in an oven",
+   "id": "spinheat"
+  },
+  {
+   "d": "THU",
+   "t": "NASA Earth Observatory: Landsat over Scotland’s Flow Country, peat more than eight metres deep and 9,000 years old",
+   "id": "bog"
+  },
+  {
    "d": "WED",
-   "t": "NASA Earth Observatory: Navajo Reservoir rose nearly 60 feet between 20 September and 7 November, to 108% of average",
-   "id": "navajo"
+   "t": "PLOS One: around 60 Natufian clay pieces, 15,000 to 11,600 years old, carry fingerprints, mostly of women and children",
+   "id": "clay"
   },
   {
-   "d": "TUE",
-   "t": "NASA invites the public to flash VGR in Morse code at Voyager 1 on 17 November, the eve of its one-light-day mark",
-   "id": "lightday"
-  },
-  {
-   "d": "TUE",
-   "t": "Science News Explores: a 14-year-old piloted a borrowed ROV over six California kelp beds and found few urchins",
-   "id": "kelp"
-  },
-  {
-   "d": "TUE",
-   "t": "NASA: the station crew packs a Dragon cargo craft with microbe samples and a spacesuit for return next week",
-   "id": "dragon"
-  },
-  {
-   "d": "MON",
-   "t": "NASA: Perseverance’s SuperCam traces glows at 692.7 and 694.1 nm to chromium in corundum, the ruby family",
-   "id": "ruby"
-  },
-  {
-   "d": "MON",
-   "t": "NASA: Chandra finds a hidden black hole or neutron star feeding the 113-day outbursts of the star AT 2016blu",
-   "id": "chandra"
+   "d": "WED",
+   "t": "Physics World: a white dwarf 282 light-years away is the first genuinely green star known, coloured by calcium and sodium",
+   "id": "greenwd"
   }
  ],
  "tiles": [
   {
+   "id": "neobot",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "big": 1,
+   "art": "humanoid",
+   "cap": "A $20,000 humanoid for your home. The catch: a human in a VR headset may be driving it",
+   "num": "22",
+   "nums": "joints in each of NEO’s hands, pulled by tendons from motors in the forearm; the whole robot weighs 66 lb (about 30 kg) and runs 4 hours on an 842 Wh battery",
+   "p1": "1X’s NEO is 5 ft 6 in tall, weighs 66 lb and sells for $20,000, or $499 a month, with US deliveries starting in 2026; TIME put it on its Best Inventions 2026 list as the first humanoid robot widely available for the home. The engineering choice that defines it is tendon drive: the motors sit in the forearm and pull tendons through the wrist to 22 joints in each hand, with low gear ratios of about 5:1 to 15:1, so the joints are 95 percent backdrivable, meaning you can push a finger and the motor feels it. A soft lattice-polymer body under a machine-washable knit suit, no pinch points and a walking speed of 1.4 m/s are how 1X says a robot this size can be safe around people.",
+   "p2": "The catch reviewers found: for tasks it has not learned, a remote “1X Expert” wearing a VR headset can take over and see through its cameras. Tom’s Guide calls that the one huge problem.",
+   "deep": [
+    [
+     "What is inside",
+     "An Nvidia Jetson Thor computer, which 1X calls the NEO Cortex, rated at up to 2,070 FP4 TFLOPS; two 8.85-megapixel stereo fisheye cameras running at 90 Hz; four beamforming microphones; Wi-Fi, Bluetooth and 5G. The 842 Wh battery gives 4 hours of running, and 1X says NEO plugs itself in, gaining an hour of runtime for every 6 minutes of charging."
+    ],
+    [
+     "Numbers from the maker",
+     "1X says NEO can lift 154 lb and carry 55 lb, runs at up to 6.2 m/s, moves its hands at up to 8 m/s and makes 22 dB of noise, which it calls quieter than a modern refrigerator. Fingertips push with up to 45 N and position to ±0.2 mm; the hands are rated IP68 against water, the body IP44."
+    ],
+    [
+     "What the critics said",
+     "Tom’s Guide’s Jason England: “There is a huge gap between what we are seeing now and what the company is promising.” Only two tasks, answering the door and taking away a cup, are claimed by 1X as autonomous; the rest can be a remote operator, whose view also trains the AI. TechRadar’s Lance Ulanoff adds that $499 a month is not a payment plan, you pay until you return it, and “It’s not clear what happens if the robot gets stuck, falls, or accidentally knocks over something.”"
+    ],
+    [
+     "A robot that did clean a flat",
+     "MIT Technology Review’s Grace Huckins booked a different, remotely piloted humanoid from Tau Robotics this month. On the first visit it failed on carpeted stairs; on the second it cleaned the kitchen but skipped the stove, the toilet brush head fell off three times, taps were left dripping and an oil bottle went over. Her verdict: thorough but slow, and probably a better use of your time to clean yourself."
+    ]
+   ],
+   "rel": [
+    "tincan",
+    "spinheat",
+    "aimit"
+   ],
+   "src": "TIME Best Inventions 2026 (Amanda Loudin) · 1x.tech NEO spec, order and hands pages · Tom’s Guide (Jason England, 30 Oct 2025) · TechRadar (Lance Ulanoff, 29 Oct 2025) · MIT Technology Review (Grace Huckins, 6 Nov 2026)"
+  },
+  {
+   "id": "hera",
+   "dom": "space",
+   "lab": "Space · Asteroid pair",
+   "hot": 1,
+   "big": 0,
+   "art": "binaryrock",
+   "cap": "Hera flew within 30 km of the asteroid NASA rammed in 2022. Now the measuring begins",
+   "num": "30 km",
+   "nums": "how close ESA’s Hera came to Didymos and its moon Dimorphos on 4 November, after more than two years in space",
+   "p1": "Science News reports that ESA’s Hera spacecraft reached the double asteroid Didymos and Dimorphos on 4 November, passing within 30 km after more than two years of travel. It is the first mission to a pair of asteroids orbiting each other; seven single asteroids had been visited before. Dimorphos is the small moon that NASA’s DART spacecraft struck in 2022, shortening its roughly 12-hour orbit around Didymos by more than half an hour.",
+   "p2": "Why it matters: Didymos is about twice as wide as the Empire State Building is tall, and binary asteroids are thought to make up about 15 percent of all asteroids. If one ever needs nudging, this is the only one anyone has nudged.",
+   "deep": [
+    [
+     "Two sides of a coin",
+     "“Planetary defense and science are sort of two sides of the same coin,” says planetary scientist Jessica Sunshine of the University of Maryland, who worked on DART. Hera’s job is to measure what DART left behind and how the pair changed."
+    ],
+    [
+     "A radar lands",
+     "In January Hera releases two small companion spacecraft. One, the breadbox-sized Juventas, carries a first-of-its-kind radar to probe the inside of Dimorphos and will attempt a landing on it."
+    ],
+    [
+     "A rubble pile",
+     "Dimorphos is thought to be a loose rubble pile like the asteroids Ryugu and Bennu rather than one solid rock; when NASA’s OSIRIS-REx touched Bennu, it sank about half a metre into the surface."
+    ],
+    [
+     "The picture",
+     "The image is from Hera’s Asteroid Framing Camera, taken from about 60 km away, and shows the far side of Didymos relative to where DART struck Dimorphos."
+    ]
+   ],
+   "rel": [
+    "lightday",
+    "dragon",
+    "leonids"
+   ],
+   "src": "Science News, 12 Nov 2026 (Meghan Bartels): Europe’s Hera mission is ready to double down on asteroid science",
+   "img": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_MB_Dimorphos_main.jpg",
+   "credit": "Photo: ESA (Hera Asteroid Framing Camera), via Science News"
+  },
+  {
+   "id": "clay",
+   "dom": "life",
+   "lab": "Life · Fingerprints",
+   "hot": 1,
+   "big": 0,
+   "art": "fingerprint",
+   "cap": "Fingerprints 14,500 years old on a clay torso: an adult’s and a child’s on the same piece",
+   "num": "60",
+   "nums": "clay pieces preserving fingerprints, out of about 150 sculpture fragments and tens of thousands of lumps sorted from 40 kg of Natufian clay",
+   "p1": "Archaeologists led by Laurent Davin of the Hebrew University of Jerusalem sorted about 40 kilograms of clay from three Natufian sites in present-day Israel, dated between 15,000 and 11,600 years old, where hunter-gatherers were building some of the first permanent settlements. Among tens of thousands of lumps they found about 150 sculpture fragments, including 15 recognisable birds, gazelles and humans, and around 60 pieces that preserve fingerprints. The spacing of the ridges says most of the makers were women and children, some younger than 10, with only a few prints from men.",
+   "p2": "One human torso, 14,500 years old, carries the prints of both an adult and a child. Davin suspects an adult teaching a child.",
+   "deep": [
+    [
+     "Reading a fingerprint",
+     "The spacing between fingerprint ridges is influenced by age and sex, so it gives a rough age and sex. Most of the figurines are under 2 cm long and show little wear."
+    ],
+    [
+     "Hard to find",
+     "Concrete evidence of children’s involvement has been hard to find, Davin says. Earlier finds of children’s work Science News lists: rock art about 200,000 years old in Tibet bearing child-sized handprints, and clay sculptures about 30,000 years old in what is now the Czech Republic pockmarked with child-sized fingerprints."
+    ],
+    [
+     "Beyond adult males",
+     "It demonstrates how much researchers can learn from broadening their focus beyond adult males, says archaeologist Steven Dorland of Grand Valley State University in Michigan. The paper is in PLOS One, 11 November 2026."
+    ],
+    [
+     "The photo",
+     "Laurent Davin’s photograph of the sculptures is published under a CC BY 4.0 licence."
+    ]
+   ],
+   "rel": [
+    "handhole",
+    "amyg",
+    "bog"
+   ],
+   "src": "Science News, 11 Nov 2026 (Freda Kreier): Stone Age children left fingerprints on ancient art projects · PLOS One, Davin et al.",
+   "img": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/11/111026_FK_pottery_main.jpg",
+   "credit": "Photo: Laurent Davin (CC BY 4.0), via Science News"
+  },
+  {
+   "id": "ps3",
+   "dom": "space",
+   "lab": "India · Rocket fix",
+   "hot": 0,
+   "big": 0,
+   "art": "solidmotor",
+   "cap": "PSLV’s third stage: anomalies on two flights. ISRO has fired the rebuilt one, bolted down",
+   "num": "240 kN",
+   "nums": "maximum thrust of PSLV’s third-stage solid motor, which burns HTPB-based propellant; the whole 44.4 m rocket weighs 320 tonnes at lift-off, says ISRO’s PSLV page",
+   "p1": "On Thursday 12 November ISRO carried out a ground static test of the PSLV third stage, PS3, at the Static Test Facility of Satish Dhawan Space Centre in Sriharikota, and called it successful. The test follows anomalies in that stage on two missions, PSLV-C61/EOS-09 and PSLV-C62/EOS-N1; PSLV-C62 lifted off on 12 January this year and, ISRO says, ran into trouble towards the end of the PS3 burn. Since then ISRO has reviewed the stage’s design margins, raw-material acceptance criteria, assembly procedures and quality checks, changed the nozzle configuration to improve design margins, added redundancy in the sealing systems and updated the non-destructive tests done during integration and transport.",
+   "p2": "Why now: ISRO said in February that a national-level expert committee was reviewing the anomaly. Its line after Thursday’s test: “Based on the detailed analysis & reviews of the test data, further tests are planned.”",
+   "deep": [
+    [
+     "What a solid stage is",
+     "PS3 is a solid motor: ISRO’s PSLV page lists it as the S7 motor, burning HTPB-based propellant, with a maximum thrust of 240 kN. A new version of the stage was built for Thursday’s firing."
+    ],
+    [
+     "The January anomaly",
+     "ISRO’s PSLV-C62 page says the mission was set to lift off on 12 January 2026 at 10:17 from the First Launch Pad and “encountered an anomaly during end of the PS3 stage”. A detailed analysis was begun, and in February ISRO said a national-level expert committee was reviewing the cause."
+    ],
+    [
+     "Another engine passed",
+     "On 5 November, at the ISRO Propulsion Complex in Mahendragiri, the cryogenic engine for the next GSLV flight, GSLV-F19, ran for 200 seconds in its flight acceptance test; both the main engine and the gas generator lit as expected. That engine goes into the stage that will launch the NVS-04 navigation satellite."
+    ],
+    [
+     "The photo",
+     "ISRO’s picture shows the static test of the PS3 solid motor under way at Sriharikota on 12 November."
+    ]
+   ],
+   "rel": [
+    "hera",
+    "dragon",
+    "lightday"
+   ],
+   "src": "ISRO, 12 Nov 2026: Ground test of third stage of PSLV (PS3) conducted successfully · ISRO PSLV-C62 mission page (8 Jan 2026), PSLV Update (25 Feb 2026) and PSLV configuration page · ISRO, 10 Nov 2026: flight acceptance test of cryogenic engine for GSLV-F19",
+   "img": "https://www.isro.gov.in/media_isro/image/index/Latest/HPS3ST14V1_12112026.webp",
+   "credit": "Photo: ISRO"
+  },
+  {
    "id": "lightday",
    "dom": "space",
    "lab": "Space · Light-day",
-   "hot": 1,
-   "big": 1,
+   "hot": 0,
+   "big": 0,
    "art": "shine",
    "cap": "Voyager 1 is one light-day away next week. NASA wants your phone to flash it on Tuesday",
    "num": "16 billion miles",
@@ -69,23 +223,258 @@
    "rel": [
     "leonids",
     "dragon",
-    "chandra"
+    "hera"
    ],
    "src": "NASA release M26-086, 10 Nov 2026 (Gerelle Q. Dodson): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities · NASA Science, What’s Up: November 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
    "credit": "Image: NASA/JPL-Caltech (artist’s concept)"
   },
   {
+   "id": "bog",
+   "dom": "earth",
+   "lab": "Earth · Peat",
+   "hot": 0,
+   "big": 0,
+   "art": "peat",
+   "cap": "Peat covers 3% of land yet holds twice the carbon of every forest. Landsat over Scotland",
+   "num": "600+ gigatons",
+   "nums": "of carbon stored in the world’s peatlands, which cover 3 percent of Earth’s land: about twice as much as all the world’s forests combined, says NASA Earth Observatory",
+   "p1": "NASA Earth Observatory’s image of 12 November is a Landsat 8 view of the Flow Country in the Scottish Highlands, where peat bogs span about 1,900 square kilometres. Peat is partially decayed plant matter that piles up where soil is so waterlogged that microbes cannot fully break it down; in parts of the Flow Country it has been accumulating for more than 9,000 years and the deposits exceed eight metres in depth. It is the first peatland of its type inscribed as a UNESCO World Heritage Site.",
+   "p2": "Why it matters: blanket bogs like this cover roughly 120,000 square kilometres worldwide, under a tenth of one percent of Earth’s land, yet peatlands as a whole hold more than 600 gigatons of carbon.",
+   "deep": [
+    [
+     "Blanket",
+     "Blanket bogs, also called blanket mires and featherbed bogs, form only where rain is abundant, drainage poor and evaporation low: soggy, treeless land of hummocky mosses, grasses and heathers. The Earth Observatory counts more than 30 species of sphagnum moss in the Flow Country."
+    ],
+    [
+     "Nine thousand years",
+     "UNESCO’s figures, quoted by the Earth Observatory: some parts have accumulated peat for more than 9,000 years, and the deposits are more than eight metres thick."
+    ],
+    [
+     "The picture",
+     "Landsat 8’s Operational Land Imager acquired the scene on 4 March 2024. The image was made by Michala Garrison with Landsat data from the US Geological Survey; the story is by Adam Voiland."
+    ]
+   ],
+   "rel": [
+    "clay",
+    "hera",
+    "planes"
+   ],
+   "src": "NASA Earth Observatory, 12 Nov 2026 (Adam Voiland; image by Michala Garrison, Landsat 8 OLI, 4 Mar 2024): Scotland’s Flow Country",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/scotland's-flow-country-/scotland_flowcountry_oli2_20240304_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA Earth Observatory / Michala Garrison, Landsat data from USGS"
+  },
+  {
+   "id": "greenwd",
+   "dom": "space",
+   "lab": "Physics · Star colours",
+   "hot": 0,
+   "big": 0,
+   "art": "greenstar",
+   "cap": "Hot things glow red, white, then blue, never green. Then astronomers found a green star",
+   "num": "4,000 K",
+   "nums": "surface temperature of the white dwarf WDJ1330+6435, about 282 light-years away, which a Warwick team describes as the first genuinely green star known",
+   "p1": "Heat anything enough and it glows: a toaster element or a dimmed filament bulb goes dull red, then orange, then white. Physics World’s rule of thumb: about 1,000 K glows red, about 6,000 K white. Stars climb the same ladder from red to orange to white to blue, and no step on that ladder is green: no other star had ever been credibly reported as green. Yet a team led by Mark Hollands at the University of Warwick reports a pale green white dwarf, WDJ1330+6435, about 282 light-years away, with a surface near 4,000 K.",
+   "p2": "The trick: calcium and sodium in its atmosphere, debris from asteroids or comets it has swallowed. Sodium normally absorbs a narrow orange, calcium violet; in a white dwarf’s atmosphere, dense at about 1 g/cm³, collisions with the hydrogen and helium atoms broaden the sodium absorption to take in some yellow, lots of orange and some red, and what is left looks pale green.",
+   "deep": [
+    [
+     "The test",
+     "Find a dimmer switch or watch a toaster element heat up. Note the order of colours, and that there is never a green stage. For a glowing body the colour is set by temperature."
+    ],
+    [
+     "Other odd colours",
+     "Physics World notes that carbon-rich white dwarfs look pink or purple, and cooler ones with mixed hydrogen and helium atmospheres cyan or pale blue. Nearly 400,000 white dwarfs are known, mostly from ESA’s Gaia mission, and about 90 percent have never had their light split into a spectrum."
+    ],
+    [
+     "Who found it",
+     "“I have analysed tens of thousands of white dwarf spectra over the years,” says Hollands, whose team publishes in RAS Techniques and Instruments. Of the result: “The resulting mixture of wavelengths results in a pale green colour.”"
+    ]
+   ],
+   "rel": [
+    "bubble",
+    "hera",
+    "lightday"
+   ],
+   "src": "Physics World, 11 Nov 2026 (Isabelle Dumé): White dwarf star glows an eerie green · RAS Techniques and Instruments"
+  },
+  {
+   "id": "bubble",
+   "dom": "matter",
+   "lab": "Physics · Soap film",
+   "hot": 1,
+   "big": 0,
+   "art": "film",
+   "cap": "Why a soap film is striped in colour, and why its thinnest part is black. Test: a cup rim",
+   "num": "4%",
+   "nums": "of the light hitting a soap film reflects off its front surface; the rest passes in, and some reflects off the back. The two reflections make the colours, says the Exploratorium",
+   "p1": "Dip a wire loop or the rim of a cup in bubble solution and hold the film upright against something dark, with a white wall behind you. Bands of colour appear and slide downwards as water drains and the film thins. The Exploratorium’s explanation: light reflecting from the front surface and light reflecting from the back surface recombine; where the extra distance through the film puts the two waves out of step they cancel, and where in step they reinforce. White light with one colour cancelled looks like its opposite: no red gives cyan, no green gives magenta, no blue gives yellow. So a yellow band is where the film’s thickness kills blue.",
+   "p2": "The test: watch the top of the film as it thins. It turns black. The film there is so thin that the two reflections cancel for every colour, and you see nothing.",
+   "deep": [
+    [
+     "Why black",
+     "The front reflection is flipped, because the light is bouncing off a slower medium, air to soap; the back reflection, soap to air, is not. For a film far thinner than a wavelength the two reflections are out of step for every colour, and cancel: black."
+    ],
+    [
+     "The numbers",
+     "Soap solution has an index of refraction of about 1.4, so a wavelength inside the film is the air wavelength divided by 1.4. Blue cancels where the film is half a blue wavelength thick, while red is reinforced where the film is a quarter of a red wavelength thick, or a multiple of that. The bands repeat like contour lines as the thickness grows."
+    ],
+    [
+     "The recipe",
+     "The Exploratorium’s mix: 2/3 cup (150 mL) of dishwashing liquid and 1 tablespoon of glycerin in 1 gallon (3.8 L) of water, left overnight, which the museum says significantly lengthens the life of the film. A dry finger pops the film; a soap-wetted finger passes through."
+    ]
+   ],
+   "rel": [
+    "greenwd",
+    "handhole",
+    "spinheat"
+   ],
+   "src": "Exploratorium Science Snacks: Soap Film Painting · Soap Film Interference"
+  },
+  {
+   "id": "spinheat",
+   "dom": "sg",
+   "lab": "Singapore · Heat from inside",
+   "hot": 0,
+   "big": 0,
+   "art": "induct",
+   "cap": "NTU glue cured from inside by magnetic nanoparticles. One hour matched 24 hours in an oven",
+   "num": "1 h vs 24 h",
+   "nums": "adhesive coatings cured by magnetic induction for one hour reached bonding strength comparable to coatings baked in a conventional oven for 24 hours, NTU reports",
+   "p1": "Paints, glues and resins on car and aircraft parts are usually cured by putting the whole component into an industrial oven. NTU’s alternative, called Spinheat, mixes specially designed magnetic nanoparticles into the coating; an alternating magnetic field makes the particles generate heat inside the material, so the coating cures from within and heat-sensitive parts are spared. On Thursday NTU announced a partnership with Motherson, a design, engineering and manufacturing company with more than 475 facilities in 47 countries, to take it towards the factory floor.",
+   "p2": "Why it matters: in the lab, one hour under the magnetic field matched 24 hours in an oven, and NTU says it could cut energy use, carbon emissions and the space taken up by curing equipment.",
+   "deep": [
+    [
+     "Who and how",
+     "Professor Raju V. Ramanujan and Associate Professor Terry Steele of NTU’s School of Materials Science and Engineering lead the work; NTU first demonstrated magnetic-field-activated epoxy curing in 2020. The latest version reads the temperature in real time and adjusts the field, delivering heat only when needed, to reduce overheating, bubbles and other defects."
+    ],
+    [
+     "Next",
+     "“The next challenge is to understand how this can work reliably within automotive manufacturing,” said Steele. The work is funded by the National Research Foundation under its 29th Competitive Research Programme, was published in Applied Materials Today earlier in 2026, and the intellectual property is filed through NTUitive."
+    ],
+    [
+     "The partner",
+     "Motherson makes automotive and aerospace components; Dhruv Mehra, Director of Motherson Singapore, is quoted for the company in the announcement."
+    ]
+   ],
+   "rel": [
+    "planes",
+    "neobot",
+    "bubble"
+   ],
+   "src": "NTU News, 12 Nov 2026: NTU, Motherson to develop magnetic technology to cut manufacturing time and energy use",
+   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1---ntu-and-motherson-singapore.jpg?sfvrsn=58aec44e_1",
+   "credit": "Photo: NTU Singapore"
+  },
+  {
+   "id": "handhole",
+   "dom": "try",
+   "lab": "Try it · 2 min",
+   "hot": 0,
+   "big": 0,
+   "art": "tube",
+   "cap": "Paper tube to one eye, other palm beside it, both eyes open: a hole opens in your hand",
+   "num": "1.25 cm",
+   "nums": "the tube’s diameter in the Exploratorium’s recipe: a sheet of A4 or letter paper rolled lengthwise into a tube about 28 cm long, taped shut",
+   "p1": "Roll a sheet of paper lengthwise into a tube about 28 cm long and 1.25 cm across and tape it. Hold it in your right hand up to your right eye, both eyes open, and look through it. Now rest your left hand against the left side of the tube about halfway along, fingers pointing up, palm facing you. Your palm appears to have a round hole punched through it. Swap hands and eyes and it happens again.",
+   "p2": "Why: one eye sees the hole, the other sees the hand, and your brain fuses the two pictures into a hand with a hole in it.",
+   "deep": [
+    [
+     "Make it",
+     "The Exploratorium’s recipe is one 8½ × 11 inch sheet of white paper and transparent tape: roll it lengthwise into a tube about 11 inches (28 cm) long and about half an inch (1.25 cm) across, and tape it so it stays rolled."
+    ],
+    [
+     "The dominant eye",
+     "Some people find the effect stronger with one eye than the other, the Exploratorium says, because one eye is usually dominant: the brain favours its input. Eye dominance is like handedness, but your dominant eye and dominant hand need not match."
+    ],
+    [
+     "Two pictures, one view",
+     "Your two eyes always see slightly different pictures, and your eyes and brain fuse them into one view. Here they are handed a hole and a hand, and fuse those too."
+    ]
+   ],
+   "rel": [
+    "bubble",
+    "clay",
+    "amyg"
+   ],
+   "src": "Exploratorium Science Snacks: Hole In Your Hand"
+  },
+  {
+   "id": "amyg",
+   "dom": "mind",
+   "lab": "Mind · Memory",
+   "hot": 0,
+   "big": 0,
+   "art": "neuron",
+   "cap": "The brain’s fear centre is also its save button: how hard it fires decides what you keep",
+   "num": "90+",
+   "nums": "people with drug-resistant epilepsy, already carrying electrodes to locate their seizures, whose single neurons were recorded while they looked at everyday objects",
+   "p1": "Neuroscientist Jiayang Xiao of Cedars-Sinai in Los Angeles and colleagues recorded single neurons in more than 90 people who had electrodes implanted to find the source of their epileptic seizures. Participants viewed images of everyday objects from five categories, such as food and animals, and were asked 10 to 30 minutes later what they remembered. Neurons in the amygdala, two clusters deep in the brain better known for fear, first sorted each image into its category, and the strength of that first response predicted whether the image would be recalled.",
+   "p2": "“We forget much of what we experience,” says Xiao; “only a fraction of the information we encounter becomes a lasting memory.” The hippocampus, the usual hero of memory, showed a weaker and slightly delayed link.",
+   "deep": [
+    [
+     "Two jobs",
+     "The amygdala regulates emotions like fear and aggression; this work, in Nature Neuroscience, adds sorting memories for longer-term storage. Science News also asked cognitive neuroscientist Cory Inman of the University of Utah, who was not involved, for his reading."
+    ],
+    [
+     "Why single neurons",
+     "The electrodes were there for medicine, to locate seizures before surgery; the memory recordings rode along, a rare chance to listen to individual cells in a living human brain."
+    ],
+    [
+     "Try it on yourself",
+     "The finding says the first moment matters: how strongly you sort something when you first see it predicts recall. Next time you meet a new word or formula, say what kind of thing it is before moving on, and check a week later whether it stuck."
+    ]
+   ],
+   "rel": [
+    "aimit",
+    "handhole",
+    "clay"
+   ],
+   "src": "Science News, 12 Nov 2026 (Allie Skalnik): The brain’s fear center moonlights as the save button for memories · Nature Neuroscience, Xiao et al."
+  },
+  {
+   "id": "aimit",
+   "dom": "usingai",
+   "lab": "Using AI · MIT",
+   "hot": 0,
+   "big": 0,
+   "art": "aimit",
+   "cap": "MIT’s phrase for what a chatbot answer can create: “the illusion of learning”",
+   "num": "8",
+   "nums": "principles in MIT’s 2026 report on AI in education",
+   "p1": "MIT’s report does not call for banning AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
+   "p2": "The point: the product of school is you, not the mark.",
+   "deep": [
+    [
+     "What MIT asks of its own students",
+     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
+    ],
+    [
+     "Why checking matters",
+     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s guidance for research: a human is responsible for verifying the output, and AI should never be listed as a co-author."
+    ],
+    [
+     "Keep it human",
+     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
+    ]
+   ],
+   "rel": [
+    "neobot",
+    "amyg",
+    "tincan"
+   ],
+   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
+  },
+  {
    "id": "leonids",
    "dom": "space",
    "lab": "Space · Meteors",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "meteor",
-   "cap": "Leonids before dawn on Tuesday and Wednesday, up to 15 an hour. Tonight, the Taurids",
+   "cap": "Leonids before dawn Tuesday and Wednesday, up to 15 an hour. Mars meets Jupiter at dawn",
    "num": "15 an hour",
    "nums": "Leonid meteors under ideal skies in the early hours of 17 and 18 November, after the Moon has set; most people will see fewer",
-   "p1": "NASA’s skywatching notes for November put the Leonid meteor shower at its best in the early morning hours of Tuesday 17 and Wednesday 18 November, after the Moon sets: up to about 15 meteors an hour under ideal conditions, fewer for most viewers. Tonight, 12 November, the Northern Taurids peak at a gentler 5 an hour. And on the mornings of 15 and 16 November Mars and Jupiter stand about 1.2° apart in the south-east before sunrise, Jupiter the brighter, Mars reddish beside it.",
+   "p1": "NASA’s skywatching notes for November put the Leonid meteor shower at its best in the early morning hours of Tuesday 17 and Wednesday 18 November, after the Moon sets: up to about 15 meteors an hour under ideal conditions, fewer for most viewers. Around 12 November the Northern Taurids peaked at a gentler 5 an hour. And on the mornings of 15 and 16 November Mars and Jupiter stand about 1.2° apart in the south-east before sunrise, Jupiter the brighter, Mars reddish beside it.",
    "p2": "Why now: New Moon was 8 November and first quarter is 17 November (US Pacific time); NASA says to look after the Moon sets.",
    "deep": [
     [
@@ -107,207 +496,53 @@
    ],
    "rel": [
     "lightday",
-    "ruby",
-    "chandra"
+    "hera",
+    "greenwd"
    ],
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
    "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
    "credit": "Photo: NASA / Preston Dyches (CC BY-NC 2.0)"
   },
   {
-   "id": "ruby",
+   "id": "dragon",
    "dom": "space",
-   "lab": "Space · Rubies on Mars?",
-   "hot": 1,
+   "lab": "Space · Coming home",
+   "hot": 0,
    "big": 0,
-   "art": "ruby",
-   "cap": "Perseverance’s laser lit two reds in a Mars rock, 692.7 and 694.1 nm: ruby’s glow",
-   "num": "692.7 nm",
-   "nums": "and 694.1 nanometres: the two luminescence peaks SuperCam saw, traced to chromium in corundum, the mineral family that includes ruby",
-   "p1": "When Perseverance’s SuperCam fires its laser at a rock, some rocks glow back. Roger Wiens of Purdue University, SuperCam’s principal investigator, writes that luminescence peaks at 692.7 and 694.1 nanometres have been traced to chromium sitting in corundum, the mineral family that includes ruby. “While we haven’t found collectable rubies on Mars yet,” he writes, the find is reported in Geophysical Research Letters in a paper led by Ann Ollila.",
-   "p2": "Why now: NASA posted the blog on Monday 9 November (written 4 November). The team thinks the corundum may come from localised metamorphism in large impacts near the rim of Jezero crater.",
+   "art": "capsule",
+   "cap": "A spacesuit, station mould, drinking water: what the crew is packing into Dragon",
+   "num": "200 days",
+   "nums": "in space, across two expeditions, for NASA’s Jessica Watkins on 31 October; the photo shows her marking it with a tray of sweets",
+   "p1": "NASA’s station blog for Monday 9 November says the Expedition 75 crew began the week packing a SpaceX Dragon cargo craft to return to Earth next week. Flight engineer Anil Menon examined colonies of bacteria, mould and fungi grown from samples swabbed off station surfaces, measured and photographed them, and packed them for return. Jessica Watkins and Luke Delaney unpacked a newly delivered spacesuit, checked it and readied it for the Quest airlock, then moved another suit into Dragon so engineers on the ground can examine it.",
+   "p2": "Why it is interesting: nearly everything that goes up must be counted, swabbed, photographed and, if it is worth the seat, brought back down.",
    "deep": [
     [
-     "The laser as a lamp",
-     "SuperCam’s luminescence measurement reads the light a rock gives off after the laser hits it; the exact wavelengths act like a fingerprint of the atoms inside. Here the fingerprint was chromium inside corundum."
+     "Water and breath",
+     "Canadian Space Agency flight engineer Joshua Kutryk collected samples of the station’s drinking water for microbial analysis on Earth. Roscosmos flight engineer Sergey Teteryatnikov recorded his breathing rate wearing an acoustic monitor around his neck, for research on how weightlessness affects the respiratory system."
     ],
     [
-     "Why that matters",
-     "Corundum needs particular conditions to form. Wiens’ team suggests metamorphism driven by large impacts near the crater rim, where the rover has been exploring."
+     "Housekeeping in orbit",
+     "Station commander Pyotr Dubrov photographed mountains, volcanoes and deserts in South America and Africa. Anna Kikina checked docking mechanisms, cleaned smoke detectors and serviced life-support gear."
     ],
     [
-     "The rock in the picture",
-     "NASA’s image shows “Nhlanguleni”, a heavily pitted, light-toned float rock, photographed by the WATSON camera on the rover’s SHERLOC instrument on Sol 2023, 29 October 2026, at a spot called “Kapama Karula” in the “South Idubi” region."
-    ],
-    [
-     "In his words",
-     "“Exploration on Mars turns up the unexpected,” Wiens writes."
+     "What NASA did not say",
+     "The blog gives no undocking or splashdown date and no mission number for this Dragon, only “next week”. The crew of seven: Dubrov, Kikina and Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the CSA."
     ]
    ],
    "rel": [
-    "leonids",
     "lightday",
-    "chandra"
+    "hera",
+    "ps3"
    ],
-   "src": "NASA Science, Perseverance rover blog: Rubies on Mars? (Roger C. Wiens, Purdue University), posted 9 Nov 2026 · Geophysical Research Letters (Ollila et al.)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_SIF_2023_0846549705_738EBY_N0930000SRLC02503_0000LMJ.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-   "credit": "Photo: NASA/JPL-Caltech"
-  },
-  {
-   "id": "navajo",
-   "dom": "earth",
-   "lab": "Earth · Refilled",
-   "hot": 0,
-   "big": 0,
-   "art": "reservoir",
-   "cap": "A reservoir rose nearly 60 feet in seven weeks. Landsat watched the desert lake refill",
-   "num": "60 ft",
-   "nums": "nearly 60 feet (18 m) of rise at Navajo Reservoir between 20 September and 7 November 2026, from 60% to 108% of average for the date",
-   "p1": "Two Landsat 9 images, taken on 20 September and 7 November 2026, show Navajo Reservoir on the New Mexico–Colorado border swelling after weeks of rain. US Army Corps of Engineers data say the lake rose nearly 60 feet (18 m) between the two dates, from 60 percent of average for the date to 108 percent, its highest since August 2019. The cause: back-to-back extreme rain events over the Four Corners region in late October and early November, with precipitation from early September to early November two to four times the average.",
-   "p2": "Why now: NASA Earth Observatory’s image of the day for Wednesday 11 November, after a “snow drought” winter had left the lake low.",
-   "deep": [
-    [
-     "One storm, five inches",
-     "Pagosa Springs, Colorado, about 40 miles (64 km) northeast of the lake, on the San Juan River, got 5.05 inches (12.8 cm) of rain in the first storm. The river reached major flood stage on 23 October and nearly matched its 1911 record on 1 November; evacuation orders were issued and dozens of people were rescued."
-    ],
-    [
-     "Drought over, for now",
-     "The US Drought Monitor said on 3 November that short-term drought had ended for the Southwest and Great Basin. The 2025–26 snowpack had been so low that the spring melt gave the reservoir little."
-    ],
-    [
-     "Why so wet",
-     "Earth Observatory links the weather to El Niño and to a low-latitude low-pressure system fed by unusually warm ocean temperatures."
-    ],
-    [
-     "The eyes",
-     "The Operational Land Imager on Landsat 9; images by Michala Garrison, story by Lindsey Doermann."
-    ]
-   ],
-   "rel": [
-    "leonids",
-    "planes",
-    "kelp"
-   ],
-   "src": "NASA Earth Observatory, Image of the Day, 11 Nov 2026: Water Surges Into Navajo Reservoir (Lindsey Doermann; images Michala Garrison, Landsat data from USGS)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: NASA Earth Observatory / Michala Garrison, Landsat 9 data from USGS"
-  },
-  {
-   "id": "guide",
-   "dom": "mind",
-   "lab": "India · Drone guide",
-   "hot": 0,
-   "big": 0,
-   "art": "guidedrone",
-   "cap": "An IISc drone flies beside a blind walker and places obstacles to within 25 cm",
-   "num": "25 cm",
-   "nums": "how closely the drone judged the distance to the person it followed; cars and bicycles within 60 cm, where existing depth software was off by 1.4 to 2 m",
-   "p1": "A smart cane only finds what is straight ahead. Yogesh Simmhan’s group at the Indian Institute of Science in Bengaluru wants a small drone flying alongside a visually impaired person, warning of obstacles around them. The catch: a cheap drone has one camera, and a single camera cannot easily tell whether an object is small and close or big and far away. Their method, NeoARCADE, turns a camera’s depth scores into real distances: on the IISc campus it judged the distance to the person it followed to within 25 cm, and to cars and bicycles within 60 cm.",
-   "p2": "Why here: more than 2.2 billion people worldwide have some form of visual impairment, the IISc page says; the paper is in ACM Transactions on Cyber-Physical Systems (2026).",
-   "deep": [
-    [
-     "Teach it a ruler",
-     "Existing depth-map software only ranks nearer and farther. Here the user first stands at a few known distances from the drone; the system derives a rule linking depth score to distance, then applies it to other objects using each object’s pixel closest to the camera. When conditions change it detects the drift and recalibrates."
-    ],
-    [
-     "In the field",
-     "Testing, led by doctoral student Suman Raj, used a small off-the-shelf drone following a student posing as a visually impaired person around campus, with the computing done on a small GPU device that fits in a backpack."
-    ],
-    [
-     "The numbers",
-     "Within 25 cm for the person, 60 cm for cars and bicycles; the existing depth-map software was off by 1.4 to 2 m."
-    ],
-    [
-     "Who",
-     "Simmhan is in IISc’s Department of Computational and Data Sciences; the authors are Raj, Madhabhavi, Kumar, Gupta and Simmhan."
-    ]
-   ],
-   "rel": [
-    "planes",
-    "tincan",
-    "ai17"
-   ],
-   "src": "Indian Institute of Science, Bengaluru (Mohit Singh): Helping drones guide visually impaired people, 2026 · ACM Transactions on Cyber-Physical Systems (Raj et al., 2026)"
-  },
-  {
-   "id": "motor",
-   "dom": "matter",
-   "lab": "Physics · Motor",
-   "hot": 0,
-   "big": 0,
-   "art": "motor",
-   "cap": "A motor from 60 cm of wire, 2 magnets, 2 paper clips and a battery. Trick: one black mark",
-   "num": "60 cm",
-   "nums": "of solid copper wire (20–24 gauge), wound into a 2.5 cm coil of four or five loops, is enough for the Exploratorium’s stripped-down motor",
-   "p1": "The Exploratorium’s stripped-down motor is a coil of wire about 2.5 cm across, resting in two unfolded paper clips above a ceramic magnet, with a C or D battery wired in through strips of aluminium foil. Flick it and it spins. When current flows the coil becomes an electromagnet with a north face and a south face; the magnet below pulls the opposite pole and pushes the like one, so the coil turns. Equivalently, Feynman’s force law says a magnetic field pushes sideways on moving charges, and the current in the top and bottom of the loop is pushed in opposite directions: a twist.",
-   "p2": "Why it keeps going: one projecting wire end is painted black on half its circumference, so the current cuts out for half of every turn, the coil never settles, and inertia carries it round to the next push.",
-   "deep": [
-    [
-     "Build it",
-     "Wind four or five loops; wrap each wire end round the coil to hold it, leaving about 5 cm sticking out each side; strip the insulation or sand the enamel off the ends. Set the coil so it clears the magnet by about 1.5 mm (1/16 in). Stack a second magnet inside the cup under the first to strengthen the field."
-    ],
-    [
-     "If it will not spin",
-     "Check the coil is balanced, the enamel fully removed, exactly one end half-painted, and the coil clears the magnet. The Exploratorium says to be patient: the design has a high success rate. Then reverse the battery, add a second, or flip the magnets and watch what changes."
-    ],
-    [
-     "The real thing",
-     "The sliding contacts are commutators. Real DC motors use commutators that reverse the current every half-turn instead of just cutting it, which makes them about twice as powerful as this design. Swap the battery for a sensitive galvanometer, spin the coil by hand, and it becomes a generator."
-    ],
-    [
-     "Feynman’s one line",
-     "In Volume II, chapter 1, the whole of electromagnetism’s push on a charge is one formula: the electric field pushes any charge, the magnetic field pushes only a moving charge, and sideways to its motion. The motor is that second term, made of paper clips."
-    ]
-   ],
-   "rel": [
-    "airspeed",
-    "tincan",
-    "moire"
-   ],
-   "src": "Exploratorium Science Snacks: Stripped-Down Motor · The Feynman Lectures on Physics, Vol. II, ch. 1 (Caltech)"
-  },
-  {
-   "id": "airspeed",
-   "dom": "matter",
-   "lab": "Physics · Air",
-   "hot": 0,
-   "big": 0,
-   "art": "molecules",
-   "cap": "Air molecules hit your hand at about 500 m/s, all day. You feel nothing. Here is why",
-   "num": "500 m/s",
-   "nums": "the average speed of air molecules at 300 K (25 °C), about 1,100 mph, says NIST; individual molecules vary, 223 m/s and 717 m/s among its examples",
-   "p1": "At 300 K, about 25 °C, the molecules of air move at an average of about 500 m/s, around 1,100 mph, according to NIST, the US standards institute; some go at 223 m/s, others at 717 m/s, in every direction. Feynman’s lecture on the kinetic theory of gases turns that pummelling into pressure: each molecule bouncing off a wall hands it a small kick of momentum, and adding up the kicks per second gives a pressure equal to two-thirds of the molecules’ kinetic energy per unit volume. You feel none of it because it comes from all sides at once.",
-   "p2": "Test it with the Exploratorium’s Bernoulli levitator: push a pin through a 7.5 cm square of card, hold it under a thread spool with the pin up the hole, blow hard down through the spool and let go. The card hangs on.",
-   "deep": [
-    [
-     "The one-third",
-     "Molecules move randomly in all directions, so on average the motion splits equally between the three directions of space; only the share aimed at the wall counts, which is where the 1/3 in Feynman’s formula comes from. Only half the molecules near the wall are heading toward it, and that half cancels the factor 2 in each bounce, so the final formula has no stray twos."
-    ],
-    [
-     "Temperature is speed",
-     "Feynman defines temperature so that the average kinetic energy of a molecule is 3/2 kT, with Boltzmann’s constant k. Two different gases at the same temperature have the same average energy per molecule, so the lighter molecules move faster. k was fixed at exactly 1.380649 × 10⁻²³ joules per kelvin when the kelvin was redefined in November 2018, NIST explains."
-    ],
-    [
-     "Why the card hangs",
-     "Air leaving the spool spreads fast across the card; the Exploratorium says any fluid loses pressure as it speeds up, so the fast layer between spool and card is at lower pressure than the still air below, and the still air pushes the card up against the spool. The same effect works an atomizer and can pop windows out when two trains pass."
-    ],
-    [
-     "Light has pressure too",
-     "Feynman adds that a gas of light, photons, pushes with one-third of its energy per volume rather than two-thirds."
-    ]
-   ],
-   "rel": [
-    "motor",
-    "moire",
-    "navajo"
-   ],
-   "src": "NIST, SI Redefinition: Kelvin — Boltzmann Constant · The Feynman Lectures on Physics, Vol. I, ch. 39 (Caltech) · Exploratorium Science Snacks: Bernoulli Levitator"
+   "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg",
+   "credit": "Photo: NASA / Anil Menon"
   },
   {
    "id": "tincan",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "handset",
    "cap": "A $100 kids’ landline: cord, no screen, no apps, Wi-Fi inside. One 7-year-old shrugged",
@@ -334,9 +569,9 @@
     ]
    ],
    "rel": [
-    "ear3a",
-    "guide",
-    "ai17"
+    "neobot",
+    "aimit",
+    "amyg"
    ],
    "src": "TIME Best Inventions 2026 (Emma Barker Bonomo) · tincan.kids product and About pages · Tom’s Guide (Mike Prospero), updated 19 Jul 2026, one-month test"
   },
@@ -371,254 +606,11 @@
     ]
    ],
    "rel": [
-    "guide",
-    "navajo",
-    "wee"
+    "spinheat",
+    "neobot",
+    "bog"
    ],
    "src": "NTU School of Mechanical and Aerospace Engineering news, 4 Nov 2026: Artificial Intelligence Keeps Planes Safe in Bad Weather (MAE Collective 2026, AI edition) · Advanced Engineering Informatics 65:103157 (2025)"
-  },
-  {
-   "id": "moire",
-   "dom": "try",
-   "lab": "Try it · Two combs",
-   "hot": 0,
-   "big": 0,
-   "art": "moire",
-   "cap": "Hold two combs a finger-width apart and slide one. The rippling pattern is not in them",
-   "num": "2.5 cm",
-   "nums": "from a mirror: one comb and its reflection make the pattern too",
-   "p1": "Hold two identical pocket combs about a finger’s width apart, look through them, and slide or turn one. Bands of light and dark ripple across; the Exploratorium says the pattern magnifies the slightest misalignment. The Exploratorium calls them moiré patterns: dark where the teeth of one comb cover the gaps of the other, light where the gaps line up. Only one comb? Hold it about 2.5 cm from a mirror and look at it together with its reflection.",
-   "p2": "Why it works: the pattern is in the image your eye forms, not in the combs. It magnifies tiny misalignments: perfectly aligned, no pattern; more misaligned, the bands get thinner and closer together.",
-   "deep": [
-    [
-     "Bigger versions",
-     "Two pieces of window screen overlapped and flexed; or one screen, a light and a white card moved away, so the screen and its own shadow make the pattern. Two transparencies printed with concentric circles, moved apart and together, give a pattern that looks like the nodal lines of a two-slit interference pattern, where light waves from the two slits cancel."
-    ],
-    [
-     "Spot it outside",
-     "Chain-link fences seen through each other, thin curtains folded double, and layers of fine fabric all show moiré."
-    ],
-    [
-     "Why it magnifies",
-     "Perfect alignment gives no pattern at all, and the greater the misalignment, the thinner and closer the bands, which is why the slightest misalignment shows up as a large, easily visible pattern."
-    ]
-   ],
-   "rel": [
-    "airspeed",
-    "motor",
-    "kelp"
-   ],
-   "src": "Exploratorium Science Snacks: Moiré Patterns"
-  },
-  {
-   "id": "kelp",
-   "dom": "life",
-   "lab": "Life · Robot diver",
-   "hot": 0,
-   "big": 0,
-   "art": "kelp",
-   "cap": "A 14-year-old borrowed a sea robot, got seasick at the controls, surveyed 6 kelp beds",
-   "num": "6 kelp beds",
-   "nums": "two declining, two recovering, two stable, chosen from Kelpwatch satellite data off Santa Cruz, California",
-   "p1": "Linden Hunter-Pinsky, 14, passes kelp beds on his way to school in Santa Cruz, California. The state’s kelp declined sharply in the 2010s, due to a heat wave and other factors, and some beds near Santa Cruz are recovering while others are not. He used Kelpwatch satellite data to pick six beds, two declining, two recovering and two stable, borrowed a remotely operated vehicle from a local nonprofit, and piloted it from his family’s rowboat. “I was being jostled around by the waves while staring at this controller, and I got seasick,” he told Science News Explores.",
-   "p2": "Why now: the project, done while he was at Gateway Middle School, made him a finalist in the 2026 Thermo Fisher Scientific Junior Innovators Challenge; the article ran on Tuesday 10 November.",
-   "deep": [
-    [
-     "What the camera saw",
-     "None of the six beds had many sea urchins, which graze on kelp. He would “love to look more into other factors that might be preventing kelp forest recovery in certain places.”"
-    ],
-    [
-     "Why kelp matters",
-     "Kelp forests shelter many species, including endangered ones, and trap climate-warming carbon."
-    ],
-    [
-     "Next",
-     "He is living in Chile for a year and is considering extending the project to Chile’s kelp forests. His advice: “Don’t feel constrained by what you think is a good project.”"
-    ]
-   ],
-   "rel": [
-    "navajo",
-    "guide",
-    "moire"
-   ],
-   "src": "Science News Explores, 10 Nov 2026 (Maria Temming), on Linden Hunter-Pinsky’s kelp-forest ROV survey"
-  },
-  {
-   "id": "ai17",
-   "dom": "usingai",
-   "lab": "Using AI · Evidence",
-   "hot": 0,
-   "big": 0,
-   "art": "ai17",
-   "cap": "The students who got their answers from AI scored 17% worse on the test",
-   "num": "–17%",
-   "nums": "on the exam, after working with a chatbot",
-   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
-   "p2": "Why: the researchers say the students used the bot as a “crutch” and did not learn the underlying concepts deeply enough.",
-   "deep": [
-    [
-     "The hint-only version was different",
-     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
-    ],
-    [
-     "What the researchers concluded",
-     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
-    ],
-    [
-     "Try it on yourself",
-     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
-    ]
-   ],
-   "rel": [
-    "tincan",
-    "guide",
-    "ear3a"
-   ],
-   "src": "PNAS, Bastani et al. 2025 · Wharton"
-  },
-  {
-   "id": "dragon",
-   "dom": "space",
-   "lab": "Space · Coming home",
-   "hot": 0,
-   "big": 0,
-   "art": "capsule",
-   "cap": "A spacesuit, station mould, drinking water: what the crew is packing into Dragon",
-   "num": "200 days",
-   "nums": "in space, across two expeditions, for NASA’s Jessica Watkins on 31 October; the photo shows her marking it with a tray of sweets",
-   "p1": "NASA’s station blog for Monday 9 November says the Expedition 75 crew began the week packing a SpaceX Dragon cargo craft to return to Earth next week. Flight engineer Anil Menon examined colonies of bacteria, mould and fungi grown from samples swabbed off station surfaces, measured and photographed them, and packed them for return. Jessica Watkins and Luke Delaney unpacked a newly delivered spacesuit, checked it and readied it for the Quest airlock, then moved another suit into Dragon so engineers on the ground can examine it.",
-   "p2": "Why it is interesting: nearly everything that goes up must be counted, swabbed, photographed and, if it is worth the seat, brought back down.",
-   "deep": [
-    [
-     "Water and breath",
-     "Canadian Space Agency flight engineer Joshua Kutryk collected samples of the station’s drinking water for microbial analysis on Earth. Roscosmos flight engineer Sergey Teteryatnikov recorded his breathing rate wearing an acoustic monitor around his neck, for research on how weightlessness affects the respiratory system."
-    ],
-    [
-     "Housekeeping in orbit",
-     "Station commander Pyotr Dubrov photographed mountains, volcanoes and deserts in South America and Africa. Anna Kikina checked docking mechanisms, cleaned smoke detectors and serviced life-support gear."
-    ],
-    [
-     "What NASA did not say",
-     "The blog gives no undocking or splashdown date and no mission number for this Dragon, only “next week”. The crew of seven: Dubrov, Kikina and Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the CSA."
-    ]
-   ],
-   "rel": [
-    "lightday",
-    "chandra",
-    "ruby"
-   ],
-   "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/blog-iss075e0254018.jpg",
-   "credit": "Photo: NASA / Anil Menon"
-  },
-  {
-   "id": "chandra",
-   "dom": "space",
-   "lab": "Space · Hidden thief",
-   "hot": 0,
-   "big": 0,
-   "art": "binary",
-   "cap": "A star 30 million light-years away flares every 113 days. X-rays found what was robbing it",
-   "num": "113 days",
-   "nums": "between the outbursts of the star AT 2016blu; at least 27 of them were recorded between 2012 and 2026",
-   "p1": "For 15 years astronomers watched a star in the spiral galaxy NGC 4559, about 30 million light-years away, brighten like a supernova and then survive, over and over. The star, AT 2016blu, is a luminous blue variable, a type sometimes called a “supernova impostor”, with at least 33 times the Sun’s mass. NASA’s Chandra X-ray Observatory has now found the cause: a previously hidden companion, either a black hole or a neutron star, that pulls material off the star every 113 days as the two orbit each other.",
-   "p2": "Why now: NASA published the result on Monday 9 November; the paper is in The Astrophysical Journal.",
-   "deep": [
-    [
-     "Caught at the right time",
-     "Chandra observed the star on 24 to 27 March 2026, after optical telescopes saw an outburst begin, under its “Target of Opportunity” programme. In X-rays the star was at least 100 times brighter than in 2001 to 2002, before the outbursts started. Lead author Mojgan Aghakhanloo of the University of Virginia: “Until we were able to get Chandra data at the right time, we couldn’t figure out what was making this happen.”"
-    ],
-    [
-     "Why Chandra",
-     "A nearby bright X-ray source sits close to AT 2016blu on the sky, and NASA says Chandra is the only X-ray telescope with vision sharp enough to tell the two apart. The page calls this the first X-ray detection of this class of erupting star, and the first found with a black hole or neutron star companion."
-    ],
-    [
-     "Amateurs counted the bursts",
-     "The optical record came from the Katzman Automatic Imaging Telescope, the Las Cumbres Observatory Global Supernova Project and the American Association of Variable Star Observers, including data from more than 30 amateur astronomers. Co-author Núria Torres-Albà: “This star’s behavior was confusing at first because it kept acting like a supernova, but clearly it’s not because it keeps surviving these outbursts about three times a year.”"
-    ],
-    [
-     "The picture",
-     "The image combines Chandra X-rays with a Sloan Digital Sky Survey optical view of NGC 4559. The best-known luminous blue variable is Eta Carinae, in our own galaxy."
-    ]
-   ],
-   "rel": [
-    "ruby",
-    "lightday",
-    "leonids"
-   ],
-   "src": "NASA / Chandra X-ray Center, 9 Nov 2026 (Megan Watzke): NASA’s Chandra Finds Source of Star’s Mysterious Outbursts · The Astrophysical Journal (Aghakhanloo et al.)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/chandra/2026/at2016blu.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Image: X-ray NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; optical SDSS; processing NASA/CXC/SAO/P. Edmonds"
-  },
-  {
-   "id": "ear3a",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "big": 0,
-   "art": "buds",
-   "cap": "Earbuds that record what you just heard. Maker says 10 hours; the tester got 4.5 with ANC",
-   "num": "32 MB",
-   "nums": "of flash memory inside Nothing’s Ear (3a) earbuds, enough to hold audio snapshots of up to a minute and call recordings",
-   "p1": "Nothing’s Ear (3a) are $99 earbuds on TIME’s Best Inventions 2026 list for one trick: pinch both buds and they save an “audio snapshot” of up to a minute, including up to 30 seconds of what played before you pinched, which the app can replay, transcribe or share. Inside: a 12 mm dynamic driver in each bud, Bluetooth 6.0, three directional microphones per bud, 32 MB of flash storage and an IP54 rating against dust and splashes. TechRadar’s Becky Scarrott lists one bud at 4.53 g and gave the pair 4 out of 5.",
-   "p2": "Why it is interesting: the hardware is ordinary; the argument is about what a microphone in your ear should be allowed to remember.",
-   "deep": [
-    [
-     "Battery: two stories",
-     "Nothing’s launch post says up to 10 hours per charge with noise cancelling off, 6 hours with it on, and 42 hours in total with the case. TechRadar’s spec sheet gives 6 hours with ANC off, 4.5 hours with it on and 25 hours with the case; in testing the reviewer found the 4.5-hour figure “bang on”, and wrote: “In my briefing, I was told the buds themselves would last 10 hours — but that turned out not to be the case.” Battery scored 2.5 of 5."
-    ],
-    [
-     "The privacy problem",
-     "The buds can also record a phone call. Nothing says “a privacy notification alerts others when recording during a call or meeting”; TechRadar found “the only indication here that you’re being recorded may be a brief beep” and called covert recording of private conversations “a serious issue”. Its do-not-buy list: “The idea of covert surveillance bothers you.”"
-    ],
-    [
-     "What worked",
-     "Noise cancelling cuts sound in the human-voice range by up to 6 dB, with peak reduction of 45 dB, says Nothing; TechRadar called the ANC “no slouch” and the sound “fun, upfront”, with LDAC support at $99 “good stuff”. Faults: no wireless charging, “a little bass-heavy at times”, and buds “a little big” for small ears."
-    ]
-   ],
-   "rel": [
-    "tincan",
-    "wee",
-    "ai17"
-   ],
-   "src": "TIME Best Inventions 2026 (Daniel Varghese) · Nothing launch post, Ear (3a) available now, 7 Jul 2026 · TechRadar, 25 Jul 2026 (Becky Scarrott), 4/5"
-  },
-  {
-   "id": "wee",
-   "dom": "sg",
-   "lab": "Singapore · AI and words",
-   "hot": 0,
-   "big": 0,
-   "art": "neuron",
-   "cap": "Chatbots raised on American English “correct” Indian English. An NUS dean weighs in",
-   "p1": "Much of the language data that AI models learn from is American English, and NUS News reports that users in India have found chatbots “correcting” Indian English expressions as grammatical mistakes. Prof Lionel Wee, Dean of the NUS Faculty of Arts and Social Sciences and a sociolinguist, told a panel organised by The Mandala Club on 20 October that meaning depends on context: “Table number five wants their check” or “I’ve got to wash my hair” carry more than their words. He calls himself an “AI agnostic” and urges “a healthy dose of scepticism towards AI”.",
-   "p2": "Why here: a Singapore take on the Using AI lane, from a professor who researches how people actually talk.",
-   "deep": [
-    [
-     "Who was there",
-     "The panel, “Lost in Translation”, was organised by The Mandala Club on 20 October 2026. Alongside Prof Wee were Rahat Kapur, co-founder and editorial director of Beyond The Boardroom, and Chathuni Uduwela, a public policy practitioner."
-    ],
-    [
-     "Comfort from a machine",
-     "Two stories from the panel: a colleague’s niece turned to a chatbot for comfort after a breakup, and a student kept using a religious chatbot app long after exams were over. Wee’s question: “Are we creating generations that are less resilient, less able to deal with setbacks and difficulties”."
-    ],
-    [
-     "Like calculators?",
-     "NUS News’ comparison: writing reduced the need to memorise, and calculators made manual calculation less necessary. Its question: as AI takes on more thinking tasks, which human skills should we keep cultivating?"
-    ],
-    [
-     "Access is not enough",
-     "Wee: “Access on its own is not really meaningful if you don’t take into account the kinds of friction that people encounter”."
-    ]
-   ],
-   "rel": [
-    "planes",
-    "ai17",
-    "ear3a"
-   ],
-   "src": "NUS News, 4 Nov 2026: Is AI changing the way we speak, think and connect with one another?",
-   "img": "https://content.presspage.com/uploads/2580/e6f09a72-5e29-426e-807e-c5e3ae130891/1920_20261104-proflionelweemandalaclub.jpg?10000",
-   "credit": "Photo: NUS News"
   }
  ]
 }
