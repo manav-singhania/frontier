@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "tiles": [
   {
    "id": "after",
@@ -282,14 +282,15 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-11-10",
+   "last": "2026-11-13",
    "editions": [
     "02b",
     "06",
     "09",
     "12",
     "15",
-    "18"
+    "18",
+    "21"
    ]
   },
   {
@@ -2668,10 +2669,11 @@
    "lab": "Space · Coming home",
    "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
    "first": "2026-11-11",
-   "last": "2026-11-12",
+   "last": "2026-11-13",
    "editions": [
     "19",
-    "20"
+    "20",
+    "21"
    ]
   },
   {
@@ -2766,9 +2768,10 @@
    "lab": "Space · Light-day",
    "src": "NASA release M26-086, 10 Nov 2026 (Gerelle Q. Dodson): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities · NASA Science, What’s Up: November 2026",
    "first": "2026-11-12",
-   "last": "2026-11-12",
+   "last": "2026-11-13",
    "editions": [
-    "20"
+    "20",
+    "21"
    ]
   },
   {
@@ -2778,9 +2781,10 @@
    "lab": "Space · Meteors",
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
    "first": "2026-11-12",
-   "last": "2026-11-12",
+   "last": "2026-11-13",
    "editions": [
-    "20"
+    "20",
+    "21"
    ]
   },
   {
@@ -2850,9 +2854,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026 (Emma Barker Bonomo) · tincan.kids product and About pages · Tom’s Guide (Mike Prospero), updated 19 Jul 2026, one-month test",
    "first": "2026-11-12",
-   "last": "2026-11-12",
+   "last": "2026-11-13",
    "editions": [
-    "20"
+    "20",
+    "21"
    ]
   },
   {
@@ -2862,9 +2867,10 @@
    "lab": "Singapore · AI in the storm",
    "src": "NTU School of Mechanical and Aerospace Engineering news, 4 Nov 2026: Artificial Intelligence Keeps Planes Safe in Bad Weather (MAE Collective 2026, AI edition) · Advanced Engineering Informatics 65:103157 (2025)",
    "first": "2026-11-12",
-   "last": "2026-11-12",
+   "last": "2026-11-13",
    "editions": [
-    "20"
+    "20",
+    "21"
    ]
   },
   {
@@ -2889,6 +2895,126 @@
    "last": "2026-11-12",
    "editions": [
     "20"
+   ]
+  },
+  {
+   "id": "neobot",
+   "cap": "A $20,000 humanoid for your home. The catch: a human in a VR headset may be driving it",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Amanda Loudin) · 1x.tech NEO spec, order and hands pages · Tom’s Guide (Jason England, 30 Oct 2025) · TechRadar (Lance Ulanoff, 29 Oct 2025) · MIT Technology Review (Grace Huckins, 6 Nov 2026)",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "hera",
+   "cap": "Hera flew within 30 km of the asteroid NASA rammed in 2022. Now the measuring begins",
+   "lane": "space",
+   "lab": "Space · Asteroid pair",
+   "src": "Science News, 12 Nov 2026 (Meghan Bartels): Europe’s Hera mission is ready to double down on asteroid science",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "clay",
+   "cap": "Fingerprints 14,500 years old on a clay torso: an adult’s and a child’s on the same piece",
+   "lane": "life",
+   "lab": "Life · Fingerprints",
+   "src": "Science News, 11 Nov 2026 (Freda Kreier): Stone Age children left fingerprints on ancient art projects · PLOS One, Davin et al.",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "ps3",
+   "cap": "PSLV’s third stage: anomalies on two flights. ISRO has fired the rebuilt one, bolted down",
+   "lane": "space",
+   "lab": "India · Rocket fix",
+   "src": "ISRO, 12 Nov 2026: Ground test of third stage of PSLV (PS3) conducted successfully · ISRO PSLV-C62 mission page (8 Jan 2026), PSLV Update (25 Feb 2026) and PSLV configuration page · ISRO, 10 Nov 2026: flight acceptance test of cryogenic engine for GSLV-F19",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "bog",
+   "cap": "Peat covers 3% of land yet holds twice the carbon of every forest. Landsat over Scotland",
+   "lane": "earth",
+   "lab": "Earth · Peat",
+   "src": "NASA Earth Observatory, 12 Nov 2026 (Adam Voiland; image by Michala Garrison, Landsat 8 OLI, 4 Mar 2024): Scotland’s Flow Country",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "greenwd",
+   "cap": "Hot things glow red, white, then blue, never green. Then astronomers found a green star",
+   "lane": "space",
+   "lab": "Physics · Star colours",
+   "src": "Physics World, 11 Nov 2026 (Isabelle Dumé): White dwarf star glows an eerie green · RAS Techniques and Instruments",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "bubble",
+   "cap": "Why a soap film is striped in colour, and why its thinnest part is black. Test: a cup rim",
+   "lane": "matter",
+   "lab": "Physics · Soap film",
+   "src": "Exploratorium Science Snacks: Soap Film Painting · Soap Film Interference",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "spinheat",
+   "cap": "NTU glue cured from inside by magnetic nanoparticles. One hour matched 24 hours in an oven",
+   "lane": "sg",
+   "lab": "Singapore · Heat from inside",
+   "src": "NTU News, 12 Nov 2026: NTU, Motherson to develop magnetic technology to cut manufacturing time and energy use",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "handhole",
+   "cap": "Paper tube to one eye, other palm beside it, both eyes open: a hole opens in your hand",
+   "lane": "try",
+   "lab": "Try it · 2 min",
+   "src": "Exploratorium Science Snacks: Hole In Your Hand",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
+   ]
+  },
+  {
+   "id": "amyg",
+   "cap": "The brain’s fear centre is also its save button: how hard it fires decides what you keep",
+   "lane": "mind",
+   "lab": "Mind · Memory",
+   "src": "Science News, 12 Nov 2026 (Allie Skalnik): The brain’s fear center moonlights as the save button for memories · Nature Neuroscience, Xiao et al.",
+   "first": "2026-11-13",
+   "last": "2026-11-13",
+   "editions": [
+    "21"
    ]
   }
  ]
