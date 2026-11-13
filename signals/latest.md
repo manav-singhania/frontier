@@ -1,13 +1,13 @@
-# Signals — synced from backend 2026-11-12 (Thu, 22:57 UTC; Fri 13 Nov 06:57 Singapore) by Claude
+# Signals — synced from backend 2026-11-13 (Fri, 21:53 UTC; Sat 14 Nov 05:53 Singapore) by Claude
 
-Backend read: 71 events, 18 sessions (11 Nov sync: 71 and 18, so nothing new at all, for the fifth sync in a row). Read through the built-in browser on the Windows PC "manav" (the Mac was not linked; the parent key is saved on this PC, so the monitor opened without the key gate and the backend answered the list call). Aryav's devices seen: d7x63ho (main), dd4s11n, dbw7fcc. duimvgh is Manav's and is excluded from everything below except the Time table. Times are Singapore.
+Backend read: 71 events, 18 sessions (12 Nov sync: 71 and 18, so nothing new at all, for the sixth sync in a row). Read through the built-in browser on the Windows PC "manav" (the Mac was not linked; the parent key is saved on this PC, so the monitor opened without the key gate and the backend answered the list call). Aryav's devices seen: d7x63ho (main), dd4s11n, dbw7fcc. duimvgh is Manav's and is excluded from everything below except the Time table. Times are Singapore.
 
-Nothing new from anyone since the 5 Nov sync: no event and no session row from any device on Fri 6, Sat 7, Sun 8, Mon 9, Tue 10, Wed 11 or Thu 12 Nov. Aryav's last event is still Tue 27 Oct 21:06; the last row of any kind is Manav's duimvgh session on Thu 5 Nov (18:13, 20.7 minutes). Editions 14 to 20 have not been opened by anyone, Manav included.
+Nothing new from anyone since the 5 Nov sync: no event and no session row from any device on Fri 6, Sat 7, Sun 8, Mon 9, Tue 10, Wed 11, Thu 12 or Fri 13 Nov. Aryav's last event is still Tue 27 Oct 21:06; the last row of any kind is Manav's duimvgh session on Thu 5 Nov (18:13, 20.7 minutes). Editions 14 to 21 have not been opened by anyone, Manav included.
 
 ## Opened (retire from next edition)
 mars, fabric, sat, artemis, aitry, duo, aqua, ai30, after, leaves, swiftend
 
-(Unchanged. green, walk101 and cirqa were opened only on duimvgh, so they do not count as his. None of his eleven ids is on edition 20.)
+(Unchanged. green, walk101 and cirqa were opened only on duimvgh, so they do not count as his. None of his eleven ids is on edition 21.)
 
 ## Dug deeper / clipped / hopped
 - Clipped: mars (Sat 24 Oct 07:51 on d7x63ho and 07:58 on dd4s11n), fabric (Sat 24 Oct 07:54 and 07:57, twice on d7x63ho).
@@ -15,7 +15,7 @@ mars, fabric, sat, artemis, aitry, duo, aqua, ai30, after, leaves, swiftend
 - Hops: none. No chains followed yet.
 - Opened twice: fabric, mars, after (Tue 27 Oct 21:03, twice in a row).
 - Lanes he chose (d7x63ho): space, usingai, sg, try, earth, gadgets, numbers, all. Gadgets was picked on Tue 27 Oct right after his interests note, and he opened duo and aqua from it.
-- Last activity on any of his devices: Tue 27 Oct 21:06. The only trace after that is a zero-second session row on dd4s11n on Wed 28 Oct 16:10 (page touched, nothing counted, no events). No event from him on any day from Wed 28 Oct to Fri 13 Nov 06:57, so editions 05 to 20 (sixteen editions) have not been opened by him.
+- Last activity on any of his devices: Tue 27 Oct 21:06. The only trace after that is a zero-second session row on dd4s11n on Wed 28 Oct 16:10 (page touched, nothing counted, no events). No event from him on any day from Wed 28 Oct to Sat 14 Nov 05:53, so editions 05 to 21 (seventeen editions) have not been opened by him.
 
 ## His words
 - Mon 26 Oct 16:30 (interests box): "I want some section about devices, and cool gadgets open too public, not necessary new."
@@ -26,20 +26,20 @@ None.
 
 ## Time
 Minutes on the wall per day, last 7 days, by device (duimvgh = Manav):
-- Fri 6 Nov: none
 - Sat 7 Nov: none
 - Sun 8 Nov: none
 - Mon 9 Nov: none
 - Tue 10 Nov: none
 - Wed 11 Nov: none
 - Thu 12 Nov: none
-- Fri 13 Nov (to 06:57): none
-Nobody has opened the wall for seven full days; the last row of any kind is duimvgh on Thu 5 Nov (20.7 minutes). Aryav total for the week: 0 minutes on all three of his devices. His last counted session was Tue 27 Oct (d7x63ho, 5.6 minutes); the lifetime total on his devices is about 18 minutes over 5 days (23 to 27 Oct).
+- Fri 13 Nov: none
+- Sat 14 Nov (to 05:53): none
+Nobody has opened the wall for eight full days (6 to 13 Nov); the last row of any kind is duimvgh on Thu 5 Nov (20.7 minutes). Aryav total for the week: 0 minutes on all three of his devices. His last counted session was Tue 27 Oct (d7x63ho, 5.6 minutes); the lifetime total on his devices is about 18 minutes over 5 days (23 to 27 Oct).
 
 ## Lean
-- When he did come (23 to 27 Oct) he went to Space first and clipped the tangible ones (Perseverance, the NUS fabric sleeve), then went straight to the Gadgets lane he asked for (duo, aqua) and browsed on from there (ai30, after, leaves, swiftend). That is still the whole picture: seventeen days of silence add no evidence about any tile from editions 05 to 20, and the timed Space leads of editions 13 to 20 (the spacewalks, Swift's re-entry, the Moon-lander drone, the astronaut call, ESCAPADE's burns, Chandra's 113 days, Voyager's light-day) were not seen by him.
-- He has never opened a Numbers, Life, Mind or Matter tile, never dug deeper, never hopped, never commented. The bigger fact is unchanged: nobody, Manav included, has opened the wall since Thu 5 Nov, now eight days. Tile choice is not what is being tested; getting him back to the page is, and that needs a word from Manav (his first two visits were a Friday night and a Saturday morning, 23 and 24 Oct) more than a better lead.
-- Try tomorrow (Fri 13 Nov): a Friday night is when he first came, so make the lead something he can do over the weekend rather than a school-night one-liner (the Voyager phone-flash on Tue 17 Nov and the Leonids pre-dawn 17–18 Nov from edition 20 are the open stories with a date; the Dragon return is still the one to close when NASA posts an undock time); keep two Gadgets tiles since the gadgets ask is the only thing he has ever said; do not retire or rotate anything on the strength of "unopened", since nothing has been seen. If a sync ever shows a new d7x63ho row, read that one closely and before anything else.
+- When he did come (23 to 27 Oct) he went to Space first and clipped the tangible ones (Perseverance, the NUS fabric sleeve), then went straight to the Gadgets lane he asked for (duo, aqua) and browsed on from there (ai30, after, leaves, swiftend). That is still the whole picture: eighteen days of silence add no evidence about any tile from editions 05 to 21, and neither the timed Space leads of editions 13 to 20 nor the 1X NEO gadget lead of edition 21 were seen by him.
+- He has never opened a Numbers, Life, Mind or Matter tile, never dug deeper, never hopped, never commented. The bigger fact is unchanged: nobody, Manav included, has opened the wall since Thu 5 Nov, now nine days. Tile choice is not what is being tested; getting him back to the page is, and that needs a word from Manav (his first two visits were a Friday night and a Saturday morning, 23 and 24 Oct) more than a better lead.
+- Try tomorrow (Sat 14 Nov): his one clipping session was a Saturday morning (24 Oct, 07:51 to 07:58), so a Saturday edition should open with something tangible and photographed that he can clip or do before lunch (a soap-film or paper-tube sort of hands-on, or a probe photo in the Perseverance vein), with the dated hooks kept on the Space tiles (Voyager phone-flash Tue 17 Nov after sunset and the Leonids pre-dawn 17–18 Nov from editions 20–21; the Expedition 74 welcome-home event Wed 18 Nov 8 am SGT; the Dragon return is still the one to close when NASA posts an undock time); keep two Gadgets tiles since the gadgets ask is the only thing he has ever said; do not retire or rotate anything on the strength of "unopened", since nothing has been seen. If a sync ever shows a new d7x63ho row, read that one closely and before anything else.
 
 ## Edition 04 (Tue 27 Oct) choices made on this lean
 Lead: Perseverance Mars-dust paper (he clipped Perseverance). Gadgets: iPhone Duo new + HoverAir Aqua carried. Earth test: PACE autumn-leaves map. Life test: mosquito preferences. Numbers test: Condorcet/Klein bottle. Using AI: ai30 rotated in. Next rotation: aimit or ai17.
