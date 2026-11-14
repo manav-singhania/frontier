@@ -1,114 +1,118 @@
 {
- "edition": 22,
+ "edition": 23,
  "level": "High school",
- "date": "2026-11-14",
- "dateLabel": "Sat 14 Nov 2026",
+ "date": "2026-11-15",
+ "dateLabel": "Sun 15 Nov 2026",
  "week": [
   {
    "d": "FRI",
-   "t": "NASA Earth Observatory: Landsat over the Burma coast, where mangroves have regrown; the world gained nearly 2,000 km² of mangroves after 2010",
-   "id": "mangrove"
+   "t": "NASA: the Roman Space Telescope’s instruments are aligned; next, more than 3,000 moving parts in its coronagraph’s deformable mirrors",
+   "id": "roman"
   },
   {
    "d": "FRI",
-   "t": "Science News: the 12 kg ‘hell chicken’ dinosaur Infernogallus jamesi, the first non-bird dinosaur with specialised fruit-eating adaptations",
-   "id": "hellchick"
+   "t": "NASA station blog: Menon and Watkins pack Dragon for a Pacific splashdown; still no departure date",
+   "id": "dragon"
   },
   {
    "d": "THU",
-   "t": "NASA releases Hubble’s nine-panel gallery of gravitational lenses, a sampler of targets for the Roman Space Telescope",
-   "id": "lenses"
-  },
-  {
-   "d": "THU",
-   "t": "NOAA: October 2026 was 1.43 °C above the 20th-century average, the largest departure of any month in the record since 1850",
-   "id": "hotmonth"
-  },
-  {
-   "d": "THU",
-   "t": "IIT Kanpur: immune cells in the pancreas can switch off insulin within minutes through a receptor called GPR18",
-   "id": "insulin"
+   "t": "ESA’s Euclid releases 1.7 million GB of data: over 900 million galaxies and 15,000 strong-lens candidates",
+   "id": "euclid"
   },
   {
    "d": "WED",
-   "t": "Physics World: gold nanoparticles on helium droplets give the first direct images of the 122-year-old Thomson problem",
-   "id": "thomson"
+   "t": "PIB: a new deep-sea shark, Echinorhinus roinee, named from trawler bycatch landed at Kollam, Kerala",
+   "id": "shark"
+  },
+  {
+   "d": "WED",
+   "t": "A*STAR Research: 3D-printed steel beams warp up or down depending on a 1.3 mm thickness threshold",
+   "id": "metal"
+  },
+  {
+   "d": "TUE",
+   "t": "CERN: construction begins on DUNE’s first cryostat, 17,000 tonnes of liquid argon 1.5 km under South Dakota",
+   "id": "dune"
   }
  ],
  "tiles": [
   {
-   "id": "lenses",
+   "id": "euclid",
    "dom": "space",
-   "lab": "Space · Bent light",
+   "lab": "Space · Billion-object map",
    "hot": 1,
    "big": 1,
-   "art": "lens",
-   "cap": "Nine galaxies bent into arcs by gravity. Hubble’s warm-up act for the new Roman telescope",
-   "num": "1.3 trillion",
-   "nums": "Suns’ worth of mass in the Milky Way’s dark-matter halo, NASA says; lenses like these could be used to hunt far smaller clumps, of a million to a billion solar masses",
-   "p1": "NASA released a nine-panel Hubble gallery on Thursday 12 November: each square shows a distant galaxy whose light has been bent into arcs and rings by the gravity of a nearer galaxy sitting in front of it. The nine were first picked out in data from the Dark Energy Spectroscopic Instrument at Kitt Peak, and Hubble then observed them; the Nancy Grace Roman Space Telescope, which launched in August 2026 and sees a much larger field of sky in infrared, will take further observations.",
-   "p2": "Why it matters: the bent light is a scale. Researchers will use lenses like these to look for clumps of dark matter of a million to a billion solar masses, a test of the cold dark matter theory.",
+   "art": "gal",
+   "cap": "900 million galaxies in one release: Euclid maps sky the size of 9,500 full Moons",
+   "num": "1.7 million GB",
+   "nums": "of data in Euclid’s first big release, from about 13 months of observing: more than a billion objects, over 900 million of them galaxies",
+   "p1": "On Thursday 12 November the European Space Agency released the first major batch of data from Euclid, its €1.4 billion space telescope: 1.7 million GB from about 13 months of observing, covering 1,900 square degrees of sky, the area of 9,500 full Moons and about 14% of the planned survey. In it are more than a billion objects, over 900 million galaxies, some 15,000 candidate strong gravitational lenses and over 60 million candidate quasars. Euclid’s images are about four times sharper than today’s ground telescopes manage.",
+   "p2": "Why it matters: those 15,000 lens candidates are the largest catalogue of strong cosmic lenses ever assembled, Physics World reports; the first full data release is due in mid-2027.",
    "deep": [
     [
-     "How a lens works",
-     "Mass bends the path of light, so light passing a massive galaxy curves around it, as if through a glass lens. A background galaxy can appear as several images, an arc, or a full ring when the alignment is near perfect."
+     "Where it sits",
+     "Euclid launched in July 2023 and observes from Lagrange point L2, about 1.5 million km from Earth, with a 1.2 m telescope feeding a camera and a spectrometer. Routine surveying began in February 2024; a preliminary release in 2025 covered about 60 square degrees."
     ],
     [
-     "Hubble, then Roman",
-     "Hubble gives sharp visible and ultraviolet views of individual lenses; Roman’s wider infrared field will capture more lenses. NASA calls this a cosmic sampler of targets."
+     "Who",
+     "The Euclid Consortium has about 2,600 members from more than 15 countries. “This major Euclid data release represents the largest space-based survey of its kind,” said Carole Mundell, ESA’s Director of Science. Valeria Pettorino, the project scientist: “This unlocks ground-breaking science.”"
     ],
     [
-     "The dark-matter test",
-     "The Milky Way sits in a halo of around 1.3 trillion solar masses of dark matter. Cold dark matter theory predicts much smaller clumps too, of a million to a billion solar masses, and a small clump in a lensing galaxy leaves its mark on the arcs behind it."
+     "Try the scale",
+     "If 1,900 square degrees is about 14% of the planned survey, divide 1,900 by 0.14 and you have the size of the whole survey in square degrees. One full Moon covers about a fifth of a square degree, which is where the 9,500 comes from: 1,900 ÷ 9,500."
     ],
     [
      "The picture",
-     "Credit: NASA, ESA, and X. Huang (University of San Francisco); processing by Gladys Kober (NASA/Catholic University of America)."
+     "Abell 3128, a cluster of hundreds of galaxies around 800 million light-years away, as Euclid sees it. Image: ESA/Euclid/Euclid Consortium/NASA, processed by J.-C. Cuillandre and E. Bertin, CC BY-SA 3.0 IGO."
     ]
    ],
    "rel": [
-    "expo74",
+    "roman",
     "lightday",
-    "thomson"
+    "dune"
    ],
-   "src": "NASA Science, Hubble, 12 Nov 2026: NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/gravitational-lens/Hubble_lenscollage_P18085_ok4_noletters.tif/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA, ESA, X. Huang (University of San Francisco); processing Gladys Kober"
+   "src": "Physics World, 12 Nov 2026 (Michael Banks): ESA’s Euclid mission unveils treasure trove of cosmic data",
+   "img": "https://physicsworld.com/wp-content/uploads/2026/11/euclid1-12-11-2026.jpg",
+   "credit": "Photo: ESA/Euclid/Euclid Consortium/NASA; J.-C. Cuillandre, E. Bertin (CC BY-SA 3.0 IGO)"
   },
   {
-   "id": "expo74",
+   "id": "roman",
    "dom": "space",
-   "lab": "Space · Welcome home",
+   "lab": "Space · Lining up",
    "hot": 0,
    "big": 0,
-   "art": "orbits",
-   "cap": "241 days, 3,856 orbits: Expedition 74’s crews tell their story. Wednesday, 8 am Singapore",
-   "num": "3,856",
-   "nums": "orbits of Earth by the Soyuz MS-28 crew in 241 days, more than 102 million miles, NASA says",
-   "p1": "NASA welcomes the astronauts of Expedition 74 home at Space Center Houston on Tuesday 17 November at 6 pm Central time, which is Wednesday 18 November at 8 am in Singapore; the crew share mission highlights, followed by an awards ceremony. Chris Williams flew with Roscosmos’ Sergey Kud-Sverchkov and Sergei Mikaev on Soyuz MS-28, launched from Baikonur on 27 November 2025 and landed in Kazakhstan on 26 July: 241 days, 3,856 orbits, more than 102 million miles. Jessica Meir, Jack Hathaway and ESA’s Sophie Adenot flew SpaceX Crew-12, launched 13 February and splashed down off Los Angeles on 8 October: 237 days, more than 3,792 orbits, more than 100 million miles.",
-   "p2": "Why it matters: Expedition 74 logged more than 1,400 hours of research, including 3D printing of metal and of tissue, blood-flow research and cancer-related pharmaceutical work.",
+   "art": "scope",
+   "cap": "Roman is aligned to a fraction of a hair’s breadth. Next: 3,000 moving parts in one mirror",
+   "num": "18 detectors",
+   "nums": "in Roman’s Wide Field Instrument, each remapped after launch so they lock onto guide stars together",
+   "p1": "NASA said on Friday 13 November that the Nancy Grace Roman Space Telescope, launched in August, has finished aligning its instruments. Launch vibrations, temperature changes and the move into weightlessness shift things slightly, so test observations were used to update the telescope’s internal map; the team also adjusted the secondary mirror and a smaller mirror to sharpen the Coronagraph Instrument’s view. “Roman is now internally aligned to within a tiny fraction of a hair’s breadth of perfection,” said Tony Sohn of the Space Telescope Science Institute.",
+   "p2": "Why it is hard: Roman has to be “at least ten times more stable” than Hubble or Webb, says Dominic Benford, the programme scientist, because the coronagraph has to stare at one star for a long time.",
    "deep": [
     [
-     "Who is on stage",
-     "NASA astronauts Jessica Meir, Jack Hathaway and Chris Williams; ESA’s Sophie Adenot; Roscosmos’ Sergey Kud-Sverchkov and Sergei Mikaev. Andrey Fedyaev of Roscosmos, who flew on Crew-12, is not available."
+     "Why things move",
+     "Rockets shake, space is cold and gravity is gone, so the detectors sit only roughly where they were set on the ground. The 18 detectors “are meant to work together when we’re locking onto guide stars,” said Tyler Desjardins of the Space Telescope Science Institute, so each one’s position had to be mapped again."
     ],
     [
-     "Two ways up, two ways down",
-     "Soyuz MS-28 went up from Baikonur Cosmodrome in Kazakhstan and came down on land south-east of Dzhezkazgan, Kazakhstan. Crew-12 went up from Space Launch Complex 40 at Cape Canaveral and came down in the Pacific off Los Angeles."
+     "3,000 moving parts",
+     "Next the team works through more than 3,000 tiny moving parts in the coronagraph’s deformable mirrors, then begins the second stage of active starlight control: cancelling a star’s glare so something faint beside it can show. “The wave nature of light makes starlight spill when forming images,” said Brian Kern, an optical engineer at JPL. “We have demonstrated this in a lab using an artificial space environment.”"
     ],
     [
-     "The photo",
-     "The station over the Atlantic, photographed by ESA astronaut Sophie Adenot during the expedition."
+     "Two at once",
+     "While the coronagraph observes, the Wide Field Instrument guides, and that guiding time yields extra deep-field images. No date for the start of science has been given yet."
+    ],
+    [
+     "The picture",
+     "NASA’s alignment animation from the Roman Fine Guidance Sensor team: stars that began off-centre in Roman’s guide windows slide into line as small adjustments are made."
     ]
    ],
    "rel": [
-    "dragon",
+    "euclid",
     "lightday",
-    "lenses"
+    "dragon"
    ],
-   "src": "NASA Johnson release J26-002, 10 Nov 2026: NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/expedition-74-picture.jpg",
-   "credit": "Photo: ESA / Sophie Adenot"
+   "src": "NASA Science, Roman blog, 13 Nov 2026: Instruments on NASA’s Roman Space Telescope Get in Sync for Science · JPL, 30 Aug 2026: NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/rst/commissioning/Alignment%20ft%20image.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+   "credit": "Image: NASA / Roman Space Telescope Fine Guidance Sensor team"
   },
   {
    "id": "dragon",
@@ -141,9 +145,9 @@
     ]
    ],
    "rel": [
-    "expo74",
     "lightday",
-    "leonids"
+    "leonids",
+    "roman"
    ],
    "src": "NASA space station blog, 12 Nov 2026: Crew Packs Dragon with Science and Cleans Spacesuits · 13 Nov 2026: Botany, Biomedicine, and Cargo Ops Wrap Up Week Aboard Station",
    "img": "https://images-assets.nasa.gov/image/iss075e0252441/iss075e0252441~large.jpg",
@@ -182,7 +186,7 @@
    "rel": [
     "leonids",
     "dragon",
-    "expo74"
+    "euclid"
    ],
    "src": "NASA release M26-086, 10 Nov 2026 (Gerelle Q. Dodson): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities · NASA Science: Voyager 1: What Is a Light-Day · What’s Up: November 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
@@ -199,7 +203,7 @@
    "num": "15 an hour",
    "nums": "Leonid meteors under ideal skies in the early hours of 17 and 18 November, after the Moon has set; most people will see fewer",
    "p1": "NASA’s skywatching notes for November put the Leonid meteor shower at its best in the early morning hours of Tuesday 17 and Wednesday 18 November, after the Moon sets: up to about 15 meteors an hour under ideal conditions, fewer for most viewers. Around 12 November the Northern Taurids peaked at a gentler 5 an hour. And on the mornings of 15 and 16 November Mars and Jupiter stand about 1.2° apart in the south-east before sunrise, Jupiter the brighter, Mars reddish beside it.",
-   "p2": "Why now: New Moon was 8 November and first quarter is 17 November (US Pacific time); NASA says to look after the Moon sets.",
+   "p2": "Why now: New Moon was 8 November and first quarter is 17 November; NASA says to look after the Moon sets.",
    "deep": [
     [
      "Watch several mornings",
@@ -211,7 +215,7 @@
     ],
     [
      "Faced the right way",
-     "NASA’s chart for 17 November also marks where Voyager 1 sits, in Ophiuchus toward the western horizon at about 5 pm, the day it is a light-day away."
+     "NASA’s chart for 17 November also marks where Voyager 1 sits, in Ophiuchus toward the western horizon at about 5 pm, the evening before it reaches one light-day from Earth."
     ],
     [
      "The photo",
@@ -220,133 +224,203 @@
    ],
    "rel": [
     "lightday",
-    "expo74",
-    "hotmonth"
+    "dragon",
+    "calwater"
    ],
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
    "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
    "credit": "Photo: NASA / Preston Dyches"
   },
   {
-   "id": "insulin",
-   "dom": "life",
-   "lab": "India · Immune switch",
-   "hot": 1,
-   "big": 0,
-   "art": "cell",
-   "cap": "IIT Kanpur: immune cells beside the insulin makers can switch insulin off within minutes",
-   "num": "minutes",
-   "nums": "how fast pancreatic macrophages can shut down insulin release once their GPR18 receptor is triggered, in mouse models and in donated human pancreatic tissue",
-   "p1": "Researchers at IIT Kanpur report that macrophages, immune cells that sit in the pancreas next to the beta cells that make insulin, can stop insulin release within minutes. The switch is a receptor on the macrophage called GPR18; the message is carried by fat molecules called sphingolipids, not by inflammatory proteins. Blocking GPR18, or later steps in the chain, restored normal insulin release in mouse models.",
-   "p2": "Why it matters: with the Indiana Biosciences Research Institute in the US, the team found GPR18 concentrated in the immune cells of human pancreatic islets, and activating the pathway blocked insulin secretion in donated human pancreatic tissue. Three possible drug targets; not a treatment yet, the institute stresses.",
-   "deep": [
-    [
-     "In the researcher’s words",
-     "“The effect is not slow damage from inflammation but instruction that is delivered in minutes,” says Dr Sai Prasad Pydi, assistant professor in IIT Kanpur’s Department of Biological Sciences and Bioengineering, who led the work."
-    ],
-    [
-     "Who did it",
-     "Simran Singh and Ashish Kumar are co-first authors. The paper, on acute activation of Gq signalling in pancreatic islet macrophages, is in the Journal of Clinical Investigation."
-    ],
-    [
-     "Three targets",
-     "The receptor, the lipid signal, and the step that takes the lipid up are each a place a drug could act. The release is careful: this is a mechanism shown in mice and in donated human tissue, not a therapy."
-    ],
-    [
-     "Islets",
-     "Insulin is made in clusters of cells in the pancreas called islets; beta cells make it, and the macrophages in this work sit right beside them."
-    ]
-   ],
-   "rel": [
-    "hellchick",
-    "mangrove",
-    "aicraft"
-   ],
-   "src": "IIT Kanpur press release, 12 Nov 2026: IIT Kanpur scientists discover how immune cells silence insulin, a new clue in the fight against diabetes · Journal of Clinical Investigation",
-   "img": "https://www.iitk.ac.in/data/media/press_release/immune-cells-insulin.jpeg",
-   "credit": "Image: IIT Kanpur"
-  },
-  {
-   "id": "diver",
-   "dom": "matter",
-   "lab": "Physics · Pressure",
-   "hot": 1,
-   "big": 0,
-   "art": "diver",
-   "cap": "A sauce packet in a water bottle: squeeze, it sinks; let go, it rises. Archimedes explains",
-   "num": "1 packet",
-   "nums": "the one that just barely floats in a cup of water is the one that works, the Exploratorium says; the air bubble sealed inside matters more than the sauce",
-   "p1": "Drop a few sealed sauce packets (soy, ketchup, mustard) into a cup of water and keep the one that just barely floats. Fill a clear plastic bottle to the very top with water, put the packet in, screw the cap on tight. Squeeze the bottle: the packet sinks. Let go: it rises. Squeeze gently and you can make it hover.",
-   "p2": "Why: squeezing raises the pressure in the water, which compresses the small air bubble sealed inside the packet. The packet now displaces less water, so the water pushes it up less, and it sinks. Let go and the bubble expands again.",
-   "deep": [
-    [
-     "Archimedes’ rule",
-     "The upward push on anything in water equals the weight of the water it displaces. Shrink the bubble, displace less water, lose lift. Many sauces are denser than water; it is the bubble that decides whether the packet floats."
-    ],
-    [
-     "Make it go up instead",
-     "The Exploratorium’s reverse version, Out of Sink, uses a flat oval bottle (shampoo, mouthwash, dish soap) and a packet that just barely sinks. Squeeze the narrow sides and the bottle’s volume grows, pressure drops, the bubble swells and the diver rises. Squeeze the wide sides and it drops."
-    ],
-    [
-     "The old name",
-     "The Exploratorium files this under Cartesian divers; its tagline for the Snack is “I sink, therefore I am.” With a round bottle, it notes, a diver on the bottom cannot be made to rise again."
-    ]
-   ],
-   "rel": [
-    "thomson",
-    "handhole",
-    "zr"
-   ],
-   "src": "Exploratorium Science Snacks: Condiment Diver · Out of Sink"
-  },
-  {
-   "id": "thomson",
-   "dom": "matter",
-   "lab": "Physics · Charges on a ball",
+   "id": "calwater",
+   "dom": "earth",
+   "lab": "Earth · High water",
    "hot": 0,
    "big": 0,
-   "art": "thomson",
-   "cap": "12 equal charges on a sphere settle where? A 122-year-old puzzle, now photographed in gold",
-   "num": "4, 6, 12",
-   "nums": "among the few numbers of charges for which the Thomson problem has a rigorous solution; computers have worked out answers up to a few thousand",
-   "p1": "122 years ago J J Thomson asked where N identical electric charges would sit on a sphere so that their mutual repulsion is as small as possible. Rigorous answers exist for only a handful of cases, including 4, 6 and 12 charges; the rest is computed. Physics World reports that physicists at the University of Innsbruck and the University of Leicester have now imaged the arrangements directly: they charged droplets of superfluid helium with an electron beam, passed them through gold vapour so that a gold nanoparticle of about 700 atoms grew on each charge, then crashed the droplets onto a thin carbon film and photographed the imprints with a transmission electron microscope.",
-   "p2": "The result: for up to 36 charges the pictures matched the computed solutions. On the biggest droplets, about 2 micrometres across with hundreds of charges, the gold formed hexagonal order with defects where a particle had only five neighbours: on a flat surface each can have six, on a sphere some must have five.",
+   "art": "tide",
+   "cap": "San Diego’s sea 2.80 ft above its normal high mark on 27 Oct, a record. Next: 22–27 Nov",
+   "num": "+2.80 ft",
+   "nums": "above Mean Higher High Water at NOAA’s San Diego tide gauge on 27 October 2026, the highest level ever observed there",
+   "p1": "Between 24 and 30 October, NOAA tide gauges at four California stations recorded their highest water levels ever observed: San Diego 2.80 ft above Mean Higher High Water on 27 October, Los Angeles 2.70 ft, La Jolla 2.65 ft and Santa Barbara 2.65 ft. Santa Monica’s 2.72 ft was its second highest, Port San Luis’s 2.35 ft its fourth, Monterey’s 2.20 ft its seventh. Three things stacked up: a perigean spring tide, with the full Moon at its closest to Earth; El Niño Kelvin waves that raise sea level along the coast by 6 to 12 inches or more for weeks; and a marine heatwave, because “warmer water takes up more space than cold water.”",
+   "p2": "Why now: NOAA predicts the next above-normal tides for 22–27 November and 22–26 December 2026; the full Moon of 24 November is a supermoon.",
    "deep": [
     [
-     "Why gold",
-     "Each positive charge on the helium droplet gathers gold atoms from the vapour; roughly 700 atoms clump at each charge, making a marker big enough for an electron microscope to see once the droplet has splashed onto the film."
+     "Three causes, one week",
+     "A perigean spring tide happens when a full or new Moon coincides with the Moon’s closest approach to Earth; El Niño sends Kelvin waves across the Pacific that lift sea level at the coast for weeks; and a marine heatwave expands the water itself. NOAA says the high water inundated the state’s low-lying areas."
     ],
     [
-     "What they said",
-     "“Electrical repulsion pushes [the charges] apart as far as possible,” says Paul Scheier of the University of Innsbruck. Shengfu Yang of Leicester adds a warning: “The mathematically lowest-energy arrangement is not necessarily the one that will form.”"
+     "What the gauges measure",
+     "Mean Higher High Water is the gauge’s reference level for a normal high tide, so 2.80 ft above it is water far past where a high tide usually stops. The seven stations named are all on NOAA’s network along the California coast."
     ],
     [
-     "Six and five",
-     "On a flat surface every particle can have six neighbours. On a sphere, some must have five; the fivefold defects are where the curvature shows. Count the panels on a classic football: hexagons and pentagons, never hexagons alone."
-    ],
-    [
-     "Next",
-     "The team wants to test the computed solutions for more than 1,000 charges. The paper is in Physical Review Letters, with co-authors from Durham and Cambridge."
+     "The photo",
+     "A microwave water-level sensor at NOAA’s La Jolla, California tide gauge, one of the stations that set a record."
     ]
    ],
    "rel": [
-    "diver",
-    "lenses",
-    "zr"
+    "leonids",
+    "dune",
+    "shark"
    ],
-   "src": "Physics World, 11 Nov 2026 (Andrey Feldman): Gold nanoparticles on superfluid droplets illuminate century-old ‘Thomson problem’ · Physical Review Letters"
+   "src": "NOAA National Ocean Service, 4 Nov 2026: California water levels break records · NASA What’s Up: November 2026 (supermoon)",
+   "img": "https://oceanservice.noaa.gov/news/nov26/la-jolla-960.jpg",
+   "credit": "Photo: NOAA"
+  },
+  {
+   "id": "shark",
+   "dom": "life",
+   "lab": "India · New shark",
+   "hot": 1,
+   "big": 0,
+   "art": "shark",
+   "cap": "A 3-metre shark from 400 m down off Kerala turns out to be a species nobody had named",
+   "num": "350–450 m",
+   "nums": "depth on the continental slope where the Indian Bramble Shark lives; it grows up to three metres long",
+   "p1": "Indian scientists have named a new deep-sea shark, Echinorhinus roinee, the Indian Bramble Shark, the government’s Press Information Bureau announced on Wednesday 11 November. It lives on the continental slope at 350 to 450 m, grows up to three metres, is dark brown to blackish, and its skin carries thorn-like denticles that fuse into multi-pointed plates as it ages. For years it had been taken for the Atlantic bramble shark, Echinorhinus brucus; measurements and mitochondrial DNA barcoding show a distinct Indian Ocean lineage.",
+   "p2": "Where it came from: specimens landed as bycatch by deep-sea shrimp trawlers at Sakthikulangara fishing harbour in Kollam district, Kerala.",
+   "deep": [
+    [
+     "Who",
+     "Researchers at the Zoological Survey of India and ICAR’s Central Marine Fisheries Research Institute, funded by the Ministry of Earth Sciences under the Deep Ocean Mission. The description is published in Records of the Zoological Survey of India; the type specimens are kept at ZSI’s Marine Biology Regional Centre in Chennai."
+    ],
+    [
+     "How you tell",
+     "Compared with its relatives it has larger eyes, larger pelvic fins and a longer stretch from snout to gills. Its DNA separates it from E. brucus in the Atlantic and E. cookei, the prickly shark of the Pacific; similar genetic records suggest its range may extend to Oman, Sri Lanka and Thailand."
+    ],
+    [
+     "The name",
+     "“The Indian Bramble Shark is a distinct species,” said Dr Dhriti Banerjee, Director of ZSI; of the old identification, “our measurements and DNA evidence show otherwise.” The species name roinee honours her daughter, Roinee."
+    ]
+   ],
+   "rel": [
+    "origins",
+    "calwater",
+    "dune"
+   ],
+   "src": "Press Information Bureau, Government of India, 11 Nov 2026: Indian Scientists Discover New Deep-Sea Shark Species in the Indian Ocean (ZSI and ICAR-CMFRI)",
+   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/4_20261111151427_e32142.png",
+   "credit": "Photo: Press Information Bureau / Zoological Survey of India"
+  },
+  {
+   "id": "hotrod",
+   "dom": "matter",
+   "lab": "Physics · Heat",
+   "hot": 1,
+   "big": 0,
+   "art": "hotrod",
+   "cap": "Warm a metre of copper by 100 °C: it grows 1.7 mm. That is why hot water loosens jar lids",
+   "num": "1.7 × 10⁻⁵",
+   "nums": "the fraction of its length a copper rod gains for every 1 °C it warms, the Exploratorium says: 1.7 mm per metre over a 100 °C change",
+   "p1": "Atoms in a warm solid vibrate more and sit slightly farther apart, so the whole thing grows. The Exploratorium’s Cool Hot Rod makes the growth visible: very hot tap water is poured through a copper tube whose far end rests on a needle, and as the tube lengthens it rolls the needle, which turns a toothpick stuck through its eye like a pointer. Copper expands by 1.7 × 10⁻⁵ of its length per degree Celsius, so over a 100 °C change a 1 m tube gains about 1.7 mm, enough to turn an average needle more than two full revolutions. Pour cold water through and the pointer turns back.",
+   "p2": "Test it at home: a stuck metal jar lid loosens under hot water because the lid expands more than the glass; cold water on hot glass can crack it because the glass expands unevenly.",
+   "deep": [
+    [
+     "The recipe",
+     "1 to 2 m of 6 mm copper tubing with a funnel joined to one end by a short plastic tube. Clamp the funnel end to a block on the table; rest the other end on a second block with a needle between tube and block, at right angles to the tube; push a toothpick through the needle’s eye; put a bucket under the end. Pour very hot tap water in and watch which way the toothpick tilts, then pour cold."
+    ],
+    [
+     "Why a needle",
+     "The tube moves only about 1.7 mm, but a needle is thin, so that much rolling is more than two full turns, and the toothpick amplifies the motion so you can see it."
+    ],
+    [
+     "Where it is used",
+     "Thermometers and thermostats work on expansion, the Exploratorium notes; so do the stuck jar lid and the cracked glass."
+    ]
+   ],
+   "rel": [
+    "headharp",
+    "dune",
+    "metal"
+   ],
+   "src": "Exploratorium Science Snacks: Cool Hot Rod"
+  },
+  {
+   "id": "dune",
+   "dom": "matter",
+   "lab": "Physics · Neutrinos",
+   "hot": 1,
+   "big": 0,
+   "art": "argon",
+   "cap": "17,000 t of argon at −185 °C, 1.5 km down, waiting for neutrinos fired from 1,300 km away",
+   "num": "1,300 km",
+   "nums": "from Fermilab in Batavia, Illinois, to the DUNE far detectors at the Sanford Underground Research Facility in Lead, South Dakota",
+   "p1": "Nearly 1.5 km underground in South Dakota, crews from Fermilab, CERN and the Sanford Underground Research Facility have begun building the first of two giant cryostats for the Deep Underground Neutrino Experiment, CERN reported on Tuesday 10 November. Each is an insulated container 66 m long, 19 m wide and 18 m high that will hold about 17,000 tonnes of liquid argon at about −185 °C. Its frame uses 2,600 red steel beams, part of more than 6,200 tonnes of steel contributed by CERN and carried one by one from the surface down to the assembly area. From 2031 a neutrino beam from Fermilab, 1,300 km away, is expected to reach it.",
+   "p2": "Why: neutrinos may explain why the Universe ended up mostly matter; the detector will also watch particles arriving from the Sun and from deep space.",
+   "deep": [
+    [
+     "Timeline",
+     "Assembly of the second cryostat starts in 2027 in the North Cavern; the underground spaces are completed in 2029, the detector in 2030, and the beam arrives in 2031. The experiment is slated to run until the late 2040s. More than 1,500 researchers are in the collaboration today, 1,800 from 2030."
+    ],
+    [
+     "Who said what",
+     "“DUNE is Fermilab’s top priority,” said Norbert Holtkamp, the director of Fermilab. “SURF is proud to support this world-class research 1478 metres below ground level,” said Mike Headley, the lab’s director. “This brings us one step closer to science,” said Jolie Macier, project manager for the far detectors and cryogenics."
+    ],
+    [
+     "CERN’s part",
+     "“Collaboration is in CERN’s DNA, and our contribution to DUNE is a brilliant example of cross-organisational partnership,” said Mark Thomson, CERN’s Director-General. The steel came from CERN as an in-kind contribution; Lluís Miralles, principal project engineer of CERN’s Neutrino Platform, is quoted on the build."
+    ],
+    [
+     "The picture",
+     "Construction of the first cryostat began in early November, photographed by Matthew Kapust of SURF."
+    ]
+   ],
+   "rel": [
+    "euclid",
+    "hotrod",
+    "roman"
+   ],
+   "src": "CERN, 10 Nov 2026: Construction begins on massive underground neutrino experiment designed to unlock the secrets of the Universe",
+   "img": "https://home.cern/wp-content/uploads/2026/11/20261103-112048_MAK18136.jpg",
+   "credit": "Photo: Matthew Kapust, SURF, via CERN"
+  },
+  {
+   "id": "brick",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 0,
+   "big": 0,
+   "art": "brick",
+   "cap": "A $59 concrete-grey puck with no battery. Tap your phone on it, or your apps stay locked",
+   "num": "0 batteries",
+   "nums": "Brick has no battery, no charger and no Wi-Fi: an NFC chip in a magnetic puck is the physical key that unlocks the apps you have blocked",
+   "p1": "TIME’s Best Inventions 2026 list includes Brick, built by TJ Driver, then 23, and his college friend Zach Nasgowitz: an app that blocks whatever apps you choose, and a small concrete-coloured puck with an NFC chip inside. To unlock the blocked apps you have to walk to the puck and physically tap your phone on it. Driver’s reason: his phone “was getting in the way.” The puck needs no battery, no charging and no Wi-Fi; it has a magnet and an anti-slip silicone base, and one puck works with any number of phones. Android 12 or iOS 17 and up; $59.",
+   "p2": "What reviewers found wrong: Tom’s Guide’s Ashley Thieme says it “relies on human traits of laziness”, that with five emergency unbricks on hand, being able to turn blocks off in the app “doesn’t create that much of a barrier”, and that it is not going to “win any design awards”. Also: “If you don’t have the willpower to wait it out, this may not be for you.”",
+   "deep": [
+    [
+     "The engineering",
+     "Tom’s Guide notes the chip is NFC, not RFID, so the phone has to be held close; the puck measures 2 × 2 inches and weighs 3.17 ounces. TIME’s line: often the tap is “all the friction needed to get you to do something other than doomscroll.”"
+    ],
+    [
+     "Modes and escape hatches",
+     "Up to 10 custom modes; a remote lock by holding the virtual Brick in the app for 5 seconds; five Emergency Unbricks included, each of which unblocks everything without the puck. No recurring fees."
+    ],
+    [
+     "The numbers do not all agree",
+     "Brick’s product page says iOS 17.0 or later; its FAQ says iOS 18.0 or later. The company quotes a survey of more than 3,500 users in which over 95% felt less distracted; that is the maker’s own survey."
+    ],
+    [
+     "Praise",
+     "Tom’s Guide gave it an Editor’s Choice badge: “The Brick offers the best way to curb excessive phone usage,” and “effective at reducing screen time and social media usage.” A rival, Bloom, costs $39."
+    ]
+   ],
+   "rel": [
+    "zr",
+    "ai17",
+    "headharp"
+   ],
+   "src": "TIME Best Inventions 2026 (Daniel Varghese): Brick · getbrick.com product page and FAQ · Tom’s Guide review (Ashley Thieme, 2 Oct 2026)"
   },
   {
    "id": "zr",
    "dom": "gadgets",
    "lab": "Gadgets · TIME 2026",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "cinecam",
    "cap": "Nikon’s ZR: 540 g, 6K video, RED colour science, $2,199.95. Reviewers’ catch: the screen",
    "num": "32-bit float",
-   "nums": "audio: Nikon calls the ZR the world’s first interchangeable-lens camera to record 32-bit float sound through its built-in microphones, which it says reduces the risk of clipping",
-   "p1": "TIME put the Nikon ZR (it calls it the Nikon RED ZR) on its Best Inventions 2026 list: a full-frame cinema camera, about 540 g body-only and 630 g with battery and card, 134 × 80.5 × 49 mm, co-developed with RED Digital Cinema, the high-end camera maker that is a Nikon subsidiary. Inside is a 24.5-megapixel full-frame sensor (35.9 × 23.9 mm) recording 6K at up to 60 frames a second, 4K at up to 120 and Full HD at 240, in a new RAW format called R3D NE that carries RED’s colour science with no external recorder. The 4-inch screen is rated at 1,000 nits; price from $2,199.95.",
+   "nums": "audio: Nikon calls the ZR the world’s first interchangeable-lens camera to record 32-bit float sound through both built-in and external microphones, promising distortion-free sound from quiet to loud",
+   "p1": "TIME put the Nikon ZR (it calls it the Nikon Red ZR) on its Best Inventions 2026 list: a full-frame cinema camera, about 540 g body-only and 630 g with battery and card, 133 × 80.5 × 48.7 mm, co-developed with RED Digital Cinema, the high-end camera maker that is a Nikon subsidiary. Inside is a 24.5-megapixel full-frame sensor (35.9 × 23.9 mm) recording 6K at up to 60 frames a second and 4K at up to 120, in a new RAW format called R3D NE that carries RED’s colour science with no external recorder. The 4-inch screen is rated at 1,000 nits; price from $2,199.95.",
    "p2": "What reviewers found wrong: TechRadar’s Timothy Coleman says the screen is flip-out only, there is no viewfinder, no grip or mounting points for accessories, and the HDMI port is micro, not full-size. He ran into no overheating, though there are no vents or fans.",
    "deep": [
     [
@@ -359,165 +433,52 @@
     ],
     [
      "The numbers do not all agree",
-     "Nikon’s US page lists the body at 1.18 lb in one table and 1.19 lb in another, and a maximum recording time of 360 minutes for some non-RAW settings but 125 minutes in its Tech Specs table. TechRadar calls the sensor “partially stacked”; Nikon’s own pages do not use that phrase."
+     "Nikon’s US page lists the body at 1.18 lb (535 g) in one table and 1.19 lb in another, where Nikon’s launch release says about 540 g, and a maximum recording time of 360 minutes for some non-RAW settings but 125 minutes in its Tech Specs table. TechRadar calls the sensor “partially stacked”; Nikon’s own pages do not use that phrase."
     ],
     [
      "Praise",
-     "TechRadar: “no other cinema camera comes close to the ZR for video features” at its price, with scores of Price 5/5, Design 4/5, Performance 4.5/5 and Image and video quality 4.5/5. Cards: CFexpress Type B plus microSD. TIME’s pitch: pro filmmaking goes portable."
+     "TechRadar: “no other cinema camera comes close to the ZR for video features” at its price, with scores of Price 5/5, Design 4/5, Performance 4.5/5 and Image and video quality 4.5/5. Cards: CFexpress Type B plus microSD. TIME’s pitch: “an ultra-lightweight, full-frame camera designed for emerging cinematographers and high-end content producers.”"
     ]
    ],
    "rel": [
-    "neobot",
-    "diver",
-    "lenses"
+    "brick",
+    "roman",
+    "euclid"
    ],
-   "src": "TIME Best Inventions 2026 (Matt Alderton): Nikon RED ZR · Nikon ZR spec pages (nikonusa.com, imaging.nikon.com) · TechRadar review (Timothy Coleman, updated 18 Dec 2025)"
+   "src": "TIME Best Inventions 2026: Nikon Red ZR · Nikon ZR spec page (nikonusa.com) · Nikon news release, 10 Sep 2025 · TechRadar review (Timothy Coleman, updated 18 Dec 2025)"
   },
   {
-   "id": "neobot",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
+   "id": "metal",
+   "dom": "sg",
+   "lab": "Singapore · 3D-printed steel",
    "hot": 0,
    "big": 0,
-   "art": "humanoid",
-   "cap": "A $20,000 humanoid for your home. The catch: a human in a VR headset may be driving it",
-   "num": "22",
-   "nums": "joints in each of NEO’s hands, pulled by tendons from motors in the forearm; the whole robot weighs 66 lb (about 30 kg) and runs 4 hours on an 842 Wh battery",
-   "p1": "1X’s NEO is 5 ft 6 in tall, weighs 66 lb and sells for $20,000, or $499 a month, with US deliveries starting in 2026; TIME put it on its Best Inventions 2026 list as the first humanoid robot widely available for the home. The engineering choice that defines it is tendon drive: the motors sit in the forearm and pull tendons through the wrist to 22 joints in each hand, with low gear ratios of about 5:1 to 15:1, so the joints are 95 percent backdrivable, meaning you can push a finger and the motor feels it. A soft lattice-polymer body under a machine-washable knit suit, no pinch points and a walking speed of 1.4 m/s are how 1X says a robot this size can be safe around people.",
-   "p2": "The catch reviewers found: for tasks it has not learned, a remote “1X Expert” wearing a VR headset can take over and see through its cameras. Tom’s Guide calls that the one huge problem.",
+   "art": "stack",
+   "cap": "Printed steel warps up above 1.3 mm thick, down below it. A*STAR saw what simulations miss",
+   "num": "1.3 mm",
+   "nums": "the thickness at which the warp flips: stainless-steel beams printed parallel to the recoater blade bent upward when thicker, downward when thinner",
+   "p1": "Metal 3D printing by laser powder bed fusion builds a part layer by layer: a blade called the recoater spreads a thin layer of metal powder, a laser melts the shape, and the blade sweeps again. A*STAR researchers found that stainless-steel beams printed parallel to the blade’s sweep warped upward when thicker than about 1.3 mm and downward when thinner, while beams rotated 90 degrees were much less sensitive to thickness. The cause, they say, is the repeated mechanical disturbance of the blade passing over the growing part, layer after layer.",
+   "p2": "Why it matters: a common simulation predicted almost identical bending for both orientations, 1.69 mm and 1.67 mm, and so missed the difference entirely.",
    "deep": [
     [
-     "What is inside",
-     "An Nvidia Jetson Thor computer, which 1X calls the NEO Cortex, rated at up to 2,070 FP4 TFLOPS; two 8.85-megapixel stereo fisheye cameras running at 90 Hz; four beamforming microphones; Wi-Fi, Bluetooth and 5G. The 842 Wh battery gives 4 hours of running, and 1X says NEO plugs itself in, gaining an hour of runtime for every 6 minutes of charging."
+     "How they measured",
+     "X-ray diffraction read the stress at the surface, and contour mapping reconstructed the stress locked inside the beams. “We wanted to show direct evidence linking residual stress to deformation,” said Pan Wang, Senior Scientist at A*STAR’s Singapore Institute of Manufacturing Technology."
     ],
     [
-     "Numbers from the maker",
-     "1X says NEO can lift 154 lb and carry 55 lb, runs at up to 6.2 m/s, moves its hands at up to 8 m/s and makes 22 dB of noise, which it calls quieter than a modern refrigerator. Fingertips push with up to 45 N and position to ±0.2 mm; the hands are rated IP68 against water, the body IP44."
+     "The blade",
+     "“The repeated coating introduces additional mechanical disturbance and shear effects layer after layer,” said Chen Wang, also a Senior Scientist at SIMTech. Machine-learning models trained on 64 experimental data points now predict the deflection; next they will test laser power and layer thickness."
     ],
     [
-     "What the critics said",
-     "Tom’s Guide’s Jason England: “There is a huge gap between what we are seeing now and what the company is promising.” Only two tasks, answering the door and taking away a cup, are claimed by 1X as autonomous; the rest can be a remote operator, whose view also trains the AI. TechRadar’s Lance Ulanoff adds that $499 a month is not a payment plan, you pay until you return it, and “It’s not clear what happens if the robot gets stuck, falls, or accidentally knocks over something.”"
-    ],
-    [
-     "A robot that did clean a flat",
-     "MIT Technology Review’s Grace Huckins booked a different, remotely piloted humanoid from Tau Robotics this month. On the first visit it failed on carpeted stairs; on the second it cleaned the kitchen but skipped the stove, the toilet brush head fell off three times, taps were left dripping and an oil bottle went over. Her verdict: thorough but slow, and probably a better use of your time to clean yourself."
+     "Who",
+     "A*STAR SIMTech with Osaka University, Xi’an Jiaotong University and NTU, published in Additive Manufacturing (volume 121, 2026) and reported by A*STAR Research on Wednesday 11 November."
     ]
    ],
    "rel": [
-    "zr",
-    "aicraft",
-    "spinheat"
+    "spinheat",
+    "hotrod",
+    "brick"
    ],
-   "src": "TIME Best Inventions 2026 (Amanda Loudin) · 1x.tech NEO spec, order and hands pages · Tom’s Guide (Jason England, 30 Oct 2025) · TechRadar (Lance Ulanoff, 29 Oct 2025) · MIT Technology Review (Grace Huckins, 6 Nov 2026)"
-  },
-  {
-   "id": "mangrove",
-   "dom": "earth",
-   "lab": "Earth · Mangroves",
-   "hot": 0,
-   "big": 0,
-   "art": "mangrove",
-   "cap": "Mangroves are coming back. Landsat counted 3,000 km² lost by 2010, then 2,000 km² regained",
-   "num": "4×",
-   "nums": "mangroves average about 13 m tall yet can store up to four times the carbon of taller inland tropical forests, NASA Earth Observatory says",
-   "p1": "NASA’s Earth Observatory image of the day for Friday 13 November pairs two Landsat views of the Burma (Myanmar) coast, from 14 February 2010 and 2 February 2026, showing mangrove forest filling back in. A Landsat analysis covering 1984 to 2023 found the world lost nearly 3,000 km² of mangroves between 1984 and 2010, then gained nearly 2,000 km² after 2010, led by Asia, Australia and South America. About two-thirds of the gain is mangroves colonising new ground; one-third is restoration and regrowth.",
-   "p2": "Why it matters: mangroves average about 13 m tall yet can store up to four times the carbon of taller inland tropical forests. Burma lost 28.6 percent of its mangrove area between the 1980s and 2010 and has since regained about 10 percent.",
-   "deep": [
-    [
-     "Two dates, one coast",
-     "The newer image is from Landsat 9’s Operational Land Imager on 2 February 2026; the older is from Landsat 5’s Thematic Mapper on 14 February 2010. Same stretch of the Burma coast, sixteen years apart."
-    ],
-    [
-     "The count",
-     "Losses of nearly 3,000 km² (1,200 sq mi) from 1984 to 2010; gains of nearly 2,000 km² (770 sq mi) after 2010. Asia, Australia and South America led the gains."
-    ],
-    [
-     "Why it grows back",
-     "About two-thirds of the new area is mangroves colonising places they were not before; about one-third is restoration and regrowth where forest had been cleared."
-    ],
-    [
-     "Carbon",
-     "Mangroves average about 13 m (43 ft) tall yet store up to four times the carbon of taller inland tropical forests."
-    ]
-   ],
-   "rel": [
-    "hotmonth",
-    "lenses",
-    "spinheat"
-   ],
-   "src": "NASA Earth Observatory, 13 Nov 2026 (story Adam Voiland; images Michala Garrison): A Global Rebound for Mangroves · Landsat 9 OLI and Landsat 5 TM data from the U.S. Geological Survey",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA Earth Observatory / Michala Garrison, Landsat 9 (USGS)"
-  },
-  {
-   "id": "hotmonth",
-   "dom": "earth",
-   "lab": "Earth · Record month",
-   "hot": 0,
-   "big": 0,
-   "art": "nino",
-   "cap": "October 2026: 1.43 °C above average, the biggest departure of any month since 1850. El Niño helped",
-   "num": "+1.43 °C",
-   "nums": "October 2026 global surface temperature above the 20th-century average, NOAA says: the largest departure of any month in its record from 1850 to 2026",
-   "p1": "NOAA’s monthly climate report, out Thursday 12 November, says October 2026 was 1.43 °C (2.57 °F) above the 20th-century average, the highest departure for any month in a record that runs back to 1850, beating October 2023 by 0.08 °C. The ocean surface was 1.14 °C above average, a record for any month; land was 2.08 °C above. October also saw 15 tropical storms worldwide, 12 of them reaching cyclone strength and 11 major, both October records.",
-   "p2": "Why: NOAA says El Niño continued to drive record warmth across the central and eastern tropical Pacific and contributed to the ocean’s heat. NOAA’s forecasters say it continues to strengthen, with a strong-to-very-strong El Niño likely through January to March 2027.",
-   "deep": [
-    [
-     "The El Niño numbers",
-     "NOAA’s 12 November El Niño discussion puts the Niño-3.4 region at +2.5 °C and Niño-1+2, off South America, at +4.4 °C above normal, with sea-surface anomalies above 4 °C in the eastern equatorial Pacific. It gives about a 60 percent chance that the three-month index reaches +2.5 °C or more, which would exceed every El Niño since 1950."
-    ],
-    [
-     "The year",
-     "January to October 2026 is 1.20 °C above average, second only to 2024 (+1.25 °C). NOAA says 2026 is very likely to end in the top five warmest years, most likely second."
-    ],
-    [
-     "Ice",
-     "Global sea ice in October was the third smallest for the month in the 48-year record, 8.89 million square miles; Antarctic ice was 730,000 square miles below average, its second smallest October."
-    ],
-    [
-     "The Atlantic oddity",
-     "The Atlantic managed only two tropical storms in October, and Hurricane Isaias was the latest first hurricane of any Atlantic season in the satellite era, while the eastern North Pacific had six storms, five of them major hurricanes."
-    ]
-   ],
-   "rel": [
-    "mangrove",
-    "leonids",
-    "lenses"
-   ],
-   "src": "NOAA NCEI, 12 Nov 2026: Monitoring Global Temperature and Precipitation in October 2026 · NOAA Climate Prediction Center, ENSO Diagnostic Discussion, 12 Nov 2026"
-  },
-  {
-   "id": "hellchick",
-   "dom": "life",
-   "lab": "Life · Dinosaurs",
-   "hot": 0,
-   "big": 0,
-   "art": "hellchicken",
-   "cap": "A 12 kg ‘hell chicken’ lived beside T. rex and ate fruit, its jaw sliding like a parrot’s",
-   "num": "12 kg",
-   "nums": "about the weight of Infernogallus jamesi, a turkey-sized, beaked dinosaur from the Hell Creek Formation, more than 65 million years old",
-   "p1": "Science News reports a small beaked dinosaur from the Hell Creek rocks of Montana and the Dakotas, named Infernogallus jamesi and nicknamed the hell chicken, which weighed about 12 kg and lived alongside Tyrannosaurus rex more than 65 million years ago. Reconstructing its skull and jaw muscles, David Evans of the Royal Ontario Museum, Greg Funston of Stony Brook University and colleagues found the jaw slid forward and back as it fed, unlike the up-and-down bite of its relatives, and more like a fruit-eating parrot. They call it the first evidence of a non-bird dinosaur with specialised fruit-eating adaptations.",
-   "p2": "Why it is interesting: flowering plants, and so fruit, were diversifying in the Cretaceous; a dinosaur evolving to eat them is a missing piece of what that world looked like just before the extinction.",
-   "deep": [
-    [
-     "Five skeletons",
-     "A fossil collector found much of one skeleton in eastern Montana in 2011 and brought it to Evans; four more partial skeletons followed from Montana, North Dakota and South Dakota, five in total."
-    ],
-    [
-     "What convinced them",
-     "“But the more we delved into it, the more sense it made,” says Funston. “All the different lines of evidence seemed to converge on this one answer.” The dinosaur likely used tongue and jaw to strip flesh from large seeds."
-    ],
-    [
-     "Where it is published",
-     "Nature Communications, 10 October 2026. The hell chicken is an oviraptorosaur, one of the birdlike theropods."
-    ]
-   ],
-   "rel": [
-    "insulin",
-    "mangrove",
-    "aicraft"
-   ],
-   "src": "Science News, 13 Nov 2026 (Jake Buehler): The ‘hell chicken’ dinosaur was a real terror — to fruit · Nature Communications"
+   "src": "A*STAR Research, 11 Nov 2026: When metal prints bend the rules · Additive Manufacturing 121, 105158 (2026)"
   },
   {
    "id": "spinheat",
@@ -546,77 +507,112 @@
     ]
    ],
    "rel": [
-    "neobot",
+    "metal",
     "zr",
-    "diver"
+    "hotrod"
    ],
    "src": "NTU News, 12 Nov 2026: NTU, Motherson to develop magnetic technology to cut manufacturing time and energy use",
    "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1---ntu-and-motherson-singapore.jpg?sfvrsn=58aec44e_1",
    "credit": "Photo: NTU Singapore"
   },
   {
-   "id": "handhole",
+   "id": "headharp",
    "dom": "try",
    "lab": "Try it · 2 min",
    "hot": 0,
    "big": 0,
-   "art": "tube",
-   "cap": "Paper tube to one eye, other palm beside it, both eyes open: a hole opens in your hand",
-   "num": "1.25 cm",
-   "nums": "the tube’s diameter in the Exploratorium’s recipe: a sheet of A4 or letter paper rolled lengthwise into a tube about 28 cm long, taped shut",
-   "p1": "Roll a sheet of paper lengthwise into a tube about 28 cm long and 1.25 cm across and tape it. Hold it in your right hand up to your right eye, both eyes open, and look through it. Now rest your left hand against the left side of the tube about halfway along, fingers pointing up, palm facing you. Your palm appears to have a round hole punched through it. Swap hands and eyes and it happens again.",
-   "p2": "Why: one eye sees the hole, the other sees the hand, and your brain fuses the two pictures into a hand with a hole in it.",
+   "art": "harp",
+   "cap": "A metre of string across your ears: pluck it and you hear a note nobody else can",
+   "num": "√tension",
+   "nums": "the pitch of a string rises with the square root of its tension, and rises as the string gets shorter; the sound is so quiet that nobody close to you is disturbed",
+   "p1": "Take a piece of string at least 1 m long. Put the middle behind your head, bring the two halves forward across your ears so the string crosses each ear opening, and hold the loose ends together in front of your face. Pluck. You hear your string, but so quietly that, the Exploratorium says, you will not disturb other people even if they are close to you. Pull tighter: the note goes up. Slide your hand along to shorten the string while keeping the pull the same: higher again.",
+   "p2": "The rule, from the Exploratorium: frequency is proportional to the square root of the tension and inversely proportional to the length; higher frequency is a higher note.",
    "deep": [
     [
-     "Make it",
-     "The Exploratorium’s recipe is one 8½ × 11 inch sheet of white paper and transparent tape: roll it lengthwise into a tube about 11 inches (28 cm) long and about half an inch (1.25 cm) across, and tape it so it stays rolled."
+     "Two knobs",
+     "Tension and length are the two things you can change. Double the tension and the frequency rises by √2, about 1.41 times; halve the length at the same tension and it doubles. Try to hear the difference between the two moves."
     ],
     [
-     "The dominant eye",
-     "Some people find the effect stronger with one eye than the other, the Exploratorium says, because one eye is usually dominant: the brain favours its input. Eye dominance is like handedness, but your dominant eye and dominant hand need not match."
+     "Why only you",
+     "The Exploratorium does not say why the sound stays with you; ask a friend to stand a hand’s width away and report what they hear, then swap places."
     ],
     [
-     "Two pictures, one view",
-     "Your two eyes always see slightly different pictures, and your eyes and brain fuse them into one view. Here they are handed a hole and a hand, and fuse those too."
+     "The Exploratorium’s joke",
+     "“Many city bus services do not allow people to play loud music on buses,” the Exploratorium notes; a head harp keeps you within the rules, and you get “more room as others move away from you.”"
     ]
    ],
    "rel": [
-    "diver",
-    "thomson",
-    "lenses"
+    "hotrod",
+    "brick",
+    "ai17"
    ],
-   "src": "Exploratorium Science Snacks: Hole In Your Hand"
+   "src": "Exploratorium Science Snacks: Head Harp"
   },
   {
-   "id": "aicraft",
-   "dom": "usingai",
-   "lab": "Using AI · Quote",
-   "art": "aicraft",
+   "id": "origins",
+   "dom": "life",
+   "lab": "Life · Beginnings",
    "hot": 0,
    "big": 0,
-   "cap": "“Outsource the crap, not the craft”",
-   "p1": "Behavioural scientist Benjamin Lira Luttges at the University of Pennsylvania put it in six words. Do not hand over the things you enjoy and that give you meaning, he says, and decide which skills you want to protect. Trent Cash, a behavioural scientist at the University of Waterloo, adds the mechanism: if we offload a specific skill to AI, we are probably not going to retain that skill particularly well.",
-   "p2": "Why it is not scary: Cash also says humans are resilient, and he does not think AI is going to suddenly turn our brains to mush.",
+   "art": "molecules",
+   "cap": "Life’s last common ancestor was alive 4.2 billion years ago, with about 2,600 proteins",
+   "num": "~200 million years",
+   "nums": "the window between Earth becoming habitable and LUCA, the last universal common ancestor of everything alive today, by the estimates Quanta reports",
+   "p1": "For decades the origin-of-life argument was over which came first: RNA, metabolism, or the fatty bubble of a membrane. Quanta’s series this week says the field has moved on, to how messy early chemistry gradually became systems that store information, use energy and evolve. The numbers set the stage: the Solar System formed about 4.6 billion years ago, the oldest uncontested fossils are about 3.5 billion years old, and LUCA, the last universal common ancestor, is estimated at 4.2 billion years old with roughly 2,600 proteins. Miller’s 1952 spark-in-a-flask experiment made five amino acids.",
+   "p2": "Why it matters: at least 6,000 exoplanets are known, around 2,000 of them possibly super-Earths; how easily chemistry becomes biology decides what to expect there.",
    "deep": [
     [
-     "The doctors who forgot",
-     "Doctors used an AI tool for three months to spot growths during colonoscopies. Back on their own, they did not detect the growths as well."
+     "Three camps",
+     "Metabolism-first says life began as self-sustaining cycles of energy-releasing reactions, perhaps at hydrothermal vents; in 2020 Martina Preiner’s team showed vent-like conditions make formate, acetate and pyruvate. Lipid-first says the fatty-acid bubble came first: “You need a container before you can get the chemistry,” says Bruce Damer. RNA-first wants a molecule that both stores information and does chemistry."
     ],
     [
-     "The readers who gave up",
-     "People who used an AI tool to solve SAT questions were more likely to skip questions once the help was removed. The researchers called that particularly concerning, because persistence is key for learning."
+     "Smaller alphabets",
+     "Modern proteins use 20 amino acids, but a reduced alphabet of 10 could support early protein folds; one synthetic-cell effort used 36 enzymes. Modern cells run some 1 billion reactions per second."
     ],
     [
-     "Your list",
-     "Write down three skills you want to be yours at 20. Those never get outsourced. Everything else is fair game."
+     "Crisis is good",
+     "“There’s nothing more exciting for a scientific field than a moment of crisis,” says Betül Kaçar. Joanna Masel goes further: “I believe that there were multiple origins of life.”"
     ]
    ],
    "rel": [
-    "zr",
-    "neobot",
-    "insulin"
+    "shark",
+    "dune",
+    "euclid"
    ],
-   "src": "Science News Explores, “Is AI making us dumber? Depends how it’s used”, Meghan Rosen, 13 Oct 2026 · Cash et al., Trends in Cognitive Sciences, Aug 2026 · Lira et al., arXiv preprint, Feb 2026"
+   "src": "Quanta Magazine, 10–12 Nov 2026, series A New Era for the Dawn of Life (Yasemin Saplakoglu, Jake Buehler, Perri Thaler)"
+  },
+  {
+   "id": "ai17",
+   "dom": "usingai",
+   "lab": "Using AI · Evidence",
+   "hot": 0,
+   "big": 0,
+   "art": "ai17",
+   "cap": "The students who got their answers from AI scored 17% worse on the test",
+   "num": "–17%",
+   "nums": "on the exam, after working with a chatbot",
+   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
+   "p2": "Why: if students use these tools as a “crutch” and rely on them, lead author Hamsa Bastani says, they “won’t actually build those fundamental skills.”",
+   "deep": [
+    [
+     "The hint-only version was different",
+     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
+    ],
+    [
+     "What the researchers concluded",
+     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
+    ],
+    [
+     "Try it on yourself",
+     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
+    ]
+   ],
+   "rel": [
+    "brick",
+    "headharp",
+    "zr"
+   ],
+   "src": "PNAS, 25 Jun 2025, Bastani et al.: Generative AI without guardrails can harm learning (doi 10.1073/pnas.2422633122) · Knowledge at Wharton"
   }
  ]
 }
