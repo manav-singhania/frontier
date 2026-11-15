@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "tiles": [
   {
    "id": "after",
@@ -284,7 +284,7 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-11-13",
+   "last": "2026-11-16",
    "editions": [
     "02b",
     "06",
@@ -292,7 +292,8 @@
     "12",
     "15",
     "18",
-    "21"
+    "21",
+    "24"
    ]
   },
   {
@@ -2672,13 +2673,14 @@
    "lab": "Space · Coming home",
    "src": "NASA space station blog, 9 Nov 2026: Crew Packing Dragon for Return with Experiments and a Spacesuit",
    "first": "2026-11-11",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "editions": [
     "19",
     "20",
     "21",
     "22",
-    "23"
+    "23",
+    "24"
    ]
   },
   {
@@ -2788,12 +2790,13 @@
    "lab": "Space · Meteors",
    "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
    "first": "2026-11-12",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "editions": [
     "20",
     "21",
     "22",
-    "23"
+    "23",
+    "24"
    ]
   },
   {
@@ -2998,11 +3001,12 @@
    "lab": "Singapore · Heat from inside",
    "src": "NTU News, 12 Nov 2026: NTU, Motherson to develop magnetic technology to cut manufacturing time and energy use",
    "first": "2026-11-13",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "editions": [
     "21",
     "22",
-    "23"
+    "23",
+    "24"
    ]
   },
   {
@@ -3049,9 +3053,10 @@
    "lab": "Space · Welcome home",
    "src": "NASA Johnson release J26-002, 10 Nov 2026: NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
    "first": "2026-11-14",
-   "last": "2026-11-14",
+   "last": "2026-11-16",
    "editions": [
-    "22"
+    "22",
+    "24"
    ]
   },
   {
@@ -3194,9 +3199,10 @@
    "lab": "Physics · Neutrinos",
    "src": "CERN, 10 Nov 2026: Construction begins on massive underground neutrino experiment designed to unlock the secrets of the Universe",
    "first": "2026-11-15",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "editions": [
-    "23"
+    "23",
+    "24"
    ]
   },
   {
@@ -3206,9 +3212,10 @@
    "lab": "Gadgets · TIME 2026",
    "src": "TIME Best Inventions 2026 (Daniel Varghese): Brick · getbrick.com product page and FAQ · Tom’s Guide review (Ashley Thieme, 2 Oct 2026)",
    "first": "2026-11-15",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "editions": [
-    "23"
+    "23",
+    "24"
    ]
   },
   {
@@ -3230,9 +3237,10 @@
    "lab": "Try it · 2 min",
    "src": "Exploratorium Science Snacks: Head Harp",
    "first": "2026-11-15",
-   "last": "2026-11-15",
+   "last": "2026-11-16",
    "editions": [
-    "23"
+    "23",
+    "24"
    ]
   },
   {
@@ -3245,6 +3253,102 @@
    "last": "2026-11-15",
    "editions": [
     "23"
+   ]
+  },
+  {
+   "id": "vgr",
+   "cap": "Tomorrow after sunset: point your phone at the sky and flash V-G-R at Voyager 1",
+   "lane": "space",
+   "lab": "Space · Tomorrow night",
+   "src": "NASA Science, Voyager: Shine Bright for Voyager’s Light-Day (Stephen Carney) · Voyager 1: What Is a Light-Day? (updated 12 Nov 2026) · NASA advisory M26-086, 10 Nov 2026, updated 13 Nov",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "gemini",
+   "cap": "14 Nov 1966: astronauts photographed the Nile from orbit. Photos like it led to Landsat",
+   "lane": "earth",
+   "lab": "Earth · 60 years ago",
+   "src": "NASA History Office, 13 Nov 2026: Gemini Astronaut Photos Inspired Early Earth Observation Program · NASA Earth Observatory, 13 Nov 2026: A Global Rebound for Mangroves",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "alloy",
+   "cap": "IIT Jodhpur’s alloy for 1,000 °C: 7.6 g/cm³, growing about a sixth of the oxide C-103 does",
+   "lane": "matter",
+   "lab": "India · Lighter metal",
+   "src": "Press Information Bureau (PIB Jaipur), Ministry of Education, 10 Nov 2026, release 2334624: IIT Jodhpur Develops Next-Generation Lightweight Refractory Alloy with Exceptional Oxidation Resistance at 1,000°C · Materials & Design",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "canaan",
+   "cap": "NTU and Canaan put S$7 million into AI that runs on less power, out at the edge",
+   "lane": "sg",
+   "lab": "Singapore · Greener AI",
+   "src": "NTU News, 13 Nov 2026: S$7 million NTU-Canaan partnership to drive advances in sustainable computing and edge AI · NTU CCTF news, 7 May 2026",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "stick",
+   "cap": "A metre stick with a lump of clay near one end is easier to balance on a finger clay-up",
+   "lane": "matter",
+   "lab": "Physics · Balance",
+   "src": "Exploratorium Science Snacks: Balancing Stick",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "zenbook",
+   "cap": "ASUS’s Zenbook Duo: two 14-inch OLED screens, 1.65 kg. The keyboard is a Bluetooth lid",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Martin Cizmar): ASUS Zenbook Duo · ASUS Zenbook Duo UX8407 tech specs and press release · Tom’s Guide review (Jason England, 26 Jan 2026)",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "turtles",
+   "cap": "Below 10 °C a sea turtle gets too cold to swim. Cape Cod rescues: 139 a winter, then 739",
+   "lane": "life",
+   "lab": "Life · Cold-stunned",
+   "src": "Science News Explores, 12 Nov 2026 (Jennifer Weeks): Ocean cold snaps can imperil sea turtles. Rescuers can help",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
+   ]
+  },
+  {
+   "id": "periph",
+   "cap": "Corner of your eye: how close must a shape come before you can read the word on it?",
+   "lane": "mind",
+   "lab": "Mind · Edge of sight",
+   "src": "Exploratorium Science Snacks: Peripheral Vision",
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "editions": [
+    "24"
    ]
   }
  ]

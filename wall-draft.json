@@ -1,13 +1,18 @@
 {
- "edition": 23,
+ "edition": 24,
  "level": "High school",
- "date": "2026-11-15",
- "dateLabel": "Sun 15 Nov 2026",
+ "date": "2026-11-16",
+ "dateLabel": "Mon 16 Nov 2026",
  "week": [
   {
    "d": "FRI",
-   "t": "NASA: the Roman Space Telescope’s instruments are aligned; next, more than 3,000 moving parts in its coronagraph’s deformable mirrors",
-   "id": "roman"
+   "t": "NASA History Office: the Gemini XII photograph of the Red Sea and Nile, 14 November 1966, that helped make the case for Landsat",
+   "id": "gemini"
+  },
+  {
+   "d": "FRI",
+   "t": "NTU and Canaan announce a four-year, S$7 million collaboration on energy-efficient edge AI",
+   "id": "canaan"
   },
   {
    "d": "FRI",
@@ -16,18 +21,13 @@
   },
   {
    "d": "THU",
-   "t": "ESA’s Euclid releases 1.7 million GB of data: over 900 million galaxies and 15,000 strong-lens candidates",
-   "id": "euclid"
+   "t": "Science News Explores: cold-stunned sea-turtle strandings on Cape Cod rose from 139 to 739 a winter",
+   "id": "turtles"
   },
   {
-   "d": "WED",
-   "t": "PIB: a new deep-sea shark, Echinorhinus roinee, named from trawler bycatch landed at Kollam, Kerala",
-   "id": "shark"
-  },
-  {
-   "d": "WED",
-   "t": "A*STAR Research: 3D-printed steel beams warp up or down depending on a 1.3 mm thickness threshold",
-   "id": "metal"
+   "d": "TUE",
+   "t": "PIB: IIT Jodhpur’s niobium-rich alloy, 7.6 g/cm³, gains 43.48 mg/cm² of oxide at 1,000 °C against 258 for C-103",
+   "id": "alloy"
   },
   {
    "d": "TUE",
@@ -37,82 +37,82 @@
  ],
  "tiles": [
   {
-   "id": "euclid",
+   "id": "vgr",
    "dom": "space",
-   "lab": "Space · Billion-object map",
+   "lab": "Space · Tomorrow night",
    "hot": 1,
    "big": 1,
-   "art": "gal",
-   "cap": "900 million galaxies in one release: Euclid maps sky the size of 9,500 full Moons",
-   "num": "1.7 million GB",
-   "nums": "of data in Euclid’s first big release, from about 13 months of observing: more than a billion objects, over 900 million of them galaxies",
-   "p1": "On Thursday 12 November the European Space Agency released the first major batch of data from Euclid, its €1.4 billion space telescope: 1.7 million GB from about 13 months of observing, covering 1,900 square degrees of sky, the area of 9,500 full Moons and about 14% of the planned survey. In it are more than a billion objects, over 900 million galaxies, some 15,000 candidate strong gravitational lenses and over 60 million candidate quasars. Euclid’s images are about four times sharper than today’s ground telescopes manage.",
-   "p2": "Why it matters: those 15,000 lens candidates are the largest catalogue of strong cosmic lenses ever assembled, Physics World reports; the first full data release is due in mid-2027.",
+   "art": "shine",
+   "cap": "Tomorrow after sunset: point your phone at the sky and flash V-G-R at Voyager 1",
+   "num": "24 hours",
+   "nums": "from Wednesday 18 November at 6:16 pm Singapore time, light leaving Earth takes a full day to reach Voyager 1, 16.094 billion miles (25.902 billion km) away",
+   "p1": "On Tuesday 17 November, after sunset, NASA is asking people everywhere to signal skyward for Voyager 1, in what it calls Shine Bright for Voyager’s Light-Day. NASA’s Voyager site has an “Automated V-G-R Flasher” page: open it on a phone or tablet, point the screen at the sky, and it flashes V-G-R, Voyager’s call sign, in Morse code. Or do it by hand with a torch, bike light or glow stick: V is three quick flashes then one long, G is two long then one quick, R is quick, long, quick. A dot is under a second, a dash about a second, leave a second or more between letters, and keep going for about a minute.",
+   "p2": "Why Wednesday: at 5:16:07 am US Eastern on Wednesday 18 November, 6:16 pm in Singapore, Voyager 1 will be 16,094,799,096 miles (25,902,068,356 km) from Earth, the distance light travels in 24 hours. NASA says it will be the first human-made object to reach that distance.",
    "deep": [
     [
-     "Where it sits",
-     "Euclid launched in July 2023 and observes from Lagrange point L2, about 1.5 million km from Earth, with a 1.2 m telescope feeding a camera and a spectrometer. Routine surveying began in February 2024; a preliminary release in 2025 covered about 60 square degrees."
+     "How far a light-day is",
+     "NASA’s page lists the light-times for comparison: the Moon about 1.3 seconds away, the Sun about 8 minutes 20 seconds, Mars 3 to 22 minutes depending on where the two planets are, Neptune four hours and ten minutes, Proxima Centauri about 4.24 light-years. Voyager 1 left Earth on 5 September 1977; NASA’s page gives its speed as nearly 38,000 mph (61,000 km/h), though a caption on the same page says around 35,000 mph."
     ],
     [
-     "Who",
-     "The Euclid Consortium has about 2,600 members from more than 15 countries. “This major Euclid data release represents the largest space-based survey of its kind,” said Carole Mundell, ESA’s Director of Science. Valeria Pettorino, the project scientist: “This unlocks ground-breaking science.”"
+     "The code",
+     "V is · · · —, G is — — ·, R is · — ·. NASA’s timing: a dot under one second, a dash about one second, a brief pause between the symbols of a letter and a second or more between letters, repeated for about a minute. Any light does: torch, glow stick, solar lantern, bike light or phone."
     ],
     [
-     "Try the scale",
-     "If 1,900 square degrees is about 14% of the planned survey, divide 1,900 by 0.14 and you have the size of the whole survey in square degrees. One full Moon covers about a fifth of a square degree, which is where the 9,500 comes from: 1,900 ÷ 9,500."
+     "Thursday’s panel",
+     "A panel at NASA’s Jet Propulsion Laboratory on Thursday 19 November at 12 pm US Eastern, Friday 20 November at 1 am in Singapore, can be watched online on NASA’s site; participants include Nicky Fox, associate administrator of NASA’s Science Mission Directorate, and Suzanne Dodd, the Voyager project manager. NASA says a Voyager documentary is planned for 2027, the mission’s 50th anniversary."
     ],
     [
      "The picture",
-     "Abell 3128, a cluster of hundreds of galaxies around 800 million light-years away, as Euclid sees it. Image: ESA/Euclid/Euclid Consortium/NASA, processed by J.-C. Cuillandre and E. Bertin, CC BY-SA 3.0 IGO."
+     "An artist’s concept of a Voyager spacecraft, credit NASA/JPL-Caltech."
     ]
    ],
    "rel": [
-    "roman",
-    "lightday",
-    "dune"
-   ],
-   "src": "Physics World, 12 Nov 2026 (Michael Banks): ESA’s Euclid mission unveils treasure trove of cosmic data",
-   "img": "https://physicsworld.com/wp-content/uploads/2026/11/euclid1-12-11-2026.jpg",
-   "credit": "Photo: ESA/Euclid/Euclid Consortium/NASA; J.-C. Cuillandre, E. Bertin (CC BY-SA 3.0 IGO)"
-  },
-  {
-   "id": "roman",
-   "dom": "space",
-   "lab": "Space · Lining up",
-   "hot": 0,
-   "big": 0,
-   "art": "scope",
-   "cap": "Roman is aligned to a fraction of a hair’s breadth. Next: 3,000 moving parts in one mirror",
-   "num": "18 detectors",
-   "nums": "in Roman’s Wide Field Instrument, each remapped after launch so they lock onto guide stars together",
-   "p1": "NASA said on Friday 13 November that the Nancy Grace Roman Space Telescope, launched in August, has finished aligning its instruments. Launch vibrations, temperature changes and the move into weightlessness shift things slightly, so test observations were used to update the telescope’s internal map; the team also adjusted the secondary mirror and a smaller mirror to sharpen the Coronagraph Instrument’s view. “Roman is now internally aligned to within a tiny fraction of a hair’s breadth of perfection,” said Tony Sohn of the Space Telescope Science Institute.",
-   "p2": "Why it is hard: Roman has to be “at least ten times more stable” than Hubble or Webb, says Dominic Benford, the programme scientist, because the coronagraph has to stare at one star for a long time.",
-   "deep": [
-    [
-     "Why things move",
-     "Rockets shake, space is cold and gravity is gone, so the detectors sit only roughly where they were set on the ground. The 18 detectors “are meant to work together when we’re locking onto guide stars,” said Tyler Desjardins of the Space Telescope Science Institute, so each one’s position had to be mapped again."
-    ],
-    [
-     "3,000 moving parts",
-     "Next the team works through more than 3,000 tiny moving parts in the coronagraph’s deformable mirrors, then begins the second stage of active starlight control: cancelling a star’s glare so something faint beside it can show. “The wave nature of light makes starlight spill when forming images,” said Brian Kern, an optical engineer at JPL. “We have demonstrated this in a lab using an artificial space environment.”"
-    ],
-    [
-     "Two at once",
-     "While the coronagraph observes, the Wide Field Instrument guides, and that guiding time yields extra deep-field images. No date for the start of science has been given yet."
-    ],
-    [
-     "The picture",
-     "NASA’s alignment animation from the Roman Fine Guidance Sensor team: stars that began off-centre in Roman’s guide windows slide into line as small adjustments are made."
-    ]
-   ],
-   "rel": [
-    "euclid",
-    "lightday",
+    "leonids",
+    "expo74",
     "dragon"
    ],
-   "src": "NASA Science, Roman blog, 13 Nov 2026: Instruments on NASA’s Roman Space Telescope Get in Sync for Science · JPL, 30 Aug 2026: NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/rst/commissioning/Alignment%20ft%20image.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-   "credit": "Image: NASA / Roman Space Telescope Fine Guidance Sensor team"
+   "src": "NASA Science, Voyager: Shine Bright for Voyager’s Light-Day (Stephen Carney) · Voyager 1: What Is a Light-Day? (updated 12 Nov 2026) · NASA advisory M26-086, 10 Nov 2026, updated 13 Nov",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
+   "credit": "Image: NASA/JPL-Caltech (artist’s concept)"
+  },
+  {
+   "id": "leonids",
+   "dom": "space",
+   "lab": "Space · Meteors",
+   "hot": 0,
+   "big": 0,
+   "art": "meteor",
+   "cap": "Leonids before dawn tomorrow and Wednesday, up to 15 an hour. Mars and Jupiter drift apart",
+   "num": "15 an hour",
+   "nums": "Leonid meteors under ideal skies in the early hours of 17 and 18 November, after the Moon has set; most people will see fewer",
+   "p1": "NASA’s skywatching notes for November put the Leonid meteor shower at its best in the early morning hours of Tuesday 17 and Wednesday 18 November, after the Moon sets: up to about 15 meteors an hour under ideal conditions, fewer for most viewers. Around 12 November the Northern Taurids peaked at a gentler 5 an hour. On the mornings of 15 and 16 November Mars and Jupiter stood about 1.2° apart in the south-east before sunrise; NASA says to keep watching on later mornings as they separate, Jupiter the brighter, Mars reddish beside it.",
+   "p2": "Why now: New Moon was 8 November and first quarter is 17 November; NASA says to look after the Moon sets.",
+   "deep": [
+    [
+     "Watch several mornings",
+     "NASA suggests watching Mars and Jupiter on more than one morning, to see them close in and then separate again. Jupiter is the brighter of the two."
+    ],
+    [
+     "Three supermoons",
+     "The full Moon of 24 November is a supermoon, the first of three in a row: November, December and January. Third quarter follows on 30 November."
+    ],
+    [
+     "Faced the right way",
+     "NASA’s chart for 17 November also marks where Voyager 1 sits, in Ophiuchus toward the western horizon at about 5 pm on 17 November, the evening NASA invites people to celebrate Voyager 1 reaching one light-day from Earth."
+    ],
+    [
+     "The photo",
+     "NASA’s page opens with the full Moon rising over Vasquez Rocks, north of Los Angeles, photographed by Preston Dyches of NASA on 24 June 2021."
+    ]
+   ],
+   "rel": [
+    "vgr",
+    "dragon",
+    "expo74"
+   ],
+   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
+   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
+   "credit": "Photo: NASA / Preston Dyches"
   },
   {
    "id": "dragon",
@@ -137,7 +137,7 @@
     ],
     [
      "What NASA has not said",
-     "No undocking or splashdown date and no mission number appear on the blog; the 13 October launch release said Dragon would stay until mid-November and splash down off the coast of California. The crew of seven: station commander Pyotr Dubrov, Anna Kikina and Sergey Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the Canadian Space Agency."
+     "No undocking or splashdown date appears on the blog, which also gives no mission number (NASA’s visiting-vehicles page lists the craft as SpaceX CRS-35, docked 15 October); NASA’s 7 October advisory for the 13 October launch said Dragon would stay until mid-November and splash down off the coast of California. The crew of seven: station commander Pyotr Dubrov, Anna Kikina and Sergey Teteryatnikov of Roscosmos, Menon, Watkins and Delaney of NASA, and Kutryk of the Canadian Space Agency."
     ],
     [
      "The photo",
@@ -145,200 +145,227 @@
     ]
    ],
    "rel": [
-    "lightday",
-    "leonids",
-    "roman"
+    "expo74",
+    "vgr",
+    "leonids"
    ],
    "src": "NASA space station blog, 12 Nov 2026: Crew Packs Dragon with Science and Cleans Spacesuits · 13 Nov 2026: Botany, Biomedicine, and Cargo Ops Wrap Up Week Aboard Station",
    "img": "https://images-assets.nasa.gov/image/iss075e0252441/iss075e0252441~large.jpg",
    "credit": "Photo: NASA / Luke Delaney"
   },
   {
-   "id": "lightday",
+   "id": "expo74",
    "dom": "space",
-   "lab": "Space · Light-day",
+   "lab": "Space · Welcome home",
    "hot": 0,
    "big": 0,
-   "art": "shine",
-   "cap": "Voyager 1 is one light-day away next week. NASA wants your phone to flash it on Tuesday",
-   "num": "16 billion miles",
-   "nums": "more than 16 billion miles (25.9 billion km) from Earth: from Wednesday, light, and any radio command, will take 24 hours to reach Voyager 1",
-   "p1": "On Wednesday 18 November, NASA says, Voyager 1 will have travelled one light-day from Earth: more than 16 billion miles (25.9 billion km), so far that light from Earth takes 24 hours to reach it. The evening before, Tuesday 17 November, NASA is asking people everywhere to make a symbolic wave of golden light around the planet after sunset, “Shine Bright for Voyager’s Light-Day”. A NASA web page makes a phone or tablet flash VGR, Voyager’s call sign, in Morse code.",
-   "p2": "Why now: NASA announced the activities on Tuesday 10 November. A panel from JPL is streamed on NASA’s site on Friday 20 November at 1 am Singapore time (Thursday noon US Eastern).",
+   "art": "orbits",
+   "cap": "241 days, 3,856 orbits: Expedition 74’s crews tell their story. Wednesday, 8 am Singapore",
+   "num": "3,856",
+   "nums": "orbits of Earth by the Soyuz MS-28 crew in 241 days, more than 102 million miles, NASA says",
+   "p1": "NASA welcomes the astronauts of Expedition 74 home at Space Center Houston on Tuesday 17 November at 6 pm Central time, which is Wednesday 18 November at 8 am in Singapore; the crew share mission highlights, followed by an awards ceremony. Chris Williams flew with Roscosmos’ Sergey Kud-Sverchkov and Sergei Mikaev on Soyuz MS-28, launched from Baikonur on 27 November 2025 and landed in Kazakhstan on 26 July: 241 days, 3,856 orbits, more than 102 million miles. Jessica Meir, Jack Hathaway and ESA’s Sophie Adenot flew SpaceX Crew-12, launched 13 February and splashed down off Los Angeles on 8 October: 237 days, more than 3,792 orbits, more than 100 million miles.",
+   "p2": "Why it matters: Expedition 74 logged more than 1,400 hours of research, including 3D printing of metal and of tissue, blood-flow research and cancer-related pharmaceutical work.",
    "deep": [
     [
-     "Who is talking",
-     "The discussion at JPL’s von Kármán Auditorium in Southern California includes Nicky Fox, NASA’s associate administrator for science; Jonathan Lunine, JPL’s chief scientist; Suzanne Dodd, the Voyager project manager; Linda Spilker, the Voyager project scientist; Kareem Badaruddin, the Voyager mission manager; and Jamie Rankin of Princeton University, the deputy project scientist. It takes questions and is streamed live."
+     "Who is on stage",
+     "NASA astronauts Jessica Meir, Jack Hathaway and Chris Williams; ESA’s Sophie Adenot; Roscosmos’ Sergey Kud-Sverchkov and Sergei Mikaev. Andrey Fedyaev of Roscosmos, who flew on Crew-12, is not available."
     ],
     [
-     "A film is coming",
-     "NASA says the event previews a Voyager documentary on NASA+ planned for 2027, the mission’s 50th anniversary."
-    ],
-    [
-     "Which day, exactly",
-     "NASA’s Voyager page gives the moment: 5:16:07 am US Eastern on Wednesday 18 November, which is 6:16 pm in Singapore, at 16,094,799,096 miles (25,902,068,356 km) from Earth. Its November skywatching chart puts Voyager 1 in the constellation Ophiuchus, toward the western horizon at about 5 pm on the 17th: you cannot see the probe, but you can face it."
-    ],
-    [
-     "Where the picture comes from",
-     "The image is an artist’s concept of a Voyager spacecraft from NASA/JPL-Caltech; no camera is out there to photograph it."
-    ]
-   ],
-   "rel": [
-    "leonids",
-    "dragon",
-    "euclid"
-   ],
-   "src": "NASA release M26-086, 10 Nov 2026 (Gerelle Q. Dodson): NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities · NASA Science: Voyager 1: What Is a Light-Day · What’s Up: November 2026",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
-   "credit": "Image: NASA/JPL-Caltech (artist’s concept)"
-  },
-  {
-   "id": "leonids",
-   "dom": "space",
-   "lab": "Space · Meteors",
-   "hot": 0,
-   "big": 0,
-   "art": "meteor",
-   "cap": "Leonids before dawn Tuesday and Wednesday, up to 15 an hour. Mars meets Jupiter at dawn",
-   "num": "15 an hour",
-   "nums": "Leonid meteors under ideal skies in the early hours of 17 and 18 November, after the Moon has set; most people will see fewer",
-   "p1": "NASA’s skywatching notes for November put the Leonid meteor shower at its best in the early morning hours of Tuesday 17 and Wednesday 18 November, after the Moon sets: up to about 15 meteors an hour under ideal conditions, fewer for most viewers. Around 12 November the Northern Taurids peaked at a gentler 5 an hour. And on the mornings of 15 and 16 November Mars and Jupiter stand about 1.2° apart in the south-east before sunrise, Jupiter the brighter, Mars reddish beside it.",
-   "p2": "Why now: New Moon was 8 November and first quarter is 17 November; NASA says to look after the Moon sets.",
-   "deep": [
-    [
-     "Watch several mornings",
-     "NASA suggests watching Mars and Jupiter on more than one morning, to see them close in and then separate again. Jupiter is the brighter of the two."
-    ],
-    [
-     "Three supermoons",
-     "The full Moon of 24 November is a supermoon, the first of three in a row: November, December and January. Third quarter follows on 30 November."
-    ],
-    [
-     "Faced the right way",
-     "NASA’s chart for 17 November also marks where Voyager 1 sits, in Ophiuchus toward the western horizon at about 5 pm, the evening before it reaches one light-day from Earth."
+     "Two ways up, two ways down",
+     "Soyuz MS-28 went up from Baikonur Cosmodrome in Kazakhstan and came down on land south-east of Dzhezkazgan, Kazakhstan. Crew-12 went up from Space Launch Complex 40 at Cape Canaveral and came down in the Pacific off Los Angeles."
     ],
     [
      "The photo",
-     "NASA’s page opens with the full Moon rising over Vasquez Rocks, north of Los Angeles, photographed by Preston Dyches of NASA on 24 June 2021."
+     "The station over the Atlantic, photographed by ESA astronaut Sophie Adenot during the expedition."
     ]
    ],
    "rel": [
-    "lightday",
     "dragon",
-    "calwater"
+    "vgr",
+    "gemini"
    ],
-   "src": "NASA Science, What’s Up: November 2026 Skywatching Tips from NASA (Raquel Villanueva, JPL), 2 Nov 2026",
-   "img": "https://science.nasa.gov/wp-content/uploads/2023/07/moonrise-at-vasquez-rocks-credit-nasa-preston-dyches-cc-by-nc-2.0.jpg",
-   "credit": "Photo: NASA / Preston Dyches"
+   "src": "NASA Johnson release J26-002, 10 Nov 2026: NASA to Welcome Expedition 74 Astronauts Home at Space Center Houston",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/expedition-74-picture.jpg",
+   "credit": "Photo: ESA / Sophie Adenot"
   },
   {
-   "id": "calwater",
+   "id": "gemini",
    "dom": "earth",
-   "lab": "Earth · High water",
+   "lab": "Earth · 60 years ago",
    "hot": 0,
    "big": 0,
-   "art": "tide",
-   "cap": "San Diego’s sea 2.80 ft above its normal high mark on 27 Oct, a record. Next: 22–27 Nov",
-   "num": "+2.80 ft",
-   "nums": "above Mean Higher High Water at NOAA’s San Diego tide gauge on 27 October 2026, the highest level ever observed there",
-   "p1": "Between 24 and 30 October, NOAA tide gauges at four California stations recorded their highest water levels ever observed: San Diego 2.80 ft above Mean Higher High Water on 27 October, Los Angeles 2.70 ft, La Jolla 2.65 ft and Santa Barbara 2.65 ft. Santa Monica’s 2.72 ft was its second highest, Port San Luis’s 2.35 ft its fourth, Monterey’s 2.20 ft its seventh. Three things stacked up: a perigean spring tide, with the full Moon at its closest to Earth; El Niño Kelvin waves that raise sea level along the coast by 6 to 12 inches or more for weeks; and a marine heatwave, because “warmer water takes up more space than cold water.”",
-   "p2": "Why now: NOAA predicts the next above-normal tides for 22–27 November and 22–26 December 2026; the full Moon of 24 November is a supermoon.",
+   "art": "nile",
+   "cap": "14 Nov 1966: astronauts photographed the Nile from orbit. Photos like it led to Landsat",
+   "num": "1966",
+   "nums": "the year Gemini XII flew, 11 to 15 November, the last mission of NASA’s Gemini programme, and the year the satellite programme that became Landsat was conceived",
+   "p1": "On 14 November 1966, James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr., orbiting Earth on Gemini XII, photographed the Red Sea and the Nile valley below them. NASA’s History Office published the frame on Friday 13 November, 60 years almost to the day after it was taken. Gemini XII, 11 to 15 November 1966, was the final mission of the Gemini programme, flown to work out the rendezvous and spacewalk procedures the Moon missions would need; the photographs that Lovell, Aldrin and other Gemini astronauts brought back also demonstrated the value of orbital imagery for looking closely at Earth’s surface.",
+   "p2": "Why it matters: William T. Pecora, director of the US Geological Survey from 1965 to 1971, said in 1969 that the Earth Resources Observation Satellite programme was “conceived in 1966 largely as a direct result of the demonstrated utility” of Mercury and Gemini orbital photography for Earth-resource work. That programme led to Landsat.",
    "deep": [
     [
-     "Three causes, one week",
-     "A perigean spring tide happens when a full or new Moon coincides with the Moon’s closest approach to Earth; El Niño sends Kelvin waves across the Pacific that lift sea level at the coast for weeks; and a marine heatwave expands the water itself. NOAA says the high water inundated the state’s low-lying areas."
+     "From snapshot to satellite",
+     "NASA calls Pecora one of the strongest advocates for accelerating the use of Earth-observing satellites. Over more than five decades, NASA says, Landsat and other Earth-observing satellites have provided data used for monitoring crops, wildfires, flooding, vegetation health and land use."
     ],
     [
-     "What the gauges measure",
-     "Mean Higher High Water is the gauge’s reference level for a normal high tide, so 2.80 ft above it is water far past where a high tide usually stops. The seven stations named are all on NOAA’s network along the California coast."
+     "The line continues",
+     "NASA Earth Observatory’s image of 13 November set a Landsat 5 view of mangroves in Burma from 14 February 2010 beside a Landsat 9 view from 2 February 2026, part of a record stretching back to 1984 that shows mangroves lost nearly 3,000 square kilometres worldwide between 1984 and 2010 and regained nearly 2,000 after 2010, in a record of imagery running to 2023."
     ],
     [
      "The photo",
-     "A microwave water-level sensor at NOAA’s La Jolla, California tide gauge, one of the stations that set a record."
+     "NASA’s photograph of the Red Sea and the Nile valley area, taken by Lovell and Aldrin on 14 November 1966 during the four-day Gemini XII mission."
     ]
    ],
    "rel": [
-    "leonids",
-    "dune",
-    "shark"
+    "vgr",
+    "expo74",
+    "turtles"
    ],
-   "src": "NOAA National Ocean Service, 4 Nov 2026: California water levels break records · NASA What’s Up: November 2026 (supermoon)",
-   "img": "https://oceanservice.noaa.gov/news/nov26/la-jolla-960.jpg",
-   "credit": "Photo: NOAA"
+   "src": "NASA History Office, 13 Nov 2026: Gemini Astronaut Photos Inspired Early Earth Observation Program · NASA Earth Observatory, 13 Nov 2026: A Global Rebound for Mangroves",
+   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/s66-63535-f.png",
+   "credit": "Photo: NASA (Gemini XII, 1966)"
   },
   {
-   "id": "shark",
-   "dom": "life",
-   "lab": "India · New shark",
+   "id": "alloy",
+   "dom": "matter",
+   "lab": "India · Lighter metal",
    "hot": 1,
    "big": 0,
-   "art": "shark",
-   "cap": "A 3-metre shark from 400 m down off Kerala turns out to be a species nobody had named",
-   "num": "350–450 m",
-   "nums": "depth on the continental slope where the Indian Bramble Shark lives; it grows up to three metres long",
-   "p1": "Indian scientists have named a new deep-sea shark, Echinorhinus roinee, the Indian Bramble Shark, the government’s Press Information Bureau announced on Wednesday 11 November. It lives on the continental slope at 350 to 450 m, grows up to three metres, is dark brown to blackish, and its skin carries thorn-like denticles that fuse into multi-pointed plates as it ages. For years it had been taken for the Atlantic bramble shark, Echinorhinus brucus; measurements and mitochondrial DNA barcoding show a distinct Indian Ocean lineage.",
-   "p2": "Where it came from: specimens landed as bycatch by deep-sea shrimp trawlers at Sakthikulangara fishing harbour in Kollam district, Kerala.",
+   "art": "lattice",
+   "cap": "IIT Jodhpur’s alloy for 1,000 °C: 7.6 g/cm³, growing about a sixth of the oxide C-103 does",
+   "num": "43.48 mg/cm²",
+   "nums": "of oxide gained after 24 hours at 1,000 °C, against 258 mg/cm² for the conventional alloy C-103, the Press Information Bureau reports",
+   "p1": "Materials engineers at IIT Jodhpur have made a niobium-rich alloy they call a Refractory Complex Lean Alloy, the Press Information Bureau reported on Tuesday 10 November. Its density is about 7.6 g/cm³, where conventional refractory high-entropy alloys are typically above 10 to 12 g/cm³ and the established alloys C-103 and WC3009 sit at about 9 to 10. After 24 hours at 1,000 °C it gained 43.48 mg/cm² of oxide against 258 mg/cm² for C-103; at room temperature it has a yield strength of 1.13 GPa and takes a compressive strain of about 29%.",
+   "p2": "Why it matters: the alloy leaves out hafnium, one of the rarest and most expensive ingredients of alloys like C-103, for an estimated cost advantage of about 11 times; IIT Jodhpur names hypersonic and re-entry vehicles, rocket propulsion and defence platforms as potential future uses, after more testing.",
    "deep": [
     [
      "Who",
-     "Researchers at the Zoological Survey of India and ICAR’s Central Marine Fisheries Research Institute, funded by the Ministry of Earth Sciences under the Deep Ocean Mission. The description is published in Records of the Zoological Survey of India; the type specimens are kept at ZSI’s Marine Biology Regional Centre in Chennai."
+     "Dr Saurabh Nene, Associate Professor in the Department of Materials Engineering, led the work with postdoctoral fellows Dr Dharmendra Yadav and Dr Akshit Dutta and PhD scholar Aditya Balpande; it is published in Materials & Design. “The central idea behind this research was to rethink how high-temperature refractory alloys are designed,” Nene said."
     ],
     [
-     "How you tell",
-     "Compared with its relatives it has larger eyes, larger pelvic fins and a longer stretch from snout to gills. Its DNA separates it from E. brucus in the Atlantic and E. cookei, the prickly shark of the Pacific; similar genetic records suggest its range may extend to Oman, Sri Lanka and Thailand."
+     "The trade-off",
+     "“Conventional materials often involve a trade-off between weight, mechanical formability and oxidation resistance,” said Nene. The team says its Complex Lean Alloy approach brings those properties together, that the work was carried out indigenously at IIT Jodhpur, and that defect-free samples of 20 to 200 g were made in-house."
     ],
     [
-     "The name",
-     "“The Indian Bramble Shark is a distinct species,” said Dr Dhriti Banerjee, Director of ZSI; of the old identification, “our measurements and DNA evidence show otherwise.” The species name roinee honours her daughter, Roinee."
+     "What happens at 1,000 °C",
+     "Hot metal in air grows a skin of oxide, and the mass it gains is a measure of how much has formed: 43.48 against 258 mg/cm² is roughly a sixfold difference. Next come tests of strength, creep and fatigue at high temperature, and scaling up."
     ]
    ],
    "rel": [
-    "origins",
-    "calwater",
-    "dune"
+    "dune",
+    "stick",
+    "zenbook"
    ],
-   "src": "Press Information Bureau, Government of India, 11 Nov 2026: Indian Scientists Discover New Deep-Sea Shark Species in the Indian Ocean (ZSI and ICAR-CMFRI)",
-   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/4_20261111151427_e32142.png",
-   "credit": "Photo: Press Information Bureau / Zoological Survey of India"
+   "src": "Press Information Bureau (PIB Jaipur), Ministry of Education, 10 Nov 2026, release 2334624: IIT Jodhpur Develops Next-Generation Lightweight Refractory Alloy with Exceptional Oxidation Resistance at 1,000°C · Materials & Design",
+   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/WhatsAppImage2026-11-10at2.56.11PM_20261110152531_f2a3a3.jpeg",
+   "credit": "Image: Press Information Bureau (release 2334624)"
   },
   {
-   "id": "hotrod",
-   "dom": "matter",
-   "lab": "Physics · Heat",
-   "hot": 1,
+   "id": "canaan",
+   "dom": "sg",
+   "lab": "Singapore · Greener AI",
+   "hot": 0,
    "big": 0,
-   "art": "hotrod",
-   "cap": "Warm a metre of copper by 100 °C: it grows 1.7 mm. That is why hot water loosens jar lids",
-   "num": "1.7 × 10⁻⁵",
-   "nums": "the fraction of its length a copper rod gains for every 1 °C it warms, the Exploratorium says: 1.7 mm per metre over a 100 °C change",
-   "p1": "Atoms in a warm solid vibrate more and sit slightly farther apart, so the whole thing grows. The Exploratorium’s Cool Hot Rod makes the growth visible: very hot tap water is poured through a copper tube whose far end rests on a needle, and as the tube lengthens it rolls the needle, which turns a toothpick stuck through its eye like a pointer. Copper expands by 1.7 × 10⁻⁵ of its length per degree Celsius, so over a 100 °C change a 1 m tube gains about 1.7 mm, enough to turn an average needle more than two full revolutions. Pour cold water through and the pointer turns back.",
-   "p2": "Test it at home: a stuck metal jar lid loosens under hot water because the lid expands more than the glass; cold water on hot glass can crack it because the glass expands unevenly.",
+   "art": "chip",
+   "cap": "NTU and Canaan put S$7 million into AI that runs on less power, out at the edge",
+   "num": "S$7 million",
+   "nums": "over four years for the NTU–Canaan Green Intelligent Compute Collaboration, announced Friday 13 November: four PhD researchers, about 10 papers, four technical reports and working prototypes",
+   "p1": "AI is moving out of giant data centres and into shops, cameras and devices at the “edge”, and every one of them uses electricity. In a release on Friday 13 November, NTU and Canaan said they have launched a four-year, S$7 million collaboration, hosted at NTU’s Centre in Computational Technologies for Finance, to design energy-aware computing, privacy-preserving edge AI for smart retail, inference shared between cloud, edge and end devices, and new edge-AI training modules. It is to produce four PhD researchers, about 10 academic papers, four technical work-package reports, industrial prototypes and patents where commercially applicable.",
+   "p2": "Why here: NTU ties the work to Singapore’s updated National AI Strategy (2026), its Green Data Centre Roadmap and the Singapore Standard SS 715:2025.",
    "deep": [
     [
-     "The recipe",
-     "1 to 2 m of 6 mm copper tubing with a funnel joined to one end by a short plastic tube. Clamp the funnel end to a block on the table; rest the other end on a second block with a needle between tube and block, at right angles to the tube; push a toothpick through the needle’s eye; put a bucket under the end. Pour very hot tap water in and watch which way the toothpick tilts, then pour cold."
+     "The problem",
+     "“As AI moves beyond centralised data centres and into more diverse real-world environments, computing efficiency is becoming a system-level challenge - spanning chips, software, workload scheduling and energy use,” said Nangeng Zhang, Canaan’s founder, chairman and CEO."
     ],
     [
-     "Why a needle",
-     "The tube moves only about 1.7 mm, but a needle is thin, so that much rolling is more than two full turns, and the toothpick amplifies the motion so you can see it."
+     "NTU’s view",
+     "“As artificial intelligence expands across every sector, managing its environmental footprint has become a critical global challenge,” said Professor Shirley Meng, NTU’s Vice President (Industry). The agreement was first signed on 7 May 2026; the research team is led by Associate Professor Tianwei Zhang, Associate Director of the centre and Provost’s Chair in computing."
     ],
     [
-     "Where it is used",
-     "Thermometers and thermostats work on expansion, the Exploratorium notes; so do the stuck jar lid and the cracked glass."
+     "The photo",
+     "Representatives from NTU and Canaan at the launch, among them Nangeng Zhang, Professor Shirley Meng and Professor Wen Yonggang, NTU’s Vice Provost (Graduate Education) and Director of the centre."
     ]
    ],
    "rel": [
-    "headharp",
-    "dune",
-    "metal"
+    "spinheat",
+    "zenbook",
+    "aimit"
    ],
-   "src": "Exploratorium Science Snacks: Cool Hot Rod"
+   "src": "NTU News, 13 Nov 2026: S$7 million NTU-Canaan partnership to drive advances in sustainable computing and edge AI · NTU CCTF news, 7 May 2026",
+   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/ntu-canaan-joint-research-collaboration-launch-ceremony.jpg",
+   "credit": "Photo: NTU Singapore"
+  },
+  {
+   "id": "spinheat",
+   "dom": "sg",
+   "lab": "Singapore · Heat from inside",
+   "hot": 0,
+   "big": 0,
+   "art": "induct",
+   "cap": "NTU glue cured from inside by magnetic nanoparticles. One hour matched 24 hours in an oven",
+   "num": "1 h vs 24 h",
+   "nums": "adhesive coatings cured by magnetic induction for one hour reached bonding strength comparable to coatings baked in a conventional oven for 24 hours, NTU reports",
+   "p1": "Paints, glues and resins on car and aircraft parts are usually cured by putting the whole component into an industrial oven. NTU’s alternative, called Spinheat, mixes specially designed magnetic nanoparticles into the coating; an alternating magnetic field makes the particles generate heat inside the material, so the coating cures from within and heat-sensitive parts are spared. On Thursday 12 November NTU announced a partnership with Motherson, a design, engineering and manufacturing company with more than 475 facilities in 47 countries, to take it towards the factory floor.",
+   "p2": "Why it matters: in the lab, one hour under the magnetic field matched 24 hours in an oven, and NTU says it could cut energy use, carbon emissions and the space taken up by curing equipment.",
+   "deep": [
+    [
+     "Who and how",
+     "Professor Raju V. Ramanujan and Associate Professor Terry Steele of NTU’s School of Materials Science and Engineering lead the work; NTU first demonstrated magnetic-field-activated epoxy curing in 2020. The latest version reads the temperature in real time and adjusts the field, delivering heat only when needed, to reduce overheating, bubbles and other defects."
+    ],
+    [
+     "Next",
+     "“The next challenge is to understand how this can work reliably within automotive manufacturing,” said Steele. The work is funded by the National Research Foundation under its 29th Competitive Research Programme, was published in Applied Materials Today earlier in 2026, and the intellectual property is filed through NTUitive."
+    ],
+    [
+     "The partner",
+     "Motherson makes automotive and aerospace components; Dhruv Mehra, Director of Motherson Singapore, is quoted for the company in the announcement."
+    ]
+   ],
+   "rel": [
+    "canaan",
+    "alloy",
+    "stick"
+   ],
+   "src": "NTU News, 12 Nov 2026: NTU, Motherson to develop magnetic technology to cut manufacturing time and energy use",
+   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1---ntu-and-motherson-singapore.jpg?sfvrsn=58aec44e_1",
+   "credit": "Photo: NTU Singapore"
+  },
+  {
+   "id": "stick",
+   "dom": "matter",
+   "lab": "Physics · Balance",
+   "hot": 1,
+   "big": 0,
+   "art": "stick",
+   "cap": "A metre stick with a lump of clay near one end is easier to balance on a finger clay-up",
+   "num": "20 cm",
+   "nums": "from one end of a 1 m dowel, the Exploratorium puts a fist-sized lump of clay; balance it on a fingertip clay-down, then clay-up, and the second is easier",
+   "p1": "Take a wooden dowel about 1 m long and 1.25 cm thick and press a fist-sized lump of clay around it about 20 cm from one end. Balance it upright on the tip of your finger with the clay end down, near your hand. Then flip it so the clay is at the top. The Exploratorium’s Balancing Stick snack asks which is easier; the answer is that with the heavy end up, the stick is easier to keep balanced.",
+   "p2": "Why: with the mass far from your hand the stick has more rotational inertia, so it starts to tip more slowly and you have more time to adjust and keep it balanced; with the mass low it has less rotational inertia and tips faster.",
+   "deep": [
+    [
+     "Inertia of turning",
+     "Rotational inertia depends not only on how much mass there is but on how far it sits from the axis the object turns about, here your fingertip. The same clay, moved from near your hand to near the far end of the 1 m stick, makes the stick far more reluctant to rotate, though its mass has not changed."
+    ],
+    [
+     "Feel it",
+     "Hold the stick by the end near the clay, then by the far end, and swing it as if casting a fishing line: it is much harder to move fast with the clay far from your hand than with the clay near it, the Exploratorium notes, with the same mass in both cases."
+    ],
+    [
+     "The contest",
+     "The Exploratorium’s challenge for a group: hand out the clay and dowel separately, let each person fix the clay wherever they like with the dowel sticking out at both ends, and see who balances longest. Let the group discover the clay’s role for themselves."
+    ]
+   ],
+   "rel": [
+    "alloy",
+    "dune",
+    "headharp"
+   ],
+   "src": "Exploratorium Science Snacks: Balancing Stick"
   },
   {
    "id": "dune",
    "dom": "matter",
    "lab": "Physics · Neutrinos",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "argon",
    "cap": "17,000 t of argon at −185 °C, 1.5 km down, waiting for neutrinos fired from 1,300 km away",
@@ -365,13 +392,50 @@
     ]
    ],
    "rel": [
-    "euclid",
-    "hotrod",
-    "roman"
+    "alloy",
+    "stick",
+    "vgr"
    ],
    "src": "CERN, 10 Nov 2026: Construction begins on massive underground neutrino experiment designed to unlock the secrets of the Universe",
    "img": "https://home.cern/wp-content/uploads/2026/11/20261103-112048_MAK18136.jpg",
    "credit": "Photo: Matthew Kapust, SURF, via CERN"
+  },
+  {
+   "id": "zenbook",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "big": 0,
+   "art": "laptop",
+   "cap": "ASUS’s Zenbook Duo: two 14-inch OLED screens, 1.65 kg. The keyboard is a Bluetooth lid",
+   "num": "99 Wh",
+   "nums": "dual-battery system in a laptop that carries two 14-inch 3K OLED touchscreens; 1.35 kg without the detachable keyboard, 1.65 kg with it",
+   "p1": "TIME’s Best Inventions 2026 list includes the ASUS Zenbook Duo (model UX8407AA). It looks like an ordinary 14-inch touchscreen laptop until you lift the keyboard: it is a Bluetooth keyboard held on by magnets, and under it is a second 14-inch 3K (2880 × 1800) OLED touchscreen, 144 Hz, 500 nits typical and 1,000 nits peak in HDR. A kickstand and a hinge that folds flat let the two screens stand side by side or one above the other. Inside: an Intel Core Ultra Series 3 chip (up to the Core Ultra X9 388H, 16 cores, up to 5.1 GHz), 16 or 32 GB of memory soldered on, a 99 Wh battery, two Thunderbolt 4 ports, HDMI 2.1 and Wi-Fi 7, in a chassis ASUS calls Ceraluminum, 1.96 cm thick with the keyboard, 1.65 kg.",
+   "p2": "What reviewers found wrong: Tom’s Guide’s Jason England, who gave it an Editor’s Choice, still wrote “It’s just a shame about that price,” from $2,099, $2,299 as reviewed; he measured 435.2 nits and 87.2% of the DCI-P3 colour range, below the 500 nits and 100% DCI-P3 on ASUS’s spec sheet, and found that for graphics “AMD is still ahead.”",
+   "deep": [
+    [
+     "The seesaw",
+     "ASUS product manager Nin Chiang told TIME that the hard part was making the combined display usable both vertically and horizontally; the answer was balancing the weight of the components on each side so the device balances “like a seesaw.”"
+    ],
+    [
+     "Docking",
+     "ASUS’s MagLatch docking uses retractable pogo pins to connect the keyboard when it sits on the lower screen; its ScreenXpert software notices when the lid opens beyond 175°. Six speakers, 1.7 mm of key travel, and, per ASUS’s spec page, a stylus and a wireless mouse in the box."
+    ],
+    [
+     "Numbers that disagree",
+     "ASUS’s spec table says 500 nits typical and 100% DCI-P3; Tom’s Guide measured 435.2 nits and 87.2%. ASUS’s spec table gives no battery-life figure; the reviewer got up to 14 hours in testing and 2 h 12 min in a gaming test. The review page carries several prices: from $2,099, $2,299 as reviewed, and retailer listings of $2,399.99 and $2,699.99."
+    ],
+    [
+     "Praise",
+     "“The two OLED displays here are simply mesmerizing,” England wrote, and “Price aside, this is a belter.” He found the hinge “folds back on itself and stows away to make the fully extended form a fully flat panel,” and the speakers the most surprising upgrade."
+    ]
+   ],
+   "rel": [
+    "brick",
+    "canaan",
+    "aimit"
+   ],
+   "src": "TIME Best Inventions 2026 (Martin Cizmar): ASUS Zenbook Duo · ASUS Zenbook Duo UX8407 tech specs and press release · Tom’s Guide review (Jason England, 26 Jan 2026)"
   },
   {
    "id": "brick",
@@ -404,116 +468,11 @@
     ]
    ],
    "rel": [
-    "zr",
-    "ai17",
+    "zenbook",
+    "aimit",
     "headharp"
    ],
    "src": "TIME Best Inventions 2026 (Daniel Varghese): Brick · getbrick.com product page and FAQ · Tom’s Guide review (Ashley Thieme, 2 Oct 2026)"
-  },
-  {
-   "id": "zr",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
-   "hot": 0,
-   "big": 0,
-   "art": "cinecam",
-   "cap": "Nikon’s ZR: 540 g, 6K video, RED colour science, $2,199.95. Reviewers’ catch: the screen",
-   "num": "32-bit float",
-   "nums": "audio: Nikon calls the ZR the world’s first interchangeable-lens camera to record 32-bit float sound through both built-in and external microphones, promising distortion-free sound from quiet to loud",
-   "p1": "TIME put the Nikon ZR (it calls it the Nikon Red ZR) on its Best Inventions 2026 list: a full-frame cinema camera, about 540 g body-only and 630 g with battery and card, 133 × 80.5 × 48.7 mm, co-developed with RED Digital Cinema, the high-end camera maker that is a Nikon subsidiary. Inside is a 24.5-megapixel full-frame sensor (35.9 × 23.9 mm) recording 6K at up to 60 frames a second and 4K at up to 120, in a new RAW format called R3D NE that carries RED’s colour science with no external recorder. The 4-inch screen is rated at 1,000 nits; price from $2,199.95.",
-   "p2": "What reviewers found wrong: TechRadar’s Timothy Coleman says the screen is flip-out only, there is no viewfinder, no grip or mounting points for accessories, and the HDMI port is micro, not full-size. He ran into no overheating, though there are no vents or fans.",
-   "deep": [
-    [
-     "Two base ISOs",
-     "The sensor has two native sensitivities, ISO 800 and ISO 6400, selectable in R3D NE recording; Nikon rates the dynamic range at 15+ stops."
-    ],
-    [
-     "32-bit float",
-     "Ordinary audio clips when a sound is too loud. 32-bit float records such a wide range that the level can be set afterwards; Nikon calls the ZR the world’s first interchangeable-lens camera to do this through both built-in and external microphones. The built-in mics offer five pickup patterns, including binaural."
-    ],
-    [
-     "The numbers do not all agree",
-     "Nikon’s US page lists the body at 1.18 lb (535 g) in one table and 1.19 lb in another, where Nikon’s launch release says about 540 g, and a maximum recording time of 360 minutes for some non-RAW settings but 125 minutes in its Tech Specs table. TechRadar calls the sensor “partially stacked”; Nikon’s own pages do not use that phrase."
-    ],
-    [
-     "Praise",
-     "TechRadar: “no other cinema camera comes close to the ZR for video features” at its price, with scores of Price 5/5, Design 4/5, Performance 4.5/5 and Image and video quality 4.5/5. Cards: CFexpress Type B plus microSD. TIME’s pitch: “an ultra-lightweight, full-frame camera designed for emerging cinematographers and high-end content producers.”"
-    ]
-   ],
-   "rel": [
-    "brick",
-    "roman",
-    "euclid"
-   ],
-   "src": "TIME Best Inventions 2026: Nikon Red ZR · Nikon ZR spec page (nikonusa.com) · Nikon news release, 10 Sep 2025 · TechRadar review (Timothy Coleman, updated 18 Dec 2025)"
-  },
-  {
-   "id": "metal",
-   "dom": "sg",
-   "lab": "Singapore · 3D-printed steel",
-   "hot": 0,
-   "big": 0,
-   "art": "stack",
-   "cap": "Printed steel warps up above 1.3 mm thick, down below it. A*STAR saw what simulations miss",
-   "num": "1.3 mm",
-   "nums": "the thickness at which the warp flips: stainless-steel beams printed parallel to the recoater blade bent upward when thicker, downward when thinner",
-   "p1": "Metal 3D printing by laser powder bed fusion builds a part layer by layer: a blade called the recoater spreads a thin layer of metal powder, a laser melts the shape, and the blade sweeps again. A*STAR researchers found that stainless-steel beams printed parallel to the blade’s sweep warped upward when thicker than about 1.3 mm and downward when thinner, while beams rotated 90 degrees were much less sensitive to thickness. The cause, they say, is the repeated mechanical disturbance of the blade passing over the growing part, layer after layer.",
-   "p2": "Why it matters: a common simulation predicted almost identical bending for both orientations, 1.69 mm and 1.67 mm, and so missed the difference entirely.",
-   "deep": [
-    [
-     "How they measured",
-     "X-ray diffraction read the stress at the surface, and contour mapping reconstructed the stress locked inside the beams. “We wanted to show direct evidence linking residual stress to deformation,” said Pan Wang, Senior Scientist at A*STAR’s Singapore Institute of Manufacturing Technology."
-    ],
-    [
-     "The blade",
-     "“The repeated coating introduces additional mechanical disturbance and shear effects layer after layer,” said Chen Wang, also a Senior Scientist at SIMTech. Machine-learning models trained on 64 experimental data points now predict the deflection; next they will test laser power and layer thickness."
-    ],
-    [
-     "Who",
-     "A*STAR SIMTech with Osaka University, Xi’an Jiaotong University and NTU, published in Additive Manufacturing (volume 121, 2026) and reported by A*STAR Research on Wednesday 11 November."
-    ]
-   ],
-   "rel": [
-    "spinheat",
-    "hotrod",
-    "brick"
-   ],
-   "src": "A*STAR Research, 11 Nov 2026: When metal prints bend the rules · Additive Manufacturing 121, 105158 (2026)"
-  },
-  {
-   "id": "spinheat",
-   "dom": "sg",
-   "lab": "Singapore · Heat from inside",
-   "hot": 0,
-   "big": 0,
-   "art": "induct",
-   "cap": "NTU glue cured from inside by magnetic nanoparticles. One hour matched 24 hours in an oven",
-   "num": "1 h vs 24 h",
-   "nums": "adhesive coatings cured by magnetic induction for one hour reached bonding strength comparable to coatings baked in a conventional oven for 24 hours, NTU reports",
-   "p1": "Paints, glues and resins on car and aircraft parts are usually cured by putting the whole component into an industrial oven. NTU’s alternative, called Spinheat, mixes specially designed magnetic nanoparticles into the coating; an alternating magnetic field makes the particles generate heat inside the material, so the coating cures from within and heat-sensitive parts are spared. On Thursday 12 November NTU announced a partnership with Motherson, a design, engineering and manufacturing company with more than 475 facilities in 47 countries, to take it towards the factory floor.",
-   "p2": "Why it matters: in the lab, one hour under the magnetic field matched 24 hours in an oven, and NTU says it could cut energy use, carbon emissions and the space taken up by curing equipment.",
-   "deep": [
-    [
-     "Who and how",
-     "Professor Raju V. Ramanujan and Associate Professor Terry Steele of NTU’s School of Materials Science and Engineering lead the work; NTU first demonstrated magnetic-field-activated epoxy curing in 2020. The latest version reads the temperature in real time and adjusts the field, delivering heat only when needed, to reduce overheating, bubbles and other defects."
-    ],
-    [
-     "Next",
-     "“The next challenge is to understand how this can work reliably within automotive manufacturing,” said Steele. The work is funded by the National Research Foundation under its 29th Competitive Research Programme, was published in Applied Materials Today earlier in 2026, and the intellectual property is filed through NTUitive."
-    ],
-    [
-     "The partner",
-     "Motherson makes automotive and aerospace components; Dhruv Mehra, Director of Motherson Singapore, is quoted for the company in the announcement."
-    ]
-   ],
-   "rel": [
-    "metal",
-    "zr",
-    "hotrod"
-   ],
-   "src": "NTU News, 12 Nov 2026: NTU, Motherson to develop magnetic technology to cut manufacturing time and energy use",
-   "img": "https://www.ntu.edu.sg/media/images/default-source/hub-news/photo-1---ntu-and-motherson-singapore.jpg?sfvrsn=58aec44e_1",
-   "credit": "Photo: NTU Singapore"
   },
   {
    "id": "headharp",
@@ -542,77 +501,110 @@
     ]
    ],
    "rel": [
-    "hotrod",
-    "brick",
-    "ai17"
+    "stick",
+    "periph",
+    "brick"
    ],
    "src": "Exploratorium Science Snacks: Head Harp"
   },
   {
-   "id": "origins",
-   "dom": "life",
-   "lab": "Life · Beginnings",
+   "id": "aimit",
+   "dom": "usingai",
+   "lab": "Using AI · MIT",
    "hot": 0,
    "big": 0,
-   "art": "molecules",
-   "cap": "Life’s last common ancestor was alive 4.2 billion years ago, with about 2,600 proteins",
-   "num": "~200 million years",
-   "nums": "the window between Earth becoming habitable and LUCA, the last universal common ancestor of everything alive today, by the estimates Quanta reports",
-   "p1": "For decades the origin-of-life argument was over which came first: RNA, metabolism, or the fatty bubble of a membrane. Quanta’s series this week says the field has moved on, to how messy early chemistry gradually became systems that store information, use energy and evolve. The numbers set the stage: the Solar System formed about 4.6 billion years ago, the oldest uncontested fossils are about 3.5 billion years old, and LUCA, the last universal common ancestor, is estimated at 4.2 billion years old with roughly 2,600 proteins. Miller’s 1952 spark-in-a-flask experiment made five amino acids.",
-   "p2": "Why it matters: at least 6,000 exoplanets are known, around 2,000 of them possibly super-Earths; how easily chemistry becomes biology decides what to expect there.",
+   "art": "aimit",
+   "cap": "MIT’s phrase for what a chatbot answer can create: “the illusion of learning”",
+   "num": "8",
+   "nums": "principles in MIT’s 2026 report on AI in education",
+   "p1": "MIT’s report does not call for banning AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
+   "p2": "The point: the product of school is you, not the mark.",
    "deep": [
     [
-     "Three camps",
-     "Metabolism-first says life began as self-sustaining cycles of energy-releasing reactions, perhaps at hydrothermal vents; in 2020 Martina Preiner’s team showed vent-like conditions make formate, acetate and pyruvate. Lipid-first says the fatty-acid bubble came first: “You need a container before you can get the chemistry,” says Bruce Damer. RNA-first wants a molecule that both stores information and does chemistry."
+     "What MIT asks of its own students",
+     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
     ],
     [
-     "Smaller alphabets",
-     "Modern proteins use 20 amino acids, but a reduced alphabet of 10 could support early protein folds; one synthetic-cell effort used 36 enzymes. Modern cells run some 1 billion reactions per second."
+     "Why checking matters",
+     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s guidance for research: a human is responsible for verifying the output, and AI should never be listed as a co-author."
     ],
     [
-     "Crisis is good",
-     "“There’s nothing more exciting for a scientific field than a moment of crisis,” says Betül Kaçar. Joanna Masel goes further: “I believe that there were multiple origins of life.”"
+     "Keep it human",
+     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
     ]
    ],
    "rel": [
-    "shark",
-    "dune",
-    "euclid"
+    "zenbook",
+    "brick",
+    "canaan"
    ],
-   "src": "Quanta Magazine, 10–12 Nov 2026, series A New Era for the Dawn of Life (Yasemin Saplakoglu, Jake Buehler, Perri Thaler)"
+   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
   },
   {
-   "id": "ai17",
-   "dom": "usingai",
-   "lab": "Using AI · Evidence",
+   "id": "turtles",
+   "dom": "life",
+   "lab": "Life · Cold-stunned",
    "hot": 0,
    "big": 0,
-   "art": "ai17",
-   "cap": "The students who got their answers from AI scored 17% worse on the test",
-   "num": "–17%",
-   "nums": "on the exam, after working with a chatbot",
-   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
-   "p2": "Why: if students use these tools as a “crutch” and rely on them, lead author Hamsa Bastani says, they “won’t actually build those fundamental skills.”",
+   "art": "turtle",
+   "cap": "Below 10 °C a sea turtle gets too cold to swim. Cape Cod rescues: 139 a winter, then 739",
+   "num": "139 → 739",
+   "nums": "cold-stunned sea turtles stranded on Cape Cod beaches per winter: the average for 1999–2003, then for 2019–2023, Science News Explores reports",
+   "p1": "Sea turtles do best in water of about 17 to 29 °C; below 10 °C they are “cold-stunned”, too chilled to swim or eat, and drift onto beaches. On Cape Cod, Massachusetts, strandings averaged 139 a winter in 1999 to 2003 and 739 in 2019 to 2023. Warmer seas lead the turtles, many of them young Kemp’s ridleys, north into risky waters; when autumn cold arrives, conditions “change very rapidly, too fast for them to figure out how to escape,” says biologist Samir Patel. Volunteers patrol the beaches around high tide, when turtles are most likely to wash ashore, and the New England Aquarium’s sea-turtle hospital warms the survivors by about 2.8 °C a day.",
+   "p2": "Why it matters: “All of these turtles really should be dead after being out at sea in extreme cold and not eating,” says Adam Kennedy, who directs the hospital, yet about three-quarters of the rescued Massachusetts turtles in recent years healed and were released.",
    "deep": [
     [
-     "The hint-only version was different",
-     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
+     "Slowly",
+     "The safe warming rate is about 2.8 °C (5 °F) a day. One loggerhead, patient number 671, arrived with a body temperature of 8.2 °C and left six months later at 42 kg, having gained 10.7 kg."
     ],
     [
-     "What the researchers concluded",
-     "The worry is that students use a plain chatbot as a crutch. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage. The researchers call the result a cautionary tale."
+     "The West Coast too",
+     "On the Pacific coast, 68 cold-stunned turtles were documented between 2009 and 2024, from Santa Barbara, California, to British Columbia, and as many as 70% of them die. Veterinarian Heather Harris: “The turtles they see on the East Coast are predominantly immature Kemp’s ridleys.”"
     ],
     [
-     "Try it on yourself",
-     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
+     "Why every one counts",
+     "Sea turtles take 10 to 50 years to mature and females lay only every two to four years, so “for species recovering from near-extinction, every animal matters,” says Harris. On 23 June more than 100 people watched 12 rehabilitated turtles go back into the sea. “We never count a turtle out,” says Kennedy."
     ]
    ],
    "rel": [
-    "brick",
-    "headharp",
-    "zr"
+    "gemini",
+    "periph",
+    "headharp"
    ],
-   "src": "PNAS, 25 Jun 2025, Bastani et al.: Generative AI without guardrails can harm learning (doi 10.1073/pnas.2422633122) · Knowledge at Wharton"
+   "src": "Science News Explores, 12 Nov 2026 (Jennifer Weeks): Ocean cold snaps can imperil sea turtles. Rescuers can help"
+  },
+  {
+   "id": "periph",
+   "dom": "mind",
+   "lab": "Mind · Edge of sight",
+   "hot": 0,
+   "big": 0,
+   "art": "pupil",
+   "cap": "Corner of your eye: how close must a shape come before you can read the word on it?",
+   "num": "10°",
+   "nums": "steps marked along a table edge from 0° straight ahead to 90° at each side, so you can record the angle at which motion, colour, shape and letters first appear",
+   "p1": "Hold both fists out at eye level. Your partner tapes a dot on your left thumbnail, over the 0° mark, and a hidden paper shape, a bit over 2.5 cm across with a coloured shape and a three- or four-letter word on it, on your right thumb, held out past 90°. Stare at the dot and slowly swing your right arm in an arc toward it. Without moving your eyes, say when you first detect motion, then colour, then shape, then the word. The Exploratorium’s Peripheral Vision snack marks a table edge every 10° with tape so your partner can record each angle. Expect the shape to get surprisingly close to the dot before the details arrive.",
+   "p2": "Why: the colour-sensing cones crowd the centre of the retina and thin out toward its edge, so something seen from the corner of the eye loses its colour; rods are spread more evenly but also thin out, which limits shape; the fovea, the small dense centre, covers only a couple of square millimetres.",
+   "deep": [
+    [
+     "Set-up",
+     "A partner, a protractor, about 1 m of string, tape and a table at least 1.3 m wide. Sit centred on the long side, mark a 0° point about two-thirds of a metre in front of you at the far edge, and use arm, string and protractor to tape marks every 10° out to 90° on each side. Draw shapes a little over 2.5 cm wide, each with a 3- or 4-letter word (DOG, CAT, EYE) the person being tested has not seen."
+    ],
+    [
+     "Movement wins",
+     "Peripheral vision is very sensitive to motion, probably an evolutionary advantage, the Exploratorium notes. Generally you are not aware of how little you see off-centre, the Exploratorium says, because your eyes are always in motion."
+    ],
+    [
+     "Keep your eyes still",
+     "As the coloured shape nears the middle it becomes hard not to glance at it; a second person should watch the eyes and stop the trial if they move. Switch arms and partners for more data."
+    ]
+   ],
+   "rel": [
+    "turtles",
+    "headharp",
+    "stick"
+   ],
+   "src": "Exploratorium Science Snacks: Peripheral Vision"
   }
  ]
 }
