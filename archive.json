@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "tiles": [
   {
    "id": "after",
@@ -231,7 +231,7 @@
    "lab": "Using AI · Evidence",
    "src": "PNAS, Bastani et al. 2025 · Wharton",
    "first": "2026-10-25",
-   "last": "2026-11-15",
+   "last": "2026-11-18",
    "editions": [
     "02b",
     "05",
@@ -241,7 +241,8 @@
     "14",
     "17",
     "20",
-    "23"
+    "23",
+    "26"
    ]
   },
   {
@@ -3267,10 +3268,11 @@
    "lab": "Space · Tomorrow night",
    "src": "NASA Science, Voyager: Shine Bright for Voyager’s Light-Day (Stephen Carney) · Voyager 1: What Is a Light-Day? (updated 12 Nov 2026) · NASA advisory M26-086, 10 Nov 2026, updated 13 Nov",
    "first": "2026-11-16",
-   "last": "2026-11-17",
+   "last": "2026-11-18",
    "editions": [
     "24",
-    "25"
+    "25",
+    "26"
    ]
   },
   {
@@ -3437,9 +3439,10 @@
    "lab": "Singapore · Weather",
    "src": "NEA / Meteorological Service Singapore, Wet Weather To Continue For Rest Of November 2026 With Onset Of Northeast Monsoon, 16 Nov 2026 · NEA haze situation update, 7 Nov 2026 · NEA regional haze situation, 16 Nov 2026",
    "first": "2026-11-17",
-   "last": "2026-11-17",
+   "last": "2026-11-18",
    "editions": [
-    "25"
+    "25",
+    "26"
    ]
   },
   {
@@ -3464,6 +3467,162 @@
    "last": "2026-11-17",
    "editions": [
     "25"
+   ]
+  },
+  {
+   "id": "crs35",
+   "cap": "Just after midnight tonight, a Dragon carrying frozen science lets go of the station",
+   "lane": "space",
+   "lab": "Space · Tonight",
+   "src": "NASA media advisory M26-087, NASA to Cover 35th SpaceX Resupply Mission Space Station Departure, 17 Nov 2026 · NASA space station blog, 16 and 17 Nov 2026 (Mark A. Garcia)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "overshoot",
+   "cap": "Lightning inside storm tops near Borneo, shot from orbit. Singapore glows at the left",
+   "lane": "earth",
+   "lab": "Earth · Singapore from orbit",
+   "src": "NASA Earth Observatory, Tossing Fireworks from Cloud to Cloud, 17 Nov 2026 (Adam Voiland)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "idubi",
+   "cap": "Perseverance has rolled up to ghostly pale rocks on Mars: silica that once soaked in water",
+   "lane": "space",
+   "lab": "Space · Mars",
+   "src": "NASA Science, Perseverance Update: The Ghostly Rocks of ‘Idubi’, 16 Nov 2026 (Candice Bedford, Purdue University)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "des",
+   "cap": "A 570-megapixel camera watched the sky for 758 nights. Its final answer does not quite fit",
+   "lane": "space",
+   "lab": "Space · Dark energy",
+   "src": "Quanta Magazine, What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing, 16 Nov 2026 (Charlie Wood; corrected 17 Nov)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "terra",
+   "cap": "Built for six years, Terra watched Earth for 27. On 1 December its instruments go quiet",
+   "lane": "earth",
+   "lab": "Earth · 27 years",
+   "src": "NASA Science, NASA’s Terra Mission to End, 17 Nov 2026 (Kate Ramsayer)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "elettra",
+   "cap": "India commits €7 million+ to two beamlines on an Italian synchrotron it has used since ’98",
+   "lane": "matter",
+   "lab": "India · Synchrotron light",
+   "src": "Press Information Bureau, Ministry of Science & Technology: India commits over 7 million Euros as co-partner in Elettra 2.0 in Italy for development of next-generation synchrotron beamlines, 14 Nov 2026",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "grape",
+   "cap": "A grape runs away from a magnet. Both poles. Try it with a neodymium magnet and a straw",
+   "lane": "matter",
+   "lab": "Physics · Magnetism",
+   "src": "Exploratorium Science Snacks, Magnetic Fruit · The Feynman Lectures on Physics, Vol. II, Ch. 34, The Magnetism of Matter",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "spinq",
+   "cap": "A single molecule’s spin, read out with light, flips in under 50 ns and holds for 2.2 ms",
+   "lane": "matter",
+   "lab": "Physics · Quantum",
+   "src": "Physics World, Single-molecule spin qubits can be controlled with light, 17 Nov 2026 (Isabelle Dumé) · Nature, Schwartz, Pfender, Roggors et al. 2026 (doi 10.1038/s41586-026-11147-6)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "eyewear",
+   "cap": "Google’s glasses: a 12 MP camera, 41 g, nine hours, no screen. A reviewer heard them leak",
+   "lane": "gadgets",
+   "lab": "Gadgets · Hands-on",
+   "src": "Google, The Keyword: Google intelligent eyewear collections now available for pre-order, 12 Nov 2026 · Tom’s Guide, Kate Kozuch, 12 Nov 2026 · Tom’s Guide, Jason England, 20 May 2026",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "sqd",
+   "cap": "TCL claims 10,000 nits for its X11L TV. A lab got 2,679, yet crowned it king of colour",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME, Best Inventions 2026: TCL X11L SQD-Mini LED TV (Justin Pot, 15 Oct 2026) · TCL US spec page, X11L series · Tom’s Guide review, Kate Kozuch, 20 Feb 2026 · Notebookcheck CES report (zone counts by size)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "dengue",
+   "cap": "74 dengue cases last week, up 20 on the week before, and eight active clusters",
+   "lane": "sg",
+   "lab": "Singapore · Dengue",
+   "src": "NEA, Dengue cases (weekly and daily tables), last updated 17 Nov 2026",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "finrocket",
+   "cap": "A finless paper rocket spirals and tumbles. Add four fins at 90° and it flies straight",
+   "lane": "try",
+   "lab": "Try it · 15 min",
+   "src": "Science News Explores, Experiment: Construct and test paper rockets, 17 Nov 2026 (Science Buddies)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
+   ]
+  },
+  {
+   "id": "worms",
+   "cap": "The 2016 Mirai worm was a few kilobytes. The AI worms two teams built: tens of gigabytes",
+   "lane": "numbers",
+   "lab": "Computing · Worms",
+   "src": "Science News, We know how to stop computer worms. But what if AI helps them persist?, 16 Nov 2026 (Kathryn Hulick)",
+   "first": "2026-11-18",
+   "last": "2026-11-18",
+   "editions": [
+    "26"
    ]
   }
  ]
