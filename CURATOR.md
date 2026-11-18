@@ -1,6 +1,6 @@
-# Frontier curator — daily procedure
+# Frontier curator — weekly procedure
 
-Frontier is a daily wall of high-school science for Aryav (13, Singapore). Montessori stance: he browses by appetite; nothing is assigned. The page never links out, so everything he reads is written here, from the sources below, and must be checked.
+Frontier is a WEEKLY wall of high-school science for Aryav (13, Singapore), published Saturday 06:10 SGT (changed from daily on 19 Nov 2026: he had not opened it since 27 Oct, so one strong wall a week replaces seven thin ones). Montessori stance: he browses by appetite; nothing is assigned. The page never links out, so everything he reads is written here, from the sources below, and must be checked.
 
 ## Source list (closed)
 NASA (nasa.gov, science.nasa.gov, APOD, Earth Observatory, JPL), NOAA / NHC, NobelPrize.org, HHMI BioInteractive, PhET, Science News Explores and Science News (Society for Science), Quanta Magazine. Singapore: NEA (nea.gov.sg, haze.gov.sg), NUS News, NTU News, A*STAR. Physics (any lane; timeless facts allowed): The Feynman Lectures on Physics (feynmanlectures.caltech.edu), CERN (home.cern), Physics World (IOP), APS Physics / PhysicsCentral, Perimeter Institute, NIST, Exploratorium Science Snacks, and university course pages from named professors (e.g. Ohio State Astronomy 162). India (one tile a day, filed under its subject lane with label "India · …"): ISRO (isro.gov.in), IISc, IITs, TIFR, PIB/DST press releases, Indian Academy of Sciences; a reputable Indian outlet (The Hindu, Indian Express) only for quoting an official statement. For the Using AI lane only: PNAS, MIT (aiandeducation.mit.edu), University of Minnesota CEHD consensus report, and research reported by Science News Explores. Nothing else. No Wikipedia, no YouTube, no news aggregators.
@@ -13,9 +13,9 @@ Never use: lesson, text, textbook, practice, exercise, homework, worksheet, quiz
 - `week`: 5–6 dated items from the last 7–10 days, each pointing at a tile id.
 - `tiles`: 12–16. Roughly 60% new since the last edition, 40% strong anchors carried over (keep `hot:0`, `big:0` on carry-overs). One `big:1` lead, 2–4 `hot:1` (hard cap 4).
 - Lanes (`dom`): space, earth, life, matter, mind, numbers, try, sg, usingai, gadgets.
-- India: exactly one tile a day from India (science, tech, AI or space), no separate lane; label it "India · <topic>".
-- Physics: one or two tiles a day that make physics attractive. They need not be news: a striking fact, a famous idea, something hidden in everyday tech, always with a number or a thought he can test. Rotate across mechanics, light, heat, electricity, relativity, quantum, particles. Label "Physics · …".
-- `gadgets` lane: new, tech-heavy consumer products he could see or use, one tile a day, two at most, only the best. Each tile explains the engineering inside (sensor sizes, data rates, materials, rules it was designed around), never a sales pitch; include what reviewers found wrong. Sources for this lane only: TIME Best Inventions (current year), IEEE Spectrum, MIT Technology Review, and the maker's official spec page for numbers; a reputable review (TechRadar, The Verge, Tom's Guide) may be cited for hands-on findings. Nothing else.
+- India: exactly one tile per edition from India (science, tech, AI or space), no separate lane; label it "India · <topic>".
+- Physics: one or two tiles per edition that make physics attractive. They need not be news: a striking fact, a famous idea, something hidden in everyday tech, always with a number or a thought he can test. Rotate across mechanics, light, heat, electricity, relativity, quantum, particles. Label "Physics · …".
+- `gadgets` lane: new, tech-heavy consumer products he could see or use, one tile per edition, two at most, only the best. Each tile explains the engineering inside (sensor sizes, data rates, materials, rules it was designed around), never a sales pitch; include what reviewers found wrong. Sources for this lane only: TIME Best Inventions (current year), IEEE Spectrum, MIT Technology Review, and the maker's official spec page for numbers; a reputable review (TechRadar, The Verge, Tom's Guide) may be cited for hands-on findings. Nothing else.
 - Archive: `archive.json` lists every tile ever published (id, cap, lane, lab, src, first, last, editions). Every new tile is appended with `first` = its edition date; carry-overs update `last` and `editions`. The page's Log tab reads it. Never delete entries.
 - One-week rule: a tile that has been on the wall 7 days without being opened is dropped from the edition (the page also hides it); it then appears under Passed by in the Log.
 - Retire what he has opened: any tile he opened (per the monitor or Manav's report) is dropped from the next edition; the page also hides opened tiles itself once a new edition loads. Carry-overs are only tiles he has not opened.
@@ -29,6 +29,8 @@ Never use: lesson, text, textbook, practice, exercise, homework, worksheet, quiz
 After drafting, re-open every source and confirm every number, date, name and claim in cap/num/p1/p2/deep. Any claim the source does not state is cut, not softened. Record the check in the commit message. If a source cannot be reached, the tile is dropped.
 
 ## Signals (what he likes)
+The automatic sync is OFF since 19 Nov 2026: it needed Manav's computer every morning and kept interrupting him, while reading an unchanged backend. signals/latest.md is now a static record (last sync 17 Nov); its Opened list stays binding. To refresh it, open monitor.html with the parent key and follow SIGNALS.md by hand, or ask Claude in chat.
+
 The parent monitor (`monitor.html`, parent key) and the Apps Script backend hold: `frev/*` events (open, deeper, hop, clip, comment, flag, interests, lane) and `frses/*` seconds-on-page per day per device. Patterns worth reading: which lanes he opens, which tiles get "deeper", chains he follows, anything he clips or comments on, and what he types in the interests box. The report pasted by Manav supersedes guesses.
 
 ## Publish

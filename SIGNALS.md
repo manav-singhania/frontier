@@ -1,4 +1,6 @@
-# Frontier signals sync — procedure (runs with Manav's Mac)
+# Frontier signals sync — procedure (MANUAL since 19 Nov 2026)
+
+The scheduled 05:50 version is disabled: it required Manav's computer daily and prompted him for approval each run. Run this by hand when you want fresh numbers.
 
 Goal: write `signals/latest.md` from the live backend so the 06:10 curator knows what Aryav opened, clipped, commented and asked for.
 
