@@ -1,65 +1,104 @@
 {
- "edition": 26,
+ "edition": 27,
  "level": "High school",
- "date": "2026-11-18",
- "dateLabel": "Wed 18 Nov 2026",
+ "date": "2026-11-19",
+ "dateLabel": "Thu 19 Nov 2026",
  "week": [
   {
-   "d": "TUE",
-   "t": "NASA sets the Dragon cargo ship’s departure from the station: undock Wed 18 Nov 11:05 am US Eastern, just after midnight in Singapore",
+   "d": "WED",
+   "t": "NASA and Nature: Webb data clinch a first-of-its-kind stellar merger in Andromeda, caught as it happened",
+   "id": "bao"
+  },
+  {
+   "d": "WED",
+   "t": "NASA and SpaceX stand down from the Dragon undocking over bad weather off California; new target Friday 12:05 pm US Eastern",
    "id": "crs35"
   },
   {
-   "d": "TUE",
-   "t": "NASA Earth Observatory: an astronaut photo of lightning in thunderstorm tops near Borneo, with Singapore’s lights at the edge of the frame",
-   "id": "overshoot"
+   "d": "WED",
+   "t": "NIST shows quantum physics and the speed of light can verify where a person is, with stations 195 m apart",
+   "id": "loc"
+  },
+  {
+   "d": "WED",
+   "t": "Science News Explores: a Delft drone perches like a bird using touch, not cameras, in 26 out of 26 tests",
+   "id": "perch"
   },
   {
    "d": "TUE",
-   "t": "NASA: the Terra satellite, launched in 1999 for a six-year job, stops collecting science data on 1 December after 27 years",
-   "id": "terra"
+   "t": "NOAA Fisheries: 49 sightings of killer whale groups in the deep Gulf since 1978; one male seen across 26 years",
+   "id": "orca"
   },
   {
    "d": "MON",
-   "t": "Perseverance finds bright rocks rich in hydrated silica at ‘Idubi’, outside Jezero crater",
-   "id": "idubi"
-  },
-  {
-   "d": "MON",
-   "t": "Quanta: the Dark Energy Survey’s final results, 758 nights and a 570-megapixel camera, do not quite fit the standard model of the cosmos",
-   "id": "des"
-  },
-  {
-   "d": "SAT",
-   "t": "India commits more than €7 million over five years to two new beamlines at the Elettra synchrotron in Trieste, Italy",
-   "id": "elettra"
+   "t": "Meteorological Service Singapore: Northeast Monsoon to set in during the second half of November; 94.2 mm in a day at Rivervale Drive on 6 Nov",
+   "id": "novrain"
   }
  ],
  "tiles": [
   {
-   "id": "crs35",
+   "id": "bao",
    "dom": "space",
-   "lab": "Space · Tonight",
+   "lab": "Space · Andromeda",
    "hot": 1,
    "big": 1,
+   "art": "merger",
+   "cap": "Two stars in Andromeda merged, and telescopes watched the whole seven-year plunge",
+   "num": "350×",
+   "nums": "the Sun’s radius: the size of Big Bao, the giant star that swallowed its small companion",
+   "p1": "A giant star in the Andromeda galaxy brightened for about seven years and swelled to more than twice its size while its surface temperature barely changed. Then, on 17 October 2025, it erupted. NASA says the data from Webb and six other telescopes clinch what happened: a small star of about 0.7 solar masses spiralled into its giant companion of about 7 solar masses, 350 times the Sun’s radius and 18,000 times as bright, and the two merged.",
+   "p2": "Why now: the result was published in Nature on 18 November. Webb took its infrared look on 24 December 2025, 47 days after the peak.",
+   "deep": [
+    [
+     "Seven orbits, seven years",
+     "The two stars had orbited each other for millennia. NASA says the final plunge took about seven orbits, roughly seven years. NEOWISE first flagged the star as variable in February 2023, and the Zwicky Transient Facility caught the eruption on 17 October 2025. Science News reports that when astronomers went back through nearly 30 years of data, the brightening had begun in 2018."
+    ],
+    [
+     "Why it counts as a merger",
+     "Only about a tenth of the giant’s outer gas is estimated to have escaped, and the energy of the fast-moving ejected gas suggests Little Bao reached Big Bao’s core. Karel Temmink of Radboud University called the giant “an absolute beast of a star, completely outshining its companion in the data.” Kishalay De of Columbia said it was “almost like a bomb exploding inside a living star.”"
+    ],
+    [
+     "Hard to catch",
+     "Viraj Karambelkar of Columbia University, who led the Nature paper: “Stellar mergers are very, very difficult to observe in real time because they are hard to predict.” Dust now hides the system, so the final outcome may not be settled for years or decades. His next step: “Now we can go and try to look for similar systems.”"
+    ],
+    [
+     "The name and the picture",
+     "The event’s designation is AT 2025abao, so the team nicknamed the pair Big Bao and Little Bao. The seven telescopes were NEOWISE, WINTER, SPHEREx, ZTF, Swift, Gemini North and Webb. The image is from the NASA Webb release, credit NASA, ESA, CSA, STScI, Viraj Karambelkar and Kishalay De (Columbia); processing Alyssa Pagan (STScI)."
+    ]
+   ],
+   "rel": [
+    "crs35",
+    "sierra",
+    "loc"
+   ],
+   "src": "NASA Webb, NASA Data Clinches First-of-Its-Kind Stellar Merger, 18 Nov 2026 · Science News, Two stars in the Andromeda galaxy merged before astronomers’ eyes, 18 Nov 2026 (Meghan Bartels)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/11/STScI-01M6GTRN4J7R6FEJ4AJXM567QT.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA, ESA, CSA, STScI / V. Karambelkar, K. De; processing A. Pagan"
+  },
+  {
+   "id": "crs35",
+   "dom": "space",
+   "lab": "Space · Delayed",
+   "hot": 0,
+   "big": 0,
    "art": "capsule",
-   "cap": "Just after midnight tonight, a Dragon carrying frozen science lets go of the station",
-   "num": "11:05 am",
-   "nums": "US Eastern on Wednesday 18 November, 12:05 am Thursday in Singapore: the planned undocking time, weather permitting",
-   "p1": "NASA has finally posted the time. SpaceX’s 35th cargo Dragon is to undock from the space-facing port of the station’s Harmony module no earlier than 11:05 am US Eastern on Wednesday 18 November, which is 12:05 am on Thursday in Singapore, with NASA’s live coverage starting at 10:45 am Eastern (11:45 pm Singapore). The command comes from SpaceX’s control room in Hawthorne, California, not from the crew. Splashdown off the coast of California is planned for no earlier than 1:50 am Eastern on Thursday 19 November, 2:50 pm Singapore time, and NASA says it will not stream the splashdown itself.",
-   "p2": "Why it matters: this Dragon arrived on 15 October with more than 6,300 pounds of supplies and experiments. It goes back down with thousands of pounds of cargo, including science samples that were frozen in orbit.",
+   "cap": "Bad weather off California kept the Dragon on the station. Next try: 1:05 am Saturday here",
+   "num": "12:05 pm",
+   "nums": "US Eastern on Friday 20 November, 1:05 am Saturday in Singapore: the earliest new undocking time, weather permitting",
+   "p1": "NASA and SpaceX stood down from Wednesday’s undocking “due to unfavorable weather conditions at the splashdown sites off the coast of California,” NASA’s station blog said. The updated advisory now gives no earlier than 12:05 pm US Eastern on Friday 20 November for the cargo Dragon to leave Harmony’s space-facing port, which is 1:05 am on Saturday in Singapore, with live coverage from 11:45 am Eastern. Splashdown off California is set for no earlier than 5:04 pm Eastern on Saturday 21 November, 6:04 am on Sunday here, and NASA will not stream it.",
+   "p2": "Why it matters: this Dragon arrived on 15 October with more than 6,300 pounds of supplies and goes home with frozen science and a broken robot part, so the packing in orbit went on while the weather decided.",
    "deep": [
     [
      "What is in the freezers",
      "NASA lists a 3D-bioprinted blood-vessel construct, built to probe how blood vessels age; frozen tumour organoids that were treated aboard the station, for research into improving cancer treatments; frozen microbe samples from research into how antibiotic-resistant bacteria survive, adapt and evolve in space; and a lighting system coming home after more than three years, tested for its effect on astronauts’ sleep."
     ],
     [
-     "The last days of packing",
-     "NASA’s station blog for Monday and Tuesday describes Anil Menon and Canada’s Joshua Kutryk moving finished samples from the station’s science freezers into portable freezers and stowing them in Dragon, while Luke Delaney, Menon and Jessica Watkins loaded science hardware. Kutryk also processed bacterial colonies for DNA extraction for the antibiotic-resistance work."
+     "A robot wrist comes home",
+     "NASA astronaut Jessica Watkins packed the failed Canadarm2 wrist joint, replaced during the 30 June spacewalk, in protective covers for analysis on Earth. A spacesuit is also coming down for refurbishment. Watkins and Luke Delaney collected crew blood samples and loaded research samples into freezers; Anil Menon moved cargo from the Kibo module into Dragon; Canada’s Joshua Kutryk prepared protein crystal samples for a JAXA pharmaceutical experiment."
     ],
     [
      "Why the ground does it",
-     "Dragon is a cargo version with no crew aboard, so SpaceX controllers in Hawthorne send the undock command and fly the departure. It splashes down in the Pacific off the California coast, where NASA and SpaceX teams recover the capsule and its payloads."
+     "Dragon is a cargo version with no crew aboard, so the undocking happens on a command sent by ground controllers at SpaceX’s facility in Hawthorne, California. Splashdown is targeted off the California coast, and NASA says teams will adjust plans as needed based on conditions in the Dragon recovery area."
     ],
     [
      "The picture",
@@ -67,63 +106,59 @@
     ]
    ],
    "rel": [
-    "vgr",
-    "terra",
+    "bao",
+    "sierra",
     "overshoot"
    ],
-   "src": "NASA media advisory M26-087, NASA to Cover 35th SpaceX Resupply Mission Space Station Departure, 17 Nov 2026 · NASA space station blog, 16 and 17 Nov 2026 (Mark A. Garcia)",
+   "src": "NASA space station blog, 18 Nov 2026 (Mark A. Garcia) · NASA media advisory M26-087, NASA to Cover 35th SpaceX Resupply Mission Space Station Departure, updated 18 Nov 2026",
    "img": "https://www.nasa.gov/wp-content/uploads/2026/11/ng35.jpg",
    "credit": "Photo: NASA / Jessica Meir"
   },
   {
-   "id": "vgr",
-   "dom": "space",
-   "lab": "Space · Today",
+   "id": "sierra",
+   "dom": "earth",
+   "lab": "Earth · Snow",
    "hot": 0,
    "big": 0,
-   "art": "shine",
-   "cap": "At 6:16 pm Singapore time today, Voyager 1 is one light-day from Earth: 25.902 billion km",
-   "num": "24 hours",
-   "nums": "is how long light leaving Earth at 6:16 pm today takes to reach Voyager 1, 16.094 billion miles (25.902 billion km) away",
-   "p1": "Today, Wednesday 18 November, at 5:16:07 am US Eastern, 6:16:07 pm in Singapore, NASA’s Voyager 1 is 16,094,799,096 miles (25,902,068,356 km) from Earth, the distance light travels in 24 hours. NASA says no other human-made object has ever been that far away. Last night, after sunset on Tuesday, NASA asked people everywhere to flash V-G-R, Voyager’s call sign, at the sky in Morse code, by phone, torch or glow stick, for its Shine Bright for Voyager’s Light-Day event.",
-   "p2": "Why now: Voyager 1 left Earth on 5 September 1977, so the milestone comes 49 years, two months and 11 days after launch. Voyager 2 is expected to reach one light-day in November 2035.",
+   "art": "sierra",
+   "cap": "Two days apart, same satellite: California’s Sierra Nevada goes from bare rock to white",
+   "num": "4 ft",
+   "nums": "about 120 cm of new snow possible above 8,000 ft (2,400 m) in the 18 to 20 November storm, according to the US National Weather Service warning NASA cites",
+   "p1": "NASA’s Earth Observatory set two images from the MODIS instrument on the Terra satellite side by side. On 12 November 2026 snow sat only on the highest ridges southeast of Lake Tahoe; by 14 November it covered most of the Sierra Nevada. Donner Pass recorded nearly 12 inches (30 cm) on 13 November and Mammoth Mountain 9 to 13 inches (23 to 33 cm). A winter storm warning above 5,000 ft (1,500 m) runs from 18 to 20 November, with totals around 4 feet (120 cm) possible above 8,000 ft.",
+   "p2": "Connects to: Terra, the satellite that took both frames, stops collecting science data on 1 December after 27 years in orbit. NASA says it was designed for six.",
    "deep": [
     [
-     "How far a light-day is",
-     "NASA’s page lists the light-times for comparison: the Moon about 1.3 seconds away, the Sun about 8 minutes 20 seconds, Mars 3 to 22 minutes depending on where the two planets are, Neptune four hours and ten minutes, Proxima Centauri about 4.24 light-years. NASA’s page gives Voyager 1’s speed as nearly 38,000 mph (61,000 km/h), though a caption on the same page says around 35,000 mph."
+     "Early for the season",
+     "The Earth Observatory calls it “a widespread, early-season snowstorm” that “blanketed California’s mountains in white in mid-November 2026.” The before-and-after pair is a classic way to read a satellite image: same place, same sensor, two dates, and the only thing that changed is the snow."
     ],
     [
-     "The code",
-     "V is · · · —, G is — — ·, R is · — ·. NASA’s timing: a dot under one second, a dash about one second, a brief pause between the symbols of a letter and a second or more between letters, repeated for about a minute. Any light does: torch, glow stick, solar lantern, bike light or phone."
-    ],
-    [
-     "Thursday’s panel",
-     "A panel at NASA’s Jet Propulsion Laboratory on Thursday 19 November at 12 pm US Eastern, Friday 20 November at 1 am in Singapore, can be watched online on NASA’s site; participants include Nicky Fox, associate administrator of NASA’s Science Mission Directorate, Suzanne Dodd, the Voyager project manager, and Linda Spilker, the project scientist. NASA says a Voyager documentary is planned for 2027, the mission’s 50th anniversary."
+     "The eye in orbit",
+     "MODIS is one of Terra’s five instruments, with ASTER, CERES, MISR and MOPITT. Terra launched in December 1999; MOPITT and parts of CERES and ASTER have already been switched off to save power. After 1 December the team will use the remaining fuel to lower the orbit, then power everything off in January 2027. The data stays free and public."
     ],
     [
      "The picture",
-     "An artist’s concept of a Voyager spacecraft, credit NASA/JPL-Caltech."
+     "Terra MODIS image of 14 November 2026, from NASA EOSDIS LANCE and GIBS/Worldview, by Michala Garrison of NASA Earth Observatory; story by Lindsey Doermann."
     ]
    ],
    "rel": [
+    "overshoot",
     "crs35",
-    "des",
-    "idubi"
+    "novrain"
    ],
-   "src": "NASA Science, Where Are Voyager 1 and 2 Now? (updated 16 Nov 2026) · Voyager 1: What Is a Light-Day? (updated 12 Nov 2026) · Shine Bright for Voyager’s Light-Day · NASA advisory M26-086, 10 Nov 2026, updated 13 Nov",
-   "img": "https://www.nasa.gov/wp-content/uploads/2026/11/voyager-1-advisory-image-2-nov-10.jpg",
-   "credit": "Image: NASA/JPL-Caltech (artist’s concept)"
+   "src": "NASA Earth Observatory, Sierra Snow Season Spins Up, 18 Nov 2026 (Lindsey Doermann; images Michala Garrison) · NASA Science, NASA’s Terra Mission to End, 17 Nov 2026 (Kate Ramsayer)",
+   "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "credit": "Photo: NASA Earth Observatory / Michala Garrison, MODIS on Terra"
   },
   {
    "id": "overshoot",
    "dom": "earth",
    "lab": "Earth · Singapore from orbit",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "bolt",
    "cap": "Lightning inside storm tops near Borneo, shot from orbit. Singapore glows at the left",
    "num": "60",
-   "nums": "lightning flashes per second, roughly, across the whole Earth: about 2,000 thunderstorms at any moment and some 5 million flashes a day, by NASA’s estimate",
+   "nums": "lightning flashes per second, nearly, across the whole Earth: about 2,000 thunderstorms at any moment and some 5 million flashes a day, by NASA’s estimate",
    "p1": "On 28 October at 14:20 UTC, 10:20 pm in Singapore, a crew member on the space station pointed a Nikon Z9 with a 14 mm lens at the South China Sea near Borneo. The frame, published by NASA’s Earth Observatory on Tuesday, shows several dome-like ‘overshooting tops’ rising out of thunderstorms, two of them lit from inside by lightning. On the left of the picture sit the lights of Singapore, home to 6.2 million people, separated from Indonesia’s Batam and Bintan islands by the Singapore Strait.",
    "p2": "Why here: this is what the afternoon storms in NEA’s forecast look like from orbit. The blue lights west of Singapore are probably fishing fleets using bright lamps to attract squid or small fish; scattered orange points offshore to the northwest are likely gas flares.",
    "deep": [
@@ -137,7 +172,7 @@
     ],
     [
      "Try it",
-     "The next evening storm, count the seconds between the flash and the thunder and divide by three for the rough distance in kilometres. From the station there is no thunder to hear, only the flashes lighting the clouds from inside."
+     "The next evening storm, watch the flash and wait for the thunder. From the station there is no thunder to hear, only the flashes lighting the clouds from inside."
     ],
     [
      "The picture",
@@ -146,232 +181,195 @@
    ],
    "rel": [
     "nemon",
-    "crs35",
-    "dengue"
+    "novrain",
+    "sierra"
    ],
    "src": "NASA Earth Observatory, Tossing Fireworks from Cloud to Cloud, 17 Nov 2026 (Adam Voiland)",
    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
    "credit": "Photo: NASA / ISS Expedition 75 crew (ISS075-E-250951)"
   },
   {
-   "id": "idubi",
+   "id": "cryo",
    "dom": "space",
-   "lab": "Space · Mars",
+   "lab": "India · Rocket engine",
    "hot": 0,
    "big": 0,
-   "art": "rocks",
-   "cap": "Perseverance has rolled up to ghostly pale rocks on Mars: silica that once soaked in water",
-   "num": "Sol 2023",
-   "nums": "the Martian day, 29 October 2026, on which Perseverance’s Mastcam-Z photographed the bright rocks at ‘Idubi’",
-   "p1": "The rover is now outside Jezero crater, in a stretch of ancient Martian crust the team calls the Lac de Charmes region. At a spot named Idubi it found a cluster of rocks far brighter than the volcanic and impact rocks it had been looking at. Newly downlinked data from the SuperCam instrument say they are not igneous at all: they are rich in hydrated silica, a water-bearing form of the mineral that makes up quartz and glass.",
-   "p2": "Why that matters: on Earth, hydrated silica forms in hydrothermal (hot-water) systems, in soils and in groundwater, and it is good at preserving microfossils. A detailed close-up campaign at Idubi is already under way.",
+   "art": "cryo",
+   "cap": "200 seconds of fire at Mahendragiri: the engine for India’s next GSLV passed its test",
+   "num": "200 s",
+   "nums": "the duration of the flight acceptance hot test of the cryogenic engine that will fly on GSLV-F19",
+   "p1": "On 5 November ISRO fired the cryogenic engine for its next GSLV mission for 200 seconds at the ISRO Propulsion Complex at Mahendragiri. Both the Main Engine and the Gas Generator ignited as expected, and ISRO says the steady-state performance was normal and consistent with nominal predictions. The engine now goes into the cryogenic stage of GSLV-F19, which is to carry the NVS-04 navigation satellite.",
+   "p2": "Why now: ISRO calls it a flight acceptance test, a run on the very engine that will fly rather than a development unit, and published the result on 10 November.",
    "deep": [
     [
-     "Seen before, but too small",
-     "Silica-rich rocks turned up earlier on the inner rim of Jezero crater, but those were too small for the rover’s arm-mounted instruments to examine up close. Idubi offers bigger targets."
+     "Two things had to light",
+     "A cryogenic engine has more than one combustion going on. ISRO’s note names two: the Main Engine and the Gas Generator. ISRO says both ignited as expected and that the steady-state performance was normal."
     ],
     [
-     "Where Idubi is",
-     "Perseverance left Jezero crater, where it landed in 2021, and is now on the ancient crust outside the rim, in the region the team calls Lac de Charmes. The post is written by Candice Bedford, a research scientist at Purdue University on the rover team."
+     "Where it happened",
+     "The test was run at the ISRO Propulsion Complex (IPRC) at Mahendragiri. ISRO’s photograph is captioned “Flight acceptance test of the cryogenic engine at IPRC, Mahendragiri, on November 05, 2026”."
     ],
     [
-     "The picture",
-     "Taken by the left Mastcam-Z camera on 29 October 2026 (Sol 2023) at 13:03 local Mars time. A close-up came from the WATSON camera on the arm the same afternoon. Credit NASA/JPL-Caltech/ASU."
+     "What it will carry",
+     "GSLV-F19 is to launch NVS-04. ISRO’s page gives no thrust figure and no launch date for the mission."
     ]
    ],
    "rel": [
-    "vgr",
-    "des",
-    "grape"
-   ],
-   "src": "NASA Science, Perseverance Update: The Ghostly Rocks of ‘Idubi’, 16 Nov 2026 (Candice Bedford, Purdue University)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/missions/mars2020/2026/perseverance-rover-updates/Mars_Perseverance_ZL0_2023_0846533367_473EBY_N0930000ZCAM10057_1100LMJ.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA/JPL-Caltech/ASU"
-  },
-  {
-   "id": "des",
-   "dom": "space",
-   "lab": "Space · Dark energy",
-   "hot": 0,
-   "big": 0,
-   "art": "gal",
-   "cap": "A 570-megapixel camera watched the sky for 758 nights. Its final answer does not quite fit",
-   "num": "3 sigma",
-   "nums": "the strength of the Dark Energy Survey’s hint that dark energy is weakening over time; physicists want 5 sigma before calling anything a discovery",
-   "p1": "The Dark Energy Survey began in 2003 with physicists at Fermilab and grew to more than 400 scientists in seven countries. Its tool was the Dark Energy Camera, 570 megapixels, mounted on the 4-metre Victor M. Blanco Telescope at Cerro Tololo in the Chilean Andes. It observed on 758 nights between 2013 and 2019, and in May 2026 released results from its full dataset: thousands of supernovas and hundreds of millions of galaxies. Quanta reported this week that the numbers show a three-sigma preference for dark energy getting weaker, which the standard model of cosmology says should not happen.",
-   "p2": "Why now: the DESI survey in Arizona has reported similar misfits since 2024 and runs until at least 2028, and the Rubin Observatory, about six miles from Cerro Tololo, began its survey this year and is expected to see roughly 10 billion galaxies.",
-   "deep": [
-    [
-     "The model under strain",
-     "Lambda-CDM says the universe is about 30 percent matter, mostly cold dark matter, and 70 percent dark energy, with dark energy constant. Simone Ferraro of Lawrence Berkeley National Laboratory, who is not part of DES, told Quanta ‘there appear to be cracks in that model’ and that the result is ‘enough to make you either uncomfortable or excited’."
-    ],
-    [
-     "Why three sigma is not enough",
-     "Three sigma means a fluke of this size would happen by chance only a few times in a thousand, but with many surveys and many ways to slice the data, flukes of that size do turn up. Five sigma, the bar for discovery, is about one chance in a few million."
-    ],
-    [
-     "Back to 1998",
-     "The accelerating universe was announced in early 1998 by two teams; Quanta notes the Blanco telescope is famous for its role in that discovery. Joshua Frieman, a DES co-founder, had planned a ‘missing energy’ workshop in 1997; afterwards, he told Quanta, ‘suddenly, everyone wanted to come to our workshop’."
-    ],
-    [
-     "The picture",
-     "The 570-megapixel Dark Energy Camera on the Blanco 4-metre telescope at Cerro Tololo. Credit Dark Energy Survey / DOE / FNAL / DECam / CTIO / NOIRLab / NSF / AURA."
-    ]
-   ],
-   "rel": [
-    "vgr",
-    "idubi",
-    "spinq"
-   ],
-   "src": "Quanta Magazine, What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing, 16 Nov 2026 (Charlie Wood; corrected 17 Nov)",
-   "img": "https://www.quantamagazine.org/wp-content/uploads/2026/11/DES-cr.Dark-Energy-Survey_DOE_FNAL_DECam_CTIO_NOIRLab_NSF_AURA-Lede-scaled.webp",
-   "credit": "Photo: Dark Energy Survey / DOE / FNAL / DECam / CTIO / NOIRLab / NSF / AURA"
-  },
-  {
-   "id": "terra",
-   "dom": "earth",
-   "lab": "Earth · 27 years",
-   "hot": 0,
-   "big": 0,
-   "art": "satellite",
-   "cap": "Built for six years, Terra watched Earth for 27. On 1 December its instruments go quiet",
-   "num": "4×",
-   "nums": "its design life: launched in December 1999 for a six-year mission, Terra stops collecting science data on 1 December 2026",
-   "p1": "NASA announced on Tuesday that Terra, the Earth-observing satellite launched in December 1999, will stop collecting science data on 1 December and be switched off completely in January 2027. Its five instruments, MODIS, ASTER, CERES, MISR and MOPITT, have tracked land use, wildfires, dust and smoke, the atmosphere’s composition and ice cover for 27 years, more than four times the six years it was designed for.",
-   "p2": "Why now: the satellite’s systems are ageing and its orbit has drifted. MOPITT and parts of CERES and ASTER had already been shut off to save power. The remaining fuel will be used to lower the orbit before the lights go out.",
-   "deep": [
-    [
-     "What stays",
-     "Everything Terra ever measured stays free and publicly available, NASA says: 27 years of records of land use, wildfires, dust and smoke, atmospheric composition and ice cover."
-    ],
-    [
-     "Why now",
-     "NASA gives two reasons for ending now: the satellite’s systems are ageing and its orbit is drifting. The remaining fuel will be used to lower the orbit before the spacecraft is powered off in January 2027."
-    ],
-    [
-     "The picture",
-     "Technicians preparing Terra for encapsulation in its rocket fairing before the December 1999 launch. Credit NASA."
-    ]
-   ],
-   "rel": [
-    "overshoot",
     "crs35",
-    "nemon"
+    "bao",
+    "loc"
    ],
-   "src": "NASA Science, NASA’s Terra Mission to End, 17 Nov 2026 (Kate Ramsayer)",
-   "img": "https://assets.science.nasa.gov/content/dam/science/esd/blogs/2026/KSC-99pp1412~orig.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-   "credit": "Photo: NASA"
+   "src": "ISRO, ISRO conducts flight acceptance test of Cryogenic engine for next GSLV mission, 10 Nov 2026",
+   "img": "https://www.isro.gov.in/media_isro/image/index/Latest/DSC_6308.jpg.webp",
+   "credit": "Photo: ISRO / IPRC Mahendragiri"
   },
   {
-   "id": "elettra",
+   "id": "loc",
    "dom": "matter",
-   "lab": "India · Synchrotron light",
+   "lab": "Physics · Speed of light",
    "hot": 0,
    "big": 0,
-   "art": "synchro",
-   "cap": "India commits €7 million+ to two beamlines on an Italian synchrotron it has used since ’98",
-   "num": "1,100+",
-   "nums": "experiment proposals from Indian groups at Elettra, Trieste, making India the ring’s second-largest user after Italy",
-   "p1": "On Friday 13 November, India’s minister of state for science and technology, Jitendra Singh visited Elettra Sincrotrone Trieste in Italy and committed more than €7 million over five years, starting 2026–27, to the Elettra 2.0 upgrade. A synchrotron is a ring in which electrons race at close to the speed of light; where magnets bend them they throw off intense X-rays and ultraviolet, which are piped down ‘beamlines’ to experiments. Indian scientists have used Elettra since 1998, and about 50 to 60 of them travel to Trieste each year.",
-   "p2": "Why now: the two existing India-centric beamlines, XRD2 and Xpress, which India helped build for about ₹22 crore and which opened on 20 October 2016, will be decommissioned and replaced by two new ones.",
+   "art": "verify",
+   "cap": "Nothing beats light. NIST just used that to prove where a person is, not only who they are",
+   "num": "195 m",
+   "nums": "between the two verifying stations on NIST’s Boulder campus; a reply that arrives too late means you are not where you claim to be",
+   "p1": "Two stations 195 metres apart on NIST’s campus in Boulder, Colorado, linked by electrical cables and ultrathin optical fibres, each send random numbers timed to reach a claimed location at the same instant. The person there measures a photon and reports the result, and the verifiers time the reply against the speed of light. Anyone sitting somewhere else is farther from at least one station, so their reply arrives late. The team repeated the exchange millions of times over a few minutes, and the light-speed limit itself became the identity check.",
+   "p2": "A sum you can do: light travels 299,792,458 metres every second, exactly, so 195 m takes 195 ÷ 299,792,458 s, about 0.65 millionths of a second. That is the margin an impostor would have to beat.",
    "deep": [
     [
-     "The two new beamlines",
-     "Micro-XRD (μXRD) is a microfocus beamline for macromolecular crystallography, working out the shapes of proteins from tiny crystals. Xpress Superbend (Xpress-SB) is for high-pressure diffraction, squeezing samples to see how their atomic structure changes under pressure."
+     "Where the quantum comes in",
+     "One verifier makes a pair of entangled photons, keeps one and sends the other down the fibre to the prover. The random numbers tell the prover how to measure the polarisation of that photon, and the prover reports the result. The verifiers then check how often the prover’s measurements match their own, a loophole-free Bell test that can only be passed by measuring the photon exactly as the random numbers dictate, and fraudsters cannot predict those numbers. NIST physicist Krister Shalm led the work; Gautam Kavuri is first author of the paper in Nature."
     ],
     [
-     "Who uses it",
-     "The release says Indian groups have submitted more than 1,100 experimental proposals over the years, second only to Italy’s 54,140 and just ahead of France’s 1,098. The upgraded beamlines are aimed at chemistry, physics, advanced materials and structural biology."
+     "Why bother",
+     "NIST’s release puts the cost of cybercrime to US citizens at more than $16 billion in 2024, with far fewer than 1 percent of cybercriminals caught. Shalm: “Gaining access to a system can only be done by someone who can prove they are in a particular location — such as a bank — thwarting remote would-be hackers.”"
     ],
     [
-     "A 25-year partnership",
-     "The release counts the relationship from 1998, more than 25 years. India’s Department of Science and Technology has kept it funded: a 2022–2024 programme put ₹2 crore over three years into sending 50 Indian researchers a year to Trieste, and ₹1.5 crore is proposed for 2025–2027. The minister signed a letter of intent for the new beamlines during the visit."
+     "Not soon",
+     "NIST says real-world use is more than a decade away; it would need quantum networks that share entangled photons between a customer and their bank."
     ],
     [
-     "The picture",
-     "An uncaptioned image from the Press Information Bureau release of 14 November 2026. Credit PIB."
+     "The speed itself",
+     "Since 1983 the metre has been defined from the speed of light, so c is exactly 299,792,458 m/s by definition. NIST’s own Boulder laboratory measured it in 1972 at 299,792,456.2 ± 1.1 m/s, 100 times more accurate than the previous best measurement; the 1983 redefinition built on this and other advances."
     ]
    ],
    "rel": [
-    "spinq",
-    "grape",
-    "des"
+    "spectro",
+    "cryo",
+    "aimit"
    ],
-   "src": "Press Information Bureau, Ministry of Science & Technology: India commits over 7 million Euros as co-partner in Elettra 2.0 in Italy for development of next-generation synchrotron beamlines, 14 Nov 2026",
-   "img": "https://static.pib.gov.in/WriteReadData/userfiles/image/2026/nov/image001_20261114151347_302b7a.jpg",
-   "credit": "Photo: Press Information Bureau, Government of India"
+   "src": "NIST, Quantum Physics Can Verify a Person’s Location, NIST Researchers Show, 18 Nov 2026 · NIST, Definitions of the SI Base Units · NIST, SI Redefinition: Meter",
+   "img": "https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2026/11/17/QPV.jpg.webp?itok=_kI5dMfT",
+   "credit": "Photo: Riley Wilson / NIST"
   },
   {
-   "id": "grape",
+   "id": "spectro",
    "dom": "matter",
-   "lab": "Physics · Magnetism",
+   "lab": "Physics · Light",
    "hot": 1,
    "big": 0,
-   "art": "grape",
-   "cap": "A grape runs away from a magnet. Both poles. Try it with a neodymium magnet and a straw",
-   "num": "100,000×",
-   "nums": "to a million times weaker than the pull of a magnet on iron: the repulsion a strong magnet exerts on water, and so on a grape",
-   "p1": "Slide two big grapes onto the ends of a drinking straw, hang the straw from a 60 cm thread so it can turn freely, and let it settle. Bring one pole of a strong neodymium magnet close to a grape without touching it. The grape drifts away. Let it stop, flip the magnet to the other pole, and it drifts away again. Iron would have jumped onto the magnet; the grape is repelled by both poles.",
-   "p2": "Why: a grape is mostly water, and water is diamagnetic. Every electron in it is paired with a partner spinning the opposite way, so there is no built-in magnetism to attract. Instead the approaching magnet induces tiny currents in the atoms, and by Lenz’s law those currents push back.",
+   "art": "spectrum",
+   "cap": "An old CD, a cardboard tube and a slit under 1 mm wide: build your own spectroscope",
+   "num": "30°",
+   "nums": "the tilt of the CD inside the tube; the disc’s closely spaced data tracks act as a diffraction grating",
+   "p1": "The Exploratorium’s CD Spectroscope: a cardboard tube at least 30 cm long and 7.5 to 10 cm across, a CD slotted in at about 30 degrees near one end, a rectangular viewing hole cut beside it, and a cap over the far end with a slit less than 1 mm wide and 5 cm long. Point the slit at a fluorescent lamp and look through the hole: the line of light splits into bands of colour. A fluorescent tube shows bright separate lines, the fingerprint of the mercury vapour inside; an incandescent bulb gives a smooth, continuous rainbow.",
+   "p2": "Why it works: the CD’s tracks are so closely spaced that the disc behaves as a diffraction grating, and each colour leaves it at its own angle. Feynman writes the rule as d sin θ = mλ: the track spacing times the sine of the angle equals a whole number of wavelengths.",
    "deep": [
     [
-     "Three kinds of magnetic",
-     "Ferromagnets, iron, nickel and cobalt, have unpaired electrons that line up in domains and pull hard. Paramagnets like aluminium and liquid oxygen are weakly attracted. Diamagnets, helium, bismuth, graphite, water, are weakly repelled. The Exploratorium puts the diamagnetic push at roughly 100,000 to 1,000,000 times weaker than ferromagnetism, which is why you need a rare-earth magnet and a near-frictionless hanging straw to see it. Feynman puts ordinary magnetic effects at a thousand to a million times smaller than ferromagnetism."
+     "Try these",
+     "Compare an LED, a sodium-vapour street light and a neon tube. Incandescent and fluorescent lamps can look the same white and have completely different spectra. Sunlight bounced off white clouds, a wall or paper shows the solar spectrum; with a 60 cm tube and a finer slit you may see thin dark Fraunhofer lines in it. The Exploratorium’s one warning: never look directly at the sun."
     ],
     [
-     "Why it works at all",
-     "In Feynman’s Lectures the chapter on the magnetism of matter shows that diamagnetism does not depend on temperature while paramagnetism gets stronger as things get colder, and that classical physics on its own cannot produce either effect; it takes quantum mechanics to explain why atoms respond the way they do."
+     "Lines that read the stars",
+     "In 1788 the Comte de Buffon said he was sure we would never know what the sun was made of. In the 1860s William Huggins pointed a spectroscope at stars and identified their composition from exactly these lines."
     ],
     [
-     "Go further",
-     "Swap the grapes for aluminium foil balls, wood, or prunes and see which, if any, move. Watch out: the Exploratorium warns that neodymium magnets this size give a painful pinch if skin is caught between two of them."
+     "The grating maths",
+     "Feynman’s chapter on diffraction: a grating has several hundred lines per millimetre; the brighter beams appear where d sin θ = mλ; and the resolving power λ/Δλ equals the order m times the number of lines n. For n lines in step, the central peak is n² times a single line and the first side peak is under 5 percent of it, which is why gratings give such sharp lines."
     ]
    ],
    "rel": [
-    "spinq",
-    "finrocket",
-    "elettra"
+    "loc",
+    "cg",
+    "bao"
    ],
-   "src": "Exploratorium Science Snacks, Magnetic Fruit · The Feynman Lectures on Physics, Vol. II, Ch. 34, The Magnetism of Matter"
+   "src": "Exploratorium Science Snacks, CD Spectroscope · The Feynman Lectures on Physics, Vol. I, Ch. 30, Diffraction"
   },
   {
-   "id": "spinq",
-   "dom": "matter",
-   "lab": "Physics · Quantum",
+   "id": "cg",
+   "dom": "try",
+   "lab": "Try it · 1 min",
    "hot": 0,
    "big": 0,
-   "art": "spinq",
-   "cap": "A single molecule’s spin, read out with light, flips in under 50 ns and holds for 2.2 ms",
-   "num": "2.2 ms",
-   "nums": "spin coherence time of a single-molecule qubit at 4.5 K; a flip takes under 50 ns, so thousands of operations fit in one coherence window",
-   "p1": "A qubit is a quantum bit, something that can hold a 0, a 1 or a blend of the two. Physics World reported on Tuesday that NVision Quantum Technologies in Ulm, Germany, co-founded by Martin Plenio of Ulm University, has switched on, controlled and read out the spin of individual molecules using light and microwaves, at 4.5 K, a little above absolute zero. The spin stayed coherent for 2.2 milliseconds and relaxed in 21 ms; a flip took under 50 nanoseconds. The work is published in Nature.",
-   "p2": "Do the sum: 2.2 ms is 2,200,000 ns. Divided by 50 ns per flip, that is 44,000 flips before the spin forgets itself; Physics World reckons this allows ‘as many as thousands’ of operations per coherence window.",
+   "art": "ruler",
+   "cap": "Rest a ruler on two fingers and slide them together. They always meet under the same spot",
+   "num": "D/3",
+   "nums": "where a flat triangle balances: one third of the way up from its base, by Feynman’s calculation; a plain ruler balances at its middle",
+   "p1": "Take a ruler, a broom or any stick and rest its ends on your two index fingers. Slide the fingers slowly toward each other. One finger moves, then sticks; the other moves, then sticks; and they meet directly under the centre of gravity every time, wherever you start. Tape a blob of clay or some other small weight somewhere on the stick and repeat: the meeting point shifts to the new balance point.",
+   "p2": "Why: the finger carrying more weight is harder to slide. The lighter-loaded finger slides until it passes the centre of gravity and becomes the heavier one; they swap roles until both carry equal weight, and that only happens at one point.",
    "deep": [
     [
-     "Why light",
-     "The molecule’s spin transitions are separated by at least 1.555 GHz, allowing clean optical readout. The company, with the US photonic-chip maker HyperLight, hopes to put the molecules on integrated photonic chips; its stated goal is 1,000 fault-tolerant qubits by 2030, with the first prototype chips by the end of 2026."
+     "Where things balance",
+     "A uniform object balances at its midpoint. Feynman’s chapter on the centre of mass works out two less obvious ones: a flat triangle balances one third of the way from its base to its apex, and a half-disc balances 4r/(3π) from its straight edge, about 0.42 of the radius."
     ],
     [
-     "Coherence vs relaxation",
-     "Relaxation (21 ms) is how long the spin takes to fall back to its lowest state. Coherence (2.2 ms) is how long its quantum phase stays well defined, which is what computation needs. Coherence is usually the shorter and harder number."
+     "Uses",
+     "The Exploratorium suggests the trick for finding where to carry a long pole, and for cutting a pole or length of pipe into two roughly equal pieces at the balance point. Tightrope walkers’ poles work on the same principle."
     ],
     [
-     "What 4.5 K means",
-     "4.5 kelvin is about −268.7 °C, just above the 4.2 K at which helium boils. At that temperature the molecule’s surroundings barely jostle it, which is why the spin can hold still for milliseconds."
+     "Centre of mass",
+     "Feynman defines it as the mass-weighted average position of all the pieces, and shows that a composite body can be treated piece by piece using each piece’s own centre of mass. The ruler and the taped weight are exactly that."
     ]
    ],
    "rel": [
-    "grape",
-    "des",
-    "elettra"
+    "spectro",
+    "perch",
+    "loc"
    ],
-   "src": "Physics World, Single-molecule spin qubits can be controlled with light, 17 Nov 2026 (Isabelle Dumé) · Nature, Schwartz, Pfender, Roggors et al. 2026 (doi 10.1038/s41586-026-11147-6)"
+   "src": "Exploratorium Science Snacks, Center of Gravity · The Feynman Lectures on Physics, Vol. I, Ch. 19, Center of Mass; Moment of Inertia"
+  },
+  {
+   "id": "robot",
+   "dom": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "hot": 1,
+   "big": 0,
+   "art": "gimbal",
+   "cap": "A phone whose camera pops out on a gimbal and turns to follow you, on a 2.6 g motor",
+   "num": "2.6 g",
+   "nums": "the mass of the titanium gimbal motor in Honor’s Robot Phone; Honor says the arm can turn up to 360 degrees per second",
+   "p1": "The Honor Robot Phone, on TIME’s Best Inventions 2026 list, hides a motorised camera arm flush in its back. Activate it, by gesture or a spoken command, and it swings out on a gimbal built from more than 100 precision components, then tracks a face or a moving subject on its own. Honor says the system is 65 percent smaller than mainstream gimbals, the main camera is a 200-megapixel 1/1.28-inch sensor at f/1.6, and a separate H1 imaging chip, developed with the cinema-camera maker ARRI, handles video processing that the Snapdragon chip on its own could not.",
+   "p2": "What reviewers found wrong: TechRadar’s Axel Metz wrote that he “could easily (or accidentally) snap off the plastic shield covering it” and called the YOYO gestures “the definition of gimmickry”; Tom’s Guide’s John Velasco found it “rather hefty at 8.75 ounces” and noted that vertical video is only a crop of the landscape frame, because the gimbal cannot turn the camera that way.",
+   "deep": [
+    [
+     "Inside the arm",
+     "Honor’s launch release: a 2.6 g titanium gimbal motor, more than 100 precision components, 60 processes, more than 100 patents, structural strength up 200 percent, rotation up to 360 degrees per second and a torque density of 120 N·m/L. The release calls the gimbal both “3-axis” and “4-DoF”, so take the axis count with care."
+    ],
+    [
+     "Why a second chip",
+     "Yang Liu, Honor’s president of hardware engineering, told TechRadar: “The Qualcomm chipset offers very good performance for still image processing, but for video, it’s not good enough — for now.” The H1 chip sits beside the Snapdragon and handles white balance, tone mapping and exposure in real time, with 14-bit 4:4:4 internal processing and 10-bit ARRI LogC3 output; Honor claims 14 stops of dynamic range and 8 dB better video signal-to-noise."
+    ],
+    [
+     "The rest of the phone",
+     "A 6.31-inch LTPO OLED at 1 to 120 Hz and 6,800 nits peak, Snapdragon 8 Elite Gen 5, a 7,060 mAh silicon-carbon battery with 120 W wired charging, a 200 MP periscope telephoto and a 50 MP ultra-wide. Price RMB 9,999 for 12 GB and 512 GB, China only; TechRadar puts that at about $1,500. TechRadar also reports it gets noticeably hot in long filming sessions."
+    ],
+    [
+     "Head to head",
+     "Tom’s Guide’s Sanuj Bhatia put it against the Insta360 Luna Ultra pocket gimbal camera: the phone zooms only about 4× by cropping where the Luna Ultra has dedicated zoom hardware, takes an extra second or two to get going, and its tracking only falls behind the Luna Ultra’s when the subject moves quickly toward the edge of the frame. He would buy the Luna Ultra."
+    ]
+   ],
+   "rel": [
+    "eyewear",
+    "perch",
+    "aimit"
+   ],
+   "src": "TIME Best Inventions 2026, Honor Robot Phone (Nitish Pahwa) · Honor, launch release, 12 Aug 2026 · TechRadar, Axel Metz, 12 and 15 Aug 2026 · Tom’s Guide, John Velasco, 12 Aug 2026; Sanuj Bhatia, 22 Aug 2026"
   },
   {
    "id": "eyewear",
    "dom": "gadgets",
    "lab": "Gadgets · Hands-on",
-   "hot": 1,
+   "hot": 0,
    "big": 0,
    "art": "specs",
    "cap": "Google’s glasses: a 12 MP camera, 41 g, nine hours, no screen. A reviewer heard them leak",
@@ -394,44 +392,44 @@
     ]
    ],
    "rel": [
-    "sqd",
-    "ai17",
-    "worms"
+    "robot",
+    "aimit",
+    "perch"
    ],
    "src": "Google, The Keyword: Google intelligent eyewear collections now available for pre-order, 12 Nov 2026 · Tom’s Guide, Kate Kozuch, 12 Nov 2026 · Tom’s Guide, Jason England, 20 May 2026"
   },
   {
-   "id": "sqd",
-   "dom": "gadgets",
-   "lab": "Gadgets · TIME 2026",
+   "id": "novrain",
+   "dom": "sg",
+   "lab": "Singapore · November",
    "hot": 0,
    "big": 0,
-   "art": "monitor",
-   "cap": "TCL claims 10,000 nits for its X11L TV. A lab got 2,679, yet crowned it king of colour",
-   "num": "20,736",
-   "nums": "local dimming zones, at most, behind TCL’s X11L (the 98-inch; the 75-inch has 14,400), each a patch of mini-LEDs that can go dark on its own",
-   "p1": "TIME put TCL’s X11L on its 2026 Best Inventions list for its ‘SQD’, super quantum dot, backlight: quantum dots that emit light at ‘more specific nanometer wavelengths than previously available tech’, which TIME says makes the picture both very colour-accurate and very bright. The 75, 85 and 98-inch sets use up to 20,736 dimming zones, a native 144 Hz panel, four HDMI 2.1 ports, Dolby Vision IQ, HDR10+ and a Bang & Olufsen sound system. The 85-inch weighs 112.9 lb (51 kg) without its stand.",
-   "p2": "What the lab said: Tom’s Guide’s Kate Kozuch measured 2,679 nits of HDR brightness on a 10 percent window against the ‘up to 10,000 peak nits’ on TCL’s spec sheet, and 91.77 percent of the Rec.2020 colour space against the claimed 100. Even so, she called it one of the brightest Mini-LED TVs you can buy and ‘the new king of color’.",
+   "art": "raingauge",
+   "cap": "A normal Singapore November: 252.3 mm of rain over 19 wet days. The 1874 one had 521.5 mm",
+   "num": "521.5 mm",
+   "nums": "Singapore’s wettest November on record, in 1874; the driest, in 1981, had 53.5 mm",
+   "p1": "The Meteorological Service’s fortnightly outlook carries the numbers behind the month. The November normals for 1991 to 2020 are 252.3 mm of rain over 19 rain days, an average daily high of 31.2 °C, an average low of 24.6 °C and a monthly mean of 27.2 °C. The records run wider than you might guess: the wettest November, 521.5 mm, was in 1874; the driest, 53.5 mm, in 1981; the warmest by mean daily maximum was 2019 at 32.3 °C; the coolest by mean daily minimum was 1933 at 22.4 °C.",
+   "p2": "Test it: the first half of this month already had a 94.2 mm day at Rivervale Drive and 35.4 °C at Paya Lebar. Watch the second half’s review when it is published and see which side of 252.3 mm the month lands on; the outlook says slightly above.",
    "deep": [
     [
-     "Why the gap in nits",
-     "Tom’s Guide says TCL ‘made some bold claims about the X11L’s color and brightness capabilities, and while our testing doesn’t quite meet those claims, it still paints a very positive picture’. A 10 percent window is the standard test the site uses for every set. For scale, its numbers for rivals were 3,332 nits for TCL’s own 2025 QM8K, 2,713 for Sony’s Bravia 9 and 2,109 for Samsung’s QN90F. Input lag measured 11.7 ms."
+     "The next four days",
+     "The four-day outlook issued on Wednesday evening gives Thursday to Sunday the same shape: 24 to 33 °C and afternoon thundery showers each day, with light variable winds on Thursday turning to the northeast from Friday as the monsoon sets in."
     ],
     [
-     "What reviewers found wrong",
-     "Extremely expensive at launch: $6,999 for 75 inches, $7,999 for 85 and $9,999 for 98 (TCL’s US site now lists them at $2,999.99, $4,999.99 and $6,999.99). Motion is ‘not class-leading’, with some smearing in fast action. The wide-set feet need a very large stand. The sound is a plus, ‘strong volume and decent clarity’, good enough that many buyers could skip a soundbar."
+     "Uneven island",
+     "In the first half of November about half the island had above-average rain: Somerset was 44 percent above its average, Tanjong Katong 65 percent below. One island, two Novembers."
     ],
     [
-     "Quantum dots in one line",
-     "A quantum dot is a crystal a few nanometres across; the smaller the dot, the bluer the light it gives off when excited. Shrink or grow them precisely and you tune the colour, which is what SQD claims to do better than before."
+     "Why the records are so far apart",
+     "The 1874 and 1981 figures differ by almost ten times. November sits at the hand-over from the inter-monsoon period to the Northeast Monsoon: the outlook describes inter-monsoon conditions with light and variable winds in the first half of this month, and Northeast Monsoon conditions setting in during the second."
     ]
    ],
    "rel": [
-    "eyewear",
-    "spinq",
-    "ai17"
+    "nemon",
+    "overshoot",
+    "sierra"
    ],
-   "src": "TIME, Best Inventions 2026: TCL X11L SQD-Mini LED TV (Justin Pot, 15 Oct 2026) · TCL US spec page, X11L series · Tom’s Guide review, Kate Kozuch, 20 Feb 2026 · Notebookcheck CES report (zone counts by size)"
+   "src": "Meteorological Service Singapore (weather.gov.sg), Fortnightly Weather Outlook for the second half of November 2026, 16 Nov 2026 · 4-day outlook, updated 18 Nov 2026"
   },
   {
    "id": "nemon",
@@ -456,7 +454,7 @@
     ],
     [
      "Today",
-     "The 24-hour forecast for Wednesday 18 November: thundery showers over many areas in the afternoon, 24 to 33 °C, humidity 60 to 95 percent, variable winds of 5 to 15 km/h."
+     "The four-day outlook updated on Wednesday evening gives Thursday 19 November 24 to 33 °C with afternoon thundery showers and variable winds of 5 to 15 km/h, turning northeast from Friday."
     ],
     [
      "The picture",
@@ -464,145 +462,149 @@
     ]
    ],
    "rel": [
+    "novrain",
     "overshoot",
-    "dengue",
-    "terra"
+    "sierra"
    ],
-   "src": "NEA / Meteorological Service Singapore, Wet Weather To Continue For Rest Of November 2026 With Onset Of Northeast Monsoon, 16 Nov 2026 · weather.gov.sg 24-hour forecast, 18 Nov 2026",
+   "src": "NEA / Meteorological Service Singapore, Wet Weather To Continue For Rest Of November 2026 With Onset Of Northeast Monsoon, 16 Nov 2026 · weather.gov.sg 4-day outlook, updated 18 Nov 2026",
    "img": "https://www.nea.gov.sg/images/default-source/about-us/fwo-16-nov-26.jpg",
    "credit": "Image: NEA / Meteorological Service Singapore"
   },
   {
-   "id": "dengue",
-   "dom": "sg",
-   "lab": "Singapore · Dengue",
+   "id": "orca",
+   "dom": "life",
+   "lab": "Life · Killer whales",
    "hot": 0,
    "big": 0,
-   "art": "mosquito",
-   "cap": "74 dengue cases last week, up 20 on the week before, and eight active clusters",
-   "num": "74",
-   "nums": "dengue cases reported in the week ending Saturday 14 November, an increase of 20 from the previous week; eight active clusters as of 16 November",
-   "p1": "NEA’s dengue page, updated on Tuesday 17 November, counts 74 cases in the week ending 14 November, up from 54 the week before. Eight clusters were active as of 16 November. NEA’s daily table shows 8, 15, 11, 9 and 20 cases from Tuesday 10 to Saturday 14 November, then 10 on Sunday 15 November; Saturday 14 November alone had 20 cases, the busiest day in the table. The 2026 total after 45 weeks stands at 2,960.",
-   "p2": "Why now: the wet weeks ahead in NEA’s outlook mean more standing water, and the Aedes mosquito that carries dengue breeds in small containers of stagnant water.",
+   "art": "orca",
+   "cap": "One male killer whale, photographed seven times across 26 years in the deep Gulf waters",
+   "num": "49",
+   "nums": "sightings of killer whale groups logged from 1978 to mid-2024 in the Gulf of America, as NOAA names it, over water averaging more than 2,000 m deep",
+   "p1": "NOAA Fisheries has pulled together every killer whale sighting in the Gulf of America, NOAA’s term for the Gulf of Mexico, from 1978 to mid-2024: 49 group sightings, over water averaging more than 2,000 m deep, in groups averaging about seven whales, from a lone animal to 14. Matching photographs of fins and markings identified 49 individual whales, and one male turned up in the photographs seven times between 1992 and 2018.",
+   "p2": "What they hunt there: NOAA’s record includes attacks on pantropical spotted dolphins in 1994 and dwarf sperm whales in 2012, a pursuit of dolphins in 2024, and tuna.",
    "deep": [
     [
-     "The last six weeks",
-     "Weekly cases since early October: 79, 60, 61, 68, 54, 74. Flat to falling until the latest week. The first two days of the current week, 15 and 16 November, logged 12 by 11 am on Monday."
+     "Why the photographs matter",
+     "A whale photographed in 1992 and again in 2018 is proof that the same animals use the same deep water for decades, which a count of sightings alone could never show. Photo-identification is the backbone of the catalogue: 49 individuals so far."
     ],
     [
-     "Reading a weekly count",
-     "NEA’s ‘E-week’ runs from Sunday midnight to Saturday night. NEA notes that day-to-day numbers fluctuate with how many cases are notified each day, so weekly numbers are a better reflection of actual trends. It also publishes the cluster count, eight as of 16 November."
+     "How deep is 2,000 m",
+     "Science News Explores’ Scientists Say column on 16 November was about the abyssal zone. By its account the sunlit zone ends at 200 m, the midnight zone starts at 1,000 m, NOAA puts the start of the abyssal zone at 4,000 m and other experts put it at 2,000 m. The water under the Gulf’s killer whales averages more than 2,000 m: ten times deeper than the point where sunlight gives out."
     ],
     [
-     "What you can check",
-     "Walk round the block after a storm and count containers holding water: plant saucers, drain gullies, a bin lid. Each one is a possible breeding site."
+     "The picture",
+     "A NOAA Fisheries photograph taken under permit 779-1633."
     ]
    ],
    "rel": [
-    "nemon",
     "overshoot",
-    "finrocket"
+    "novrain",
+    "perch"
    ],
-   "src": "NEA, Dengue cases (weekly and daily tables), last updated 17 Nov 2026"
+   "src": "NOAA Fisheries, Uncovering the Lives of Killer Whales in the Southeast, 17 Nov 2026 · Science News Explores, Scientists Say: Abyssal Zone, 16 Nov 2026 (Katie Grace Carpenter)",
+   "img": "https://www.fisheries.noaa.gov/s3/2026-11/2500x1718-sefsc-mmtd-killerwhale779-1633.JPG",
+   "credit": "Photo: NOAA Fisheries (permit 779-1633)"
   },
   {
-   "id": "finrocket",
-   "dom": "try",
-   "lab": "Try it · 15 min",
-   "hot": 0,
-   "big": 0,
-   "art": "paperrocket",
-   "cap": "A finless paper rocket spirals and tumbles. Add four fins at 90° and it flies straight",
-   "num": "90°",
-   "nums": "apart: bend four triangular fins into a + shape at the open end of the tube and the rocket stops spiralling",
-   "p1": "Cut a sheet of paper in half both ways to get four rectangles. Wrap one tightly round a pencil to make a tube, tape it, slide the pencil out, then pinch and tape one end shut for the nose. Slide the tube over a drinking straw, take a deep breath and blow. Measure where it lands. It flies straight for a moment, then spirals out of control and tumbles.",
-   "p2": "Now the fix: cut two right-angled triangles with long sides of about 8 cm. On each, draw a line from the right angle to the middle of the long side, add two parallel lines about 5 mm either side of it, and fold along those two lines so two fins stand up with a flat strip between them. Tape both to the open end so you have four fins, and bend the fins into a + shape, 90 degrees apart. Launch again and measure.",
-   "deep": [
-    [
-     "Why fins work",
-     "Fins put the centre of pressure, the point where the air’s push acts, behind the centre of mass. Any wobble then tilts the fins into the airflow, and the air pushes them back in line. Rockets and missiles usually carry triangular fins at their bases for exactly this reason, and arrows need the same kind of stability."
-    ],
-    [
-     "Make it an experiment",
-     "Change one thing at a time: two fins against four, half-moon fins against triangles, fins in the middle of the body or up near the nose. Launch each design several times and record every distance, because one blow is never the same as the next."
-    ],
-    [
-     "Who wrote it",
-     "The procedure comes from Science Buddies via Science News Explores, published Tuesday 17 November. It wants a windless space and, if you want numbers, a measuring tape; nothing else you do not already have at home."
-    ]
-   ],
-   "rel": [
-    "grape",
-    "crs35",
-    "dengue"
-   ],
-   "src": "Science News Explores, Experiment: Construct and test paper rockets, 17 Nov 2026 (Science Buddies)"
-  },
-  {
-   "id": "ai17",
-   "dom": "usingai",
-   "lab": "Using AI · Evidence",
-   "hot": 0,
-   "big": 0,
-   "art": "ai17",
-   "cap": "The students who got their answers from AI scored 17% worse on the test",
-   "num": "–17%",
-   "nums": "on the exam, after working with a chatbot",
-   "p1": "Nearly 1,000 high-school maths students in Turkey were split three ways: problem sets with a plain ChatGPT-style bot, with a version that only gave hints, or with books and notes. While the bot was there the chatbot group looked brilliant, doing 48% better on the problems. Then the AI was taken away for the exam. They scored 17% below the students who never had it.",
-   "p2": "Why: the paper’s own explanation is that students ‘attempt to use GPT-4 as a crutch’ during the problem sessions, so they never build the skill themselves.",
-   "deep": [
-    [
-     "The hint-only version was different",
-     "Students who used the tutor that refused to give answers did 127% better in the sessions and then matched the book group on the exam. Same technology, different design, different result."
-    ],
-    [
-     "What the researchers concluded",
-     "The paper’s worry is that students use a plain chatbot ‘as a crutch’. The hint-only tutor, designed to guide students instead of directly giving answers, avoided the damage."
-    ],
-    [
-     "Try it on yourself",
-     "Next hard problem, ask only for a hint, then close the chat and finish alone. See whether you still remember it a week later."
-    ]
-   ],
-   "rel": [
-    "eyewear",
-    "worms",
-    "sqd"
-   ],
-   "src": "PNAS, 25 Jun 2025, Bastani et al.: Generative AI without guardrails can harm learning (doi 10.1073/pnas.2422633122)"
-  },
-  {
-   "id": "worms",
+   "id": "escher",
    "dom": "numbers",
-   "lab": "Computing · Worms",
+   "lab": "Numbers · Escher",
    "hot": 0,
    "big": 0,
-   "art": "worm",
-   "cap": "The 2016 Mirai worm was a few kilobytes. The AI worms two teams built: tens of gigabytes",
-   "num": "15",
-   "nums": "Android smart TVs networked together to host one test worm: it ran thousands of times more slowly than on GPU computers",
-   "p1": "A computer worm is a program that copies itself from machine to machine without anyone clicking. Science News reported on Monday that two separate teams have shown an attacker could turn an AI model into a worm that spreads and adapts on its own. Jonas Guan, an AI researcher at the University of Toronto, and colleagues posted a preprint on arXiv on 2 June describing an ‘octopus-style’ worm; AI company Anthropic posted a report on 12 October describing a ‘digital slime mould’. Guan’s team kept its worm off the real internet and, he says, spent considerable effort making sure it could not escape the lab.",
-   "p2": "Why it is not here yet: Mirai, the worm that took down Reddit and Spotify in 2016 after spreading by guessing default passwords on hundreds of thousands of routers, security cameras and baby monitors, was a few kilobytes. These AI models are tens of gigabytes, and on 15 networked smart TVs one ran thousands of times slower than on proper GPUs.",
+   "art": "escher",
+   "cap": "Every repeating flat pattern is one of just 17 types. Escher worked them out by hand",
+   "num": "17",
+   "nums": "symmetry groups: the number of distinct ways a pattern can repeat across a flat plane, as George Pólya’s paper classified them",
+   "p1": "M.C. Escher, born in 1898 in Leeuwarden in the Netherlands, struggled with maths at school and trained as a printmaker. After finishing his arts education in 1922 he visited Granada, where the Alhambra’s tiles hooked him on repeating patterns, and his half-brother Berend, a geologist, sent him Pólya’s paper classifying all plane tilings into 17 groups. Curator Doris Schattschneider says he “had worked out a whole theory that he called his layman’s theory, so he knew which edges had to match which edges.” In her words: “It was something he discovered very intuitively.”",
+   "p2": "Test it: pick any tiled floor, wallpaper or patterned shirt and find the smallest piece that repeats. Then check whether it repeats by sliding only, or also by turning or mirroring. Whatever you find, it is one of the 17.",
    "deep": [
     [
-     "What the tests showed",
-     "Guan’s worm, in a virtual network of GPU machines and simulated office printers and security cameras, found a way to survive a reboot without being asked to. Anthropic’s separate GPU experiment showed its worm adapting attacks to different kinds of device. Michael Alexander Riegler of the Simula Metropolitan Center in Oslo, not involved in either, notes both test networks made spreading easier than the real world would."
+     "Hyperbolic circles",
+     "Escher met the geometer H.S.M. Coxeter at the 1954 International Congress of Mathematicians in Amsterdam and they corresponded until Escher’s death in 1972. Circle Limit IV, from 1960, depicts hyperbolic, negatively curved space, after Escher pored over a diagram Coxeter sent him in 1958."
     ],
     [
-     "How Mirai was stopped",
-     "Rebooting cleared it, and changing the default username and password stopped reinfection. Zane Ma of Oregon State University, who analysed Mirai, says ‘just using this very simple technique’ it infected hundreds of thousands of devices. Riegler says strong passwords and regular updates would have stopped both of the demonstrated attacks."
+     "The picture inside the picture",
+     "Print Gallery, from 1956, shows a man looking at a print that contains the gallery he is standing in. In 2003 the mathematicians Hendrik Lenstra and Bart de Smit reverse-engineered it and found it effectively applies a complex exponential to an image."
     ],
     [
-     "How close",
-     "Anthropic estimates AI worms are months away; Riegler and Guan think longer. ‘The ingredients are converging,’ Riegler says. Guan’s team is building an AI defender and says it is ‘working on the problem day and night’. Zane Ma says internet providers can spot the unusual traffic a worm makes and quarantine the infected devices by cutting them off."
+     "The impossible triangle",
+     "Roger Penrose’s “tribar” was inspired by Escher’s Relativity of 1953, though Oscar Reutersvärd had drawn one in 1934. The Dutch crystallographer Carolina MacGillavry analysed Escher’s colour symmetry in a 1965 book. The exhibition Mathematics and the Art of M.C. Escher runs at the National Museum of Mathematics in New York until 8 February 2027."
     ]
    ],
    "rel": [
-    "eyewear",
-    "ai17",
-    "sqd"
+    "cg",
+    "spectro",
+    "aimit"
    ],
-   "src": "Science News, We know how to stop computer worms. But what if AI helps them persist?, 16 Nov 2026 (Kathryn Hulick)"
+   "src": "Quanta Magazine, How M.C. Escher’s Art Creates Bizarre Mathematical Worlds, 18 Nov 2026 (Shalma Wegsman)"
+  },
+  {
+   "id": "perch",
+   "dom": "numbers",
+   "lab": "Robotics · Delft",
+   "hot": 1,
+   "big": 0,
+   "art": "perch",
+   "cap": "A drone that lands like a bird: three fingers, springs, and it grips a branch by feel",
+   "num": "26",
+   "nums": "test flights in the Delft laboratory, and in every one the drone grasped its perch in under 70 seconds",
+   "p1": "Flying costs a drone far more energy than sitting still, so roboticist Anton Bredenbeck’s team at Delft University of Technology built one that perches. Three human-inspired fingers, set like a thumb, index and middle finger, each with three segments of different lengths, close around whatever they touch. Touch sensors, not cameras, tell the drone when to grab, which matters when clutter or its own grippers block the view. It has held branches, a traffic cone, a T-shaped piece of metal and a human arm, and can perch reliably within a few metres if there is somewhere to grab.",
+   "p2": "The trick: springs in the finger joints hold the grip closed, so hanging on costs no energy at all, and a motor pulls metal cords like tendons to open the fingers again. “We just have a tendon. We pull on the tendon,” says Bredenbeck.",
+   "deep": [
+    [
+     "Why perch at all",
+     "Bredenbeck’s own words: “drones are really, really inefficient flyers.” A drone that can land on a branch or a cone and shut off its motors saves its battery where a hovering one would run flat."
+    ],
+    [
+     "Singapore’s verdict",
+     "Cecilia Laschi, a roboticist at the National University of Singapore who was not involved, told Science News Explores: “It’s a good example of embodied intelligence.” The cleverness is in the shape and springs of the fingers, not in a camera and software."
+    ],
+    [
+     "Lab only, so far",
+     "In 26 tests the drone grasped its perch in under 70 seconds every time, but all of them were in the lab. The work appeared in npj Robotics on 22 August 2026. The photograph is a Delft University of Technology press image by Studio Oostrum."
+    ]
+   ],
+   "rel": [
+    "robot",
+    "cg",
+    "orca"
+   ],
+   "src": "Science News Explores, A new flying drone uses touch to perch like a bird, 18 Nov 2026 (Lily Burton) · npj Robotics, 22 Aug 2026",
+   "img": "https://www.snexplores.org/wp-content/uploads/sites/3/2026/11/1440_soft_drone_feat.jpg",
+   "credit": "Photo: Delft University of Technology / Studio Oostrum"
+  },
+  {
+   "id": "aimit",
+   "dom": "usingai",
+   "lab": "Using AI · MIT",
+   "hot": 0,
+   "big": 0,
+   "art": "aimit",
+   "cap": "MIT’s phrase for what a chatbot answer can create: “the illusion of learning”",
+   "num": "8",
+   "nums": "principles in MIT’s 2026 report on AI in education",
+   "p1": "MIT’s report does not call for banning AI. One of its eight principles is augmentation, not automation: AI should be used to “augment and enhance curiosity, creativity, and learning, not automate them.” Its named risks are the ones you would expect, weaker memory and confidence, falling back on AI at the first hint of struggle, and one you might not: fewer people. MIT saw fewer students at office hours and, anecdotally, fewer in-person groups in dorms and libraries, turning to AI instead of to classmates, TAs or professors.",
+   "p2": "The point: the product of school is you, not the mark.",
+   "deep": [
+    [
+     "What MIT asks of its own students",
+     "Learn to write good prompts, check every output, recognise when it has made something up, and know when not to use it at all."
+    ],
+    [
+     "Why checking matters",
+     "The report warns that models hallucinate, so students need to learn when an output is likely to be made up. MIT’s guidance for research: a human is responsible for verifying the output, and AI should never be listed as a co-author."
+    ],
+    [
+     "Keep it human",
+     "The report says every subject should include a regular in-person social component, calls for more project-based work, and asks for deliberately AI-free experiences and AI-free spaces for interaction and assessment."
+    ]
+   ],
+   "rel": [
+    "robot",
+    "eyewear",
+    "loc"
+   ],
+   "src": "MIT Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training, Aug 2026"
   }
  ]
 }

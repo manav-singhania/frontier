@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "tiles": [
   {
    "id": "after",
@@ -286,7 +286,7 @@
    "lab": "Using AI · MIT",
    "src": "MIT, Report on AI and Education, 2026",
    "first": "2026-10-25",
-   "last": "2026-11-16",
+   "last": "2026-11-19",
    "editions": [
     "02b",
     "06",
@@ -295,7 +295,8 @@
     "15",
     "18",
     "21",
-    "24"
+    "24",
+    "27"
    ]
   },
   {
@@ -3439,10 +3440,11 @@
    "lab": "Singapore · Weather",
    "src": "NEA / Meteorological Service Singapore, Wet Weather To Continue For Rest Of November 2026 With Onset Of Northeast Monsoon, 16 Nov 2026 · NEA haze situation update, 7 Nov 2026 · NEA regional haze situation, 16 Nov 2026",
    "first": "2026-11-17",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "editions": [
     "25",
-    "26"
+    "26",
+    "27"
    ]
   },
   {
@@ -3476,9 +3478,10 @@
    "lab": "Space · Tonight",
    "src": "NASA media advisory M26-087, NASA to Cover 35th SpaceX Resupply Mission Space Station Departure, 17 Nov 2026 · NASA space station blog, 16 and 17 Nov 2026 (Mark A. Garcia)",
    "first": "2026-11-18",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "editions": [
-    "26"
+    "26",
+    "27"
    ]
   },
   {
@@ -3488,9 +3491,10 @@
    "lab": "Earth · Singapore from orbit",
    "src": "NASA Earth Observatory, Tossing Fireworks from Cloud to Cloud, 17 Nov 2026 (Adam Voiland)",
    "first": "2026-11-18",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "editions": [
-    "26"
+    "26",
+    "27"
    ]
   },
   {
@@ -3572,9 +3576,10 @@
    "lab": "Gadgets · Hands-on",
    "src": "Google, The Keyword: Google intelligent eyewear collections now available for pre-order, 12 Nov 2026 · Tom’s Guide, Kate Kozuch, 12 Nov 2026 · Tom’s Guide, Jason England, 20 May 2026",
    "first": "2026-11-18",
-   "last": "2026-11-18",
+   "last": "2026-11-19",
    "editions": [
-    "26"
+    "26",
+    "27"
    ]
   },
   {
@@ -3623,6 +3628,138 @@
    "last": "2026-11-18",
    "editions": [
     "26"
+   ]
+  },
+  {
+   "id": "bao",
+   "cap": "Two stars in Andromeda merged, and telescopes watched the whole seven-year plunge",
+   "lane": "space",
+   "lab": "Space · Andromeda",
+   "src": "NASA Webb, NASA Data Clinches First-of-Its-Kind Stellar Merger, 18 Nov 2026 · Science News, Two stars in the Andromeda galaxy merged before astronomers’ eyes, 18 Nov 2026 (Meghan Bartels)",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "sierra",
+   "cap": "Two days apart, same satellite: California’s Sierra Nevada goes from bare rock to white",
+   "lane": "earth",
+   "lab": "Earth · Snow",
+   "src": "NASA Earth Observatory, Sierra Snow Season Spins Up, 18 Nov 2026 (Lindsey Doermann; images Michala Garrison) · NASA Science, NASA’s Terra Mission to End, 17 Nov 2026 (Kate Ramsayer)",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "cryo",
+   "cap": "200 seconds of fire at Mahendragiri: the engine for India’s next GSLV passed its test",
+   "lane": "space",
+   "lab": "India · Rocket engine",
+   "src": "ISRO, ISRO conducts flight acceptance test of Cryogenic engine for next GSLV mission, 10 Nov 2026",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "loc",
+   "cap": "Nothing beats light. NIST just used that to prove where a person is, not only who they are",
+   "lane": "matter",
+   "lab": "Physics · Speed of light",
+   "src": "NIST, Quantum Physics Can Verify a Person’s Location, NIST Researchers Show, 18 Nov 2026 · NIST, Definitions of the SI Base Units · NIST, SI Redefinition: Meter",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "spectro",
+   "cap": "An old CD, a cardboard tube and a slit under 1 mm wide: build your own spectroscope",
+   "lane": "matter",
+   "lab": "Physics · Light",
+   "src": "Exploratorium Science Snacks, CD Spectroscope · The Feynman Lectures on Physics, Vol. I, Ch. 30, Diffraction",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "cg",
+   "cap": "Rest a ruler on two fingers and slide them together. They always meet under the same spot",
+   "lane": "try",
+   "lab": "Try it · 1 min",
+   "src": "Exploratorium Science Snacks, Center of Gravity · The Feynman Lectures on Physics, Vol. I, Ch. 19, Center of Mass; Moment of Inertia",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "robot",
+   "cap": "A phone whose camera pops out on a gimbal and turns to follow you, on a 2.6 g motor",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026, Honor Robot Phone (Nitish Pahwa) · Honor, launch release, 12 Aug 2026 · TechRadar, Axel Metz, 12 and 15 Aug 2026 · Tom’s Guide, John Velasco, 12 Aug 2026; Sanuj Bhatia, 22 Aug 2026",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "novrain",
+   "cap": "A normal Singapore November: 252.3 mm of rain over 19 wet days. The 1874 one had 521.5 mm",
+   "lane": "sg",
+   "lab": "Singapore · November",
+   "src": "Meteorological Service Singapore (weather.gov.sg), Fortnightly Weather Outlook for the second half of November 2026, 16 Nov 2026 · 4-day outlook, updated 18 Nov 2026",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "orca",
+   "cap": "One male killer whale, photographed seven times across 26 years in the deep Gulf waters",
+   "lane": "life",
+   "lab": "Life · Killer whales",
+   "src": "NOAA Fisheries, Uncovering the Lives of Killer Whales in the Southeast, 17 Nov 2026 · Science News Explores, Scientists Say: Abyssal Zone, 16 Nov 2026 (Katie Grace Carpenter)",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "escher",
+   "cap": "Every repeating flat pattern is one of just 17 types. Escher worked them out by hand",
+   "lane": "numbers",
+   "lab": "Numbers · Escher",
+   "src": "Quanta Magazine, How M.C. Escher’s Art Creates Bizarre Mathematical Worlds, 18 Nov 2026 (Shalma Wegsman)",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
+   ]
+  },
+  {
+   "id": "perch",
+   "cap": "A drone that lands like a bird: three fingers, springs, and it grips a branch by feel",
+   "lane": "numbers",
+   "lab": "Robotics · Delft",
+   "src": "Science News Explores, A new flying drone uses touch to perch like a bird, 18 Nov 2026 (Lily Burton) · npj Robotics, 22 Aug 2026",
+   "first": "2026-11-19",
+   "last": "2026-11-19",
+   "editions": [
+    "27"
    ]
   }
  ]
