@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-21",
  "tiles": [
   {
    "id": "after",
@@ -265,7 +265,7 @@
    "lab": "Using AI · Quote",
    "src": "Science News Explores · Cash et al. 2026 · Lira Luttges et al. 2026",
    "first": "2026-10-25",
-   "last": "2026-11-17",
+   "last": "2026-11-21",
    "editions": [
     "02b",
     "03",
@@ -276,7 +276,8 @@
     "16",
     "19",
     "22",
-    "25"
+    "25",
+    "28"
    ]
   },
   {
@@ -3478,10 +3479,11 @@
    "lab": "Space · Tonight",
    "src": "NASA media advisory M26-087, NASA to Cover 35th SpaceX Resupply Mission Space Station Departure, 17 Nov 2026 · NASA space station blog, 16 and 17 Nov 2026 (Mark A. Garcia)",
    "first": "2026-11-18",
-   "last": "2026-11-19",
+   "last": "2026-11-21",
    "editions": [
     "26",
-    "27"
+    "27",
+    "28"
    ]
   },
   {
@@ -3760,6 +3762,174 @@
    "last": "2026-11-19",
    "editions": [
     "27"
+   ]
+  },
+  {
+   "id": "silence",
+   "cap": "Voyager 1 is now a full light-day away. And since 14 November it has gone quiet",
+   "lane": "space",
+   "lab": "Space · Voyager 1",
+   "src": "NASA / JPL, NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth, 19 Nov 2026 · NASA Voyager blog, 18 Nov 2026",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "heartbeat",
+   "cap": "Perseverance’s radio missed 25 heartbeats, so the rover switched it off itself",
+   "lane": "space",
+   "lab": "Space · Mars",
+   "src": "NASA Science, Mars blog, NASA’s Perseverance, Odyssey Teams Investigate Technical Issues, 19 Nov 2026 (updated 20 Nov)",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "pulsar",
+   "cap": "A search that needed 600 years of computer time now takes 10 hours, via code-breaker maths",
+   "lane": "numbers",
+   "lab": "Numbers · Pulsar hunt",
+   "src": "NASA Science, Open Science, NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars, 19 Nov 2026 (Amanda Moon Adams)",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "xavier",
+   "cap": "220 km/h near the Cook Islands: the strongest November cyclone east of the date line yet",
+   "lane": "earth",
+   "lab": "Earth · Cyclone",
+   "src": "NASA Earth Observatory, The Stormy Southwest Pacific, 20 Nov 2026",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "atacama",
+   "cap": "One of the driest places on Earth turned purple, and Landsat saw it from orbit",
+   "lane": "earth",
+   "lab": "Earth · Desert bloom",
+   "src": "NASA Earth Observatory, El Niño Rains Paint the Atacama, 19 Nov 2026 (Kathryn Hansen)",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "pollen",
+   "cap": "One tube of mud from a tiger reserve holds 2,700 years of the Indian monsoon",
+   "lane": "earth",
+   "lab": "India · Monsoon history",
+   "src": "PIB / Department of Science and Technology, Pollen from wetland of Bandhavgarh Tiger Reserve, 20 Nov 2026 · Quaternary Research, doi 10.1017/qua.2026.10093",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "peel",
+   "cap": "Peel two strips of tape off a table and they push apart. Feynman says why that matters",
+   "lane": "matter",
+   "lab": "Physics · Electricity",
+   "src": "Exploratorium Science Snacks, Electroscope · The Feynman Lectures on Physics, Vol. II Ch. 1 and Vol. I Ch. 2 and 7",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "timepix",
+   "cap": "CERN is lending particle detectors to schools in ten countries. India is one of them",
+   "lane": "matter",
+   "lab": "Physics · Particles",
+   "src": "CERN, TIMEPIX@school programme announcement (Rita Pinho), 16 Nov 2026",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "kbpc",
+   "cap": "A full Windows PC hiding inside a 670 g keyboard. Plug in a screen and it is a desktop",
+   "lane": "gadgets",
+   "lab": "Gadgets · TIME 2026",
+   "src": "TIME Best Inventions 2026 (Martin Cizmar) · HP, EliteBoard G1a product page · Tom’s Guide, Tony Polanco (updated 7 May 2026) and Anthony Spadafora (12 Jan 2026)",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "wallpaper",
+   "cap": "A 77-inch TV about 1 cm thick, hung like a poster, fed by a wireless box 10 m away",
+   "lane": "gadgets",
+   "lab": "Gadgets · Wallpaper TV",
+   "src": "TIME Best Inventions 2026 (Justin Pot) · LG Singapore, OLED77W6PSA specifications · Tom’s Guide, Nick Pino, 5 Jan and 22 Apr 2026",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "spoon",
+   "cap": "A spoon with a motion sensor and a servo that moves against your hand’s tremor",
+   "lane": "sg",
+   "lab": "Singapore · NTU",
+   "src": "NTU School of Mechanical and Aerospace Engineering, NTU students develop smart spoon for safer, more independent meals, 17 Nov 2026",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "quake",
+   "cap": "After a 7.7 quake, NTU flew a mini drone through damaged schools to check their condition",
+   "lane": "sg",
+   "lab": "Singapore · NTU in Flores",
+   "src": "NTU School of Civil and Environmental Engineering, NTU CEE Researchers Conduct Field Deployment in Flores, Indonesia, 15 Nov 2026 · NTU CEE, IDEERS 2026, 18 Nov 2026",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "mirrorhand",
+   "cap": "Stand a mirror between your hands and your brain will believe the wrong one",
+   "lane": "try",
+   "lab": "Try it · 2 min",
+   "src": "Exploratorium Science Snacks, Mirrorly a Window",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
+   ]
+  },
+  {
+   "id": "speech",
+   "cap": "Every word you say starts in a patch of brain above your left ear, a quarter second early",
+   "lane": "mind",
+   "lab": "Mind · Speech",
+   "src": "Science News, Laura Sanders, 19 Nov 2026 · A. Silva et al., Science, 19 Nov 2026, doi 10.1126/science.aef8963",
+   "first": "2026-11-21",
+   "last": "2026-11-21",
+   "editions": [
+    "28"
    ]
   }
  ]
